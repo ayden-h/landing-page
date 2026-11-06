@@ -1,0 +1,60 @@
+{
+  "Combinatorics_Theory": {
+    "pages": 37,
+    "bytes": 291561,
+    "physical_border_overflow_count": 0,
+    "replacement_character_pages": [],
+    "visual_sample_pages": [
+      1,
+      4,
+      5,
+      19,
+      36,
+      37
+    ],
+    "author": "Ayden Bi",
+    "author_edit_verified": "Cover and PDF metadata updated; page text after the cover is unchanged."
+  },
+  "Worked_Solutions": {
+    "pages": 33,
+    "bytes": 168791,
+    "physical_border_overflow_count": 0,
+    "replacement_character_pages": [],
+    "visual_sample_pages": [
+      1,
+      4,
+      5,
+      17,
+      32,
+      33
+    ]
+  },
+  "Problems_and_Archive_Guide": {
+    "pages": 60,
+    "bytes": 142174,
+    "physical_border_overflow_count": 0,
+    "replacement_character_pages": [],
+    "visual_sample_pages": [
+      1,
+      4,
+      5,
+      31,
+      59,
+      60
+    ]
+  },
+  "Collected_Problems": {
+    "pages": 170,
+    "bytes": 724755,
+    "physical_border_overflow_count": 0,
+    "replacement_character_pages": [],
+    "visual_sample_pages": [
+      1,
+      4,
+      5,
+      86,
+      169,
+      170
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "retrieved_candidate_records": 1116,
+  "normalized_exact_statement_groups": 1104,
+  "duplicate_groups": 12,
+  "scope_counts": {
+    "contest": 464,
+    "shortlist": 233,
+    "selection": 205,
+    "quarantine": 84,
+    "pipeline_supplement": 130
+  },
+  "source_problem_files": 770,
+  "source_solution_files": 632,
+  "source_solution_texts": 786,
+  "records_with_supplied_solutions_before_rights_figure_scope_filters": 1019,
+  "reviewed_cases": 26,
+  "additional_official_2026_case": 1,
+  "all_history_complete": false,
+  "all_solutions_independently_checked": false
+}

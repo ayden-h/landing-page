@@ -1,0 +1,150 @@
+# Known source defects and classification repairs
+
+These are detected examples, not an exhaustive audit.
+
+- **apm_1989_ab9780:** Source solution has a reversed inequality in the common-neighbor/degree count. Use W03.
+- **chn_2006_c22bc5:** Source inequality direction in the averaging argument requires correction. Use W13.
+- **kor_2010_1dc4be:** Source weight formula has an exponent/reciprocal transcription defect. Use W22.
+- **mkd_2018_3ac94a:** The exposition of turn parity needs care; unequal even minimum valuations can draw. Use W23.
+- **rou_2016_9aa109:** The four-tile pinwheel occupies a (k+1)-by-(k+1) region, not k-by-k. Use W24.
+
+## Metadata repairs and quarantines
+
+- `bmo_2015_5a0b4c`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_9ee8d6`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_e3a469`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_386ab9`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_3e2f81`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_3f4864`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `bmo_2017_5eecca`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_79742c`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `bmo_2017_7d83b0`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `bmo_2021_085336`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2021_0a2e16`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2021_2fdefd`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `bmo_2021_958307`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `bmo_2021_ac9fb9`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `bmo_2021_c13570`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2021_c837cf`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_17dc50`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_22c656`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_37ccab`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_3c60be`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `bmo_2024_4b7efa`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `bmo_2025_75a6a6`: BMO → BMO-SL; shortlist. Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `esp_2013_1db4a4`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `esp_2013_aee935`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `esp_2014_4d971e`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `esp_2014_543539`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2008_06a8f7`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2008_384044`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2008_5311eb`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2008_740617`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2008_ac4e9a`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2008_bdc772`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2008_edd8bc`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2017_2878d3`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2017_38c1ed`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2017_403e3f`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2017_7f8a8b`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2017_a6d9fd`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2017_abff99`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2017_de14b7`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2017_f79d3e`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2022_1937c6`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2022_264ed6`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2022_34151b`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2022_4008eb`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2022_57242c`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2022_70d092`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2022_783196`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2022_b034b8`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2022_d417bb`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `imo_2022_e5b1cb`: IMO → IMO-SL; shortlist. Corrected IMO to shortlist using original problem code/booklet title.
+- `ind_2022_30b7b3`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope.
+- `ind_2022_861393`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `ind_2022_ab55c3`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `ind_2023_88afaf`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope.
+- `ind_2023_960c35`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `ind_2023_9628c9`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope.
+- `ind_2023_edfa2e`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope.
+- `ind_2024_24a502`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope.
+- `ind_2024_bf04ec`: EGMO-TST → EGMO-TST; quarantine. EGMO selection is outside the requested IMO-selection scope. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `mkd_2008_27a12f`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2008_2a4984`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `mkd_2010_d65b38`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2012_041e11`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2014_5b64b3`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `mkd_2015_4cea55`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2016_211258`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `mkd_2017_e39b7f`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `mkd_2018_93194d`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2023_1d90f4`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Full source text withheld because the dataset defers to an explicit rights assertion.
+- `mkd_2023_b3e2ef`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification. Full source text withheld because the dataset defers to an explicit rights assertion.
+- `mng_2007_76dd0e`: IMO → UNRESOLVED; quarantine. Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `mng_2012_0dd53f`: IMO → UNRESOLVED; quarantine. Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `mng_2012_2873ae`: IMO → UNRESOLVED; quarantine. Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `mng_2012_359496`: IMO → UNRESOLVED; quarantine. Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `mng_2012_c3d4b9`: IMO → UNRESOLVED; quarantine. Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `mng_2012_d64f50`: IMO → UNRESOLVED; quarantine. Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `sau_2022_065f88`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_089603`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_0cdea1`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_116bdf`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_123706`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_1f2124`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_263bb6`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_306561`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_31e32d`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_3ad2d4`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_3fd890`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_508fcd`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_78c1e9`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_7fac2d`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_8762d6`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_8c7ca0`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_9772c3`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_9ee59a`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_a70771`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_b72bfb`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_b818b9`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_bd7b05`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_c1d7c2`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_c257df`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_c54abc`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_c5a758`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_d922ec`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_e22d5f`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_e6619f`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2022_ee3336`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_f9e7bb`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_0973d8`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_0de8fd`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_1a95ab`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_23a263`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_2b5cc3`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_350e3e`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_407393`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification. Statement has external figure dependencies; source pointer retained rather than an incomplete transcription.
+- `sau_2023_5699ff`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_56ffb5`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_714626`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_7df256`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_7f3b0d`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_81350a`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_87adf1`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_933122`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_abdc66`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_b0bf31`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_ca3253`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_d38057`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_d830b5`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_e3605b`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_f3650b`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `sau_2023_f5bb58`: IMO → OUT-OF-SCOPE; quarantine. Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `usa_2003_73c7f7`: IMO → IMO-TST; selection. Reclassified from booklet-level IMO label using explicit section. Full source text withheld because the dataset defers to an explicit rights assertion.
+- `usa_2003_9ab1c6`: IMO → USAMO; contest. Reclassified from booklet-level IMO label using explicit section. Full source text withheld because the dataset defers to an explicit rights assertion.
+- `usa_2003_cc254a`: IMO → USAMO; contest. Reclassified from booklet-level IMO label using explicit section. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification. Full source text withheld because the dataset defers to an explicit rights assertion.
+- `usa_2003_fb5f08`: IMO → USAMO; contest. Reclassified from booklet-level IMO label using explicit section. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification. Full source text withheld because the dataset defers to an explicit rights assertion.
+- `vnm_2018_027413`: IMO → IMO-TST; selection. Reclassified from booklet-level IMO label using explicit section.
+- `vnm_2018_da4108`: IMO → VMO; contest. Reclassified from booklet-level IMO label using explicit section. Mixed-domain candidate; inclusion follows a combinatorics tag, not exclusive classification.
+- `vnm_2018_e63671`: IMO → IMO-TST; selection. Reclassified from booklet-level IMO label using explicit section.

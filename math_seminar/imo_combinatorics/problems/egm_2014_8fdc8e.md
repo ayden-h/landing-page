@@ -1,0 +1,15 @@
+# egm_2014_8fdc8e
+
+EGMO | European Girls' Mathematical Olympiad (EGMO) | 2014 | Day 2 | 5.
+
+**Scope:** contest. **Review:** source text not independently verified.
+
+**Source:** [egm_2014_8fdc8e](https://mathnet.mit.edu/data_v2/full/european-girls-mathematical-olympiad-egmo/egm_2014_8fdc8e.json.gz)
+
+**Rights:** MathNet CC BY 4.0 fallback; no explicit assertion in recovered metadata.
+
+- Source: European Girls' Mathematical Olympiad (EGMO)
+
+## Problem
+
+Let $n$ be a positive integer. We have $n$ boxes where each box contains a nonnegative number of pebbles. In each move we are allowed to take two pebbles from a box we choose, throw away one of the pebbles and put the other pebble in another box we choose. An initial configuration of pebbles is called solvable if it is possible to reach a configuration with no empty box, in a finite (possibly zero) number of moves. Determine all initial configurations of pebbles which are not solvable, but become solvable when an additional pebble is added to a box, no matter which box is chosen.
