@@ -1,0 +1,545 @@
+{
+  "2014-I-02": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The single source conditions on the two possible common colors; the resulting linear equation is correct."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2014-II-02": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The Venn-cell computation is correct. Treating the population as 100 is a probability-weight normalization, not a claim about an actual sample size."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2014-I-05": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The source asserts the contiguous-arc classification from a picture. A rigorous proof subtracts the two circle equations on the fixed circumcircle, obtaining a linear half-plane inequality; the realization of each proper consecutive arc should also be stated."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2014-II-06": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "comments": [
+      "Both posterior-odds weighting and joint-probability division give 65/102. The die is chosen once, so the three rolls are not independent after the die is marginalized out."
+    ],
+    "source_entry_count": 2,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2014-II-09": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "The complete subset-size count and circular tribonacci complement agree at 581. Index 1 begins with a formula inferred from small n; it is not a general subset count until its extra-run corrections are supplied."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2014-I-11": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "comments": [
+      "Reviewed all five coordinate-transform, direct multinomial, recurrence and generating-function approaches. The transformed sign coordinates are independent because their four joint outcomes are uniform; this is the key justification for multiplying return probabilities. Some prose calls the union of two diagonals just y=x, but its four-quadrant count uses the intended union."
+    ],
+    "source_entry_count": 5,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2014-I-12": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "All three range-size enumerations agree. Index 2 is shortest after the surjection counts: once f has k image values, every map g into the remaining 4−k values works."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2014-II-13": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "comments": [
+      "Index 0 correctly classifies allowable permutation cycles as a 10-cycle or two 5-cycles, giving 3/25. Index 1 is only an external link; the archived entry was inspected, but no linked exposition is present in the archive and the external page has not been reviewed."
+    ],
+    "source_entry_count": 2,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-I-02": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "comments": [
+      "All four alternatives give 55/84 correctly: marked-pair incidence with triple correction, direct nationality cases, complement, and sequential selection are consistent."
+    ],
+    "source_entry_count": 4,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-II-02": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "comments": [
+      "Both alternatives correctly normalize total Latin enrollment to 0.76 and the sophomore joint weight to 0.24, obtaining 6/19."
+    ],
+    "source_entry_count": 2,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-I-05": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "Indices 0 and 1 correctly obtain 26/315 by conditioning backward from the matched Wednesday pair. Index 2 has an erroneous displayed case-3 factor: after a nonmatching Monday, choosing Tuesday socks from two intact pairs has probability (C(6,2)-3)/C(8,2)=12/28, not (12/15)(6/28). Its stated answer does not follow from its displayed sum."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-II-05": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "comments": [
+      "Indices 0–2 correctly count adjacent grid pairs and give probability 4/[n(n+1)]; checking n=89 and n=90 establishes the least value 90. Index 3 relies on an approximation and an unshown corner check, so it does not by itself establish minimality."
+    ],
+    "source_entry_count": 4,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-I-09": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "comments": [
+      "Both alternatives reach 494, but their exclusion of further eventual-zero cases needs a genuine invariant rather than early growth or an asserted special-case list. If both initial differences D,E are at least 2, then a 4=zD and a 5=zDE; except z=1,D=2, a 4-a 3 and a 5-a 4 are at least 2, and from a 4,a 5,a 6 onward increasing triples with gaps at least 2 persist. This supplies the missing exhaustiveness argument."
+    ],
+    "source_entry_count": 2,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-II-10": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The three insertion positions for the new largest symbol give 2·3^5=486. To make the recurrence bijective, explicitly observe that deleting the largest symbol creates a new drop of at most 1, since its successor is one of the next two largest symbols."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-I-12": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "comments": [
+      "Indices 0 and 1 prove the mean 2016/1001 by hockey-stick summation and a marked-subset bijection respectively. Index 2 merely extrapolates the mean formula from examples; that pattern is not a proof. Further archived alternative continues in the next review group.",
+      "Index 3 gives the right mean by an informal evenly spaced average-case claim. Exchangeability of all 1001 discrete gaps would make this rigorous; the archived prose does not establish that symmetry."
+    ],
+    "source_entry_count": 4,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-II-12": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "comments": [
+      "All seven alternatives correctly give 548 through last-run recurrences, three-state recurrences, compositions, or generating functions. In index 5 the recurrence S_n=2S_(n-1)-S_(n-4) needs n>=5 with the stated positive-length bases; its assertion n>=4 silently requires a special S_0=2 convention, not the usual one empty word."
+    ],
+    "source_entry_count": 7,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2015-I-14": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "All three end at 483, but index 0 reverses the parity assertions for odd floor(sqrt(n)): the actual condition is n odd when k=1 mod 4 and n even when k=3 mod 4. For example A(2)=3/2 and A(3)=4 contradict its prose. The total is accidentally preserved by balanced endpoint shifts. A reliable identity is 2A(n)=k*n^2-sum(j^4,j=1..k); the incomplete final block and exclusion of n=1 must be handled separately. Indices 1 and 2 use shifted interval endpoints and alternating counts; these should be stated consistently rather than equated to floor(sqrt(n)) at the endpoint."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-I-02": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "All three alternatives correctly normalize face weights by 21 and sum the six ordered complementary products, obtaining 8/63."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-II-02": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The conditional-probability equation and complement correctly give 37/70; independence is not assumed."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-I-03": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "Indices 0 and 1 correctly use 9 simple paths within each pentagon, with 5 initial and 2 interlayer choices, giving 810. Index 2 merely points to a different problem and announces the answer, so it supplies no archived proof."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-II-04": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "comments": [
+      "Both alternatives establish the necessary volume bound 180, but do not construct a coloring that attains it. At (a,b,c)=(5,3,12), coloring each of the 15 c-fibers with 3 red, 4 green, and 5 yellow cubes supplies the missing construction. Index 1 reverses a and b in its final displayed triple; the preceding equations require a=5,b=3."
+    ],
+    "source_entry_count": 2,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-II-06": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "comments": [
+      "Index 0 correctly proves coefficient sign coherence by parity, so the absolute coefficient sum is Q(-1)=(3/2)^5. Further alternatives continue next group.",
+      "Index 1 states the right transformed positive polynomial and warns correctly that absolute-value replacement is not generally valid, but should explicitly prove parity sign coherence here. Index 2 calls this only probable after two factors, so it is not a full proof. Index 3 is an image link rather than archived mathematical working; the linked image has not been inspected."
+    ],
+    "source_entry_count": 4,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-I-08": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The minimum 810 and 648 minimizing permutations are correct. For a complete lower bound, write s=450+90H-9U with H>=6 and U<=20 (U is 10 or 20); this proves that raising H cannot improve the minimum instead of merely asserting that 1,2,3 must be hundreds digits."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-II-08": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "comments": [
+      "Both the prime-exponent distribution count and the longer Stirling-number correction correctly give 728. Repeated values can only be 1 or 3, since the common repeated value has square dividing the product; remove those two exceptional multisets before dividing by permutation multiplicity."
+    ],
+    "source_entry_count": 2,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-II-11": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "comments": [
+      "The k-nice iff N=1 mod k characterization is correct, including N=1 realized by a=1. Index 0 miscounts both the 1 mod 7 progression and the intersection by one: for 1<=N<1000 the counts are 143 and 18, not 142 and 17. These errors cancel in the reported 749. Index 1 periodic-block count is correct, provided sufficiency of the divisor-count characterization is supplied."
+    ],
+    "source_entry_count": 2,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-II-12": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "comments": [
+      "All 12 alternatives produce 732 by state recurrences, PIE, roots-of-unity filtering, color cases, or the cycle chromatic polynomial. Index 1 repeatedly writes unions where intersections are meant in the PIE terms. Index 5 has a valid second-order recurrence for n>=4 with bases C2=12,C3=24, but its separately stated C1=4 cannot be used at n=3 (it would give 36). Index 9 quotes the chromatic formula without proof. Other derivations are consistent, and regions are fixed on the wall rather than identified under rotations."
+    ],
+    "source_entry_count": 12,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-I-13": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The first-step equations and difference recursion E(n)-E(n+1)=4 n+3 correctly give 273. A finiteness justification can be added: from any height, 24 successive upward choices have uniformly positive probability, yielding a geometric tail bound for absorption."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-II-13": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "comments": [
+      "All four report the correct distribution (120,216,222,130,31,1) and mean 291/80. Index 0 has erroneous score-5 prose: it lists an impossible pair f(1)=1 and f(1)=4, and says 42 bad cases yet 54 good out of 120 (the needed bad count is 66). Index 1 calls its score n+1 formula a score-n formula in one sentence. Index 2 reverses the finite-difference identity: b_k=a_k-a_(k+1), not a_k-a_(k-1). Index 3 supplies the clean tail-sum identity and correct table, with the triangular-board count referenced to index 2."
+    ],
+    "source_entry_count": 4,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2016-I-14": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "comments": [
+      "Indices 0,2,3 correctly count m=430,n=144 and total 574; index 0 accidentally reverses the lattice-point coordinates in one sentence. Index 1 is a diagram-only hint with no archived prose proof. Index 3 derives the right strip condition |7 y-3 x|<=1, although its slope fractions require care at x=0; direct maximization of the linear functional on each square avoids this issue. Circle intersections require |7 y-3 x|<=sqrt(58)/10<1, so only centers on the line qualify."
+    ],
+    "source_entry_count": 4,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-I-01": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The complement count C(15,3)-C(5,3)-C(6,3)-C(7,3)=390 is correct. Any line other than a side meets the boundary of the nondegenerate triangle in at most two points, so no additional collinear triples occur."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-II-01": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "comments": [
+      "All four alternatives correctly give 196 by PIE, selecting nonempty subsets from the two exclusive triples, or size-by-size counting. Index 1 initially says to select from both original sets, which is a necessary but insufficient condition; its subsequent use of the exclusive triples correctly enforces the requirement."
+    ],
+    "source_entry_count": 4,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-II-02": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "comments": [
+      "The two disjoint final-opponent paths are weighted correctly and sum to 256/525, giving 781."
+    ],
+    "source_entry_count": 1,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-II-03": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "comments": [
+      "Indices 0–2 correctly identify the B Voronoi quadrilateral and obtain area 109/5 over total 60, hence 109/300. The circumradius decomposition in index 1 agrees with the coordinate calculation; the acute triangle keeps the perpendicular foot pieces inside the intended decomposition. One further alternative follows next group.",
+      "Indices 3 and 5 correctly apply shoelace or cyclic-quadrilateral area after importing the previously found vertices. Index 4 falsely calls the original triangle isosceles; the perpendicular from a circle center bisects any chord regardless, so the correct construction survives, but its area arithmetic is omitted."
+    ],
+    "source_entry_count": 6,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-II-04": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "All three alternatives correctly count 126 shorter words plus 64 beginning 1 plus 32 beginning 21, giving 222. Index 2 has a garbled displayed inequality involving 3^7 and 3^5; the maximum seven-digit zero-free word beginning 21 has value 2*3^6+2*3^5-1=1943<2017. The lexicographic proof in index 0 is clean."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-I-06": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "All three alternatives correctly use the three vertex-separated arcs and obtain the two admissible base angles 36 and 84. Index 2 says intersect the circle where it means intersect the triangle; its probability equations are otherwise correct."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-I-07": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "comments": [
+      "All eight alternatives correctly obtain C(18,6)=18564, by Vandermonde, coefficient extraction, a committee bijection, or explicit finite summation. In the colored-ball wording, the 18 individual balls must remain distinguishable, as indicated by their positions."
+    ],
+    "source_entry_count": 8,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-I-08": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "comments": [
+      "All six state the correct 16/25. Indices 0–2 reduce rigorously to |a-b|<=30 degrees (indices 1 and 3 mislabel some Q,R segments as P,Q). Index 4 contains a false chord formula: the correct expression is 100*sqrt(2-2*cos(2|a-b|)), not 100*sqrt(2)*sqrt(cos(2|a-b|)); its next inequality does not follow from its written expression. Index 5 refers to an undefined auxiliary point A in the archived prose, so its similarity setup is incomplete there; its subsequent interval-probability computation is correct."
+    ],
+    "source_entry_count": 6,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-II-09": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "comments": [
+      "Indices 0–2 correctly yield 4/9. The labeled duplicate-number positions in indices 0–1 have constant multiplicity 2, making their 27 pattern weights uniform. Index 2 counts favorable 8-sets as 7!*42; this requires uniqueness of the removable card (it is the unique repeated-number/repeated-color intersection), which is true but should be said. Further alternatives follow next group.",
+      "Indices 3–6 correctly give 4/9 using the unique doubled row/column and its intersection. Index 5 explicitly proves the removable-card uniqueness needed by the simpler 7!*42 count. Index 6 loses some binomial and fraction formatting in extraction but its stated combinatorial factors agree with the other proofs."
+    ],
+    "source_entry_count": 7,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-I-11": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "comments": [
+      "All seven alternatives give 207360 arrangements. The key fact is valid: after placing 5 between one lower and one higher entry, the six remaining entries split 3 lower/3 higher, forcing the two other row medians to lie on opposite sides of 5. Index 3 incorrectly says two remaining entries on each side rather than three. Index 0 alternative proof awkwardly calls 5 the median of the two remaining rows; it should say their medians straddle 5. Index 4 leaves its 16/144 count as an exercise, so that alternative is incomplete as archived."
+    ],
+    "source_entry_count": 7,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-II-11": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "comments": [
+      "Indices 0 and 4 give a correct cycle-based proof of the special five-vertex source/sink criterion, although index 4 consistently misprints degree 5 where degree 4 is required. Index 1 invokes Redei and leaves a questionable named-vertex case assertion unproved; index 3 assumes the criterion. Index 2 is not a valid complementary count: directed two-town cuts overlap one-town cuts, and reversing a cut is not the same configuration. Its final 544 agrees only despite unjustified case counting. The source/sink criterion must not be generalized to six vertices (two directed 3-cycles with all cross edges one way are a counterexample). Remaining entries follow next group.",
+      "Index 5 eventually gives the valid three-cycle attachment argument and the correct PIE count 544, but the preliminary attempt to force a triangle contains contradictory edge directions and unsupported WLOG steps. Use the clean directed-cycle proof in index 0 or strongly connected component sizes instead."
+    ],
+    "source_entry_count": 6,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-I-12": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "comments": [
+      "All five alternatives correctly give 252. The minimal forbidden subsets are {2,4},{3,9},{2,3,6},{2,5,10}; the product 2*4=8 imposes nothing further because 2 and 4 are already forbidden together. Index 3 omits an explicit initial exclusion of 1, which is necessary for its 8-case count."
+    ],
+    "source_entry_count": 5,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-II-13": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "comments": [
+      "All three give the correct values 36,52,157 and sum 245 using apex counts corrected for equilateral triangles. Index 1 swaps the two subcase labels/results for n=6 k+1 and n=6 k+4: the former gives k=26,n=157 and the latter k=8,n=52. Index 2 has a missing-parenthesis display and the erroneous algebraic equation 5 s=772; the correctly parenthesized even s=2 mod 3 case gives 5 s=472, still no integer solution. The underlying general count f(n)=n*floor((n-1)/2)-(2 n/3)*1_(3|n) is correct."
+    ],
+    "source_entry_count": 3,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  },
+  "2017-II-14": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "comments": [
+      "Indices 0,2,3 correctly give 168; their key missing explicit prerequisite is to use a primitive integer direction, whose coordinates must lie in{-1,0,1} for 8 grid points. Index 2 has the shortest endpoint-extension PIE formula. Index 1 announces the 24 duplicate plane counts without a systematic classification; only certain body-diagonal lines lie in two selected planes, so a diagram-dependent assertion that all diagonal lines are doubled should not be used as a proof."
+    ],
+    "source_entry_count": 4,
+    "review_scope": "All mathematical prose and formulas in the listed archived entries read; diagram-program source omitted. This is a critical comparison, not blanket certification."
+  }
+}

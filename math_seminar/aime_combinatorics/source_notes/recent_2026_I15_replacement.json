@@ -1,0 +1,16 @@
+{
+  "id": "2026-I-15",
+  "solution": "For an $H\\times W$ board with $H\\ge W$, take the two cell diagonals $D=\\{(i,i):1\\le i\\le W\\}$ and $E=\\{(H+1-i,i):1\\le i\\le W\\}$. A rectangular boundary meets either in at most two cells. Thus a partition into $W/2$ loops forces every loop to meet each diagonal twice. Let the upper-left corner loop have dimensions $r\\times c$. Its interior is a union of whole loops, so its two diagonal counts are equal: $\\min(r,c)-2=r+c-H-2$. (The second count is nonnegative because the corner loop meets $E$ twice.) Hence $\\max(r,c)=H$. A tall-board corner loop therefore spans its full height; a square-board corner loop spans at least one side. Its other dimension is even.\n\nLet $T(a,b)$ count partitions of a $2a\\times2b$ board into $b$ loops, where $a>b$. A corner loop of width $2k$ leaves independent rectangles $2(a-1)\\times2(k-1)$ and $2a\\times2(b-k)$, both using their minimum loop counts. Therefore $T(a,b)=\\sum_{k=1}^b T(a-1,k-1)T(a,b-k)$, with empty-width count $1$. Induction using the Catalan recurrence gives $T(a,b)=C_b$.\n\nFor the square count $S_n$, a full outer-square loop contributes $S_{n-1}$. A proper full-height corner loop contributes $\\sum_{k=1}^{n-1}C_{k-1}C_{n-k}$; full-width loops contribute the same. Thus $S_n=S_{n-1}+2(C_n-C_{n-1})$, and $S_0=1$ gives $S_n=2C_n-1$. Finally $S_5=2\\binom{10}5/6-1=83$.",
+  "tags": [
+    "Catalan numbers",
+    "diagonal invariants",
+    "structural decomposition"
+  ],
+  "verification": "Independent exact-cover enumeration, without using the corner-loop lemma, gives 1,3,9,27,83 for square side lengths 2,4,6,8,10. The 10-by-10 count visits 3053 occupied-cell states.",
+  "source_review": "All three archived solutions were read; their structural arguments have gaps or false claims. The independent two-diagonal corner-loop lemma proves the Catalan formula rigorously. See the detailed Catalan-loop addendum.",
+  "source_reviewed_indices": [
+    0,
+    1,
+    2
+  ]
+}

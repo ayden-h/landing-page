@@ -1,0 +1,2121 @@
+[
+  {
+    "id": "1983-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-07",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Adjacent knights.",
+    "tags": [
+      "inclusion-exclusion",
+      "circular adjacency"
+    ]
+  },
+  {
+    "id": "1983-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: One repeated decimal digit.",
+    "tags": [
+      "digits",
+      "multiplicity"
+    ]
+  },
+  {
+    "id": "1983-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-13",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Sum of alternating subset sums.",
+    "tags": [
+      "involution",
+      "weighted subsets"
+    ]
+  },
+  {
+    "id": "1983-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1983-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: A score that determines the number correct.",
+    "tags": [
+      "integer feasibility",
+      "extremal"
+    ]
+  },
+  {
+    "id": "1984-A-11",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Separated birches.",
+    "tags": [
+      "gaps",
+      "probability"
+    ]
+  },
+  {
+    "id": "1984-A-12",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Root orbits under two reflections.",
+    "tags": [
+      "group orbit",
+      "hybrid algebra"
+    ]
+  },
+  {
+    "id": "1984-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1984-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-08",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Balanced integer rounding.",
+    "tags": [
+      "exchange argument",
+      "discrete optimization"
+    ]
+  },
+  {
+    "id": "1985-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Values of a floor sum.",
+    "tags": [
+      "floor partition",
+      "periodic counting"
+    ]
+  },
+  {
+    "id": "1985-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-12",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Random walk on a tetrahedron.",
+    "tags": [
+      "Markov state",
+      "recurrence"
+    ]
+  },
+  {
+    "id": "1985-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1985-A-14",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Tournament score balance.",
+    "tags": [
+      "double counting",
+      "tournament"
+    ]
+  },
+  {
+    "id": "1985-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-07",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Ranking subsets by ternary value.",
+    "tags": [
+      "order-preserving bijection",
+      "subsets"
+    ]
+  },
+  {
+    "id": "1986-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Recovering a permuted numeral.",
+    "tags": [
+      "digit incidence",
+      "hybrid algebra"
+    ]
+  },
+  {
+    "id": "1986-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-12",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: A maximum set with distinct subset sums.",
+    "tags": [
+      "pigeonhole",
+      "extremal subsets"
+    ]
+  },
+  {
+    "id": "1986-A-13",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Prescribed adjacent transitions.",
+    "tags": [
+      "runs",
+      "compositions"
+    ]
+  },
+  {
+    "id": "1986-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1986-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-01",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Addition without carrying.",
+    "tags": [
+      "digit product rule"
+    ]
+  },
+  {
+    "id": "1987-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-07",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: LCM triples.",
+    "tags": [
+      "prime exponent product",
+      "hybrid number theory"
+    ]
+  },
+  {
+    "id": "1987-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-10",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-13",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: One bubble pass.",
+    "tags": [
+      "relative rank",
+      "algorithm invariant"
+    ]
+  },
+  {
+    "id": "1987-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1987-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-01",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: More lock combinations.",
+    "tags": [
+      "subsets",
+      "complement"
+    ]
+  },
+  {
+    "id": "1988-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-05",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Divisor probability.",
+    "tags": [
+      "exponent lattice",
+      "probability"
+    ]
+  },
+  {
+    "id": "1988-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Interior diagonals of a polyhedron.",
+    "tags": [
+      "incidence",
+      "combinatorial geometry"
+    ]
+  },
+  {
+    "id": "1988-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1988-A-15",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Stack output after lunch.",
+    "tags": [
+      "stack",
+      "weighted subsets"
+    ]
+  },
+  {
+    "id": "1989-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-02",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Polygons from circle points.",
+    "tags": [
+      "bijection",
+      "subsets"
+    ]
+  },
+  {
+    "id": "1989-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-05",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Recovering a biased coin.",
+    "tags": [
+      "binomial probability"
+    ]
+  },
+  {
+    "id": "1989-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-10",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-11",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Largest mode-minus-mean.",
+    "tags": [
+      "capacity bound",
+      "extremal multiset"
+    ]
+  },
+  {
+    "id": "1989-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-13",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Avoiding differences four and seven.",
+    "tags": [
+      "independent set",
+      "periodic construction"
+    ]
+  },
+  {
+    "id": "1989-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1989-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-01",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Ranking nonsquares and noncubes.",
+    "tags": [
+      "inclusion-exclusion",
+      "rank inversion"
+    ]
+  },
+  {
+    "id": "1990-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-06",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Tagged fish population estimate.",
+    "tags": [
+      "sampling model",
+      "probability"
+    ]
+  },
+  {
+    "id": "1990-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-08",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Interleaving three target stacks.",
+    "tags": [
+      "interleavings",
+      "multinomial"
+    ]
+  },
+  {
+    "id": "1990-A-09",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: No consecutive heads.",
+    "tags": [
+      "finite state",
+      "Fibonacci"
+    ]
+  },
+  {
+    "id": "1990-A-10",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-12",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Sum of dodecagon chords.",
+    "tags": [
+      "orbit size",
+      "chord counting"
+    ]
+  },
+  {
+    "id": "1990-A-13",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Leading nines in powers.",
+    "tags": [
+      "telescoping",
+      "leading digits"
+    ]
+  },
+  {
+    "id": "1990-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1990-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-05",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Coprime factor allocations.",
+    "tags": [
+      "prime allocation",
+      "involution"
+    ]
+  },
+  {
+    "id": "1991-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Lexicographic transmission errors.",
+    "tags": [
+      "first difference",
+      "probability"
+    ]
+  },
+  {
+    "id": "1991-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-13",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Sock counts from a probability.",
+    "tags": [
+      "sampling without replacement",
+      "Diophantine probability"
+    ]
+  },
+  {
+    "id": "1991-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1991-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-02",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Strictly increasing digits.",
+    "tags": [
+      "subset bijection",
+      "digits"
+    ]
+  },
+  {
+    "id": "1992-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-05",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Numerators of repeating decimals.",
+    "tags": [
+      "distinct image",
+      "inclusion-exclusion"
+    ]
+  },
+  {
+    "id": "1992-A-06",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Consecutive integers without carries.",
+    "tags": [
+      "carry states",
+      "digits"
+    ]
+  },
+  {
+    "id": "1992-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-10",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-12",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Chomp positions.",
+    "tags": [
+      "order ideal",
+      "lattice path"
+    ]
+  },
+  {
+    "id": "1992-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1992-A-15",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Missing factorial trailing-zero counts.",
+    "tags": [
+      "monotone image",
+      "valuation counting"
+    ]
+  },
+  {
+    "id": "1993-A-01",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Even numbers with distinct digits.",
+    "tags": [
+      "digits",
+      "casework"
+    ]
+  },
+  {
+    "id": "1993-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1993-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1993-A-04",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Equal outer and inner sums.",
+    "tags": [
+      "gap parametrization",
+      "hybrid number theory"
+    ]
+  },
+  {
+    "id": "1993-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1993-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1993-A-07",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Fitting one random brick into another.",
+    "tags": [
+      "ballot path",
+      "relative order"
+    ]
+  },
+  {
+    "id": "1993-A-08",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Unordered covering subset pairs.",
+    "tags": [
+      "Burnside",
+      "nonuniform fibers"
+    ]
+  },
+  {
+    "id": "1993-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1993-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Uniform vertex face incidences.",
+    "tags": [
+      "Euler formula",
+      "double counting"
+    ]
+  },
+  {
+    "id": "1993-A-11",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Loser starts the next game.",
+    "tags": [
+      "Markov recurrence",
+      "conditioning"
+    ]
+  },
+  {
+    "id": "1993-A-12",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Undoing random midpoint choices.",
+    "tags": [
+      "binary coding",
+      "affine state"
+    ]
+  },
+  {
+    "id": "1993-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1993-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1993-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-05",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: A weighted sum over digit strings.",
+    "tags": [
+      "weighted product rule",
+      "digits"
+    ]
+  },
+  {
+    "id": "1994-A-06",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Small triangles in three line families.",
+    "tags": [
+      "lattice counting",
+      "combinatorial geometry"
+    ]
+  },
+  {
+    "id": "1994-A-07",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Lines with only integral circle intersections.",
+    "tags": [
+      "geometric pairs",
+      "exceptional fibers"
+    ]
+  },
+  {
+    "id": "1994-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-09",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Matched tiles without three open pairs.",
+    "tags": [
+      "renewal",
+      "state compression"
+    ]
+  },
+  {
+    "id": "1994-A-10",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-11",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Distinct heights of a brick tower.",
+    "tags": [
+      "sumset",
+      "bounded occupancy"
+    ]
+  },
+  {
+    "id": "1994-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1994-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-03",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: First hitting a lattice point.",
+    "tags": [
+      "first passage",
+      "multinomial"
+    ]
+  },
+  {
+    "id": "1995-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-06",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Divisors below a square root.",
+    "tags": [
+      "divisor involution",
+      "complement"
+    ]
+  },
+  {
+    "id": "1995-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-08",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Two simultaneous integer ratios.",
+    "tags": [
+      "parametric counting",
+      "divisibility"
+    ]
+  },
+  {
+    "id": "1995-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-10",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-11",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: A self-similar cut prism.",
+    "tags": [
+      "factor pairing",
+      "hybrid geometry"
+    ]
+  },
+  {
+    "id": "1995-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1995-A-15",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Five heads before two tails.",
+    "tags": [
+      "unique blocks",
+      "absorbing probability"
+    ]
+  },
+  {
+    "id": "1996-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1996-A-02",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Even logarithm floors.",
+    "tags": [
+      "interval partition",
+      "hybrid algebra"
+    ]
+  },
+  {
+    "id": "1996-A-03",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Counting monomials after expansion.",
+    "tags": [
+      "Cartesian product",
+      "polynomial support"
+    ]
+  },
+  {
+    "id": "1996-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1996-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1996-A-06",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: No perfect or winless team.",
+    "tags": [
+      "inclusion-exclusion",
+      "tournament"
+    ]
+  },
+  {
+    "id": "1996-A-07",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Two marked squares up to rotation.",
+    "tags": [
+      "Burnside",
+      "rotational symmetry"
+    ]
+  },
+  {
+    "id": "1996-A-08",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Integer pairs of prescribed harmonic mean.",
+    "tags": [
+      "factor-pair bijection",
+      "hybrid number theory"
+    ]
+  },
+  {
+    "id": "1996-A-09",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Alternating elimination along lockers.",
+    "tags": [
+      "elimination recurrence",
+      "algorithm invariant"
+    ]
+  },
+  {
+    "id": "1996-A-10",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1996-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1996-A-12",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Mean sum of five pair distances.",
+    "tags": [
+      "linearity of expectation",
+      "weighted pairs"
+    ]
+  },
+  {
+    "id": "1996-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1996-A-14",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Cubes crossed by a space diagonal.",
+    "tags": [
+      "inclusion-exclusion",
+      "lattice geometry"
+    ]
+  },
+  {
+    "id": "1996-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-01",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Differences of squares.",
+    "tags": [
+      "residue classification",
+      "constructive counting"
+    ]
+  },
+  {
+    "id": "1997-A-02",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Squares among grid rectangles.",
+    "tags": [
+      "grid counting",
+      "boundary choices"
+    ]
+  },
+  {
+    "id": "1997-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-05",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Decimal numbers closest to two sevenths.",
+    "tags": [
+      "interval lattice count",
+      "nearest neighbor"
+    ]
+  },
+  {
+    "id": "1997-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-07",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-08",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Balanced sign arrays.",
+    "tags": [
+      "binary matrices",
+      "overlap casework"
+    ]
+  },
+  {
+    "id": "1997-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Complementary attribute triples.",
+    "tags": [
+      "constant fibers",
+      "finite geometry"
+    ]
+  },
+  {
+    "id": "1997-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-13",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1997-A-14",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: A short arc probability.",
+    "tags": [
+      "cyclic symmetry",
+      "geometric probability"
+    ]
+  },
+  {
+    "id": "1997-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-01",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Counting possible LCM partners.",
+    "tags": [
+      "prime exponent product"
+    ]
+  },
+  {
+    "id": "1998-A-02",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Integer points between two slope bounds.",
+    "tags": [
+      "complement",
+      "lattice points"
+    ]
+  },
+  {
+    "id": "1998-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-04",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Three odd hand sums.",
+    "tags": [
+      "parity",
+      "hypergeometric"
+    ]
+  },
+  {
+    "id": "1998-A-05",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-07",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Odd positive compositions.",
+    "tags": [
+      "stars and bars",
+      "parity bijection"
+    ]
+  },
+  {
+    "id": "1998-A-08",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-09",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Overlapping coffee breaks.",
+    "tags": [
+      "continuous probability",
+      "area complement"
+    ]
+  },
+  {
+    "id": "1998-A-10",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-13",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Complex weights over subsets.",
+    "tags": [
+      "weighted subsets",
+      "binomial theorem"
+    ]
+  },
+  {
+    "id": "1998-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1998-A-15",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Longest domino chain.",
+    "tags": [
+      "Euler trail",
+      "extremal graph"
+    ]
+  },
+  {
+    "id": "1999-A-01",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-02",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-03",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-04",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-05",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Possible digit-sum changes.",
+    "tags": [
+      "carry invariant",
+      "distinct image"
+    ]
+  },
+  {
+    "id": "1999-A-06",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-07",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Four-position divisor switches.",
+    "tags": [
+      "valuation complement",
+      "divisor incidence"
+    ]
+  },
+  {
+    "id": "1999-A-08",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Exactly two thresholds on a simplex.",
+    "tags": [
+      "exact multiplicity",
+      "geometric probability"
+    ]
+  },
+  {
+    "id": "1999-A-09",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-10",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: A triangle among four chosen segments.",
+    "tags": [
+      "graph counting",
+      "unique witness"
+    ]
+  },
+  {
+    "id": "1999-A-11",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-12",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-13",
+    "include": true,
+    "reason": "Central finite counting/probability or a substantive discrete hybrid: Distinct tournament win totals.",
+    "tags": [
+      "transitive tournament",
+      "valuation"
+    ]
+  },
+  {
+    "id": "1999-A-14",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  },
+  {
+    "id": "1999-A-15",
+    "include": false,
+    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "tags": [
+      "other-subject"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+A Catalan theorem for minimum rectangular-loop partitions
+Original structural proof developed during the AIME audit
+
+Definition. A rectangular cell loop is the boundary cells of an axis-aligned r by c rectangle, with r,c at least 2. A partition assigns every board cell to exactly one loop.
+
+Theorem. If a>b>=1, the number of partitions of a 2a by 2b board into b loops is the Catalan number C_b. The number of partitions of a 2n by 2n board into n loops is 2C_n-1, where C_n=binom(2n,n)/(n+1).
+
+Diagonal bound. For an H by W board with H>=W, consider the cell sets
+D={(i,i):1<=i<=W}, E={(H+1-i,i):1<=i<=W}.
+Each rectangular boundary meets either set in at most two cells. Indeed, as one follows either diagonal through its bounding rectangle, only the first and last cells can belong to that rectangle's boundary. Thus at least W/2 loops are required to cover the board. If W is even and exactly W/2 loops are used, EVERY loop meets EACH diagonal in exactly two cells.
+
+Corner-loop lemma. Assume the bound is attained. Let the loop containing the upper-left board cell have bounding dimensions r by c. Its bounding rectangle necessarily has upper-left corner (1,1). Since it meets E in two cells, r+c>=H+2. The cells strictly inside this loop contain min(r,c)-2 members of D, and r+c-H-2 members of E. This interior is a union of entire loops: a different loop's boundary is connected by horizontal and vertical unit steps, and cannot travel from inside to outside without using a cell of the enclosing loop. Each contained loop contributes exactly two cells to each diagonal, so the two interior counts are equal. Therefore
+min(r,c)-2 = r+c-H-2,
+which gives max(r,c)=H.
+If H>W, then c<=W<H, so r=H: the corner loop spans the entire height. If H=W, it spans the height or the width. Moreover the other dimension is even, because its interior diagonal count is even.
+
+Tall rectangles. Write T(a,b) for the number of minimum-loop partitions when a>b, and set T(a,0)=1 for the empty-width board. The corner-loop lemma forces the first loop to have full height 2a and even width 2k for some 1<=k<=b. Removing it leaves two separated rectangular regions: its interior has dimensions 2(a-1) by 2(k-1), and the right-hand remainder has dimensions 2a by 2(b-k). The diagonal lower bounds for these regions sum to b-1, so both must attain their individual minima. Conversely any two such minimum partitions, together with the corner loop, give a valid partition of the original board. Both residual nonempty rectangles are strictly taller than wide. Therefore
+T(a,b)=sum_{k=1}^b T(a-1,k-1)T(a,b-k).
+Induction on b now gives T(a,b)=C_b, independently of a, because the Catalan recurrence is C_b=sum_{k=1}^b C_{k-1}C_{b-k} and C_0=1.
+
+Squares. Let S_n count minimum partitions of the 2n by 2n square, with S_0=1. The corner-loop lemma gives three disjoint cases:
+(1) The corner loop is the full outer square. Its interior contributes S_{n-1}.
+(2) It spans the height and has proper even width 2k, where 1<=k<=n-1. Its two remaining rectangles are tall, contributing C_{k-1}C_{n-k}.
+(3) It spans the width and has proper even height. By transposition this contributes the same sum.
+Consequently
+S_n=S_{n-1}+2 sum_{k=1}^{n-1} C_{k-1}C_{n-k}
+   =S_{n-1}+2(C_n-C_{n-1}).
+Telescoping from S_0=1 proves S_n=2C_n-1.
+
+Application to 2026 AIME I Problem 15. C_5=binom(10,5)/6=42, so S_5=83.
+
+Independent check. The separate exact-cover implementation recent_loops.py does not assume the corner-loop lemma or the Catalan formula; it enumerates all diagonal-compatible rectangular boundaries. It gives S_1,...,S_5=1,3,9,27,83, agreeing with the theorem. The 10 by 10 computation uses 3053 occupied-cell states.
+
+Source audit. Three downloaded solution texts were read. Their structural claims did not constitute a valid proof: one had false odd-width arguments, one explicitly left a key assertion as a placeholder, and one had incorrect base cases. The proof above supplies the missing geometric invariant independently.

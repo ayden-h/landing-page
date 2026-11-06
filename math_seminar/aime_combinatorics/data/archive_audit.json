@@ -1,0 +1,33 @@
+{
+  "as_of": "2026-11-06",
+  "expected_exams": 71,
+  "expected_problem_slots": 1065,
+  "retrieved_problem_slots": 1065,
+  "unique_ids": 1065,
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "primary_transcription": "https://huggingface.co/datasets/bhushansshah/AIME-1983-to-2026",
+  "primary_csv_sha256": "c28491d5f462d5f5685cbb9f70b954d0527e40095c0b0e2f49f77a2f28b14e39",
+  "crosscheck_transcription_1983_2025": "https://huggingface.co/datasets/Pandores/aime-1983-2025",
+  "crosscheck_count": 1035,
+  "nonempty_answer_disagreements_1983_2025": 0,
+  "crosscheck_2026": "https://huggingface.co/datasets/math-ai/aime26",
+  "source_corrections": [],
+  "rights_note": "Raw community solutions are held only in a temporary research cache; deliverables contain newly authored exposition and source links. A dataset license label is not treated as permission to republish underlying MAA or contributor works.",
+  "known_statement_variants": [
+    {
+      "id": "2026-II-01",
+      "primary_answer": 196,
+      "alternative_answer": 178,
+      "note": "Distinct requested sequence term; preserve both targets. US/international variants reported by dataset maintainer."
+    },
+    {
+      "id": "2026-II-10",
+      "primary_answer": 340,
+      "alternative_answer": 850,
+      "note": "Greatest possible BC is340; sum of all possible BC is850. Both variants are mathematically consistent."
+    }
+  ],
+  "variant_evidence": "https://huggingface.co/datasets/MathArena/aime_2026/discussions/2",
+  "completeness_limit": "1065 is the expected year/form/number slot count for the standard archive, not a certified count of all regional or alternate wording variants. Known variants are recorded separately."
+}

@@ -1,0 +1,486 @@
+{
+  "checks": {
+    "2000-II-03": {
+      "computed": 758,
+      "matches_archived_answer": true
+    },
+    "2000-I-05": {
+      "computed": 26,
+      "matches_archived_answer": true
+    },
+    "2000-II-05": {
+      "computed": 376,
+      "matches_archived_answer": true
+    },
+    "2000-II-07": {
+      "computed": 137,
+      "matches_archived_answer": true
+    },
+    "2000-I-11": {
+      "computed": 248,
+      "matches_archived_answer": true
+    },
+    "2000-I-15": {
+      "computed": 927,
+      "matches_archived_answer": true
+    },
+    "2001-I-06": {
+      "computed": 79,
+      "matches_archived_answer": true
+    },
+    "2001-II-09": {
+      "computed": 929,
+      "matches_archived_answer": true
+    },
+    "2001-I-10": {
+      "computed": 200,
+      "matches_archived_answer": true
+    },
+    "2001-II-10": {
+      "computed": 784,
+      "matches_archived_answer": true
+    },
+    "2001-II-11": {
+      "computed": 341,
+      "matches_archived_answer": true
+    },
+    "2001-II-12": {
+      "computed": 101,
+      "matches_archived_answer": true
+    },
+    "2001-I-14": {
+      "computed": 351,
+      "matches_archived_answer": true
+    },
+    "2001-I-15": {
+      "computed": 85,
+      "matches_archived_answer": true
+    },
+    "2002-I-01": {
+      "computed": 59,
+      "matches_archived_answer": true
+    },
+    "2002-I-03": {
+      "computed": 25,
+      "matches_archived_answer": true
+    },
+    "2002-I-05": {
+      "computed": 183,
+      "matches_archived_answer": true
+    },
+    "2002-II-09": {
+      "computed": 501,
+      "matches_archived_answer": true
+    },
+    "2002-II-12": {
+      "computed": 660,
+      "matches_archived_answer": true
+    },
+    "2003-I-03": {
+      "computed": 484,
+      "matches_archived_answer": true
+    },
+    "2003-II-03": {
+      "computed": 192,
+      "matches_archived_answer": true
+    },
+    "2003-I-09": {
+      "computed": 615,
+      "matches_archived_answer": true
+    },
+    "2003-I-13": {
+      "computed": 155,
+      "matches_archived_answer": true
+    },
+    "2003-II-13": {
+      "computed": 683,
+      "matches_archived_answer": true
+    },
+    "2004-I-03": {
+      "computed": 241,
+      "matches_archived_answer": true
+    },
+    "2004-II-02": {
+      "computed": 441,
+      "matches_archived_answer": true
+    },
+    "2004-II-03": {
+      "computed": 384,
+      "matches_archived_answer": true
+    },
+    "2004-II-04": {
+      "computed": 927,
+      "matches_archived_answer": true
+    },
+    "2004-I-06": {
+      "computed": 882,
+      "matches_archived_answer": true
+    },
+    "2004-I-07": {
+      "computed": 588,
+      "matches_archived_answer": true
+    },
+    "2004-I-08": {
+      "computed": 199,
+      "matches_archived_answer": true
+    },
+    "2004-II-08": {
+      "computed": 54,
+      "matches_archived_answer": true
+    },
+    "2004-I-10": {
+      "computed": 817,
+      "matches_archived_answer": true
+    },
+    "2004-II-10": {
+      "computed": 913,
+      "matches_archived_answer": true
+    },
+    "2004-II-14": {
+      "computed": 108,
+      "matches_archived_answer": true
+    },
+    "2004-I-15": {
+      "computed": 511,
+      "matches_archived_answer": true
+    },
+    "2004-II-15": {
+      "computed": 593,
+      "matches_archived_answer": true
+    },
+    "2005-II-01": {
+      "computed": 13,
+      "matches_archived_answer": true
+    },
+    "2005-II-02": {
+      "computed": 79,
+      "matches_archived_answer": true
+    },
+    "2005-II-04": {
+      "computed": 435,
+      "matches_archived_answer": true
+    },
+    "2005-I-05": {
+      "computed": 630,
+      "matches_archived_answer": true
+    },
+    "2005-II-06": {
+      "computed": 392,
+      "matches_archived_answer": true
+    },
+    "2005-I-09": {
+      "computed": 74,
+      "matches_archived_answer": true
+    },
+    "2005-I-12": {
+      "computed": 25,
+      "matches_archived_answer": true
+    },
+    "2005-I-13": {
+      "computed": 83,
+      "matches_archived_answer": true
+    },
+    "2006-I-02": {
+      "computed": 901,
+      "matches_archived_answer": true
+    },
+    "2006-II-04": {
+      "computed": 462,
+      "matches_archived_answer": true
+    },
+    "2006-I-06": {
+      "computed": 360,
+      "matches_archived_answer": true
+    },
+    "2006-II-07": {
+      "computed": 738,
+      "matches_archived_answer": true
+    },
+    "2006-II-08": {
+      "computed": 336,
+      "matches_archived_answer": true
+    },
+    "2006-II-10": {
+      "computed": 831,
+      "matches_archived_answer": true
+    },
+    "2006-I-11": {
+      "computed": 458,
+      "matches_archived_answer": true
+    },
+    "2006-I-13": {
+      "computed": 899,
+      "matches_archived_answer": true
+    },
+    "2006-II-14": {
+      "computed": 63,
+      "matches_archived_answer": true
+    },
+    "2006-I-15": {
+      "computed": 27,
+      "matches_archived_answer": true
+    },
+    "2007-II-01": {
+      "computed": 372,
+      "matches_archived_answer": true
+    },
+    "2007-II-02": {
+      "computed": 200,
+      "matches_archived_answer": true
+    },
+    "2007-I-05": {
+      "computed": 539,
+      "matches_archived_answer": true
+    },
+    "2007-II-05": {
+      "computed": 888,
+      "matches_archived_answer": true
+    },
+    "2007-I-06": {
+      "computed": 169,
+      "matches_archived_answer": true
+    },
+    "2007-II-06": {
+      "computed": 640,
+      "matches_archived_answer": true
+    },
+    "2007-II-08": {
+      "computed": 896,
+      "matches_archived_answer": true
+    },
+    "2007-I-10": {
+      "computed": 860,
+      "matches_archived_answer": true
+    },
+    "2007-II-10": {
+      "computed": 710,
+      "matches_archived_answer": true
+    },
+    "2007-I-11": {
+      "computed": 955,
+      "matches_archived_answer": true
+    },
+    "2007-II-13": {
+      "computed": 640,
+      "matches_archived_answer": true
+    },
+    "2008-I-06": {
+      "computed": 17,
+      "matches_archived_answer": true
+    },
+    "2008-I-07": {
+      "computed": 708,
+      "matches_archived_answer": true
+    },
+    "2008-I-09": {
+      "computed": 190,
+      "matches_archived_answer": true
+    },
+    "2008-II-10": {
+      "computed": 240,
+      "matches_archived_answer": true
+    },
+    "2008-I-11": {
+      "computed": 172,
+      "matches_archived_answer": true
+    },
+    "2008-II-12": {
+      "computed": 310,
+      "matches_archived_answer": true
+    },
+    "2009-II-06": {
+      "computed": 750,
+      "matches_archived_answer": true
+    },
+    "2009-I-08": {
+      "computed": 398,
+      "matches_archived_answer": true
+    },
+    "2009-II-08": {
+      "computed": 41,
+      "matches_archived_answer": true
+    },
+    "2009-I-09": {
+      "computed": 420,
+      "matches_archived_answer": true
+    },
+    "2009-II-09": {
+      "computed": 0,
+      "matches_archived_answer": true
+    },
+    "2009-I-10": {
+      "computed": 346,
+      "matches_archived_answer": true
+    },
+    "2009-I-11": {
+      "computed": 600,
+      "matches_archived_answer": true
+    },
+    "2009-II-12": {
+      "computed": 803,
+      "matches_archived_answer": true
+    },
+    "2010-I-01": {
+      "computed": 107,
+      "matches_archived_answer": true
+    },
+    "2010-II-02": {
+      "computed": 281,
+      "matches_archived_answer": true
+    },
+    "2010-II-03": {
+      "computed": 150,
+      "matches_archived_answer": true
+    },
+    "2010-I-04": {
+      "computed": 515,
+      "matches_archived_answer": true
+    },
+    "2010-II-04": {
+      "computed": 52,
+      "matches_archived_answer": true
+    },
+    "2010-I-07": {
+      "computed": 760,
+      "matches_archived_answer": true
+    },
+    "2010-II-08": {
+      "computed": 772,
+      "matches_archived_answer": true
+    },
+    "2010-I-10": {
+      "computed": 202,
+      "matches_archived_answer": true
+    },
+    "2010-II-10": {
+      "computed": 163,
+      "matches_archived_answer": true
+    },
+    "2010-II-11": {
+      "computed": 68,
+      "matches_archived_answer": true
+    },
+    "2010-II-13": {
+      "computed": 263,
+      "matches_archived_answer": true
+    },
+    "2011-I-05": {
+      "computed": 144,
+      "matches_archived_answer": true
+    },
+    "2011-II-06": {
+      "computed": 80,
+      "matches_archived_answer": true
+    },
+    "2011-I-07": {
+      "computed": 16,
+      "matches_archived_answer": true
+    },
+    "2011-II-07": {
+      "computed": 3,
+      "matches_archived_answer": true
+    },
+    "2011-I-10": {
+      "computed": 503,
+      "matches_archived_answer": true
+    },
+    "2011-I-12": {
+      "computed": 594,
+      "matches_archived_answer": true
+    },
+    "2011-II-12": {
+      "computed": 97,
+      "matches_archived_answer": true
+    },
+    "2011-II-14": {
+      "computed": 440,
+      "matches_archived_answer": true
+    },
+    "2012-I-01": {
+      "computed": 40,
+      "matches_archived_answer": true
+    },
+    "2012-I-03": {
+      "computed": 216,
+      "matches_archived_answer": true
+    },
+    "2012-II-03": {
+      "computed": 88,
+      "matches_archived_answer": true
+    },
+    "2012-I-05": {
+      "computed": 330,
+      "matches_archived_answer": true
+    },
+    "2012-I-07": {
+      "computed": 280,
+      "matches_archived_answer": true
+    },
+    "2012-II-07": {
+      "computed": 32,
+      "matches_archived_answer": true
+    },
+    "2012-I-11": {
+      "computed": 373,
+      "matches_archived_answer": true
+    },
+    "2012-II-12": {
+      "computed": 958,
+      "matches_archived_answer": true
+    },
+    "2012-II-14": {
+      "computed": 16,
+      "matches_archived_answer": true
+    },
+    "2012-I-15": {
+      "computed": 332,
+      "matches_archived_answer": true
+    },
+    "2013-I-02": {
+      "computed": 200,
+      "matches_archived_answer": true
+    },
+    "2013-I-04": {
+      "computed": 429,
+      "matches_archived_answer": true
+    },
+    "2013-I-06": {
+      "computed": 47,
+      "matches_archived_answer": true
+    },
+    "2013-II-09": {
+      "computed": 106,
+      "matches_archived_answer": true
+    },
+    "2013-II-11": {
+      "computed": 399,
+      "matches_archived_answer": true
+    },
+    "2013-II-12": {
+      "computed": 540,
+      "matches_archived_answer": true
+    },
+    "2013-I-15": {
+      "computed": 272,
+      "matches_archived_answer": true
+    }
+  },
+  "checked_count": 116,
+  "remaining_analytic_proofs": [
+    "2000-I-03",
+    "2000-I-12",
+    "2001-I-11",
+    "2001-II-01",
+    "2001-II-02",
+    "2001-II-05",
+    "2002-I-09",
+    "2002-I-14",
+    "2003-I-06",
+    "2003-I-11",
+    "2003-II-12",
+    "2006-II-05",
+    "2009-I-03",
+    "2010-I-12",
+    "2011-II-15"
+  ]
+}

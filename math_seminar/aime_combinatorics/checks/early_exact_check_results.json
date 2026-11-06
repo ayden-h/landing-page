@@ -1,0 +1,197 @@
+{
+  "1983-A-07": {
+    "result": "550",
+    "expected": "550",
+    "method": "Enumerated all 2300 selected seat triples."
+  },
+  "1983-A-10": {
+    "result": "432",
+    "expected": "432",
+    "method": "Enumerated all 1000 candidate numerals."
+  },
+  "1983-A-13": {
+    "result": "448",
+    "expected": "448",
+    "method": "Directly summed the 127 nonempty subset values."
+  },
+  "1984-A-10": {
+    "result": "119",
+    "expected": "119",
+    "method": "Enumerated all feasible correct/wrong counts."
+  },
+  "1984-A-11": {
+    "result": "56",
+    "expected": "56",
+    "method": "Enumerated the 792 possible birch-position sets."
+  },
+  "1985-A-08": {
+    "result": "61",
+    "expected": "61",
+    "method": "Enumerated all binary rounding assignments using exact hundredths; proof excludes other integers."
+  },
+  "1985-A-12": {
+    "result": "182/729",
+    "expected": "182/729",
+    "method": "Four-vertex integer walk count, independent of the scalar probability recurrence."
+  },
+  "1986-A-07": {
+    "result": "981",
+    "expected": "981",
+    "method": "Enumerated and sorted every nonempty subset of the first eight ternary powers."
+  },
+  "1986-A-10": {
+    "result": "[358]",
+    "expected": "[358]",
+    "method": "Checked every three-digit original numeral, retaining multiplicities of all six position permutations."
+  },
+  "1986-A-12": {
+    "result": "61",
+    "expected": "61",
+    "method": "Exhaustive subset-sum collision search over subsets of 1,…,15, pruning only provably invalid supersets."
+  },
+  "1986-A-13": {
+    "result": "560",
+    "expected": "560",
+    "method": "Enumerated all 32768 coin words and their 14 adjacent transitions."
+  },
+  "1987-A-01": {
+    "result": "300",
+    "expected": "300",
+    "method": "Enumerated all nonnegative summand pairs."
+  },
+  "1988-A-15": {
+    "result": "704",
+    "expected": "704",
+    "method": "Enumerated all legal stack output histories and every lunch cut after the output of 8; deduplicated suffixes."
+  },
+  "1989-A-11": {
+    "result": "947",
+    "expected": "947",
+    "method": "Exact capacity-minimal sums for every possible mode multiplicity 2,…,121."
+  },
+  "1989-A-13": {
+    "result": "905",
+    "expected": "905",
+    "method": "Exact seven-bit transfer dynamic program for all 1989 positions, forbidding separations 4 and 7."
+  },
+  "1990-A-01": {
+    "result": "528",
+    "expected": "528",
+    "method": "Direct filtering of all integers through 599."
+  },
+  "1990-A-09": {
+    "result": "144",
+    "expected": "144",
+    "method": "Enumerated all 1024 toss sequences."
+  },
+  "1991-A-10": {
+    "result": "532/729",
+    "expected": "532/729",
+    "method": "Summed exact probabilities over all 64 pairs of received strings."
+  },
+  "1992-A-05": {
+    "result": "660",
+    "expected": "660",
+    "method": "Reduced every numerator 1,…,998 over 999 and deduplicated."
+  },
+  "1992-A-06": {
+    "result": "156",
+    "expected": "156",
+    "method": "Direct decimal-digit carry test on all 1000 consecutive pairs."
+  },
+  "1992-A-15": {
+    "result": "396",
+    "expected": "396",
+    "method": "Enumerated all distinct trailing-zero counts until the first value 1992."
+  },
+  "1993-A-01": {
+    "result": "728",
+    "expected": "728",
+    "method": "Enumerated every integer strictly between the endpoints."
+  },
+  "1993-A-08": {
+    "result": "365",
+    "expected": "365",
+    "method": "Enumerated every unordered pair of six-bit subsets."
+  },
+  "1993-A-10": {
+    "result": "[(30, 2, 2)]",
+    "expected": "[(30, 2, 2)]",
+    "method": "Exhausted the integer incidence equations; no regular-face assumption."
+  },
+  "1994-A-06": {
+    "result": "660",
+    "expected": "660",
+    "method": "Enumerated all 21³ triples of line indices with unit altitude."
+  },
+  "1994-A-09": {
+    "result": "9/385",
+    "expected": "9/385",
+    "method": "Independent exact dynamic program by unopened pairs and held unmatched tiles."
+  },
+  "1994-A-11": {
+    "result": "465",
+    "expected": "465",
+    "method": "Enumerated all feasible orientation-count pairs and deduplicated heights."
+  },
+  "1995-A-03": {
+    "result": "3/64",
+    "expected": "3/64",
+    "method": "Enumerated all 4096 six-step walks and tested first or later visits."
+  },
+  "1995-A-08": {
+    "result": "85",
+    "expected": "85",
+    "method": "Checked every bounded integer pair directly."
+  },
+  "1996-A-06": {
+    "result": "17/32",
+    "expected": "17/32",
+    "method": "Enumerated all 1024 labeled tournament orientations."
+  },
+  "1996-A-07": {
+    "result": "300",
+    "expected": "300",
+    "method": "Canonicalized every marked-cell pair under four explicit coordinate rotations."
+  },
+  "1996-A-09": {
+    "result": "342",
+    "expected": "342",
+    "method": "Simulated alternating passes over the actual list of closed lockers."
+  },
+  "1996-A-14": {
+    "result": "768",
+    "expected": "768",
+    "method": "Built the exact union of all interior rational crossing times."
+  },
+  "1997-A-08": {
+    "result": "90",
+    "expected": "90",
+    "method": "Enumerated all 6⁴ row patterns and checked column sums."
+  },
+  "1997-A-10": {
+    "result": "117",
+    "expected": "117",
+    "method": "Checked all 2925 three-card subsets directly."
+  },
+  "1998-A-02": {
+    "result": "480",
+    "expected": "480",
+    "method": "Directly tested all bounded positive lattice pairs."
+  },
+  "1998-A-04": {
+    "result": "3/14",
+    "expected": "3/14",
+    "method": "Enumerated all 126 parity placements among the dealt positions."
+  },
+  "1998-A-07": {
+    "result": "19600",
+    "expected": "19600",
+    "method": "Enumerated the first three odd parts and tested the forced fourth."
+  },
+  "1999-A-07": {
+    "result": "650",
+    "expected": "650",
+    "method": "Checked the advance count for all 1000 switch labels."
+  }
+}

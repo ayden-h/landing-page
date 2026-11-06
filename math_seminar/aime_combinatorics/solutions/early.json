@@ -1,0 +1,2138 @@
+[
+  {
+    "id": "1983-A-07",
+    "title": "Adjacent knights",
+    "restatement": "Three of 25 labeled seats around a circle are selected uniformly. For the probability that a selected pair is adjacent, find the sum of numerator and denominator in lowest terms.",
+    "solution": "For each of the 25 circle edges, count triples containing its endpoints: there are 23. A triple is counted twice exactly when it consists of three consecutive seats; there are 25 such triples. No triple contains three circle edges. Thus the favorable count is $25(23)-25=550$, while the total is $\\binom{25}{3}=2300$. The probability is $11/46$, giving $57$.",
+    "answer": 57,
+    "tags": [
+      "inclusion-exclusion",
+      "circular adjacency"
+    ],
+    "source_review": "Read and compared all 8 archived solution entries. Alternatives use complement gaps, circular seating, ordered selections and edge inclusion-exclusion.",
+    "verification": "Independent exact check passed: Enumerated all 2300 selected seat triples. Result 550. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_7",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 7,
+        "severity": "typographical",
+        "note": "One displayed simplification drops the factor 23 from the binomial denominator; the preceding count and final probability are correct."
+      }
+    ],
+    "restatement_word_count": 30
+  },
+  {
+    "id": "1983-A-10",
+    "title": "One repeated decimal digit",
+    "restatement": "Count four-digit integers beginning with 1 whose digit multiplicities are exactly 2,1,1.",
+    "solution": "If 1 is repeated, choose its second position in 3 ways and fill the remaining positions with two different digits other than 1 in $9\\cdot8$ ways. If another digit is repeated, choose it in 9 ways, its two positions among the last three in 3 ways, and the remaining digit in 8 ways. The two cases are disjoint and exhaustive, so the count is $3\\cdot9\\cdot8+9\\cdot3\\cdot8=432$.",
+    "answer": 432,
+    "tags": [
+      "digits",
+      "multiplicity"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives use digit symmetry and a complement partition by multiplicity pattern.",
+    "verification": "Independent exact check passed: Enumerated all 1000 candidate numerals. Result 432. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 12
+  },
+  {
+    "id": "1983-A-13",
+    "title": "Sum of alternating subset sums",
+    "restatement": "For every nonempty subset of 1 through 7, list its elements decreasingly and alternately add and subtract them, starting with plus. Sum these values over all subsets.",
+    "solution": "Give the empty set value 0. Pair each subset $U\\subseteq\\{1,\\ldots,6\\}$ with $U\\cup\\{7\\}$. Adding 7 at the front reverses every old sign, so the two values sum to 7. There are $2^6$ pairs, hence the required total is $7\\cdot2^6=448$. Removing the empty set changes nothing.",
+    "answer": 448,
+    "tags": [
+      "involution",
+      "weighted subsets"
+    ],
+    "source_review": "Read and compared all 5 archived solution entries. Alternatives use maximum-element pairing, a recurrence and cancellation of individual coefficients.",
+    "verification": "Independent exact check passed: Directly summed the 127 nonempty subset values. Result 448. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_13",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 0,
+        "severity": "minor gap",
+        "note": "The pairing sentence excludes the empty subset although 64 pairs require including it with alternating sum zero."
+      }
+    ],
+    "restatement_word_count": 27
+  },
+  {
+    "id": "1984-A-10",
+    "title": "A score that determines the number correct",
+    "restatement": "A 30-question test scores 30+4c−w, with c correct, w wrong and the rest blank. Find the smallest score above 80 that uniquely determines c.",
+    "solution": "If $w\\ge4$, replacing $(c,w)$ by $(c-1,w-4)$ preserves the score and is feasible (a score above 80 ensures $c>0$). If at least five questions are blank, $(c+1,w+4)$ is another feasible pair. Uniqueness therefore requires $w\\le3$ and $c+w\\ge26$. Hence $c\\ge23$ and $s\\ge30+4(23)-3=119$. For $s=119$, $w=4c-89$ and $0\\le w\\le30-c$ force $23\\le c\\le23$, so 119 is achievable and uniquely identifies $c=23$.",
+    "answer": 119,
+    "tags": [
+      "integer feasibility",
+      "extremal"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives use score intervals and equivalent feasible-answer transformations.",
+    "verification": "Independent exact check passed: Enumerated all feasible correct/wrong counts. Result 119. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 24
+  },
+  {
+    "id": "1984-A-11",
+    "title": "Separated birches",
+    "restatement": "A row contains three maples, four oaks and five birches, arranged uniformly. Find numerator plus denominator for the probability that no birches are adjacent.",
+    "solution": "The set of five birch positions is uniform among the $\\binom{12}{5}$ position sets: each set admits the same number of arrangements of the other trees. Arrange the seven non-birches first. Their eight gaps, including both ends, can each hold at most one birch, so $\\binom85$ position patterns work. Thus $P=56/792=7/99$, giving $106$.",
+    "answer": 106,
+    "tags": [
+      "gaps",
+      "probability"
+    ],
+    "source_review": "Read and compared all 5 archived solution entries. Alternatives use deletion of separators, stars and bars, marked-adjacency inclusion-exclusion and labeled species counts.",
+    "verification": "Independent exact check passed: Enumerated the 792 possible birch-position sets. Result 56. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems/Problem_11",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 24
+  },
+  {
+    "id": "1984-A-12",
+    "title": "Root orbits under two reflections",
+    "restatement": "A real function is unchanged by reflection about 2 and about 7, and vanishes at 0. Find the fewest roots it can have in [−1000,1000].",
+    "solution": "The symmetries are $x\\mapsto4-x$ and $x\\mapsto14-x$; their compositions translate by 10. Thus every $10k$ and $4+10k$ is forced to be a root. There are respectively 201 and 200 such points in the interval. This lower bound is attained: define $f(x)=0$ on those two residue classes and $f(x)=1$ elsewhere. Both reflections preserve their union and its complement. Hence exactly $401$ roots are possible.",
+    "answer": 401,
+    "tags": [
+      "group orbit",
+      "hybrid algebra"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Valid approaches use the orbit generated by two reflections; attaining the lower bound must also be justified.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems/Problem_12",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 2,
+        "severity": "incorrect argument",
+        "note": "Claims roots at multiples of 5. The reflection orbit of zero is instead 0 or 4 modulo 10; the final count coincides accidentally."
+      }
+    ],
+    "restatement_word_count": 25
+  },
+  {
+    "id": "1985-A-08",
+    "title": "Balanced integer rounding",
+    "restatement": "Round 2.56,2.61,2.65,2.71,2.79,2.82,2.86 to integers with total 19, minimizing the largest absolute error M. Find 100M.",
+    "solution": "A choice using only 2 and 3 has all errors below 1, whereas any other integer causes an error above 1. Thus an optimum uses exactly two 2s and five 3s. Among the two entries assigned 2, one is at least 2.61, forcing $M\\ge0.61$. Assigning 2 to the first two entries and 3 to all others attains maximum error 0.61. Therefore $100M=61$.",
+    "answer": 61,
+    "tags": [
+      "exchange argument",
+      "discrete optimization"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "Independent exact check passed: Enumerated all binary rounding assignments using exact hundredths; proof excludes other integers. Result 61. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_8",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 15
+  },
+  {
+    "id": "1985-A-10",
+    "title": "Values of a floor sum",
+    "restatement": "How many integers from 1 through 1000 occur as floor(2x)+floor(4x)+floor(6x)+floor(8x) for real x?",
+    "solution": "Put $t=2x$ and $F(t)=\\lfloor t\\rfloor+\\lfloor2t\\rfloor+\\lfloor3t\\rfloor+\\lfloor4t\\rfloor$. Then $F(t+1)=F(t)+10$. On $0\\le t<1$, the breakpoints are $0,1/4,1/3,1/2,2/3,3/4$ and the values are respectively $0,1,2,4,5,6$. Thus exactly six residue classes modulo 10 are attainable, and each occurs 100 times among 1 through 1000. The answer is $600$.",
+    "answer": 600,
+    "tags": [
+      "floor partition",
+      "periodic counting"
+    ],
+    "source_review": "Read and compared all 9 archived solution entries. Alternatives enumerate breakpoints, use half-period shifts or express the floor sum through Hermite’s identity.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 5,
+        "severity": "incorrect displayed formula",
+        "note": "The totient sum includes phi(0) and does not list the correct reduced denominators. Direct breakpoint counting avoids this formula."
+      },
+      {
+        "index": 8,
+        "severity": "incomplete",
+        "note": "The six-values-per-ten assertion is not proved."
+      }
+    ],
+    "restatement_word_count": 13
+  },
+  {
+    "id": "1985-A-12",
+    "title": "Random walk on a tetrahedron",
+    "restatement": "A bug starts at one vertex of a unit-edge tetrahedron and repeatedly chooses each incident edge with probability 1/3. Its chance of returning after seven moves is n/729. Find n.",
+    "solution": "Let $p_j$ be its chance of being at the starting vertex after $j$ moves. From that vertex it must leave; from any other vertex it returns with probability $1/3$. Hence $p_{j+1}=(1-p_j)/3$, $p_0=1$. Subtracting the fixed point $1/4$ gives $p_j=1/4+(3/4)(-1/3)^j$. Consequently $p_7=182/729$, and $n=182$.",
+    "answer": 182,
+    "tags": [
+      "Markov state",
+      "recurrence"
+    ],
+    "source_review": "Read and compared all 11 archived solution entries. Alternatives include scalar and four-state recurrences, a roots-of-unity filter, first-return compositions and a modular walk encoding.",
+    "verification": "Independent exact check passed: Four-vertex integer walk count, independent of the scalar probability recurrence. Result 182/729. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_12",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 30
+  },
+  {
+    "id": "1985-A-14",
+    "title": "Tournament score balance",
+    "restatement": "Every player in a round robin earns half their points against the ten lowest-scoring players; wins score 1 and draws 1/2 each. Determine the total number of players.",
+    "solution": "Let $h$ players be outside the bottom ten. Games within the bottom group contribute 45 points, so that group also earns 45 points in cross-group games. The top group earns $\\binom h2$ internally and the same amount across groups. Cross-group games contribute $10h$ points in total, giving $45+\\binom h2=10h$, or $(h-6)(h-15)=0$. The bottom group averages 9 points and the top group averages $h-1$. Since every top score is at least every bottom score, $h-1\\ge9$, excluding $h=6$. Thus the total is $15+10=25$.",
+    "answer": 25,
+    "tags": [
+      "double counting",
+      "tournament"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. All alternatives double-count internal and cross-group points; excluding the 16-player candidate needs the score-order constraint.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_14",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 28
+  },
+  {
+    "id": "1986-A-07",
+    "title": "Ranking subsets by ternary value",
+    "restatement": "Arrange all positive sums of distinct nonnegative powers of 3 in increasing order. Find the hundredth term.",
+    "solution": "These are exactly positive ternary numerals using only 0 and 1. Reading the same digit strings in binary preserves order: the first differing digit dominates all following digits in either base. Thus the hundredth ternary string is the binary representation of 100, namely $1100100$. Its ternary value is $3^6+3^5+3^2=981$.",
+    "answer": 981,
+    "tags": [
+      "order-preserving bijection",
+      "subsets"
+    ],
+    "source_review": "Read and compared all 5 archived solution entries. Alternatives are binary-to-ternary conversion and recursive blocks of subset sums.",
+    "verification": "Independent exact check passed: Enumerated and sorted every nonempty subset of the first eight ternary powers. Result 981. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_7",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 4,
+        "severity": "incorrect intermediate claim",
+        "note": "The source writes 2^5−1=63 and misidentifies the rank of 243; its eventual binary-block conclusion is correct."
+      }
+    ],
+    "restatement_word_count": 17
+  },
+  {
+    "id": "1986-A-10",
+    "title": "Recovering a permuted numeral",
+    "restatement": "The five digit permutations of a three-digit numeral other than its original ordering have sum 3194. Recover the original numeral, allowing leading zeros in rearrangements.",
+    "solution": "Across all six position permutations, each digit appears twice in every place, so their sum is $222(a+b+c)$. If the original numeral is $N$, then $N+3194=222(a+b+c)$, hence $N\\equiv136\\pmod{222}$. The three-digit candidates are 136,358,580,802. Substitution of their digit sums into the identity leaves only $358$: $358+3194=222(3+5+8)$.",
+    "answer": 358,
+    "tags": [
+      "digit incidence",
+      "hybrid algebra"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives supplement digit incidence with congruences modulo 9 and 222.",
+    "verification": "Independent exact check passed: Checked every three-digit original numeral, retaining multiplicities of all six position permutations. Result [358]. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 25
+  },
+  {
+    "id": "1986-A-12",
+    "title": "A maximum set with distinct subset sums",
+    "restatement": "Choose a subset S of {1,…,15} so that no two disjoint nonempty subsets have equal sums. Maximize the sum of S.",
+    "solution": "Any equal subset sums can have their intersection removed, so all subset sums must be distinct. Six selected elements have $1+6+15+20+15=57$ subsets of size at most four, but their sums lie in $0,\\ldots,54$; pigeonhole forbids six elements. Four elements sum to at most 54. If five elements sum above 61, they must contain both 14 and 15, since omitting either gives at most $15+13+12+11+10=61$. Their other three elements cannot include consecutive integers: $u+14=(u-1)+15$. To exceed 61 they must then be 13,11,9; omitting 13 gives at most $15+14+12+10+8=59$, while with 13 the greatest nonconsecutive remaining pair is 11,9. But $15+9=13+11$, a contradiction. The set $\\{8,11,13,14,15\\}$ attains 61. Its pair sums are the ten distinct numbers $19,21,22,23,24,25,26,27,28,29$, separated from its singleton sums; its triple sums are complements of those pair sums and lie in 32 through 42; its four-element sums lie in 46 through 53, and the full sum is 61. Thus all 32 subset sums are distinct.",
+    "answer": 61,
+    "tags": [
+      "pigeonhole",
+      "extremal subsets"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The consulted source gives the same upper-bound strategy but only asserts that the candidate works. The explicit separation of all subset-sum sizes supplies that missing verification.",
+    "verification": "Independent exact check passed: Exhaustive subset-sum collision search over subsets of 1,…,15, pruning only provably invalid supersets. Result 61. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_12",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 21
+  },
+  {
+    "id": "1986-A-13",
+    "title": "Prescribed adjacent transitions",
+    "restatement": "Count 15-letter H/T strings with exactly 2 HH, 3 HT, 4 TH and 5 TT adjacent pairs.",
+    "solution": "There is one more TH transition than HT, so the string begins with T and ends with H. Collapsing runs leaves THTHTHTH: four T-runs and four H-runs. The five TT pairs are five extra Ts distributed among four nonempty runs, in $\\binom83$ ways; the two HH pairs are two extra Hs distributed among four runs, in $\\binom53$ ways. These choices uniquely recover the string. The count is $56\\cdot10=560$.",
+    "answer": 560,
+    "tags": [
+      "runs",
+      "compositions"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Both sources encode the alternating runs and distribute extra letters.",
+    "verification": "Independent exact check passed: Enumerated all 32768 coin words and their 14 adjacent transitions. Result 560. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_13",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 17
+  },
+  {
+    "id": "1987-A-01",
+    "title": "Addition without carrying",
+    "restatement": "Count ordered nonnegative integer pairs (m,n) summing to 1492 with no decimal carry.",
+    "solution": "For a target digit $d$, choose the corresponding digit of $m$ from 0 through $d$; the digit of $n$ is then forced. Leading zeros are allowed and the four positions are independent. Hence the count is $(1+1)(4+1)(9+1)(2+1)=300$.",
+    "answer": 300,
+    "tags": [
+      "digit product rule"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "Independent exact check passed: Enumerated all nonnegative summand pairs. Result 300. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_1",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 13
+  },
+  {
+    "id": "1987-A-07",
+    "title": "LCM triples",
+    "restatement": "Count positive ordered triples (a,b,c) with lcm(a,b)=1000 and lcm(a,c)=lcm(b,c)=2000.",
+    "solution": "Only primes 2 and 5 can occur. For the 2-exponents $(u,v,w)$, the conditions are $\\max(u,v)=3$ and $\\max(u,w)=\\max(v,w)=4$. Thus $w=4$ and $(u,v)\\in\\{0,1,2,3\\}^2$ has maximum 3, giving $4^2-3^2=7$ choices. For the 5-exponents, every pair has maximum 3, so at least two exponents are 3. There are $1+3\\cdot3=10$ choices. Independent prime-exponent choices give $7\\cdot10=70$.",
+    "answer": 70,
+    "tags": [
+      "prime exponent product",
+      "hybrid number theory"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Alternatives count prime exponents independently or split on the exponent pattern of c.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_7",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 9
+  },
+  {
+    "id": "1987-A-13",
+    "title": "One bubble pass",
+    "restatement": "A random ordering of 40 distinct numbers undergoes one left-to-right bubble-sort pass. Find numerator plus denominator for the chance that the original twentieth number finishes thirtieth.",
+    "solution": "The number must be larger than the preceding 19 numbers, or their maximum swaps it left at its first comparison. It must then exceed positions 21 through 30 to move to position 30, and be smaller than position 31 to stop there. Equivalently, among the first 31 entries, position 31 contains the maximum and position 20 the second maximum. Their ordered locations are uniform among $31\\cdot30$ possibilities, so the chance is $1/930$ and the answer is $931$.",
+    "answer": 931,
+    "tags": [
+      "relative rank",
+      "algorithm invariant"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_13",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 26
+  },
+  {
+    "id": "1988-A-01",
+    "title": "More lock combinations",
+    "restatement": "A ten-button lock originally accepts any five-element button set as a possible code. If codes of every size 1 through 9 become available, how many additional codes exist?",
+    "solution": "There are $2^{10}-2$ nonempty proper subsets of the button set. Subtract the $\\binom{10}{5}=252$ old codes. The increase is $1024-2-252=770$.",
+    "answer": 770,
+    "tags": [
+      "subsets",
+      "complement"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_1",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 28
+  },
+  {
+    "id": "1988-A-05",
+    "title": "Divisor probability",
+    "restatement": "A divisor of 10^99 is chosen uniformly. Find numerator plus denominator for its probability of being divisible by 10^88.",
+    "solution": "Write the divisor as $2^a5^b$ with $0\\le a,b\\le99$. All 10000 exponent pairs correspond to distinct divisors. Divisibility by $10^{88}$ requires both exponents at least 88, giving $12^2=144$ pairs. Thus the chance is $9/625$, giving $634$.",
+    "answer": 634,
+    "tags": [
+      "exponent lattice",
+      "probability"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_5",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 19
+  },
+  {
+    "id": "1988-A-10",
+    "title": "Interior diagonals of a polyhedron",
+    "restatement": "A convex polyhedron has 12 square, 8 regular hexagonal and 6 regular octagonal faces, one of each at every vertex. Count vertex-pair segments lying in its interior.",
+    "solution": "Counting square corners gives $V=12\\cdot4=48$. Three edges meet at every vertex, hence $E=3V/2=72$. A k-gon has $k(k-3)/2$ diagonals, so face diagonals total $12\\cdot2+8\\cdot9+6\\cdot20=216$. In a convex polyhedron, every vertex-pair segment is an edge, a face diagonal, or an interior diagonal; a face diagonal belongs to only one face. Therefore the answer is $\\binom{48}{2}-72-216=840$.",
+    "answer": 840,
+    "tags": [
+      "incidence",
+      "combinatorial geometry"
+    ],
+    "source_review": "Read and compared all 5 archived solution entries. Alternatives count face incidences, permissible endpoints, face diagonals or use Euler’s formula.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 27
+  },
+  {
+    "id": "1988-A-15",
+    "title": "Stack output after lunch",
+    "restatement": "Letters 1 through 9 arrive in order at a last-in-first-out inbox. At lunch, letter 8 has already been typed. Count distinct possible sequences of letters typed afterward, including the empty sequence.",
+    "solution": "Any subset $U$ of letters 1 through 7 can remain in the stack when 8 is removed: pop each unwanted letter immediately on its arrival and retain wanted letters. If $|U|=k$, their later output order is forced to be decreasing. Letter 9 is either already typed, giving one sequence, or still to be typed and can be inserted in any of the $k+1$ places in this decreasing sequence by choosing its arrival time. These outputs are all distinct and exhaust the possibilities. Thus the count is $\\sum_{k=0}^7\\binom7k(k+2)=7\\cdot2^6+2\\cdot2^7=704$.",
+    "answer": 704,
+    "tags": [
+      "stack",
+      "weighted subsets"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. Alternatives count stack subsets and insertion positions or split by the letter immediately before 9; histories must be deduplicated.",
+    "verification": "Independent exact check passed: Enumerated all legal stack output histories and every lunch cut after the output of 8; deduplicated suffixes. Result 704. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_15",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 31
+  },
+  {
+    "id": "1989-A-02",
+    "title": "Polygons from circle points",
+    "restatement": "Ten points lie on a circle. Count convex polygons with at least three vertices selected from those points.",
+    "solution": "Every subset of at least three points gives exactly one convex polygon, by taking its points in circular order. Remove subsets of sizes 0,1,2 from all subsets: $2^{10}-1-10-\\binom{10}{2}=968$.",
+    "answer": 968,
+    "tags": [
+      "bijection",
+      "subsets"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_2",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 18
+  },
+  {
+    "id": "1989-A-05",
+    "title": "Recovering a biased coin",
+    "restatement": "For five independent flips of a fixed biased coin, the positive probabilities of exactly one and exactly two heads agree. Find numerator plus denominator for the probability of exactly three heads.",
+    "solution": "Let the head probability be $p$, with $0<p<1$. Equality gives $5p(1-p)^4=10p^2(1-p)^3$. Cancelling positive factors yields $1-p=2p$, so $p=1/3$. The desired probability is $\\binom53(1/3)^3(2/3)^2=40/243$, giving $283$.",
+    "answer": 283,
+    "tags": [
+      "binomial probability"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_5",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 31
+  },
+  {
+    "id": "1989-A-11",
+    "title": "Largest mode-minus-mean",
+    "restatement": "A sample of 121 integers in [1,1000] has one unique most frequent value. Maximize the integer part of that value minus the sample mean.",
+    "solution": "Let the mode be $u$ and occur $k\\ge2$ times. The other $121-k$ entries have multiplicity at most $k-1$. Their sum is minimized, even if we temporarily ignore whether u is excluded, by filling 1,2,3,… to that capacity. Also $u\\le1000$. Thus $121D\\le(121-k)1000-S_k$, where $S_k$ is that minimal sum. For $k=2,3,4,5,6$, respectively, $S_k=7140,3540,2340,1740,1380$. The corresponding upper numerators are $111860,114460,114660,114260,113620$; the largest is $114660$, with quotient $947+73/121$. For $k\\ge7$, already $D<114000/121<948$. Finally four 1000s and three copies of each integer 1 through 39 form 121 entries and attain $D=114660/121$. The requested maximum is $947$.",
+    "answer": 947,
+    "tags": [
+      "capacity bound",
+      "extremal multiset"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Both archived entries need stronger optimization justification; the replacement proof checks all frequency ranges exactly.",
+    "verification": "Independent exact check passed: Exact capacity-minimal sums for every possible mode multiplicity 2,…,121. Result 947. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_11",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 0,
+        "severity": "incomplete optimization",
+        "note": "Uses an approximate continuous optimization and a small trial list without excluding all other mode multiplicities."
+      },
+      {
+        "index": 1,
+        "severity": "incomplete optimization",
+        "note": "Its exact arithmetic-progression average requires a divisibility condition, and the claimed monotonicity after the tested cases is not proved."
+      }
+    ],
+    "restatement_word_count": 24
+  },
+  {
+    "id": "1989-A-13",
+    "title": "Avoiding differences four and seven",
+    "restatement": "Find the maximum size of a subset of {1,…,1989} with no pair differing by 4 or 7.",
+    "solution": "In each consecutive block of 11 integers, the forbidden-difference graph contains an 11-cycle: relative labels $1,5,9,2,6,10,3,7,11,4,8,1$. An independent set in an odd cycle has at most 5 vertices, since every selected vertex requires an unselected successor. Split 1989 into 180 such blocks and a final block of 9. In the last block, four disjoint pairs $(1,5),(2,6),(3,7),(4,8)$ allow at most five selected numbers. Hence the bound is $180\\cdot5+5=905$. Select residues $1,3,4,6,9$ modulo 11. Their nonzero differences modulo 11 are never 4 or 7, so the construction is valid and includes five in the final block. Thus the bound is attained.",
+    "answer": 905,
+    "tags": [
+      "independent set",
+      "periodic construction"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The consulted source omits a rigorous upper bound for its exceptional end block. The cycle-and-matching argument closes that gap.",
+    "verification": "Independent exact check passed: Exact seven-bit transfer dynamic program for all 1989 positions, forbidding separations 4 and 7. Result 905. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_13",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 0,
+        "severity": "incomplete bound",
+        "note": "The exceptional end block is given an attaining construction without its required upper bound; the replacement proof uses four disjoint forbidden pairs in a nine-element block."
+      }
+    ],
+    "restatement_word_count": 17
+  },
+  {
+    "id": "1990-A-01",
+    "title": "Ranking nonsquares and noncubes",
+    "restatement": "List positive integers that are neither perfect squares nor perfect cubes. Find the five-hundredth.",
+    "solution": "Up to $N$, inclusion-exclusion gives $N-\\lfloor\\sqrt N\\rfloor-\\lfloor\\sqrt[3]N\\rfloor+\\lfloor\\sqrt[6]N\\rfloor$ admissible numbers. At $N=528$ this is $528-22-8+2=500$, while at 527 it is 499. Therefore the five-hundredth term is $528$.",
+    "answer": 528,
+    "tags": [
+      "inclusion-exclusion",
+      "rank inversion"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "Independent exact check passed: Direct filtering of all integers through 599. Result 528. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_1",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 14
+  },
+  {
+    "id": "1990-A-06",
+    "title": "Tagged fish population estimate",
+    "restatement": "Of 60 fish tagged in May, 25% are assumed gone by September. A representative September sample of 70 contains three tagged fish; 40% of September fish are new. Estimate the May population.",
+    "solution": "The assumed number of surviving tagged fish is $60(3/4)=45$. Their September fraction is $3/70$, giving September population $45/(3/70)=1050$. Of these, $60\\%$ or 630 survived from May. This is $75\\%$ of the May population, so the estimate is $630/(3/4)=840$. This is the model-based estimate specified by the assumptions, not an exact statistical inference from one random sample.",
+    "answer": 840,
+    "tags": [
+      "sampling model",
+      "probability"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_6",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 32
+  },
+  {
+    "id": "1990-A-08",
+    "title": "Interleaving three target stacks",
+    "restatement": "Targets occupy three labeled vertical columns of sizes 3,3,2. Each shot must hit the lowest remaining target of its chosen column. Count complete shooting orders.",
+    "solution": "A complete order is uniquely encoded by its sequence of column labels: the chosen label determines the lowest remaining target. Choose positions for the three shots in the first column, then the three in the second; the rest belong to the third. The count is $\\binom83\\binom53=8!/(3!3!2!)=560$.",
+    "answer": 560,
+    "tags": [
+      "interleavings",
+      "multinomial"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_8",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 25
+  },
+  {
+    "id": "1990-A-09",
+    "title": "No consecutive heads",
+    "restatement": "Toss a fair coin ten times. Find numerator plus denominator for the probability of no adjacent heads.",
+    "solution": "Let $a_n$ count legal n-toss words. A legal word ends either in T after any legal length-$n-1$ word, or in TH after any legal length-$n-2$ word. Thus $a_n=a_{n-1}+a_{n-2}$ with $a_0=1,a_1=2$. The values through $a_{10}$ are $1,2,3,5,8,13,21,34,55,89,144$. Therefore $P=144/1024=9/64$, giving $73$.",
+    "answer": 73,
+    "tags": [
+      "finite state",
+      "Fibonacci"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. Alternatives are the Fibonacci recurrence and a head-count gap sum.",
+    "verification": "Independent exact check passed: Enumerated all 1024 toss sequences. Result 144. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_9",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 17
+  },
+  {
+    "id": "1990-A-12",
+    "title": "Sum of dodecagon chords",
+    "restatement": "For a regular 12-gon of circumradius 12, write the sum of all side and diagonal lengths as a+b√2+c√3+d√6. Find a+b+c+d.",
+    "solution": "For circular separation $j=1,\\ldots,5$, there are 12 chords of length $24\\sin(15j^\\circ)$; there are six diameters of length 24. The five shorter lengths are $6(\\sqrt6-\\sqrt2),12,12\\sqrt2,12\\sqrt3,6(\\sqrt6+\\sqrt2)$. Thus the total is $288+144\\sqrt2+144\\sqrt3+144\\sqrt6$, whose coefficient sum is $720$. The diameter class has six rather than twelve members because the two directions reach the same endpoint.",
+    "answer": 720,
+    "tags": [
+      "orbit size",
+      "chord counting"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives evaluate the same six chord classes using trigonometry, cosine law or complex coordinates.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_12",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 20
+  },
+  {
+    "id": "1990-A-13",
+    "title": "Leading nines in powers",
+    "restatement": "Among 9^0,…,9^4000, count those beginning with decimal digit 9, given that 9^4000 has 3817 digits and begins with 9.",
+    "solution": "Write $d_k$ for the digit length of $9^k$. Multiplication by 9 increases length by either 0 or 1. For $k\\ge1$, $d_k=d_{k-1}$ precisely when $9^k$ begins with 9: the two inequalities become $9\\cdot10^{d_k-1}\\le9^k<10^{d_k}$. Among 4000 transitions, exactly $3817-1=3816$ increase the digit length, and the other 184 preserve it. Since $9^0=1$ does not begin with 9, the answer is $184$.",
+    "answer": 184,
+    "tags": [
+      "telescoping",
+      "leading digits"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. Alternatives group powers by digit length or count length-preserving multiplication steps.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_13",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 19
+  },
+  {
+    "id": "1991-A-05",
+    "title": "Coprime factor allocations",
+    "restatement": "How many reduced fractions strictly between 0 and 1 have numerator times denominator equal to 20!?",
+    "solution": "The eight distinct primes dividing $20!$ are $2,3,5,7,11,13,17,19$. Coprimality requires each prime power in $20!$ to be placed wholly in the numerator or wholly in the denominator, giving $2^8$ ordered allocations. Swapping numerator and denominator pairs them, with no fixed point because the coprime factors cannot be equal. Exactly half have numerator smaller, so the count is $128$.",
+    "answer": 128,
+    "tags": [
+      "prime allocation",
+      "involution"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_5",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 16
+  },
+  {
+    "id": "1991-A-10",
+    "title": "Lexicographic transmission errors",
+    "restatement": "Send aaa and bbb through independent channels that flip each letter with probability 1/3. The first received word precedes the second with probability p. Find the numerator of p in lowest terms.",
+    "solution": "At one position the letters agree with probability $2(2/3)(1/3)=4/9$, while the first is a and the second b with probability $(2/3)^2=4/9$. Lexicographic order is decided by the first differing position. Hence $p=4/9+(4/9)^2+(4/9)^3=(324+144+64)/729=532/729$. The numerator is $532$; it is coprime to 729 because it is not divisible by 3.",
+    "answer": 532,
+    "tags": [
+      "first difference",
+      "probability"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives use an eight-string table or condition on the first differing letter.",
+    "verification": "Independent exact check passed: Summed exact probabilities over all 64 pairs of received strings. Result 532/729. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 32
+  },
+  {
+    "id": "1991-A-13",
+    "title": "Sock counts from a probability",
+    "restatement": "At most 1991 socks, red or blue, are in a drawer. Two drawn without replacement have the same color with probability 1/2. Maximize the number of red socks.",
+    "solution": "Write $N=r+b$. The equation $\\binom r2+\\binom b2=\\tfrac12\\binom N2$ simplifies to $(r-b)^2=N$. Therefore $N=t^2$ and the larger color class has $(t^2+t)/2$ socks. Since $t^2\\le1991$, $t\\le44$. Choosing $t=44$, red $r=44\\cdot45/2=990$ and blue $946$ satisfies the equation and the size bound. The maximum is $990$.",
+    "answer": 990,
+    "tags": [
+      "sampling without replacement",
+      "Diophantine probability"
+    ],
+    "source_review": "Read and compared all 6 archived solution entries. All six forms reduce to the square identity (r−b)²=r+b, with different algebraic parametrizations.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_13",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 2,
+        "severity": "typographical",
+        "note": "The concluding phrase says to take the lower red count although the maximum is the larger count 990."
+      }
+    ],
+    "restatement_word_count": 28
+  },
+  {
+    "id": "1992-A-02",
+    "title": "Strictly increasing digits",
+    "restatement": "Count positive decimal integers of at least two digits whose digits strictly increase from left to right.",
+    "solution": "Zero cannot occur, because it would have to be the leading digit. Any subset of $\\{1,\\ldots,9\\}$ of size at least two determines one increasing numeral. Thus the count is $2^9-1-9=502$.",
+    "answer": 502,
+    "tags": [
+      "subset bijection",
+      "digits"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The second entry proves the same binomial count through the hockey-stick identity.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_2",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 17
+  },
+  {
+    "id": "1992-A-05",
+    "title": "Numerators of repeating decimals",
+    "restatement": "For all numbers 0.abcabc… strictly between 0 and 1, count distinct numerators after reducing the fraction.",
+    "solution": "Every fraction is $u/999$ with $1\\le u\\le998$, and $999=3^3\\cdot37$. A reduced numerator n occurs exactly when some divisor d of 999 satisfies $n<d$ and $\\gcd(n,d)=1$. If n is divisible by neither 3 nor 37, take d=999; there are $\\varphi(999)=648$ such n. If 3 divides n but 37 does not, a coprime denominator must divide 37, so precisely $n=3,6,\\ldots,36$ work, adding 12. If 37 divides n, any coprime denominator is at most 27, smaller than n, so none work. The total is $660$.",
+    "answer": 660,
+    "tags": [
+      "distinct image",
+      "inclusion-exclusion"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The consulted source counts reductions of multiples of 81. Characterizing possible reduced denominators makes exhaustiveness explicit.",
+    "verification": "Independent exact check passed: Reduced every numerator 1,…,998 over 999 and deduplicated. Result 660. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_5",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 16
+  },
+  {
+    "id": "1992-A-06",
+    "title": "Consecutive integers without carries",
+    "restatement": "Count consecutive pairs whose members are both in [1000,2000] and whose decimal addition produces no carry.",
+    "solution": "Write the smaller member as 1ABC. If it has no trailing 9, all three digits A,B,C must be 0 through 4, giving $5^3$. If it has exactly one trailing 9, A and B must be 0 through 4, giving $5^2$. With exactly two trailing 9s, A has five choices. The remaining pair 1999,2000 also works. These disjoint cases give $125+25+5+1=156$.",
+    "answer": 156,
+    "tags": [
+      "carry states",
+      "digits"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. The reliable partition is by the number of trailing nines of the smaller integer.",
+    "verification": "Independent exact check passed: Direct decimal-digit carry test on all 1000 consecutive pairs. Result 156. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_6",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 2,
+        "severity": "incorrect case partition",
+        "note": "The initial 150-case family includes the out-of-range pair 999,1000 and overlaps later cases 1100,…,1400; it also omits valid endings such as 1050. Errors cancel numerically, but the partition is invalid."
+      }
+    ],
+    "restatement_word_count": 16
+  },
+  {
+    "id": "1992-A-12",
+    "title": "Chomp positions",
+    "restatement": "On a 5-by-7 board, a move removes one cell and all cells above and to its right. Count all possible remaining cell sets, including the full and empty boards.",
+    "solution": "Remaining cells form a lower-left order ideal: if a cell remains, all cells below and left of it remain. Conversely any such ideal can be realized by removing the upper-right quadrants based at the minimal excluded cells. The boundary between kept and removed cells is a monotone path across the enclosing rectangle with five vertical and seven horizontal steps, and this correspondence is bijective. Hence the count is $\\binom{12}{5}=792$.",
+    "answer": 792,
+    "tags": [
+      "order ideal",
+      "lattice path"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The alternatives identify monotone boundaries or nondecreasing row lengths.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_12",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 29
+  },
+  {
+    "id": "1992-A-15",
+    "title": "Missing factorial trailing-zero counts",
+    "restatement": "A positive integer is attainable if it is the exact number of trailing zeros of some factorial. How many positive integers below 1992 are unattainable?",
+    "solution": "Let $z(m)=\\sum_{j\\ge1}\\lfloor m/5^j\\rfloor$. It is constant on each block $5k,\\ldots,5k+4$, and increases strictly between blocks. At $m=7975$, $z(m)=1595+319+63+12+2=1991$, while $z(7980)=1596+319+63+12+2=1992$. Therefore exactly the 1595 positive block values for $k=1,\\ldots,1595$ occur below 1992. Of the 1991 positive target integers, $1991-1595=396$ are missing.",
+    "answer": 396,
+    "tags": [
+      "monotone image",
+      "valuation counting"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The second method counts skipped values at higher powers of five.",
+    "verification": "Independent exact check passed: Enumerated all distinct trailing-zero counts until the first value 1992. Result 396. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_15",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 25
+  },
+  {
+    "id": "1993-A-01",
+    "title": "Even numbers with distinct digits",
+    "restatement": "Count even integers strictly between 4000 and 7000 whose four digits are distinct.",
+    "solution": "The thousands digit is 4,5 or 6. If it is 4 or 6, the units digit has four even choices; if it is 5, the units digit has five. Once those digits are fixed, the middle positions have 8 and 7 choices. Thus $(2\\cdot4+5)8\\cdot7=728$. The endpoints have repeated digits and do not affect the count.",
+    "answer": 728,
+    "tags": [
+      "digits",
+      "casework"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "Independent exact check passed: Enumerated every integer strictly between the endpoints. Result 728. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_1",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 1,
+        "severity": "typographical",
+        "note": "For thousands digit 6, the listed units choices incorrectly include 6 and omit 4; the number of choices remains four."
+      }
+    ],
+    "restatement_word_count": 13
+  },
+  {
+    "id": "1993-A-04",
+    "title": "Equal outer and inner sums",
+    "restatement": "Count integer quadruples 0<a<b<c<d<500 satisfying a+d=b+c and bc−ad=93.",
+    "solution": "Set $u=b-a=d-c>0$ and $v=c-b>0$. Then $(a,b,c,d)=(a,a+u,a+u+v,a+2u+v)$ and $bc-ad=u(u+v)=93$. Thus $(u,u+v)$ is either $(1,93)$ or $(3,31)$; the reversed factor pairs violate $v>0$. The spans d−a are respectively 94 and 34, allowing $499-94=405$ and $499-34=465$ positive starting values a. The total is $870$.",
+    "answer": 870,
+    "tags": [
+      "gap parametrization",
+      "hybrid number theory"
+    ],
+    "source_review": "Read and compared all 6 archived solution entries. Alternatives factor a translation-invariant product using gaps, a shifted origin or centered coordinates.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_4",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 5,
+        "severity": "minor gap",
+        "note": "Assumes the centered parameters are integers without excluding half-integers; oddness of 93 supplies the missing parity argument."
+      }
+    ],
+    "restatement_word_count": 8
+  },
+  {
+    "id": "1993-A-07",
+    "title": "Fitting one random brick into another",
+    "restatement": "Choose six distinct values uniformly from 1 through 1000, three for brick dimensions and three for box dimensions. Find numerator plus denominator for the probability that the brick fits with parallel sides after rotation.",
+    "solution": "Sort both triples. A fitting assignment exists exactly when the ith smallest brick dimension is below the ith smallest box dimension: necessity follows by counting available larger box dimensions, and sorted matching proves sufficiency. In the sorted list of all six values, write A for brick and B for box. The condition says every prefix has at least as many As as Bs. Of the $\\binom63=20$ equally likely label words, reflection counts $\\binom63-\\binom62=5$ good ones. Hence $p=1/4$ and the requested sum is $5$.",
+    "answer": 5,
+    "tags": [
+      "ballot path",
+      "relative order"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives list rank words or use Catalan numbers and the hook-length formula.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_7",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 34
+  },
+  {
+    "id": "1993-A-08",
+    "title": "Unordered covering subset pairs",
+    "restatement": "For a six-element set S, count unordered pairs of subsets, allowing equality, whose union is S.",
+    "solution": "For an ordered pair, each element belongs only to the first subset, only to the second, or to both, giving $3^6$ pairs. Swapping the two subsets fixes just $(S,S)$; every other pair has two orderings. Therefore the unordered count is $(3^6-1)/2+1=365$.",
+    "answer": 365,
+    "tags": [
+      "Burnside",
+      "nonuniform fibers"
+    ],
+    "source_review": "Read and compared all 7 archived solution entries. Alternatives use element states, a recurrence, overlap size or subset-size partitions; the identical pair is exceptional.",
+    "verification": "Independent exact check passed: Enumerated every unordered pair of six-bit subsets. Result 365. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_8",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 16
+  },
+  {
+    "id": "1993-A-10",
+    "title": "Uniform vertex face incidences",
+    "restatement": "A convex polyhedron has 32 triangular or pentagonal faces. At each vertex, T triangles and P pentagons meet. Determine 100P+10T+V.",
+    "solution": "Let t,p be the face counts. Incidence counting gives $3t=TV$, $5p=PV$, so $V(5T+3P)=15(t+p)=480$. Every vertex has degree $T+P$, hence Euler gives $V(T+P-2)=60$. Eliminating V yields $5T+3P=8(T+P-2)$, or $3T+5P=16$. Its only nonnegative integer solution is $T=P=2$. Therefore $V=60/(4-2)=30$, and the answer is $200+20+30=250$.",
+    "answer": 250,
+    "tags": [
+      "Euler formula",
+      "double counting"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. The incidence-based alternative is sound and avoids unwarranted regularity or visual uniqueness assumptions.",
+    "verification": "Independent exact check passed: Exhausted the integer incidence equations; no regular-face assumption. Result [(30, 2, 2)]. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 0,
+        "severity": "incomplete uniqueness",
+        "note": "Identifies a particular solid without proving that the given incidence conditions force its parameters."
+      },
+      {
+        "index": 2,
+        "severity": "unjustified assumption",
+        "note": "Uses regular-face angles 60 and 108 degrees although the statement specifies only triangles and pentagons."
+      },
+      {
+        "index": 3,
+        "severity": "incomplete uniqueness",
+        "note": "Assumes a four-edge vertex pattern from a drawing. Incidence equations establish it without this assumption."
+      }
+    ],
+    "restatement_word_count": 20
+  },
+  {
+    "id": "1993-A-11",
+    "title": "Loser starts the next game",
+    "restatement": "Two players alternate fair coin flips until the first head wins. The loser starts the next game. Alfred starts game one. If his probability of winning game six is m/n in lowest terms, find the last three digits of m+n.",
+    "solution": "A game starter wins with probability $1/2+1/8+\\cdots=2/3$. Let p_j be Alfred’s win probability in game j. If he just won he starts second next time; otherwise he starts first. Thus $p_{j+1}=p_j/3+2(1-p_j)/3=(2-p_j)/3$, with $p_1=2/3$. The successive values are $2/3,4/9,14/27,40/81,122/243,364/729$. This last fraction is reduced, and $364+729=1093$, giving $093$.",
+    "answer": 93,
+    "tags": [
+      "Markov recurrence",
+      "conditioning"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives use state recurrences or count an odd number of switches of the starting player.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_11",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 40
+  },
+  {
+    "id": "1993-A-12",
+    "title": "Undoing random midpoint choices",
+    "restatement": "Inside the triangle with vertices (0,0),(0,420),(560,0), a point undergoes six midpoint moves toward arbitrarily selected vertices and ends at (14,92). Determine the sum of its starting coordinates.",
+    "solution": "Undoing the affine recurrence gives $x_1=64(14)-560J$ and $y_1=64(92)-420K$, where J and K are integers encoding choices of the two nonzero vertices. Because the start is interior, $0<x_1<560$ and $0<y_1<420$. These inequalities force $J=1,K=14$, so $(x_1,y_1)=(336,8)$. The two binary encodings 1 and 14 have disjoint 1-bits, so they correspond to valid vertex choices; the remaining bits correspond to the origin. Also $336/560+8/420<1$, confirming the start is interior. The coordinate sum is $344$.",
+    "answer": 344,
+    "tags": [
+      "binary coding",
+      "affine state"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Both sources reverse the affine midpoint process, either stepwise or through binary weights.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_12",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 27
+  },
+  {
+    "id": "1994-A-05",
+    "title": "A weighted sum over digit strings",
+    "restatement": "For each positive integer n, multiply its nonzero decimal digits. Let S be the sum of these products for n=1,…,999. Find the largest prime divisor of S.",
+    "solution": "Use three-digit strings with leading zeros, assigning weight 1 to a zero and its usual value to every other digit. Independence of the three positions gives total weight $(1+1+2+\\cdots+9)^3=46^3$ over 000 through 999. Remove the artificial all-zero string, of weight 1. Thus $S=46^3-1=45\\cdot2163=3^3\\cdot5\\cdot7\\cdot103$, and the largest prime factor is $103$.",
+    "answer": 103,
+    "tags": [
+      "weighted product rule",
+      "digits"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_5",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 1,
+        "severity": "typographical",
+        "note": "One displayed sum includes p(10) but assigns the sum of p(1),…,p(9); the product-form derivation is cleaner."
+      }
+    ],
+    "restatement_word_count": 27
+  },
+  {
+    "id": "1994-A-06",
+    "title": "Small triangles in three line families",
+    "restatement": "For every integer k from −10 to 10, draw y=k, y=√3x+2k and y=−√3x+2k. Count equilateral triangles of side 2/√3 whose edges lie on the lines.",
+    "solution": "Choose line indices a,b,c in the horizontal, positive-slope and negative-slope families. The sloped lines meet at height b+c, so the triangle’s altitude is $|a-b-c|$ and its side is $2|a-b-c|/\\sqrt3$. Thus count triples with $a-b-c=\\pm1$. For a fixed sum $s=b+c$, there are $21-|s|$ pairs when $|s|\\le20$. The +1 case requires $-11\\le s\\le9$ and contributes $21^2-(66+45)=330$. Symmetry gives 330 for −1. Each triangle has a unique three-line description, so the answer is $660$.",
+    "answer": 660,
+    "tags": [
+      "lattice counting",
+      "combinatorial geometry"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. Alternatives use hexagon area, missing horizontal lines or an enclosing triangle.",
+    "verification": "Independent exact check passed: Enumerated all 21³ triples of line indices with unit altitude. Result 660. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_6",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 25
+  },
+  {
+    "id": "1994-A-07",
+    "title": "Lines with only integral circle intersections",
+    "restatement": "Count real pairs (a,b) for which ax+by=1 and x²+y²=50 have at least one common point and every common point has integral coordinates.",
+    "solution": "The circle’s integral points are $(\\pm1,\\pm7),(\\pm7,\\pm1),(\\pm5,\\pm5)$, twelve in all. A qualifying line is either tangent at one of these twelve points or a secant through two of them. There are $\\binom{12}{2}$ secants, but the six antipodal pairs give lines through the origin, which cannot have equation $ax+by=1$. All other secants and all tangents have unique normalized equations of that form. Hence the answer is $66-6+12=72$.",
+    "answer": 72,
+    "tags": [
+      "geometric pairs",
+      "exceptional fibers"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The finite lattice-point model determines all tangent and secant possibilities; antipodal pairs require a separate exclusion.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_7",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 22
+  },
+  {
+    "id": "1994-A-09",
+    "title": "Matched tiles without three open pairs",
+    "restatement": "Six labeled pairs of tiles are drawn uniformly without replacement. A pair is discarded as soon as matched. The process loses if three unmatched tiles are ever held. Find numerator plus denominator for the probability of emptying the bag.",
+    "solution": "Let $P_k$ be success probability starting with $k$ pairs and an empty hand. Drawing one arbitrary tile changes no success probability, by symmetry. For $k\\ge2$, either the second tile matches the first (probability $1/(2k-1)$), or it does not and the third must match one of those two (probability $[(2k-2)/(2k-1)] [2/(2k-2)]$). After removal of that first completed pair, the state is $k-1$ pairs, with zero or one arbitrary first tile already exposed, so its success probability is $P_{k-1}$. Therefore $P_k=3P_{k-1}/(2k-1)$, $P_1=1$. Hence $P_6=3^5/(3\\cdot5\\cdot7\\cdot9\\cdot11)=9/385$, giving $394$.",
+    "answer": 394,
+    "tags": [
+      "renewal",
+      "state compression"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Both sources condition on completing the first pair and use the same reduced-state equivalence.",
+    "verification": "Independent exact check passed: Independent exact dynamic program by unopened pairs and held unmatched tiles. Result 9/385. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_9",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 39
+  },
+  {
+    "id": "1994-A-11",
+    "title": "Distinct heights of a brick tower",
+    "restatement": "Build a tower of 94 bricks, each contributing height 4,10 or 19. Count distinct possible total heights.",
+    "solution": "Subtract the base height $94\\cdot4$ and divide by 3. The offset is $t=2a+5b$, where $a,b\\ge0$ and $a+b\\le94$. Whenever $a\\ge5$, replace five height-2 contributions by two height-5 contributions and three zero contributions; this preserves both height and the 94-brick total. Repetition gives a canonical description with $0\\le a\\le4$. Such descriptions are unique: t modulo 5 determines a, then t determines b. For each a, the choices are $b=0,\\ldots,94-a$, giving $95-a$ heights. Hence the total is $95+94+93+92+91=465$.",
+    "answer": 465,
+    "tags": [
+      "sumset",
+      "bounded occupancy"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Alternative index 1 is the shortest: reduce the count of height-2 offset bricks modulo five, obtaining unique canonical descriptions.",
+    "verification": "Independent exact check passed: Enumerated all feasible orientation-count pairs and deduplicated heights. Result 465. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_11",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 0,
+        "severity": "incomplete capacity check",
+        "note": "Coin representability alone does not enforce the 94-brick cap. Alternative index 1 supplies the canonical representative argument used in the revised solution."
+      }
+    ],
+    "restatement_word_count": 17
+  },
+  {
+    "id": "1995-A-03",
+    "title": "First hitting a lattice point",
+    "restatement": "A planar random walk starts at (0,0) and chooses each unit cardinal step with probability 1/4. Find numerator plus denominator for the chance it visits (2,2) within six steps.",
+    "solution": "Parity and distance allow a first visit only at step 4 or 6. There are $\\binom42=6$ four-step routes. A six-step route ending there has steps RRRUUL or RRUUUD, giving $2\\cdot6!/(3!2!)=120$. Of these, $6\\cdot4=24$ first arrive at step 4 and then make an out-and-back pair. Thus the required probability is $6/4^4+(120-24)/4^6=3/64$, and the answer is $67$.",
+    "answer": 67,
+    "tags": [
+      "first passage",
+      "multinomial"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Both sources separate paths hitting at time 4 from those first hitting at time 6, with different denominator bookkeeping.",
+    "verification": "Independent exact check passed: Enumerated all 4096 six-step walks and tested first or later visits. Result 3/64. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_3",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 29
+  },
+  {
+    "id": "1995-A-06",
+    "title": "Divisors below a square root",
+    "restatement": "Let n=2^31·3^19. Count divisors of n² that are smaller than n but do not divide n.",
+    "solution": "The $63\\cdot39$ divisors of $n^2$ pair under $d\\mapsto n^2/d$, with unique fixed point n. Hence $(63\\cdot39-1)/2=1228$ lie below n. Every proper divisor of n lies among these; there are $32\\cdot20-1=639$. Subtraction gives $1228-639=589$.",
+    "answer": 589,
+    "tags": [
+      "divisor involution",
+      "complement"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. The general two-prime simplification is that the requested count equals the product of the two exponents.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_6",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 2,
+        "severity": "typographical",
+        "note": "The reciprocal divisor is written n/a once although the paired product is n², requiring n²/a."
+      }
+    ],
+    "restatement_word_count": 16
+  },
+  {
+    "id": "1995-A-08",
+    "title": "Two simultaneous integer ratios",
+    "restatement": "Count positive integer pairs $y<x\\le100$ for which $x/y$ and $(x+1)/(y+1)$ are integers.",
+    "solution": "The two conditions are equivalent to both $y$ and $y+1$ dividing $x-y$. Since they are coprime, $x-y=t y(y+1)$ for an integer $t\\ge1$. Conversely this expression satisfies both conditions. For a given $y$ the count is $\\lfloor(100-y)/(y(y+1))\\rfloor$. Only $y=1,\\ldots,9$ contribute, with counts $49,16,8,4,3,2,1,1,1$. Their sum is $85$.",
+    "answer": 85,
+    "tags": [
+      "parametric counting",
+      "divisibility"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. Alternatives derive the same y(y+1) divisibility parametrization or enumerate its small y-cases.",
+    "verification": "Independent exact check passed: Checked every bounded integer pair directly. Result 85. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_8",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 12
+  },
+  {
+    "id": "1995-A-11",
+    "title": "A self-similar cut prism",
+    "restatement": "An integer-sided rectangular prism has sorted sides $a\\le b\\le c$ with $b=1995$. A face-parallel cut produces a smaller similar prism. Count possible triples $(a,b,c)$.",
+    "solution": "The similar piece has scale factor q<1 and sorted sides qa,qb,qc, two of which are unchanged original side lengths. The unchanged lengths cannot include c, since qc<c; they therefore are a and b, forcing qb=a and qc=b. Consequently $ac=b^2$ and $a<b<c$. Conversely any such factor pair works: cut the c-side to length $qa=a^2/b$, which is positive and less than c; the remaining two dimensions are a,b, as required. Now $1995=3\\cdot5\\cdot7\\cdot19$, so $b^2$ has $3^4=81$ divisors. Excluding the central pair a=c=b and pairing reciprocal divisors gives $(81-1)/2=40$ triples.",
+    "answer": 40,
+    "tags": [
+      "factor pairing",
+      "hybrid geometry"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_11",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 22
+  },
+  {
+    "id": "1995-A-15",
+    "title": "Five heads before two tails",
+    "restatement": "Flip a fair coin until either five consecutive heads or two consecutive tails first appears. Find numerator plus denominator for the probability that the five-head run wins.",
+    "solution": "A successful stopped word has an optional initial T, followed by zero or more blocks $H^jT$ with $1\\le j\\le4$, then HHHHH. This parsing is unique: the blocks are the completed head-runs before the winning run. The optional prefix contributes weight $1+1/2=3/2$; each block has total probability weight $\\sum_{j=1}^4 2^{-(j+1)}=15/32$; the last run has weight 1/32. Summing disjoint stopped words gives $p=(3/2)(1/32)\\sum_{k\\ge0}(15/32)^k=3/34$. Thus the answer is $37$.",
+    "answer": 37,
+    "tags": [
+      "unique blocks",
+      "absorbing probability"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives use geometric block sums or finite absorbing-state equations; the bare terminal-weight ratio needs justification.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_15",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 3,
+        "severity": "incomplete renewal justification",
+        "note": "Divides terminal pattern weights without proving the repeated renewal decomposition. The unique-block solution supplies that justification."
+      }
+    ],
+    "restatement_word_count": 27
+  },
+  {
+    "id": "1996-A-02",
+    "title": "Even logarithm floors",
+    "restatement": "Count positive integers $n<1000$ for which $\\lfloor\\log_2 n\\rfloor$ is positive and even.",
+    "solution": "The allowed floor values are 2,4,6,8. Value 2j corresponds exactly to $2^{2j}\\le n<2^{2j+1}$, a block of $2^{2j}$ integers. All four blocks lie below 1000, and the next begins at 1024. The count is $4+16+64+256=340$.",
+    "answer": 340,
+    "tags": [
+      "interval partition",
+      "hybrid algebra"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_2",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 12
+  },
+  {
+    "id": "1996-A-03",
+    "title": "Counting monomials after expansion",
+    "restatement": "Find the least positive n for which (xy−3x+7y−21)^n has at least 1996 nonzero monomials after collecting terms.",
+    "solution": "Factor the expression as $(x+7)^n(y-3)^n$. For each pair $0\\le i,j\\le n$, the monomial $x^iy^j$ has coefficient $\\binom ni7^{n-i}\\binom nj(-3)^{n-j}\\ne0$. Different exponent pairs are distinct monomials, so exactly $(n+1)^2$ terms survive. Since $44^2=1936<1996\\le45^2=2025$, the minimum is $n=44$.",
+    "answer": 44,
+    "tags": [
+      "Cartesian product",
+      "polynomial support"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_3",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 1,
+        "severity": "minor gap",
+        "note": "Says coefficients do not affect support, which is false in general; the given factorization or a fixed-sign argument is needed to exclude cancellation."
+      }
+    ],
+    "restatement_word_count": 17
+  },
+  {
+    "id": "1996-A-06",
+    "title": "No perfect or winless team",
+    "restatement": "Five teams play every pair once, with equally likely independent outcomes. Find numerator plus denominator for the probability that each team both wins and loses at least once.",
+    "solution": "A specified team wins all four games with probability 1/16; these five events are mutually exclusive. The same holds for losing all four. For a specified distinct undefeated team and winless team, seven outcomes are forced (their shared game only once), giving probability 1/128. There are 20 such ordered pairs, and no higher intersections. Thus the forbidden probability is $5/16+5/16-20/128=15/32$. The desired probability is $17/32$, giving $49$.",
+    "answer": 49,
+    "tags": [
+      "inclusion-exclusion",
+      "tournament"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "Independent exact check passed: Enumerated all 1024 labeled tournament orientations. Result 17/32. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_6",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 28
+  },
+  {
+    "id": "1996-A-07",
+    "title": "Two marked squares up to rotation",
+    "restatement": "Two cells of a 7-by-7 board are yellow and the rest green. Count colorings up to rotations of the board, with reflections remaining distinct.",
+    "solution": "Apply Burnside to the four rotations. The identity fixes $\\binom{49}{2}=1176$ colorings. A half-turn fixes exactly the 24 opposite pairs of noncentral cells. A quarter-turn or three-quarter-turn fixes none: noncentral cell orbits have size four and the center alone cannot provide two yellow cells. Hence the orbit count is $(1176+24)/4=300$.",
+    "answer": 300,
+    "tags": [
+      "Burnside",
+      "rotational symmetry"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Sources split exceptional symmetry classes directly; Burnside consolidates their cases.",
+    "verification": "Independent exact check passed: Canonicalized every marked-cell pair under four explicit coordinate rotations. Result 300. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_7",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 24
+  },
+  {
+    "id": "1996-A-08",
+    "title": "Integer pairs of prescribed harmonic mean",
+    "restatement": "Count positive integer pairs x<y whose harmonic mean is 6^20.",
+    "solution": "Put $H=6^{20}/2=2^{19}3^{20}$. The equation is $xy=H(x+y)$, so $(x-H)(y-H)=H^2$. Both factors are positive, because $1/x+1/y=1/H$ forces x,y>H. Thus strict pairs x<y correspond bijectively to factor pairs of $H^2=2^{38}3^{40}$ with unequal factors. There are $39\\cdot41=1599$ divisors and one central equal pair, so the answer is $(1599-1)/2=799$.",
+    "answer": 799,
+    "tags": [
+      "factor-pair bijection",
+      "hybrid number theory"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_8",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 10
+  },
+  {
+    "id": "1996-A-09",
+    "title": "Alternating elimination along lockers",
+    "restatement": "Initially lockers 1,…,1024 are closed. On alternating left-to-right and right-to-left passes, open every other still-closed locker, starting with the first encountered. Find the last opened locker.",
+    "solution": "The closed lockers after each pass remain an arithmetic progression. If it has even length and step d, a left-to-right pass removes positions 1,3,…, so its first entry increases by d; a right-to-left pass removes its even positions, leaving the first entry unchanged. Every pass doubles the step and halves the length. Starting with first entry 1 and step 1, the odd-numbered passes 1,3,5,7,9 increase the first entry by $1,4,16,64,256$. After ten passes a single locker remains, numbered $1+1+4+16+64+256=342$; it is opened next and last.",
+    "answer": 342,
+    "tags": [
+      "elimination recurrence",
+      "algorithm invariant"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. A valid alternative recurrence is L_n=2^n+2−2L_{n−1}; the third entry is only an invitation to simulate.",
+    "verification": "Independent exact check passed: Simulated alternating passes over the actual list of closed lockers. Result 342. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_9",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 2,
+        "severity": "incomplete",
+        "note": "Suggests manual simulation but provides neither a trace nor a mathematical derivation."
+      }
+    ],
+    "restatement_word_count": 26
+  },
+  {
+    "id": "1996-A-12",
+    "title": "Mean sum of five pair distances",
+    "restatement": "Permute 1,…,10 uniformly, pair adjacent entries in five disjoint pairs, and add their absolute differences. If the mean is p/q in lowest terms, find p+q.",
+    "solution": "Each pair is uniform among the $\\binom{10}{2}=45$ unordered pairs. Difference d occurs for exactly 10−d pairs, so its expected difference is $\\sum_{d=1}^9d(10-d)/45=165/45=11/3$. Linearity of expectation applies even though the five pairs are dependent, giving total mean $55/3$. Hence p+q is $58$.",
+    "answer": 58,
+    "tags": [
+      "linearity of expectation",
+      "weighted pairs"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Alternatives use average pair distance, signed contribution of each number or exchangeability of order-statistic gaps.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_12",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 25
+  },
+  {
+    "id": "1996-A-14",
+    "title": "Cubes crossed by a space diagonal",
+    "restatement": "A box of side lengths 150,324,375 is partitioned into unit cubes. Count cubes whose interiors meet a long diagonal.",
+    "solution": "Parametrize the diagonal by $(150t,324t,375t)$, 0<t<1. A new cube begins at each distinct interior crossing of a coordinate-integer plane. The three crossing sets have sizes 149,323,374; pairwise overlaps have sizes $\\gcd(150,324)-1=5$, $\\gcd(324,375)-1=2$, $\\gcd(150,375)-1=74$, and the triple overlap has size $\\gcd(150,324,375)-1=2$. Inclusion-exclusion gives 767 crossing times. They divide the diagonal into 768 open intervals, each lying in exactly one cube interior. The answer is $768$.",
+    "answer": 768,
+    "tags": [
+      "inclusion-exclusion",
+      "lattice geometry"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. Both sources use inclusion-exclusion of simultaneous coordinate-plane crossing times.",
+    "verification": "Independent exact check passed: Built the exact union of all interior rational crossing times. Result 768. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_14",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 19
+  },
+  {
+    "id": "1997-A-01",
+    "title": "Differences of squares",
+    "restatement": "Count integers 1 through 1000 that are differences of squares of nonnegative integers.",
+    "solution": "Every odd integer $2a+1$ equals $(a+1)^2-a^2$, and every positive multiple $4b$ equals $(b+1)^2-(b-1)^2$. Conversely squares are 0 or 1 modulo 4, so a difference cannot be 2 modulo 4. The qualifying integers are exactly the 500 odds and 250 multiples of 4, totaling $750$.",
+    "answer": 750,
+    "tags": [
+      "residue classification",
+      "constructive counting"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_1",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 13
+  },
+  {
+    "id": "1997-A-02",
+    "title": "Squares among grid rectangles",
+    "restatement": "Let r be the number of rectangles and s the number of squares formed by the nine horizontal and nine vertical lines of a standard 8-by-8 board. Reduce s/r=m/n and find m+n.",
+    "solution": "A rectangle is determined by two horizontal and two vertical boundary lines, so $r=\\binom92^2=1296$. A square of side k cells has $(9-k)^2$ placements, giving $s=\\sum_{j=1}^8j^2=204$. Thus $s/r=17/108$ and the answer is $125$.",
+    "answer": 125,
+    "tags": [
+      "grid counting",
+      "boundary choices"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_2",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 32
+  },
+  {
+    "id": "1997-A-05",
+    "title": "Decimal numbers closest to two sevenths",
+    "restatement": "Count four-place decimals 0.abcd for which 2/7 is the closest fraction whose numerator is 1 or 2 and whose denominator is an integer.",
+    "solution": "The neighboring distinct admissible fractions around $2/7$ are $1/4=2/8$ and $1/3=2/6$. All fractions with numerator 1 also occur with numerator 2 and an even denominator, so there are no omitted intervening candidates. The nearest-fraction cell is between the midpoints $15/56$ and $13/42$. Multiplying by 10000 gives bounds $2678.57\\ldots$ and $3095.23\\ldots$, neither an integer. Thus the allowed integers abcd are 2679 through 3095, numbering $417$.",
+    "answer": 417,
+    "tags": [
+      "interval lattice count",
+      "nearest neighbor"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_5",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 23
+  },
+  {
+    "id": "1997-A-08",
+    "title": "Balanced sign arrays",
+    "restatement": "Count 4-by-4 arrays of ±1 in which every row and column sums to zero.",
+    "solution": "Each row and column must have two plus signs. Choose the plus positions of the first row in six ways. Relative to them, the second row overlaps in 2,0,or1 positions. Overlap 2 has one choice and forces the last two rows, giving 1 completion. Overlap 0 has one choice and allows any two plus positions in row three, with row four forced, giving 6. Overlap 1 has four choices; then one column requires two minuses, one two pluses, and the remaining two columns must split signs oppositely across the last two rows, giving 2 completions per choice. Total: $6(1+6+4\\cdot2)=90$.",
+    "answer": 90,
+    "tags": [
+      "binary matrices",
+      "overlap casework"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. The first two entries use legitimate row/column overlap cases; the final complementary-row sketch has a partition gap.",
+    "verification": "Independent exact check passed: Enumerated all $6^4$ row patterns and checked column sums. Result 90. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_8",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 2,
+        "severity": "incomplete counting partition",
+        "note": "The stated complementary-row cases are not shown disjoint and overlap for repeated row types. The explicit overlap-size partition avoids this issue."
+      }
+    ],
+    "restatement_word_count": 14
+  },
+  {
+    "id": "1997-A-10",
+    "title": "Complementary attribute triples",
+    "restatement": "A deck has all 27 combinations of three attributes, each with three values. Count three-card sets in which each attribute is either constant across the cards or takes all three values.",
+    "solution": "Any two distinct cards determine a unique third: in each coordinate repeat their value if they agree, and choose the unused third value if they disagree. At some coordinate the original cards differ, so the completed card is distinct from both. The resulting three-card set is complementary, and each complementary set is generated by its three unordered pairs. Therefore the count is $\\binom{27}{2}/3=117$.",
+    "answer": 117,
+    "tags": [
+      "constant fibers",
+      "finite geometry"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. Alternatives are attribute casework, unique pair completion and ordered triples divided by 6.",
+    "verification": "Independent exact check passed: Checked all 2925 three-card subsets directly. Result 117. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 31
+  },
+  {
+    "id": "1997-A-14",
+    "title": "A short arc probability",
+    "restatement": "Two distinct 1997th roots of unity are chosen uniformly. Find numerator plus denominator for the chance that $|v+w|\\ge\\sqrt{2+\\sqrt3}$.",
+    "solution": "If $\\theta$ is their shorter angular separation, then $|v+w|^2=2+2\\cos\\theta$. The condition is $\\cos\\theta\\ge\\sqrt3/2$, or $\\theta\\le30^\\circ$. Fixing $v$, the circular step distance can be any of $1,\\ldots,\\lfloor1997/12\\rfloor=166$ in either direction. Thus 332 of the 1996 possible values of $w$ qualify. The probability is $83/499$, giving $582$.",
+    "answer": 582,
+    "tags": [
+      "cyclic symmetry",
+      "geometric probability"
+    ],
+    "source_review": "Read and compared all 4 archived solution entries. Valid sources use rotation invariance and the cosine of the angular separation; one geometric derivation has incorrect equations.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_14",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 2,
+        "severity": "incorrect intermediate equations",
+        "note": "The translated-circle equation omits y² and the stated intersection x-coordinate omits the translation by 1; the final angular cutoff can be justified by the other solutions."
+      }
+    ],
+    "restatement_word_count": 18
+  },
+  {
+    "id": "1998-A-01",
+    "title": "Counting possible LCM partners",
+    "restatement": "How many positive integers k satisfy lcm(6^6,8^8,k)=12^12?",
+    "solution": "The existing least common multiple is $2^{24}3^6$ and the target is $2^{24}3^{12}$. Thus k has no other prime factors, its 3-exponent must be 12, and its 2-exponent can be any integer from 0 to 24. There are $25$ choices.",
+    "answer": 25,
+    "tags": [
+      "prime exponent product"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_1",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 7
+  },
+  {
+    "id": "1998-A-02",
+    "title": "Integer points between two slope bounds",
+    "restatement": "Count positive integer pairs with $x\\le2y\\le60$ and $y\\le2x\\le60$.",
+    "solution": "The inequalities require $1\\le x,y\\le30$, excluding points with x>2y or y>2x. These exclusions are disjoint. For x>2y, y ranges from 1 to 14 and there are 30−2y choices of x. The excluded count on one side is $\\sum_{y=1}^{14}(30-2y)=210$. Therefore $30^2-2(210)=480$ pairs remain.",
+    "answer": 480,
+    "tags": [
+      "complement",
+      "lattice points"
+    ],
+    "source_review": "Read and compared all 5 archived solution entries. The reliable sources use Pick’s theorem or explicit sums of lattice rows; pattern-only alternatives are not proofs.",
+    "verification": "Independent exact check passed: Directly tested all bounded positive lattice pairs. Result 480. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_2",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 2,
+        "severity": "incomplete with boundary error",
+        "note": "Replaces a weak upper bound by a strict one and concludes by trial and pattern observation."
+      },
+      {
+        "index": 3,
+        "severity": "incomplete",
+        "note": "Infers the general count from small cases without proving the increments."
+      },
+      {
+        "index": 4,
+        "severity": "inconsistent enumeration",
+        "note": "Its first x=1 count contradicts a later count and the stated admissible range; a direct finite sum is preferable."
+      }
+    ],
+    "restatement_word_count": 8
+  },
+  {
+    "id": "1998-A-04",
+    "title": "Three odd hand sums",
+    "restatement": "Randomly divide tiles numbered 1,…,9 among three labeled players, three tiles each. Find numerator plus denominator for the probability that all three hand sums are odd.",
+    "solution": "There are five odd tiles and four even ones. For all hand sums to be odd, the odd counts must be 3,1,1. Regard the nine dealt positions as three groups of three; the five odd positions form a uniform five-subset. Favorable placements choose the all-odd player in 3 ways, then one odd position in each other hand in $3^2$ ways. Thus $P=27/\\binom95=3/14$, giving $17$.",
+    "answer": 17,
+    "tags": [
+      "parity",
+      "hypergeometric"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. All three methods reduce to odd-tile counts 3,1,1 and differ only in the sample-space encoding.",
+    "verification": "Independent exact check passed: Enumerated all 126 parity placements among the dealt positions. Result 3/14. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_4",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 26
+  },
+  {
+    "id": "1998-A-07",
+    "title": "Odd positive compositions",
+    "restatement": "Let n count ordered quadruples of positive odd integers summing to 98. Find n/100.",
+    "solution": "Write $x_i=2y_i+1$ with $y_i\\ge0$. This is a bijection to $y_1+y_2+y_3+y_4=47$. Separating 47 indistinguishable units into four ordered boxes gives $\\binom{50}{3}=19600$ quadruples. Dividing by 100 gives $196$.",
+    "answer": 196,
+    "tags": [
+      "stars and bars",
+      "parity bijection"
+    ],
+    "source_review": "Read and compared all 5 archived solution entries. Alternatives use positive or nonnegative compositions, paired units, a convolution sum or a generating function.",
+    "verification": "Independent exact check passed: Enumerated the first three odd parts and tested the forced fourth. Result 19600. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_7",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 14
+  },
+  {
+    "id": "1998-A-09",
+    "title": "Overlapping coffee breaks",
+    "restatement": "Two people arrive independently and uniformly during one hour and each stays m minutes. Their visits overlap with probability 40%. Write m=a−b√c with c squarefree and find a+b+c.",
+    "solution": "The two arrival times form a uniform point in a 60-by-60 square. Nonoverlap is $|x-y|>m$, two corner triangles of total area $(60-m)^2$. Therefore $(60-m)^2/3600=3/5$. Taking the root with $0\\le m\\le60$ gives $m=60-12\\sqrt{15}$ and $a+b+c=87$.",
+    "answer": 87,
+    "tags": [
+      "continuous probability",
+      "area complement"
+    ],
+    "source_review": "Read and compared all 2 archived solution entries. The alternative conditions on one arrival time; its linear average needs the endpoint intervals to be handled correctly.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_9",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 28
+  },
+  {
+    "id": "1998-A-13",
+    "title": "Complex weights over subsets",
+    "restatement": "For each nonempty subset of {1,…,n}, list its elements increasingly and weight the jth by i^j. Let S_n sum these weighted subset sums. Given S_8=−176−64i and S_9=p+qi, find |p|+|q|.",
+    "solution": "Pair each subset $U$ of $\\{1,\\ldots,8\\}$, including the empty set, with $U\\cup\\{9\\}$. Old terms contribute twice $S_8$. If $U$ has $k$ elements, the new term is $9i^{k+1}$, so the total extra contribution is $9i\\sum_{k=0}^8\\binom8k i^k=9i(1+i)^8=144i$. Consequently $S_9=2(-176-64i)+144i=-352+16i$, giving $368$.",
+    "answer": 368,
+    "tags": [
+      "weighted subsets",
+      "binomial theorem"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_13",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 29
+  },
+  {
+    "id": "1998-A-15",
+    "title": "Longest domino chain",
+    "restatement": "A chain uses distinct ordered pairs $(i,j)$, $1\\le i,j\\le40$, $i\\ne j$, with successive pairs sharing the connecting endpoint. It may not use both $(i,j)$ and $(j,i)$. Maximize its length.",
+    "solution": "Forget orientations: a chain is an edge trail in the complete graph K_40. Its used degrees must be even except possibly at its two endpoints. Since all 40 full degrees are 39, at least 38 vertices must lose an incident edge. Deleting one edge affects at most two vertices, so at least 19 of the 780 edges are omitted, giving length at most 761. To attain it, delete a matching covering 38 vertices. The remaining graph is connected (every degree is at least 38) and has exactly two odd-degree vertices. It therefore has an Euler trail: adding an edge between the odd vertices makes all degrees even, and the usual cycle-splicing construction gives an Euler circuit; remove the added edge. Orient every traversed edge along that trail. No edge is repeated or reversed, yielding a valid chain of length $761$.",
+    "answer": 761,
+    "tags": [
+      "Euler trail",
+      "extremal graph"
+    ],
+    "source_review": "Read and compared all 5 archived solution entries. Alternative indices 1 and 2 supply existence through Euler trails or an explicit induction; other sketches lack that essential step.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_15",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 0,
+        "severity": "incomplete attainment",
+        "note": "Gives the parity upper bound without constructing a chain attaining it."
+      },
+      {
+        "index": 2,
+        "severity": "terminology",
+        "note": "The constructed even-n object is an Euler trail, not a closed Euler circuit; the induction itself gives attainment."
+      },
+      {
+        "index": 3,
+        "severity": "incorrect formulas and gap",
+        "note": "Misstates the number of complete-graph edges as binomial(n−1,2) and asserts unproved degree equalities."
+      },
+      {
+        "index": 4,
+        "severity": "incorrect set size and gap",
+        "note": "The full set of ordered dominos has 1560 elements, not 780; 780 is the maximum unoriented edge supply. The proposed deletion count is not rigorously justified."
+      }
+    ],
+    "restatement_word_count": 27
+  },
+  {
+    "id": "1999-A-05",
+    "title": "Possible digit-sum changes",
+    "restatement": "Let S(x) be the decimal digit sum and T(x)=|S(x+2)−S(x)| for positive integers x. Count distinct T-values at most 1999.",
+    "solution": "In adding 2, each carry reduces the digit-sum change by 9. Thus $S(x+2)-S(x)=2-9k$ for some $k\\ge0$. Every $k$ occurs: $k=0$ at $x=1$, and $k\\ge1$ at $x=10^k-2$. Therefore possible absolute changes are 2 and $9k-2$ for $k\\ge1$, with no repetitions. The latter are at most 1999 exactly when $k\\le\\lfloor2001/9\\rfloor=222$. Total: $223$.",
+    "answer": 223,
+    "tags": [
+      "carry invariant",
+      "distinct image"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_5",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 19
+  },
+  {
+    "id": "1999-A-07",
+    "title": "Four-position divisor switches",
+    "restatement": "Switches labeled $2^x3^y5^z$ for $0\\le x,y,z\\le9$ cycle $A\\to B\\to C\\to D\\to A$. Processing every label once advances all switches whose labels divide it. Starting at A, how many finish at A?",
+    "solution": "A switch with exponents x,y,z advances once for each multiple label, namely $(10-x)(10-y)(10-z)$ times. It returns to A iff this product is divisible by 4. Each factor ranges independently over 1,…,10. The complementary products have either no factor of 2, giving $5^3=125$ triples, or exactly one factor of 2, giving $3\\cdot3\\cdot5^2=225$ (choose its location and one of 2,6,10). Hence $1000-125-225=650$ switches return to A.",
+    "answer": 650,
+    "tags": [
+      "valuation complement",
+      "divisor incidence"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "Independent exact check passed: Checked the advance count for all 1000 switch labels. Result 650. The written proof supplies the general/exhaustive justification.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_7",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 26
+  },
+  {
+    "id": "1999-A-08",
+    "title": "Exactly two thresholds on a simplex",
+    "restatement": "On the nonnegative triangle $x+y+z=1$, take points satisfying exactly two of $x\\ge1/2,y\\ge1/3,z\\ge1/6$. If their area fraction is $m/n$ reduced, find $m+n$.",
+    "solution": "The region satisfying $x\\ge a,y\\ge b$ is a translated copy of the original simplex scaled by $1-a-b$, so its area fraction is $(1-a-b)^2$. For the three pairs of thresholds, the residual scales are $1/6,1/3,1/2$. Their triple intersection is only the point $(1/2,1/3,1/6)$, since the thresholds sum to 1, so overlaps have zero area. The desired fraction is $1/36+1/9+1/4=7/18$, giving $25$.",
+    "answer": 25,
+    "tags": [
+      "exact multiplicity",
+      "geometric probability"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_8",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 21
+  },
+  {
+    "id": "1999-A-10",
+    "title": "A triangle among four chosen segments",
+    "restatement": "From the 45 segments joining ten points with no three collinear, choose four uniformly. Find numerator plus denominator for the probability that three form a triangle on the given points.",
+    "solution": "Choose the three triangle vertices in $\\binom{10}{3}$ ways and the extra segment in 45−3=42 ways. There is no overcount: two distinct triangles require at least five edges, so four selected edges contain at most one triangle. Thus $P=\\binom{10}{3}42/\\binom{45}{4}=16/473$, giving $489$.",
+    "answer": 489,
+    "tags": [
+      "graph counting",
+      "unique witness"
+    ],
+    "source_review": "Read and compared all 3 archived solution entries. Alternatives expose the triangle first or split by four versus five used endpoints.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_10",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [
+      {
+        "index": 1,
+        "severity": "typographical",
+        "note": "The assertion about four points never forming two triangles should refer to four selected segments; four points alone can support several triangles."
+      }
+    ],
+    "restatement_word_count": 30
+  },
+  {
+    "id": "1999-A-13",
+    "title": "Distinct tournament win totals",
+    "restatement": "Forty teams play each pair once with equally likely independent winners. If the probability that all win totals differ is $m/n$ in lowest terms, find $\\log_2 n$.",
+    "solution": "The 40 distinct win totals must be exactly 0,…,39. A team with 39 wins beats all others; removing it leaves distinct totals 0,…,38. Induction shows that a ranking uniquely determines every result, so favorable outcomes number $40!$. There are $2^{\\binom{40}{2}}=2^{780}$ equally likely tournaments. The power of 2 in $40!$ is $20+10+5+2+1=38$. After cancellation the denominator is $2^{780-38}=2^{742}$, giving $742$.",
+    "answer": 742,
+    "tags": [
+      "transitive tournament",
+      "valuation"
+    ],
+    "source_review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation.",
+    "verification": "The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.",
+    "status": "solved",
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_13",
+    "authorship": "Original exposition after source consultation; not claimed independent of external solution ideas.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
+    "source_issues": [],
+    "restatement_word_count": 26
+  }
+]

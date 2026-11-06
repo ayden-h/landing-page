@@ -1,0 +1,2752 @@
+[
+  {
+    "id": "2000-I-03",
+    "title": "Adjacent binomial coefficients",
+    "restatement": "For coprime positive integers $a,b$, the coefficients of $x^2$ and $x^3$ in $(ax+b)^{2000}$ agree. Determine $a+b$.",
+    "solution": "The ratio of the $x^3$ coefficient to the $x^2$ coefficient is $\\frac{1998a}{3b}=\\frac{666a}{b}$. Equality forces $b=666a$. Coprimality gives $(a,b)=(1,666)$, hence $667$.",
+    "answer": 667,
+    "tags": [
+      "binomial coefficients"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2000-I-05",
+    "title": "Two urns with a fixed total",
+    "restatement": "Two urns each contain both black and white balls, with $25$ balls in total. Independent uniform draws, one per urn, are both black with probability $27/50$. Write the probability of two whites as reduced $m/n$ and find $m+n$.",
+    "solution": "Let the urn sizes be $a\\ge b$. Since $50\\mid ab$ and $a+b=25$, both are multiples of $5$, so $(a,b)=(20,5)$ or $(15,10)$. The black counts must have products $54$ or $81$, respectively. The bounds imposed by a white ball in each urn force black counts $(18,3)$ or $(9,9)$. In either case the white probability is $1/25$, so the answer is $26$.",
+    "answer": 26,
+    "tags": [
+      "probability",
+      "divisibility"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: Arithmetic slip: the largest feasible denominator is 156, not 154. The candidate multiple 150 and final answer remain valid. Source 2: The exhibited urn sizes establish existence but need an exclusion argument for uniqueness.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2000-I-11",
+    "title": "Independent prime exponents",
+    "restatement": "Sum $a/b$ over ordered pairs of coprime positive divisors of $1000$. If the sum is $S$, find $\\lfloor S/10\\rfloor$.",
+    "solution": "For each prime $p\\in\\{2,5\\}$, coprimality allows its exponent on only one side. The exponent of $p$ in the ratio therefore ranges uniquely over $-3,-2,\\ldots,3$. Independence gives $S=(\\sum_{j=-3}^3 2^j)(\\sum_{j=-3}^3 5^j)=\\frac{127}{8}\\frac{19531}{125}=2480.437$. Thus the answer is $248$.",
+    "answer": 248,
+    "tags": [
+      "weighted counting",
+      "product principle",
+      "prime exponents"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: The numerical approximation is unnecessary; the exact finite sum used here avoids rounding.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2000-I-12",
+    "title": "Reflection orbits",
+    "restatement": "A real function satisfies $f(x)=f(398-x)=f(2158-x)=f(3214-x)$ for every real $x$. What is the largest number of different values among $f(0),\\ldots,f(999)$?",
+    "solution": "Composing reflections gives periods $1760$ and $1056$, hence period $352$. On residues modulo $352$, the remaining identification is $r\\sim46-r$. There are two fixed residues, $23$ and $199$; all other $350$ residues occur in pairs. Thus there are $2+350/2=177$ orbits. Assign a separate value to each orbit (and extend using the same reflection action on the reals); all $177$ values occur in $0,\\ldots,999$.",
+    "answer": 177,
+    "tags": [
+      "orbits",
+      "invariants"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2000-I-15",
+    "title": "Alternating elimination",
+    "restatement": "A stack of $2000$ labeled cards is processed by removing the top card, then moving the next card to the bottom, repeatedly. Removed labels are $1,2,\\ldots,2000$. How many cards originally preceded label $1999$?",
+    "solution": "Track positions rather than labels. Let $E(n,k)$ be the original position of the $k$th removed card. Then $E(n,1)=1$ and, for $k>1$, $E(n,k)=2+(E(n-1,k-1)\\bmod(n-1))$: after the first removal and rotation the old positions are $3,4,\\ldots,n,2$. Repeated substitution gives $E(2000,1999)=928$. This recurrence is a bijection at every step, so the required number above the card is $927$.",
+    "answer": 927,
+    "tags": [
+      "recurrences",
+      "permutations",
+      "inverse processes"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 4: The final product has an incorrect multiplier in its displayed arithmetic. Source 5: The concluding modulus is mistyped as 2056 rather than 2048.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2000-II-03",
+    "title": "A second matching pair",
+    "restatement": "A deck has four cards of each rank $1,\\ldots,10$. Remove two cards of one rank. Two further cards are sampled uniformly without replacement. If their matching probability is $m/n$ in lowest terms, find $m+n$.",
+    "solution": "Among the $\\binom{38}{2}=703$ possible unordered draws, nine intact ranks contribute $9\\binom42=54$ pairs and the depleted rank contributes one. Thus $P=55/703$, giving $758$.",
+    "answer": 758,
+    "tags": [
+      "probability",
+      "combinations"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2000-II-05",
+    "title": "Ordered rings on fingers",
+    "restatement": "Choose five of eight distinct rings and distribute them on four labeled fingers. Their vertical order matters; empty fingers are allowed. Find the first three nonzero digits of the number of arrangements.",
+    "solution": "Choose and order the five rings in $(8)_5$ ways, then split that ordered list into four possibly empty consecutive lists. The split is a weak composition of $5$ into $4$ parts, counted by $\\binom83$. Thus the count is $(8)_5\\binom83=376320$, yielding $376$.",
+    "answer": 376,
+    "tags": [
+      "stars and bars",
+      "permutations"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2000-II-07",
+    "title": "Half a binomial row",
+    "restatement": "Define $N$ by $\\sum_{k=2}^{9}1/(k!(19-k)!)=N/18!$. Find the greatest integer strictly smaller than $N/100$.",
+    "solution": "Multiply by $19!$. Complementation pairs the subsets of sizes $0,\\ldots,9$ with those of sizes $19,\\ldots,10$, so their binomial sum is $2^{18}$. Consequently $19N=2^{18}-1-19=262124$, hence $N=13796$ and the requested integer is $137$.",
+    "answer": 137,
+    "tags": [
+      "binomial identities",
+      "complement"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The common denominator is described as 19 factorial although the displayed reduced numerators correspond to 18 factorial.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-I-06",
+    "title": "Sorted dice",
+    "restatement": "Four independent fair six-sided dice rolls are nondecreasing in time with probability $m/n$ in lowest terms. Find $m+n$.",
+    "solution": "A nondecreasing outcome is uniquely determined by the six face multiplicities, nonnegative integers summing to $4$. There are $\\binom94=126$ outcomes out of $6^4=1296$. Thus $P=7/72$ and $m+n=79$.",
+    "answer": 79,
+    "tags": [
+      "stars and bars",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-I-10",
+    "title": "Parity classes of lattice points",
+    "restatement": "Choose two distinct points uniformly from $\\{0,1,2\\}\\times\\{0,1,2,3\\}\\times\\{0,1,2,3,4\\}$. Their midpoint belongs to the same set with probability $m/n$ in lowest terms. Find $m+n$.",
+    "solution": "The midpoint has integer coordinates precisely when the endpoints agree in all three coordinate parities. Counting ordered pairs, including coincidences, gives $(2^2+1^2)(2^2+2^2)(3^2+2^2)=520$. Subtract the $60$ coincident pairs. Therefore $P=460/(60\\cdot59)=23/177$, yielding $200$. The coordinate bounds automatically hold for every midpoint.",
+    "answer": 200,
+    "tags": [
+      "parity",
+      "probability",
+      "product principle"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-I-11",
+    "title": "Two numberings of a rectangular array",
+    "restatement": "In a $5\\times N$ array choose one point per row. Row-major labels $x_i$ and column-major labels $y_i$ obey $x_1=y_2,x_2=y_1,x_3=y_4,x_4=y_5,x_5=y_3$. Find the smallest $N$.",
+    "solution": "If the chosen columns are $c_i$, then $x_i=(i-1)N+c_i$ and $y_i=5c_i-5+i$. The first two relations give $N=24c_2-19$, $c_1=5c_2-3$. Eliminating $c_4,c_5$ from the last three gives $124c_3=117N+51$. Reduction modulo $31$ forces $c_2\\equiv7\\pmod{31}$, so $N\\ge149$. At $N=149$, the columns $(32,7,141,88,107)$ satisfy all five relations and lie in $[1,N]$. Thus $149$ is attained.",
+    "answer": 149,
+    "tags": [
+      "permutations",
+      "congruences"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-I-14",
+    "title": "Binary strings with two forbidden runs",
+    "restatement": "Count binary strings of length $19$ containing neither $11$ nor $000$.",
+    "solution": "For length $n\\ge2$, count endings $00,01,10$ by $(a_n,b_n,c_n)$. Appending one symbol gives $(a_{n+1},b_{n+1},c_{n+1})=(c_n,a_n+c_n,b_n)$, with $(a_2,b_2,c_2)=(1,1,1)$. These transitions are exhaustive and disjoint. Iterating yields $(a_{19},b_{19},c_{19})=(86,151,114)$, totaling $351$.",
+    "answer": 351,
+    "tags": [
+      "finite states",
+      "forbidden patterns"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The specialized index for T_19 disagrees with the immediately preceding general recurrence. Source 5: The claimed recurrence for words ending in zero misses extensions ending in two zeros. Its intermediate counts are wrong; the final total is coincidental.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-I-15",
+    "title": "Hamilton cycles in a cube complement",
+    "restatement": "Label the eight faces of a regular octahedron randomly by $1,\\ldots,8$. No consecutive labels, including $8,1$, may share an edge. Express the probability as reduced $m/n$ and find $m+n$.",
+    "solution": "Dualize the faces to cube vertices. Allowed consecutive moves form two disjoint $K_4$ graphs joined by a perfect matching. A Hamilton cycle uses either two or four matching edges. With two, choose their endpoints in $\\binom42=6$ ways and order the two internal vertices in each $K_4$ in $2!^2$ ways: $24$ undirected cycles. With four, choose one of three perfect matchings inside the first $K_4$ and one of two different matchings inside the second: $6$ cycles. Thus there are $30\\cdot8\\cdot2=480$ labelings among $8!$, giving $1/84$ and answer $85$.",
+    "answer": 85,
+    "tags": [
+      "graphs",
+      "Hamilton cycles",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: The proposed unique-completion claim is false: some partial assignments have zero or two completions. The later averaging remark does not prove the claimed bijection.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-II-01",
+    "title": "Digit adjacency as a directed graph",
+    "restatement": "Find the leading three digits of the largest positive integer whose every adjacent two-digit block is a perfect square.",
+    "solution": "Allowed edges between successive digits are $1\\to6$, $2\\to5$, $3\\to6$, $4\\to9$, $6\\to4$, and $8\\to1$. This directed graph has no cycles. Its longest directed path is $8\\to1\\to6\\to4\\to9$, producing the only five-digit candidate, $81649$. Every other path gives fewer digits. The answer is $816$.",
+    "answer": 816,
+    "tags": [
+      "directed graphs",
+      "extremal paths"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-II-02",
+    "title": "Bounds on an intersection",
+    "restatement": "Among $2001$ students everyone studies Spanish or French. Between $80\\%$ and $85\\%$ study Spanish and between $30\\%$ and $40\\%$ study French. Find the difference between the maximum and minimum possible numbers studying both.",
+    "solution": "The integer counts range over $1601\\le s\\le1700$ and $601\\le f\\le800$. The intersection size is $s+f-2001$, hence ranges from $201$ to $499$. Both extreme choices give nonnegative Venn-region counts, so both are attainable. Their difference is $298$.",
+    "answer": 298,
+    "tags": [
+      "inclusion exclusion",
+      "extremal counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-II-05",
+    "title": "Triangle-free ordered sets",
+    "restatement": "Every ten-element subset of $\\{4,5,\\ldots,n\\}$ must contain three side lengths of a nondegenerate triangle. Find the largest such $n$.",
+    "solution": "For increasing $b_1<\\cdots<b_{10}$ to avoid triangles, necessarily and sufficiently $b_{i+2}\\ge b_i+b_{i+1}$. Sufficiency holds because the two largest entries below $b_{i+2}$ maximize their sum. Starting with the smallest possible pair $4,5$ gives the coordinatewise least forbidden set: $4,5,9,14,23,37,60,97,157,254$. Thus no forbidden ten-set fits below $254$, while this one fits at $254$. The answer is $253$.",
+    "answer": 253,
+    "tags": [
+      "extremal principle",
+      "greedy bounds",
+      "recurrences"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-II-09",
+    "title": "Avoiding red subsquares",
+    "restatement": "Color the nine cells of a $3\\times3$ board independently red or blue, equally likely. Express the probability of no all-red $2\\times2$ subsquare as reduced $m/n$ and find $m+n$.",
+    "solution": "Apply inclusion-exclusion to the four bad subsquares. Single-event counts total $4\\cdot2^5=128$. Pair intersections total $4\\cdot2^3+2\\cdot2^2=40$, according as the two subsquares share an edge or only the center. Triple intersections total $4\\cdot2=8$; the fourfold intersection has size $1$. Hence there are $512-(128-40+8-1)=417$ good colorings. The probability is $417/512$, giving $929$.",
+    "answer": 929,
+    "tags": [
+      "inclusion exclusion",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: Some case labels and grid descriptions are inconsistent; inclusion-exclusion gives an unambiguous alternative.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-II-10",
+    "title": "Counting exponent gaps",
+    "restatement": "How many different numbers $10^j-10^i$, with $0\\le i<j\\le99$, are divisible by $1001$?",
+    "solution": "Since $1001$ is coprime to $10$, divisibility depends only on $d=j-i$. Modulo $1001$, $10^3\\equiv-1$, while direct checking of $10,10^2,10^3$ shows the order is $6$. Thus $d=6,12,\\ldots,96$. For each $d$ there are $100-d$ pairs, totaling $\\sum_{k=1}^{16}(100-6k)=784$. Different pairs give different decimal strings (a block of nines followed by zeros), so no further quotient is needed.",
+    "answer": 784,
+    "tags": [
+      "residue classes",
+      "summation"
+    ],
+    "source_review": "The first archived proof has a divisibility typo in its necessity step; the order-of-10 argument here supplies the missing justification. Audit findings: Source 2: The period-six argument is sound, but one congruence and the index names are mistyped.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-II-11",
+    "title": "Wins versus losses",
+    "restatement": "A team independently wins, draws, or loses each of six games, with all three outcomes equally likely. Write the probability of more wins than losses as reduced $m/n$ and find $m+n$.",
+    "solution": "Interchanging wins and losses pairs the unequal cases. Equal counts occur in $\\sum_{j=0}^{3}6!/(j!j!(6-2j)!)=141$ of the $729$ outcome strings. Hence $P=(729-141)/(2\\cdot729)=98/243$, giving $341$.",
+    "answer": 341,
+    "tags": [
+      "symmetry",
+      "multinomial coefficients",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: Several win/tie/loss descriptions and a case count are mistyped, although the final probability formula is correct.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2001-II-12",
+    "title": "Recursive tetrahedral growth",
+    "restatement": "Begin with a unit-volume regular tetrahedron. At each stage replace the middle quarter-triangle of every triangular face by the three exposed faces of an outward regular tetrahedron. Find numerator plus denominator of the volume after three stages.",
+    "solution": "Each current triangular face produces six triangles of half its edge length: three old corner pieces and three new faces. Thus the number of new tetrahedra is multiplied by $6$ each stage while each new volume is multiplied by $1/8$. The added volumes are $1/2,3/8,9/32$. The final volume is $1+1/2+3/8+9/32=69/32$, so the answer is $101$.",
+    "answer": 101,
+    "tags": [
+      "recursive counting",
+      "geometric scaling"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2002-I-01",
+    "title": "A palindrome in either block",
+    "restatement": "A uniformly random plate consists of three letters from a 26-letter alphabet followed by three decimal digits. Either block may be a palindrome. Find numerator plus denominator of the probability that at least one is.",
+    "solution": "The first and third characters match with probabilities $1/26$ and $1/10$ in the two independent blocks. The required union probability is $1/26+1/10-1/260=7/52$, hence $59$.",
+    "answer": 59,
+    "tags": [
+      "inclusion exclusion",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2002-I-03",
+    "title": "Reversed two-digit ages",
+    "restatement": "One person is currently $25$, and another is older. In a positive integer number $n$ of years their ages are two-digit reversals. Count the possible ordered pairs consisting of the older person's present age and $n$.",
+    "solution": "Write the future younger age as $10a+b$. The older age is $10b+a$, so $1\\le a<b\\le9$, and $10a+b>25$. Conversely each such digit pair uniquely determines both requested integers. There are $\\binom92=36$ pairs; exclude eight with $a=1$ and three with $a=2,b\\le5$. The result is $25$.",
+    "answer": 25,
+    "tags": [
+      "bijections",
+      "digit counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2002-I-05",
+    "title": "Squares through dodecagon vertices",
+    "restatement": "How many squares in the plane have at least two vertices among the vertices of a fixed regular dodecagon?",
+    "solution": "Each pair of dodecagon vertices defines three squares: one using the pair as a diagonal and two using it as a side. This gives $3\\binom{12}{2}=198$ incidences. Any square having three dodecagon vertices lies on the same circumcircle, so also has its fourth vertex there. Exactly three squares have all four vertices in the dodecagon. Each was counted $\\binom42=6$ times rather than once; subtract $3\\cdot5$. The answer is $183$.",
+    "answer": 183,
+    "tags": [
+      "double counting",
+      "geometry hybrid"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2002-I-09",
+    "title": "Three arithmetic progressions partition the integers",
+    "restatement": "Three progressions start at $1,2,3$ and have positive integer steps $h,t,u$. They partition the positive integers exactly once. Sum $100h+10t+u$ over all valid triples.",
+    "solution": "No step is $1$, and $h\\ne2$. To cover $4$, either $h=3$ or $t=2$. If $h=3$, avoiding its residue class forces $3\\mid t,u$; covering $5,6$ then forces $t=u=3$. Otherwise $t=2$ covers every even integer, so $h,u$ are even. We cannot have $u=2$, since its odd progression would eventually meet the first. Covering $5$ forces $h=4$, and covering $7$ forces $u=4$. Both $(3,3,3)$ and $(4,2,4)$ work. Their encoded sum is $757$.",
+    "answer": 757,
+    "tags": [
+      "covering systems",
+      "extremal first gap"
+    ],
+    "source_review": "The first archived solution rejects larger h using the AIME answer range, which is not a proof. The first-uncovered-integer argument here closes that gap. Audit findings: Source 0: Excluding larger step sizes merely from the three-digit answer format is not a proof. The original solution here proves exhaustion by the first uncovered integer. Source 2: The assertion that the smallest step must divide the other steps needs additional justification beyond the stated congruence argument.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2002-I-14",
+    "title": "Integer means after deletion",
+    "restatement": "A set of distinct positive integers contains $1$, has maximum $2002$, and has integral mean after deleting any single member. Find its largest possible size.",
+    "solution": "Write the size as $r+1$ and total as $T$. Integrality says every member is congruent to $T\\pmod r$, hence to $1\\pmod r$. Therefore $r\\mid2001$ and the $(r+1)$st possible positive member is $1+r^2\\le2002$. Thus $r\\le44$ and $r\\mid3\\cdot23\\cdot29$, giving $r\\le29$. The set $\\{1,30,59,\\ldots,813,2002\\}$ has $30$ members, all $1\\pmod{29}$, and satisfies the deletion condition. The maximum is $30$.",
+    "answer": 30,
+    "tags": [
+      "extremal sets",
+      "congruence invariants"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2002-II-09",
+    "title": "Unordered disjoint nonempty subsets",
+    "restatement": "Count unordered pairs of nonempty disjoint subsets of a ten-element set; give the remainder modulo $1000$.",
+    "solution": "For ordered disjoint pairs, each element chooses membership in the first set, second set, or neither. Exclude the two empty-set events by inclusion-exclusion: $3^{10}-2\\cdot2^{10}+1$. Swapping the two nonempty disjoint sets has no fixed point, so divide by $2$. This gives $28501$, hence $501$.",
+    "answer": 501,
+    "tags": [
+      "inclusion exclusion",
+      "free symmetry",
+      "subsets"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2002-II-12",
+    "title": "A rational ballot boundary",
+    "restatement": "Independent shots succeed with probability $2/5$. Require exactly four successes in ten shots and a success fraction at most $2/5$ after every earlier shot. Express the probability as $p^a q^b r/s^c$, with the stated factors prime, and find $(p+q+r+s)(a+b+c)$.",
+    "solution": "Let $D(i,j)$ count legal prefixes with $i$ misses and $j$ hits. Use $D(0,0)=1$, set $D(i,j)=0$ when $3j>2i$, and otherwise use $D(i,j)=D(i-1,j)+D(i,j-1)$, interpreting negative indices as zero. The last row $D(6,j)$ for $0\\le j\\le4$ is $1,5,14,23,23$. Thus $23$ legal words each have probability $(2/5)^4(3/5)^6$. The required value is $(2+3+23+5)(4+6+10)=660$.",
+    "answer": 660,
+    "tags": [
+      "lattice paths",
+      "rational ballot",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2003-I-03",
+    "title": "Charge each pair to its maximum",
+    "restatement": "For each two-element subset of $\\{1,2,3,5,8,13,21,34\\}$, record its larger member. Find the sum of the recorded numbers.",
+    "solution": "The $k$th entry in increasing order is the maximum of exactly $k-1$ pairs. Therefore the total is $0\\cdot1+1\\cdot2+2\\cdot3+3\\cdot5+4\\cdot8+5\\cdot13+6\\cdot21+7\\cdot34=484$.",
+    "answer": 484,
+    "tags": [
+      "contribution counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2003-I-06",
+    "title": "Triangle types in a cube",
+    "restatement": "Sum the areas of all triangles with vertices among the eight vertices of a unit cube. Write the sum as $m+\\sqrt n+\\sqrt p$ with integer parameters and find $m+n+p$.",
+    "solution": "The $\\binom83=56$ triangles split into three types. A face supplies four half-square triangles, giving $24$ of area $1/2$. Each cube edge belongs to two further right triangles with legs $1,\\sqrt2$, giving $24$ of area $\\sqrt2/2$. The remaining eight join three neighbors of one vertex and are equilateral with side $\\sqrt2$, of area $\\sqrt3/2$. Thus the sum is $12+12\\sqrt2+4\\sqrt3=12+\\sqrt{288}+\\sqrt{48}$, giving $348$.",
+    "answer": 348,
+    "tags": [
+      "double counting",
+      "geometry hybrid"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2003-I-09",
+    "title": "Equal digit sums",
+    "restatement": "Count four-digit decimal integers whose first two digits have the same sum as their last two digits.",
+    "solution": "Condition on the common sum $s$. For $1\\le s\\le9$, the first pair has $s$ choices and the second $s+1$. For $10\\le s\\le18$, both have $19-s$ choices. Therefore the count is $\\sum_{s=1}^9s(s+1)+\\sum_{s=10}^{18}(19-s)^2=330+285=615$.",
+    "answer": 615,
+    "tags": [
+      "digit counting",
+      "convolution"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2003-I-11",
+    "title": "Triangle inequalities as interval probability",
+    "restatement": "Choose $x$ uniformly from $(0,90^\\circ)$. The probability that $\\sin^2x,\\cos^2x,\\sin x\\cos x$ fail to form a triangle is $d/n$, where $d$ is the degree measure of $\\arctan m$ and $m+n<1000$. Find $m+n$.",
+    "solution": "Reflection $x\\mapsto90^\\circ-x$ preserves the event. On $(0,45^\\circ)$ the largest length is $\\cos^2x$, so failure means $\\cos2x\\ge\\tfrac12\\sin2x$, or $x\\le\\tfrac12\\arctan2$. The two symmetric intervals have total length $\\arctan2$, hence probability $(\\arctan2)/90$. The requested value is $2+90=92$. Endpoints have probability zero.",
+    "answer": 92,
+    "tags": [
+      "continuous probability",
+      "symmetry"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2003-I-13",
+    "title": "A majority of binary ones",
+    "restatement": "Let $N$ count integers from $1$ through $2003$ whose binary expansions contain more ones than zeros. Find $N\\bmod1000$.",
+    "solution": "For a binary length $r+1$, fix the leading one and choose at least $\\lceil r/2\\rceil$ further ones among $r$ slots. Summing through length $11$ and using binomial symmetry gives $(2047+\\sum_{j=0}^{5}\\binom{2j}{j})/2=(2047+351)/2=1199$. Each integer $2004,\\ldots,2047$ has at least six ones: numbers $1985$ through $2015$ have the first five bits $11111$ and a nonzero suffix, and $2016$ onward already have six leading ones. Remove these $44$ integers. Thus $N=1155$, giving $155$.",
+    "answer": 155,
+    "tags": [
+      "binomial symmetry",
+      "binary digits"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: A displayed count uses its residue modulo 1000 before explicitly saying so.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2003-II-03",
+    "title": "Uniform outdegree words",
+    "restatement": "Count length-seven words on $\\{A,B,C\\}$ that avoid the adjacent blocks $AB,BC,CA$.",
+    "solution": "There are three initial letters. After any letter exactly two next letters are permitted, independent of the previous history. The multiplication principle gives $3\\cdot2^6=192$.",
+    "answer": 192,
+    "tags": [
+      "product principle",
+      "finite states"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2003-II-12",
+    "title": "Minimum occupancy with percentage constraints",
+    "restatement": "Twenty-seven candidates receive integer vote counts totaling $s$. For each candidate, its vote count exceeds its exact percentage of all votes by at least one. Find the smallest $s$.",
+    "solution": "A count $v$ must satisfy $v(1-100/s)\\ge1$. If $s\\le133$, then any $v\\le4$ fails, so every candidate needs at least five votes, forcing $s\\ge135$, a contradiction. At $s=134$, the counts $4,5,\\ldots,5$ satisfy the inequality, since even $4(1-100/134)>1$. Thus the minimum is $134$.",
+    "answer": 134,
+    "tags": [
+      "pigeonhole principle",
+      "extremal occupancy"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: An intermediate denominator changes sign incorrectly; retain the positive denominator when deriving the inequality.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2003-II-13",
+    "title": "Return walk on a triangle",
+    "restatement": "A walker starts at a vertex of a triangle and at each step chooses uniformly one of the other two vertices. Find numerator plus denominator of its probability of returning after ten steps.",
+    "solution": "Let $p_n$ be the return probability. A return on the next step requires first being away and then selecting the start, so $p_{n+1}=(1-p_n)/2$, $p_0=1$. Subtracting the fixed point $1/3$ gives $p_n=1/3+(2/3)(-1/2)^n$. Thus $p_{10}=171/512$ and the answer is $683$.",
+    "answer": 683,
+    "tags": [
+      "Markov recurrences",
+      "symmetry",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: The presentation conflates probability transitions and integer walk counts. Source 4: The constant term in the displayed characteristic polynomial has the wrong sign; the listed eigenvalues correspond to the corrected sign. Source 5: The limiting distribution and the answer format do not determine the exact finite-step probability. This is a heuristic, not a proof. Source 6: The polynomial reduction should explicitly be stated modulo x cubed minus one.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-I-03",
+    "title": "Pairs of polyhedron vertices",
+    "restatement": "A convex polyhedron has $26$ vertices, $60$ edges, $24$ triangular faces and $12$ quadrilateral faces. Count pairs of vertices whose segment is neither an edge nor contained in a face.",
+    "solution": "Every pair determines an edge, a face diagonal, or a space diagonal. There are $\\binom{26}{2}=325$ pairs, $60$ edges, and $12\\cdot2=24$ face diagonals. Convexity ensures a nonedge cannot be a diagonal in two distinct faces. The required count is $325-60-24=241$.",
+    "answer": 241,
+    "tags": [
+      "complement",
+      "geometric incidence"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-I-06",
+    "title": "Alternating four-digit permutations",
+    "restatement": "Count four-digit integers with distinct digits satisfying $a_1<a_2>a_3<a_4$.",
+    "solution": "On any four increasing values there are five alternating permutations: rank words $1324,1423,2314,2413,3412$. If zero is absent, all five work, giving $5\\binom94$. If zero is present it cannot lead, leaving the final three rank words and $3\\binom93$ possibilities. The total is $630+252=882$.",
+    "answer": 882,
+    "tags": [
+      "relative order",
+      "permutations"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-I-07",
+    "title": "Pair contributions to a coefficient",
+    "restatement": "Find the absolute value of the coefficient of $x^2$ in $\\prod_{k=1}^{15}(1+(-1)^k kx)$.",
+    "solution": "Put $a_k=(-1)^k k$. The desired coefficient is $\\sum_{i<j}a_i a_j=((\\sum a_i)^2-\\sum a_i^2)/2$. Here $\\sum a_i=-8$ and $\\sum a_i^2=15\\cdot16\\cdot31/6=1240$. The coefficient is $(64-1240)/2=-588$, giving $588$.",
+    "answer": 588,
+    "tags": [
+      "contribution counting",
+      "generating functions"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: An ordered-pair index is used where an unordered-pair index is required before doubling. Source 3: A positive contribution subtotal is mistyped; the printed arithmetic does not give the claimed result. Source 4: The final coefficient sign is reversed; its absolute value is still correct. Source 6: The displayed product does not retain the original alternating signs, so that expansion cannot justify the requested coefficient.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-I-08",
+    "title": "Regular star polygons",
+    "restatement": "Count similarity classes of connected regular $1000$-vertex star polygons with equal edge lengths and equal counterclockwise turning angles less than $180^\\circ$, requiring a genuine edge crossing.",
+    "solution": "Equal turns and lengths make successive edges a geometric progression of unit directions. Closure and distinct vertices therefore give the regular star $\\{1000/k\\}$, with $\\gcd(k,1000)=1$. The counterclockwise turn condition chooses $1\\le k<500$; $k=1$ is the convex polygon and must be excluded. Coprime residues pair as $k,1000-k$, so the number is $\\varphi(1000)/2-1=400/2-1=199$.",
+    "answer": 199,
+    "tags": [
+      "cyclic permutations",
+      "totient",
+      "geometry hybrid"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-I-10",
+    "title": "A random disk avoids a diagonal",
+    "restatement": "A unit-radius disk has its center uniformly distributed among positions where it fits in a $15\\times36$ rectangle. Find numerator plus denominator of the probability that it misses a fixed diagonal.",
+    "solution": "Allowed centers form a $13\\times34$ rectangle. The centers of disks entirely on one side of the diagonal form the triangle obtained by shifting each side of a $15,36,39$ right triangle inward by one. Its original inradius is $(15+36-39)/2=6$, so the new triangle has similarity ratio $5/6$ and area $(15\\cdot36/2)(5/6)^2=375/2$. The two sides contribute total area $375$. Thus $P=375/442$ and the answer is $817$.",
+    "answer": 817,
+    "tags": [
+      "continuous probability",
+      "geometry hybrid"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: For a nonsquare rectangle, the claimed diagonal reflection is not a symmetry. Central symmetry justifies the equal-area conclusion.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-I-15",
+    "title": "Reverse dynamics and forbidden operation runs",
+    "restatement": "Iterate $f(1)=1$, $f(x)=x/10$ when $10\\mid x$, and $f(x)=x+1$ otherwise. Let $d(x)$ be the first index with value $1$, starting at index one. If $m$ integers have $d(x)=20$, find the sum of distinct prime factors of $m$.",
+    "solution": "Reverse the trajectory: the first reverse step is $1\\to10$, followed by $18$ operations $A:y\\mapsto y-1$ or $B:y\\mapsto10y$. An initial run of nine $A$'s would return to $1$, and after a $B$ ten consecutive $A$'s are impossible because subtraction would use a multiple-of-ten predecessor. These are the only restrictions. Among $2^{18}$ words, the first bad type contributes $2^9$; the second contributes $8\\cdot2^7$, since the block $BA^{10}$ has eight positions and cannot occur twice or coexist with the first bad type. Distinct legal inverse words have distinct starting integers because the forward map is deterministic. Thus $m=2^{18}-2^9-8\\cdot2^7=2^9\\cdot509$, and $509$ is prime. The answer is $511$.",
+    "answer": 511,
+    "tags": [
+      "inverse processes",
+      "forbidden patterns",
+      "injectivity"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-II-02",
+    "title": "Matching unordered color profiles",
+    "restatement": "From ten red and ten blue candies, one person draws two and then a second draws two without replacement. The probability that their unordered color combinations agree is reduced $m/n$. Find $m+n$.",
+    "solution": "There are $\\binom{20}{2}\\binom{18}{2}$ equally likely ordered pairs of disjoint two-candy sets. Two monochromatic draws contribute $2\\binom{10}{2}\\binom82$ favorable cases. Two mixed draws contribute $10^2\\cdot9^2$. Therefore $P=[2\\binom{10}{2}\\binom82+8100]/[\\binom{20}{2}\\binom{18}{2}]=118/323$, giving $441$.",
+    "answer": 441,
+    "tags": [
+      "conditional probability",
+      "combinations"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-II-03",
+    "title": "Hidden cubes",
+    "restatement": "A rectangular block made of unit cubes has exactly $231$ cubes invisible when three mutually adjacent faces are viewed. Find the least possible total number of cubes.",
+    "solution": "For side lengths $a+1,b+1,c+1$, the unseen block has dimensions $a,b,c$, so $abc=231$. Assume $a\\le b\\le c$. Then $a\\le\\sqrt[3]{231}<7$, hence $a=1$ or $3$. If $a=1$, the possibilities $(b,c)=(1,231),(3,77),(7,33),(11,21)$ have minimum total $2\\cdot12\\cdot22=528$. If $a=3$, the only ordered possibility with $b\\ge3$ is $(b,c)=(7,11)$, giving $4\\cdot8\\cdot12=384$.",
+    "answer": 384,
+    "tags": [
+      "finite case analysis",
+      "geometry hybrid"
+    ],
+    "source_review": "The first archived source asserts that balancing factors minimizes the product without proving the discrete case. Explicit factor enumeration here justifies the minimum.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-II-04",
+    "title": "At most two decimal symbols",
+    "restatement": "Count positive integers below $10000$ whose decimal expansions use at most two distinct digits.",
+    "solution": "For each length $\\ell=1,2,3,4$, single-symbol numbers contribute $9$. Choosing two nonzero digits contributes $\\binom92(2^\\ell-2)$. Choosing zero and a nonzero digit contributes $9(2^{\\ell-1}-1)$, since the first digit is forced nonzero and a zero must occur. Summing gives $36+36\\cdot22+9\\cdot11=927$.",
+    "answer": 927,
+    "tags": [
+      "digit counting",
+      "inclusion exclusion"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-II-08",
+    "title": "Divisor counts as exponent allocations",
+    "restatement": "How many divisors of $2004^{2004}$ have exactly $2004$ positive divisors?",
+    "solution": "Write a divisor as $2^a3^b167^c$. The divisor-count condition is $(a+1)(b+1)(c+1)=2004=2^2\\cdot3\\cdot167$. Allocate the two factors of $2$ among three labeled slots in $\\binom42=6$ ways and allocate each other prime in three ways. All resulting exponents are at most $2003$, so the original upper bounds are automatic. The answer is $6\\cdot3\\cdot3=54$.",
+    "answer": 54,
+    "tags": [
+      "stars and bars",
+      "multiplicative counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-II-10",
+    "title": "Two binary ones modulo nine",
+    "restatement": "Choose uniformly an integer below $2^{40}$ with exactly two binary ones. Find numerator plus denominator of the probability that it is divisible by $9$.",
+    "solution": "Write the integer uniquely as $2^a+2^b$, $0\\le a<b<40$. Since the order of $2$ modulo $9$ is $6$ and $2^3\\equiv-1$, divisibility is equivalent to $b-a\\equiv3\\pmod6$. The favorable count is $37+31+25+19+13+7+1=133$, out of $\\binom{40}{2}=780$. The fraction is reduced, so the answer is $913$.",
+    "answer": 913,
+    "tags": [
+      "binary digits",
+      "residue classes",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: A residue of minus one modulo nine is mistyped as plus one in the exponent classification.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-II-14",
+    "title": "Distinct digit lengths of a sum",
+    "restatement": "A string of $n$ sevens is split into decimal integers by inserting plus signs. How many values of $n$ can give a total of $7000$?",
+    "solution": "Only blocks of lengths one, two, three can occur. If their counts are $a,b,c$, then $a+11b+111c=1000$ and $n=a+2b+3c=1000-9k$, where $k=b+12c$. For fixed $k$, cost $11b+111c=11k-21c$ is minimized at $c=\\lfloor k/12\\rfloor$, $b=k\\bmod12$. Thus feasibility is exactly $111\\lfloor k/12\\rfloor+11(k\\bmod12)\\le1000$. For $0\\le k\\le111$, all work except $107,109,110,111$; values $k>111$ give $n\\le0$. Hence there are $112-4=108$ lengths.",
+    "answer": 108,
+    "tags": [
+      "projection of integer solutions",
+      "greedy optimization"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: One displayed three-digit value is miscomputed. The transformation interpretation also requires careful treatment of overlapping occurrences.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2004-II-15",
+    "title": "Track a layer through folds",
+    "restatement": "A strip of $1024$ numbered unit squares is repeatedly folded right half over left until one stack remains. How many squares lie below the square originally numbered $942$ from the left?",
+    "solution": "Use zero-based horizontal position $p=941$ and layer index $b=0$ counted from the bottom. Initially strip length $L=1024$ and stack height $h=1$. At each fold, if $p<L/2$ leave $p,b$ unchanged; otherwise replace $p$ by $L-1-p$ and $b$ by $2h-1-b$, because the right stack reverses and lands above the left. Then set $L\\leftarrow L/2$, $h\\leftarrow2h$. Ten applications give $b=593$. The update explicitly tracks every reversal, so this is precisely the number below the target.",
+    "answer": 593,
+    "tags": [
+      "invariants",
+      "recursive permutations"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2005-I-05",
+    "title": "Coin colors and orientations separate",
+    "restatement": "Stack four identical gold coins and four identical silver coins. Each has a marked face, and adjacent marked faces may not face each other. Count distinct stacks, including orientations.",
+    "solution": "Choose the four gold positions in $\\binom84=70$ ways. Reading upward, a forbidden contact is an upward-facing mark immediately followed by a downward-facing mark. Thus all downward-facing coins precede all upward-facing coins. The switch has nine possible locations, including the two constant orientations. Color and orientation choices are independent, giving $70\\cdot9=630$.",
+    "answer": 630,
+    "tags": [
+      "product principle",
+      "forbidden patterns"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The intuition paragraph lists nine coins rather than the eight in the problem; the preceding recurrence gives the correct result.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2005-I-09",
+    "title": "Local exposure types in a random cube",
+    "restatement": "Each of $27$ unit cubes has four painted faces, with its two unpainted faces adjacent. Orient them independently uniformly in a $3\\times3\\times3$ cube. If the probability that the outer surface is painted is $p^a/(q^b r^c)$ in prime form, find $a+b+c+p+q+r$.",
+    "solution": "The interior cube is unrestricted. Each of six face-center cubes succeeds with probability $4/6=2/3$. Each of twelve edge cubes exposes a pair of adjacent faces: five of the twelve possible pairs are both painted, giving $5/12$. Each of eight corner cubes exposes three incident faces; two of eight such triples are fully painted, giving $1/4$. Independence gives $(2/3)^6(5/12)^{12}(1/4)^8=5^{12}/(2^{34}3^{18})$. The requested sum is $74$.",
+    "answer": 74,
+    "tags": [
+      "local types",
+      "product probability",
+      "geometric incidence"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2005-I-12",
+    "title": "Parity changes only at squares",
+    "restatement": "Let $S(n)=\\sum_{k=1}^n\\tau(k)$, where $\\tau$ counts positive divisors. Among $1\\le n\\le2005$, let $a$ and $b$ count odd and even values of $S(n)$. Find $|a-b|$.",
+    "solution": "Pair divisors $d$ and $k/d$: $\\tau(k)$ is odd exactly for squares. Therefore $S(n)\\equiv\\lfloor\\sqrt n\\rfloor\\pmod2$. Its odd blocks are $[(2j-1)^2,(2j)^2-1]$ for $1\\le j\\le22$, of lengths $4j-1$. Their total is $a=\\sum_{j=1}^{22}(4j-1)=990$, so $b=1015$ and $|a-b|=25$.",
+    "answer": 25,
+    "tags": [
+      "parity",
+      "involutions",
+      "block counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2005-I-13",
+    "title": "Diagonal separators in lattice paths",
+    "restatement": "Count paths from $(0,0)$ to $(5,5)$ with steps $(1,0),(0,1),(1,1)$ and with no consecutive horizontal and vertical steps in either order.",
+    "solution": "If there are $d$ diagonal steps, the $d+1$ gaps between them contain only horizontal steps, only vertical steps, or nothing. Their generating function is $G(x,y)=1+x/(1-x)+y/(1-y)$. The count for this $d$ is $[x^{5-d}y^{5-d}]G^{d+1}$. For $d=0,1,2,3,4,5$ these coefficients are $0,2,18,42,20,1$. Summing gives $83$. The separator decomposition is unique, so neither empty gaps nor long runs create overcounting.",
+    "answer": 83,
+    "tags": [
+      "generating functions",
+      "gaps",
+      "lattice paths"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2005-II-01",
+    "title": "A binomial ratio determines deck size",
+    "restatement": "A deck with $n\\ge6$ distinct cards has six times as many six-card subsets as three-card subsets. Find $n$.",
+    "solution": "Cancel factorials in $\\binom n6=6\\binom n3$ to obtain $(n-3)(n-4)(n-5)=720$. The left side increases strictly for $n\\ge6$. Since $10\\cdot9\\cdot8=720$, the unique solution is $n=13$.",
+    "answer": 13,
+    "tags": [
+      "binomial coefficients"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2005-II-02",
+    "title": "Three balanced meal bags",
+    "restatement": "There are three rolls of each of three types. Randomly divide them into three labeled bags of size three. Find numerator plus denominator of the probability that every bag contains all three types.",
+    "solution": "The first bag is balanced with probability $3^3/\\binom93=9/28$. Given this, the second is balanced with probability $2^3/\\binom63=2/5$; the third is then forced. Thus the probability is $9/70$ and the answer is $79$. Distinguishing physical rolls during counting avoids an unequal sample space.",
+    "answer": 79,
+    "tags": [
+      "conditional probability",
+      "balanced allocation"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2005-II-04",
+    "title": "Union of divisor sets",
+    "restatement": "Count positive integers dividing at least one of $10^{10},15^7,18^{11}$.",
+    "solution": "The three divisor sets have sizes $121,64,276$. Intersections are divisor sets of gcds, so their pairwise sizes are $8,11,8$, and their triple intersection is $\\{1\\}$. Inclusion-exclusion yields $121+64+276-8-11-8+1=435$.",
+    "answer": 435,
+    "tags": [
+      "inclusion exclusion",
+      "divisor sets"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2005-II-06",
+    "title": "Fixed points of a shuffle",
+    "restatement": "A stack labeled $1,\\ldots,2n$ top to bottom is cut into two equal halves. Restack by alternately placing the next card from the lower half and then the upper half on top. At least one card from each half stays fixed, including card $131$. Find $2n$.",
+    "solution": "A card $j\\le n$ from the upper half ends at position $2(n-j)+1$ from the top; a card $n+j$ from the lower half ends at position $2(n-j)+2$. Since $131$ is odd it must be from the upper half, and $131=2(n-131)+1$ gives $n=196$. The lower-half fixed-point equation $n+j=2(n-j)+2$ then gives $j=66$, valid. Thus the required stack has $392$ cards.",
+    "answer": 392,
+    "tags": [
+      "permutations",
+      "fixed points"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-I-02",
+    "title": "No gaps among fixed-size subset sums",
+    "restatement": "How many different sums can a $90$-element subset of $\\{1,\\ldots,100\\}$ have?",
+    "solution": "The minimum and maximum are $4095$ and $4995$. Every intermediate sum occurs: write its excess over $4095$ as $90q+r$, $0\\le r<90$. Add $q$ to the first $90-r$ entries of $(1,\\ldots,90)$ and $q+1$ to the last $r$ entries. The result remains strictly increasing and at most $100$; at the endpoint use $q=10,r=0$. Thus the number is $4995-4095+1=901$.",
+    "answer": 901,
+    "tags": [
+      "subset sums",
+      "constructive intervals"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-I-06",
+    "title": "Uniform digit contributions",
+    "restatement": "Sum all repeating decimals $0.\\overline{abc}$ with three distinct decimal digits, allowing $a=0$.",
+    "solution": "There are $10\\cdot9\\cdot8=720$ digit strings. In any fixed position each digit occurs $9\\cdot8=72$ times. Since $0.\\overline{abc}=(100a+10b+c)/999$, the sum is $72(0+\\cdots+9)(100+10+1)/999=360$. Distinct triples represent distinct values here.",
+    "answer": 360,
+    "tags": [
+      "contribution counting",
+      "digit symmetry"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-I-11",
+    "title": "Insert the largest block",
+    "restatement": "Permute blocks of sizes $1,\\ldots,8$ bottom to top, requiring every size to be at most two greater than the size immediately below. Find the count modulo $1000$.",
+    "solution": "For a valid arrangement of $1,\\ldots,m$, insert $m+1$ either at the bottom, immediately above $m$, or immediately above $m-1$. These are exactly its three possible positions when $m\\ge2$. Removing the largest block preserves validity: if it had a predecessor, that predecessor was at least $m-1$, so the new successor is still allowed. Thus the insertion is bijective and $T_8=T_2\\cdot3^6=2\\cdot3^6=1458$. The residue is $458$.",
+    "answer": 458,
+    "tags": [
+      "insertion bijections",
+      "recurrences"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-I-13",
+    "title": "Valuation layers",
+    "restatement": "For even $x$, let $g(x)$ be the largest power of two dividing $x$. Set $S_n=\\sum_{k=1}^{2^{n-1}}g(2k)$. Find the greatest $n<1000$ for which $S_n$ is a square.",
+    "solution": "For $1\\le j<n$, exactly $2^{n-j-1}$ terms have $g=2^j$; the final term has $g=2^n$. Hence $S_n=(n-1)2^{n-1}+2^n=2^{n-1}(n+1)$. If $n$ is even, its exponent of two is odd, impossible. If $n$ is odd, $2^{n-1}$ is a square and we need $n+1$ to be a square. The largest even square at most $1000$ is $30^2=900$, so $n=899$.",
+    "answer": 899,
+    "tags": [
+      "contribution counting",
+      "valuation layers"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The recurrence is valid with n at least two and S_1=2; the written artificial S_0=1 is not compatible with the actual definition. Source 2: The recurrence is explicitly guessed without proof, and smallest/largest language is reversed. A valuation count proves the formula directly. Source 3: The closing least/greatest wording and a summation index are mistyped; the valuation argument otherwise works.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-I-15",
+    "title": "A telescoping potential",
+    "restatement": "Start with $x_0=0$ and choose $x_k$ subject to $|x_k|=|x_{k-1}+3|$. Find the minimum of $|x_1+\\cdots+x_{2006}|$.",
+    "solution": "Let $b_k=x_k/3$, so $b_k^2=(b_{k-1}+1)^2$. Summing this identity gives $\\sum_{k=1}^{2006}b_k=((b_{2006}+1)^2-2007)/2$. Every $b_k$ is integral. The nearest integer square to $2007$ is $2025$, so the absolute sum is at least $9$. Attain it by alternating $-1,0$ through time $1962$, then taking $44$ successive increments to finish at $b_{2006}=44$. Multiplying by three gives $27$.",
+    "answer": 27,
+    "tags": [
+      "invariants",
+      "telescoping",
+      "extremal construction"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The proposed attaining sequence alternates two positive values that do not satisfy the recurrence. The telescoping lower bound is valid, but a different construction is necessary. Source 3: The exhibited construction gives the answer but does not prove that a smaller absolute sum is impossible.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-II-04",
+    "title": "A permutation with one valley",
+    "restatement": "Count permutations of $1,\\ldots,12$ satisfying $a_1>\\cdots>a_6<a_7<\\cdots<a_{12}$.",
+    "solution": "The valley must be the global minimum, so $a_6=1$. Choose the five values to its left in $\\binom{11}{5}$ ways. Their descending order and the ascending order of the remaining six values are forced. This bijection gives $462$.",
+    "answer": 462,
+    "tags": [
+      "bijections",
+      "permutations"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-II-05",
+    "title": "Opposite-face bias",
+    "restatement": "A die assigns probability $1/6+t$ to a face, $1/6-t$ to its opposite, and $1/6$ to the four others; opposite labels sum to seven. Two independent such dice sum to seven with probability $47/288$. Find numerator plus denominator of the larger face probability.",
+    "solution": "The sum-seven probability is $4/36+2(1/6+t)(1/6-t)=1/6-2t^2$. Thus $2t^2=1/288$, so $t=1/24$. The larger face probability is $5/24$, giving $29$.",
+    "answer": 29,
+    "tags": [
+      "probability",
+      "symmetry"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-II-07",
+    "title": "Complementary decimal numbers",
+    "restatement": "Count ordered positive integer pairs $(a,b)$ with $a+b=1000$ and no zero digit in either number.",
+    "solution": "There are $999$ choices for $a$. Exclude the $99$ multiples of $10$, which also make $b$ end in zero. Among the rest, a zero can occur only in a genuine tens position: $a=101,\\ldots,109;201,\\ldots,209;\\ldots;901,\\ldots,909$, giving $81$ cases, and likewise $81$ for $b$. These two classes are disjoint because their complements have tens digit nine. Thus $999-99-81-81=738$.",
+    "answer": 738,
+    "tags": [
+      "complement",
+      "digit counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-II-08",
+    "title": "Three corners modulo all permutations",
+    "restatement": "Build an equilateral triangle from four congruent small equilateral triangles. Each may have one of six colors. Identify configurations under rotations and reflections. Count the resulting colorings.",
+    "solution": "The center triangle is fixed by every symmetry and has six choices. The three corner positions are acted on by the full symmetric group $S_3$, so their orbit is determined exactly by the multiset of three colors. There are $\\binom{6+3-1}{3}=56$ such multisets. The total is $6\\cdot56=336$.",
+    "answer": 336,
+    "tags": [
+      "orbits",
+      "multisets"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-II-10",
+    "title": "A one-point head start",
+    "restatement": "Seven teams play each other once, with independent fair win-loss outcomes. Given that $A$ defeats $B$, find numerator plus denominator of the probability that $A$ finishes with more wins than $B$.",
+    "solution": "Let $X,Y$ be their wins in the remaining five games each. The ten relevant games are distinct and independent, so $X,Y$ are independent $\\mathrm{Bin}(5,1/2)$. We need $1+X>Y$, or $X\\ge Y$. Symmetry gives probability $(1+P(X=Y))/2$. Vandermonde yields $P(X=Y)=\\sum_k\\binom5k^2/2^{10}=\\binom{10}{5}/1024=63/256$. Thus $P=319/512$ and the answer is $831$.",
+    "answer": 831,
+    "tags": [
+      "symmetry",
+      "Vandermonde",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2006-II-14",
+    "title": "Reciprocal digit frequency",
+    "restatement": "Let $S_n$ be the sum of reciprocals of all nonzero decimal digits appearing in $1,\\ldots,10^n$. Find the least positive $n$ for which $S_n$ is integral.",
+    "solution": "Pad $0,\\ldots,10^n-1$ to $n$ digits. Each nonzero digit appears $n10^{n-1}$ times, and $10^n$ contributes one extra $1$. Thus $S_n=1+n10^{n-1}H_9$. Since $H_9=7129/2520$ in lowest terms and $2520=2^3\\cdot3^2\\cdot5\\cdot7$, integrality requires $63\\mid n$. The candidate $n=63$ supplies all the factors of two and five as well, so it is minimal.",
+    "answer": 63,
+    "tags": [
+      "contribution counting",
+      "digit frequency"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-I-05",
+    "title": "A periodic rounding map",
+    "restatement": "Convert an integer Fahrenheit temperature in $[32,1000]$ to Celsius using $C=5(F-32)/9$, round to the nearest integer, convert back, and round again. Count temperatures recovered exactly.",
+    "solution": "Write $F-32=9q+r$, $0\\le r<9$. The round trip depends only on $r$ and sends it to $\\operatorname{round}((9/5)\\operatorname{round}(5r/9))$. Checking the nine residues yields the fixed set $\\{0,2,4,5,7\\}$. The range $0\\le F-32\\le968$ contains $107$ complete nine-blocks and the residues $0,\\ldots,5$ of one last block. Hence the count is $107\\cdot5+4=539$. No half-integer rounding ambiguity occurs.",
+    "answer": 539,
+    "tags": [
+      "residue classes",
+      "finite states"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-I-06",
+    "title": "Next-multiple walks",
+    "restatement": "From an integer position a frog jumps to the next larger multiple of $3$ or of $13$. Count distinct coordinate sequences from $0$ to $39$.",
+    "solution": "Use an acyclic graph on $0,3,6,\\ldots,39,13,26$. At each vertex connect to the distinct next multiples, discarding values above $39$. Starting with $D(0)=1$, add $D(v)$ to each successor. In increasing vertex order the nonzero counts are $D(3)=D(6)=D(9)=D(12)=1$, $D(13)=5$, $D(15)=D(18)=D(21)=D(24)=6$, $D(26)=29$, $D(27)=D(30)=D(33)=D(36)=35$, and $D(39)=169$. At $36$ the two next multiples coincide, so that edge is counted once.",
+    "answer": 169,
+    "tags": [
+      "acyclic paths",
+      "dynamic programming"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 4: Several intermediate backward-recurrence equalities have incorrect indices or duplicated terms, although the final recurrence values are correct.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-I-10",
+    "title": "Binary matrices with fixed margins",
+    "restatement": "A $6\\times4$ binary matrix has two ones in every row and three in every column. Find the number of such matrices modulo $1000$.",
+    "solution": "Choose the three rows containing a one in the first column in $\\binom63=20$ ways. In these rows, the second ones occupy the last three columns with occupancy types $(3,0,0),(2,1,0),(1,1,1)$. The first type gives $3$ completions. The second gives $3\\cdot2\\cdot3=18$ top choices and three bottom completions, totaling $54$. The third gives $3!=6$ top choices and $3!=6$ bottom completions, totaling $36$. Hence the count is $20(3+54+36)=1860$, giving $860$.",
+    "answer": 860,
+    "tags": [
+      "fixed margins",
+      "occupancy"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 5: The initial normalization multiplier and the final multiplier disagree; the asserted normalization needs a uniform-fiber argument. Source 6: One case refers to column four when the calculation concerns the first three columns.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-I-11",
+    "title": "Rounding square roots in blocks",
+    "restatement": "For each positive integer $p$, let $b(p)$ be its square root rounded to the nearest integer. Find $\\sum_{p=1}^{2007}b(p)\\pmod{1000}$.",
+    "solution": "We have $b(p)=k$ precisely for $k^2-k+1\\le p\\le k^2+k$, a block of $2k$ integers. Blocks $k=1,\\ldots,44$ are complete; $p=1981,\\ldots,2007$ contributes $27$ copies of $45$. Thus the sum is $2\\sum_{k=1}^{44}k^2+27\\cdot45=59955$, whose residue is $955$.",
+    "answer": 955,
+    "tags": [
+      "block counting",
+      "weighted sums"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-II-01",
+    "title": "A repeated symbol in a license string",
+    "restatement": "Form five-character strings from the multiset $\\{A,I,M,E,2,0,0,7\\}$ without exceeding any multiplicity. If the count is $N$, find $N/10$.",
+    "solution": "Strings with at most one zero are ordinary selections without replacement from seven distinct symbols, counted by $(7)_5=2520$. For exactly two zeros, choose their positions and order three of the other six symbols: $\\binom52(6)_3=1200$. Hence $N=3720$ and $N/10=372$.",
+    "answer": 372,
+    "tags": [
+      "multiset permutations",
+      "case analysis"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-II-02",
+    "title": "Divisibility becomes a composition",
+    "restatement": "Count ordered positive triples $(a,b,c)$ with $a\\mid b$, $a\\mid c$, and $a+b+c=100$.",
+    "solution": "Write $b=ax,c=ay$ with $x,y\\ge1$. For each divisor $d=100/a\\ge3$, the condition is $x+y=d-1$, with $d-2$ solutions. Therefore the count is $\\sum_{d\\mid100,d\\ge3}(d-2)=2+3+8+18+23+48+98=200$.",
+    "answer": 200,
+    "tags": [
+      "compositions",
+      "divisor decomposition"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-II-05",
+    "title": "Grid cells below a rational line",
+    "restatement": "Count unit grid squares whose interiors lie in the first quadrant and below $9x+223y=2007$.",
+    "solution": "The intercept rectangle has $223\\cdot9=2007$ cells. Its diagonal crosses $223+9-\\gcd(223,9)=231$ cells: one initial cell and one new cell for each interior grid-line crossing. Since the intercepts are coprime, no interior horizontal and vertical crossings coincide. Half of the remaining cells lie on each side by central symmetry. Thus the answer is $(2007-231)/2=888$.",
+    "answer": 888,
+    "tags": [
+      "lattice geometry",
+      "symmetry"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-II-06",
+    "title": "Uniform indegrees in a digit graph",
+    "restatement": "Count four-digit integers such that an odd digit is followed by a larger digit and an even digit by a smaller digit.",
+    "solution": "The first three digits cannot be $0$ or $9$, because those have no legal successor. For each target digit $d\\in\\{1,\\ldots,8\\}$, exactly four digits of $\\{1,\\ldots,8\\}$ can precede it: smaller odds or larger evens. Thus every allowed second digit has four prefixes, and every allowed third digit has sixteen. Each final digit $0,\\ldots,9$ also has exactly four allowed predecessors, so has $64$ full strings. The total is $10\\cdot64=640$.",
+    "answer": 640,
+    "tags": [
+      "finite states",
+      "digit graphs"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-II-08",
+    "title": "Optimizing a rectangular grid",
+    "restatement": "Draw full lines parallel to the sides of a $4\\times5$ sheet, with total drawn length $2007$. Basic rectangles must have four drawn sides and no drawn line inside. Find the maximal number modulo $1000$.",
+    "solution": "With $h$ lines of length $5$ and $v$ of length $4$, we have $5h+4v=2007$ and $(h-1)(v-1)$ basic rectangles. Thus $h\\equiv3\\pmod4$ and the objective is the concave quadratic $(h-1)(2003-5h)/4$, centered at $h=1004/5$. The two nearest permissible values are $199,203$, giving $49896$ and $49894$. Concavity excludes all others. The answer is $896$.",
+    "answer": 896,
+    "tags": [
+      "grid counting",
+      "discrete optimization"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-II-10",
+    "title": "Containment in a set or its complement",
+    "restatement": "Independently choose uniform subsets $A,B$ of a six-element set. The probability that $B\\subseteq A$ or $B\\subseteq A^c$ is $m/n^r$ in reduced prime-denominator form. Find $m+n+r$.",
+    "solution": "For $B\\subseteq A$, each element has three allowed membership pairs out of four; hence probability $(3/4)^6$. The complementary containment has the same probability. Both occur precisely when $B$ is empty, of probability $2^{-6}$. Inclusion-exclusion gives $2(3/4)^6-2^{-6}=697/2^{11}$, yielding $710$.",
+    "answer": 710,
+    "tags": [
+      "elementwise encoding",
+      "inclusion exclusion",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2007-II-13",
+    "title": "Pascal propagation modulo three",
+    "restatement": "Place eleven binary digits in the bottom row of a triangular array. Each upper entry is the sum of its two children. Count assignments making the top entry divisible by $3$.",
+    "solution": "The top is $\\sum_{j=0}^{10}\\binom{10}{j}x_j$, by Pascal's identity or path counting. Modulo three, $(1+t)^{10}\\equiv(1+t^9)(1+t)$, so only coefficients $j=0,1,9,10$ survive, each equal to one. Their sum must be zero or three, giving $\\binom40+\\binom43=5$ choices. The other seven bits are free, so the answer is $5\\cdot2^7=640$.",
+    "answer": 640,
+    "tags": [
+      "binomial propagation",
+      "modular generating functions"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2008-I-06",
+    "title": "Summing an arithmetic row repeatedly",
+    "restatement": "The top row is $1,3,\\ldots,99$. Each row below sums adjacent entries until one remains. Count all entries divisible by $67$.",
+    "solution": "At row $r$ and position $k$, with $1\\le r\\le50$ and $1\\le k\\le51-r$, induction gives $a_{r,k}=2^{r-1}(r+2k-2)$. The parenthetical factor lies between $r$ and $100-r$, so divisibility by $67$ means it equals $67$. This has exactly one integral $k$ for each odd $r\\le33$ and none otherwise. There are $17$ such rows.",
+    "answer": 17,
+    "tags": [
+      "recurrences",
+      "binomial propagation"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2008-I-07",
+    "title": "Occupied hundred-blocks",
+    "restatement": "For $0\\le i\\le999$, let $S_i=\\{100i,\\ldots,100i+99\\}$. How many of these sets contain no perfect square?",
+    "solution": "The first $26$ blocks $S_0,\\ldots,S_{25}$ all contain squares: up to $50^2$, consecutive square gaps are at most $99$, and $50^2$ lies in $S_{25}$. Above $50^2$, successive squares differ by more than $100$, so $51^2,\\ldots,316^2$ occupy $266$ new distinct blocks. These are all squares below $100000$. Hence $1000-26-266=708$ blocks are empty.",
+    "answer": 708,
+    "tags": [
+      "complement",
+      "gap bounds"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2008-I-09",
+    "title": "Random crate heights",
+    "restatement": "Ten independent crates have heights $3,4,6$ with equal probabilities. The probability their total height is $41$ is reduced $m/n$. Find $m$.",
+    "solution": "Let counts be $a,b,c$. Subtracting $3(a+b+c)=30$ from the height equation gives $b+3c=11$. The admissible triples are $(1,8,1),(3,5,2),(5,2,3)$. Therefore $P=[10!/(1!8!1!)+2\\cdot10!/(3!5!2!)]/3^{10}=5130/59049=190/2187$. Thus $m=190$.",
+    "answer": 190,
+    "tags": [
+      "multinomial coefficients",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2008-I-11",
+    "title": "Parity restrictions on runs",
+    "restatement": "Count length-$14$ words on $\\{A,B\\}$ with every maximal $A$-run even and every maximal $B$-run odd.",
+    "solution": "Let $a_n,b_n$ count legal words ending in $A,B$. Removing two terminal $A$'s gives $a_n=a_{n-2}+b_{n-2}$. A terminal odd $B$-run has length one (append $B$ to an $A$-ending word) or at least three (remove two $B$'s), giving $b_n=a_{n-1}+b_{n-2}$. Start from $(a_1,b_1)=(0,1)$ and $(a_2,b_2)=(1,0)$. The recurrence for $n\\ge3$ gives $(a_{14},b_{14})=(80,92)$, totaling $172$.",
+    "answer": 172,
+    "tags": [
+      "runs",
+      "recurrences"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: The final displayed sum omits the second singleton case; the stated total includes it.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2008-II-10",
+    "title": "Increasing distances on a small grid",
+    "restatement": "On the sixteen points $\\{0,1,2,3\\}^2$, a path visits distinct points with strictly increasing successive distances. Let $m$ be its maximum number of points and $r$ the number of paths attaining that maximum. Find $mr$.",
+    "solution": "The only squared distances are $1,2,4,5,8,9,10,13,18$, so $m\\le10$. Reverse a maximal path. Up to eight square symmetries its first three points are $(0,0),(3,3),(1,0)$. The required remaining squared lengths force $(2,3),(2,0),(0,2),(2,1),(0,1),(1,2)$; alternatives at each stage either repeat a vertex or prevent the next required length. The final unit step has three choices: $(1,1),(2,2),(1,3)$. Thus ten-point paths exist and $r=8\\cdot3=24$, giving $240$.",
+    "answer": 240,
+    "tags": [
+      "extremal paths",
+      "symmetry",
+      "finite enumeration"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2008-II-12",
+    "title": "A separator that behaves like a blue flag",
+    "restatement": "Distribute ten identical blue and nine identical green flags onto two labeled nonempty flagpoles, with vertical order relevant and no adjacent greens on either pole. Find the arrangement count modulo $1000$.",
+    "solution": "Insert one extra distinguished blue separator between the poles. The eleven blue positions create twelve gaps, of which nine receive a green. Choose the distinguished blue among eleven positions, giving $11\\binom{12}{9}$. An empty pole occurs when the separator is at an end with no green outside it; each side contributes $\\binom{11}{9}$. Thus $N=11\\binom{12}{9}-2\\binom{11}{9}=2310$, whose residue is $310$.",
+    "answer": 310,
+    "tags": [
+      "gaps",
+      "separators",
+      "bijections"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: The summation index is written as n while the summand and bounds use b. The Vandermonde evaluation is valid after this correction.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-I-03",
+    "title": "Cancel symmetric binomial coefficients",
+    "restatement": "Eight independent coin flips have head probability $p$. The chance of three heads is one twenty-fifth of the chance of five heads. Find numerator plus denominator of $p$ in lowest terms.",
+    "solution": "The equal binomial coefficients cancel, leaving $(1-p)^2/p^2=1/25$. Since $0<p<1$, take the positive square root: $(1-p)/p=1/5$. Thus $p=5/6$ and the answer is $11$.",
+    "answer": 11,
+    "tags": [
+      "binomial probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-I-08",
+    "title": "Sum of pairwise differences",
+    "restatement": "Sum all positive differences between pairs from $\\{1,2,4,\\ldots,2^{10}\\}$, and report the remainder modulo $1000$.",
+    "solution": "The value $2^k$ occurs positively in $k$ differences and negatively in $10-k$, so the sum is $\\sum_{k=0}^{10}(2k-10)2^k=16398$. (Use $\\sum2^k=2047$ and $\\sum k2^k=18434$.) Distinct pairs yield distinct differences because the exact power of two dividing the difference identifies the smaller exponent. The residue is $398$.",
+    "answer": 398,
+    "tags": [
+      "contribution counting",
+      "weighted sums"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-I-09",
+    "title": "Three prices from seven digits",
+    "restatement": "Form an ordered triple of positive prices at most $9999$ using exactly four digits $1$ and three digits $3$ in total. Count possible triples.",
+    "solution": "Concatenate the three prices. There are $\\binom73=35$ possible digit strings. Split into three positive lengths summing to seven: $\\binom62=15$ cuts, but reject lengths $(5,1,1)$ and its three placements, leaving twelve. There are no leading-zero issues. The encoding is bijective, so the count is $35\\cdot12=420$.",
+    "answer": 420,
+    "tags": [
+      "separator encoding",
+      "bounded compositions"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-I-10",
+    "title": "Cyclic species runs",
+    "restatement": "Arrange five distinct members of each of three species around fifteen numbered seats. Seat $1$ is $M$, seat $15$ is $E$, and allowed changes clockwise are only $M\\to V\\to E\\to M$. If the count is $N(5!)^3$, find $N$.",
+    "solution": "After ignoring identities within each species, every admissible word is $k$ successive nonempty runs of each type in the repeated order $M,V,E$, with $1\\le k\\le5$. Split each species' five occurrences into $k$ positive run lengths independently: $\\binom4{k-1}^3$ choices. Thus $N=\\sum_{k=1}^{5}\\binom4{k-1}^3=1+64+216+64+1=346$. The fixed first and last species remove any cyclic-cut ambiguity.",
+    "answer": 346,
+    "tags": [
+      "runs",
+      "compositions",
+      "cyclic words"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-I-11",
+    "title": "Integral triangle areas on a line",
+    "restatement": "Choose distinct nonnegative lattice points $P,Q$ on $41x+y=2009$. Count triangles $OPQ$ of positive integer area, where $O=(0,0)$.",
+    "solution": "Write the two x-coordinates as $u,v\\in\\{0,\\ldots,49\\}$. Their determinant is $2009(u-v)$, so the area is integral exactly when $u,v$ have the same parity. Each parity class contains $25$ values. Every distinct pair yields positive area, hence the count is $2\\binom{25}{2}=600$.",
+    "answer": 600,
+    "tags": [
+      "parity",
+      "geometry hybrid"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The inference that the base is an integral multiple of twice the primitive lattice length requires the lattice-spacing condition; integrality of area alone is insufficient.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-II-06",
+    "title": "At least one consecutive pair",
+    "restatement": "Count five-element subsets of $\\{1,\\ldots,14\\}$ containing consecutive integers, and give the residue modulo $1000$.",
+    "solution": "For a subset $x_1<\\cdots<x_5$ with no consecutive elements, subtract $0,1,2,3,4$ from successive entries. This is a bijection to five-element subsets of $\\{1,\\ldots,10\\}$. Complementary counting gives $\\binom{14}{5}-\\binom{10}{5}=1750$, hence $750$.",
+    "answer": 750,
+    "tags": [
+      "gap compression",
+      "complement"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The examples motivate the gap reduction but do not by themselves prove a bijection; rank compression supplies the missing argument. Source 3: The final total-subset binomial coefficient is mistyped.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-II-08",
+    "title": "Nearby geometric stopping times",
+    "restatement": "Two people independently roll fair dice until the first six. Find numerator plus denominator of the probability that their numbers of rolls differ by at most one.",
+    "solution": "Put $q=5/6$. The probability that the first person needs at least two more rolls than the second is $\\sum_{t\\ge1}(1-q)q^{t-1}q^{t+1}=(1-q)q^2/(1-q^2)=25/66$. The opposite discrepancy has the same probability and is disjoint. Hence the required probability is $1-2(25/66)=8/33$, giving $41$.",
+    "answer": 41,
+    "tags": [
+      "geometric series",
+      "complement",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: In the first-roll case, a success factor is mistyped as a failure factor. The subsequent numerical contribution uses the correct probability.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-II-09",
+    "title": "An injection leaves two boundary slices",
+    "restatement": "Let $m,n$ count positive integer solutions to $4x+3y+2z=2009$ and $4x+3y+2z=2000$, respectively. Find $(m-n)\\bmod1000$.",
+    "solution": "Adding three to $y$ injects the second solution set into the first. In the first equation $y$ is odd, and the image consists exactly of solutions with $y\\ge5$. The missing slices are $y=1$ and $y=3$. They give $2x+z=1003$ and $2x+z=1000$, with $501$ and $499$ positive solutions. Thus $m-n=1000$, giving $0$.",
+    "answer": 0,
+    "tags": [
+      "injections",
+      "boundary counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2009-II-12",
+    "title": "Distinct pair sums with disjoint endpoints",
+    "restatement": "Choose disjoint pairs of distinct elements from $\\{1,\\ldots,2009\\}$, requiring all pair sums distinct and at most $2009$. Find the greatest number of pairs.",
+    "solution": "For $k$ pairs, the total of their $2k$ endpoints is at least $k(2k+1)$, while the distinct sums total at most $k(4019-k)/2$. Thus $5k\\le4017$, giving $k\\le803$. Attain $803$ by pairing $2j+1$ with $1205-j$ for $0\\le j\\le401$, and $2j+2$ with $1606-j$ for $0\\le j\\le400$. These use each integer $1,\\ldots,1606$ exactly once; the sums run without repetition from $1206$ through $2008$. Hence the maximum is $803$.",
+    "answer": 803,
+    "tags": [
+      "extremal sums",
+      "constructive matching"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-I-01",
+    "title": "One square divisor in a pair",
+    "restatement": "Choose two distinct positive divisors of $2010^2$ uniformly. Find numerator plus denominator of the probability that exactly one is a square.",
+    "solution": "Since $2010=2\\cdot3\\cdot5\\cdot67$, there are $3^4=81$ divisors, of which $2^4=16$ have all exponents even. The favorable unordered pairs number $16\\cdot65$, so $P=1040/\\binom{81}{2}=26/81$. The answer is $107$.",
+    "answer": 107,
+    "tags": [
+      "prime exponents",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-I-04",
+    "title": "Collision probability of head counts",
+    "restatement": "Two fair coins and one coin with head probability $4/7$ are flipped independently by each of two people. Find numerator plus denominator of the probability that their head counts agree.",
+    "solution": "The head-count probability generating function is $(1+x)^2(3+4x)/28=(3+10x+11x^2+4x^3)/28$. For two independent copies, equality has probability equal to the sum of squared probabilities: $(3^2+10^2+11^2+4^2)/28^2=123/392$. The answer is $515$.",
+    "answer": 515,
+    "tags": [
+      "generating functions",
+      "collision probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: Two named two-head outcomes are assigned each other's probabilities; the total distribution remains correct.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-I-07",
+    "title": "Exactly three pairwise intersection elements",
+    "restatement": "Count ordered triples $(A,B,C)$ of subsets of a seven-element set such that each pairwise intersection has size one and the triple intersection is empty. Report the residue modulo $1000$.",
+    "solution": "The three intersection elements are distinct and occupy the labeled roles $AB,BC,CA$, giving $(7)_3=210$ choices. Each remaining element can lie in $A$ alone, $B$ alone, $C$ alone, or no set: four independent choices. Hence $N=210\\cdot4^4=53760$, yielding $760$.",
+    "answer": 760,
+    "tags": [
+      "Venn regions",
+      "elementwise encoding"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-I-10",
+    "title": "Digits allowed to carry",
+    "restatement": "Count representations $2010=1000a_3+100a_2+10a_1+a_0$ with every integer $a_i$ between $0$ and $99$.",
+    "solution": "Choose $a_3,a_1$ first with $1000a_3+10a_1\\le2010$. The remainder has a unique quotient and remainder on division by $100$, which supply $a_2,a_0$ within the permitted bounds. For $a_3=0,1$ all $100$ choices of $a_1$ work. For $a_3=2$ only $a_1=0,1$ work. Thus the count is $202$.",
+    "answer": 202,
+    "tags": [
+      "mixed radix",
+      "quotient remainder bijection"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: One congruence omits a division by ten, and the two exceptional ordered pairs are transposed/mistyped. Source 5: The multiple-of-ten condition belongs to a_0, not a_1. The regrouped place-value equation also omits a factor ten.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-I-12",
+    "title": "A multiplicative two-color threshold",
+    "restatement": "Find the least $m\\ge3$ such that every two-coloring of $\\{3,\\ldots,m\\}$ has a monochromatic solution $ab=c$, allowing $a=b$.",
+    "solution": "At $m=243$, color $3$ red. Avoiding monochromatic products forces $9$ blue, $81$ red, and $27$ blue (since $3\\cdot27=81$). Then $243=3\\cdot81=9\\cdot27$ cannot have either color. For $m=242$, color $[3,8]\\cup[81,242]$ red and $[9,80]$ blue. Products of two small red entries lie in $[9,64]$; any product using a large red entry exceeds $242$; products of two blue entries are at least $81$ and cannot be blue. Thus $243$ is sharp.",
+    "answer": 243,
+    "tags": [
+      "Ramsey theory",
+      "extremal coloring"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-II-02",
+    "title": "Distance to the nearest side",
+    "restatement": "Choose a point uniformly inside a unit square. Its distance to the nearest side is $d$. Find numerator plus denominator of $P(1/5\\le d\\le1/3)$.",
+    "solution": "The event $d\\ge t$ is a concentric square of side $1-2t$. Thus the desired area is $(3/5)^2-(1/3)^2=56/225$, and the answer is $281$.",
+    "answer": 281,
+    "tags": [
+      "continuous probability",
+      "complement"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The two inner-square areas are attached to the wrong distance thresholds. Their difference is nevertheless computed correctly.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-II-03",
+    "title": "Valuation of all pair differences",
+    "restatement": "Let $K=\\prod_{1\\le a<b\\le20}(b-a)$. Find the largest exponent $n$ for which $2^n\\mid K$.",
+    "solution": "A difference $d$ occurs $20-d$ times. Count each factor of two by its level: $v_2(K)=\\sum_{j=1}^{4}\\sum_{1\\le d\\le19,\\,2^j\\mid d}(20-d)$. The four sums are $90,40,16,4$, totaling $150$. This avoids multiplying the large product.",
+    "answer": 150,
+    "tags": [
+      "valuation layers",
+      "contribution counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-II-04",
+    "title": "A short gate change",
+    "restatement": "Twelve gates are equally spaced $100$ feet apart. A traveler is assigned one uniformly, then reassigned uniformly to a different gate. Find numerator plus denominator of the probability of walking at most $400$ feet.",
+    "solution": "An unordered pair at distance $100d$ has $12-d$ choices. For $d=1,2,3,4$, there are $11+10+9+8=38$ such pairs out of $\\binom{12}{2}=66$. Thus $P=19/33$, giving $52$.",
+    "answer": 52,
+    "tags": [
+      "distance stratification",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-II-08",
+    "title": "A set cannot contain its own size",
+    "restatement": "Partition $\\{1,\\ldots,12\\}$ into ordered nonempty sets $A,B$, requiring $|A|\\notin A$ and $|B|\\notin B$. Count the partitions.",
+    "solution": "Let $|A|=k$. For $k\\ne6$, the element $k$ is forced into $B$ and the distinct element $12-k$ into $A$; choose the other $k-1$ elements of $A$ from the remaining ten. If $k=6$, the element $6$ would have to lie in neither part, impossible. Therefore the count is $\\sum_{k=1}^{11}\\binom{10}{k-1}-\\binom{10}{5}=1024-252=772$.",
+    "answer": 772,
+    "tags": [
+      "forced choices",
+      "binomial identities"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The varying forced and forbidden elements cannot be treated as one fixed ten-element sample space without explanation. Sum the fixed-size binomial counts to justify the same result.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-II-10",
+    "title": "Quadratics modulo interchange of roots",
+    "restatement": "Count quadratic polynomials with integer coefficients and integer roots whose constant coefficient is $2010$.",
+    "solution": "Write $f(x)=a(x-r)(x-s)$, so $ars=2010$. Since $2010$ has four distinct prime factors, assigning each prime to $|a|,|r|,|s|$ gives $3^4$ ordered magnitude triples. There are four sign assignments with positive product, hence $324$ ordered signed triples. Swapping $r,s$ leaves the polynomial unchanged and fixes exactly two triples, with $r=s=1$ or $r=s=-1$ and $a=2010$. Burnside gives $(324+2)/2=163$.",
+    "answer": 163,
+    "tags": [
+      "Burnside lemma",
+      "prime allocations"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-II-11",
+    "title": "Tic-tac-toe line counts",
+    "restatement": "Count $3\\times3$ binary boards with five ones and four zeros such that at most one row, column, or long diagonal is monochromatic.",
+    "solution": "There are $\\binom95=126$ boards. If each color has a monochromatic line, the two lines must be parallel rows or parallel columns. Choose their color-labeled locations in $3\\cdot2$ ways and the extra zero in the remaining line in three ways: $36$ boards. If only ones have multiple lines, exactly two intersecting lines use all five ones. The pairs are row-column ($9$), row/column-diagonal ($12$), or two diagonals ($1$), giving $22$. Four zeros cannot form two lines, and these bad cases are disjoint. Thus $126-36-22=68$.",
+    "answer": 68,
+    "tags": [
+      "complement",
+      "line incidence"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2010-II-13",
+    "title": "Two fixed cards share a rank team",
+    "restatement": "Four people draw distinct uniform cards from $1,\\ldots,52$ and the two lowest form one team. Two specified people hold $a,a+9$. Among choices with their same-team probability at least $1/2$, find numerator plus denominator of the smallest probability.",
+    "solution": "The other two cards must both lie below $a$ or both above $a+9$. Hence $p(a)=[\\binom{a-1}{2}+\\binom{43-a}{2}]/\\binom{50}{2}$. Writing $a=22+t$ makes the numerator $420+t^2$. Thus $p(a)\\ge1/2$ requires $t^2\\ge192.5$, whose least allowable value is $196$ at $|t|=14$. The minimum is $616/1225=88/175$, yielding $263$.",
+    "answer": 263,
+    "tags": [
+      "conditional probability",
+      "convexity"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-I-05",
+    "title": "Sliding sums force periodic residues",
+    "restatement": "Label a regular nonagon by $1,\\ldots,9$, requiring every three consecutive labels to have sum divisible by $3$. Identify rotations but not reflections. Count arrangements.",
+    "solution": "Subtract consecutive triple-sum congruences to obtain $a_{i+3}\\equiv a_i\\pmod3$. Since each residue class occurs exactly three times, the three position classes modulo three must receive the three residues in a permutation. There are $3!$ residue patterns on labeled vertices and $(3!)^3$ assignments of actual labels. Every rotation orbit has size nine because all labels are distinct. Thus the number is $3!(3!)^3/9=144$.",
+    "answer": 144,
+    "tags": [
+      "sliding windows",
+      "periodicity",
+      "rotations"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-I-07",
+    "title": "Splitting a power into equal smaller powers",
+    "restatement": "For how many positive integers $m$ can one power $m^{x_0}$ equal a sum of exactly $2011$ powers $m^{x_i}$ with all exponents nonnegative?",
+    "solution": "The case $m=1$ is impossible. For $m>1$, reduction modulo $m-1$ gives $1\\equiv2011$, so $m-1\\mid2010$. Conversely, let $k=2010/(m-1)$. Start with $m^k$ and repeatedly replace one positive-exponent term $m^j$ by $m$ copies of $m^{j-1}$, following a descending chain for $k$ splits. Each split adds $m-1$ terms, ending at exactly $2011$ nonnegative-exponent powers. Thus valid $m$ correspond to divisors of $2010=2\\cdot3\\cdot5\\cdot67$, of which there are $16$.",
+    "answer": 16,
+    "tags": [
+      "refinement",
+      "invariants",
+      "m-ary trees"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: Pattern examples suggest the splitting construction but do not establish necessity; reduction modulo m-1 is required. Source 4: Splitting proves sufficiency. Necessity still needs a merging argument or the residue invariant. Source 5: The constructed family proves sufficiency but its form cannot simply be assumed for every representation.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-I-10",
+    "title": "Obtuse triangles in a regular polygon",
+    "restatement": "Three vertices are chosen uniformly from a regular $n$-gon. Their triangle is obtuse with probability $93/125$. Find the sum of all possible $n$.",
+    "solution": "An obtuse triangle has a unique circular gap greater than a semicircle. The vertex after that gap is a unique anchor, and its other two vertices must be among the next $h=\\lfloor(n-1)/2\\rfloor$ vertices. Thus $P=n\\binom h2/\\binom n3$. If $n=2t$, this simplifies to $3(t-2)/(2(2t-1))$, giving $t=188$ and $n=376$. If $n=2t-1$, it is $3(t-2)/(2(2t-3))$, giving $t=64$ and $n=127$. The sum is $503$.",
+    "answer": 503,
+    "tags": [
+      "cyclic gaps",
+      "geometric probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The obtuse-triangle formula has an off-by-one error and does not produce the two values subsequently claimed. Trial values also do not prove exhaustiveness.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-I-12",
+    "title": "Conditioning on no isolated men",
+    "restatement": "Six men and $w$ women stand uniformly in a row. Given that no man is isolated, find the least $w$ for which the probability of a male run of length at least four is at most $1/100$.",
+    "solution": "Ignore identities, which contribute a common factor. The possible positive male run lengths are $(2,2,2),(3,3),(2,4),(4,2),(6)$. Choosing occupied gaps among the $w+1$ gaps around women gives denominator $\\binom{w+1}{3}+3\\binom{w+1}{2}+w+1$. Favorable patterns give numerator $2\\binom{w+1}{2}+w+1$. The ratio simplifies to $6(w+1)/(w^2+8w+6)$. The bound is equivalent to $w(w-592)\\ge594$. Values $w\\le592$ fail, $593$ fails by one, and $594$ works.",
+    "answer": 594,
+    "tags": [
+      "conditional probability",
+      "runs",
+      "gaps"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-II-06",
+    "title": "Reflect the outer gaps",
+    "restatement": "Count $1\\le a<b<c<d\\le10$ with $a+d>b+c$.",
+    "solution": "The five nonnegative gaps $(a-1,b-a-1,c-b-1,d-c-1,10-d)$ sum to six. Swapping their second and fourth components reverses the strict inequality, so count all $\\binom{10}{4}=210$ possibilities, remove ties, and halve. Ties have common gap $j=0,1,2,3$, giving $\\sum_{j=0}^3\\binom{8-2j}{2}=28+15+6+1=50$. Thus the answer is $(210-50)/2=80$.",
+    "answer": 80,
+    "tags": [
+      "involutions",
+      "gaps",
+      "stars and bars"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: The displayed triangular-number sum is missing a factor two; the equality-case count 50 is correct. Source 5: The rational generating function is missing one factor 1/(1-x); its later binomial coefficients use the correct exponent. Source 7: The gap substitution reverses the required inequality. Reflection shows the reverse inequality has the same count, but that step is absent.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-II-07",
+    "title": "Transitions bound the number of marbles",
+    "restatement": "Arrange five identical green and some identical red marbles in a row. The number of equal-color adjacencies equals the number of unequal-color adjacencies. At the maximum possible red count, count arrangements modulo $1000$.",
+    "solution": "Each green can participate in at most two color changes, so at most ten of the $R+4$ adjacencies are unequal. Equality of the two types gives $R+4\\le20$, hence $R\\le16$. Equality is attained exactly when all five greens are isolated and both ends are red. Thus distribute $16$ reds among the six nonempty gaps around the greens: $\\binom{15}{5}=3003$ arrangements. The residue is $3$.",
+    "answer": 3,
+    "tags": [
+      "runs",
+      "extremal transitions",
+      "compositions"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-II-12",
+    "title": "Avoid a monochromatic triple on a circle",
+    "restatement": "Seat three delegates from each of three countries randomly around a nine-seat circle. Every delegate must have a neighbor from another country. Find numerator plus denominator of the success probability.",
+    "solution": "Treat country labels as indistinguishable and seats as numbered, giving $9!/(3!)^3=1680$ words. Failure occurs when all three members of some country form a consecutive block. For a specified country there are $9\\binom63=180$ words. For two specified country blocks there are $9\\cdot4=36$, by contracting the two blocks on the circle. All three blocks give $9\\cdot2=18$. Inclusion-exclusion gives $3\\cdot180-3\\cdot36+18=450$ failures. Thus $P=1230/1680=41/56$, giving $97$.",
+    "answer": 97,
+    "tags": [
+      "circular blocks",
+      "inclusion exclusion",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-II-14",
+    "title": "Permutations respecting residue partitions",
+    "restatement": "Count permutations $a_1,\\ldots,a_{30}$ of $1,\\ldots,30$ satisfying $a_{i+m}\\equiv a_i\\pmod m$ for $m=2,3,5$ wherever defined. Give the residue modulo $1000$.",
+    "solution": "For each modulus, values in any one position residue class share a value residue. Equal class sizes and bijectivity force a permutation of the residue classes. Choose these residue permutations independently in $2!,3!,5!$ ways. The Chinese remainder theorem then specifies a unique value modulo $30$ at each position and guarantees all thirty values are distinct. Therefore $N=2!3!5!=1440$, giving $440$.",
+    "answer": 440,
+    "tags": [
+      "Chinese remainder theorem",
+      "permutation products"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The relevant CRT hypothesis is pairwise coprimality; a collective gcd of one is not sufficient in general. Source 3: The optional extension to sixty symbols is incorrect: after choosing residue permutations, each of thirty residue classes has an independent two-element permutation.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2011-II-15",
+    "title": "Floor equality on three intervals",
+    "restatement": "Let $P(x)=x^2-3x-9$ and choose $x$ uniformly on $[5,15]$. The probability that $\\lfloor\\sqrt{P(x)}\\rfloor=\\sqrt{P(\\lfloor x\\rfloor)}$ has form $(\\sqrt a+\\sqrt b+\\sqrt c-d)/e$. Find $a+b+c+d+e$.",
+    "solution": "The right side must be integral. For integer inputs $5$ through $14$, $P(k)$ is square only at $k=5,6,13$, with square roots $1,3,11$. Since $P$ is increasing, the successful intervals run from each $k$ until $P(x)$ reaches the next square $4,16,144$. Their upper endpoints are $(3+\\sqrt{61})/2,(3+\\sqrt{109})/2,(3+\\sqrt{621})/2$. Each upper endpoint is less than $k+1$, so the floor of $x$ stays at $k$ throughout. Sum their lengths and divide by ten to obtain $(\\sqrt{61}+\\sqrt{109}+\\sqrt{621}-39)/20$. The requested sum is $850$.",
+    "answer": 850,
+    "tags": [
+      "continuous probability",
+      "floor stratification"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The substitution mishandles the floor: floor(2x-3) is not 2 floor(x)-3. The subsequent intervals actually use the latter expression, so the written transformed equation is invalid. Source 3: The answer format is used to assert interval bounds without proof. The bounds should be checked directly.",
+    "verification": "Analytic derivation checked against the archived answer; not independently machine-checked.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-01",
+    "title": "Divisibility in both digit directions",
+    "restatement": "Count three-digit integers $abc$ with $a,c\\ne0$ such that both $abc$ and $cba$ are divisible by four.",
+    "solution": "The conditions are $2b+c\\equiv0\\pmod4$ and $2b+a\\equiv0\\pmod4$. For even $b$, each of $a,c$ is $4$ or $8$; for odd $b$, each is $2$ or $6$. Every one of the ten choices for $b$ therefore permits four pairs $(a,c)$, giving $40$.",
+    "answer": 40,
+    "tags": [
+      "digit counting",
+      "residues"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The initial even-middle-digit factor is mistyped as four rather than five.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-03",
+    "title": "Exactly one correct meal type",
+    "restatement": "Nine labeled diners order three meals of each of three types. The nine meal types are assigned to diners, with identical meals indistinguishable. Count assignments with exactly one diner receiving the ordered type.",
+    "solution": "Choose the unique correct diner in nine ways. Suppose that diner ordered type $B$. Two remaining $B$-diners must get only $C,F$. If both get $C$, the other groups are forced apart from three placements of the one $C$ among the $F$-diners; likewise both $F$ gives three. If they get one of each, there are two orders, then three choices for the sole $B$ in each other group, giving $18$. Thus each correct diner permits $3+3+18=24$ assignments, and the total is $216$.",
+    "answer": 216,
+    "tags": [
+      "contingency tables",
+      "exact matches"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The source itself acknowledges that its argument obtains the correct count coincidentally. Independent residual meal assignments are not justified.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-05",
+    "title": "Consecutive binary numbers with equal weight",
+    "restatement": "Let $B$ contain all thirteen-bit strings with eight ones and five zeros, allowing leading zeros. Count ordered pairs $(u,v)\\in B^2$ with numeric difference $u-v=1$.",
+    "solution": "If $v$ ends in $t$ ones, adding one changes its one-count by $1-t$. Equal one-counts therefore force $t=1$, so $v$ ends in $01$ and $u$ in $10$. Their shared eleven-bit prefix must contain seven ones. This condition is sufficient and unique, yielding $\\binom{11}{7}=330$.",
+    "answer": 330,
+    "tags": [
+      "binary carries",
+      "bijections"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-07",
+    "title": "Stationary coins on a network",
+    "restatement": "On a connected undirected network, one central vertex has degree five, five vertices have degree three, and ten have degree four. The vertices hold $3360$ coins and simultaneously split all coins equally among neighbors; every holding remains unchanged. Find the central holding.",
+    "solution": "Write the holding at vertex $v$ as $d(v)r_v$. Stationarity says $d(v)r_v=\\sum_{u\\sim v}r_u$, so $r_v$ is the average of its neighbors' ratios. At a maximum, all neighboring ratios equal that maximum; connectivity propagates equality everywhere. Thus holdings are proportional to degrees. The degree sum is $5+5\\cdot3+10\\cdot4=60$, giving $56$ coins per degree and central holding $5\\cdot56=280$.",
+    "answer": 280,
+    "tags": [
+      "graphs",
+      "maximum principle",
+      "stationary distributions"
+    ],
+    "source_review": "The principal archived solution assumes equal holdings on symmetric rings. The maximum-principle argument proves uniqueness without that assumption. Audit findings: Source 1: Equal gifts are asserted without a uniqueness argument. Dividing holdings by vertex degree and applying the finite harmonic maximum principle supplies it. Source 3: Visual symmetry does not prove an arbitrary stationary allocation is symmetric. Use the harmonic maximum principle or sum the layer equations.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-11",
+    "title": "Reachability in a lattice semigroup",
+    "restatement": "From $(0,0)$ allow jumps $(7,2),(2,7),(-5,-10),(-10,-5)$. Let $M$ count reachable lattice points with $|x|+|y|\\le100$. Find $M\\bmod1000$.",
+    "solution": "Necessarily $x+y=3u$, $x-y=5v$ for integers $u,v$ of the same parity. Conversely the jumps in $(u,v)$ are $(3,\\pm1),(-5,\\pm1)$. Choose large nonnegative $C\\equiv u\\pmod3$ and put $A=(u+5C)/3$. Then $3A-5C=u$, while $L=A+C\\ge|v|$ and $L\\equiv u\\equiv v\\pmod2$. Among these $L$ jumps choose $(L+v)/2$ plus signs, obtaining the target with nonnegative counts. Hence the invariants are sufficient. Now $|x|+|y|=\\max(|3u|,|5v|)$, so $-33\\le u\\le33$, $-20\\le v\\le20$. Equal parities give $33\\cdot21+34\\cdot20=1373$ points, hence $373$.",
+    "answer": 373,
+    "tags": [
+      "lattice invariants",
+      "reachability",
+      "parity"
+    ],
+    "source_review": "The first archived sufficiency argument does not clearly enforce nonnegative jump counts. Taking a sufficiently large solution and assigning signs here proves actual reachability.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-15",
+    "title": "Multiplication changes every circular separation",
+    "restatement": "Reseat $n$ people on a numbered circle by $k\\mapsto ak\\pmod n$. Require this to be a permutation and require every pair's circular separation to change even up to reversal. Count possible $1<n<1000$.",
+    "solution": "Permutation requires $\\gcd(a,n)=1$. A nonzero difference $d$ must never satisfy $ad\\equiv d$ or $ad\\equiv-d\\pmod n$, equivalent to $\\gcd(a-1,n)=\\gcd(a+1,n)=1$. Thus three consecutive integers must all be coprime to $n$, impossible if $2\\mid n$ or $3\\mid n$. Conversely if $\\gcd(n,6)=1$, choose $a=2$, and all three gcds are one. Inclusion-exclusion on $1,\\ldots,999$ gives $999-499-333+166=333$ values, of which $n=1$ is excluded. The result is $332$.",
+    "answer": 332,
+    "tags": [
+      "cyclic permutations",
+      "modular invariants"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-03",
+    "title": "Department and gender margins",
+    "restatement": "Three departments each contain two men and two women. Choose a six-person committee with two members per department and three of each gender. Count committees.",
+    "solution": "The male counts by department must be $(1,1,1)$ or a permutation of $(0,1,2)$. The first contributes $(2\\cdot2)^3=64$. Each of the six second-type patterns contributes $1\\cdot4\\cdot1=4$. Thus the total is $64+24=88$. Equivalently it is $[x^3](1+4x+x^2)^3$.",
+    "answer": 88,
+    "tags": [
+      "fixed margins",
+      "generating functions"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-07",
+    "title": "Unranking a binary subset",
+    "restatement": "List positive integers with exactly eight binary ones in increasing order. Find the $1000$th integer modulo $1000$.",
+    "solution": "Numbers fitting in twelve bits number $\\binom{12}{8}=495$, so bit $12$ is one and the remaining rank is $505$ among twelve-bit strings of weight seven. Since $\\binom{11}{7}=330$, bit $11$ is one and rank becomes $175$. Bit $10$ is zero because $\\binom{10}{6}=210\\ge175$. Skipping $\\binom96=84$ then $\\binom85=56$ makes bits $9,8$ one and leaves rank $35$ for weight four below bit eight. Since $\\binom74=35$, take the largest seven-bit weight-four string, $1111000$. Thus $N=2^{12}+2^{11}+2^9+2^8+2^6+2^5+2^4+2^3=7032$, giving $32$.",
+    "answer": 32,
+    "tags": [
+      "binomial unranking",
+      "binary subsets"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-12",
+    "title": "Independent forbidden residues",
+    "restatement": "A positive integer is $p$-safe if its distance from every multiple of $p$ exceeds two. Count integers at most $10000$ that are simultaneously $7$-, $11$-, and $13$-safe.",
+    "solution": "The allowed residues modulo $p$ are $3,\\ldots,p-3$, a total of $p-5$. By the Chinese remainder theorem there are $2\\cdot6\\cdot8=96$ safe residues per block of $1001$. Thus $1,\\ldots,10010$ contains $960$ safe numbers. Among the last ten integers only $10006,10007$ qualify (their residues are respectively $-4,-3$ modulo all three moduli). Subtract these to obtain $958$.",
+    "answer": 958,
+    "tags": [
+      "Chinese remainder theorem",
+      "residue counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-14",
+    "title": "Labeled two-regular graphs",
+    "restatement": "Nine labeled people each shake hands with exactly two others. Count possible sets of handshakes modulo $1000$.",
+    "solution": "The handshake graph is a disjoint union of simple cycles of length at least three. The possible component sizes are $9$, $6+3$, $5+4$, and $3+3+3$. Their counts are $8!/2=20160$, $\\binom93(5!/2)=5040$, $\\binom94(3!/2)(4!/2)=4536$, and $9!/((3!)^3 3!)=280$. The sum is $30016$, giving residue $16$. Division by two reverses each cycle; division by $3!$ removes the ordering of equal-sized components.",
+    "answer": 16,
+    "tags": [
+      "graphs",
+      "cycle decompositions",
+      "symmetry"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The case-tree idea is valid, but several displayed subscripts and parentheses omit multiplicative factors.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-I-02",
+    "title": "Uniform digit sums modulo five",
+    "restatement": "Count five-digit integers divisible by five whose first and last digits agree and whose digit sum is divisible by five.",
+    "solution": "The first and last digits must both be $5$, so write the integer $5abc5$. Choose $a,b$ arbitrarily in $100$ ways. Exactly two choices of $c\\in\\{0,\\ldots,9\\}$ give $a+b+c\\equiv0\\pmod5$. The count is $200$.",
+    "answer": 200,
+    "tags": [
+      "residue uniformity",
+      "digit counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-I-04",
+    "title": "Coloring the orbits of a quarter-turn",
+    "restatement": "A thirteen-cell figure has one central cell and three four-cell orbits under a quarter-turn. Choose eight cells red and five blue uniformly. The probability of quarter-turn invariance is $1/n$. Find $n$.",
+    "solution": "An invariant coloring is constant on each orbit. Since there are eight red cells, exactly two of the three size-four orbits are red and the center is blue. Thus there are three invariant colorings among $\\binom{13}{8}=1287$ choices. The probability is $3/1287=1/429$, giving $429$.",
+    "answer": 429,
+    "tags": [
+      "group orbits",
+      "invariant colorings",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-I-06",
+    "title": "Track only the special books",
+    "restatement": "Randomly pack twelve distinct books into labeled boxes of sizes three, four, and five. Three books are mathematics books. Find numerator plus denominator of the probability that all three share a box.",
+    "solution": "Imagine twelve labeled capacity slots. The three mathematics books occupy a uniform three-subset of the slots. Favorable subsets lie entirely within one box, giving $\\binom33+\\binom43+\\binom53=1+4+10=15$. Hence $P=15/\\binom{12}{3}=3/44$, and the answer is $47$.",
+    "answer": 47,
+    "tags": [
+      "sample-space compression",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-I-15",
+    "title": "Two arithmetic progressions with reordered residues",
+    "restatement": "Count $0\\le A<B<C\\le99$ forming an arithmetic progression for which a prime $p$ and residues $0\\le b<a<c<p$ satisfy $A\\equiv a$, $B\\equiv b$, $C\\equiv c\\pmod p$, with $(b,a,c)$ also an arithmetic progression.",
+    "solution": "Write $(A,B,C)=(B-D,B,B+D)$ and $(b,a,c)=(a-d,a,a+d)$. Subtracting the congruences gives $D\\equiv-d\\equiv2d\\pmod p$, hence $p\\mid3d$. Since $0<d<p$, $p=3$, and the residues are $(a,b,c)=(1,0,2)$. Thus $B=3k$ and $D\\equiv2\\pmod3$, with $D\\le\\min(B,99-B)$. For $k=1,\\ldots,16$ there are $k$ choices of $D$; for $k=17,\\ldots,32$ there are $33-k$. These conditions are also sufficient using $p=3$. The count is $2(1+\\cdots+16)=272$.",
+    "answer": 272,
+    "tags": [
+      "residue constraints",
+      "arithmetic progressions",
+      "case counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The listed ranges and counts for the progression difference disagree, and the final arithmetic sum is not 272. The middle-term count in the original solution avoids these errors.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-II-09",
+    "title": "Colored compositions use all colors",
+    "restatement": "Tile a seven-cell row by positive integer-length tiles colored red, blue, or green, requiring all three colors. Adjacent tiles of the same color remain distinct tiles. Find the tiling count modulo $1000$.",
+    "solution": "With $q$ available colors, a tiling is encoded by its first tile color ($q$ choices) and at each of the six internal cell boundaries either no cut or a cut followed by one of $q$ colors. Thus $T(q)=q(q+1)^6$. Inclusion-exclusion on missing colors gives $T(3)-3T(2)+3T(1)=3\\cdot4^6-6\\cdot3^6+3\\cdot2^6=8106$, with residue $106$.",
+    "answer": 106,
+    "tags": [
+      "compositions",
+      "boundary encoding",
+      "inclusion exclusion"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The number of divisions into i pieces is C(6,i-1), not the displayed C(6,i).",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-II-11",
+    "title": "Functions whose second iterate is constant",
+    "restatement": "Count functions on a seven-element labeled set for which $f\\circ f$ is constant, and give the count modulo $1000$.",
+    "solution": "Let the constant be $c$. Since $f^2(f(x))=c=f(f^2(x))$, we have $f(c)=c$. Choose $c$ in seven ways. Let $K=f^{-1}(c)\\setminus\\{c\\}$ have size $k$. Every other element must map into $K$, and conversely any such map works. Thus $N=7\\sum_{k=1}^{6}\\binom6k k^{6-k}=7399$, giving $399$. The definition of $K$ makes the decomposition unique and prevents duplicate counting.",
+    "answer": 399,
+    "tags": [
+      "functional graphs",
+      "rooted structures"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The exposition confuses the image with the preimage of the fixed point, omits a binomial factor in the written sum, and mistypes the exponent base. The final evaluated sum corresponds to the corrected rooted-layer count.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-II-12",
+    "title": "Cubics with roots on two circles",
+    "restatement": "Count monic integer-coefficient cubics all of whose complex roots have modulus either $13$ or $20$.",
+    "solution": "If all roots are real, they form a multiset of size three from $\\{-20,-13,13,20\\}$, giving $\\binom63=20$. Otherwise there is one real root $r$ from those four values and a conjugate pair of modulus $R\\in\\{13,20\\}$. Its quadratic factor is $z^2-tz+R^2$, where $t$ must be integral because the cubic's quadratic coefficient is integral and $r$ is integral. Nonreal roots require $|t|<2R$, giving $51$ or $79$ choices. Each choice yields integral coefficients and a unique cubic. Thus the count is $20+4(51+79)=540$.",
+    "answer": 540,
+    "tags": [
+      "multisets",
+      "algebraic enumeration"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The squared magnitude is called the magnitude. The coefficient argument is correct after that distinction. Source 2: The discriminant condition needs an absolute value on p, and its displayed square root contains an extraneous square.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  }
+]

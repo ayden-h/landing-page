@@ -1,0 +1,7 @@
+% Permit modest paragraph stretching instead of overrunning the right margin.
+\setlength{\emergencystretch}{3em}
+% Latin Modern Math supplies U+2216; avoid an unavailable U+29F5 variant.
+\AtBeginDocument{\let\setminus\smallsetminus}
+
+% Title and frontmatter may restart visible page numbering. Keep PDF anchors unique.
+\AtBeginDocument{\hypersetup{hypertexnames=false}}

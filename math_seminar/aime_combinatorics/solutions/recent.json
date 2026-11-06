@@ -1,0 +1,3005 @@
+[
+  {
+    "id": "2014-I-02",
+    "title": "Matching colors from two urns",
+    "restatement": "Two independent draws use urns with color counts $(4,6)$ and $(16, N)$. Their colors agree with probability $29/50$. Determine $N$.",
+    "solution": "The two matching events are disjoint. Thus $(4\\cdot16+6N)/(10(16+N))=29/50$. Cross multiplication gives $320+30N=464+29N$, hence $N=144$.",
+    "answer": 144,
+    "tags": [
+      "probability",
+      "total probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2014-II-02",
+    "title": "Conditional probability from Venn atoms",
+    "restatement": "Three events each have exclusive probability $0.10$; every exclusive pair has probability $0.14$. Given $A$ and $B$, all three occur with probability $1/3$. Find numerator plus denominator of the probability of no events conditional on not $A$.",
+    "solution": "Write $t=P(A\\cap B\\cap C)$. Then $t/(0.14+t)=1/3$, so $t=0.07$. The probability of none is $1-3(0.10)-3(0.14)-0.07=0.21$. Also $P(A)=0.10+2(0.14)+0.07=0.45$. Therefore the requested probability is $0.21/0.55=21/55$ and the answer is $76$.",
+    "answer": 76,
+    "tags": [
+      "probability",
+      "conditional probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2014-I-05",
+    "title": "Disk-separable vertex subsets",
+    "restatement": "Count subsets of a regular dodecagon that are precisely its vertices strictly inside some circle.",
+    "solution": "On the circumcircle $|X|=R$, the disk condition $|X-c|^2<r^2$ becomes the linear inequality $c\\cdot X>(R^2+|c|^2-r^2)/2$. Consequently a nonempty proper subset must be a consecutive cyclic interval. Conversely each such interval is cut off by a suitable line, and a disk realizes the same strict inequality on the circumcircle. There are $12$ intervals of each size $1$ through $11$; add the empty and full sets: $12\\cdot11+2=134$.",
+    "answer": 134,
+    "tags": [
+      "cyclic intervals",
+      "geometry counting"
+    ],
+    "source_review": "The source identifies consecutive vertices; this proof supplies the missing linearization and converse.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2014-II-06",
+    "title": "A hidden die and Bayesian updating",
+    "restatement": "Choose equally between a fair die and one whose six-probability is $2/3$. After two sixes, find the reduced numerator plus denominator of the probability of another six.",
+    "solution": "The likelihood ratio biased:fair after two sixes is $(2/3)^2:(1/6)^2=16:1$. Conditional on the observations, the next six therefore has probability $(16/17)(2/3)+(1/17)(1/6)=65/102$. Answer: $167$.",
+    "answer": 167,
+    "tags": [
+      "Bayes theorem",
+      "probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2014-II-09",
+    "title": "A run of three on a cycle",
+    "restatement": "Among the subsets of ten labeled cyclic seats, count those containing three consecutive seats.",
+    "solution": "Count the complement by a transfer matrix. States $0,1,2$ record the number of consecutive selected seats since the last unselected seat. The allowed transitions are $0\\to0,1$; $1\\to0,2$; $2\\to0$. With matrix $M=((1,1,0),(1,0,1),(1,0,0))$, each cyclic binary word without $111$ has exactly one compatible state at each labeled position; the all-selected word is excluded. Therefore the complement is $\\operatorname{tr}(M^{10})=443$. For direct evaluation, $c_n=\\operatorname{tr}(M^n)$ satisfies $c_n=c_{n-1}+c_{n-2}+c_{n-3}$, with $c_0=3, c_1=1, c_2=3$. Hence $2^{10}-443=581$.",
+    "answer": 581,
+    "tags": [
+      "transfer matrices",
+      "cyclic runs"
+    ],
+    "source_review": "The source uses lengthy size-by-size casework; a cyclic transfer matrix removes overlapping runs.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2014-I-11",
+    "title": "Diagonal endpoint of a random walk",
+    "restatement": "A planar simple random walk starts at the origin and takes six unit axis steps. Find numerator plus denominator of its probability of ending on either diagonal $y=x$ or $y=-x$.",
+    "solution": "Use coordinates $u=x+y, v=x-y$. Each step independently chooses a uniform sign for $u$ and for $v$, so $u$ and $v$ are independent six-step one-dimensional walks. Each is zero with probability $\\binom63/2^6=5/16$. Thus $P(uv=0)=2(5/16)-(5/16)^2=135/256$. Answer: $391$.",
+    "answer": 391,
+    "tags": [
+      "random walks",
+      "coordinate bijection",
+      "inclusion-exclusion"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2014-I-12",
+    "title": "Disjoint ranges of random functions",
+    "restatement": "Choose independently two maps from a four-element set to itself. Find the numerator of the reduced probability that their images are disjoint.",
+    "solution": "If the first map has $k$ image values, choose them in $\\binom4k$ ways. For $k=1,2,3$, the counts of onto maps to those values are $1,14,36$, respectively, by inclusion-exclusion. The second map may use any of the other $4-k$ values. Thus the favorable count is $4(1)(3^4)+6(14)(2^4)+4(36)(1^4)=1812$. Dividing by $4^8$ gives $453/16384$, with numerator $453$.",
+    "answer": 453,
+    "tags": [
+      "surjections",
+      "Stirling numbers",
+      "probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2014-II-13",
+    "title": "Shoe matching and long cycles",
+    "restatement": "Randomly match ten left shoes to ten right shoes. No subset of fewer than five resulting pairs may contain exactly the complete shoes of that many owners. Find numerator plus denominator of the probability.",
+    "solution": "A matching is a permutation of owners; a closed collection of pairs is a union of cycles. The condition therefore forbids cycles shorter than five. The only cycle types are $(10)$ and $(5,5)$, with probabilities $1/10$ and $1/(2\\cdot5^2)$. Their sum is $3/25$, giving $28$.",
+    "answer": 28,
+    "tags": [
+      "permutation cycles",
+      "probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-I-02",
+    "title": "Exactly one repeated nationality",
+    "restatement": "Select three of nine distinct delegates, with nationality group sizes $2,3,4$. Find numerator plus denominator of the probability their nationality multiplicities are $2$ and $1$.",
+    "solution": "Choose the nationality of the pair, then the pair and the outsider. The favorable count is $\\binom22(7)+\\binom32(6)+\\binom42(5)=55$. All $\\binom93=84$ triples are equally likely. Thus the answer is $55+84=139$.",
+    "answer": 139,
+    "tags": [
+      "casework",
+      "combinations",
+      "probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-II-02",
+    "title": "Conditioning on enrollment",
+    "restatement": "Class fractions are $0.40,0.30,0.20,0.10$; Latin participation rates respectively are $1,0.80,0.50,0.20$. Given a Latin student, find numerator plus denominator of the probability of second-year status.",
+    "solution": "The joint second-year-and-Latin probability is $0.30(0.80)=0.24$. Total Latin probability is $0.40+0.24+0.10+0.02=0.76$. The conditional probability is $0.24/0.76=6/19$, so the answer is $25$.",
+    "answer": 25,
+    "tags": [
+      "conditional probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-I-05",
+    "title": "First matching sock pair on day three",
+    "restatement": "Ten socks form five color pairs. Draw two without replacement on each of three days. Find numerator plus denominator of the probability only the third day produces a matching pair.",
+    "solution": "Reveal day three first. Its pair matches with probability $1/9$. Conditional on that, eight socks form four complete pairs. For the first two days, inclusion-exclusion gives probability $1-2/7+1/(7\\cdot5)=26/35$ of neither pair matching. Therefore the desired probability is $26/315$ and the answer is $341$.",
+    "answer": 341,
+    "tags": [
+      "deferred decisions",
+      "inclusion-exclusion",
+      "probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-II-05",
+    "title": "Adjacent cells in a random pair",
+    "restatement": "Two different cells are chosen uniformly from an $n$ by $n$ square grid. Find the least $n$ for which their probability of sharing an edge is below $1/2015$.",
+    "solution": "The grid has $2n(n-1)$ adjacent unordered pairs. Thus the probability is $2n(n-1)/\\binom{n^2}2=4/[n(n+1)]$. We require $n(n+1)>8060$. Since $89\\cdot90=8010$ and $90\\cdot91=8190$, the least $n$ is $90$.",
+    "answer": 90,
+    "tags": [
+      "double counting",
+      "probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-I-09",
+    "title": "When a multiplicative recurrence reaches zero",
+    "restatement": "For $1\\le x, y, z\\le 10$ initialize $a_1=x, a_2=y, a_3=z$ and $a_n=a_{n-1}|a_{n-2}-a_{n-3}|$. Count initial triples whose sequence eventually reaches zero.",
+    "solution": "Write $d=|y-x|$ and $e=|z-y|$. If $d$ or $e$ is $0$ or $1$, a zero or adjacent equality occurs and eventually forces zero. If $d, e\\ge 2$, then $a_4=zd, a_5=zde$. The exceptional case $z=1, d=2$ gives $a_6=a_5$ and hence zero. Otherwise $a_4-a_3=z(d-1)\\ge 2$ and $a_5-a_4=zd(e-1)\\ge 2$. Thereafter each multiplier is at least two, preserving positive gaps of at least two, so zero is impossible. The first two events each contain $280$ triples; their intersection has $2\\cdot2^2+8\\cdot3^2=80$. The exceptional condition adds $14$ new triples. Total: $280+280-80+14=494$.",
+    "answer": 494,
+    "tags": [
+      "recurrence invariants",
+      "inclusion-exclusion"
+    ],
+    "source_review": "The source growth argument is informal; the invariant on successive differences makes the exclusion rigorous.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-II-10",
+    "title": "Permutations with bounded downward steps",
+    "restatement": "Count permutations of $1$ through $7$ in which $a_k-a_{k+1}\\le 2$ for every adjacent pair.",
+    "solution": "Insert the new maximum $n$ into a valid permutation of $1,\\ldots, n-1$. It can go only immediately before $n-1$, immediately before $n-2$, or at the end. All three work. Conversely deleting $n$ preserves validity: if its successor is $n-1$ or $n-2$, every possible predecessor remains legal. Thus $F_n=3F_{n-1}$ for $n\\ge 3$ and $F_2=2$; $F_7=2\\cdot3^5=486$.",
+    "answer": 486,
+    "tags": [
+      "insertion bijection",
+      "recurrences"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-I-12",
+    "title": "Mean minimum of a large subset",
+    "restatement": "Choose uniformly a $1000$-element subset of $\\{1,\\ldots,2015\\}$. Find numerator plus denominator of its expected minimum.",
+    "solution": "For a $k$-subset of $[N]$, the $k+1$ gaps of omitted elements before, between, and after its selected elements are exchangeable and sum to $N-k$. Therefore the first gap has mean $(N-k)/(k+1)$, and the minimum has mean $(N+1)/(k+1)$. Here this is $2016/1001=288/143$, giving $431$.",
+    "answer": 431,
+    "tags": [
+      "gap bijection",
+      "expectation"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-II-12",
+    "title": "Binary strings with bounded runs",
+    "restatement": "Count length-ten binary words whose constant runs have length at most three.",
+    "solution": "Let $F_n$ count such words. For $n\\ge 4$, remove the terminal run of length $1,2$, or $3$; its color is forced opposite the preceding letter. Thus $F_n=F_{n-1}+F_{n-2}+F_{n-3}$, with $F_1=2, F_2=4, F_3=8$. The next values are $14,26,48,88,162,298,548$.",
+    "answer": 548,
+    "tags": [
+      "runs",
+      "recurrences"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2015-I-14",
+    "title": "Parity of piecewise-linear area",
+    "restatement": "Let $A(n)$ be the area under $y=x \\lfloor\\sqrt{x}\\rfloor$ from $x=1$ to $x=n$. Count $2\\le n\\le 1000$ for which $A(n)$ is integral.",
+    "solution": "Put $m=\\lfloor\\sqrt n\\rfloor$. Twice the area is $\\sum_{k=1}^{m-1}k((k+1)^4-k^4)+m(n^2-m^4)$, whose parity is $mn-m(m+1)/2$. Therefore $m\\equiv0 \\pmod{4}$ always works; $m\\equiv2 \\pmod{4}$ never works; $m\\equiv1 \\pmod{4}$ requires odd $n$; $m\\equiv3 \\pmod{4}$ requires even $n$. The full even-$m$ blocks contribute $\\sum_{j=1}^7(8j+1)=231$. Odd-$m$ blocks $m=1,5,\\ldots,29$ contribute $128$; blocks $m=3,7,\\ldots,27$ contribute $105$; $m=31$ contributes $20$. Exclude $n=1$: total $231+128+105+20-1=483$.",
+    "answer": 483,
+    "tags": [
+      "parity",
+      "block counting"
+    ],
+    "source_review": "The first archived solution reverses odd-block parity and incorrectly counts half an odd block. Its reversed parity conditions happen to cancel in the final count.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "Exact parity formula and block counts independently reproduce 483.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-I-02",
+    "title": "Weighted dice",
+    "restatement": "Each independent die has $P(k)=k/21$ for $k=1,\\ldots,6$. Find numerator plus denominator of the probability their sum is seven.",
+    "solution": "The numerator over $21^2$ is $\\sum_{k=1}^6k(7-k)=56$. Thus the probability is $8/63$ and the answer is $71$.",
+    "answer": 71,
+    "tags": [
+      "weighted counting",
+      "probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-II-02",
+    "title": "Dependent rain events",
+    "restatement": "Saturday rain has probability $2/5$ and Sunday rain $3/10$. Sunday rain is twice as likely after Saturday rain as after no Saturday rain. Find numerator plus denominator for rain on at least one day.",
+    "solution": "Let $q$ be the probability of Sunday rain conditional on a dry Saturday. Total probability gives $(3/5)q+(2/5)(2q)=3/10$, hence $q=3/14$. Both days dry has probability $(3/5)(11/14)=33/70$. The answer is $37+70=107$.",
+    "answer": 107,
+    "tags": [
+      "total probability",
+      "complements"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-I-03",
+    "title": "Downward simple paths on an icosahedron",
+    "restatement": "Orient an icosahedron with top and bottom vertices and two horizontal pentagons. Count vertex-simple edge paths from top to bottom that never move upward.",
+    "solution": "Choose the first upper vertex in $5$ ways. A simple path on a pentagon from a fixed start has $1+2\\cdot4=9$ possibilities: stay, or move $1$ through $4$ steps in either direction. From the last upper vertex choose one of two descending edges. The lower pentagon again offers $9$ paths, followed by its edge to the bottom. Total $5\\cdot9\\cdot2\\cdot9=810$.",
+    "answer": 810,
+    "tags": [
+      "product rule",
+      "graph paths"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-II-04",
+    "title": "Layer counts determine a colored box",
+    "restatement": "An $a\\times b\\times c$ box of unit cubes has $9$ red and $12$ green cubes in each layer perpendicular to the $a$-direction, and $20$ green and $25$ yellow cubes in each layer perpendicular to the $b$-direction. Find its minimum volume.",
+    "solution": "Counting green cubes gives $12a=20b$, so $a=5t, b=3t$. Total red, green, yellow counts are $45t,60t,75t$; hence volume is $180t$ and $c=12/t$. The minimum is at $t=1$. It is realizable: in each of the $15$ columns of height $12$, put $3$ red, $4$ green, and $5$ yellow cubes. Its layers have exactly the required totals. Answer $180$.",
+    "answer": 180,
+    "tags": [
+      "double counting",
+      "constructive existence"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-II-06",
+    "title": "Absolute coefficient sum by parity",
+    "restatement": "For $P(x)=1-x/3+x^2/6$ and $Q(x)=P(x)P(x^3)P(x^5)P(x^7)P(x^9)$, find numerator plus denominator of the sum of absolute coefficients of $Q$.",
+    "solution": "Every chosen negative term has odd degree, and every positive term even degree. All contributions to a degree $j$ coefficient therefore have sign $(-1)^j$, with no cancellation. The absolute coefficient sum is $Q(-1)=P(-1)^5=(3/2)^5=243/32$, giving $275$.",
+    "answer": 275,
+    "tags": [
+      "generating functions",
+      "parity"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-I-08",
+    "title": "Minimizing a digit-column sum",
+    "restatement": "Permute digits $1,\\ldots,9$ into three three-digit numbers. Among sums ending in $0$, let $m$ be the least sum and $n$ its number of permutations. Find $|m-n|$.",
+    "solution": "Let $H, T, U$ be the sums of hundreds, tens, units digits. Then the sum is $450+90H-9U$, with $H\\ge 6$ and $U\\le 24$; $U$ must be $10$ or $20$. Hence the minimum requires $H=6, U=20$, attainable with hundreds $\\{1,2,3\\}$. Units sets are $\\{4,7,9\\},\\{5,6,9\\},\\{5,7,8\\}$; tens are forced. Therefore $m=810$ and $n=3(3!)^3=648$; difference $162$.",
+    "answer": 162,
+    "tags": [
+      "digit arrangements",
+      "extremal counting"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-II-08",
+    "title": "Three distinct factors of a product",
+    "restatement": "Count unordered triples of distinct positive integers whose product is $11\\cdot 21\\cdot 31\\cdot 41\\cdot 51\\cdot 61$.",
+    "solution": "The product is $3^2$ times six distinct primes. Labeled triples receive the two factors $3$ in $\\binom42=6$ ways and each other prime in $3$ ways, giving $6\\cdot3^6$. An equal pair must both be $1$ or both $3$, because all other prime exponents are $1$. Each type has $3$ choices for the unequal coordinate; all-equal is impossible. Remove $6$ ordered triples and divide by $3!: (6\\cdot3^6-6)/6=728$.",
+    "answer": 728,
+    "tags": [
+      "prime-exponent distributions",
+      "stars and bars",
+      "symmetry"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-II-11",
+    "title": "Divisor counts of perfect powers",
+    "restatement": "Call $N$ $k$-nice when some $k$th power has exactly $N$ positive divisors. Count $1\\le N<1000$ that are neither $7$-nice nor $8$-nice.",
+    "solution": "The divisor formula shows $N$ is $k$-nice exactly when $N\\equiv1 \\pmod{k}$: necessity follows by multiplying factors $ke_i+1$; sufficiency uses $(2^{(N-1)/k})^k$. There are $143$ integers $1\\pmod7$, $125$ integers $1 \\pmod{8}$, and $18$ integers $1 \\pmod{56}$ in $[1,999]$. Inclusion-exclusion leaves $999-(143+125-18)=749$.",
+    "answer": 749,
+    "tags": [
+      "inclusion-exclusion",
+      "divisor counts"
+    ],
+    "source_review": "The archived count omits N=1 in two intermediate totals, though the errors cancel. This version counts every endpoint consistently.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-II-12",
+    "title": "Proper colorings of a six-cycle",
+    "restatement": "Six fixed cyclic regions are colored with four colors; adjacent regions must differ. Count colorings.",
+    "solution": "The chromatic polynomial of a cycle $C_n$ is $(q-1)^n+(-1)^n(q-1)$. To derive it, fix the first color and track whether the current color agrees with it; the two-state transition gives this expression after closing the cycle. For $q=4, n=6$, the count is $3^6+3=732$. Rotations remain distinct because the regions are fixed.",
+    "answer": 732,
+    "tags": [
+      "graph coloring",
+      "transfer matrices"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-I-13",
+    "title": "Reflected random walk hitting time",
+    "restatement": "A frog starts at height $21$. Above $0$ it chooses four unit axis moves uniformly; at height $0$ only the two horizontal moves and upward move are allowed. Find expected steps to reach height $24$.",
+    "solution": "Let $E_y$ denote the expected remaining time. First-step conditioning gives $E_{24}=0, E_0-E_1=3$, and $E_y=1+(E_{y-1}+2E_y+E_{y+1})/4$. Thus differences $D_y=E_y-E_{y+1}$ satisfy $D_y=D_{y-1}+4$, so $D_y=4y+3$. Therefore $E_{21}=D_{21}+D_{22}+D_{23}=87+91+95=273$. Finite expectation follows from a uniformly positive chance of $24$ successive upward moves in every $24$-step block.",
+    "answer": 273,
+    "tags": [
+      "hitting times",
+      "difference equations"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-II-13",
+    "title": "Mean minimum score of a permutation board",
+    "restatement": "Place six nonattacking rooks on a labeled $6$ by $6$ board. Each square scores row+column. Find numerator plus denominator of the mean minimum occupied score.",
+    "solution": "For score $X$, use $E[X]=\\sum_{t=1}^7P(X\\ge t)$. The counts for thresholds $t=1,\\ldots,7$ are $720,720,600,384,162,32,1$. For $t\\ge 2$, assign rows $1$ through $t-2$ first: each has exactly $8-t$ available columns after previous choices. The other $8-t$ rows are unrestricted, so the count is $(8-t)^{t-2}(8-t)!$. Summing gives $2619$; dividing by $720$ gives $291/80$, hence $371$.",
+    "answer": 371,
+    "tags": [
+      "tail-sum expectation",
+      "restricted permutations"
+    ],
+    "source_review": "The source computes exact-score counts with extensive inclusion-exclusion. Nested forbidden regions give a shorter tail calculation.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2016-I-14",
+    "title": "Lattice shapes intersected by a rational line",
+    "restatement": "At every lattice point place a radius $1/10$ circle and an axis-parallel side $1/5$ square. Count the total shapes meeting the segment from $(0,0)$ to $(1001,429)$.",
+    "solution": "The line is $3x-7y=0$. A centered circle meets it only when $|3x-7y|/\\sqrt{58}\\le 1/10$, forcing the integer numerator to $0$. There are $144$ such centers, $(7k,3k),0\\le k\\le 143$. A square meets the line exactly when $|3x-7y|\\le 1$, because its half-width changes this linear form by at most $1$. Besides $144$ on-line centers, each of the $143$ fundamental strips has one center of each offset $\\pm 1$. Endpoints create no extra centers. Thus there are $144$ circles and $430$ squares, for a total of $574$.",
+    "answer": 574,
+    "tags": [
+      "lattice counting",
+      "periodicity"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-I-01",
+    "title": "Triangles from boundary points",
+    "restatement": "A triangle has $3$ additional points on one side, $4$ on another, and $5$ on the third. Count nondegenerate triangles whose vertices are among all $15$ marked points.",
+    "solution": "Choose any three points and remove collinear triples. A line not equal to a side meets the triangle boundary at at most two points, so only side triples are degenerate. The count is $\\binom{15}3-\\binom53-\\binom63-\\binom73=455-10-20-35=390$.",
+    "answer": 390,
+    "tags": [
+      "complementary counting",
+      "geometry counting"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-II-01",
+    "title": "Subsets avoiding two containers",
+    "restatement": "Count subsets of $[8]$ contained in neither $\\{1,2,3,4,5\\}$ nor $\\{4,5,6,7,8\\}$.",
+    "solution": "The two forbidden families have $32$ members each, and their intersection consists of the $4$ subsets of $\\{4,5\\}$. Inclusion-exclusion gives $256-32-32+4=196$.",
+    "answer": 196,
+    "tags": [
+      "inclusion-exclusion",
+      "subsets"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-II-02",
+    "title": "Weighted tournament champion",
+    "restatement": "Four teams indexed $1,\\ldots,4$ play semifinals $1$ versus $4$ and $2$ versus $3$. Team $i$ beats team $j$ with probability $i/(i+j)$, independently by match. Find numerator plus denominator for team $4$ winning.",
+    "solution": "Condition on the other finalist. The probability is $(4/5)[(2/5)(4/6)+(3/5)(4/7)]=256/525$. Thus the answer is $781$.",
+    "answer": 781,
+    "tags": [
+      "total probability",
+      "tournaments"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-II-03",
+    "title": "Voronoi region inside a triangle",
+    "restatement": "A point is uniform in the triangle with vertices $(0,0),(12,0),(8,10)$. Find numerator plus denominator of its probability of being closest to $(12,0)$.",
+    "solution": "The relevant perpendicular bisectors are $x=6$ and $y=2x/5+1$. Their intersection is $(6,17/5)$. The favorable region has vertices $(6,0),(12,0),(10,5),(6,17/5)$, with area $109/5$ by the shoelace formula. The whole area is $60$, giving probability $109/300$ and answer $409$.",
+    "answer": 409,
+    "tags": [
+      "geometric probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-II-04",
+    "title": "Ternary digit avoidance",
+    "restatement": "Count positive integers at most $2017$ with no zero digit in base $3$.",
+    "solution": "Since $2017=2202201_3$, every valid number of at most $6$ digits is allowed, contributing $\\sum_{k=1}^6 2^k=126$. A valid $7$-digit numeral must begin $1$ or $21$, giving $2^6+2^5=96$ more. A prefix $22$ forces the next positive digit above the bound. Total $222$.",
+    "answer": 222,
+    "tags": [
+      "digit counting",
+      "prefix decomposition"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-I-06",
+    "title": "A chord intersecting an isosceles triangle",
+    "restatement": "An inscribed isosceles triangle has equal angles $x$ degrees. A chord with two independent uniform endpoints intersects the triangle with probability $14/25$. Find the difference between possible $x$ values.",
+    "solution": "The complementary event has both endpoints on the same one of the three complementary arcs. Their normalized lengths are $x/180, x/180,1-2x/180$. Thus $2(x/180)^2+(1-2x/180)^2=11/25$. This yields $x^2-120x+3024=0$, with roots $36$ and $84$. Difference $48$.",
+    "answer": 48,
+    "tags": [
+      "geometric probability",
+      "complementary counting"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-I-07",
+    "title": "A triple Vandermonde sum",
+    "restatement": "Evaluate modulo $1000$ the sum of $C(6, a)C(6, b)C(6, a+b)$ over $a, b\\ge 0, a+b\\le 6$.",
+    "solution": "Put $c=6-a-b$ and use $\\binom6{a+b}=\\binom6c$. The summands count choosing $6$ objects from three labeled classes of $6$ according to the three class counts. Hence the sum is $\\binom{18}6=18564$, with remainder $564$.",
+    "answer": 564,
+    "tags": [
+      "Vandermonde identity",
+      "double counting"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-I-08",
+    "title": "Two random right-triangle vertices",
+    "restatement": "On the same semicircle of diameter $OP=200$, select $Q, R$ so that angles $POQ$ and $POR$ are independently uniform between $0$ and $75$ degrees. Find numerator plus denominator of $P(QR\\le 100)$.",
+    "solution": "The central angle between $Q, R$ is $2|a-b|$, so $QR=200\\sin|a-b|$. The condition is $|a-b|\\le 30$. In the $75$ by $75$ parameter square, the excluded triangles have combined area $45^2$. Thus the probability is $1-45^2/75^2=16/25$; answer $41$.",
+    "answer": 41,
+    "tags": [
+      "geometric probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-II-09",
+    "title": "An eight-edge bipartite covering",
+    "restatement": "Choose $8$ cells of a $7$ by $7$ board uniformly, conditional on hitting every row and column. Find numerator plus denominator of the probability one cell can be removed while still hitting all rows and columns.",
+    "solution": "Exactly one row and one column have degree $2$; fix them. Removal is possible precisely when their intersection is chosen. In that case choose its two other neighbors in $6^2$ ways and match the five remaining rows and columns: $6^2\\cdot5!=4320$. Otherwise each special vertex chooses two neighbors, giving $\\binom62^2\\cdot4!=5400$. The conditional probability is $4320/(4320+5400)=4/9$; answer $13$.",
+    "answer": 13,
+    "tags": [
+      "bipartite graphs",
+      "conditional probability"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-I-11",
+    "title": "Median of row medians",
+    "restatement": "Arrange $1,\\ldots,9$ in a $3$ by $3$ array. Count modulo $1000$ arrangements whose median of the three row medians is $5$.",
+    "solution": "This occurs exactly when $5$ is a row median. Necessity is immediate. For sufficiency, that row consumes one value below $5$ and one above $5$, leaving three on each side; the two remaining row medians must therefore lie on opposite sides. Choose the position of $5$ in $9$ ways, its lower and upper row partners in $4\\cdot4$ ways, their order in $2$ ways, and the other entries in $6!$ ways. The count is $9\\cdot32\\cdot720=207360$; remainder $360$.",
+    "answer": 360,
+    "tags": [
+      "order statistics",
+      "symmetry"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-II-11",
+    "title": "Strong tournaments on five vertices",
+    "restatement": "Orient every edge of $K_5$. Count orientations in which every vertex can reach every other vertex.",
+    "solution": "A tournament that is not strongly connected has a linearly ordered sequence of strongly connected components. A nontrivial component has at least $3$ vertices, so for $5$ vertices failure forces a singleton initial or final component: a source or sink. There are $5\\cdot2^6$ source tournaments and equally many sink tournaments. A source-sink pair occurs in $5\\cdot4\\cdot2^3$ orientations. Thus $1024-640+160=544$.",
+    "answer": 544,
+    "tags": [
+      "tournaments",
+      "strong connectivity",
+      "inclusion-exclusion"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-I-12",
+    "title": "Product-free subsets",
+    "restatement": "Count subsets $S$ of $\\{1,\\ldots,10\\}$ containing no $a,b,c$ (possibly equal) with $ab=c$.",
+    "solution": "One cannot occur. If $2$ occurs, $4$ is excluded; on $\\{3,6,9\\}$ the allowed subsets are empty, $\\{3\\},\\{6\\},\\{9\\},\\{6,9\\}$, giving $5$ choices; on $\\{5,10\\}$ choose at most one, giving $3$; $7$ and $8$ are free. This gives $60$. If $2$ is absent and $3$ present, $9$ is absent and six other entries are free, giving $64$. If $2$ and $3$ are absent, every subset of $\\{4,\\ldots,10\\}$ works, giving $128$. Total $252$.",
+    "answer": 252,
+    "tags": [
+      "forbidden configurations",
+      "casework"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-II-13",
+    "title": "Isosceles triangles in regular polygons",
+    "restatement": "Let $f(n)$ count isosceles vertex triangles of a regular $n$-gon, including equilateral ones. Find the sum of $n\\ge 3$ satisfying $f(n+1)-f(n)=78$.",
+    "solution": "Choose the apex and equally distant vertices, then correct equilateral overcounting: $f(n)=n\\lfloor(n-1)/2\\rfloor-(2n/3)[3\\mid n]$. For residues $n\\equiv0,1,2,3,4,5 \\pmod{6}$, the differences are respectively $13n/6, (n-1)/2, (5n-4)/6, (7n-3)/6,3n/2,(-n-7)/6$. Solving and enforcing each residue leaves $n=36,157,52$. Their sum is $245$.",
+    "answer": 245,
+    "tags": [
+      "geometry counting",
+      "periodic cases"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2017-II-14",
+    "title": "Lines containing exactly eight lattice points",
+    "restatement": "In $\\{1,\\ldots,10\\}^3$ count lines containing exactly $8$ grid points.",
+    "solution": "A primitive direction has coordinate steps in $\\{0,\\pm 1\\}$; any larger coordinate step permits at most $5$ points. Axis-parallel lines have $10$ points. For two nonzero coordinates there are $3\\cdot2=6$ unoriented directions. Each has $2$ offsets of length $8$ in its coordinate square and $10$ choices of constant coordinate, giving $120$. For three nonzero coordinates there are $4$ unoriented directions. After reflecting to $(1,1,1)$, the initial point lies in $\\{1,2,3\\}^3$ with minimum $1$ and maximum $3:3^3-2\\cdot2^3+1=12$ choices. Thus $120+4\\cdot12=168$.",
+    "answer": 168,
+    "tags": [
+      "lattice lines",
+      "primitive directions"
+    ],
+    "source_review": "The first archived solution uses the same mathematical reduction; this argument is independently written.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-I-01",
+    "title": "Integer-root quadratics counted by a sum",
+    "restatement": "Count modulo $1000$ pairs $(a, b)$ with $1\\le a\\le 100, b\\ge 0$ for which $x^2+ax+b$ splits over the integers.",
+    "solution": "Write $(x+u)(x+v)$, where $0\\le u\\le v$ and $u+v=a$. These unordered roots uniquely determine $(a, b)$. For fixed $a$ there are $\\lfloor a/2\\rfloor+1$ choices. Hence the count is $\\sum_{a=1}^{100}(\\lfloor a/2\\rfloor+1)=2500+100=2600$; remainder $600$.",
+    "answer": 600,
+    "tags": [
+      "lattice point counting",
+      "algebra hybrid"
+    ],
+    "source_review": "All nine source solutions inspected. Root-pair counting, triangular lattice points, stars and bars with diagonal correction, and discriminant parity agree on 2600. Several alternatives have harmless endpoint/notational slips: the discriminant version excludes c=0 in words while its formula includes it; one stars-and-bars version writes modulo 100 instead of 1000. The independent proof counts equal roots and zero roots correctly.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-I-03",
+    "title": "Contiguous color blocks in a sample",
+    "restatement": "Randomly order five cards drawn without replacement from five red and five green cards. Find numerator plus denominator of the chance that each color appears in at most one block.",
+    "solution": "Write $(5)_r=5!/(5-r)!$. For a fixed red count $r$ with $1\\le r\\le 4$, there are two valid color words, each realized in $(5)_r(5)_{5-r}$ labeled draws. For $r=0,5$ there is one word each. Thus the probability is $[2\\cdot5!+2\\sum_{r=1}^4(5)_r(5)_{5-r}]/(10)_5=31/126$; answer $157$.",
+    "answer": 157,
+    "tags": [
+      "multiset sampling",
+      "runs",
+      "probability"
+    ],
+    "source_review": "All six sources inspected. Counting full ten-card color words avoids treating five-card color patterns as equally likely. Labeled-card and conditional-probability alternatives give the same 31/126.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-II-06",
+    "title": "Random parameter with four real roots",
+    "restatement": "For $a$ chosen uniformly in $[-20,18]$, find numerator plus denominator of the probability that $x^4+2ax^3+(2a-2)x^2+(-4a+3)x-2$ has only real roots.",
+    "solution": "The polynomial factors as $(x-1)(x+2)(x^2+(2a-1)x+1)$. The last factor has real roots iff $(2a-1)^2\\ge 4$, equivalent to $a\\le -1/2$ or $a\\ge 3/2$. Only an interval of length $2$ within the length $38$ sample space fails. Probability $18/19$; answer $37$.",
+    "answer": 37,
+    "tags": [
+      "continuous probability",
+      "algebra hybrid"
+    ],
+    "source_review": "The sole source determines parameter intervals by the two quadratic branches of the absolute value. The original solution uses the same root-counting condition.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-I-07",
+    "title": "Isosceles triangles in a hexagonal prism",
+    "restatement": "A right regular hexagonal prism has base side $1$ and height $2$. Count isosceles triangles among its $12$ vertices.",
+    "solution": "Each base has $6$ triangles of side pattern $(1,1,\\sqrt3)$ and $2$ equilateral triangles, giving $16$. In a mixed triangle, choose its solitary vertex on one base in $12$ ways. From that vertex, two vertices on the other base can be symmetric one step or two steps away ($2$ choices), or they can be the directly opposite-base vertex and its diametrical partner ($1$ choice, because both the height and base diameter equal $2$). These exhaust equal-distance possibilities. Total $16+12\\cdot3=52$.",
+    "answer": 52,
+    "tags": [
+      "geometry counting",
+      "distance classes"
+    ],
+    "source_review": "All six sources inspected. Counting equal-distance neighbor pairs at each apex gives 60, then subtracting twice each of four equilateral triangles gives 52. Some alternative geometric casework is informal; index 2 calls the equilateral side length 1 although it is sqrt 3. The independent distance-multiplicity argument is complete.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-II-08",
+    "title": "Axis jumps of sizes one and two",
+    "restatement": "Count paths from $(0,0)$ to $(4,4)$ using steps $(1,0),(2,0),(0,1),(0,2)$.",
+    "solution": "Let $F(i, j)=0$ for negative coordinates, $F(0,0)=1$, and otherwise $F(i, j)=F(i-1, j)+F(i-2, j)+F(i, j-1)+F(i, j-2)$. The last-step alternatives are disjoint and exhaustive. Rows $j=0,\\ldots,4$ are $(1,1,2,3,5),(1,2,5,10,20),(2,5,14,32,71),(3,10,32,84,207),(5,20,71,207,556)$. Answer $556$.",
+    "answer": 556,
+    "tags": [
+      "lattice paths",
+      "dynamic programming"
+    ],
+    "source_review": "All four sources inspected. Multinomial move types, interleaving coordinate compositions, and a four-predecessor grid recurrence agree on 556.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-I-09",
+    "title": "Two prescribed pair sums",
+    "restatement": "Count four-element subsets of $[20]$ having a pair summing $16$ and a pair summing $24$.",
+    "solution": "There are $7$ edges of sum $16$ and $8$ of sum $24$. Choosing disjoint edges gives $56-10=46$ different sets. If they meet at $a$, the three vertices are $\\{a,16-a,24-a\\}$; exactly $10$ values $a=4,\\ldots,15$ other than $8,12$ work. Each allows $17$ fourth vertices. Six resulting sets are counted twice: $\\{1,7,9,15\\},\\{2,6,10,14\\},\\{3,5,11,13\\},\\{5,11,13,19\\},\\{6,10,14,18\\},\\{7,9,15,17\\}$. The disjoint-edge case cannot overlap this case, since then cancellation would force equal distinct vertices. Total $46+170-6=210$.",
+    "answer": 210,
+    "tags": [
+      "overcount correction",
+      "graph edges"
+    ],
+    "source_review": "All three sources inspected. They split disjoint sum-pairs from overlapping sum-pairs and remove six duplicated four-sets. The independent count was exhaustively checked over all 4845 four-subsets.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-I-10",
+    "title": "Directed walk on two pentagonal rings",
+    "restatement": "Two five-vertex cycles have opposite one-way orientations and bidirectional matching spokes. Count modulo $1000$ fifteen-step walks returning to a fixed start.",
+    "solution": "A returning walk uses an even number $2s$ of spokes. Write $u, v$ for moves on the starting and opposite rings. Then $u+v+2s=15$ and $u-v$ is divisible by $5$. For $s>0$ the run slots give $\\binom{u+s}{s}\\binom{v+s-1}{s-1}$ walks. For $s=0$ only the $15$-move ring traversal returns. Summing the cases $u-v=5$ and $-5$ with Vandermonde gives $\\binom{14}5$ and $\\binom{14}4$; differences $\\pm 15$ contribute only the no-spoke walk. Therefore $1+2002+1001=3004$, remainder $4$.",
+    "answer": 4,
+    "tags": [
+      "walks",
+      "run decomposition",
+      "Vandermonde identity"
+    ],
+    "source_review": "All six sources inspected. Binary destination-ring encoding, state recurrences, and spoke-run compositions lead to 3004. Source index 3 has an inconsistent A_0 value, and index 5 treats the position-dependent transitions as commuting complex multiplications without justification; that shortcut is not relied on. The independent proof counts runs between spoke transitions.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-II-10",
+    "title": "Functions whose second image is fixed",
+    "restatement": "Count maps $f:[5]\\to [5]$ satisfying $f^2=f^3$.",
+    "solution": "The functional graph has fixed roots and trees of depth at most $2$. Choose $k\\ge 1$ roots, then $j$ of the $5-k$ other vertices that map directly to roots; choose their images in $k^j$ ways. Every remaining vertex maps to one of these $j$ vertices, in $j^{5-k-j}$ ways. This classification is unique. Thus $\\sum_{k=1}^5\\binom5k\\sum_{j=0}^{5-k}\\binom{5-k}j k^j j^{5-k-j}=205+380+150+20+1=756$, with $0^0=1$.",
+    "answer": 756,
+    "tags": [
+      "functional graphs",
+      "labeled structures"
+    ],
+    "source_review": "All three sources inspected. Functional graphs have only fixed-point cycles and depth at most two. Fixed-point casework and the three-level allocation formula both give 756.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-II-11",
+    "title": "Indecomposable permutations",
+    "restatement": "Count permutations of $[6]$ such that no proper initial block contains precisely its smallest $k$ labels.",
+    "solution": "Let $c_n$ be the number of indecomposable permutations of $[n]$. Every permutation has a unique shortest nonempty initial block containing $[ k ]$; that block is indecomposable and the suffix arbitrary. Hence $n!=\\sum_{k=1}^n c_k(n-k)!$, so $c_n=n!-\\sum_{k<n}c_k(n-k)!$. Starting $c_1=1$ gives $c_2=1, c_3=3, c_4=13, c_5=71, c_6=461$.",
+    "answer": 461,
+    "tags": [
+      "canonical decomposition",
+      "recurrences"
+    ],
+    "source_review": "All six sources inspected. First or last closed-prefix decomposition gives indecomposable-permutation recurrence; inclusion-exclusion gives the same 461. Source index 5 has a 12/21 prefix typo and describes the complement ambiguously; the independent first-component decomposition avoids those ambiguities.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-I-12",
+    "title": "Subset sums modulo three",
+    "restatement": "Choose a subset of $[18]$ uniformly. Find the numerator of its reduced probability of having sum divisible by $3$.",
+    "solution": "The six multiples of $3$ do not affect the probability. Pair the six residue $1$ entries with the six residue $2$ entries. A pair contributes residues $0,1,2$ with multiplicities $2,1,1$. If $A_k$ counts residue $0$ choices among $k$ pairs and $B_k$ either nonzero residue, then $A_k+2B_k=4^k$ and $A_k-B_k=1$. Thus $A_6=(4^6+2)/3=1366$. The probability is $1366/4^6=683/2048$; requested numerator $683$.",
+    "answer": 683,
+    "tags": [
+      "residue states",
+      "generating functions"
+    ],
+    "source_review": "All thirteen sources inspected. Roots-of-unity filtering, residue convolution, Vandermonde sums, and block recurrences all prove the count. Indices 9 and 10 are empirical pattern/answer guesses, not proofs. Source index 6 pairs wrong residue-count classes, but their equal cardinalities conceal the error. The independent root-of-unity calculation is valid.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-II-13",
+    "title": "Parity of waiting for a die pattern",
+    "restatement": "Roll a fair die until $123$ first appears in consecutive rolls. Find numerator plus denominator of the chance the stopping time is odd.",
+    "solution": "Let $h_j=E[(-1)^T]$ for additional time $T$, where $j=0,1,2$ is the currently matched prefix length. First-step conditioning yields $h_0=-(5h_0+h_1)/6, h_1=-(4h_0+h_1+h_2)/6, h_2=-(4h_0+h_1+1)/6$. Solving gives $h_0=-1/431$. Since $h_0=P(T\\text{ even})-P(T\\text{ odd})$, the odd probability is $216/431$ and the answer $647$.",
+    "answer": 647,
+    "tags": [
+      "pattern automata",
+      "probability generating functions"
+    ],
+    "source_review": "All eight sources inspected. Prefix-state Markov chains and the nonoverlap avoidance recurrence are sound. Source index 1 asserts an unsupported ratio shift; indices 5 and 7 incorrectly treat disjoint three-roll blocks as detecting all occurrences, missing occurrences across boundaries. Their numerical agreement is not a proof. The independent parity transform of the correct prefix automaton gives 216/431.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-I-14",
+    "title": "First arrival on a heptagon",
+    "restatement": "A walk starts at $S$ on a seven-cycle whose target $E$ is three edges away in one direction and four in the other. Count walks reaching $E$ for the first time within $12$ steps.",
+    "solution": "Cut at $E$ to obtain positions $0,\\ldots,7$, absorbing at $0$ and $7$, and start at $3$. Let $v_0(3)=1$, other entries $0$; for $1\\le j\\le 6$ set $v_{t+1}(j)=v_t(j-1)+v_t(j+1)$, with boundary values $0$. First arrivals at step $t+1$ are $v_t(1)+v_t(6)$. For $t=0,\\ldots,11$ these are $0,0,1,1,3,4,9,14,28,47,89,155$. Their sum is $351$.",
+    "answer": 351,
+    "tags": [
+      "absorbing walks",
+      "dynamic programming"
+    ],
+    "source_review": "Both sources inspected. The absorbing-path transfer count and the shorter endpoint recurrence agree on first-arrival counts 0,0,1,1,3,4,9,14,28,47,89,155, summing 351.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2018-II-15",
+    "title": "Integer bi-Lipschitz sequences",
+    "restatement": "Count integer-valued functions on $\\{0,\\ldots,6\\}$ with $f(0)=0, f(6)=12$ and $|x-y|\\le |f(x)-f(y)|\\le 3|x-y|$.",
+    "solution": "Adjacent increments lie in $\\{\\pm 1,\\pm 2,\\pm 3\\}$. Two negative increments would make the total at most $10$, so there is at most one. With none, the coefficient $[x^{12}](x+x^2+x^3)^6$ is $141$. A $-2$ increment is impossible by the two-step lower bound. A $-3$ increment would force an adjacent $+1$, making the total at most $-3+1+4\\cdot3=10$, also impossible. Thus the only negative increment can be $-1$, and its neighbors must be $3$. If the negative step is at an end, the remaining four positive steps sum $10$, with $10$ choices; two ends give $20$. At an internal position, two neighbors are $3$, and three remaining positive steps sum $7$, with $6$ choices; four positions give $24$. These local conditions also ensure every longer interval has sum at least its length. Total $141+20+24=185$.",
+    "answer": 185,
+    "tags": [
+      "bounded compositions",
+      "local constraints"
+    ],
+    "source_review": "All three sources inspected. Increment classification and bounded stars-and-bars counts give 141 positive-increment cases and 44 one-negative cases. The audit repaired a small independent-proof gap: an increment−3 can pair with+1 locally, but then the total is at most 10, contradicting 12;−2 fails the local two-step bound. The remaining negative step is−1 with adjacent+3 values.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-I-02",
+    "title": "A gap between ordered samples",
+    "restatement": "Choose distinct $J, B$ uniformly from $[20]$ in order. Find numerator plus denominator of $P(B-J\\ge 2)$.",
+    "solution": "Symmetry gives $P(B>J)=1/2$. There are $19$ adjacent increasing pairs among $380$ ordered pairs, so the desired probability is $1/2-19/380=9/20$. Answer $29$.",
+    "answer": 29,
+    "tags": [
+      "symmetry",
+      "probability"
+    ],
+    "source_review": "The symmetry, order-statistic, and direct pair counts agree; the original proof specifies the uniform subset model.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-II-02",
+    "title": "Hitting a site with jumps one and two",
+    "restatement": "A frog starts on $1$ and independently advances $1$ or $2$ with equal probabilities. Find numerator plus denominator of its chance of visiting $7$.",
+    "solution": "For remaining distance $d$, let $p_0=1,p_{-1}=0$ and $p_d=(p_{d-1}+p_{d-2})/2$. Last-jump conditioning proves the recurrence. Values for $d=1$ through $6$ are $1/2,3/4,5/8,11/16,21/32,43/64$. Thus the answer is $107$.",
+    "answer": 107,
+    "tags": [
+      "hitting probabilities",
+      "recurrences"
+    ],
+    "source_review": "The recurrence and parity decompositions agree. Conditioning is on the first jump from the remaining distance, not the last jump.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-II-03",
+    "title": "Overlapping products of seven integers",
+    "restatement": "Count positive integer tuples $(a, b, c, d, e, f, g)$ satisfying $abc=70, cde=71, efg=72$.",
+    "solution": "Since $71$ is prime and divides neither $70$ nor $72$, necessarily $c=e=1,d=71$. The independent choices are $ab=70$ and $fg=72$, giving $\\tau(70)\\tau(72)=8\\cdot12=96$.",
+    "answer": 96,
+    "tags": [
+      "product rule",
+      "divisor distributions"
+    ],
+    "source_review": "Both factorizations reduce to the same finite exponent count.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-I-04",
+    "title": "Ordered substitutions",
+    "restatement": "A team has $11$ active players and $11$ unused substitutes. Count modulo $1000$ histories with at most $3$ successive substitutions, with removed players unable to return.",
+    "solution": "At substitution $j$ there are $11$ choices of departing active player and $12-j$ unused entrants, irrespective of previous choices. Thus the count is $\\sum_{k=0}^3 11^k(11)_k=1+121+13310+1317690$. The last two terms sum to a multiple of $1000$, leaving $122$.",
+    "answer": 122,
+    "tags": [
+      "sequential counting",
+      "falling factorials"
+    ],
+    "source_review": "All three source counts track histories of substitutions; the choices of departed players and unused replacements are distinguished.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-II-04",
+    "title": "A square product of four die rolls",
+    "restatement": "Find numerator plus denominator of the probability that four fair die outcomes have square product.",
+    "solution": "The number of fives must be $0,2$, or $4$. On the other five faces, parity of prime exponents gives four states: the zero state has $2$ labels $(1,4)$, each other state one. If $a_k$ counts square products, $a_0=1$ and $a_{k+1}=a_k+5^k$, hence $a_2=7,a_4=157$. The favorable count is $157+\\binom42 7+1=200$. Probability $200/6^4=25/162$; answer $187$.",
+    "answer": 187,
+    "tags": [
+      "parity vectors",
+      "recurrence",
+      "probability"
+    ],
+    "source_review": "Parity recurrence and exhaustive casework agree. The final two stored alternatives were read in the separate 2023 audit supplement. Indices 5 and 6 reviewed. The minimal square-product blocks are single squares, equal nonsquare pairs, and the triple 2,3,6; their length-four casework gives 200. The parity-generating-function alternative is multiplication in the group algebra with x^2=y^2=z^2=1, and its constant coefficient is also 200. Both support 25/162.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-I-05",
+    "title": "Hitting the corner before either axis",
+    "restatement": "From $(4,4)$, independently subtract $(1,0),(0,1)$, or $(1,1)$, each with probability $1/3$, until an axis is reached. Write the chance of first hitting $(0,0)$ as $m/3^n$ with $3$ not dividing $m$. Find $m+n$.",
+    "solution": "The final move must be diagonal from $(1,1)$. Before it, choose $d$ diagonal moves, $0\\le d\\le3$, and $3-d$ moves of each axis type. Monotonicity ensures these paths stay positive. Thus the probability is $\\sum_{d=0}^3\\frac{(6-d)!}{(3-d)!^2d!}3^{-(7-d)}=245/2187$. Therefore $m+n=245+7=252$.",
+    "answer": 252,
+    "tags": [
+      "lattice paths",
+      "multinomial counting",
+      "probability"
+    ],
+    "source_review": "The path recurrence and ballot decompositions agree. Source 0 writes P(y,0) where the second boundary should read P(0,y).",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-II-05",
+    "title": "Ambassadors with adjacent advisors",
+    "restatement": "Four distinct ambassador-advisor pairs occupy $12$ labeled cyclic chairs. Ambassadors use even chairs; each advisor must neighbor their ambassador. Count modulo $1000$ valid seatings.",
+    "solution": "Choose the two unused even chairs. If these are adjacent on the six-cycle, separated by one chair, or opposite, there are $6,6,3$ choices. Occupied even-chair runs then have lengths $4$; $3,1$; or $2,2$. A run of $r$ ambassadors has $r+1$ adjacent odd seats, and choosing the one unused odd seat uniquely determines its advisor matching, so contributes $r+1$. Assign ambassadors in $4!$ ways. Total $4![6\\cdot5+6\\cdot4\\cdot2+3\\cdot3^2]=2520$, remainder $520$.",
+    "answer": 520,
+    "tags": [
+      "runs",
+      "cyclic arrangements",
+      "matchings"
+    ],
+    "source_review": "All five arrangements count the same two-advisor boundary condition; the circular-edge and linear-run bijections provide independent viewpoints.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-II-12",
+    "title": "Divisibility chains with prescribed sum",
+    "restatement": "Count finite strictly increasing positive integer sequences, each term dividing the next, whose sum is $360$.",
+    "solution": "Let $h(N)$ count such chains summing $N$ with first term at least $2$; set $h(0)=1,h(1)=0$. Removing first term $d$ and dividing the suffix by $d$ is a bijection, so $h(N)=\\sum_{d\\mid N,d\\ge2}h(N/d-1)$. Allowing first term $1$ gives total $\\sum_{d\\mid360}h(360/d-1)$. Its nontrivial values are $h(119)=6,h(44)=8,h(39)=6,h(35)=4,h(14)=3,h(9)=2,h(8)=2,h(4)=1$; all remaining divisor terms sum $15$. Total $47$.",
+    "answer": 47,
+    "tags": [
+      "divisor recurrences",
+      "canonical normalization"
+    ],
+    "source_review": "The source recurrence is valid with its initial values and the summation of partial chains; the new exposition makes those values explicit.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2019-II-14",
+    "title": "A three-denomination Frobenius problem",
+    "restatement": "With unlimited stamps of denominations $5, n, n+1$, the largest unattainable value is $91$. Find the sum of possible $n$.",
+    "solution": "If $n\\le23$, one of $n, n+1$ is coprime to $5$ with value at most $23$(or at most $21$ when $5$ divides $n$); the two-denomination Frobenius bound is then at most $87$. Hence $n\\ge24$. Since $96$ is attainable but $91$ is not, a representation of $96$ uses no $5$-stamp. Using at most $4$ other stamps forces $n\\in\\{24,31,32,47,48,95,96\\}$. For $31$ and $32,91$ is attainable; $48$ cannot make $92$; $95$ and $96$ cannot make $92$. Values $24$ and $47$ fail at $91$ but make every value $92$ through $96$, after which adding $5$ covers all larger values. Sum $71$.",
+    "answer": 71,
+    "tags": [
+      "numerical semigroups",
+      "residue classes"
+    ],
+    "source_review": "Several alternatives skip coprimality or finite-case justification. The original proof makes the choice of a denomination coprime to 5 explicit and checks the remaining candidates.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2020-II-02",
+    "title": "A random slope in a square",
+    "restatement": "Choose $P$ uniformly in the unit square. Find numerator plus denominator of the chance that its slope from $(5/8,3/8)$ is at least $1/2$.",
+    "solution": "The comparison line is $y=x/2+1/16$. For $x<5/8$ choose points below it; for $x>5/8$ choose points above it. The two trapezoid areas total $\\frac12(1/16+3/8)(5/8)+\\frac12(5/8+7/16)(3/8)=43/128$. Answer $171$.",
+    "answer": 171,
+    "tags": [
+      "geometric probability"
+    ],
+    "source_review": "Both area decompositions agree. The vertical line has measure zero and does not affect the probability.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2020-I-05",
+    "title": "One deletion makes a permutation monotone",
+    "restatement": "Count permutations of $[6]$ from which deleting one entry leaves an increasing or decreasing sequence.",
+    "solution": "For increasing order, start with $123456$ and move one selected entry to one of its $5$ other positions. This gives $30$ constructions. Every nonidentity permutation has a unique movable entry except an adjacent transposition, which has two; there are $5$ such transpositions. Indeed, if either of two different entries can be removed, every inversion must involve both of them; the sole inversion then swaps adjacent values in adjacent positions. Including the identity gives $30-5+1=26$. Reversing gives $26$ decreasing cases. The two families are disjoint: increasing and decreasing subsequences of length $5$ in a length $6$ permutation would overlap in at least $4$ positions, impossible for opposite orders. Total $52$.",
+    "answer": 52,
+    "tags": [
+      "insertion-deletion bijection",
+      "overcount correction"
+    ],
+    "source_review": "All 12 stored entries read. Several count insertion histories without fully proving their only collisions; the adjacent-swap exception and disjointness of ascending/descending families are the key checks. Source 10 needs a stronger argument than merely having one descent.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2020-I-07",
+    "title": "A balanced committee bijection",
+    "restatement": "Choose a committee from $11$ men and $12$ women with exactly one more woman than man. Find the sum of distinct prime divisors of the number of committees.",
+    "solution": "Replace the selected men by the unselected men. The transformed selection always contains $12$ people; this is invertible. Thus there are $\\binom{23}{12}$ committees. Its factorization is $2\\cdot7\\cdot13\\cdot17\\cdot19\\cdot23$, whose distinct primes sum $81$.",
+    "answer": 81,
+    "tags": [
+      "complement bijection",
+      "Vandermonde identity"
+    ],
+    "source_review": "The complementary-selection bijection, Vandermonde sums, and prime factorization agree.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2020-I-09",
+    "title": "A random chain of divisors",
+    "restatement": "Independently sample three divisors $a, b, c$ of $20^9$ uniformly with replacement. Find the reduced numerator of $P(a\\mid b\\text{ and }b\\mid c)$.",
+    "solution": "Write divisors as $2^u5^v$, with $0\\le u\\le18,0\\le v\\le9$. Divisibility requires weakly increasing triples separately in both coordinates. The numbers of such triples are $\\binom{21}3$ and $\\binom{12}3$ by stars and bars. Probability $\\binom{21}3\\binom{12}3/190^3=77/1805$; numerator $77$.",
+    "answer": 77,
+    "tags": [
+      "order-preserving tuples",
+      "stars and bars",
+      "probability"
+    ],
+    "source_review": "The shifted strictly increasing triples, stars and bars, and equality-case split give the same probability.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2020-II-09",
+    "title": "Avoiding former neighbors",
+    "restatement": "Six people formerly sat in order $123456$. Count new orders in which no formerly adjacent pair is adjacent.",
+    "solution": "Apply inclusion-exclusion to the five path edges. A chosen edge subset with $k$ edges and $r$ nonempty runs contracts to $6-k$ blocks, with $2^r(6-k)!$ orders. There are $\\binom{k-1}{r-1}\\binom{6-k}{r}$ such subsets. Therefore the answer is $6!+\\sum_{k=1}^5(-1)^k(6-k)!\\sum_r2^r\\binom{k-1}{r-1}\\binom{6-k}{r}=90$. The run count follows by composing $k$ into $r$ positive lengths and placing gaps between them.",
+    "answer": 90,
+    "tags": [
+      "inclusion-exclusion",
+      "block contraction"
+    ],
+    "source_review": "Source 1 has a sign/bracket error in its final PIE display although its component counts are correct. Other entries either list cases or derive a valid recurrence. The new run-of-edges PIE formula avoids long casework.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2020-I-11",
+    "title": "Counting coefficients through common images",
+    "restatement": "For integer $a, b, c$ in $[-10,10]$, set $f(x)=x^2+ax+b$ and $g(x)=x^2+cx+d$. Count triples for which an integer $d$ makes $g(f(2))=g(f(4))=0$.",
+    "solution": "If $a=-6$, the two images coincide and every $b, c$ admits the integer choice $d=-f(2)^2-cf(2)$, giving $441$. Otherwise the two images are the roots of $g$, so $c=-20-6a-2b$; the constraint is $-15\\le3a+b\\le-5$. The exact sum $\\sum_{a=-10,a\\ne-6}^{10}\\max(0,\\min(10,-5-3a)-\\max(-10,-15-3a)+1)=69$. Hence $441+69=510$.",
+    "answer": 510,
+    "tags": [
+      "bounded lattice counting",
+      "algebra hybrid"
+    ],
+    "source_review": "All three entries separate the coincident-image case correctly; the third includes an explicit 69-term-case subtotal table.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed interval sum was evaluated exactly and gives 69.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2020-II-12",
+    "title": "A line crossing a numbered grid",
+    "restatement": "An odd $m$ by odd $n$ row-major grid has label $200$ in its top row and $2000$ in its bottom row. Count $(m, n)$ for which the line through those cell centers enters cell $1099$.",
+    "solution": "The midpoint of the two centers is the center of cell $1100$; cell $1099$ is immediately left in the same middle row. Thus the line enters its interior exactly when its slope has absolute value below $1$: $|1800-(m-1)n|>m-1$. The endpoint-row requirements give $m=3,5,7,9$. Their odd $n$ ranges and exclusions are respectively $667\\ldots999$ excluding $899,901$; $401\\ldots499$ excluding $449,451$; $287\\ldots333$ excluding $299,301$; $223\\ldots249$ excluding $225$. Counts $165,48,22,13$ sum $248$.",
+    "answer": 248,
+    "tags": [
+      "lattice geometry",
+      "casework"
+    ],
+    "source_review": "Source 0 states an imprecise modular slope criterion. Source 1 and the new proof use the signed horizontal displacement and exclude slopes of absolute value 1.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2020-II-14",
+    "title": "Iterated fractional-part preimages",
+    "restatement": "Define $f(x)=x\\{x\\}$, where $\\{x\\}=x-\\lfloor x\\rfloor$. Count modulo $1000$ the solutions of $f(f(f(x)))=17$ in $[0,2020]$.",
+    "solution": "On each interval $[k,k+1)$, $f$ increases continuously from $0$ to the excluded endpoint $k+1$. For positive $y$, there is exactly one preimage in that interval iff $k+1>y$. Starting at $y=17$, the first branch index $k$ is at least $17$; its preimage lies strictly between $k$ and $k+1$, so each next branch index is at least the previous one. All three indices are at most $2019$. Consequently solutions correspond bijectively to weakly increasing triples from $2003$ integers. Their count is $\\binom{2005}3$, with remainder $10$.",
+    "answer": 10,
+    "tags": [
+      "inverse branches",
+      "combinations with repetition"
+    ],
+    "source_review": "All three branch-count arguments agree. The endpoint 2020 is excluded because its iterates are 0; positive target 17 avoids the separate zero-level issue.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-I-01",
+    "title": "One loss in a persistent two-state process",
+    "restatement": "Zou wins race $1$. Thereafter the previous winner wins the next race with probability $2/3$. Find numerator plus denominator of the chance Zou wins exactly $5$ of $6$ races.",
+    "solution": "If the unique loss is race $2,3,4$, or $5$, there are two switches and three repetitions, each pattern having probability $(1/3)^2(2/3)^3$. A loss in race $6$ has probability $(1/3)(2/3)^4$. Total $4\\cdot8/243+16/243=16/81$; answer $97$.",
+    "answer": 97,
+    "tags": [
+      "Markov chains",
+      "weighted words"
+    ],
+    "source_review": "Sources 2 and 3 mislabel which race is lost in places, but their pattern probabilities agree. The new proof labels the unique loss by its actual race number.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-II-01",
+    "title": "Mean of three-digit palindromes",
+    "restatement": "Find the arithmetic mean of all decimal three-digit palindromes.",
+    "solution": "Write a palindrome as $101a+10b$, with $a$ uniform on $1,\\ldots,9$ and $b$ uniform on $0,\\ldots,9$. Linearity gives mean $101\\cdot5+10\\cdot(9/2)=550$.",
+    "answer": 550,
+    "tags": [
+      "linearity of expectation",
+      "digit symmetry"
+    ],
+    "source_review": "All six symmetry, pairing, and digit-average arguments agree.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-I-03",
+    "title": "Differences of powers of two",
+    "restatement": "Count positive integers below $1000$ expressible as a difference of integral powers of $2$.",
+    "solution": "For an integral positive difference the exponents must be nonnegative; a negative smaller exponent would leave an odd numerator over a power of $2$. Write $2^b(2^{a-b}-1)$ with $a>b$. The $2$-adic valuation uniquely determines $b$, and then a, so no duplicates arise. Necessarily $a\\le 10$. Of the $\\binom{11}2=55$ exponent pairs, only $a=10, b=0,1,2,3,4$ exceed $999$. Thus $50$.",
+    "answer": 50,
+    "tags": [
+      "unique representations",
+      "valuation counting"
+    ],
+    "source_review": "Source 3 claims geometric sequences always have distinct differences, which is not a valid general principle. Binary valuation gives the required uniqueness for this sequence; source 0 also supplies it.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-II-03",
+    "title": "Cyclic products modulo three",
+    "restatement": "Permute $1,\\ldots,5$ around five labeled positions. Count permutations for which the sum of the five products of three cyclically consecutive entries is divisible by $3$.",
+    "solution": "Choose the position of $3$ in $5$ ways. The three terms containing it vanish modulo $3$; the other two factor as a nonzero product times the sum of the two entries neighboring $3$. These neighbors must have opposite nonzero residues: there are $2\\cdot2\\cdot2=8$ ordered choices from $\\{1,4\\}$ and $\\{2,5\\}$. Arrange the remaining entries in $2$ ways. Total $5\\cdot8\\cdot2=80$.",
+    "answer": 80,
+    "tags": [
+      "residue classes",
+      "cyclic counting"
+    ],
+    "source_review": "All five residue counts agree; the position of 3 is chosen before counting the two nonzero residue classes.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-I-04",
+    "title": "Three strictly increasing piles",
+    "restatement": "Count integer triples $0<a<b<c$ with $a+b+c=66$.",
+    "solution": "Fix $a$. Then $a+1\\le b\\le\\lfloor(65-a)/2\\rfloor$, and $c$ is determined. Necessarily $1\\le a\\le 21$. Thus the count is $\\sum_{a=1}^{21}(\\lfloor(65-a)/2\\rfloor-a)$. Separating odd and even $a$ gives $176+155=331$.",
+    "answer": 331,
+    "tags": [
+      "partitions",
+      "floor sums"
+    ],
+    "source_review": "The direct floor sum, gap variables, and equality-case subtraction agree. Source 1 initially describes weakly ordered triples but actually starts from all ordered positive triples.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-II-06",
+    "title": "An equality characterizing nested sets",
+    "restatement": "Count ordered subset pairs $(A, B)$ of $[5]$ with $|A||B|=|A\\cap B||A\\cup B|$.",
+    "solution": "Let $x=|A\\setminus B|, y=|B\\setminus A|, z=|A\\cap B|$. The equality is $(x+z)(y+z)=z(x+y+z)$, or $xy=0$. Thus one set contains the other. For $A$ contained in $B$, each element has $3$ states, giving $3^5$. Reverse containment gives another $3^5$; equal pairs, numbering $2^5$, were counted twice. Answer $2\\cdot3^5-2^5=454$.",
+    "answer": 454,
+    "tags": [
+      "set atoms",
+      "inclusion-exclusion"
+    ],
+    "source_review": "All six stored entries agree. Entries 3 and 4 are continuations of entry 2, not independent proofs; entry 5 has a summation-index typo.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-I-07",
+    "title": "Simultaneous sine maxima",
+    "restatement": "Count $1\\le m<n\\le 30$ for which some real $x$ satisfies $\\sin(mx)+\\sin(nx)=2$.",
+    "solution": "Both sines must be $1$. After removing the common power of $2$ from $m, n$, this is possible exactly when the remaining odd parts are congruent modulo $4$. Necessity follows from $m/n=(4u+1)/(4v+1)$ after reducing; sufficiency follows by multiplying equal odd residues by $1$ or $3$ to make both $1$ modulo $4$. Partition $1\\ldots30$ by $2$-adic valuation and odd part modulo $4$. Class sizes are $8,7$; $4,4$; $2,2$; $1,1$; $1$. The answer is $\\binom82+\\binom72+2\\binom42+2\\binom22=63$.",
+    "answer": 63,
+    "tags": [
+      "equivalence classes",
+      "trigonometry hybrid"
+    ],
+    "source_review": "Source 0 makes an invalid claim that its scale k>1 must be integral; source 1 contains an unrelated corrupted paragraph; source 2 leaves a 14-pair count unexplained. Equal 2-adic valuations and equal odd residues mod 4 give the clean necessary-and-sufficient criterion.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-I-08",
+    "title": "Counting levels with twelve preimages",
+    "restatement": "Count integers $c$ for which $||20|x|-x^2|-c|=21$ has $12$ distinct real solutions.",
+    "solution": "For $h(x)=|20|x|-x^2|$, a horizontal level $t$ has $6$ preimages exactly when $0<t<100$, and fewer otherwise. The equation uses disjoint levels $t=c-21$ and $c+21$. Twelve preimages require both levels in $(0,100)$, equivalently $21<c<79$. There are $57$ integers.",
+    "answer": 57,
+    "tags": [
+      "preimage counting",
+      "algebra hybrid"
+    ],
+    "source_review": "Source 1 repeats x=10 where its second zero should be 20. Source 3 calls the square root the discriminant and does not fully impose the signs introduced by absolute values. Horizontal-level multiplicity gives the rigorous count.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-II-08",
+    "title": "Nonbacktracking walk on a cube",
+    "restatement": "On a cube, an ant starts at a bottom vertex, chooses its first edge uniformly, and thereafter uniformly chooses either edge that does not reverse its previous step. Find numerator plus denominator of its chance of being on top after $8$ steps.",
+    "solution": "Count paths by last-edge types $BB, BT, TB, TT$. Start with $(2,1,0,0)$. If the vector is $(a, b, c, d)$, the next is $(a+2c,a,d,d+2b)$: a horizontal edge allows one horizontal and one vertical continuation, a vertical edge two horizontal continuations. Seven iterations give $(118,66,62,138)$. Thus top probability $(66+138)/(3\\cdot2^7)=17/32$, answer $49$.",
+    "answer": 49,
+    "tags": [
+      "memory states",
+      "nonbacktracking walks"
+    ],
+    "source_review": "Source 4 multiplies dependent marginal probabilities and therefore gives an invalid derivation, even though cancellation happens to produce the correct linear recurrence. The four last-edge states, or a properly conditioned two-step recurrence, are sufficient.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-II-09",
+    "title": "Counting exponent pairs by valuations",
+    "restatement": "Count ordered $1\\le m, n\\le 30$ with $\\gcd(2^m+1,2^n-1)>1$.",
+    "solution": "Since $2^m-1$ and $2^m+1$ are coprime, the $\\gcd$ condition is equivalent to $\\gcd(2m,n)>\\gcd(m,n)$, using $\\gcd(2^u-1,2^v-1)=2^{\\gcd(u,v)}-1$. Thus $v_2(n)>v_2(m)$. The valuation class sizes are $15,8,4,2,1$. Count $15(15)+8(7)+4(3)+2(1)=295$.",
+    "answer": 295,
+    "tags": [
+      "valuation classes",
+      "number theory hybrid"
+    ],
+    "source_review": "Source 1 establishes necessity through multiplicative order but does not prove sufficiency. Its auxiliary GCD proof falsely says gcd(d 1,k)=gcd(d 2,k)=1; the valid assertion needed is gcd(xy,k)=1. The prime-exponent GCD factorization in the new proof proves both directions.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-II-11",
+    "title": "Learning from simultaneous ignorance",
+    "restatement": "Four logical students each know one member of an unknown set of four consecutive two-digit integers. The set has different multiples of $6$ and $7$. Initially none can determine it; hearing this, all can. Find the sum of possible maximum elements.",
+    "solution": "Form candidate intervals $[t,t+3]$, $10\\le t\\le 96$, containing distinct multiples of $6$ and $7$. For each visible value $v$, let $d(v)$ count candidate intervals containing $v$. An interval survives the first announcement exactly when all its four $d$ values exceed $1$. Listing these intervals leaves $[34,37],[47,50],[76,79],[89,92]$. They are pairwise disjoint, so each student now identifies the unique surviving interval containing their value. The possible maxima sum $37+50+79+92=258$.",
+    "answer": 258,
+    "tags": [
+      "epistemic elimination",
+      "finite sets"
+    ],
+    "source_review": "Entries 0–3 read; entry 4 is only a video link and the video itself was not reviewed. Source 2 final display writes 89 instead of 79 while retaining the correct 258; source 3 contains residue-label typos. The candidate-interval filtering proof makes the information update explicit.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "Finite interval enumeration and two announcement filters verified.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2021-I-12",
+    "title": "Three frogs until their first collision",
+    "restatement": "Three independent symmetric walkers begin equally spaced on a $12$-cycle. They stop when two occupy the same vertex. Find numerator plus denominator of their expected stopping time.",
+    "solution": "Before collision, the unordered cyclic gap types are $A=(4,4,4), B=(2,4,6), C=(2,2,8)$. Enumerating the $8$ simultaneous direction choices gives $E_A=1+(2E_A+6E_B)/8$, $E_B=1+(E_A+4E_B+E_C)/8$, $E_C=1+(2E_B+2E_C)/8$; omitted transitions are collisions. Solving gives $E_B=4,E_A=16/3$. Thus the answer is $19$. A collision has a uniformly positive chance within finitely many steps, justifying finite expectations.",
+    "answer": 19,
+    "tags": [
+      "symmetry reduction",
+      "absorbing Markov chains"
+    ],
+    "source_review": "Source 1 claims the expectation for three walkers is one third of the two-walker expectation merely by symmetry; that inference is unjustified. Sources 0 and 2 use valid joint-gap states. The new proof also checks that the expectation is finite.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-II-02",
+    "title": "A randomly seeded tournament",
+    "restatement": "Four tennis players include $A, C, J, S$. $C$ beats $A$ with probability $1/3$; $A$ and $C$ each beat $J$ or $S$ with probability $3/4$. Semifinal pairings are uniform. Find numerator plus denominator for $C$ becoming champion.",
+    "solution": "With probability $1/3, C$ first meets $A$ and wins the tournament with probability $(1/3)(3/4)$. Otherwise $C$ first beats a weaker player with probability $3/4$, and the other finalist is $A$ with probability $3/4$. Total $\\frac13\\frac13\\frac34+\\frac23\\frac34(\\frac34\\frac13+\\frac14\\frac34)=29/96$. Answer $125$.",
+    "answer": 125,
+    "tags": [
+      "conditioning",
+      "tournaments"
+    ],
+    "source_review": "The sole source correctly conditions on the semifinal opponent and then on the other semifinal winner.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-I-04",
+    "title": "Roots-of-unity exponent pairs",
+    "restatement": "Let $w=(\\sqrt3+i)/2$ and $z=(-1+i \\sqrt3)/2$. Count $1\\le r, s\\le 100$ with $iw^r=z^s$.",
+    "solution": "Polar angles reduce the equation to $r+3\\equiv4s\\pmod{12}$. Hence $r=4t-3$ for $1\\le t\\le 25$ and $s=t$ modulo $3$. Among $t$ there are $9$ of residue $1$, and $8$ each of $0,2$; among $s$ there are $34$ of residue $1$, and $33$ each of $0,2$. Count $9\\cdot34+16\\cdot33=834$.",
+    "answer": 834,
+    "tags": [
+      "residue counting",
+      "roots of unity"
+    ],
+    "source_review": "Both polar-angle reductions give the same residue-class count.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-II-05",
+    "title": "Prime-difference triangles",
+    "restatement": "Twenty cyclic vertices are labeled $1,\\ldots,20$; connect labels whose ordinary difference is prime. Count triangles with original vertices.",
+    "solution": "For increasing labels $x<y<z$, all three gaps must be prime and the largest is the sum of the other two. Thus one smaller gap is $2$, and the other is a twin-prime lower member $p=3,5,11,17$. Each $p$ has two gap orders and $20-(p+2)$ starting labels. Count $2(15+13+7+1)=72$.",
+    "answer": 72,
+    "tags": [
+      "gap encoding",
+      "prime parity"
+    ],
+    "source_review": "Source 0 falsely treats 18 starting positions as available for every prime pair and obtains 72 coincidentally. Entry 1 warns about this; entry 2 gives the valid separate spans 15,13,7,1 and both gap orders.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-I-06",
+    "title": "Avoiding four-term progressions",
+    "restatement": "Count choices $5<a<b<30$ such that $\\{3,4,5, a, b,30,40,50\\}$ contains no four-term arithmetic progression.",
+    "solution": "Values $6$ and $20$ are forbidden individually, leaving $22$ eligible values and $\\binom{22}2=231$ pairs. Any further forbidden progression must use both $a, b$ and two fixed terms. Checking the two fixed endpoints or the fixed initial pair yields exactly $(a, b)=(7,9),(12,21),(16,28)$. Other fixed-term pairs yield nonintegers or values outside the allowed range. Thus $231-3=228$.",
+    "answer": 228,
+    "tags": [
+      "forbidden subsets",
+      "casework"
+    ],
+    "source_review": "Source 2 defines overlapping A,B,C but subtracts them as disjoint after silently reassigning cases, and prints |C|=65 instead of 5. The other entries and the new proof remove 6,20 first and then exactly three additional pairs.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-I-07",
+    "title": "A minimal positive ratio of digit products",
+    "restatement": "Partition digits $1$ through $9$ into three ordered triples. Find numerator plus denominator of the least positive value $(abc-def)/(ghi)$.",
+    "solution": "If the numerator is at least $2$, the ratio is at least $2/(7\\cdot8\\cdot9)>1/288$. For numerator $1$, write $u=v+1$ for the two triple products. Their six distinct factors have product at least $6!=720$, so $v\\ge27$. The pair $27,28$ would require the triples $\\{1,3,9\\}$ and $\\{1,4,7\\}$, which overlap. Every consecutive pair with lower member $28,\\ldots,34$ contains one of $29,31,33,34$, impossible as a product of available digits because it has a prime factor greater than $7$. Products $35,36$ are possible using $\\{1,5,7\\}$ and $\\{2,3,6\\}$, leaving denominator $4\\cdot8\\cdot9=288$. Larger consecutive products have smaller remaining denominator $9!/(uv)$. Hence the minimum is $1/288$, and the answer is $289$.",
+    "answer": 289,
+    "tags": [
+      "extremal counting",
+      "product partitions"
+    ],
+    "source_review": "Source 0 omits the impossible overlapping 27/28 factor triples; sources 1–2 rely on search or skip candidates and do not fully prove the minimum. The original proof explicitly eliminates 27/28 and proves that all numerator values at least 2 are worse.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-II-08",
+    "title": "Identifiability from three floor values",
+    "restatement": "Count positive integers $n\\le 600$ uniquely determined among positive integers by $\\lfloor n/4\\rfloor,\\lfloor n/5\\rfloor,\\lfloor n/6\\rfloor$.",
+    "solution": "The common fiber is a consecutive integer interval. It is a singleton exactly when a floor jumps at $n$ and another jumps at $n+1$; equivalently $n$ and $n+1$ are each divisible by at least one of $4,5,6$. This repeats modulo $60$. The qualifying residues are $4,5,15,24,35,44,54,55$. Ten periods give $80$. The upper bound restricts which $n$ are counted, not the possible comparison integers. If the comparison integers are instead restricted to be at most $600$, the value $600$ becomes one additional singleton, giving $81$.",
+    "answer": 80,
+    "tags": [
+      "floor fibers",
+      "periodicity"
+    ],
+    "source_review": "Source 1 wrongly lists divisors 3,4,5 instead of 4,5,6. Sources 2–3 use 24 instead of lcm(4,6)=12 in overlap formulas, with compensating arithmetic errors. All-positive comparison gives 80; bounded comparison adds 600 and gives 81. Archived notes report both accepted, but this audit has not obtained a primary MAA acceptance notice.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-I-09",
+    "title": "Two copies in opposite parity positions",
+    "restatement": "Randomly arrange two indistinguishable blocks of each of six colors. Find numerator plus denominator of the probability that every equal-color pair has an even number of intervening blocks.",
+    "solution": "Each pair must occupy one odd and one even position. Assign the six colors to odd slots and independently to even slots: $(6!)^2$ arrangements. All multiset arrangements number $12!/2^6$. Probability $2^6(6!)^2/12!=16/231$, answer $247$.",
+    "answer": 247,
+    "tags": [
+      "parity bijection",
+      "multiset permutations"
+    ],
+    "source_review": "All three constructions give the same parity-slot bijection. Source 2 writes a fraction equal to 247, confusing the probability 16/231 with the requested numerator-plus-denominator.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-II-09",
+    "title": "Regions between two supporting lines",
+    "restatement": "Join all $m$ marked points on one line to all $n$ on a parallel line, with no triple interior intersection. Including the supporting lines, count bounded regions for $m=7, n=5$.",
+    "solution": "For $n=1$, the $m$ segments and supporting line create $m-1$ bounded regions. Adding the jth lower point creates $m$ new regions from its fan, and $(j-1)\\binom m2$ more from crossings with previous fans; the no-triple condition makes all these crossings distinct. Thus $R(m,n)=mn-1+\\binom m2\\binom n2$. At $(7,5)$ this is $34+210=244$.",
+    "answer": 244,
+    "tags": [
+      "planar regions",
+      "incremental counting"
+    ],
+    "source_review": "The fan-insertion and planar Euler counts agree. The no-triple-crossing hypothesis is essential for counting intersections by endpoint pairs.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-II-10",
+    "title": "Choosing two edges",
+    "restatement": "Evaluate modulo $1000$ the sum from $k=3$ to $40$ of $\\binom{\\binom{k}{2}}{2}$.",
+    "solution": "Choose two distinct edges of a complete graph on $k$ vertices. They either share a vertex, contributing $3\\binom k3$, or are disjoint, contributing $3\\binom k4$. Hence the summand is $3\\binom{k+1}4$. Hockey-stick summation gives $3\\binom{42}5=38\\cdot39\\cdot41\\cdot42\\equiv4\\pmod{1000}$.",
+    "answer": 4,
+    "tags": [
+      "double counting",
+      "hockey-stick identity"
+    ],
+    "source_review": "Source 2 guesses a pattern from six values and does not prove it. The other sources prove the binomial identity or telescope it; the new edge-pair bijection explains the factor 3.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-I-12",
+    "title": "Summing intersection sizes",
+    "restatement": "Let $S_n$ sum $|A\\cap B|$ over ordered equal-sized subset pairs of $[n]$. If $S_{2022}/S_{2021}=p/q$ in lowest terms, find $(p+q) \\pmod{1000}$.",
+    "solution": "Mark an element of the intersection. It has $n$ choices, and after removing it the residual sets have equal size. Thus $S_n=n\\sum_k\\binom{n-1}k^2=n\\binom{2n-2}{n-1}$. Consequently the ratio is $4044\\cdot4041/2021^2$, already reduced since $2021$ is coprime to both factors. The requested remainder is $44\\cdot41+21^2\\equiv245$.",
+    "answer": 245,
+    "tags": [
+      "pointing",
+      "double counting",
+      "Vandermonde identity"
+    ],
+    "source_review": "All four double counts agree. Source 0 has imprecise residual-subset notation, but its marked-element argument and ratio reduction are correct.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-I-13",
+    "title": "Distinct reduced numerators",
+    "restatement": "Consider all nonzero repeating four-digit decimals. Count their distinct reduced numerators modulo $1000$.",
+    "solution": "Each fraction has denominator dividing $D=9999=3^2\\cdot11\\cdot101$. A positive numerator $u$ occurs iff it is at most the largest divisor of $D$ coprime to $u$. If $101$ divides $u$, this bound is at most $99$, impossible. If neither $3$ nor $11$ divides $u$, there are $\\varphi(D)=6000$ choices. If $3$ alone divides $u$, the bound $1111$ gives $\\lfloor1111/3\\rfloor-\\lfloor1111/33\\rfloor-\\lfloor1111/303\\rfloor=334$. If $11$ alone divides $u$, the bound $909$ gives $82-27=55$. If both divide $u$, the bound $101$ allows $33,66,99$. Total $6392$, remainder $392$.",
+    "answer": 392,
+    "tags": [
+      "inclusion-exclusion",
+      "divisor lattice"
+    ],
+    "source_review": "Source 1 reverses divisibility signs and contains false logical equivalences. Source 0 has imprecise wording about cancellation but its case counts are valid. The new maximal-coprime-divisor criterion states the exact necessary-and-sufficient condition.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-II-13",
+    "title": "A coefficient reduced to stars and bars",
+    "restatement": "Find coefficient $x^{2022}$ in $(x^{2310}-1)^6/[(x^{105}-1)(x^{70}-1)(x^{42}-1)(x^{30}-1)]$.",
+    "solution": "Below degree $2310$, the numerator contributes only $1$. Geometric-series expansion counts $105a+70b+42c+30d=2022$ in nonnegative integers. Modular reductions force $a=2A,b=3B,c=5C+1,d=7D+3$. Substitution gives $A+B+C+D=9$. This bijection yields $\\binom{12}3=220$.",
+    "answer": 220,
+    "tags": [
+      "generating functions",
+      "modular reduction",
+      "stars and bars"
+    ],
+    "source_review": "Source 0 drops binomial coefficients from a full expansion, harmless only after restricting to degree 2022. Source 1 skips the modular exhaustion argument. Sources 2 and 4 write infinite series after polynomial divisions; that equality needs truncation. The original proof uses formal coefficients below 2310 and explicit residues.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2022-II-14",
+    "title": "Complete coverage by a finite stamp collection",
+    "restatement": "For denominations $a<b<c$, let $f$ be the minimum number of stamps, using every denomination, whose subcollections represent every value from $1$ through $1000$. Find and sum the three least values of $c$ permitting $f=97$.",
+    "solution": "Necessarily $a=1$. A sorted stamp collection covers every value up to its total exactly when each next stamp is at most one plus the preceding total. Choosing the largest currently admissible denomination maximizes the total after each step, so is optimal. Put $q=\\lceil c/b\\rceil$. Use $b-1$ ones, then $q-1$ stamps of value $b$, reaching $L=bq-1$, then $t=\\max(1,\\lceil(1000-L)/c\\rceil)$ stamps of value $c$. Thus $f=b+q-2+t$. For $c\\le10$, $97$ stamps have insufficient total. Let $T=\\lceil1001/c\\rceil$. Since $bq\\ge c$, we have $t\\le T-1$ for $c<1001$; and $b+q\\le c+1$, giving $f\\le c-2+T$. For $12\\le c\\le86$, the inequality $c(98-c)\\ge1001$ makes this bound at most $96$. For $c=87$ and $b\\le85$, $b+\\lceil87/b\\rceil\\le87$ gives $f\\le96$; the remaining $b=86$ also gives $96$ directly. Finally $(c,b)=(11,7),(88,87),(89,87)$ give $f=97$. These are therefore the three least possible $c$, whose sum is $188$.",
+    "answer": 188,
+    "tags": [
+      "complete sequences",
+      "greedy dominance",
+      "coverage"
+    ],
+    "source_review": "The sole stored entry contains its own corrections but still uses an invalid general minimum formula and wrong witnesses b=86 for c=88,89. The new coverage-interval greedy proof gives the exact minimum and witnesses(11,7),(88,87),(89,87).",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-I-01",
+    "title": "No opposite pair of men",
+    "restatement": "Five men and nine women stand randomly at $14$ cyclic positions. Find numerator plus denominator of the probability every man is opposite a woman.",
+    "solution": "The five male positions are uniform among $\\binom{14}5$ subsets. Choose five distinct diameters among $7$, and one of their two endpoints for each man: $\\binom75 2^5$ favorable subsets. Probability $48/143$; answer $191$.",
+    "answer": 191,
+    "tags": [
+      "opposite pairs",
+      "probability"
+    ],
+    "source_review": "All nine stored solutions inspected. Diameter selection, sequential placement, sequential opposite-partner exposure, and labeled arrangements all give 48/143. Each method must consistently distinguish labeled positions from rotations; the independent diameter-subset count avoids extra symmetry factors.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-I-03",
+    "title": "Counting ordinary intersections",
+    "restatement": "Forty lines have no parallel pair. There are exactly $3$ triple points, $4$ quadruple points, $5$ quintuple points, and $6$ sextuple points, and no higher multiplicity. Count double points.",
+    "solution": "Every line pair has exactly one intersection. A $k$-fold point consumes $\\binom k2$ pairs. Thus the answer is $\\binom{40}2-3\\binom32-4\\binom42-5\\binom52-6\\binom62=607$.",
+    "answer": 607,
+    "tags": [
+      "incidence double counting"
+    ],
+    "source_review": "The sole stored solution double-counts pairs of lines by intersection multiplicity. The independent proof uses the same incidence invariant.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-I-06",
+    "title": "Optimal sequential color guesses",
+    "restatement": "Three red and three black cards are revealed in random order. Before each reveal, guess the color using previous observations. Find numerator plus denominator of the optimal expected correct guesses.",
+    "solution": "Guesses do not affect future information, so choose the currently more numerous remaining color. If $V(r,b)$ is the optimal expectation, then $V(r,b)=\\max(r,b)/(r+b)+[rV(r-1,b)+bV(r,b-1)]/(r+b)$, with $V(r,0)=r$. Evaluating the $3$ by $3$ table gives $V(3,3)=41/10$ (stage success probabilities are $1/2,3/5,3/5,7/10,7/10,1$). Answer $51$.",
+    "answer": 51,
+    "tags": [
+      "optimal prediction",
+      "dynamic programming",
+      "expectation"
+    ],
+    "source_review": "All five stored solutions inspected. The majority-remaining-color policy is optimal because a guess cannot affect subsequent information. Stage counting, full order tables, and dynamic programming all give 41/10; the independent solution states this policy justification explicitly.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-II-06",
+    "title": "Midpoints in an L-shaped region",
+    "restatement": "Choose two independent uniform points in a $2$ by $2$ square with its upper-right unit square removed. Find numerator plus denominator of the chance their midpoint remains in the region.",
+    "solution": "A midpoint can fail only when the points lie in the upper-left and lower-right squares, in either order, probability $2/9$. Conditional on that, each coordinate of the midpoint exceeds $1$ with probability $1/2$, independently. Failure probability is $1/18$, so success $17/18$ and answer $35$.",
+    "answer": 35,
+    "tags": [
+      "geometric probability",
+      "conditioning"
+    ],
+    "source_review": "All four sources inspected. Complementary conditioning on diagonally separated unit squares gives a one-quarter conditional failure chance. Integration, coordinate independence, and four-point symmetry average are equivalent. The independent proof uses coordinate independence and symmetry.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-I-07",
+    "title": "Pairwise-distinct remainders",
+    "restatement": "Count positive $n<1000$ whose remainders modulo $2,3,4,5,6$ are all different.",
+    "solution": "The condition repeats modulo $60$. If $n$ is even, the residues modulo $2,4$ must be $0,2$; distinctness then forces residues $1,4$ modulo $3,6$, and $3$ modulo $5$, so $n\\equiv58 \\pmod{60}$. If $n$ is odd, the $2,4$ residues are $1,3$; the $3,6$ residues must be $2,5$, and the $5$ residue $0$ or $4$, giving $n=35$ or $59 \\pmod{60}$. The three counts are $16,17,16$, total $49$.",
+    "answer": 49,
+    "tags": [
+      "Chinese remainder theorem",
+      "residue patterns"
+    ],
+    "source_review": "All four stored solutions inspected. They reduce to a period 60 and residues 35,58,59. The complete residue casework proves necessity; empirical listing alone needs exhaustive coverage. The independent argument derives the three classes.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-II-07",
+    "title": "Avoiding monochromatic rectangles",
+    "restatement": "Color $12$ cyclic vertices red or blue. Count colorings with no monochromatic rectangle among the vertices.",
+    "solution": "Every inscribed rectangle uses two diameters. Hence among the six opposite pairs, at most one may be $RR$ and at most one $BB$. With no monochromatic pair, there are $2^6$ colorings; with one, $6\\cdot2\\cdot2^5$; with one of each, $6\\cdot5\\cdot2^4$. Total $64+384+480=928$.",
+    "answer": 928,
+    "tags": [
+      "opposite-pair encoding",
+      "forbidden configurations"
+    ],
+    "source_review": "All four sources inspected. Every inscribed rectangle uses two diameters, so monochromatic opposite-pair counts give a complete three-case classification. All reach 928.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-I-09",
+    "title": "A cubic with one other equal-value integer",
+    "restatement": "Count monic cubics $x^3+ax^2+bx+c$ with $a, b, c$ in $[-20,20]$ for which exactly one integer $m$ unequal $2$ satisfies $p(m)=p(2)$.",
+    "solution": "Divide by $m-2$ to obtain $m^2+(a+2)m+(4+2a+b)=0$. Since one integer root forces the other integer, we need either a double root other than $2$, or two distinct roots with one equal $2$. The double-root condition is $b=(a-2)^2/4-4$; the bounds allow $9$ even values of $a$ but $a=-6$ must be excluded, giving $8$. The root $2$ condition is $b=-4a-12$, allowing $a=-8,\\ldots,2$, but again excluding $-6$, giving $10$. The coefficient $c$ has $41$ choices. Total $(8+10)41=738$.",
+    "answer": 738,
+    "tags": [
+      "root multiplicities",
+      "bounded counting"
+    ],
+    "source_review": "Both stored solutions inspected. They classify the factorization into one double root and one simple root. The alternate source has a constant-term copy typo in its second case, but the admissible-root counts 10 and 8 and total 738 are sound.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-II-10",
+    "title": "Balanced proper colorings of a ladder",
+    "restatement": "Place $1,\\ldots,12$ in a $2$ by $6$ grid so adjacent cells never have equal residues modulo $3$. Let $N$ count placements. Find the number of positive divisors of $N$.",
+    "solution": "Each residue occurs $4$ times. Each column contains two distinct residues; counting appearances forces exactly two columns of each unordered type $01,02,12$. Order the types in $6!/(2!)^3=90$ ways. The first column has two orientations; each subsequent column has exactly one orientation avoiding a horizontal match. Thus $180$ residue patterns. Assign actual numbers in $(4!)^3$ ways, so $N=180(24)^3=2^{11}3^5 5$. Its divisor count is $12\\cdot 6\\cdot 2=144$.",
+    "answer": 144,
+    "tags": [
+      "graph coloring",
+      "multiset permutations"
+    ],
+    "source_review": "Both stored solutions inspected. The first uses residue-column types correctly. The second initially counts all column orientations without enforcing horizontal restrictions and compensates with an unjustified value-assignment count; its appended shorter formula has the right total. The independent proof explains why only two global orientations exist for each type order.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-I-11",
+    "title": "Exactly one adjacent selected pair",
+    "restatement": "Count subsets of $[10]$ containing exactly one pair of consecutive integers.",
+    "solution": "Such a binary word has one run $11$ and $r$ additional isolated ones, for $0\\le r\\le 4$. Choose which of its $r+1$ runs has length $2$. Its $10-(r+2)=8-r$ zeros must separate the runs with $r$ mandatory zeros; distributing the rest into $r+2$ gaps gives $\\binom{9-r}{r+1}$. Thus the count is $\\sum_{r=0}^4(r+1)\\binom{9-r}{r+1}=9+56+105+60+5=235$.",
+    "answer": 235,
+    "tags": [
+      "run encoding",
+      "stars and bars"
+    ],
+    "source_review": "All eight sources inspected. Fixed-pair Fibonacci products, coupled recurrences, positive gaps, and a monomino/domino/triomino encoding all give 235. Several contain notation mistakes: index 3 uses a shifted Fibonacci index; index 4 reverses the gap-variable substitution; index 7 uses dp where its first recurrence requires dp 2. The independent run-gap formula and exhaustive subset check avoid these slips.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-II-11",
+    "title": "Maximum intersecting families on five elements",
+    "restatement": "Count collections of $16$ distinct pairwise-intersecting subsets of $[5]$.",
+    "solution": "Complementary pairs force exactly one member of each pair into the family. If a singleton occurs, the family is its full star, giving $5$ choices. Otherwise all $4$- and $5$-sets occur; choosing a $2$-set excludes exactly its complementary $3$-set. Thus choose any pairwise-intersecting edge family in $K_5$. Such a family is empty, a single edge, a two-edge star, a three-edge star, a triangle, or a four-edge star: counts $1,10,30,20,10,5$. (Three intersecting edges without a common vertex form a triangle, which admits no additional edge.) Total $5+76=81$.",
+    "answer": 81,
+    "tags": [
+      "intersecting families",
+      "complement pairing"
+    ],
+    "source_review": "All three sources inspected. Complementary-set pairing makes the size 16 family maximal. Reduction to pairwise-intersecting edge families gives 81. Source index 2 incorrectly claims only 2-set/3-set disjointness matters, then uses the wrong binomial coefficient for three-edge stars; its final number agrees only after inconsistent intermediate counts. The independent star-or-triangle classification is complete.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2023-I-14",
+    "title": "Hamiltonian cycles of two clock hands",
+    "restatement": "Two independently advancing clock hands start at $12$. Each move advances exactly one hand one step. Count modulo $1000$ the $144$-move tours visiting every ordered hand-position pair once before returning.",
+    "solution": "View positions as $\\mathbb Z_{12}^2$. Let $e(x, y)$ indicate a rightward outgoing edge. Having exactly one incoming edge forces $e(x-1,y)=e(x,y-1)$, so the outgoing direction is constant on each diagonal $x+y$ modulo $12$. Thus a tour is specified by $12$ binary directions, repeated each round. If $k$ directions are right, $12$ moves translate by $(k,-k)$; visiting all $12$ vertices of each diagonal is equivalent to $\\gcd(k,12)=1$. Count $\\binom{12}1+\\binom{12}5+\\binom{12}7+\\binom{12}{11}=1608$, remainder $608$.",
+    "answer": 608,
+    "tags": [
+      "Hamiltonian cycles",
+      "conservation",
+      "cyclic groups"
+    ],
+    "source_review": "All three sources inspected. Both torus sketches identify diagonal-constant directions; the matrix solution gives another periodicity argument but contains index-range typos. The independent incoming-edge conservation equation proves the diagonal claim, and translation order proves the gcd condition.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-I-03",
+    "title": "Winning residues in a subtraction game",
+    "restatement": "Two players alternately remove either $1$ or $4$ counters. The player taking the last counter wins. Count initial sizes from $1$ through $2024$ for which the second player can force a win.",
+    "solution": "The losing positions are precisely $n\\equiv0,2\\pmod5$. Indeed, either move from these residues reaches another residue, while from residues $1,3,4$ one can reach $0$ or $2$. Starting with the empty position, induction proves the claim. There are $404$ positive multiples of $5$ and $405$ numbers congruent to $2$. Thus the answer is $809$.",
+    "answer": 809,
+    "tags": [
+      "impartial games",
+      "periodicity"
+    ],
+    "source_review": "All five stored solutions inspected. Residue induction and the complementary-move strategy establish the result; empirical pattern spotting alone is incomplete. The Grundy calculation contains a small mex transcription error but the period and losing positions are correct.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-I-04",
+    "title": "The jackpot conditional on winning",
+    "restatement": "A ticket chooses four of ten numbers; four winning numbers are drawn uniformly. A prize requires at least two matches. Find numerator plus denominator of the conditional probability of four matches, given a prize.",
+    "solution": "Fix the winning set. Tickets with exactly $2,3,4$ matches number $\\binom42\\binom62=90$, $\\binom43\\binom61=24$, and $1$. The conditional jackpot probability is $1/(90+24+1)=1/115$. The requested sum is $116$.",
+    "answer": 116,
+    "tags": [
+      "conditional probability",
+      "hypergeometric counting"
+    ],
+    "source_review": "Both stored solutions count the same three hypergeometric cases; the conditional sample space is correctly restricted to prize-winning tickets.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-I-06",
+    "title": "Grid paths with four turns",
+    "restatement": "Count paths from one corner of an $8\\times8$ grid to the opposite corner, using only right and upward steps, with exactly four changes of direction.",
+    "solution": "There are five nonempty runs, alternating directions. If the first run is rightward, the eight right steps split into three positive parts and the eight upward steps into two. This gives $\\binom72\\binom71$. Starting upward gives the same number. Therefore $2\\binom72\\binom71=294$.",
+    "answer": 294,
+    "tags": [
+      "runs",
+      "compositions"
+    ],
+    "source_review": "All five stored solutions inspected. Run-length compositions and turning-point enumeration agree. The longest stars-and-bars version has a variable-copy typo; the positive-part count is correct.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-I-11",
+    "title": "Rotating blue vertices away from themselves",
+    "restatement": "Color the eight vertices of a regular octagon independently red or blue. Find numerator plus denominator of the probability that some rotation sends every blue vertex to a red vertex.",
+    "solution": "Let $B\\subset\\mathbb Z_8$ be the blue set. If $|B|\\le3$, its difference set has at most $1+2\\binom32=7$ elements, so some rotation makes $B$ disjoint from itself. If $|B|>4$, this is impossible. For $|B|=4$, a successful shift sends $B$ to its complement. An odd shift forces an alternating coloring, giving $2$ choices. A shift by $2$ or $6$ gives $4$ choices, alternating on each parity cycle. A shift by $4$ gives $2^4=16$ choices, one blue vertex per opposite pair. These three classes are disjoint because the first two are invariant under shift $4$. Thus there are $1+8+28+56+22=115$ successful colorings out of $256$, and the answer is $371$.",
+    "answer": 371,
+    "tags": [
+      "difference sets",
+      "cyclic symmetry",
+      "complement pairing"
+    ],
+    "source_review": "Both source solutions enumerate blue-set shapes. Their small-support sufficiency arguments are informal. The independent difference-set bound and shift-cycle classification replace the shape testing.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-II-01",
+    "title": "Recovering a fourfold intersection",
+    "restatement": "Among $900$ residents everyone has a candy. Ring, club, and spade ownership totals are $195, 367$, and $562$. Exactly $437$ residents own two of the four items and $234$ own three. How many own all four?",
+    "solution": "Count ownership incidences beyond the universal candy. Their number is $195+367+562=1124$. Residents with exactly two items contribute $437$, those with exactly three contribute $2\\cdot234$, and those with four contribute $3x$. Hence $1124=437+468+3x$, so $x=73$.",
+    "answer": 73,
+    "tags": [
+      "incidence counting",
+      "set multiplicities"
+    ],
+    "source_review": "All four stored solutions inspected. Venn-atom equations and incidence totals are equivalent; some use inconsistent variable names, without affecting the final linear equation.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-II-03",
+    "title": "Digits constrained by row and column sums",
+    "restatement": "Fill a $2\\times3$ array with decimal digits, allowing leading zeroes. The two three-digit rows sum to $999$, and the three two-digit columns sum to $99$. Count fillings.",
+    "solution": "The row condition forces each vertical digit pair to sum to $9$: the units column has no carry, and the same follows successively for the other columns. Write the top digits as $a,b,c$ and the lower digits as $9-a,9-b,9-c$. The column-number sum is $9(a+b+c)+27$, so $a+b+c=8$. No digit upper bound is active. Stars and bars gives $\\binom{10}2=45$.",
+    "answer": 45,
+    "tags": [
+      "digit carries",
+      "stars and bars"
+    ],
+    "source_review": "The sole source uses column digit complements followed by stars and bars; the independent proof explicitly rules out carries.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-II-06",
+    "title": "Encoding a set by maxima of subsets",
+    "restatement": "A finite set $A$ of positive integers has the property that exactly $2024$ finite nonempty sets of positive integers have maximum in $A$. Find the sum of the elements of $A$.",
+    "solution": "Exactly $2^{k-1}$ sets have maximum $k$: include $k$ and choose any subset of the smaller positive integers. Thus $\\sum_{k\\in A}2^{k-1}=2024$. Its unique binary expansion is $2^{10}+2^9+2^8+2^7+2^6+2^5+2^3$. Therefore $A=\\{11,10,9,8,7,6,4\\}$ and its sum is $55$.",
+    "answer": 55,
+    "tags": [
+      "binary encoding",
+      "subset maxima"
+    ],
+    "source_review": "Both sources use unique binary expansion, once at 2024 and once at 4048. Both recover the same seven elements.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-II-09",
+    "title": "Maximal monochromatic rows and columns",
+    "restatement": "Place black and white chips on a $5\\times5$ board, at most one per cell, so every occupied row and column is monochromatic. Count placements to which no chip can be added.",
+    "solution": "Every row and column must be nonempty: an empty row could receive a chip matching any occupied column, and the empty board is also not maximal. Label each row and column by its color. A cell is occupied exactly when its labels agree; otherwise it cannot be filled. If both colors occur, each must occur among both row labels and column labels. Hence there are $(2^5-2)^2$ mixed configurations. The two uniform full boards give the remaining possibilities. Total $900+2=902$.",
+    "answer": 902,
+    "tags": [
+      "maximal configurations",
+      "bipartite encoding"
+    ],
+    "source_review": "All three sources inspected. They encode maximal placements by row and column colors; the detailed version explains why every compatible cell must be occupied.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-II-11",
+    "title": "A symmetric cubic counting problem",
+    "restatement": "Count ordered nonnegative integer triples with $a+b+c=300$ and $a^2b+a^2c+b^2a+b^2c+c^2a+c^2b=6000000$.",
+    "solution": "Using $\\sum_{\\rm sym}a^2b=(a+b+c)(ab+bc+ca)-3abc$, the equation is equivalent to $(100-a)(100-b)(100-c)=0$. Thus at least one coordinate is $100$. For a specified coordinate there are $201$ possibilities for the other two. All pairwise and triple intersections are the single triple $(100,100,100)$. Inclusion-exclusion gives $3\\cdot201-3+1=601$.",
+    "answer": 601,
+    "tags": [
+      "factorization",
+      "inclusion-exclusion"
+    ],
+    "source_review": "All five sources inspected. The direct product factorization is sound. Source index 1 invokes unnecessary Fermat theory; index 3 contains erroneous quadratic formulas and swaps the x=0 and x=100 endpoint descriptions; index 4 confuses shifted and original variables and misprints the common triple. The independent factorization avoids these errors.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2024-II-15",
+    "title": "Rectangles supported by dodecagon chords",
+    "restatement": "Count rectangles whose four sides lie on sides or diagonals of a regular dodecagon. Rectangle corners need not be polygon vertices.",
+    "solution": "Chord directions occur in multiples of $15^\\circ$, giving six perpendicular direction pairs. Three pairs have one coordinate pattern and three have the pattern rotated by $15^\\circ$. For a unit circumcircle in the first pattern, available horizontal levels are $0,\\pm1/2,\\pm\\sqrt3/2$, with respective half-widths $1,\\sqrt3/2,1/2$. Among pairs of horizontal lines, $3$ pairs allow $5$ vertical lines and $7$ pairs allow $3$, yielding $3\\binom52+7\\binom32=51$. In the rotated pattern the levels are $\\pm\\sin15^\\circ,\\pm\\sin45^\\circ,\\pm\\sin75^\\circ$. Respectively $1,5,9$ horizontal pairs allow $6,4,2$ vertical lines, yielding $\\binom62+5\\binom42+9\\binom22=54$. These counts follow by requiring all four intersections to lie within both chord segments. Every rectangle has a unique perpendicular direction pair. Total $3(51+54)=315$.",
+    "answer": 315,
+    "tags": [
+      "geometric enumeration",
+      "direction classes"
+    ],
+    "source_review": "All three source solutions inspected. They split six direction classes into two symmetric triples, obtaining 51 and 54 per orientation. The independent chord-coordinate table verifies the segment-length restrictions without relying on missing diagrams.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "Independently enumerated horizontal and vertical chord endpoints for both orientation types: 51 and 54.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-I-03",
+    "title": "Flavor assignments with ordered popularity",
+    "restatement": "Nine distinct people each choose one of three ice-cream flavors. Every flavor is chosen, with chocolate chosen more often than vanilla and vanilla more often than strawberry. Find the assignment count modulo $1000$.",
+    "solution": "The possible counts $(c,v,s)$ are $(6,2,1),(5,3,1),(4,3,2)$. Their multinomial counts sum to $9!/(6!2!)+9!/(5!3!)+9!/(4!3!2!)=252+504+1260=2016$. The remainder is $16$.",
+    "answer": 16,
+    "tags": [
+      "multinomial counting",
+      "integer partitions"
+    ],
+    "source_review": "All five sources inspected. Each uses the same three strict count partitions and multinomial assignments; index 4 has missing displayed case details in the scrape.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-I-05",
+    "title": "Digit permutations divisible by twenty-two",
+    "restatement": "Let $N$ count permutations of digits $1$ through $8$ that form an eight-digit integer divisible by $22$. Find $N-2025$.",
+    "solution": "Divisibility by $11$ requires both alternating-position digit sums to be $18$: their difference is even and has absolute value at most $16$. The four-subsets summing to $18$ are $1278,1368,1458,1467,2358,2367,2457,3456$; the total number of even digits across this list is $16$. If such a subset occupies the even positions, choose its even final digit, then arrange the remaining positions in $3!4!$ ways. Thus the favorable count is $16\\cdot3!4!=2304$. The requested difference is $2304-2025=279$.",
+    "answer": 279,
+    "tags": [
+      "divisibility tests",
+      "subset sums"
+    ],
+    "source_review": "All four sources inspected. They split digits into two four-subsets of sum 18. Enumeration confirms eight subsets, each with two even digits, justifying the factor one-half for an even final digit. The independent solution uses an explicit subset list.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-I-07",
+    "title": "The final alphabetized pair",
+    "restatement": "Pair the twelve letters $A$ through $L$ uniformly into six unordered pairs. Sort each pair alphabetically and then sort the six pairs. Find numerator plus denominator of the probability the last pair contains $G$.",
+    "solution": "There are $11!!=10395$ pairings. If $G$ is first in its pair, choose its partner in $5$ ways, choose the pair of low letters among $A$ through $F$ in $\\binom62$ ways, and match the four remaining low letters with the four remaining high letters in $4!$ ways. If $G$ is second, its partner must be $F$; match $A$ through $E$ with $H$ through $L$ in $5!$ ways. These give $1800+120=1920$ favorable pairings. The probability is $128/693$, and the answer is $821$.",
+    "answer": 821,
+    "tags": [
+      "perfect matchings",
+      "order statistics"
+    ],
+    "source_review": "Both sources inspected. Source index 1 has contradictory arithmetic (19 times 120 followed by 16 times 120); its stated final probability is correct but that derivation is not. The independent low-low-pair count gives 1800+120 favorable pairings.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-I-10",
+    "title": "Counting Sudoku bands",
+    "restatement": "Fill a $3\\times9$ band with digits $1$ through $9$ so that every row and every consecutive $3\\times3$ block contains each digit once. If the count is $2^a3^b5^c7^d$, find $2a+3b+5c+7d$.",
+    "solution": "There are $9!$ first rows. Classify digits by their first-row block. If $k$ digits from the first class go to the second block of row two, the row and block totals force every other class allocation. Choosing the allocated digits gives $\\sum_{k=0}^3\\binom3k^3=56$. Arrange the three second-row blocks internally in $(3!)^3$ ways. The third-row block sets are now determined and have another $(3!)^3$ arrangements. Thus $N=9!\\cdot56\\cdot6^6=2^{16}3^{10}5\\cdot7^2$, and the requested weighted sum is $32+30+5+14=81$.",
+    "answer": 81,
+    "tags": [
+      "contingency tables",
+      "Latin rectangles"
+    ],
+    "source_review": "All four sources inspected. Fixing the first row or first block leads to the same allocation factor 56 and total 9!*56*6^6. The exponent-weighted requested answer is 81.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-I-13",
+    "title": "Expected regions from random chords",
+    "restatement": "Two perpendicular diameters divide a disk into four quadrants. Add $25$ independent chords, each choosing uniformly a pair of distinct quadrants and then uniform endpoints within those quadrants. Find the expected number of regions.",
+    "solution": "A chord crosses $1$ diameter when its quadrants are adjacent and $2$ when opposite, so the mean is $4/3$. For two random chords, condition on the first quadrant pair. If adjacent, among the six second pairs four share one quadrant (intersection chance $1/2$), one equals it (chance $1/2$), and one is disjoint (chance $0$): total $5/12$. If opposite, the disjoint pair instead intersects surely, giving $7/12$. Thus the unconditional probability is $(2/3)(5/12)+(1/3)(7/12)=17/36$. Each new chord adds one plus its number of crossings, almost surely. Expected regions are $4+25(1+4/3)+\\binom{25}2(17/36)=204$.",
+    "answer": 204,
+    "tags": [
+      "linearity of expectation",
+      "random arrangements"
+    ],
+    "source_review": "Both sources inspected. Incremental regions and pair-crossing expectations agree. Source index 1 calls all 30 remaining quadrant-pair cases shared-one-quadrant cases, overlooking six identical pairs; these also have crossing probability one-half, so the result survives the inaccurate description.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-I-15",
+    "title": "Cubic residues and three-variable counting",
+    "restatement": "Count ordered triples $1\\le a,b,c\\le729$ with $a^3+b^3+c^3$ divisible by $2187$, and give the remainder modulo $1000$.",
+    "solution": "Split inputs into category $A$ (multiples of $9$, size $81$), category $B$ (multiples of $3$ but not $9$, size $162$), and category $C$ (units, size $486$). Their cube residues are respectively $729j$ with multiplicity $27$; $\\pm27+243j$ with multiplicity $9$; and $\\pm1+9j$ with multiplicity $1$. These multiplicities follow by expanding a cube, or by $v_3(u^3-v^3)=v_3(u-v)+1$ for units of the same residue modulo $3$. Reduction modulo $9$ and then $243$ permits only patterns AAA, ABB, ACC, BCC. For any first two entries, the required third residue has the stated multiplicity. The ordered counts are $81^2\\cdot27$, $3\\cdot81\\cdot162\\cdot9$, $3\\cdot81\\cdot486$, and $3\\cdot162\\cdot486$. Their sum is $15\\cdot3^{10}=885735$, giving $735$.",
+    "answer": 735,
+    "tags": [
+      "valuation stratification",
+      "residue distributions"
+    ],
+    "source_review": "All four sources inspected. Source index 1 explicitly contains a false vanishing exponential-sum claim and then inserts an unjustified factor 5; it is rejected. Source index 2 has lengthy omitted and inconsistent modular subcounts and is not used as a proof. Source index 3 offers a useful valuation recursion, but its appeal to ordinary Hensel lifting needs justification because the cube derivative vanishes modulo 3. The independent cube-residue distribution was checked by exact convolution.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-II-03",
+    "title": "Two red sides on every small square",
+    "restatement": "Color the twelve unit edges of a $2\\times2$ array of squares red or blue. Count colorings in which every small square has exactly two red edges.",
+    "solution": "First color the four internal edges. Around the central vertex they form a cyclic binary word. A square whose two internal edges agree has one possible coloring of its two exterior edges; a square whose internal edges differ has two. Thus a word with $t$ transitions has weight $2^t$. The possible cyclic transition counts are $0,2,4$, attained by $2,12,2$ words. The total is $2+12\\cdot4+2\\cdot16=82$.",
+    "answer": 82,
+    "tags": [
+      "transfer weights",
+      "cyclic binary words"
+    ],
+    "source_review": "No solution text occurs in the downloaded source record. Independent transfer-weight proof and exhaustive twelve-edge coloring check both give 82.",
+    "source_reviewed_indices": [],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-II-07",
+    "title": "The least common multiple of a random divisor subset",
+    "restatement": "Choose uniformly a subset of the positive divisors of $2025$. Find numerator plus denominator of the probability that its least common multiple is $2025$.",
+    "solution": "Since $2025=3^4 5^2$, there are $15$ divisors. The subset must contain a divisor of $3$-exponent $4$ and one of $5$-exponent $2$. There are respectively $3$ and $5$ such divisors, with one in common. Inclusion-exclusion gives $2^{15}-2^{12}-2^{10}+2^8$ favorable subsets. Dividing by $2^{15}$ yields $109/128$, so the answer is $237$.",
+    "answer": 237,
+    "tags": [
+      "divisor lattice",
+      "inclusion-exclusion"
+    ],
+    "source_review": "All four source solutions inspected. Inclusion-exclusion and splitting on inclusion of 2025 are equivalent. Missing displayed expressions in two scraped alternatives do not obscure the underlying count.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-II-08",
+    "title": "When greedy coin change succeeds",
+    "restatement": "With coin values $1, 10$, and $25$, count amounts from $1$ through $1000$ for which repeatedly taking the largest affordable coin uses the fewest coins.",
+    "solution": "Write $N=25q+r$, $0\\le r<25$, and put $h(s)=\\lfloor s/10\\rfloor+(s\\bmod10)$, the optimal count using ones and tens. Using two fewer quarters changes the count by $-2+h(s+50)-h(s)=3$, so only $q$ and $q-1$ quarters need comparison. For $q\\ge1$, using $q-1$ improves the count exactly when $r\\bmod10\\ge5$, namely $r=5,\\ldots,9,15,\\ldots,19$. There are $39$ complete positive-quarter blocks and thus $390$ failing amounts. The remaining $1000-390=610$ succeed.",
+    "answer": 610,
+    "tags": [
+      "greedy algorithms",
+      "periodic optimization"
+    ],
+    "source_review": "The single stored source uses coin-case analysis. The independent two-quarter exchange explains why only the largest allowable quarter count and one less need comparison.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-II-10",
+    "title": "Eight occupied seats with no triple",
+    "restatement": "Select eight of sixteen seats in a row so that no three consecutive seats are selected. Find the number of selections modulo $1000$.",
+    "solution": "The eight unselected seats create nine gaps. Each gap contains $0,1,$ or $2$ selected seats, and their sum is $8$. Thus the count is $[x^8](1+x+x^2)^9$. Writing this as $(1-x^3)^9/(1-x)^9$ gives $\\binom{16}8-9\\binom{13}8+\\binom92\\binom{10}8=2907$. The remainder is $907$.",
+    "answer": 907,
+    "tags": [
+      "bounded compositions",
+      "generating functions"
+    ],
+    "source_review": "All three sources inspected. Counting singleton and doubleton occupied runs agrees with bounded-gap compositions; exact seat enumeration gives 2907.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2025-II-11",
+    "title": "Equal-length perfect matchings on a polygon",
+    "restatement": "Pair all vertices of a regular $24$-gon so that the twelve resulting chords have the same length. Count the pairings.",
+    "solution": "Fix the cyclic step $d\\in\\{1,\\ldots,12\\}$. For $d<12$, the graph of chords of that length consists of $g=\\gcd(24,d)$ cycles, each of length $24/g$. An odd cycle has no perfect matching; an even cycle has two, independently. The counts for $d=1,\\ldots,11$ are $2,4,8,16,2,64,2,0,8,4,2$. For $d=12$, the diameters form one matching. Their sum is $113$.",
+    "answer": 113,
+    "tags": [
+      "cycle decomposition",
+      "perfect matchings"
+    ],
+    "source_review": "No solution text occurs in the downloaded source record. Independent equal-chord graph decomposition gives 113.",
+    "source_reviewed_indices": [],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-I-02",
+    "title": "Palindromes as compositions",
+    "restatement": "Count positive decimal palindromes with no zero digits and digit sum $13$.",
+    "solution": "The length is odd; let its center digit be $c\\in\\{1,3,5,7,9\\}$. The left half has digit sum $s=(13-c)/2\\in\\{6,5,4,3,2\\}$. Its nonzero digits form an arbitrary composition of $s$; the digit upper bound is automatic. There are $2^{s-1}$ compositions. Mirroring determines the right half, so the answer is $32+16+8+4+2=62$.",
+    "answer": 62,
+    "tags": [
+      "compositions",
+      "palindromes"
+    ],
+    "source_review": "All five sources inspected. Palindromic compositions, central-digit compositions, and a two-operation construction all give 62. The independent central-digit count is complete and avoids the source notation slips.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-I-07",
+    "title": "Permutations whose sixth power is identity",
+    "restatement": "Count permutations of six labeled elements whose sixth iterate fixes every element.",
+    "solution": "Every cycle length must divide $6$, so allowed lengths are $1,2,3,6$. The possible cycle types are $6;3+3;2+2+2;1^6;3+1^3;2+1^4;2+2+1+1;3+2+1$. The formula $6!/\\prod_j(j^{m_j}m_j!)$ gives respectively $120,40,15,1,40,15,45,120$. Their sum is $396$.",
+    "answer": 396,
+    "tags": [
+      "permutation cycles",
+      "cycle index"
+    ],
+    "source_review": "All four sources inspected. Allowed-cycle enumeration and exclusion of 4- and 5-cycles agree. Several alternatives confuse cycle counts or describe orientation imprecisely; the standard cycle-index denominator removes these ambiguities.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-I-08",
+    "title": "Divisor residues determined by exponent parity",
+    "restatement": "Count divisors of $17017^{17}$ congruent to $5$ modulo $12$, and give the count modulo $1000$.",
+    "solution": "Factor $17017=7\\cdot11\\cdot13\\cdot17$. A divisor is $7^a11^b13^c17^d$, with exponents from $0$ through $17$. Its residue is $5$ precisely when $a+b$ is even and $b+d$ is odd, by reduction modulo $4$ and $3$. Choose $b,c$ in $18^2$ ways; each determines the required parity of $a,d$, with $9$ choices each. Thus there are $18^2\\cdot9^2=26244$ divisors, giving remainder $244$.",
+    "answer": 244,
+    "tags": [
+      "residue classes",
+      "exponent parity"
+    ],
+    "source_review": "All four sources inspected. They reduce exponents to parity using residues 7,11,1,5 modulo 12. Both two-pattern enumeration and simultaneous modulo 3/modulo 4 conditions give 26244.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-I-09",
+    "title": "Visible even stickers on a die",
+    "restatement": "Roll a fair die six times, placing sticker $k$ on the top face after roll $k$; a new sticker covers an old one. Given that stickers $2, 4$, and $6$ remain visible, find numerator plus denominator of the chance exactly one face is blank.",
+    "solution": "Choose distinct faces for stickers $2,4,6$ in $6\\cdot5\\cdot4$ ways. Sticker $1$ has $6$ choices; $3$ must avoid the face of $2$, giving $5$; $5$ must avoid the faces of $2,4$, giving $4$. Thus there are $14400$ equally likely assignments under the condition. Exactly five occupied faces means one repeated pair of sticker numbers. Its earlier number must be odd: there are $5+3+1=9$ such pairs. Assign the resulting five distinct blocks to faces in $6!$ ways. The probability is $9\\cdot720/14400=9/20$, giving $29$.",
+    "answer": 29,
+    "tags": [
+      "conditional counting",
+      "set partitions"
+    ],
+    "source_review": "All six sources inspected. Several correct conditional counts agree on 14400 and 6480. Source index 4 incorrectly divides raw probabilities by 6^4 rather than 6^6, which cancels in its ratio. Source index 5 allows invalid earlier-even-over-later-odd overlays and omits odd-over-odd collisions; its numerical agreement is accidental. The independent collision-pair enumeration was exhaustively checked.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-I-11",
+    "title": "Maximizing total variation on a grid",
+    "restatement": "Place $1$ through $64$ bijectively in an $8\\times8$ grid. Maximize the sum of absolute differences across all horizontal and vertical adjacencies; report the maximum modulo $1000$.",
+    "solution": "For any adjacent values, $|a-b|\\le|a-32.5|+|b-32.5|$. Hence the total is at most $\\sum_v\\deg(v)|a_v-32.5|$. Rearrangement maximizes this bound by assigning the $36$ most extreme numbers to degree-$4$ interior cells, the next $24$ to degree-$3$ edge cells, and the middle four to corners. Color the grid as a checkerboard; each color has $18$ interior cells, $12$ edge cells, and $2$ corners. Put the smaller half on one color and the larger half on the other, in the degree order just specified. Every edge then attains equality. The maximum is $4(999-171)+3(486-294)+2(67-63)=3896$, giving $896$.",
+    "answer": 896,
+    "tags": [
+      "extremal arrangements",
+      "rearrangement inequality",
+      "bipartite graphs"
+    ],
+    "source_review": "The sole source gives a plausible checkerboard arrangement and local exchanges but does not prove a global upper bound. The independent midpoint inequality plus rearrangement proves that 3896 is optimal.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-I-13",
+    "title": "Binomial residue sums over a finite field",
+    "restatement": "For $0\\le r<502$, let $S_r$ sum $\\binom{10000}{k}$ over $0\\le k\\le10000$ congruent to $r$ modulo $502$. How many $S_r$ are divisible by $503$?",
+    "solution": "Over $\\mathbb F_{503}$, put $P(x)=\\sum_{r=0}^{501}S_rx^r$. For every nonzero $x$, Fermat gives $P(x)=(1+x)^{10000}=(1+x)^{462}$, since $10000\\equiv462\\pmod{502}$; the equality also holds at $x=-1$. The difference has degree at most $501$ and $502$ roots, so it is identically zero. Thus $S_r=\\binom{462}{r}$ modulo $503$ for $r\\le462$, and $S_r=0$ for larger $r$. No binomial coefficient in row $462$ vanishes modulo the larger prime $503$, because all relevant factorials are invertible. Exactly $501-462=39$ sums qualify.",
+    "answer": 39,
+    "tags": [
+      "finite-field interpolation",
+      "binomial coefficients"
+    ],
+    "source_review": "Both sources inspected. The finite-field root argument and quotient-ring interpretation are valid; they must handle x=-1 separately before reducing the exponent. Direct modular coefficient calculation confirms 39 zeros.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-I-15",
+    "title": "Five rectangular cell loops",
+    "restatement": "A cell loop consists of the boundary cells of an axis-aligned rectangle with both dimensions at least two. Count partitions of a $10\\times10$ board into five cell loops.",
+    "solution": "For an $H\\times W$ board with $H\\ge W$, take the two cell diagonals $D=\\{(i,i):1\\le i\\le W\\}$ and $E=\\{(H+1-i,i):1\\le i\\le W\\}$. A rectangular boundary meets either in at most two cells. Thus a partition into $W/2$ loops forces every loop to meet each diagonal twice. Let the upper-left corner loop have dimensions $r\\times c$. Its interior is a union of whole loops, so its two diagonal counts are equal: $\\min(r,c)-2=r+c-H-2$. (The second count is nonnegative because the corner loop meets $E$ twice.) Hence $\\max(r,c)=H$. A tall-board corner loop therefore spans its full height; a square-board corner loop spans at least one side. Its other dimension is even.\n\nLet $T(a,b)$ count partitions of a $2a\\times2b$ board into $b$ loops, where $a>b$. A corner loop of width $2k$ leaves independent rectangles $2(a-1)\\times2(k-1)$ and $2a\\times2(b-k)$, both using their minimum loop counts. Therefore $T(a,b)=\\sum_{k=1}^b T(a-1,k-1)T(a,b-k)$, with empty-width count $1$. Induction using the Catalan recurrence gives $T(a,b)=C_b$.\n\nFor the square count $S_n$, a full outer-square loop contributes $S_{n-1}$. A proper full-height corner loop contributes $\\sum_{k=1}^{n-1}C_{k-1}C_{n-k}$; full-width loops contribute the same. Thus $S_n=S_{n-1}+2(C_n-C_{n-1})$, and $S_0=1$ gives $S_n=2C_n-1$. Finally $S_5=2\\binom{10}5/6-1=83$.",
+    "answer": 83,
+    "tags": [
+      "Catalan numbers",
+      "diagonal invariants",
+      "structural decomposition"
+    ],
+    "source_review": "All three archived solutions were read; their structural arguments have gaps or false claims. The independent two-diagonal corner-loop lemma proves the Catalan formula rigorously. See the detailed Catalan-loop addendum.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "Independent exact-cover enumeration, without using the corner-loop lemma, gives 1,3,9,27,83 for square side lengths 2,4,6,8,10. The 10-by-10 count visits 3053 occupied-cell states.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-II-02",
+    "title": "Paths through a strip of diagonal squares",
+    "restatement": "Ten adjacent squares each contain their rising diagonal. A path runs from the lower-left endpoint to the upper-right endpoint, never moving left and never reusing an edge. If there are $N$ paths, find $\\sqrt N$.",
+    "solution": "At each vertical boundary a path may use its vertical edge once or not at all. Suppose $b,t$ count arrivals at the lower and upper vertices before this choice. After the optional vertical step there are $b+t$ possibilities at either endpoint. Crossing the next square gives new arrival counts $(b+t,2(b+t))$, using its bottom edge, top edge, or diagonal. Thus the total arrival count triples at each square. Initially $(b,t)=(1,0)$; after ten squares the total is $3^{10}$. At the final boundary every arrival has exactly one way to finish at the upper endpoint. Therefore $N=3^{10}$ and $\\sqrt N=243$.",
+    "answer": 243,
+    "tags": [
+      "transfer matrices",
+      "path counting"
+    ],
+    "source_review": "All three sources inspected. First-arrival states yield a valid transfer recurrence with total multiplied by 3. The original horizontal-choice claim is terse; the independent proof specifies the optional vertical traversal to make the bijection precise.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-II-04",
+    "title": "A numeral equal to its value in a smaller base",
+    "restatement": "For positive decimal $n$, reinterpret its digit string in the base one larger than its greatest digit. Count $n<1000$ unchanged by this operation.",
+    "solution": "Every one-digit number is unchanged. For a longer numeral the value is strictly increasing in its base, so equality requires base $10$, or equivalently a digit $9$. There are $90-8\\cdot9=18$ qualifying two-digit numerals and $900-8\\cdot9^2=252$ three-digit numerals. Including the nine one-digit numbers gives $9+18+252=279$.",
+    "answer": 279,
+    "tags": [
+      "complement counting",
+      "digit restrictions"
+    ],
+    "source_review": "Both sources inspected. Monotonicity in the base gives the clean criterion; the digit-by-digit alternative reaches the same count by inclusion-exclusion.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-II-05",
+    "title": "Equal hypergeometric probabilities",
+    "restatement": "An urn has at least seven marbles of each of two colors. Drawing seven without replacement gives equal probabilities of exactly four red marbles and exactly five red marbles. Sum the five smallest possible total populations.",
+    "solution": "If the color counts are $r,b$, cancellation in $\\binom r4\\binom b3=\\binom r5\\binom b2$ gives $(b-2)/3=(r-4)/5$, or $3r-5b=2$. All solutions have $r=4+5k$, $b=2+3k$. Both counts are at least seven exactly when $k\\ge2$. The five smallest totals are $22,30,38,46,54$, whose sum is $190$.",
+    "answer": 190,
+    "tags": [
+      "hypergeometric ratios",
+      "Diophantine counting"
+    ],
+    "source_review": "Both sources inspected. Cancellation of adjacent hypergeometric coefficients gives 3r-5b=2 and the five totals 22,30,38,46,54.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-II-07",
+    "title": "Two successes of each kind before a stop",
+    "restatement": "Independent trials choose $A, B$, or $C$ with equal probabilities. If the chance that $A$ and $B$ each occur at least twice before the first $C$ is $m/n$ in lowest terms, find $100m+n$.",
+    "solution": "Ignore $B$ trials when comparing $A$ with $C$. The chance of fewer than two $A$ trials before $C$ is $1/2+1/4=3/4$, and the same holds for $B$. For both counts to be below two, the word before $C$ is empty, one letter, or $AB$ or BA. Its probability is $(1/3)(1+2/3+2/9)=17/27$. Inclusion-exclusion gives $1-3/4-3/4+17/27=7/54$. Thus $100m+n=754$.",
+    "answer": 754,
+    "tags": [
+      "stopping times",
+      "inclusion-exclusion"
+    ],
+    "source_review": "All five sources inspected. The short first-three-trial conditioning, finite-state recurrence, and terminal-success-word sums are sound. Source index 2 has an unclear overlapping series decomposition and is not relied on. Independent inclusion-exclusion gives 7/54.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-II-13",
+    "title": "Sets with a prescribed number of adjacent partners",
+    "restatement": "Finite integer sets $S,T$ are cousins when they are disjoint, equally large, and admit a pairing with paired values differing by one. Find the smallest size of $S$ having exactly $4040$ cousins.",
+    "solution": "Build the bipartite graph joining each member of $S$ to its neighbors outside $S$. Components are alternating paths or isolated vertices. A component with more $S$ vertices than outside vertices makes cousins impossible. A component with equal counts has a unique matching saturating $S$. A component with $k$ vertices in $S$ and $k+1$ outside has exactly $k+1$ possible partner sets: omit one outside vertex; the matching is then forced. Consequently the number of cousins is a product of factors $k+1$, whose total vertex cost is at least $\\sum k$. Splitting a composite factor $uv$ into $u,v$ decreases cost from $uv-1$ to $(u-1)+(v-1)$. Since $4040=101\\cdot5\\cdot2^3$, the minimum cost is $100+4+1+1+1=107$. Achieve it with widely separated arithmetic progressions of difference two and lengths $100,4,1,1,1$.",
+    "answer": 107,
+    "tags": [
+      "matching components",
+      "multiplicative partitions"
+    ],
+    "source_review": "The sole source counts separated step-two progressions but omits justification for arbitrary integer sets. The independent bipartite-path component argument handles forced matchings, impossible components, and the prime-factor lower bound.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-II-14",
+    "title": "Compositions with parity-dependent subtraction",
+    "restatement": "For integers $a,b$, define $a\\circ b=a-b$ when $a$ is odd and $b$ even, and $a+b$ otherwise. Count positive-integer sequences of sum $12$ whose left-associated operation value is zero.",
+    "solution": "The running parity equals the parity of the ordinary prefix sum. Therefore only even terms following an odd number of odd terms are subtracted. Added and subtracted totals must each be $6$. Suppose there are $2k$ odd terms with total $2h$, where $1\\le k\\le h\\le3$. Their choices number $\\binom{h+k-1}{2k-1}$. There are $k$ subtracted even gaps and $k+1$ added even gaps. Measuring even terms in units of two, a gap has generating function $F(z)=(1-z)/(1-2z)$, since a positive total $j$ has $2^{j-1}$ compositions. Thus the desired sum is $\\sum_{1\\le k\\le h\\le3}\\binom{h+k-1}{2k-1}[z^3]F(z)^k\\,[z^{3-h}]F(z)^{k+1}$. For $(k,h)=(1,1),(1,2),(1,3),(2,2),(2,3),(3,3)$, the contributions are $20,16,12,36,48,25$. Their sum is $157$.",
+    "answer": 157,
+    "tags": [
+      "parity states",
+      "compositions",
+      "generating functions"
+    ],
+    "source_review": "All three sources inspected. The parity-gap method and finite dynamic program are valid approaches. Source index 1 incorrectly states that an added-gap total 2 has 2k placements; it has $k$+1 placements. The independent generating-function sum and exhaustive 2048-composition check give 157.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0
+  },
+  {
+    "id": "2026-II-15",
+    "title": "A Fano-plane residue count",
+    "restatement": "Count ordered seven-tuples with entries in $\\{1,2,3\\}$ for which both $\\sum_i a_i$ and $\\sum_i a_i a_{i+1}a_{i+3}$ are divisible by three; indices are cyclic modulo seven.",
+    "solution": "Replace entries by their residues $0,\\pm1$. The seven triples $\\{i,i+1,i+3\\}$ are the lines of the Fano plane: each pair lies on one line. Classify by support size $w$. For $w=0,1,2,3$, counts are $1,0,42,56$: two signs must oppose, while three signs must agree and their support must avoid the seven lines. For $w=4$, signs split two and two; the support must contain no line, hence be the complement of a line. Count $7\\binom42=42$. For $w=5$, its two contained lines meet at one point. Four signs agree and one differs; their two products cancel exactly when the minority sign is at one of the other four points. Count $\\binom72\\cdot8=168$. For $w=6$, all equal signs fail; among the $\\binom63=20$ balanced assignments, exactly eight fail because the plus or minus triple is one of the four contained lines. Count $7(20-8)=84$. For $w=7$, signs split five and two; the seven products comprise three of one sign and four of the other, so none qualify. Total $1+42+56+42+168+84=393$.",
+    "answer": 393,
+    "tags": [
+      "finite geometry",
+      "Fano plane",
+      "residue counting"
+    ],
+    "source_review": "Both sources inspected. Source index 0 incorrectly replaces entries by a_i-2 rather than their actual residues; its later support analysis corresponds to the correct residue mapping. Source index 1 uses the correct mapping but has mistaken line-containment wording and omits all-equal signs at weight 6, so it is not a complete proof. The independent Fano support count was exhaustively checked on all 2187 tuples. Clean statement includes all seven cyclic terms.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "Independently enumerated all $3^7=2187$ residue assignments; the support-count distribution is $1,0,42,56,42,168,84,0$.",
+    "status": "solved",
+    "source_index_base": 0
+  }
+]

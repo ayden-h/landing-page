@@ -1,0 +1,132 @@
+{
+  "2023-I-01": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source_review": "All nine stored solutions inspected. Diameter selection, sequential placement, sequential opposite-partner exposure, and labeled arrangements all give48/143. Each method must consistently distinguish labeled positions from rotations; the independent diameter-subset count avoids extra symmetry factors.",
+    "source_solution_count": 9,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-I-03": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review": "The sole stored solution double-counts pairs of lines by intersection multiplicity. The independent proof uses the same incidence invariant.",
+    "source_solution_count": 1,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-I-06": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "All five stored solutions inspected. The majority-remaining-color policy is optimal because a guess cannot affect subsequent information. Stage counting, full order tables, and dynamic programming all give41/10; the independent solution states this policy justification explicitly.",
+    "source_solution_count": 5,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-II-06": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "All four sources inspected. Complementary conditioning on diagonally separated unit squares gives a one-quarter conditional failure chance. Integration, coordinate independence, and four-point symmetry average are equivalent. The independent proof uses coordinate independence and symmetry.",
+    "source_solution_count": 4,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-I-07": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "All four stored solutions inspected. They reduce to a period60 and residues35,58,59. The complete residue casework proves necessity; empirical listing alone needs exhaustive coverage. The independent argument derives the three classes.",
+    "source_solution_count": 4,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-II-07": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "All four sources inspected. Every inscribed rectangle uses two diameters, so monochromatic opposite-pair counts give a complete three-case classification. All reach928.",
+    "source_solution_count": 4,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-I-09": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Both stored solutions inspected. They classify the factorization into one double root and one simple root. The alternate source has a constant-term copy typo in its second case, but the admissible-root counts10 and8 and total738 are sound.",
+    "source_solution_count": 2,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-II-10": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Both stored solutions inspected. The first uses residue-column types correctly. The second initially counts all column orientations without enforcing horizontal restrictions and compensates with an unjustified value-assignment count; its appended shorter formula has the right total. The independent proof explains why only two global orientations exist for each type order.",
+    "source_solution_count": 2,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-I-11": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_review": "All eight sources inspected. Fixed-pair Fibonacci products, coupled recurrences, positive gaps, and a monomino/domino/triomino encoding all give235. Several contain notation mistakes: index3 uses a shifted Fibonacci index; index4 reverses the gap-variable substitution; index7 uses dp where its first recurrence requires dp2. The independent run-gap formula and exhaustive subset check avoid these slips.",
+    "source_solution_count": 8,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-II-11": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three sources inspected. Complementary-set pairing makes the size16 family maximal. Reduction to pairwise-intersecting edge families gives81. Index2 incorrectly claims only2-set/3-set disjointness matters, then uses the wrong binomial coefficient for three-edge stars; its final number agrees only after inconsistent intermediate counts. The independent star-or-triangle classification is complete.",
+    "source_solution_count": 3,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2023-I-14": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three sources inspected. Both torus sketches identify diagonal-constant directions; the matrix solution gives another periodicity argument but contains index-range typos. The independent incoming-edge conservation equation proves the diagonal claim, and translation order proves the gcd condition.",
+    "source_solution_count": 3,
+    "audit_scope": "All stored solution text inspected, including the initially reviewed first solution."
+  },
+  "2019-II-04": {
+    "source_reviewed_indices": [
+      5,
+      6
+    ],
+    "additional_review": "Indices5 and6 reviewed. The minimal square-product blocks are single squares, equal nonsquare pairs, and the triple2,3,6; their length-four casework gives200. The parity-generating-function alternative is multiplication in the group algebra with x^2=y^2=z^2=1, and its constant coefficient is also200. Both support25/162.",
+    "audit_scope": "Supplement to root audit of earlier source indices."
+  }
+}

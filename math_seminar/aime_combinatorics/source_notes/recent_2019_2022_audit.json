@@ -1,0 +1,506 @@
+{
+  "2019-I-02": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_review": "The symmetry, order-statistic, and direct pair counts agree; the original proof specifies the uniform subset model.",
+    "source_solution_count": 7,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2019-II-02": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "The recurrence and parity decompositions agree. Conditioning is on the first jump from the remaining distance, not the last jump.",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2019-II-03": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Both factorizations reduce to the same finite exponent count.",
+    "source_solution_count": 2,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2019-I-04": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three source counts track histories of substitutions; the choices of departed players and unused replacements are distinguished.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2019-II-04": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "source_review": "Parity recurrence and exhaustive casework agree. The final two stored alternatives were read in the separate 2023 audit supplement.",
+    "source_solution_count": 8,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2019-I-05": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "The path recurrence and ballot decompositions agree. Source0 writes P(y,0) where the second boundary should read P(0,y).",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2019-II-05": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "All five arrangements count the same two-advisor boundary condition; the circular-edge and linear-run bijections provide independent viewpoints.",
+    "source_solution_count": 5,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2019-II-12": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review": "The source recurrence is valid with its initial values and the summation of partial chains; the new exposition makes those values explicit.",
+    "source_solution_count": 1,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2019-II-14": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "Several alternatives skip coprimality or finite-case justification. The original proof makes the choice of a denomination coprime to5 explicit and checks the remaining candidates.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2020-II-02": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Both area decompositions agree. The vertical line has measure zero and does not affect the probability.",
+    "source_solution_count": 2,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2020-I-05": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source_review": "All12 stored entries read. Several count insertion histories without fully proving their only collisions; the adjacent-swap exception and disjointness of ascending/descending families are the key checks. Source10 needs a stronger argument than merely having one descent.",
+    "source_solution_count": 12,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2020-I-07": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "The complementary-selection bijection, Vandermonde sums, and prime factorization agree.",
+    "source_solution_count": 5,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2020-I-09": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "The shifted strictly increasing triples, stars and bars, and equality-case split give the same probability.",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2020-II-09": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "Source1 has a sign/bracket error in its final PIE display although its component counts are correct. Other entries either list cases or derive a valid recurrence. The new run-of-edges PIE formula avoids long casework.",
+    "source_solution_count": 5,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2020-I-11": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three entries separate the coincident-image case correctly; the third includes an explicit69-term-case subtotal table.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2020-II-12": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Source0 states an imprecise modular slope criterion. Source1 and the new proof use the signed horizontal displacement and exclude slopes of absolute value1.",
+    "source_solution_count": 2,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2020-II-14": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three branch-count arguments agree. The endpoint2020 is excluded because its iterates are0; positive target17 avoids the separate zero-level issue.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-I-01": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "Sources2 and3 mislabel which race is lost in places, but their pattern probabilities agree. The new proof labels the unique loss by its actual race number.",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-II-01": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review": "All six symmetry, pairing, and digit-average arguments agree.",
+    "source_solution_count": 6,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-I-03": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "Source3 claims geometric sequences always have distinct differences, which is not a valid general principle. Binary valuation gives the required uniqueness for this sequence; source0 also supplies it.",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-II-03": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "All five residue counts agree; the position of3 is chosen before counting the two nonzero residue classes.",
+    "source_solution_count": 5,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-I-04": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "The direct floor sum, gap variables, and equality-case subtraction agree. Source1 initially describes weakly ordered triples but actually starts from all ordered positive triples.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-II-06": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review": "All six stored entries agree. Entries3 and4 are continuations of entry2, not independent proofs; entry5 has a summation-index typo.",
+    "source_solution_count": 6,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-I-07": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "Source0 makes an invalid claim that its scale k>1 must be integral; source1 contains an unrelated corrupted paragraph; source2 leaves a14-pair count unexplained. Equal2-adic valuations and equal odd residues mod4 give the clean necessary-and-sufficient criterion.",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-I-08": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "Source1 repeats x=10 where its second zero should be20. Source3 calls the square root the discriminant and does not fully impose the signs introduced by absolute values. Horizontal-level multiplicity gives the rigorous count.",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-II-08": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "Source4 multiplies dependent marginal probabilities and therefore gives an invalid derivation, even though cancellation happens to produce the correct linear recurrence. The four last-edge states, or a properly conditioned two-step recurrence, are sufficient.",
+    "source_solution_count": 5,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-II-09": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Source1 establishes necessity through multiplicative order but does not prove sufficiency. Its auxiliary GCD proof falsely says gcd(d1,k)=gcd(d2,k)=1; the valid assertion needed is gcd(xy,k)=1. The prime-exponent GCD factorization in the new proof proves both directions.",
+    "source_solution_count": 2,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-II-11": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "Entries0\u20133 read; entry4 is only a video link and the video itself was not reviewed. Source2 final display writes89 instead of79 while retaining the correct258; source3 contains residue-label typos. The candidate-interval filtering proof makes the information update explicit.",
+    "source_solution_count": 5,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2021-I-12": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "Source1 claims the expectation for three walkers is one third of the two-walker expectation merely by symmetry; that inference is unjustified. Sources0 and2 use valid joint-gap states. The new proof also checks that the expectation is finite.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-II-02": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review": "The sole source correctly conditions on the semifinal opponent and then on the other semifinal winner.",
+    "source_solution_count": 1,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-I-04": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Both polar-angle reductions give the same residue-class count.",
+    "source_solution_count": 2,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-II-05": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "Source0 falsely treats18 starting positions as available for every prime pair and obtains72 coincidentally. Entry1 warns about this; entry2 gives the valid separate spans15,13,7,1 and both gap orders.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-I-06": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "Source2 defines overlapping A,B,C but subtracts them as disjoint after silently reassigning cases, and prints |C|=65 instead of5. The other entries and the new proof remove6,20 first and then exactly three additional pairs.",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-I-07": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "Source0 omits the impossible overlapping27/28 factor triples; sources1\u20132 rely on search or skip candidates and do not fully prove the minimum. The original proof explicitly eliminates27/28 and proves that all numerator values at least2 are worse.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-II-08": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_review": "Source1 wrongly lists divisors3,4,5 instead of4,5,6. Sources2\u20133 use24 instead of lcm(4,6)=12 in overlap formulas, with compensating arithmetic errors. All-positive comparison gives80; bounded comparison adds600 and gives81. Archived notes report both accepted, but this audit has not obtained a primary MAA acceptance notice.",
+    "source_solution_count": 7,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-I-09": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three constructions give the same parity-slot bijection. Source2 writes a fraction equal to247, confusing the probability16/231 with the requested numerator-plus-denominator.",
+    "source_solution_count": 3,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-II-09": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "The fan-insertion and planar Euler counts agree. The no-triple-crossing hypothesis is essential for counting intersections by endpoint pairs.",
+    "source_solution_count": 5,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-II-10": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review": "Source2 guesses a pattern from six values and does not prove it. The other sources prove the binomial identity or telescope it; the new edge-pair bijection explains the factor3.",
+    "source_solution_count": 6,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-I-12": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "All four double counts agree. Source0 has imprecise residual-subset notation, but its marked-element argument and ratio reduction are correct.",
+    "source_solution_count": 4,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-I-13": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Source1 reverses divisibility signs and contains false logical equivalences. Source0 has imprecise wording about cancellation but its case counts are valid. The new maximal-coprime-divisor criterion states the exact necessary-and-sufficient condition.",
+    "source_solution_count": 2,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-II-13": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review": "Source0 drops binomial coefficients from a full expansion, harmless only after restricting to degree2022. Source1 skips the modular exhaustion argument. Sources2 and4 write infinite series after polynomial divisions; that equality needs truncation. The original proof uses formal coefficients below2310 and explicit residues.",
+    "source_solution_count": 5,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  },
+  "2022-II-14": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review": "The sole stored entry contains its own corrections but still uses an invalid general minimum formula and wrong witnesses b=86 for c=88,89. The new coverage-interval greedy proof gives the exact minimum and witnesses(11,7),(88,87),(89,87).",
+    "source_solution_count": 1,
+    "source_index_base": 0,
+    "audit_scope": "All assigned stored source text read; executable diagram code omitted from text reading. Linked videos and missing diagrams are not claimed reviewed."
+  }
+}

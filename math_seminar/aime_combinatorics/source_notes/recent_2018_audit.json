@@ -1,0 +1,163 @@
+{
+  "2018-I-01": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source_review": "All nine source solutions inspected. Root-pair counting, triangular lattice points, stars and bars with diagonal correction, and discriminant parity agree on2600. Several alternatives have harmless endpoint/notational slips: the discriminant version excludes c=0 in words while its formula includes it; one stars-and-bars version writes modulo100 instead of1000. The independent proof counts equal roots and zero roots correctly.",
+    "source_solution_count": 9,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-I-03": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review": "All six sources inspected. Counting full ten-card color words avoids treating five-card color patterns as equally likely. Labeled-card and conditional-probability alternatives give the same31/126.",
+    "source_solution_count": 6,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-II-06": {
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review": "The sole source determines parameter intervals by the two quadratic branches of the absolute value. The original solution uses the same root-counting condition.",
+    "source_solution_count": 1,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-I-07": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review": "All six sources inspected. Counting equal-distance neighbor pairs at each apex gives60, then subtracting twice each of four equilateral triangles gives52. Some alternative geometric casework is informal; index2 calls the equilateral side length1 although it is sqrt3. The independent distance-multiplicity argument is complete.",
+    "source_solution_count": 6,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-II-08": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review": "All four sources inspected. Multinomial move types, interleaving coordinate compositions, and a four-predecessor grid recurrence agree on556.",
+    "source_solution_count": 4,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-I-09": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three sources inspected. They split disjoint sum-pairs from overlapping sum-pairs and remove six duplicated four-sets. The independent count was exhaustively checked over all4845 four-subsets.",
+    "source_solution_count": 3,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-I-10": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review": "All six sources inspected. Binary destination-ring encoding, state recurrences, and spoke-run compositions lead to3004. Index3 has an inconsistent A_0 value, and index5 treats the position-dependent transitions as commuting complex multiplications without justification; that shortcut is not relied on. The independent proof counts runs between spoke transitions.",
+    "source_solution_count": 6,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-II-10": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three sources inspected. Functional graphs have only fixed-point cycles and depth at most two. Fixed-point casework and the three-level allocation formula both give756.",
+    "source_solution_count": 3,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-II-11": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_review": "All six sources inspected. First or last closed-prefix decomposition gives indecomposable-permutation recurrence; inclusion-exclusion gives the same461. Index5 has a12/21 prefix typo and describes the complement ambiguously; the independent first-component decomposition avoids those ambiguities.",
+    "source_solution_count": 6,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-I-12": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source_review": "All thirteen sources inspected. Roots-of-unity filtering, residue convolution, Vandermonde sums, and block recurrences all prove the count. Indices9 and10 are empirical pattern/answer guesses, not proofs. Index6 pairs wrong residue-count classes, but their equal cardinalities conceal the error. The independent root-of-unity calculation is valid.",
+    "source_solution_count": 13,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-II-13": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_review": "All eight sources inspected. Prefix-state Markov chains and the nonoverlap avoidance recurrence are sound. Index1 asserts an unsupported ratio shift; indices5 and7 incorrectly treat disjoint three-roll blocks as detecting all occurrences, missing occurrences across boundaries. Their numerical agreement is not a proof. The independent parity transform of the correct prefix automaton gives216/431.",
+    "source_solution_count": 8,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-I-14": {
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review": "Both sources inspected. The absorbing-path transfer count and the shorter endpoint recurrence agree on first-arrival counts0,0,1,1,3,4,9,14,28,47,89,155, summing351.",
+    "source_solution_count": 2,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  },
+  "2018-II-15": {
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review": "All three sources inspected. Increment classification and bounded stars-and-bars counts give141 positive-increment cases and44 one-negative cases. The audit repaired a small independent-proof gap: an increment\u22123 can pair with+1 locally, but then the total is at most10, contradicting12;\u22122 fails the local two-step bound. The remaining negative step is\u22121 with adjacent+3 values.",
+    "source_solution_count": 3,
+    "audit_scope": "All stored source-solution text read, including the initially reviewed first solution."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "rendered_pages_visually_reviewed": 18,
+  "compiler_warnings": [],
+  "volumes": {
+    "Combinatorics_Problems.pdf": {
+      "pages": 52,
+      "visually_reviewed_pages": [
+        1,
+        9,
+        26,
+        38,
+        52
+      ],
+      "margin_anomalies": [],
+      "sha256": "ce07fa210b16e24cb54da19c2c214d893973f2a628e10956449f9255a5d23328"
+    },
+    "Combinatorics_Theory.pdf": {
+      "pages": 39,
+      "visually_reviewed_pages": [
+        1,
+        4,
+        20,
+        25,
+        33,
+        39
+      ],
+      "margin_anomalies": [],
+      "sha256": "6a79d7103ec40438ad0f9682f4889c7eb549f9300a7fb91305c81e800c797c61"
+    },
+    "Combinatorics_Worked_Solutions.pdf": {
+      "pages": 181,
+      "visually_reviewed_pages": [
+        1,
+        9,
+        91,
+        125,
+        176,
+        180,
+        181
+      ],
+      "margin_anomalies": [],
+      "sha256": "67fb2eec01f9ddc0b707833d153c3672a46d66366d4f23c13da88bd53ba1403e"
+    }
+  },
+  "repairs": [
+    "Rendered Unicode mathematical symbols with math fonts",
+    "Repaired malformed early-era formulas and control-character damage",
+    "Allowed comma breaks in long inline mathematical inventories",
+    "Removed repeated Solution entries from contents",
+    "Assigned unique PDF page anchors",
+    "Normalized source-review prose spacing"
+  ]
+}

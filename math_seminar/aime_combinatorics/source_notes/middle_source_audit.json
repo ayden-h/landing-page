@@ -1,0 +1,978 @@
+{
+  "era": "2000–2013",
+  "selected_problem_count": 131,
+  "source_solution_count": 362,
+  "source_index_base": 0,
+  "review_status": "All 362 downloaded textual source solutions read: 131 principal solutions and 231 alternatives.",
+  "scope_limit": "Textual reasoning was reviewed. Embedded diagrams, video solutions, and external links were not separately opened or rendered.",
+  "review_method": "Compare proof structure, hypotheses, arithmetic, counting multiplicities, and endpoint conditions with the independently written solution. Review is not a claim that every archived argument is correct. Important defects are recorded below; minor typography is not exhaustively catalogued.",
+  "findings": [
+    {
+      "id": "2000-I-05",
+      "source_index": 1,
+      "finding": "Arithmetic slip: the largest feasible denominator is 156, not 154. The candidate multiple 150 and final answer remain valid."
+    },
+    {
+      "id": "2000-I-05",
+      "source_index": 2,
+      "finding": "The exhibited urn sizes establish existence but need an exclusion argument for uniqueness."
+    },
+    {
+      "id": "2000-II-07",
+      "source_index": 2,
+      "finding": "The common denominator is described as 19 factorial although the displayed reduced numerators correspond to 18 factorial."
+    },
+    {
+      "id": "2000-I-11",
+      "source_index": 3,
+      "finding": "The numerical approximation is unnecessary; the exact finite sum used here avoids rounding."
+    },
+    {
+      "id": "2000-I-15",
+      "source_index": 4,
+      "finding": "The final product has an incorrect multiplier in its displayed arithmetic."
+    },
+    {
+      "id": "2000-I-15",
+      "source_index": 5,
+      "finding": "The concluding modulus is mistyped as 2056 rather than 2048."
+    },
+    {
+      "id": "2001-II-09",
+      "source_index": 2,
+      "finding": "Some case labels and grid descriptions are inconsistent; inclusion-exclusion gives an unambiguous alternative."
+    },
+    {
+      "id": "2001-II-10",
+      "source_index": 2,
+      "finding": "The period-six argument is sound, but one congruence and the index names are mistyped."
+    },
+    {
+      "id": "2001-II-11",
+      "source_index": 1,
+      "finding": "Several win/tie/loss descriptions and a case count are mistyped, although the final probability formula is correct."
+    },
+    {
+      "id": "2001-I-14",
+      "source_index": 1,
+      "finding": "The specialized index for T_19 disagrees with the immediately preceding general recurrence."
+    },
+    {
+      "id": "2001-I-14",
+      "source_index": 5,
+      "finding": "The claimed recurrence for words ending in zero misses extensions ending in two zeros. Its intermediate counts are wrong; the final total is coincidental."
+    },
+    {
+      "id": "2001-I-15",
+      "source_index": 3,
+      "finding": "The proposed unique-completion claim is false: some partial assignments have zero or two completions. The later averaging remark does not prove the claimed bijection."
+    },
+    {
+      "id": "2002-I-09",
+      "source_index": 0,
+      "finding": "Excluding larger step sizes merely from the three-digit answer format is not a proof. The original solution here proves exhaustion by the first uncovered integer."
+    },
+    {
+      "id": "2002-I-09",
+      "source_index": 2,
+      "finding": "The assertion that the smallest step must divide the other steps needs additional justification beyond the stated congruence argument."
+    },
+    {
+      "id": "2003-II-12",
+      "source_index": 1,
+      "finding": "An intermediate denominator changes sign incorrectly; retain the positive denominator when deriving the inequality."
+    },
+    {
+      "id": "2003-I-13",
+      "source_index": 2,
+      "finding": "A displayed count uses its residue modulo 1000 before explicitly saying so."
+    },
+    {
+      "id": "2003-II-13",
+      "source_index": 3,
+      "finding": "The presentation conflates probability transitions and integer walk counts."
+    },
+    {
+      "id": "2003-II-13",
+      "source_index": 4,
+      "finding": "The constant term in the displayed characteristic polynomial has the wrong sign; the listed eigenvalues correspond to the corrected sign."
+    },
+    {
+      "id": "2003-II-13",
+      "source_index": 5,
+      "finding": "The limiting distribution and the answer format do not determine the exact finite-step probability. This is a heuristic, not a proof."
+    },
+    {
+      "id": "2003-II-13",
+      "source_index": 6,
+      "finding": "The polynomial reduction should explicitly be stated modulo x cubed minus one."
+    },
+    {
+      "id": "2004-I-07",
+      "source_index": 1,
+      "finding": "An ordered-pair index is used where an unordered-pair index is required before doubling."
+    },
+    {
+      "id": "2004-I-07",
+      "source_index": 3,
+      "finding": "A positive contribution subtotal is mistyped; the printed arithmetic does not give the claimed result."
+    },
+    {
+      "id": "2004-I-07",
+      "source_index": 4,
+      "finding": "The final coefficient sign is reversed; its absolute value is still correct."
+    },
+    {
+      "id": "2004-I-07",
+      "source_index": 6,
+      "finding": "The displayed product does not retain the original alternating signs, so that expansion cannot justify the requested coefficient."
+    },
+    {
+      "id": "2004-I-10",
+      "source_index": 1,
+      "finding": "For a nonsquare rectangle, the claimed diagonal reflection is not a symmetry. Central symmetry justifies the equal-area conclusion."
+    },
+    {
+      "id": "2004-II-10",
+      "source_index": 2,
+      "finding": "A residue of minus one modulo nine is mistyped as plus one in the exponent classification."
+    },
+    {
+      "id": "2004-II-14",
+      "source_index": 1,
+      "finding": "One displayed three-digit value is miscomputed. The transformation interpretation also requires careful treatment of overlapping occurrences."
+    },
+    {
+      "id": "2005-I-05",
+      "source_index": 2,
+      "finding": "The intuition paragraph lists nine coins rather than the eight in the problem; the preceding recurrence gives the correct result."
+    },
+    {
+      "id": "2006-I-13",
+      "source_index": 1,
+      "finding": "The recurrence is valid with n at least two and S_1=2; the written artificial S_0=1 is not compatible with the actual definition."
+    },
+    {
+      "id": "2006-I-13",
+      "source_index": 2,
+      "finding": "The recurrence is explicitly guessed without proof, and smallest/largest language is reversed. A valuation count proves the formula directly."
+    },
+    {
+      "id": "2006-I-13",
+      "source_index": 3,
+      "finding": "The closing least/greatest wording and a summation index are mistyped; the valuation argument otherwise works."
+    },
+    {
+      "id": "2006-I-15",
+      "source_index": 2,
+      "finding": "The proposed attaining sequence alternates two positive values that do not satisfy the recurrence. The telescoping lower bound is valid, but a different construction is necessary."
+    },
+    {
+      "id": "2006-I-15",
+      "source_index": 3,
+      "finding": "The exhibited construction gives the answer but does not prove that a smaller absolute sum is impossible."
+    },
+    {
+      "id": "2007-I-06",
+      "source_index": 4,
+      "finding": "Several intermediate backward-recurrence equalities have incorrect indices or duplicated terms, although the final recurrence values are correct."
+    },
+    {
+      "id": "2007-I-10",
+      "source_index": 5,
+      "finding": "The initial normalization multiplier and the final multiplier disagree; the asserted normalization needs a uniform-fiber argument."
+    },
+    {
+      "id": "2007-I-10",
+      "source_index": 6,
+      "finding": "One case refers to column four when the calculation concerns the first three columns."
+    },
+    {
+      "id": "2008-I-11",
+      "source_index": 3,
+      "finding": "The final displayed sum omits the second singleton case; the stated total includes it."
+    },
+    {
+      "id": "2008-II-12",
+      "source_index": 3,
+      "finding": "The summation index is written as n while the summand and bounds use b. The Vandermonde evaluation is valid after this correction."
+    },
+    {
+      "id": "2009-II-06",
+      "source_index": 2,
+      "finding": "The examples motivate the gap reduction but do not by themselves prove a bijection; rank compression supplies the missing argument."
+    },
+    {
+      "id": "2009-II-06",
+      "source_index": 3,
+      "finding": "The final total-subset binomial coefficient is mistyped."
+    },
+    {
+      "id": "2009-II-08",
+      "source_index": 2,
+      "finding": "In the first-roll case, a success factor is mistyped as a failure factor. The subsequent numerical contribution uses the correct probability."
+    },
+    {
+      "id": "2009-I-11",
+      "source_index": 2,
+      "finding": "The inference that the base is an integral multiple of twice the primitive lattice length requires the lattice-spacing condition; integrality of area alone is insufficient."
+    },
+    {
+      "id": "2010-II-02",
+      "source_index": 1,
+      "finding": "The two inner-square areas are attached to the wrong distance thresholds. Their difference is nevertheless computed correctly."
+    },
+    {
+      "id": "2010-I-04",
+      "source_index": 1,
+      "finding": "Two named two-head outcomes are assigned each other's probabilities; the total distribution remains correct."
+    },
+    {
+      "id": "2010-II-08",
+      "source_index": 1,
+      "finding": "The varying forced and forbidden elements cannot be treated as one fixed ten-element sample space without explanation. Sum the fixed-size binomial counts to justify the same result."
+    },
+    {
+      "id": "2010-I-10",
+      "source_index": 2,
+      "finding": "One congruence omits a division by ten, and the two exceptional ordered pairs are transposed/mistyped."
+    },
+    {
+      "id": "2010-I-10",
+      "source_index": 5,
+      "finding": "The multiple-of-ten condition belongs to a_0, not a_1. The regrouped place-value equation also omits a factor ten."
+    },
+    {
+      "id": "2011-II-06",
+      "source_index": 3,
+      "finding": "The displayed triangular-number sum is missing a factor two; the equality-case count 50 is correct."
+    },
+    {
+      "id": "2011-II-06",
+      "source_index": 5,
+      "finding": "The rational generating function is missing one factor 1/(1-x); its later binomial coefficients use the correct exponent."
+    },
+    {
+      "id": "2011-II-06",
+      "source_index": 7,
+      "finding": "The gap substitution reverses the required inequality. Reflection shows the reverse inequality has the same count, but that step is absent."
+    },
+    {
+      "id": "2011-I-07",
+      "source_index": 3,
+      "finding": "Pattern examples suggest the splitting construction but do not establish necessity; reduction modulo m-1 is required."
+    },
+    {
+      "id": "2011-I-07",
+      "source_index": 4,
+      "finding": "Splitting proves sufficiency. Necessity still needs a merging argument or the residue invariant."
+    },
+    {
+      "id": "2011-I-07",
+      "source_index": 5,
+      "finding": "The constructed family proves sufficiency but its form cannot simply be assumed for every representation."
+    },
+    {
+      "id": "2011-I-10",
+      "source_index": 1,
+      "finding": "The obtuse-triangle formula has an off-by-one error and does not produce the two values subsequently claimed. Trial values also do not prove exhaustiveness."
+    },
+    {
+      "id": "2011-II-14",
+      "source_index": 2,
+      "finding": "The relevant CRT hypothesis is pairwise coprimality; a collective gcd of one is not sufficient in general."
+    },
+    {
+      "id": "2011-II-14",
+      "source_index": 3,
+      "finding": "The optional extension to sixty symbols is incorrect: after choosing residue permutations, each of thirty residue classes has an independent two-element permutation."
+    },
+    {
+      "id": "2011-II-15",
+      "source_index": 1,
+      "finding": "The substitution mishandles the floor: floor(2x-3) is not 2 floor(x)-3. The subsequent intervals actually use the latter expression, so the written transformed equation is invalid."
+    },
+    {
+      "id": "2011-II-15",
+      "source_index": 3,
+      "finding": "The answer format is used to assert interval bounds without proof. The bounds should be checked directly."
+    },
+    {
+      "id": "2012-I-01",
+      "source_index": 2,
+      "finding": "The initial even-middle-digit factor is mistyped as four rather than five."
+    },
+    {
+      "id": "2012-I-03",
+      "source_index": 1,
+      "finding": "The source itself acknowledges that its argument obtains the correct count coincidentally. Independent residual meal assignments are not justified."
+    },
+    {
+      "id": "2012-I-07",
+      "source_index": 1,
+      "finding": "Equal gifts are asserted without a uniqueness argument. Dividing holdings by vertex degree and applying the finite harmonic maximum principle supplies it."
+    },
+    {
+      "id": "2012-I-07",
+      "source_index": 3,
+      "finding": "Visual symmetry does not prove an arbitrary stationary allocation is symmetric. Use the harmonic maximum principle or sum the layer equations."
+    },
+    {
+      "id": "2012-II-14",
+      "source_index": 1,
+      "finding": "The case-tree idea is valid, but several displayed subscripts and parentheses omit multiplicative factors."
+    },
+    {
+      "id": "2013-II-09",
+      "source_index": 1,
+      "finding": "The number of divisions into i pieces is C(6,i-1), not the displayed C(6,i)."
+    },
+    {
+      "id": "2013-II-11",
+      "source_index": 1,
+      "finding": "The exposition confuses the image with the preimage of the fixed point, omits a binomial factor in the written sum, and mistypes the exponent base. The final evaluated sum corresponds to the corrected rooted-layer count."
+    },
+    {
+      "id": "2013-II-12",
+      "source_index": 1,
+      "finding": "The squared magnitude is called the magnitude. The coefficient argument is correct after that distinction."
+    },
+    {
+      "id": "2013-II-12",
+      "source_index": 2,
+      "finding": "The discriminant condition needs an absolute value on p, and its displayed square root contains an extraneous square."
+    },
+    {
+      "id": "2013-I-15",
+      "source_index": 1,
+      "finding": "The listed ranges and counts for the progression difference disagree, and the final arithmetic sum is not 272. The middle-term count in the original solution avoids these errors."
+    }
+  ],
+  "reviewed_indices": {
+    "2000-I-03": [
+      0
+    ],
+    "2000-I-05": [
+      0,
+      1,
+      2
+    ],
+    "2000-I-11": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2000-I-12": [
+      0
+    ],
+    "2000-I-15": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "2000-II-03": [
+      0
+    ],
+    "2000-II-05": [
+      0
+    ],
+    "2000-II-07": [
+      0,
+      1,
+      2
+    ],
+    "2001-I-06": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "2001-I-10": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2001-I-11": [
+      0
+    ],
+    "2001-I-14": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "2001-I-15": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "2001-II-01": [
+      0
+    ],
+    "2001-II-02": [
+      0
+    ],
+    "2001-II-05": [
+      0
+    ],
+    "2001-II-09": [
+      0,
+      1,
+      2
+    ],
+    "2001-II-10": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2001-II-11": [
+      0,
+      1
+    ],
+    "2001-II-12": [
+      0
+    ],
+    "2002-I-01": [
+      0,
+      1,
+      2
+    ],
+    "2002-I-03": [
+      0,
+      1
+    ],
+    "2002-I-05": [
+      0,
+      1
+    ],
+    "2002-I-09": [
+      0,
+      1,
+      2
+    ],
+    "2002-I-14": [
+      0
+    ],
+    "2002-II-09": [
+      0,
+      1
+    ],
+    "2002-II-12": [
+      0,
+      1,
+      2
+    ],
+    "2003-I-03": [
+      0
+    ],
+    "2003-I-06": [
+      0
+    ],
+    "2003-I-09": [
+      0,
+      1,
+      2
+    ],
+    "2003-I-11": [
+      0
+    ],
+    "2003-I-13": [
+      0,
+      1,
+      2
+    ],
+    "2003-II-03": [
+      0,
+      1,
+      2
+    ],
+    "2003-II-12": [
+      0,
+      1,
+      2
+    ],
+    "2003-II-13": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "2004-I-03": [
+      0
+    ],
+    "2004-I-06": [
+      0,
+      1,
+      2
+    ],
+    "2004-I-07": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "2004-I-08": [
+      0
+    ],
+    "2004-I-10": [
+      0,
+      1,
+      2
+    ],
+    "2004-I-15": [
+      0,
+      1
+    ],
+    "2004-II-02": [
+      0
+    ],
+    "2004-II-03": [
+      0
+    ],
+    "2004-II-04": [
+      0,
+      1
+    ],
+    "2004-II-08": [
+      0,
+      1
+    ],
+    "2004-II-10": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2004-II-14": [
+      0,
+      1,
+      2
+    ],
+    "2004-II-15": [
+      0,
+      1,
+      2
+    ],
+    "2005-I-05": [
+      0,
+      1,
+      2
+    ],
+    "2005-I-09": [
+      0,
+      1
+    ],
+    "2005-I-12": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2005-I-13": [
+      0,
+      1
+    ],
+    "2005-II-01": [
+      0
+    ],
+    "2005-II-02": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2005-II-04": [
+      0,
+      1
+    ],
+    "2005-II-06": [
+      0,
+      1
+    ],
+    "2006-I-02": [
+      0
+    ],
+    "2006-I-06": [
+      0,
+      1
+    ],
+    "2006-I-11": [
+      0
+    ],
+    "2006-I-13": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2006-I-15": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2006-II-04": [
+      0,
+      1,
+      2
+    ],
+    "2006-II-05": [
+      0,
+      1,
+      2
+    ],
+    "2006-II-07": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "2006-II-08": [
+      0,
+      1,
+      2
+    ],
+    "2006-II-10": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2006-II-14": [
+      0
+    ],
+    "2007-I-05": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "2007-I-06": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "2007-I-10": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "2007-I-11": [
+      0,
+      1
+    ],
+    "2007-II-01": [
+      0
+    ],
+    "2007-II-02": [
+      0
+    ],
+    "2007-II-05": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2007-II-06": [
+      0,
+      1
+    ],
+    "2007-II-08": [
+      0,
+      1
+    ],
+    "2007-II-10": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "2007-II-13": [
+      0
+    ],
+    "2008-I-06": [
+      0,
+      1
+    ],
+    "2008-I-07": [
+      0
+    ],
+    "2008-I-09": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2008-I-11": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2008-II-10": [
+      0
+    ],
+    "2008-II-12": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "2009-I-03": [
+      0,
+      1,
+      2
+    ],
+    "2009-I-08": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2009-I-09": [
+      0
+    ],
+    "2009-I-10": [
+      0,
+      1
+    ],
+    "2009-I-11": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2009-II-06": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2009-II-08": [
+      0,
+      1,
+      2
+    ],
+    "2009-II-09": [
+      0,
+      1,
+      2
+    ],
+    "2009-II-12": [
+      0
+    ],
+    "2010-I-01": [
+      0,
+      1
+    ],
+    "2010-I-04": [
+      0,
+      1
+    ],
+    "2010-I-07": [
+      0
+    ],
+    "2010-I-10": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "2010-I-12": [
+      0
+    ],
+    "2010-II-02": [
+      0,
+      1,
+      2
+    ],
+    "2010-II-03": [
+      0
+    ],
+    "2010-II-04": [
+      0,
+      1
+    ],
+    "2010-II-08": [
+      0,
+      1,
+      2
+    ],
+    "2010-II-10": [
+      0,
+      1,
+      2
+    ],
+    "2010-II-11": [
+      0,
+      1
+    ],
+    "2010-II-13": [
+      0
+    ],
+    "2011-I-05": [
+      0,
+      1
+    ],
+    "2011-I-07": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "2011-I-10": [
+      0,
+      1
+    ],
+    "2011-I-12": [
+      0
+    ],
+    "2011-II-06": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "2011-II-07": [
+      0,
+      1
+    ],
+    "2011-II-12": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2011-II-14": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2011-II-15": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2012-I-01": [
+      0,
+      1,
+      2
+    ],
+    "2012-I-03": [
+      0,
+      1
+    ],
+    "2012-I-05": [
+      0
+    ],
+    "2012-I-07": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2012-I-11": [
+      0
+    ],
+    "2012-I-15": [
+      0
+    ],
+    "2012-II-03": [
+      0,
+      1
+    ],
+    "2012-II-07": [
+      0
+    ],
+    "2012-II-12": [
+      0
+    ],
+    "2012-II-14": [
+      0,
+      1
+    ],
+    "2013-I-02": [
+      0
+    ],
+    "2013-I-04": [
+      0
+    ],
+    "2013-I-06": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2013-I-15": [
+      0,
+      1
+    ],
+    "2013-II-09": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "2013-II-11": [
+      0,
+      1
+    ],
+    "2013-II-12": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "verification": "116 independent exact computations pass in tools/verify_middle.py; the other 15 solutions received analytic proof comparison."
+}

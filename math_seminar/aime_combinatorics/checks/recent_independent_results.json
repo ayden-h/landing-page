@@ -1,0 +1,128 @@
+[
+  {
+    "id": "2014-II-09",
+    "result": "581",
+    "method": "Enumerate all 1024 cyclic binary words.",
+    "passed": true
+  },
+  {
+    "id": "2015-I-14",
+    "result": "483",
+    "method": "Direct parity count for every allowed n.",
+    "passed": true
+  },
+  {
+    "id": "2016-II-13",
+    "result": "2619",
+    "method": "Enumerate all 720 rook permutations; sum their minimum scores.",
+    "passed": true
+  },
+  {
+    "id": "2018-I-09",
+    "result": "210",
+    "method": "Enumerate every four-subset.",
+    "passed": true
+  },
+  {
+    "id": "2020-I-11",
+    "result": "510",
+    "method": "Enumerate every coefficient triple.",
+    "passed": true
+  },
+  {
+    "id": "2021-II-11",
+    "result": "258",
+    "method": "Enumerate candidate intervals and both knowledge announcements.",
+    "passed": true
+  },
+  {
+    "id": "2022-I-06",
+    "result": "228",
+    "method": "Test all possible four-term progressions for every candidate pair.",
+    "passed": true
+  },
+  {
+    "id": "2022-I-07",
+    "result": "1/288",
+    "method": "Exhaust all digit permutations.",
+    "passed": true
+  },
+  {
+    "id": "2022-II-14",
+    "result": "[11, 88, 89]",
+    "method": "Evaluate exact optimal stamp formula for every smaller denomination pair.",
+    "passed": true
+  },
+  {
+    "id": "2023-I-11",
+    "result": "235",
+    "method": "Enumerate all subsets directly.",
+    "passed": true
+  },
+  {
+    "id": "2024-I-11",
+    "result": "115",
+    "method": "Test all rotations for all 256 colorings.",
+    "passed": true
+  },
+  {
+    "id": "2025-I-05",
+    "result": "2304",
+    "method": "Test divisibility for all 40320 digit permutations.",
+    "passed": true
+  },
+  {
+    "id": "2025-I-15",
+    "result": "885735",
+    "method": "Convolve exact cube-residue frequencies.",
+    "passed": true
+  },
+  {
+    "id": "2025-II-03",
+    "result": "82",
+    "method": "Enumerate every coloring of the twelve edges.",
+    "passed": true
+  },
+  {
+    "id": "2025-II-10",
+    "result": "2907",
+    "method": "Enumerate every eight-seat subset.",
+    "passed": true
+  },
+  {
+    "id": "2026-I-07",
+    "result": "396",
+    "method": "Directly test the sixth iterate of every permutation.",
+    "passed": true
+  },
+  {
+    "id": "2026-I-09",
+    "result": "(14400, 6480)",
+    "method": "Enumerate all 46656 roll-face sequences.",
+    "passed": true
+  },
+  {
+    "id": "2026-I-13",
+    "result": "39",
+    "method": "Lucas-theorem modular binomial calculation for all 10001 coefficients.",
+    "passed": true
+  },
+  {
+    "id": "2026-II-14",
+    "result": "157",
+    "method": "Evaluate the operation on all 2048 compositions of 12.",
+    "passed": true
+  },
+  {
+    "id": "2026-II-15",
+    "result": "[1, 0, 42, 56, 42, 168, 84, 0]",
+    "method": "Enumerate all 2187 residue tuples and both congruences.",
+    "passed": true
+  },
+  {
+    "id": "2018-II-15",
+    "result": "185",
+    "method": "Enumerate all six-step increment sequences and every pairwise bound.",
+    "passed": true
+  }
+]

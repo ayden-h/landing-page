@@ -1,0 +1,2791 @@
+[
+  {
+    "id": "2014-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "probability",
+      "total probability"
+    ]
+  },
+  {
+    "id": "2014-II-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "probability",
+      "conditional probability"
+    ]
+  },
+  {
+    "id": "2014-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "cyclic intervals",
+      "geometry counting"
+    ]
+  },
+  {
+    "id": "2014-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "Bayes theorem",
+      "probability"
+    ]
+  },
+  {
+    "id": "2014-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "transfer matrices",
+      "cyclic runs"
+    ]
+  },
+  {
+    "id": "2014-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "random walks",
+      "coordinate bijection",
+      "inclusion-exclusion"
+    ]
+  },
+  {
+    "id": "2014-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "surjections",
+      "Stirling numbers",
+      "probability"
+    ]
+  },
+  {
+    "id": "2014-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "permutation cycles",
+      "probability"
+    ]
+  },
+  {
+    "id": "2014-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2014-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "casework",
+      "combinations",
+      "probability"
+    ]
+  },
+  {
+    "id": "2015-II-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "conditional probability"
+    ]
+  },
+  {
+    "id": "2015-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "deferred decisions",
+      "inclusion-exclusion",
+      "probability"
+    ]
+  },
+  {
+    "id": "2015-II-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "double counting",
+      "probability"
+    ]
+  },
+  {
+    "id": "2015-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "recurrence invariants",
+      "inclusion-exclusion"
+    ]
+  },
+  {
+    "id": "2015-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-10",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "insertion bijection",
+      "recurrences"
+    ]
+  },
+  {
+    "id": "2015-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "gap bijection",
+      "expectation"
+    ]
+  },
+  {
+    "id": "2015-II-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "runs",
+      "recurrences"
+    ]
+  },
+  {
+    "id": "2015-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "parity",
+      "block counting"
+    ]
+  },
+  {
+    "id": "2015-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2015-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-I-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "weighted counting",
+      "probability"
+    ]
+  },
+  {
+    "id": "2016-II-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "total probability",
+      "complements"
+    ]
+  },
+  {
+    "id": "2016-I-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "product rule",
+      "graph paths"
+    ]
+  },
+  {
+    "id": "2016-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-04",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "double counting",
+      "constructive existence"
+    ]
+  },
+  {
+    "id": "2016-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "generating functions",
+      "parity"
+    ]
+  },
+  {
+    "id": "2016-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-I-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "digit arrangements",
+      "extremal counting"
+    ]
+  },
+  {
+    "id": "2016-II-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "prime-exponent distributions",
+      "stars and bars",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "2016-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "inclusion-exclusion",
+      "divisor counts"
+    ]
+  },
+  {
+    "id": "2016-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "graph coloring",
+      "transfer matrices"
+    ]
+  },
+  {
+    "id": "2016-I-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "hitting times",
+      "difference equations"
+    ]
+  },
+  {
+    "id": "2016-II-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "tail-sum expectation",
+      "restricted permutations"
+    ]
+  },
+  {
+    "id": "2016-I-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "lattice counting",
+      "periodicity"
+    ]
+  },
+  {
+    "id": "2016-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2016-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-I-01",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "complementary counting",
+      "geometry counting"
+    ]
+  },
+  {
+    "id": "2017-II-01",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "inclusion-exclusion",
+      "subsets"
+    ]
+  },
+  {
+    "id": "2017-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "total probability",
+      "tournaments"
+    ]
+  },
+  {
+    "id": "2017-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "geometric probability"
+    ]
+  },
+  {
+    "id": "2017-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-04",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "digit counting",
+      "prefix decomposition"
+    ]
+  },
+  {
+    "id": "2017-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-I-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "geometric probability",
+      "complementary counting"
+    ]
+  },
+  {
+    "id": "2017-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-I-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "Vandermonde identity",
+      "double counting"
+    ]
+  },
+  {
+    "id": "2017-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-I-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "geometric probability"
+    ]
+  },
+  {
+    "id": "2017-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "bipartite graphs",
+      "conditional probability"
+    ]
+  },
+  {
+    "id": "2017-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-I-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "order statistics",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "2017-II-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "tournaments",
+      "strong connectivity",
+      "inclusion-exclusion"
+    ]
+  },
+  {
+    "id": "2017-I-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "forbidden configurations",
+      "casework"
+    ]
+  },
+  {
+    "id": "2017-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "geometry counting",
+      "periodic cases"
+    ]
+  },
+  {
+    "id": "2017-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "lattice lines",
+      "primitive directions"
+    ]
+  },
+  {
+    "id": "2017-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2017-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-01",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "lattice point counting",
+      "algebra hybrid"
+    ]
+  },
+  {
+    "id": "2018-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "multiset sampling",
+      "runs",
+      "probability"
+    ]
+  },
+  {
+    "id": "2018-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-II-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "continuous probability",
+      "algebra hybrid"
+    ]
+  },
+  {
+    "id": "2018-I-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "geometry counting",
+      "distance classes"
+    ]
+  },
+  {
+    "id": "2018-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-II-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "lattice paths",
+      "dynamic programming"
+    ]
+  },
+  {
+    "id": "2018-I-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "overcount correction",
+      "graph edges"
+    ]
+  },
+  {
+    "id": "2018-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-10",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "walks",
+      "run decomposition",
+      "Vandermonde identity"
+    ]
+  },
+  {
+    "id": "2018-II-10",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "functional graphs",
+      "labeled structures"
+    ]
+  },
+  {
+    "id": "2018-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-II-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "canonical decomposition",
+      "recurrences"
+    ]
+  },
+  {
+    "id": "2018-I-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "residue states",
+      "generating functions"
+    ]
+  },
+  {
+    "id": "2018-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-II-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "pattern automata",
+      "probability generating functions"
+    ]
+  },
+  {
+    "id": "2018-I-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "absorbing walks",
+      "dynamic programming"
+    ]
+  },
+  {
+    "id": "2018-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2018-II-15",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "bounded compositions",
+      "local constraints"
+    ]
+  },
+  {
+    "id": "2019-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-I-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "symmetry",
+      "probability"
+    ]
+  },
+  {
+    "id": "2019-II-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "hitting probabilities",
+      "recurrences"
+    ]
+  },
+  {
+    "id": "2019-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "product rule",
+      "divisor distributions"
+    ]
+  },
+  {
+    "id": "2019-I-04",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "sequential counting",
+      "falling factorials"
+    ]
+  },
+  {
+    "id": "2019-II-04",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "parity vectors",
+      "recurrence",
+      "probability"
+    ]
+  },
+  {
+    "id": "2019-I-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "lattice paths",
+      "multinomial counting",
+      "probability"
+    ]
+  },
+  {
+    "id": "2019-II-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "runs",
+      "cyclic arrangements",
+      "matchings"
+    ]
+  },
+  {
+    "id": "2019-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "divisor recurrences",
+      "canonical normalization"
+    ]
+  },
+  {
+    "id": "2019-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "numerical semigroups",
+      "residue classes"
+    ]
+  },
+  {
+    "id": "2019-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2019-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "geometric probability"
+    ]
+  },
+  {
+    "id": "2020-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "insertion-deletion bijection",
+      "overcount correction"
+    ]
+  },
+  {
+    "id": "2020-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "complement bijection",
+      "Vandermonde identity"
+    ]
+  },
+  {
+    "id": "2020-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "order-preserving tuples",
+      "stars and bars",
+      "probability"
+    ]
+  },
+  {
+    "id": "2020-II-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "inclusion-exclusion",
+      "block contraction"
+    ]
+  },
+  {
+    "id": "2020-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "bounded lattice counting",
+      "algebra hybrid"
+    ]
+  },
+  {
+    "id": "2020-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "lattice geometry",
+      "casework"
+    ]
+  },
+  {
+    "id": "2020-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "inverse branches",
+      "combinations with repetition"
+    ]
+  },
+  {
+    "id": "2020-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2020-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-01",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "Markov chains",
+      "weighted words"
+    ]
+  },
+  {
+    "id": "2021-II-01",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "linearity of expectation",
+      "digit symmetry"
+    ]
+  },
+  {
+    "id": "2021-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "unique representations",
+      "valuation counting"
+    ]
+  },
+  {
+    "id": "2021-II-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "residue classes",
+      "cyclic counting"
+    ]
+  },
+  {
+    "id": "2021-I-04",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "partitions",
+      "floor sums"
+    ]
+  },
+  {
+    "id": "2021-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "set atoms",
+      "inclusion-exclusion"
+    ]
+  },
+  {
+    "id": "2021-I-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "equivalence classes",
+      "trigonometry hybrid"
+    ]
+  },
+  {
+    "id": "2021-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "preimage counting",
+      "algebra hybrid"
+    ]
+  },
+  {
+    "id": "2021-II-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "memory states",
+      "nonbacktracking walks"
+    ]
+  },
+  {
+    "id": "2021-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "valuation classes",
+      "number theory hybrid"
+    ]
+  },
+  {
+    "id": "2021-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "epistemic elimination",
+      "finite sets"
+    ]
+  },
+  {
+    "id": "2021-I-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "symmetry reduction",
+      "absorbing Markov chains"
+    ]
+  },
+  {
+    "id": "2021-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2021-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "conditioning",
+      "tournaments"
+    ]
+  },
+  {
+    "id": "2022-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-I-04",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "residue counting",
+      "roots of unity"
+    ]
+  },
+  {
+    "id": "2022-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "gap encoding",
+      "prime parity"
+    ]
+  },
+  {
+    "id": "2022-I-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "forbidden subsets",
+      "casework"
+    ]
+  },
+  {
+    "id": "2022-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-I-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "extremal counting",
+      "product partitions"
+    ]
+  },
+  {
+    "id": "2022-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "floor fibers",
+      "periodicity"
+    ]
+  },
+  {
+    "id": "2022-I-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "parity bijection",
+      "multiset permutations"
+    ]
+  },
+  {
+    "id": "2022-II-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "planar regions",
+      "incremental counting"
+    ]
+  },
+  {
+    "id": "2022-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-10",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "double counting",
+      "hockey-stick identity"
+    ]
+  },
+  {
+    "id": "2022-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-I-12",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "pointing",
+      "double counting",
+      "Vandermonde identity"
+    ]
+  },
+  {
+    "id": "2022-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-I-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "inclusion-exclusion",
+      "divisor lattice"
+    ]
+  },
+  {
+    "id": "2022-II-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "generating functions",
+      "modular reduction",
+      "stars and bars"
+    ]
+  },
+  {
+    "id": "2022-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "complete sequences",
+      "greedy dominance",
+      "coverage"
+    ]
+  },
+  {
+    "id": "2022-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2022-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-01",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "opposite pairs",
+      "probability"
+    ]
+  },
+  {
+    "id": "2023-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "incidence double counting"
+    ]
+  },
+  {
+    "id": "2023-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "optimal prediction",
+      "dynamic programming",
+      "expectation"
+    ]
+  },
+  {
+    "id": "2023-II-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "geometric probability",
+      "conditioning"
+    ]
+  },
+  {
+    "id": "2023-I-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "Chinese remainder theorem",
+      "residue patterns"
+    ]
+  },
+  {
+    "id": "2023-II-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "opposite-pair encoding",
+      "forbidden configurations"
+    ]
+  },
+  {
+    "id": "2023-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "root multiplicities",
+      "bounded counting"
+    ]
+  },
+  {
+    "id": "2023-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-II-10",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "graph coloring",
+      "multiset permutations"
+    ]
+  },
+  {
+    "id": "2023-I-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "run encoding",
+      "stars and bars"
+    ]
+  },
+  {
+    "id": "2023-II-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "intersecting families",
+      "complement pairing"
+    ]
+  },
+  {
+    "id": "2023-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "Hamiltonian cycles",
+      "conservation",
+      "cyclic groups"
+    ]
+  },
+  {
+    "id": "2023-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2023-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-01",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "incidence counting",
+      "set multiplicities"
+    ]
+  },
+  {
+    "id": "2024-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "impartial games",
+      "periodicity"
+    ]
+  },
+  {
+    "id": "2024-II-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "digit carries",
+      "stars and bars"
+    ]
+  },
+  {
+    "id": "2024-I-04",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "conditional probability",
+      "hypergeometric counting"
+    ]
+  },
+  {
+    "id": "2024-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "runs",
+      "compositions"
+    ]
+  },
+  {
+    "id": "2024-II-06",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "binary encoding",
+      "subset maxima"
+    ]
+  },
+  {
+    "id": "2024-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "maximal configurations",
+      "bipartite encoding"
+    ]
+  },
+  {
+    "id": "2024-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "difference sets",
+      "cyclic symmetry",
+      "complement pairing"
+    ]
+  },
+  {
+    "id": "2024-II-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "factorization",
+      "inclusion-exclusion"
+    ]
+  },
+  {
+    "id": "2024-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2024-II-15",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "geometric enumeration",
+      "direction classes"
+    ]
+  },
+  {
+    "id": "2025-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "multinomial counting",
+      "integer partitions"
+    ]
+  },
+  {
+    "id": "2025-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "divisibility tests",
+      "subset sums"
+    ]
+  },
+  {
+    "id": "2025-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "perfect matchings",
+      "order statistics"
+    ]
+  },
+  {
+    "id": "2025-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-10",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "contingency tables",
+      "Latin rectangles"
+    ]
+  },
+  {
+    "id": "2025-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "linearity of expectation",
+      "random arrangements"
+    ]
+  },
+  {
+    "id": "2025-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-I-15",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "valuation stratification",
+      "residue distributions"
+    ]
+  },
+  {
+    "id": "2025-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-03",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "transfer weights",
+      "cyclic binary words"
+    ]
+  },
+  {
+    "id": "2025-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "divisor lattice",
+      "inclusion-exclusion"
+    ]
+  },
+  {
+    "id": "2025-II-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "greedy algorithms",
+      "periodic optimization"
+    ]
+  },
+  {
+    "id": "2025-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-10",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "bounded compositions",
+      "generating functions"
+    ]
+  },
+  {
+    "id": "2025-II-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "cycle decomposition",
+      "perfect matchings"
+    ]
+  },
+  {
+    "id": "2025-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2025-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "compositions",
+      "palindromes"
+    ]
+  },
+  {
+    "id": "2026-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "permutation cycles",
+      "cycle index"
+    ]
+  },
+  {
+    "id": "2026-I-08",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "residue classes",
+      "exponent parity"
+    ]
+  },
+  {
+    "id": "2026-I-09",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "conditional counting",
+      "set partitions"
+    ]
+  },
+  {
+    "id": "2026-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-11",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "extremal arrangements",
+      "rearrangement inequality",
+      "bipartite graphs"
+    ]
+  },
+  {
+    "id": "2026-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "finite-field interpolation",
+      "binomial coefficients"
+    ]
+  },
+  {
+    "id": "2026-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-I-15",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "exact cover",
+      "diagonal invariants",
+      "computational proof"
+    ]
+  },
+  {
+    "id": "2026-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-II-02",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "transfer matrices",
+      "path counting"
+    ]
+  },
+  {
+    "id": "2026-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-II-04",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "complement counting",
+      "digit restrictions"
+    ]
+  },
+  {
+    "id": "2026-II-05",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "hypergeometric ratios",
+      "Diophantine counting"
+    ]
+  },
+  {
+    "id": "2026-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-II-07",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "stopping times",
+      "inclusion-exclusion"
+    ]
+  },
+  {
+    "id": "2026-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without substantive combinatorial structure.",
+    "tags": []
+  },
+  {
+    "id": "2026-II-13",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "matching components",
+      "multiplicative partitions"
+    ]
+  },
+  {
+    "id": "2026-II-14",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "parity states",
+      "compositions",
+      "generating functions"
+    ]
+  },
+  {
+    "id": "2026-II-15",
+    "include": true,
+    "reason": "Substantive finite counting, probability, discrete structure, or counting hybrid.",
+    "tags": [
+      "finite geometry",
+      "Fano plane",
+      "residue counting"
+    ]
+  }
+]

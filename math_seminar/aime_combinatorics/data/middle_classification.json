@@ -1,0 +1,2945 @@
+[
+  {
+    "id": "2000-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binomial coefficients"
+    ]
+  },
+  {
+    "id": "2000-II-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "probability",
+      "combinations"
+    ]
+  },
+  {
+    "id": "2000-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "probability",
+      "divisibility"
+    ]
+  },
+  {
+    "id": "2000-II-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "stars and bars",
+      "permutations"
+    ]
+  },
+  {
+    "id": "2000-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binomial identities",
+      "complement"
+    ]
+  },
+  {
+    "id": "2000-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "weighted counting",
+      "product principle",
+      "prime exponents"
+    ]
+  },
+  {
+    "id": "2000-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "orbits",
+      "invariants"
+    ]
+  },
+  {
+    "id": "2000-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2000-I-15",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "recurrences",
+      "permutations",
+      "inverse processes"
+    ]
+  },
+  {
+    "id": "2000-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-01",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "directed graphs",
+      "extremal paths"
+    ]
+  },
+  {
+    "id": "2001-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-02",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "inclusion exclusion",
+      "extremal counting"
+    ]
+  },
+  {
+    "id": "2001-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "extremal principle",
+      "greedy bounds",
+      "recurrences"
+    ]
+  },
+  {
+    "id": "2001-I-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "stars and bars",
+      "probability"
+    ]
+  },
+  {
+    "id": "2001-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "inclusion exclusion",
+      "probability"
+    ]
+  },
+  {
+    "id": "2001-I-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "parity",
+      "probability",
+      "product principle"
+    ]
+  },
+  {
+    "id": "2001-II-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "residue classes",
+      "summation"
+    ]
+  },
+  {
+    "id": "2001-I-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "permutations",
+      "congruences"
+    ]
+  },
+  {
+    "id": "2001-II-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "symmetry",
+      "multinomial coefficients",
+      "probability"
+    ]
+  },
+  {
+    "id": "2001-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "recursive counting",
+      "geometric scaling"
+    ]
+  },
+  {
+    "id": "2001-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-I-14",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "finite states",
+      "forbidden patterns"
+    ]
+  },
+  {
+    "id": "2001-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2001-I-15",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "graphs",
+      "Hamilton cycles",
+      "probability"
+    ]
+  },
+  {
+    "id": "2001-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-01",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "inclusion exclusion",
+      "probability"
+    ]
+  },
+  {
+    "id": "2002-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "bijections",
+      "digit counting"
+    ]
+  },
+  {
+    "id": "2002-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "double counting",
+      "geometry hybrid"
+    ]
+  },
+  {
+    "id": "2002-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "covering systems",
+      "extremal first gap"
+    ]
+  },
+  {
+    "id": "2002-II-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "inclusion exclusion",
+      "free symmetry",
+      "subsets"
+    ]
+  },
+  {
+    "id": "2002-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "lattice paths",
+      "rational ballot",
+      "probability"
+    ]
+  },
+  {
+    "id": "2002-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-14",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "extremal sets",
+      "congruence invariants"
+    ]
+  },
+  {
+    "id": "2002-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2002-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "contribution counting"
+    ]
+  },
+  {
+    "id": "2003-II-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "product principle",
+      "finite states"
+    ]
+  },
+  {
+    "id": "2003-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "double counting",
+      "geometry hybrid"
+    ]
+  },
+  {
+    "id": "2003-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "digit counting",
+      "convolution"
+    ]
+  },
+  {
+    "id": "2003-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "continuous probability",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "2003-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "pigeonhole principle",
+      "extremal occupancy"
+    ]
+  },
+  {
+    "id": "2003-I-13",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binomial symmetry",
+      "binary digits"
+    ]
+  },
+  {
+    "id": "2003-II-13",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "Markov recurrences",
+      "symmetry",
+      "probability"
+    ]
+  },
+  {
+    "id": "2003-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2003-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-02",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "conditional probability",
+      "combinations"
+    ]
+  },
+  {
+    "id": "2004-I-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "complement",
+      "geometric incidence"
+    ]
+  },
+  {
+    "id": "2004-II-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "finite case analysis",
+      "geometry hybrid"
+    ]
+  },
+  {
+    "id": "2004-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-04",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "digit counting",
+      "inclusion exclusion"
+    ]
+  },
+  {
+    "id": "2004-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "relative order",
+      "permutations"
+    ]
+  },
+  {
+    "id": "2004-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "contribution counting",
+      "generating functions"
+    ]
+  },
+  {
+    "id": "2004-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-08",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "cyclic permutations",
+      "totient",
+      "geometry hybrid"
+    ]
+  },
+  {
+    "id": "2004-II-08",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "stars and bars",
+      "multiplicative counting"
+    ]
+  },
+  {
+    "id": "2004-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "continuous probability",
+      "geometry hybrid"
+    ]
+  },
+  {
+    "id": "2004-II-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binary digits",
+      "residue classes",
+      "probability"
+    ]
+  },
+  {
+    "id": "2004-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2004-II-14",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "projection of integer solutions",
+      "greedy optimization"
+    ]
+  },
+  {
+    "id": "2004-I-15",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "inverse processes",
+      "forbidden patterns",
+      "injectivity"
+    ]
+  },
+  {
+    "id": "2004-II-15",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "invariants",
+      "recursive permutations"
+    ]
+  },
+  {
+    "id": "2005-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-01",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binomial coefficients"
+    ]
+  },
+  {
+    "id": "2005-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-02",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "conditional probability",
+      "balanced allocation"
+    ]
+  },
+  {
+    "id": "2005-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-04",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "inclusion exclusion",
+      "divisor sets"
+    ]
+  },
+  {
+    "id": "2005-I-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "product principle",
+      "forbidden patterns"
+    ]
+  },
+  {
+    "id": "2005-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "permutations",
+      "fixed points"
+    ]
+  },
+  {
+    "id": "2005-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "local types",
+      "product probability",
+      "geometric incidence"
+    ]
+  },
+  {
+    "id": "2005-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "parity",
+      "involutions",
+      "block counting"
+    ]
+  },
+  {
+    "id": "2005-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-13",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "generating functions",
+      "gaps",
+      "lattice paths"
+    ]
+  },
+  {
+    "id": "2005-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2005-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-02",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "subset sums",
+      "constructive intervals"
+    ]
+  },
+  {
+    "id": "2006-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-04",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "bijections",
+      "permutations"
+    ]
+  },
+  {
+    "id": "2006-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "probability",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "2006-I-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "contribution counting",
+      "digit symmetry"
+    ]
+  },
+  {
+    "id": "2006-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "complement",
+      "digit counting"
+    ]
+  },
+  {
+    "id": "2006-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-08",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "orbits",
+      "multisets"
+    ]
+  },
+  {
+    "id": "2006-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "symmetry",
+      "Vandermonde",
+      "probability"
+    ]
+  },
+  {
+    "id": "2006-I-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "insertion bijections",
+      "recurrences"
+    ]
+  },
+  {
+    "id": "2006-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-13",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "contribution counting",
+      "valuation layers"
+    ]
+  },
+  {
+    "id": "2006-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2006-II-14",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "contribution counting",
+      "digit frequency"
+    ]
+  },
+  {
+    "id": "2006-I-15",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "invariants",
+      "telescoping",
+      "extremal construction"
+    ]
+  },
+  {
+    "id": "2006-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-01",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "multiset permutations",
+      "case analysis"
+    ]
+  },
+  {
+    "id": "2007-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-02",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "compositions",
+      "divisor decomposition"
+    ]
+  },
+  {
+    "id": "2007-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-I-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "residue classes",
+      "finite states"
+    ]
+  },
+  {
+    "id": "2007-II-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "lattice geometry",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "2007-I-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "acyclic paths",
+      "dynamic programming"
+    ]
+  },
+  {
+    "id": "2007-II-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "finite states",
+      "digit graphs"
+    ]
+  },
+  {
+    "id": "2007-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-08",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "grid counting",
+      "discrete optimization"
+    ]
+  },
+  {
+    "id": "2007-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-I-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "fixed margins",
+      "occupancy"
+    ]
+  },
+  {
+    "id": "2007-II-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "elementwise encoding",
+      "inclusion exclusion",
+      "probability"
+    ]
+  },
+  {
+    "id": "2007-I-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "block counting",
+      "weighted sums"
+    ]
+  },
+  {
+    "id": "2007-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-13",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binomial propagation",
+      "modular generating functions"
+    ]
+  },
+  {
+    "id": "2007-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2007-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "recurrences",
+      "binomial propagation"
+    ]
+  },
+  {
+    "id": "2008-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "complement",
+      "gap bounds"
+    ]
+  },
+  {
+    "id": "2008-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "multinomial coefficients",
+      "probability"
+    ]
+  },
+  {
+    "id": "2008-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "extremal paths",
+      "symmetry",
+      "finite enumeration"
+    ]
+  },
+  {
+    "id": "2008-I-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "runs",
+      "recurrences"
+    ]
+  },
+  {
+    "id": "2008-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "gaps",
+      "separators",
+      "bijections"
+    ]
+  },
+  {
+    "id": "2008-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2008-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binomial probability"
+    ]
+  },
+  {
+    "id": "2009-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "gap compression",
+      "complement"
+    ]
+  },
+  {
+    "id": "2009-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-08",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "contribution counting",
+      "weighted sums"
+    ]
+  },
+  {
+    "id": "2009-II-08",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "geometric series",
+      "complement",
+      "probability"
+    ]
+  },
+  {
+    "id": "2009-I-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "separator encoding",
+      "bounded compositions"
+    ]
+  },
+  {
+    "id": "2009-II-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "injections",
+      "boundary counting"
+    ]
+  },
+  {
+    "id": "2009-I-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "runs",
+      "compositions",
+      "cyclic words"
+    ]
+  },
+  {
+    "id": "2009-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "parity",
+      "geometry hybrid"
+    ]
+  },
+  {
+    "id": "2009-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "extremal sums",
+      "constructive matching"
+    ]
+  },
+  {
+    "id": "2009-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2009-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-I-01",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "prime exponents",
+      "probability"
+    ]
+  },
+  {
+    "id": "2010-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-02",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "continuous probability",
+      "complement"
+    ]
+  },
+  {
+    "id": "2010-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "valuation layers",
+      "contribution counting"
+    ]
+  },
+  {
+    "id": "2010-I-04",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "generating functions",
+      "collision probability"
+    ]
+  },
+  {
+    "id": "2010-II-04",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "distance stratification",
+      "probability"
+    ]
+  },
+  {
+    "id": "2010-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-I-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "Venn regions",
+      "elementwise encoding"
+    ]
+  },
+  {
+    "id": "2010-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-08",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "forced choices",
+      "binomial identities"
+    ]
+  },
+  {
+    "id": "2010-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-I-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "mixed radix",
+      "quotient remainder bijection"
+    ]
+  },
+  {
+    "id": "2010-II-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "Burnside lemma",
+      "prime allocations"
+    ]
+  },
+  {
+    "id": "2010-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "complement",
+      "line incidence"
+    ]
+  },
+  {
+    "id": "2010-I-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "Ramsey theory",
+      "extremal coloring"
+    ]
+  },
+  {
+    "id": "2010-II-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-13",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "conditional probability",
+      "convexity"
+    ]
+  },
+  {
+    "id": "2010-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2010-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "sliding windows",
+      "periodicity",
+      "rotations"
+    ]
+  },
+  {
+    "id": "2011-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "involutions",
+      "gaps",
+      "stars and bars"
+    ]
+  },
+  {
+    "id": "2011-I-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "refinement",
+      "invariants",
+      "m-ary trees"
+    ]
+  },
+  {
+    "id": "2011-II-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "runs",
+      "extremal transitions",
+      "compositions"
+    ]
+  },
+  {
+    "id": "2011-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-10",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "cyclic gaps",
+      "geometric probability"
+    ]
+  },
+  {
+    "id": "2011-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "conditional probability",
+      "runs",
+      "gaps"
+    ]
+  },
+  {
+    "id": "2011-II-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "circular blocks",
+      "inclusion exclusion",
+      "probability"
+    ]
+  },
+  {
+    "id": "2011-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-14",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "Chinese remainder theorem",
+      "permutation products"
+    ]
+  },
+  {
+    "id": "2011-I-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2011-II-15",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "continuous probability",
+      "floor stratification"
+    ]
+  },
+  {
+    "id": "2012-I-01",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "digit counting",
+      "residues"
+    ]
+  },
+  {
+    "id": "2012-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "contingency tables",
+      "exact matches"
+    ]
+  },
+  {
+    "id": "2012-II-03",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "fixed margins",
+      "generating functions"
+    ]
+  },
+  {
+    "id": "2012-I-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-05",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binary carries",
+      "bijections"
+    ]
+  },
+  {
+    "id": "2012-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "graphs",
+      "maximum principle",
+      "stationary distributions"
+    ]
+  },
+  {
+    "id": "2012-II-07",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "binomial unranking",
+      "binary subsets"
+    ]
+  },
+  {
+    "id": "2012-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "lattice invariants",
+      "reachability",
+      "parity"
+    ]
+  },
+  {
+    "id": "2012-II-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "Chinese remainder theorem",
+      "residue counting"
+    ]
+  },
+  {
+    "id": "2012-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2012-II-14",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "graphs",
+      "cycle decompositions",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "2012-I-15",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "cyclic permutations",
+      "modular invariants"
+    ]
+  },
+  {
+    "id": "2012-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-01",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-02",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "residue uniformity",
+      "digit counting"
+    ]
+  },
+  {
+    "id": "2013-II-02",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-03",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-04",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "group orbits",
+      "invariant colorings",
+      "probability"
+    ]
+  },
+  {
+    "id": "2013-II-04",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-05",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-06",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "sample-space compression",
+      "probability"
+    ]
+  },
+  {
+    "id": "2013-II-06",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-07",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-08",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-09",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-09",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "compositions",
+      "boundary encoding",
+      "inclusion exclusion"
+    ]
+  },
+  {
+    "id": "2013-I-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-10",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-11",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-11",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "functional graphs",
+      "rooted structures"
+    ]
+  },
+  {
+    "id": "2013-I-12",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-12",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "multisets",
+      "algebraic enumeration"
+    ]
+  },
+  {
+    "id": "2013-I-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-13",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-II-14",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  },
+  {
+    "id": "2013-I-15",
+    "include": true,
+    "reason": "Counting, probability, discrete structure, or a substantial combinatorial hybrid.",
+    "tags": [
+      "residue constraints",
+      "arithmetic progressions",
+      "case counting"
+    ]
+  },
+  {
+    "id": "2013-II-15",
+    "include": false,
+    "reason": "Primarily algebra, geometry, or number theory without a substantial combinatorial enumeration or discrete-structure argument.",
+    "tags": []
+  }
+]
