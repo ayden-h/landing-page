@@ -1,0 +1,253 @@
+[
+  {
+    "id": "2013-I-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "Rate equations reduce to a single common reciprocal-speed factor.",
+    "reason_specific_to_problem": "Rate equations reduce to a single common reciprocal-speed factor."
+  },
+  {
+    "id": "2013-I-02",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason": "Digit counting uses uniform residue classes modulo five.",
+    "reason_specific_to_problem": "Digit counting uses uniform residue classes modulo five."
+  },
+  {
+    "id": "2013-I-03",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason": "A square partition gives a symmetric ratio invariant from areas.",
+    "reason_specific_to_problem": "A square partition gives a symmetric ratio invariant from areas."
+  },
+  {
+    "id": "2013-I-04",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason": "The figure is counted through its rotation orbits; no metric geometry is needed.",
+    "reason_specific_to_problem": "The figure is counted through its rotation orbits; no metric geometry is needed."
+  },
+  {
+    "id": "2013-I-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "Recognizing a cube gives the real root and rationalizes its denominator.",
+    "reason_specific_to_problem": "Recognizing a cube gives the real root and rationalizes its denominator."
+  },
+  {
+    "id": "2013-I-06",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason": "Uniform subset selection in capacity slots computes a discrete probability.",
+    "reason_specific_to_problem": "Uniform subset selection in capacity slots computes a discrete probability."
+  },
+  {
+    "id": "2013-I-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "A spatial triangle area is obtained from a cross product.",
+    "reason_specific_to_problem": "A spatial triangle area is obtained from a cross product."
+  },
+  {
+    "id": "2013-I-08",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason": "Inverse-trigonometric domain constraints reduce the minimum to a divisor and monotonicity argument.",
+    "reason_specific_to_problem": "Inverse-trigonometric domain constraints reduce the minimum to a divisor and monotonicity argument."
+  },
+  {
+    "id": "2013-I-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "Reflection makes the crease a perpendicular bisector, reducing its endpoints to linear equations.",
+    "reason_specific_to_problem": "Reflection makes the crease a perpendicular bisector, reducing its endpoints to linear equations."
+  },
+  {
+    "id": "2013-I-10",
+    "subjects": [
+      "algebra",
+      "number_theory",
+      "combinatorics"
+    ],
+    "reason": "Distinct coefficient pairs require a finite classification modulo conjugation and a signed-pair cancellation.",
+    "reason_specific_to_problem": "Distinct coefficient pairs require a finite classification modulo conjugation and a signed-pair cancellation."
+  },
+  {
+    "id": "2013-I-11",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason": "The least integer is determined by divisibility, legal congruence cancellation, and CRT.",
+    "reason_specific_to_problem": "The least integer is determined by divisibility, legal congruence cancellation, and CRT."
+  },
+  {
+    "id": "2013-I-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "A regular hexagon is enclosed by three lines of prescribed directions; a support maximum determines the final side.",
+    "reason_specific_to_problem": "A regular hexagon is enclosed by three lines of prescribed directions; a support maximum determines the final side."
+  },
+  {
+    "id": "2013-I-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason": "Similar triangles produce disjoint geometric-series area contributions.",
+    "reason_specific_to_problem": "Similar triangles produce disjoint geometric-series area contributions."
+  },
+  {
+    "id": "2013-I-14",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "A complex geometric series compresses two alternating trigonometric sums, followed by a branch check.",
+    "reason_specific_to_problem": "A complex geometric series compresses two alternating trigonometric sums, followed by a branch check."
+  },
+  {
+    "id": "2013-I-15",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason": "Congruences force a prime and residue pattern, then bounded arithmetic progressions are counted.",
+    "reason_specific_to_problem": "Congruences force a prime and residue pattern, then bounded arithmetic progressions are counted."
+  },
+  {
+    "id": "2013-II-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "A unit conversion is a proportional equation.",
+    "reason_specific_to_problem": "A unit conversion is a proportional equation."
+  },
+  {
+    "id": "2013-II-02",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason": "Undoing nested logarithms produces a prime-exponent restriction on integers.",
+    "reason_specific_to_problem": "Undoing nested logarithms produces a prime-exponent restriction on integers."
+  },
+  {
+    "id": "2013-II-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "An arithmetic-series cumulative time determines the consumed length.",
+    "reason_specific_to_problem": "An arithmetic-series cumulative time determines the consumed length."
+  },
+  {
+    "id": "2013-II-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "A 60-degree rotation constructs the third vertex, and the center is its centroid.",
+    "reason_specific_to_problem": "A 60-degree rotation constructs the third vertex, and the center is its centroid."
+  },
+  {
+    "id": "2013-II-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "Similarity normalization and the area formula avoid finding the angle itself.",
+    "reason_specific_to_problem": "Similarity normalization and the area formula avoid finding the angle itself."
+  },
+  {
+    "id": "2013-II-06",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason": "Consecutive-square gaps and strict endpoint inequalities certify a least integer.",
+    "reason_specific_to_problem": "Consecutive-square gaps and strict endpoint inequalities certify a least integer."
+  },
+  {
+    "id": "2013-II-07",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason": "A rate equation and a linear congruence must be combined with a positive final workforce.",
+    "reason_specific_to_problem": "A rate equation and a linear congruence must be combined with a positive final workforce."
+  },
+  {
+    "id": "2013-II-08",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "Arc order justifies central symmetry, then Ptolemy and a right triangle determine the radius.",
+    "reason_specific_to_problem": "Arc order justifies central symmetry, then Ptolemy and a right triangle determine the radius."
+  },
+  {
+    "id": "2013-II-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason": "Colored compositions are counted by a boundary encoding and inclusion-exclusion.",
+    "reason_specific_to_problem": "Colored compositions are counted by a boundary encoding and inclusion-exclusion."
+  },
+  {
+    "id": "2013-II-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "Heights from collinear fixed points have a constant ratio for lines through their common external point.",
+    "reason_specific_to_problem": "Heights from collinear fixed points have a constant ratio for lines through their common external point."
+  },
+  {
+    "id": "2013-II-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason": "Functions are counted by the structure of their fibers and iterated functional graph.",
+    "reason_specific_to_problem": "Functions are counted by the structure of their fibers and iterated functional graph."
+  },
+  {
+    "id": "2013-II-12",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason": "Conjugate-root structure and multiset counting classify integer-coefficient cubics.",
+    "reason_specific_to_problem": "Conjugate-root structure and multiset counting classify integer-coefficient cubics."
+  },
+  {
+    "id": "2013-II-13",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "An isosceles placement turns two squared-distance conditions into a linear system in squared dimensions.",
+    "reason_specific_to_problem": "An isosceles placement turns two squared-distance conditions into a linear system in squared dimensions."
+  },
+  {
+    "id": "2013-II-14",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason": "A universal bound on remainders proves a residue-class formula before summation.",
+    "reason_specific_to_problem": "A universal bound on remainders proves a residue-class formula before summation."
+  },
+  {
+    "id": "2013-II-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason": "The sine-rule cosine identity simplifies the expressions, but the prescribed radical sign is needed to select an angle branch.",
+    "reason_specific_to_problem": "The sine-rule cosine identity simplifies the expressions, but the prescribed radical sign is needed to select an angle branch."
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "1983-A-06",
+    "result": "35",
+    "expected": "35",
+    "passed": true,
+    "method": "Independent modular exponentiation."
+  },
+  {
+    "id": "1983-A-08",
+    "result": "61",
+    "expected": "61",
+    "passed": true,
+    "method": "Form the exact binomial integer and test all two-digit primes."
+  },
+  {
+    "id": "1983-A-12",
+    "result": "[65]",
+    "expected": "[65]",
+    "passed": true,
+    "method": "Exhaust all90 digit pairs and test the squared chord-distance difference."
+  },
+  {
+    "id": "1984-A-02",
+    "result": "592",
+    "expected": "592",
+    "passed": true,
+    "method": "Exhaust all admissible numerals through four digits."
+  },
+  {
+    "id": "1984-A-07",
+    "result": "997",
+    "expected": "997",
+    "passed": true,
+    "method": "Evaluate the nested definition directly with memoization."
+  },
+  {
+    "id": "1984-A-14",
+    "result": "38",
+    "expected": "38",
+    "passed": true,
+    "method": "Enumerate all odd-composite sums through1000; the proof handles the infinite tail."
+  },
+  {
+    "id": "1984-A-15",
+    "result": "36",
+    "expected": "36",
+    "passed": true,
+    "method": "Exact rational Gaussian elimination, independent of coefficient extraction."
+  },
+  {
+    "id": "1985-A-03",
+    "result": "[(6, 1, 198)]",
+    "expected": "[(6, 1, 198)]",
+    "passed": true,
+    "method": "Enumerate the prime-divisor cases and all possible positive a in their bounds."
+  },
+  {
+    "id": "1985-A-05",
+    "result": "(1985, 1492, 986)",
+    "expected": "(1985, 1492, 986)",
+    "passed": true,
+    "method": "Generate all2001 recurrence terms directly and sum three prefixes."
+  },
+  {
+    "id": "1985-A-06",
+    "result": "(Fraction(40, 1), Fraction(30, 1), Fraction(35, 1), Fraction(84, 1), Fraction(56, 1), Fraction(70, 1), Fraction(315, 1))",
+    "expected": "(Fraction(40, 1), Fraction(30, 1), Fraction(35, 1), Fraction(84, 1), Fraction(56, 1), Fraction(70, 1), Fraction(315, 1))",
+    "passed": true,
+    "method": "Construct rational coordinates realizing all givens; determinant areas verify the unknown regions."
+  },
+  {
+    "id": "1985-A-13",
+    "result": "401",
+    "expected": "401",
+    "passed": true,
+    "method": "Direct gcd values across two complete401-residue periods."
+  },
+  {
+    "id": "1986-A-05",
+    "result": "890",
+    "expected": "890",
+    "passed": true,
+    "method": "Direct division for every n up to the proven divisor bound."
+  },
+  {
+    "id": "1986-A-06",
+    "result": "[(62, 33)]",
+    "expected": "[(62, 33)]",
+    "passed": true,
+    "method": "Exhaust all feasible page counts below the triangular-sum bound."
+  },
+  {
+    "id": "1987-A-03",
+    "result": "([6, 8, 10, 14, 15, 21, 22, 26, 27, 33], 182)",
+    "expected": "([6, 8, 10, 14, 15, 21, 22, 26, 27, 33], 182)",
+    "passed": true,
+    "method": "Directly multiply all distinct proper divisors through the tenth nice number."
+  },
+  {
+    "id": "1987-A-05",
+    "result": "[(4, 49, 588)]",
+    "expected": "[(4, 49, 588)]",
+    "passed": true,
+    "method": "Enumerate all integer pairs within the bounds supplied by the positive factorization."
+  },
+  {
+    "id": "1987-A-11",
+    "result": "486",
+    "expected": "486",
+    "passed": true,
+    "method": "Enumerate every feasible length below the positive-sum bound."
+  },
+  {
+    "id": "1987-A-14",
+    "result": "373",
+    "expected": "373",
+    "passed": true,
+    "method": "Form the exact large numerator and denominator, then reduce."
+  },
+  {
+    "id": "1987-A-15",
+    "result": "(Fraction(441, 1), Fraction(440, 1))",
+    "expected": "(Fraction(441, 1), Fraction(440, 1))",
+    "passed": true,
+    "method": "Verify both square-area equations with exact rational symmetric data."
+  },
+  {
+    "id": "1988-A-06",
+    "result": "(74, 186, 103, 142)",
+    "expected": "(74, 186, 103, 142)",
+    "passed": true,
+    "method": "Construct all25 cells and verify every row and column difference."
+  },
+  {
+    "id": "1988-A-09",
+    "result": "[192, 442, 692, 942]",
+    "expected": "[192, 442, 692, 942]",
+    "passed": true,
+    "method": "Exhaust all residues modulo1000 directly."
+  },
+  {
+    "id": "1988-A-13",
+    "result": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+    "expected": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+    "passed": true,
+    "method": "Perform exact polynomial long division instead of using the Fibonacci formula."
+  },
+  {
+    "id": "1989-A-03",
+    "result": "[(9, 750)]",
+    "expected": "[(9, 750)]",
+    "passed": true,
+    "method": "Exhaust the digit and numerator ranges with exact fractions."
+  },
+  {
+    "id": "1989-A-04",
+    "result": "675",
+    "expected": "675",
+    "passed": true,
+    "method": "Exhaust every possible smaller middle term and test square/cube conditions."
+  },
+  {
+    "id": "1989-A-09",
+    "result": "61917364224",
+    "expected": "61917364224",
+    "passed": true,
+    "method": "Compute the fifth-power equation as exact integers."
+  },
+  {
+    "id": "1989-A-14",
+    "result": "(20, 490)",
+    "expected": "(20, 490)",
+    "passed": true,
+    "method": "Enumerate every four-digit complex-base numeral using integer real/imaginary components."
+  },
+  {
+    "id": "1990-A-05",
+    "result": "432",
+    "expected": "432",
+    "passed": true,
+    "method": "Test every eligible multiple up to the proposed global minimum directly."
+  },
+  {
+    "id": "1990-A-10",
+    "result": "144",
+    "expected": "144",
+    "passed": true,
+    "method": "Enumerate all864 root-product exponents, independently checking the image size."
+  },
+  {
+    "id": "1990-A-11",
+    "result": "23",
+    "expected": "23",
+    "passed": true,
+    "method": "Exhaust consecutive blocks for every n from4 through100; proof controls the infinite tail."
+  },
+  {
+    "id": "1991-A-01",
+    "result": "[(5, 11, 146)]",
+    "expected": "[(5, 11, 146)]",
+    "passed": true,
+    "method": "Exhaust positive integer pairs within the first-equation bound."
+  },
+  {
+    "id": "1991-A-03",
+    "result": "166",
+    "expected": "166",
+    "passed": true,
+    "method": "Compare all1001 weighted binomial terms after multiplying by the common denominator5^1000."
+  },
+  {
+    "id": "1991-A-08",
+    "result": "(10, [-25, -8, -3, -1, 0, 24, 25, 27, 32, 49])",
+    "expected": "(10, [-25, -8, -3, -1, 0, 24, 25, 27, 32, 49])",
+    "passed": true,
+    "method": "Enumerate all shifted-factor-bounded integer root pairs and distinct parameters."
+  },
+  {
+    "id": "1992-A-01",
+    "result": "400",
+    "expected": "400",
+    "passed": true,
+    "method": "Direct exact sum over all reduced numerators."
+  },
+  {
+    "id": "1992-A-04",
+    "result": "[(62, 27)]",
+    "expected": "[(62, 27)]",
+    "passed": true,
+    "method": "Compare exact adjacent binomial integers in the first101 rows."
+  },
+  {
+    "id": "1993-A-06",
+    "result": "495",
+    "expected": "495",
+    "passed": true,
+    "method": "Test the arithmetic-series starting-term integrality for every smaller positive target."
+  },
+  {
+    "id": "1993-A-09",
+    "result": "[118, 1993]",
+    "expected": "[118, 1993]",
+    "passed": true,
+    "method": "Enumerate all labels and compare their cumulative step residues."
+  },
+  {
+    "id": "1994-A-01",
+    "result": "63",
+    "expected": "63",
+    "passed": true,
+    "method": "Construct the actual increasing sequence through its1994th term."
+  },
+  {
+    "id": "1994-A-04",
+    "result": "1994",
+    "expected": "1994",
+    "passed": true,
+    "method": "Compute each logarithm floor independently by integer bit length."
+  },
+  {
+    "id": "1994-A-15",
+    "result": "2321",
+    "expected": "2321",
+    "passed": true,
+    "method": "Exact rational crease-intersection tests at every interior point of a1/20 grid in a3\u20134\u20135 triangle."
+  },
+  {
+    "id": "1995-A-10",
+    "result": "215",
+    "expected": "215",
+    "passed": true,
+    "method": "Test every candidate through1000 directly for a positive composite remainder."
+  },
+  {
+    "id": "1995-A-13",
+    "result": "400",
+    "expected": "400",
+    "passed": true,
+    "method": "Find each nearest fourth root by exact integer midpoint comparisons, then sum individually."
+  },
+  {
+    "id": "1997-A-03",
+    "result": "[(14, 112)]",
+    "expected": "[(14, 112)]",
+    "passed": true,
+    "method": "Exhaust all two-digit and three-digit factor pairs."
+  },
+  {
+    "id": "1997-A-06",
+    "result": "42",
+    "expected": "42",
+    "passed": true,
+    "method": "Enumerate integer polygon angle compatibilities over the proven relevant range."
+  },
+  {
+    "id": "1998-A-08",
+    "result": "(14, [618])",
+    "expected": "(14, [618])",
+    "passed": true,
+    "method": "Generate every subtractive sequence for1\u2264x\u22641000; x>1000 stops immediately at term3."
+  },
+  {
+    "id": "1998-A-11",
+    "result": "275625",
+    "expected": "275625",
+    "passed": true,
+    "method": "Compute the section area squared from the six spatial vertices by the vector polygon-area formula."
+  },
+  {
+    "id": "1998-A-14",
+    "result": "130",
+    "expected": "130",
+    "passed": true,
+    "method": "Enumerate ordered integral dimension pairs within the analytic bound and solve exactly for the third."
+  },
+  {
+    "id": "1999-A-01",
+    "result": "29",
+    "expected": "29",
+    "passed": true,
+    "method": "Exhaust all progressions that could improve the proposed fifth prime."
+  },
+  {
+    "id": "1999-A-03",
+    "result": "[1, 9, 10, 18]",
+    "expected": "[1, 9, 10, 18]",
+    "passed": true,
+    "method": "Direct square test through100; factorization proves no later solutions."
+  },
+  {
+    "id": "1999-A-15",
+    "result": "166464",
+    "expected": "166464",
+    "passed": true,
+    "method": "Independent Cayley\u2013Menger determinant from the six preserved edge lengths."
+  }
+]

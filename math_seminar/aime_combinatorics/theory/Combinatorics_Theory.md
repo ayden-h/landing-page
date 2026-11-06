@@ -1,7 +1,7 @@
 ---
 title: "AIME Combinatorics"
 subtitle: "Structure, short proofs, and exact enumeration"
-author: "Math Seminar"
+author: "Ayden Bi"
 date: "Research edition · November 2026"
 lang: en-US
 ---

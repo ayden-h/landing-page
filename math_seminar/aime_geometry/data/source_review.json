@@ -1,0 +1,4808 @@
+[
+  {
+    "id": "1983-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_4",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries inspected. Coordinate, cosine, and right-triangle methods agree. Index 6 explicitly relies on guessed integer lengths from the drawing and is not a proof. The interior-location condition selects the correct circle center."
+  },
+  {
+    "id": "1983-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_11",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read: prism subtraction, completion to a regular tetrahedron, horizontal-section integration, and a less explicit prism-plus-pyramids decomposition. The geometric ridge orientation must be retained from the diagram in a standalone restatement."
+  },
+  {
+    "id": "1983-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives use the right-triangle or power-of-point identity followed by the prime 11. The bound on the digit difference is needed to rule out square 9 after a+b=11."
+  },
+  {
+    "id": "1983-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_14",
+    "available_entries": 10,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "review": "All ten entries inspected. Reflection and midpoint methods justify the configuration. Several alternatives use the special collinearity of the second endpoint with the centers without first proving it. Index 8 misprints the smaller circle equation, and index 9 writes 2x² instead of (2x)². The projection proof requires neither collinearity guess."
+  },
+  {
+    "id": "1983-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_15",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight archived entries read, including the separate uniqueness continuation at index 4. The midpoint-circle and parallel-line loci are valid. The uniqueness-to-tangency step must justify that a second line-circle intersection would still give a midpoint on the chord segment; convexity of the disk supplies this in the new proof."
+  },
+  {
+    "id": "1984-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems/Problem_3",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives use similarity and additive base lengths. Index 1 assumes an arbitrary base-to-height ratio without explicitly justifying an area-preserving affine normalization. The area-ratio proof works for every nondegenerate shape."
+  },
+  {
+    "id": "1984-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems/Problem_6",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Midpoint symmetry proves existence. Several assert uniqueness without excluding a line separating two entire disks; the given radius is needed for that exclusion. Index 0 says the radius never matters, which is false for sufficiently small radii. Index 1 rejects a geometric case solely because its slope is not an integer, which is not a proof."
+  },
+  {
+    "id": "1984-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems/Problem_9",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives give 20, but indices 0 and 2 simply assume isosceles or right faces; index 1 treats two distinct altitude feet as one. Such normalizations require a shear-invariance justification. The perpendicular-distance argument avoids any shape assumption."
+  },
+  {
+    "id": "1985-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_2",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives correctly translate the rotations into cone equations and recover the scaled 5-12-13 triangle."
+  },
+  {
+    "id": "1985-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. They derive the same square-width formula through a parallelogram or similar triangles. The standalone coordinate construction supplies the missing diagram unambiguously."
+  },
+  {
+    "id": "1985-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_6",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four primary alternatives read, with the alternate archive consulted to recover the omitted area labels. Index 0 has the consistent area-ratio proof. Index 1 is only a mass-points outline. Index 2 reverses a ratio and obtains incorrect individual areas 105,21, whose sum accidentally agrees. Index 3 mixes point labels and misfactors its quadratic; the correct factorization of 10r²-12r-16 is (r-2)(10r+8)."
+  },
+  {
+    "id": "1985-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_9",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives correctly use a2-3-4 triangle or direct half-angle equations. Parallelism of the original chords is immaterial because chord lengths depend only on their central angles."
+  },
+  {
+    "id": "1985-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both primary alternatives read. Reflection gives a short complete proof. The calculus alternative treats the focal-sum function along the axis as if its derivative were the ellipse slope; its intended minimization can be repaired, but the reflection proof makes the needed tangent/minimum relation explicit."
+  },
+  {
+    "id": "1985-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_15",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both primary entries and the alternate archive were read. The first identifies two copies as a cube; the second subtracts small tetrahedra from a larger one. The coordinate half-cube construction explicitly verifies the face shapes and alternating net rather than relying solely on the omitted image."
+  },
+  {
+    "id": "1986-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_9",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six archived text alternatives read; no linked video was viewed. Similarity, mass points, and area decompositions give the same reciprocal-sum formula. Index 3 drops a square in an intermediate display; its intended cancellation is valid. The barycentric argument avoids extensive diagram labels."
+  },
+  {
+    "id": "1986-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole archived solution correctly projects to face diagonals and solves a reciprocal-square linear system. Guessing a1:2:3 ratio from the radicals is not needed."
+  },
+  {
+    "id": "1986-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. The first three give valid tangent or coordinate methods. Index 3 swaps sine and cosine at the start, later switches back, and changes vertex/median labels; its long computation is not a reliable standalone proof. The vector determinant/dot-product formula is direct."
+  },
+  {
+    "id": "1987-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative gives the center-distance calculation and the sum of radii. The outward collinear construction supplies the explicit equality case."
+  },
+  {
+    "id": "1987-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives correctly identify the quadrilateral. Index 0 calls the symmetry a y-axis symmetry instead of x-axis symmetry; index 1 drops an x from one intermediate equation."
+  },
+  {
+    "id": "1987-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. The principal area/perimeter method is complete. Index 2 has a factor-of-two error in its opening relation and several missing parentheses; the two-invariant solution avoids those displays. The point ordering and five internal segments were restored from the source relationships."
+  },
+  {
+    "id": "1987-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_9",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly uses the three 120-degree cosine laws followed by the right-triangle relation."
+  },
+  {
+    "id": "1987-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives reviewed. The ratio and symmetric-sum approaches give 462. The source figures were replaced by the two explicit square orientations; these are essential because different inscribed-square placements need not have the same area."
+  },
+  {
+    "id": "1988-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly uses tangent addition and rejects the negative height. The interior-foot condition is retained explicitly in the restatement."
+  },
+  {
+    "id": "1988-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_10",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Read and compared all 5 archived solution entries. Alternatives count face incidences, permissible endpoints, face diagonals or use Euler’s formula."
+  },
+  {
+    "id": "1988-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_11",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives give 163. The centroid characterization in index 2 is shortest; the new proof includes its converse, ensuring existence as well as the necessary slope. Index 1 calls Cartesian components polar coordinates."
+  },
+  {
+    "id": "1988-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Area ratios, mass points, and a Gergonne/Ceva identity yield the same cubic relation. The proof only needs the sum of the three barycentric area ratios, not a separate theorem citation. Missing figure labels were reconstructed from the explicit ratios."
+  },
+  {
+    "id": "1988-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. The coordinate reflection method is complete. Index 2 writes an incorrect principal-arctangent equality for the doubled angle and misprints 3/5 as 5/5 once; its intended matrix and final equation are correct. Index 3 proposes a point-fitting calculation without carrying it out."
+  },
+  {
+    "id": "1989-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1989-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_6",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. The coordinate quadratic retains both possible meeting times. Several geometric alternatives choose an orientation that yields the earlier branch without discussing the second; index 0 also writes two proportional quadratic expressions as literally equal."
+  },
+  {
+    "id": "1989-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_10",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives read. Indices 5 and 7 assume a right triangle without establishing that the quotient is invariant, so their specialization is insufficient by itself. Altitude approaches need directed projections in obtuse cases; the area identities avoid that issue."
+  },
+  {
+    "id": "1989-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_12",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single archived alternative is valid. Repeated median identities give the distance without constructing spatial coordinates."
+  },
+  {
+    "id": "1989-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_15",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine alternatives read. Index 0 mislabels the right angle as being at B rather than P. Index 2 mixes several segment labels and lengths; index 3 writes CF/PF=3 instead of 4; index 8 names triangles inconsistent with its cosine-law lengths. The area-fraction and median argument supplies a complete short proof."
+  },
+  {
+    "id": "1990-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Indices 0 and 2 prove the bound and exhibit an integer solution. Index 1 splits divisibility into cases that are not exhaustive and invokes the contest answer range; those arguments are unnecessary."
+  },
+  {
+    "id": "1990-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_7",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries read. Entry 0 is only an introductory fragment; later entries complete angle-bisector, isosceles, incenter, or trigonometric methods. The half-angle method requires careful angle branches. Summing unit direction vectors yields the internal bisector directly."
+  },
+  {
+    "id": "1990-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Read and compared all 4 archived solution entries. Alternatives evaluate the same six chord classes using trigonometry, cosine law or complex coordinates."
+  },
+  {
+    "id": "1990-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. The synthetic circumcenter method is complete and avoids dihedral-angle bookkeeping. Index 1 inconsistently names its base vertices but its distance equations are correct. The third uses a different face as base and reaches the same volume."
+  },
+  {
+    "id": "1991-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_2",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Index 0 mixes the summation endpoints and subtraction of the diagonal, obtaining the right total through inconsistent displayed arithmetic. The other two give valid direct summation or pairing arguments."
+  },
+  {
+    "id": "1991-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative uses the regular dodecagon depicted in the original figure. That regularity is essential: the prose alone, without the pictured rotational symmetry, permits alternating distances of disk centers from the origin and does not uniquely determine the radius. The restatement explicitly preserves the figure’s symmetry assumption."
+  },
+  {
+    "id": "1991-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_12",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight entries read, including a diagram-only entry. Index 1 rejects an extraneous algebraic branch by incorrectly saying everything becomes squares; the actual issue is failure of the prescribed diagonal lengths. Index 6 omits that branch. Several later entries have mislabeled segments. Reflection of B across PQ determines the correct center uniquely."
+  },
+  {
+    "id": "1991-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative correctly uses three Ptolemy identities. The repeated diagonal lengths rely on the equal-arc symmetry, which is stated explicitly in the new proof."
+  },
+  {
+    "id": "1992-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly projects the face altitude through the dihedral angle. This works whether its foot lies on the segment BC or its extension."
+  },
+  {
+    "id": "1992-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_9",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives read. The common height cancels, so computing it is unnecessary. Index 4 names a degenerate triangle PBA where PDA is intended. The angle-bisector approaches require the extension and similarity argument; direct distances are shorter."
+  },
+  {
+    "id": "1992-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_10",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative obtains the correct final area but calls 200π+400 the overlap; it is actually the union area. The true overlap is 200π−400. Distinguishing those regions fixes the exposition."
+  },
+  {
+    "id": "1992-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative correctly treats lines as directions modulo π rather than 2π. The initial slope is irrelevant because every line through the origin has the same return order."
+  },
+  {
+    "id": "1992-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_13",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives read. Coordinate and Heron/AM-GM methods are valid when attainment is checked. Index 0 contains a 1600-versus-1600/81 simplification typo; index 4 duplicates a prefactor in its final line. The locus circle both bounds and attains the altitude."
+  },
+  {
+    "id": "1992-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. The area-coordinate and mass-point proofs are complete. Index 2 arbitrarily sets two barycentric coordinates equal without proving invariance, so that specialization alone is insufficient. Clearing the universal area identity supplies the needed invariant."
+  },
+  {
+    "id": "1993-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly groups days into four-day blocks. Its initial prose calls an entire block the first day and briefly drops a factor 1/2, but the displayed block sums and final result are correct."
+  },
+  {
+    "id": "1993-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Read and compared all 4 archived solution entries. The incidence-based alternative is sound and avoids unwarranted regularity or visual uniqueness assumptions."
+  },
+  {
+    "id": "1993-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. Both sources reverse the affine midpoint process, either stepwise or through binary weights."
+  },
+  {
+    "id": "1993-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_13",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Coordinate, angle-bisector, similarity, and area methods agree. The new proof checks the interval between the two tangencies and confirms that line intersection corresponds to segment blockage, not merely an intersection outside the walkers."
+  },
+  {
+    "id": "1993-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_14",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. The first gives a geometric deformation argument; the second asserts a minimum-diagonal principle without proving it. The coordinate sign condition and exact squared-perimeter identity establish a global bound and verify that equality is genuinely unstuck."
+  },
+  {
+    "id": "1993-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_15",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single entry and its appended generalizations were read. The general formula |b−a|(a+b−c)/(2c) is valid when the altitude foot lies on the base segment; the appended claim for every triangle omits that hypothesis and can fail for an exterior foot."
+  },
+  {
+    "id": "1994-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly uses the half-chord and center offset. The coordinate restatement of the configuration explains the orientation imposed by the smaller circle being outside the square."
+  },
+  {
+    "id": "1994-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Read and compared all 3 archived solution entries. Alternatives use hexagon area, missing horizontal lines or an enclosing triangle."
+  },
+  {
+    "id": "1994-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The finite lattice-point model determines all tangent and secant possibilities; antipodal pairs require a separate exclusion."
+  },
+  {
+    "id": "1994-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Index 1 switches perpendicular-vector signs inconsistently; index 2 misprints the final value of a; index 3 has a malformed initial equality and chooses positive roots without discussing reflection. The two rotation orientations exhaust the possibilities."
+  },
+  {
+    "id": "1994-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Index 0 supplies the valid integer-side reduction. Index 1 treats the altitude as an integer without proof and invokes the answer range to discard factor pairs. Index 2 assumes an integral parametrization prematurely. The divisibility argument justifies every integer variable."
+  },
+  {
+    "id": "1994-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. Index 0 correctly counts internal grid lines. Index 1 uses plus signs where boundary exclusions require minus signs and gives a dimensionally incorrect fence formula; it happens to find the right grid size."
+  },
+  {
+    "id": "1994-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative and its diagram program were read to recover that β is angle ABC and α is measured relative to BC, rather than its normal. The program uses illustrative angles different from the problem data. The source phrase “inside or at B” should describe intersection within the finite mirror radius; the unit-circle chord gives that precise criterion."
+  },
+  {
+    "id": "1994-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_15",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative gives the correct lens but asserts that circumcenters outside their small triangles are automatically outside the paper. That implication needs justification. The coordinate intersection test establishes necessity and sufficiency for this right-triangle configuration, with boundary distinctions irrelevant to area."
+  },
+  {
+    "id": "1995-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative correctly subtracts adjacent overlaps but leaves the absence of nonadjacent overlaps implicit. The outward-corner construction in the restatement expresses the original perpendicular-bisector conditions without a figure."
+  },
+  {
+    "id": "1995-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives correctly interpolate the distance from the large center to the common tangent. The new proof explains why the three centers are collinear, using equality in the triangle inequality."
+  },
+  {
+    "id": "1995-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_9",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives read. The tangent identity is shortest, while complex arguments require quadrant verification. The geometric angle bound 3θ<90° prevents spurious branches introduced by tangent periodicity. The longer synthetic construction reaches the same lengths."
+  },
+  {
+    "id": "1995-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1995-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_12",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. The projection method directly gives the internal angle. The normal-vector method first obtains its supplement and correctly reverses the cosine sign; that distinction must not be omitted."
+  },
+  {
+    "id": "1995-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative and its appended sine-area simplification were read. Its geometry and sector decomposition are valid; the sine formula replaces an unnecessary Heron calculation."
+  },
+  {
+    "id": "1996-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_4",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly includes the footprint to obtain a square of area 49. The new proof states the projection factor and why the top-face projection is the full shadow."
+  },
+  {
+    "id": "1996-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives correctly combine a median-length identity with right-triangle equations. The projection calculation determines D’s position and the area ratio at once, without assuming in advance that D lies beyond the midpoint."
+  },
+  {
+    "id": "1996-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_14",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. Both sources use inclusion-exclusion of simultaneous coordinate-plane crossing times."
+  },
+  {
+    "id": "1996-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Index 0 gives a valid factorization with a geometric branch choice. Index 1 miswrites the second quadratic root’s sign, and index 2 contains inconsistent angle labels. The explicit range 0<θ<36° selects the unique admissible root."
+  },
+  {
+    "id": "1997-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1997-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. The coordinate method must exclude the second placement of the fourth center; doing so proves uniqueness. The Descartes alternative is correct here, although its general description of the smaller curvature branch as always enclosing is not universally valid."
+  },
+  {
+    "id": "1997-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives correctly solve the angle equation. The new proof explicitly treats the large-n regime relevant to maximality and explains why the shared vertex is the middle vertex of the second polygon."
+  },
+  {
+    "id": "1997-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Index 0 calls the quadratic vertex a maximum, although it is a minimum. Both the quadratic and relative-velocity projection methods correctly give the midpoint time without solving the individual entry and exit times."
+  },
+  {
+    "id": "1997-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_13",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Index 1 uses incorrect piecewise formulas outside their valid intervals. Indices 2 and 3 assert that each absolute value always multiplies total length by a fixed factor, which is false without domain and overlap checks. The unit-cell argument verifies exactly where every segment lies."
+  },
+  {
+    "id": "1997-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Read and compared all 4 archived solution entries. Valid sources use rotation invariance and the cosine of the angular separation; one geometric derivation has incorrect equations."
+  },
+  {
+    "id": "1997-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives assume, without proof, that an optimal triangle has a vertex at a rectangle corner and its other vertices on the opposite sides. Their subsequent computations are correct. The bounding-box argument proves the global optimization over all translations and orientations."
+  },
+  {
+    "id": "1998-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_2",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Read and compared all 5 archived solution entries. The reliable sources use Pick’s theorem or explicit sums of lattice rows; pattern-only alternatives are not proofs."
+  },
+  {
+    "id": "1998-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_3",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives correctly factor the graph. The half-plane restrictions must be retained; treating all four factors as full lines would describe extra regions."
+  },
+  {
+    "id": "1998-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives are valid. The second identifies two matching similarity ratios directly and avoids an unnecessary quadratic expansion."
+  },
+  {
+    "id": "1998-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_9",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. The alternative conditions on one arrival time; its linear average needs the endpoint intervals to be handled correctly."
+  },
+  {
+    "id": "1998-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives correctly retain the vertical center difference, which is essential for spheres resting on one plane. Index 1 calls the octagon’s central 45° angle an interior angle; its cosine-law equation is nevertheless correct."
+  },
+  {
+    "id": "1998-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives correctly identify the hexagonal section and obtain 525, despite the primary answer field being blank. Their final symmetry and shape decomposition need care; projection to a strip gives the area directly without reconstructing every side length."
+  },
+  {
+    "id": "1998-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. Both assume equal cyclic segment ratios without proving them. Index 0 uses a similarity involving the wrong vertex and obtains the complementary segment value; the symmetric area expression hides this error. Index 1 contains multiple sign errors in its polynomial substitutions. The three affine collinearity equations prove the unique configuration and show the area ratio holds for every nondegenerate triangle."
+  },
+  {
+    "id": "1999-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_2",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. The centroid shortcut and direct center assertion need a necessity argument; equal-area cuts and strict monotonicity supply it. The coordinate alternatives assume the cut meets the two long sides, which can be checked after finding the line."
+  },
+  {
+    "id": "1999-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. The first asserts congruence of the eight center triangles; the two symmetries stated here prove the equal side lengths directly. The corner-triangle subtraction in index 1 gives an independent area computation."
+  },
+  {
+    "id": "1999-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_6",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly transforms the entire boundary rather than treating the image as the straight-edged quadrilateral joining the transformed vertices."
+  },
+  {
+    "id": "1999-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_8",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1999-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_9",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives read. Index 3 mislabels a hypotenuse factor and attributes the first-quadrant condition to z rather than the multiplier. Index 4 misexpands the imaginary coordinate. Testing z=1 is sufficient and avoids divisions by arbitrary coordinates or by z=0."
+  },
+  {
+    "id": "1999-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries read, including a diagram-only first entry. The Heron and half-angle approaches are valid. The last entry calls x an unknown side although its equations use the third tangent length; the new notation removes that ambiguity."
+  },
+  {
+    "id": "1999-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries read, including the diagram-only entry 0. The summed cosine-law and area proof is complete and proves the general identity cotθ=(a²+b²+c²)/(4K). Index 4 uses a confusing permutation of angle labels; its intended sine-law computation reaches the same ratio."
+  },
+  {
+    "id": "1999-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_15",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives read. Index 0’s orthocenter argument is useful but its later altitude labels are inconsistent; index 1 omits the actual linear equations. The box/disphenoid methods give valid alternative formulas. The explicit squared-distance subtraction proves the height directly."
+  },
+  {
+    "id": "2000-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_2",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both downloaded solutions were checked: area decomposition and the shoelace formula yield the same factor equation."
+  },
+  {
+    "id": "2000-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three source entries were reviewed. The first two encode equivalent edge systems. The third normalizes a smallest square to 1 and glosses over the subsequent rescaling; the proof here makes primitive scaling explicit. The textual edge relations replace the source diagram."
+  },
+  {
+    "id": "2000-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four source entries use equivalent similar-cone volume calculations and were checked."
+  },
+  {
+    "id": "2000-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_13",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single downloaded solution constructs an envelope of circles and its tangent line. Its geometric result is correct. The present proof explicitly reduces routes and explains the minimizing highway exit."
+  },
+  {
+    "id": "2000-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries were reviewed: angle chasing, an auxiliary rhombus, sine-law calculations, and triple-angle identities. The acute range used here explicitly rules out the extraneous sine branch."
+  },
+  {
+    "id": "2000-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_6",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single source was checked. Its similar-triangle construction yields the same squared-length relation; stating the interpolation directly also covers overhanging trapezoids."
+  },
+  {
+    "id": "2000-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four source entries were reviewed. The first three are consistent similarity, vector, and orthodiagonal-quadrilateral arguments. Entry 3 contains sign changes and an incorrect relation between CD squared and BC squared before reaching the correct quadratic."
+  },
+  {
+    "id": "2000-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The tangent-addition method and the stated tangential-area formula agree. The proof here derives the needed symmetric identity and avoids divisions by potentially vanishing tangent-addition denominators."
+  },
+  {
+    "id": "2000-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both downloaded entries were checked. The reflection formulation and direct leg-vector enumeration agree. The explicit construction here supplies sufficiency for every listed direction."
+  },
+  {
+    "id": "2000-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both source entries were reviewed. The circumcenter method is valid. The coordinate alternative attributes a midpoint constraint to the wrong isosceles triangle in its prose. The acute-triangle check here distinguishes distance to the triangle from distance to its plane."
+  },
+  {
+    "id": "2001-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both source solutions were reviewed: sine-law area and perpendicular decomposition agree."
+  },
+  {
+    "id": "2001-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_5",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries were inspected, including the diagram-only entry 0. Entries 2 and 4 incorrectly impose the positive square-root branch for a vertex below the x-axis; entry 4 also uses an incorrect equilateral altitude formula. Entries 1, 3, and 5 are sound. Entry 6 has a reused point label but a valid affine-circle argument."
+  },
+  {
+    "id": "2001-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_7",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries were reviewed. The isosceles-perimeter, area, and mass-point methods agree. Entry 4 changes 43 to 41 and 63 to 61; entry 5 drops a factor of 2 in the altitude formula; entry 6 confuses a bisector length with its square and mislabels similar triangles. The area cancels before any Heron calculation is needed."
+  },
+  {
+    "id": "2001-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_9",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The corner-area and determinant methods are valid. Entry 2 sets p=0 despite strict positivity and assumes the area is invariant before proving it; that shortcut alone is incomplete. The numerical side lengths are unnecessary."
+  },
+  {
+    "id": "2001-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2001-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_12",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries were reviewed. The point-plane and volume/surface-area methods agree. Entry 3 misprints a normalized coefficient; entry 4 should specify the inside sign to exclude the exsphere solution. The stated proof uses that sign explicitly."
+  },
+  {
+    "id": "2001-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three source entries were reviewed. Ptolemy and the two trigonometric eliminations give the same quadratic. Taking four successive points makes the chord incidences explicit without a diagram."
+  },
+  {
+    "id": "2001-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_15",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: The proposed unique-completion claim is false: some partial assignments have zero or two completions. The later averaging remark does not prove the claimed bijection."
+  },
+  {
+    "id": "2001-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_4",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed; its midpoint system and distance calculation are correct."
+  },
+  {
+    "id": "2001-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Their external-square calculation is correct. The proof here explicitly handles the inward orientation and excludes its unit-area square."
+  },
+  {
+    "id": "2001-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. Coordinate and common-tangent decompositions agree. Entry 3 calls a five-vertex region a hexagon, but its distance calculation is unaffected."
+  },
+  {
+    "id": "2001-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_12",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2001-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The extension and angle-bisector constructions are correct. Entry 1 says BM is parallel to CD where its construction requires AD; the intended trapezoid argument is valid."
+  },
+  {
+    "id": "2001-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_15",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single source was reviewed. Its decomposition into two trapezoids gives the correct wall area. The coordinate inequalities here independently justify the five-sided wall and both types of exterior opening, without relying on the perspective drawing."
+  },
+  {
+    "id": "2002-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_2",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Entry 0 gives the correct dimensions. Entry 1 vaguely refers to three centers at distance 4 after normalizing r=1; the direct adjacent-row calculation here avoids that ambiguity. The row layout is explicitly restated."
+  },
+  {
+    "id": "2002-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2002-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. The exact area arguments are valid. Entry 1 rounds intermediate lengths without a rigorous error bound, and entry 2 leaves its coordinate computation unstated. The missing diagram incidence G=AD intersection EF is restored in the restatement."
+  },
+  {
+    "id": "2002-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Entry 1 gives a rigorous unfolded ray. Entry 0 describes the required 12 scale units as reflections, which can obscure additional side-face reflections; the unfolded parameter avoids this counting issue."
+  },
+  {
+    "id": "2002-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_13",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries were reviewed. The centroid shortcuts avoid the first solution double median calculation. The barycentric entry 4 has reversed displacement labels and a missing symbol in one median identity; its final coordinates and area ratio are correct."
+  },
+  {
+    "id": "2002-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The first two coordinate approaches are sound after making the projection-to-face condition explicit. Entry 0 swaps coordinate labels in its prose; entry 1 mislabels projection segments; entry 2 ends with an incorrect midpoint relation between different segments. The face-distance argument here excludes an otherwise possible exterior projection."
+  },
+  {
+    "id": "2002-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. It recognizes an equilateral triangle of face diagonals; the proof here supplies the exclusion of the other distance types."
+  },
+  {
+    "id": "2002-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. The direct ring count is correct. Entry 1 has inconsistent indexing in its named centered-hexagonal formula, so the explicit ring parameter is preferable. The grid arrangement is restated without the missing diagram."
+  },
+  {
+    "id": "2002-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The first two give valid mass-point calculations, though the second performs unnecessary extra work. Entry 2 mislabels P as Q and incorrectly sets PQ/AE equal to BP/PE; the correct ratio uses BP/BE. The weighted-average proof states the needed relation directly."
+  },
+  {
+    "id": "2002-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Entries 0 and 2 yield valid similarity and half-angle arguments. Entry 1 includes unsupported square-root ratios and an incomplete elimination, so its numerical result is not a self-contained proof."
+  },
+  {
+    "id": "2002-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed, including the parabola reinterpretation and explicit-center sidenote. Their main quadratic reductions agree. The original proofs assume the same angle-bisector branch; the shared-tangent separation argument here justifies that assumption."
+  },
+  {
+    "id": "2003-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_2",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed, including the smaller-case pattern and alternate sum in entry 0. The exact arithmetic-series derivations are sound; the observed pattern alone would need proof."
+  },
+  {
+    "id": "2003-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its geometric decomposition is correct; the nearest-point partition explains why the pieces exhaust the neighborhood without overlapping interiors."
+  },
+  {
+    "id": "2003-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_6",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2003-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The perpendicular-bisector and cosine-law methods agree. Entry 1 reverses the sign after its correct Stewart equation; the required identity is AD squared minus BD squared equals 189."
+  },
+  {
+    "id": "2003-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_10",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries were inspected, including diagram-only entry 0. The reflection and trigonometric methods agree. Entry 4 has incorrect equal-side labels and a mislabeled final angle; entry 5 finds a trigonometric-Ceva root by inspection without proving uniqueness; entry 6 uses an undefined point P and inconsistent side labels. The cosine-law proof makes the hidden isosceles relation explicit."
+  },
+  {
+    "id": "2003-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2003-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. The subtraction proof is direct and valid. The alternate ambiguous-SSA construction reaches the same relation but needs careful point ordering; no such auxiliary construction is needed here."
+  },
+  {
+    "id": "2003-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_15",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries were reviewed. The area, reflection, and mass-point methods agree. Entry 3 misorders its cross-ratio labels and changes DE to DF during the final ratio manipulation, so it is not reliable as written. The coordinate cancellation shows that CA is unnecessary for this ratio."
+  },
+  {
+    "id": "2003-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three downloaded textual entries were reviewed; the external video reference was not watched. Coordinate, dihedral-angle, and altitude arguments agree. The affine centroid proof also works for nonregular tetrahedra when face centers mean centroids."
+  },
+  {
+    "id": "2003-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its two-congruent-wedges construction is valid; the complementary-height argument makes the volume relation explicit."
+  },
+  {
+    "id": "2003-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Entry 0 incorrectly calls its small triangles congruent for a scalene original; equal areas are sufficient. Entry 2 provides a sound homothety argument. The affine calculation proves the ratio for every triangle."
+  },
+  {
+    "id": "2003-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_7",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. The half-diagonal and extended-sine-law calculations are equivalent and valid."
+  },
+  {
+    "id": "2003-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_11",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. The projection, angle, and similar-triangle methods agree. Entry 2 has a mistaken repeated MD in its component-length equality, while its final coordinates are correct."
+  },
+  {
+    "id": "2003-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. Every source assumes the crucial height order without a full exclusion of the alternative; the proof here supplies that missing convexity argument. Entry 2 includes an erroneous factor 1/2 in its parallelogram area display. Entry 3 misprints the negative root of its auxiliary quadratic."
+  },
+  {
+    "id": "2004-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2004-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The coordinate and rectangle-diagonal proofs establish the locus; the sliding-ladder analogy in entry 2 alone is less explicit about why every point of the arc occurs."
+  },
+  {
+    "id": "2004-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_8",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2004-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_9",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its two admissible rectangle cuts are exhaustive. The proof here explicitly explains how the common base ratio determines the small triangle scale and why both cases are attainable."
+  },
+  {
+    "id": "2004-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: For a nonsquare rectangle, the claimed diagonal reflection is not a symmetry. Central symmetry justifies the equal-area conclusion."
+  },
+  {
+    "id": "2004-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Their radius and scale-factor calculations are correct. Passing directly to part-to-whole fractions cancels the common remainder denominators before solving."
+  },
+  {
+    "id": "2004-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_12",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its interval lengths and product calculation are correct; some endpoints are written open instead of closed, which does not affect area."
+  },
+  {
+    "id": "2004-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_14",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. The development argument is correct. Entry 1 interchanges sine and cosine after describing its inclination relative to the horizontal, although its final length factor is the correct one."
+  },
+  {
+    "id": "2004-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed; its sector-minus-triangle calculation and normalization are correct."
+  },
+  {
+    "id": "2004-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The first archived source asserts that balancing factors minimizes the product without proving the discrete case. Explicit factor enumeration here justifies the minimum."
+  },
+  {
+    "id": "2004-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_7",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries were reviewed. The two distance and slope methods are sound. Entry 2 confuses several segment names and signs while using a reflected orientation; entries 4 and 6 also mislabel triangle vertices and DB where a projected segment is intended. Entry 5 gives a longer valid area comparison with some undefined labels. Equal distances at the two crease points suffice."
+  },
+  {
+    "id": "2004-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its sector angle is correct, but it writes a negative y-coordinate for a point described as lying in quadrant II; the distance is unchanged. The proof here also excludes longer winding and base routes."
+  },
+  {
+    "id": "2004-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_12",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its radical-sum equation is correct; subtracting squared distances avoids repeated squaring and displays the unique positive root directly."
+  },
+  {
+    "id": "2004-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_13",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The source entry and its trigonometry-free AC calculation were both reviewed. Its three-height decomposition is correct; the explicit convexity placement explains why those heights add rather than subtract."
+  },
+  {
+    "id": "2005-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed; its equilateral-triangle relation gives the correct radius and area."
+  },
+  {
+    "id": "2005-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. The projection and equilateral-extension methods reach the same quadratic. Several auxiliary labels in entries 0 and 1 are inconsistent; the coordinate statement fixes the incidences explicitly."
+  },
+  {
+    "id": "2005-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_9",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2005-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. Entry 0 omits the absolute-value branch and assumes the desired ordering; entry 1 initially omits a square root in the point-line denominator before correcting it; entries 2 and 3 give valid two-branch calculations. The parameter proof treats both signs at once."
+  },
+  {
+    "id": "2005-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_11",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries were reviewed, including the incomplete introductory entry 0. They calculate the diagonal placement correctly but justify its global optimality only heuristically or by assertion. The two-width bound proves the maximum over all translations and orientations."
+  },
+  {
+    "id": "2005-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_14",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Their rotated-vector and normal-vector methods agree. The second calls the prescribed side points opposite vertices, a wording error; the explicit strip construction verifies the required side incidences."
+  },
+  {
+    "id": "2005-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Their tangent-length and median calculations are valid. Expressing the two equal powers symmetrically avoids assuming the side ordering before deriving which side must equal 10."
+  },
+  {
+    "id": "2005-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_8",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed, including the alternate similar-triangle calculation in entry 0. Their offset and chord values agree. The proof here also explains the enclosing radius from collinearity."
+  },
+  {
+    "id": "2005-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were inspected, including diagram-only entry 0. Both textual solutions calculate the reciprocal ratio 2/9 instead of the requested 9/2; this happens not to change the numerator-plus-denominator answer. The proof states the requested orientation explicitly."
+  },
+  {
+    "id": "2005-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_12",
+    "available_entries": 10,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "review": "All ten entries were reviewed. The tangent, rotation, complex, and similarity methods agree. Entry 1 misprints 160000 as 16000; entry 3 has incompatible area and squared-length values; entry 5 swaps endpoint labels; entry 6 mixes a length with its square; entry 8 is only an unfinished recipe; entry 9 mislabels a straight angle and includes a radical typo. The direct vector equation avoids these auxiliary assumptions."
+  },
+  {
+    "id": "2005-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_14",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine entries were reviewed. Entries 0, 2, 4, 6, and 8 support the same length. Entry 1 misprints 52 as 53 in a denominator; entry 3 uses an incorrect sum BE+KE and later loses a division sign; entry 5 swaps perpendicular-foot labels; entry 7 drops a square in a sine identity, gives an incorrect quadratic, and confuses BE with ED. The isogonal ratio identity avoids all length reconstruction."
+  },
+  {
+    "id": "2005-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_15",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries were reviewed. The discriminant, reflection, calculus, and affine-circle methods agree. The locus equivalence here explicitly checks positive radii and rules out the reversed internal-tangency interpretation; entry 3 has a malformed fraction in its derivative line."
+  },
+  {
+    "id": "2006-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source uses the same two right triangles; all numerical steps are sound."
+  },
+  {
+    "id": "2006-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries read. The first two give equivalent similarity arguments. The third has a reversed ratio, mixed-variable typographical errors, and an inconsistent final multiplication."
+  },
+  {
+    "id": "2006-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. Their trigonometric and diagonal parametrizations agree; endpoint degeneracy requires strict inequalities, and attainability follows from the continuous free angle."
+  },
+  {
+    "id": "2006-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed, including the diagram-only first entry. Pairwise half-turn symmetry supplies a rigorous certificate. Replacing disks by squares is not generally valid; the relevant source eventually checks the candidate geometrically."
+  },
+  {
+    "id": "2006-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. Volume ratios, plane coordinates, and a symmetry cross-section give equivalent derivations. The first diagram places the top at height 5 despite the stated height 4; the numerical proofs use 4 correctly."
+  },
+  {
+    "id": "2006-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The second explicitly justifies the 135-degree angles required for the rectangle dissection."
+  },
+  {
+    "id": "2006-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source has the correct strict bounds. These automatically guarantee positivity of the third side and the remaining triangle inequality."
+  },
+  {
+    "id": "2006-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_6",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries read. The Pythagorean and similarity methods agree. One trigonometric entry labels original unit sides by the new square side, a notation error avoided here."
+  },
+  {
+    "id": "2006-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_9",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source reaches the same tangent equations through several auxiliary right triangles; the inclination formula shortens the computation."
+  },
+  {
+    "id": "2006-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. Similarity and coordinate methods are sound. The longer Ptolemy entry confuses DF with EF and gives an incorrect angle in its chord formula; its final lengths agree with the sound methods."
+  },
+  {
+    "id": "2006-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_15",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries read. The geometric source proves triangle existence but does not fully justify its initial acute-angle assumption; the projection construction here supplies that missing link. The algebraic elimination offers an independent symmetric-polynomial derivation."
+  },
+  {
+    "id": "2007-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_9",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine entries reviewed, including the brief diagram-dependent homothety reference. Half-angle, coordinate, and excenter methods agree. The third entry swaps triangle-angle labels; the coordinate alternative remains a useful numerical check. The absolute-value branch is made explicit here."
+  },
+  {
+    "id": "2007-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_12",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries reviewed, including the diagram-only entry. The first dissection and coordinate equations support the result. The second has a malformed intermediate denominator; the third duplicates and then loses an area term in its final simplification."
+  },
+  {
+    "id": "2007-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. Their geometric decompositions agree. The first has reversed coefficient equalities while deriving the correct plane; the second calls the section vertex E instead of P. Projection supplies a shorter area calculation."
+  },
+  {
+    "id": "2007-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_15",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The first provides the efficient area-and-similarity reduction. The second chooses a radical sign without accounting for both configurations; the present argument verifies both roots geometrically."
+  },
+  {
+    "id": "2007-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_3",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries read, including the one-line coordinate suggestion. The square-completion, coordinates, and Ptolemy methods agree. One Ptolemy display mistakenly uses AO in place of OE; the trigonometric entry has an arcsine denominator typo."
+  },
+  {
+    "id": "2007-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_5",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2007-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_9",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries reviewed. Tangent-length subtraction is complete and avoids inradius calculations. The incenter-distance entry is only an unfinished sketch; the scaling alternatives give the correct difference."
+  },
+  {
+    "id": "2007-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The source correctly combines the two large-circle angular contributions with the small-circle arc. The instantaneous velocity relation here makes the no-slip accounting explicit."
+  },
+  {
+    "id": "2007-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_15",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries reviewed, including the generalized formula. Their similarity or homothety arguments agree. The simplified general expression r=rho R/(2rho+R) is valid for an existing configuration; arbitrary triangles also require checking that the fourth disk lies inside."
+  },
+  {
+    "id": "2008-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source correctly identifies the apex as beyond the opposite square side, then uses the same similar triangles."
+  },
+  {
+    "id": "2008-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source compares the traced circumference with seventeen base circumferences. The restatement makes its intended first-circuit meaning explicit."
+  },
+  {
+    "id": "2008-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The first gives the essential tight bounds. The second assumes the incorrect length AD=40 sqrt(7) and unsupported right-triangle angles, so it does not establish the result."
+  },
+  {
+    "id": "2008-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_14",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries reviewed; the external forum link in entry four was not opened. The trigonometric quadratic and reciprocal-distance methods are sound. Entry four has a squared-variable typo in AP; the final entry overstates the admissible altitude range, though its optimizer is feasible."
+  },
+  {
+    "id": "2008-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed, including the diagram-only entry. The first computes the unfolded offsets; the second uses direction cosines. Both give the same rigid-edge height relation."
+  },
+  {
+    "id": "2008-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_3",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The AM-GM proof is complete; the greedy alternative lists a successful path but leaves its global optimality assertion unstated."
+  },
+  {
+    "id": "2008-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_5",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight entries reviewed. The median and coordinate methods are complete. The third contains reciprocal and squared-trigonometric errors; the sixth substitutes 45-degree angles without proving invariance. The final rotation entry has several labeling and arithmetic typos."
+  },
+  {
+    "id": "2008-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_9",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed; the external Desmos link was not opened. The periodicity is correct. The second has a summation-index error, the fixed-center entry calls a positive-angle rotation clockwise, and the matrix entry asserts false pairwise cancellations even though the full eight-term sum is zero."
+  },
+  {
+    "id": "2008-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_10",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2008-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_11",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. The first and incenter-based third are sound. The second is garbled and dimensionally inconsistent; the fourth contains incorrect numerators in both its similarity ratio and final base-length equation."
+  },
+  {
+    "id": "2008-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. The inversion sketch, circular-segment construction, and polar integral agree. The geometric entry misstates the centers as angles k*pi/6; the six centers are spaced by pi/3. Boundary and omitted-origin conventions do not affect area."
+  },
+  {
+    "id": "2008-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_14",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries reviewed. The direct inequality proof is complete. The geometric alternatives need care at allowed zero endpoints; one mislabels x as sqrt(1-a^2), and the final entry reverses an angle bound. The present proof checks the boundary equality explicitly."
+  },
+  {
+    "id": "2009-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_4",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries reviewed. The vector and mass-point methods are rigorous. The first collapses the diagram to a line without justification; the last assumes a rectangle without first invoking affine invariance and also gives N an incorrect sign. Affine coordinates avoid both issues."
+  },
+  {
+    "id": "2009-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_5",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. The parallelogram-similarity proof is shortest. Mass points gives the same ratio; the lengthy cosine and area calculations are unnecessary and contain minor final-label errors."
+  },
+  {
+    "id": "2009-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_11",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The inference that the base is an integral multiple of twice the primitive lattice length requires the lattice-spacing condition; integrality of area alone is insufficient."
+  },
+  {
+    "id": "2009-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_12",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries reviewed. The tangent-length/Heron proof reveals a ratio independent of the given legs. The second contains area notation errors and a rational guess; the ruler-and-compass numerical estimate is explicitly not a proof. Trigonometric alternatives agree after their label errors are corrected."
+  },
+  {
+    "id": "2009-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. They obtain the correct fixed angle and upper bound but leave attainability of the middle of the arc implicit. The continuous-intersection argument and endpoint limits here supply that missing condition."
+  },
+  {
+    "id": "2009-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_3",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. Similarity, slopes, and vectors give the same equation. The auxiliary-parallelogram entry misses a square in one Pythagorean display."
+  },
+  {
+    "id": "2009-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source uses the same symmetry with a cosine rule, assuming the center lies below the origin. The two-branch calculation here proves that the selected location is the unique positive-radius option."
+  },
+  {
+    "id": "2009-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_10",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries reviewed. The reflection, Stewart, cosine, and sine methods agree. Some source diagrams use vertical leg 13 rather than 12, but their numerical derivations use the correct 5-12-13 triangle."
+  },
+  {
+    "id": "2009-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_13",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. The roots-of-unity proofs are complete. One paired-root index should be 7-k rather than k-7; the final solution misses a factor four when adding the diameter chord, though its final numerical expression restores the correct power."
+  },
+  {
+    "id": "2009-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_15",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries reviewed. The elementary cevian-ratio argument supplies both the bound and explicit equality. The cross-ratio alternatives have notation errors, and one omits the attainment check; the calculus methods agree with the same optimum."
+  },
+  {
+    "id": "2010-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_8",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source gives the correct radius but calls the half-open cells symmetric and does not explicitly prove that another center cannot improve it. Passing to the closure and using a diametral pair supplies both details."
+  },
+  {
+    "id": "2010-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source correctly identifies the triangular region and adds the two cone volumes."
+  },
+  {
+    "id": "2010-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_13",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries reviewed, including the diagram-only entry. The intended smaller-side calculation is correct, but the claim that the same side is always smaller is not valid over the full admissible height range. The explicit alternate-ratio exclusion here repairs that gap. Several entries also confuse NU with its horizontal projection or misprint sqrt(3) as sqrt(2)."
+  },
+  {
+    "id": "2010-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_15",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight entries reviewed, including the diagram-only entry and the homothety addendum. The contact-length sum gives the shortest elimination. Quartic/Stewart approaches are valid after sign filtering; several source displays omit factors or misuse a ratio, and the answer-range shortcut via the rational-root theorem is unnecessary."
+  },
+  {
+    "id": "2010-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_2",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The two inner-square areas are attached to the wrong distance thresholds. Their difference is nevertheless computed correctly."
+  },
+  {
+    "id": "2010-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_9",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed, including the diagram/setup entry and brief similarity suggestion. The coordinate-intersection entry misprints the y-coordinate of B in its line equation; the correct computed intersection agrees with the direct apothem method. Its external image link was not separately opened."
+  },
+  {
+    "id": "2010-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed, including the parity note. The main scaling calculation is correct, but integrality of the parameter in bases 16u and 14u requires the parity argument supplied here."
+  },
+  {
+    "id": "2010-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_14",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries reviewed. The sine-rule and power-of-a-point methods give the correct product. Several entries assert AP greater than BP without using the angle condition; the explicit angle comparison here selects the correct root. The long angle-bisector derivation also contains a denominator typo."
+  },
+  {
+    "id": "2010-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed, including the stated concurrency extension; its cited external reference was not opened. Power interpolation gives the shortest proof. The first general formula cancels an extra factor only because a-b=c-a=1 in this instance; the explicit numeric powers avoid overstating that cancellation."
+  },
+  {
+    "id": "2011-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_2",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Their similar-triangle or extended-segment constructions encode the same length-17 right triangle. One longer algebraic derivation has a squared-expression transcription error; the vector computation avoids it."
+  },
+  {
+    "id": "2011-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Signed distances avoid computing the intersection of the axes. The long coordinate alternative has a mistyped right-hand-side coordinate; the final projection entry is only an outline."
+  },
+  {
+    "id": "2011-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_4",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. Reflection gives the shortest proof; the cyclic-quadrilateral, trigonometric, and Ptolemy approaches are longer. One trigonometric transcription has an inconsistent final arithmetic line, which the direct length calculation avoids."
+  },
+  {
+    "id": "2011-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Each uses corner similarity and the first pair of legs to meet. The proof here explicitly checks all three edge constraints and attainment, allowing the two limiting fold lines to share a point."
+  },
+  {
+    "id": "2011-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The obtuse-triangle formula has an off-by-one error and does not produce the two values subsequently claimed. Trial values also do not prove exhaustiveness."
+  },
+  {
+    "id": "2011-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. The normal-vector identity gives a direct proof; the centroid-and-tilt construction reaches the same quadratic with more geometry. The nearest-vertex hypothesis selects the correct root."
+  },
+  {
+    "id": "2011-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries were reviewed. The projection interpretation gives the shortest route and avoids relying on an unproved symmetry of the intersection square. One alternative mistakenly calls the octagon a hexagon; its intended projection calculation is recognizable."
+  },
+  {
+    "id": "2011-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole entry was reviewed. It asserts the trisection without deriving it. The coordinate proof derives it and makes explicit the intended distinct-point convention: allowing E=D and F=B would create a different degenerate answer."
+  },
+  {
+    "id": "2011-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_3",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. The angle-sum equation supplies the parity condition sometimes left implicit in median arguments. The final entry incorrectly describes every angle as 160 before listing a progression; the intended average is 160."
+  },
+  {
+    "id": "2011-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_4",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine entries were reviewed, including one attribution-only entry. Mass points, Menelaus, and area ratios are valid routes. The barycentric entry reverses its final written fraction; another assumes a right triangle without explaining affine invariance. The vector argument works for every allowed shape."
+  },
+  {
+    "id": "2011-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_8",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries were reviewed, and the full statement was recovered from the alternate archive. The first projection method is sound. Later entries contain errors: sin(x)=cos(x+pi/2) has the wrong sign, the root angle is k*pi/6 rather than k*pi/12, and changing a root sign is not an allowed independent choice. Pairing the already-present opposite roots avoids those issues."
+  },
+  {
+    "id": "2011-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_10",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries were reviewed. The diameter-circle method avoids the vertex-order ambiguities of Ptolemy and trigonometric approaches. Several longer alternatives have mislabeled segments or angles; these do not affect the clean circumradius proof. One entry calls the circumcircle an inscribed circle."
+  },
+  {
+    "id": "2011-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_13",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine entries were reviewed, along with the extra solution accidentally attached to the primary statement. The diagonal-coordinate method is reliable and short. Several angle-chasing alternatives interchange circumcenter labels or omit factors of two; one coordinate entry misstates a midpoint while using the correct resulting line."
+  },
+  {
+    "id": "2012-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_8",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven stored alternatives inspected, including coordinate integration, cross sections, a frustum, and pyramid decomposition. The new proof specifies the missing diagram by coordinates and justifies exactly which part lies outside the cube before subtracting volumes."
+  },
+  {
+    "id": "2012-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The first archived sufficiency argument does not clearly enforce nonnegative jump counts. Taking a sufficiently large solution and assigning signs here proves actual reachability."
+  },
+  {
+    "id": "2012-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_12",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight stored entries inspected; the last is only an attribution line, not a proof. The others use the angle-bisector theorem, cosine/sine rules, altitudes, or a circumcircle. Several contain swapped labels or missing factors; the angle-bisector route here keeps the construction and side ratios explicit."
+  },
+  {
+    "id": "2012-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_13",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored alternatives inspected. They use a 60-degree rotation, angle equations, Fermat/pedal geometry, coordinates, or another rotation construction. The first assumes an interior center, while the coordinate route handles both configurations. The new proof explicitly reconstructs the center for both algebraic roots and therefore proves the maximum is attainable."
+  },
+  {
+    "id": "2012-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_14",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven stored entries inspected. The second and fourth assume real coefficients or an isosceles triangle without authorization; a source comment recognizes this defect. The new proof works for arbitrary complex coefficients and needs only the zero root sum and the right angle."
+  },
+  {
+    "id": "2012-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both stored entries inspected. They derive the same unordered pair and use the long-side condition to choose it. The new exposition explicitly verifies that D lies inside the south edge."
+  },
+  {
+    "id": "2012-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole stored solution inspected. The new restatement describes the net without its drawing and the proof justifies that the apex lies above the center."
+  },
+  {
+    "id": "2012-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both stored alternatives inspected. One uses vector direction and the other arguments. The new proof gives the explicit triangle-inequality equality condition and checks the upper-half-plane square-root restriction."
+  },
+  {
+    "id": "2012-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_13",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored alternatives inspected, using angle-sum cosines, complex rotations, or paired cosine rules. The new proof isolates the common cancellation as a two-rotation vector identity, avoiding the labeling and repeated-term typos in some entries."
+  },
+  {
+    "id": "2012-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_15",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six stored alternatives inspected: inversion with reflection, trigonometric projection, a symmedian argument, an auxiliary diameter, angle chasing, and a longer inversion computation. Several have missing labels or incorrect general factors. The new coordinate proof subtracts the two circle equations and verifies the second intersection directly."
+  },
+  {
+    "id": "2013-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_3",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven stored entries inspected. They use area complements, normalization, Vieta, or an explicit quadratic. The present argument retains the common invariant and explains why the square cells are opposite."
+  },
+  {
+    "id": "2013-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_7",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six stored entries inspected, including altitude, vector, Heron, de Gua, cosine-rule and expanded-Heron routes. One Heron entry displays an extraneous factor 1/2; the independently written cross-product computation avoids that transcription error."
+  },
+  {
+    "id": "2013-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_9",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries inspected: trigonometric, equal-distance, similarity, coordinate, and a sketch-only Heron route. The last entry is incomplete and has compressed numeric transcription; it is not treated as an additional complete proof."
+  },
+  {
+    "id": "2013-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_12",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven stored entries inspected. Several assume the touching vertex from a diagram; the new proof certifies it by a supporting linear functional. The second stored entry has an incorrect line intercept (5+√3 instead of 5+3√3). The fifth uses undefined auxiliary labels without a retained diagram and is not regarded as a self-contained textual proof."
+  },
+  {
+    "id": "2013-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_13",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four stored entries inspected. They sum either the target pieces or their complements. Several display inconsistent series powers or a missing original-area factor. The fourth incorrectly calls 961 prime; the final reduction here explicitly uses 961=31² and checks the numerator modulo 31."
+  },
+  {
+    "id": "2013-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_4",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven stored entries inspected: perpendicular-bisector, complex rotation, slope, matrix, circle-intersection, midpoint-vector, and complex quadratic routes. The first has a final summand typo; the new proof explicitly checks both rotated vertices."
+  },
+  {
+    "id": "2013-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_5",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored alternatives inspected: double angle, area ratio, complex quotient, cosine rule, and dot product. The fourth initially labels the cosine-rule angle incorrectly; the area argument bypasses that typo and unnecessary inverse trigonometry."
+  },
+  {
+    "id": "2013-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_8",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight stored entries inspected. The first is diagram code only; the others use trigonometry, trapezoid coordinates, Ptolemy, or similarity. The new proof justifies the diameter and symmetry that most entries assume from the figure. A squared-equation alternative selects a branch from the answer format; the present quadratic has only one positive root."
+  },
+  {
+    "id": "2013-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_10",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries inspected. Four contain arguments and one is a link-only pointer, whose linked page is not claimed separately reviewed. The first has a sign error in its radical area expression and does not justify its maximum. The constant-height-ratio route is retained with an explicit construction proving equality is feasible."
+  },
+  {
+    "id": "2013-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_13",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine stored entries inspected: Stewart, cosine-rule systems, mass points, Cartesian and barycentric distances, and a right-angle approach. Some cosine formulas omit factors, and the right-angle route labels a full segment length incorrectly. The coordinate proof gives a short complete feasibility check."
+  },
+  {
+    "id": "2013-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_15",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six stored entries inspected. They all choose positive cosines without proving the angle branch; one comment mentions an acute-triangle wording not present in the reviewed statement. The new solution keeps both feasible branches and uses the explicitly prescribed negative-radical form to select the requested one. Other sign/transcription errors in the alternatives do not affect the independently derived identity."
+  },
+  {
+    "id": "2014-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source uses the same six-diagonal decomposition; all dimensions and lace connections are stated explicitly here."
+  },
+  {
+    "id": "2014-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The source identifies consecutive vertices; this proof supplies the missing linearization and converse."
+  },
+  {
+    "id": "2014-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three sources inspected. Differentiation, an AM-GM cosine bound, and the tangent-circle construction agree. The geometric tangent proof avoids calculus."
+  },
+  {
+    "id": "2014-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both sources inspected. Arc-length reasoning and the extra revolution of external rolling give a 60-degree center displacement. Coordinates shorten the final trigonometry."
+  },
+  {
+    "id": "2014-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_11",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2014-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_13",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. Two rigorous area/projection arguments and a related similarity calculation agree. Index 2 merely guesses Pythagorean-type representations from the answer format and is not used as a proof."
+  },
+  {
+    "id": "2014-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_15",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven sources inspected. Equal chords identify the angle bisector and the 3:4 chord ratio identifies the hypotenuse midpoint. Source methods finish with power of a point, Ptolemy, or trigonometry; a circle equation supplies a compact independent finish."
+  },
+  {
+    "id": "2014-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_3",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both sources inspected. Heron and a direct altitude computation give identical triangle areas; the latter is shorter."
+  },
+  {
+    "id": "2014-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. Direct coordinates, a cosine-law calculation, and Descartes after reflection agree. The independent coordinate argument checks the horizontal-sign choice explicitly."
+  },
+  {
+    "id": "2014-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. Algebraic factorization, direct coordinates, and complex-angle interpretations all identify the equilateral triangle."
+  },
+  {
+    "id": "2014-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_11",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three source solutions inspected. The midpoint-parallelogram relation reduces the construction to CD/2; direct coordinates then give the required radical."
+  },
+  {
+    "id": "2014-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. The sum-to-product solution is complete. The first introduces unsigned square roots for sine values, and the last simply guesses 120 degrees from answer integrality; these arguments are not used."
+  },
+  {
+    "id": "2014-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five sources inspected. Several synthetic constructions are much longer; the shared short relation AP=HM follows directly from a 30-degree projection. One alternative misprints cos 60 where cos 30 is intended."
+  },
+  {
+    "id": "2015-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Coordinates give a short direct area calculation; the rotation approach additionally observes that BMN is equilateral."
+  },
+  {
+    "id": "2015-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The two angular step sizes reduce the configuration to two linear equations. The third alternative has a mislabeled intercepted arc; the equations here specify each angle."
+  },
+  {
+    "id": "2015-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The two rigorous alternatives use the same 1:2 right-triangle structure; the final alternative explicitly estimates a drawing with a ruler and is not a proof."
+  },
+  {
+    "id": "2015-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_11",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. They derive equivalent rational formulas by half-angle identities, bisector lengths, or tangency. The four-case integer check establishes uniqueness as well as minimality."
+  },
+  {
+    "id": "2015-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. One uses a direct affine stretch, one justifies it by narrow strips, and one integrates the same section. The projection method avoids calculus."
+  },
+  {
+    "id": "2015-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Each reduces to a 3-4-5 triangle; one changes the logarithm base without explaining that this uniformly rescales all lengths."
+  },
+  {
+    "id": "2015-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_5",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2015-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_7",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. They obtain the same height-width relation through similarity, a parallelogram, or special widths. Direct similarity works for every admissible width."
+  },
+  {
+    "id": "2015-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_9",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. They use right-tetrahedron volume, a perpendicular altitude, or De Gua. The size checks explain why the corner-section model is valid for the specified cube and cylinder."
+  },
+  {
+    "id": "2015-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_11",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Similarity, a cyclic-quadrilateral power argument, and reflection give the same product identity. A long trigonometric alternative uses an unsupported sign selection; the invariant product avoids it."
+  },
+  {
+    "id": "2015-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_15",
+    "available_entries": 11,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "review": "All eleven alternatives inspected. Homothety makes the equal-area condition a linear signed-distance equation. The coordinate and tangent-secant methods are efficient; several longer angle-chasing alternatives contain reversed homothety ratios or mislabeled lengths, so every sign and coordinate is derived explicitly here."
+  },
+  {
+    "id": "2016-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2016-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The second labels BC as a variable slant edge incorrectly, but its final midpoint equation is valid. The perpendicular cross-section gives the result directly."
+  },
+  {
+    "id": "2016-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_6",
+    "available_entries": 12,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "review": "All twelve stored entries inspected, including one author-only entry. Several alternatives assume the triangle is isosceles without justification; another mislabels the excenter. The angle proof works for every triangle and needs neither assumption."
+  },
+  {
+    "id": "2016-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_9",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored alternatives inspected. The final entry explicitly warns that 744 violates the side condition. The licensed LIVE archive independently confirms the same lengths and segment wording, but also incorrectly asserts the equality configuration is allowed."
+  },
+  {
+    "id": "2016-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2016-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_15",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. Miquel plus radical axes exposes the midpoint relation and the difference-of-squares invariant. Longer Stewart and linear-power proofs reach the same identity; one source is only an unannotated formula fragment."
+  },
+  {
+    "id": "2016-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_5",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. The geometric-series derivation is reliable; several finish by guessing a triple or choose the wrong parity orientation in Euclid’s parametrization. Eliminating with the Pythagorean identity proves the unique primitive ratio."
+  },
+  {
+    "id": "2016-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single source states the area geometric progression and the extrema. The explicit divisibility condition supplies a complete proof that no larger integer middle area is possible."
+  },
+  {
+    "id": "2016-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_10",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Cross-ratio invariance and Ptolemy are valid alternatives, but one similarity and one area ratio already determine the desired chord."
+  },
+  {
+    "id": "2016-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_14",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. The common-sphere condition fixes the product of the heights; the dihedral angle fixes their sum. Several longer coordinate proofs introduce unnecessary radicals or contain mislabeled angles, while this pair of invariants avoids them."
+  },
+  {
+    "id": "2017-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2017-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_4",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Circumradius immediately determines the height. Some longer displayed volume computations omit a factor 1/3 or mis-evaluate a radical, despite reporting the correct final result."
+  },
+  {
+    "id": "2017-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2017-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_8",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2017-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_10",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight stored entries inspected; the first four are connected pieces of one geometric discussion. Some assert angle equality without its moduloπ qualification, and one informally includes the undefined point z 3. The circle-locus formulation handles both issues."
+  },
+  {
+    "id": "2017-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_15",
+    "available_entries": 13,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "review": "All thirteen alternatives inspected. Coordinate rotation and a point-to-line distance give the shortest proof. Many sources omit the equality placement or mislabel side length versus its square; the explicit feasible coordinates establish attainment."
+  },
+  {
+    "id": "2017-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_3",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2017-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The area comparison explicitly locates P on CO before the base-height calculation; this location is merely asserted in the sources."
+  },
+  {
+    "id": "2017-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_12",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Center displacements give the complex series directly and prove uniqueness of the common point. One invariant-based alternative has an inverted squared-distance formula; the last coordinate alternative prints 538 where the imaginary numerator should be 539."
+  },
+  {
+    "id": "2017-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2017-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2017-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Symmetrization also proves the centroid minimizes the sum, but one source invokes central symmetry incorrectly: a tetrahedron is not centrally symmetric. The equal-radius and zero-vector-sum inequality proves the minimum globally."
+  },
+  {
+    "id": "2018-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_4",
+    "available_entries": 13,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "review": "All thirteen alternatives inspected. Many introduce additional altitudes, coordinates, or angle chasing; the two cosine-law equations suffice. The interior-point condition justifies removing the otherwise extraneous solution x=10."
+  },
+  {
+    "id": "2018-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_7",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six sources inspected. Counting equal-distance neighbor pairs at each apex gives 60, then subtracting twice each of four equilateral triangles gives 52. Some alternative geometric casework is informal; index 2 calls the equilateral side length 1 although it is $\\sqrt{3}$. The independent distance-multiplicity argument is complete."
+  },
+  {
+    "id": "2018-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_8",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. They identify the limiting parallel sides but rely on a drawing to assert the disk clears the other four sides. The explicit center and six distances verify feasibility."
+  },
+  {
+    "id": "2018-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_13",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The sine-law proof explicitly isolates the variable angle. One alternative assumes without proof that minimizing AX minimizes the target area; another develops the valid general identity area=r·AX/2 but drops a factor 1/2 in an intermediate displayed line."
+  },
+  {
+    "id": "2018-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_15",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries inspected, including an author-only entry. The half-arc argument is short but needs supplementary-angle care because the specified diagonal angles are acute. The side-product proof uses only their sines and avoids that ambiguity."
+  },
+  {
+    "id": "2018-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Their diagram-dependent labels are replaced by explicit coordinates and all intersection lines, making the six-region decomposition self-contained."
+  },
+  {
+    "id": "2018-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The squarefree kernel 6 controls the rational indices. The problem includes the base segment; it is irrational and does not alter the count, but the inclusive indexing is retained."
+  },
+  {
+    "id": "2018-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_9",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The midpoint homothety avoids seven separate centroid computations. The explicit octagon coordinates describe the original 23-by 27 rectangle with 6-8-10 corner triangles removed, without relying on its diagram."
+  },
+  {
+    "id": "2018-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_12",
+    "available_entries": 11,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "review": "All eleven alternatives inspected. Several discard one of the two possible bisected diagonals without proof or incorrectly claim one case makes a parallelogram. The explicit label symmetry preserves all side data, so it rigorously handles both cases."
+  },
+  {
+    "id": "2018-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Sine-law ratios give the harmonic relation directly. Projective polarity and Brianchon are alternatives, but the final projective proof assumes a special normalization without establishing all of its required incidences."
+  },
+  {
+    "id": "2019-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_2",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "The symmetry, order-statistic, and direct pair counts agree; the original proof specifies the uniform subset model."
+  },
+  {
+    "id": "2019-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_3",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Corner-area subtraction avoids the coordinate calculations for the hexagon itself."
+  },
+  {
+    "id": "2019-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_6",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine alternatives inspected. Two similarities give the product identity without needing MN. One source invokes power at K in a circle containing K, which is not the stated product; the projection proof avoids that mistake."
+  },
+  {
+    "id": "2019-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_11",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Normalizing the base makes the three radii and center distance explicit. Positivity excludes the extraneous negative quadratic root, and coprimality proves the minimum integral scale."
+  },
+  {
+    "id": "2019-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_12",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Factoring the differences first reduces the fourth-degree iterate to a quadratic expression. The nonzero-side and nonzero-quotient checks ensure the formal right-angle condition really gives a triangle."
+  },
+  {
+    "id": "2019-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_13",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Similarities determine the intersection coordinate before power gives the remaining length. Some alternatives mislabel angle C as angle A or write BE where they have computed XE; those slips do not affect the corrected derivation."
+  },
+  {
+    "id": "2019-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_15",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. The center parallelogram proves the midpoint claim directly. The answer-format guessing alternatives do not prove that claim and are not used."
+  },
+  {
+    "id": "2019-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_1",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine alternatives inspected. Several coordinate alternatives swap the 10 and 17 sides or write 16 instead of 15, and one defines the intersection of parallel bases. The explicit distance equations and actual diagonal intersection avoid these errors."
+  },
+  {
+    "id": "2019-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. An affine-coordinate calculation proves the common scale factor directly; it also explains the equilateral-distortion illustration without assuming Euclidean lengths survive an arbitrary affine map."
+  },
+  {
+    "id": "2019-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_11",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Inversion reduces the circle configuration to a parallelogram and gives the general formula $AK=AB\\cdot AC/(2AM)$. The longer coordinate and trigonometric alternatives contain isolated transcription errors but agree on the length."
+  },
+  {
+    "id": "2019-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Subtracting the central area 1/8 cancels the circular caps and makes the normal-vector relation immediate, without computing the circle radius."
+  },
+  {
+    "id": "2019-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_15",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries inspected, including an author-only entry. The two circle powers reduce the system to one variable. The orthic-triangle alternative is valid but introduces extra half-angle calculations."
+  },
+  {
+    "id": "2020-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_1",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries inspected, including an author-only entry. Following exterior angles gives a three-step chase; several longer accounts mislabel an intermediate angle."
+  },
+  {
+    "id": "2020-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The vertical-plane cross-section gives one equation and a required sign check. The radical-axis approach is valid but substantially longer."
+  },
+  {
+    "id": "2020-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_8",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven alternatives inspected. Complex summation and coordinate sums agree. The final source incorrectly replaces the square of a sum by the sum of squares; it happens to reach the same number, but its omitted cross terms require justification and the argument is not used."
+  },
+  {
+    "id": "2020-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_13",
+    "available_entries": 12,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "review": "All twelve alternatives inspected. Coordinates remove the diagram-dependent auxiliary constructions. Some synthetic alternatives interchange E,F or write $3\\sqrt3$ for the bisector length $3\\sqrt2$; these transcription slips are avoided."
+  },
+  {
+    "id": "2020-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_15",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. The reflected orthocenter fixes the altitude immediately. Explicit circle equations supply the remaining length without assumptions about the relative positions of auxiliary circumcenters."
+  },
+  {
+    "id": "2020-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_2",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both area decompositions agree. The vertical line has measure zero and does not affect the probability."
+  },
+  {
+    "id": "2020-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_4",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. The displacement vector determines the angle before the center is solved. The matrix alternative has a copied right-hand side error, and the final trigonometric alternative misstates one distance."
+  },
+  {
+    "id": "2020-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. They evaluate the radius at O but do not rigorously justify that a displaced center cannot improve it; one asserts every maximizing center must lie on both axes. The summed supporting-plane inequalities establish the required global bound."
+  },
+  {
+    "id": "2020-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Source 0 states an imprecise modular slope criterion. Source 1 and the new proof use the signed horizontal displacement and exclude slopes of absolute value 1."
+  },
+  {
+    "id": "2020-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_13",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. Monotonic angle closure verifies r=4 and excludes the spurious small root of the quartic without extra geometric casework. The approximation and answer-format guessing alternatives are not proofs."
+  },
+  {
+    "id": "2020-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The projection parallelogram turns the requested expression into a diagonal identity. The last alternative prints 153 for 135 and mixes a squared length with a square root; the geometric identity and corrected arithmetic give 717."
+  },
+  {
+    "id": "2021-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_2",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. The placement conditions from the original diagram are included explicitly. Several longer coordinate alternatives contain expanded-square slips; the two similarity ratios determine the overlap directly."
+  },
+  {
+    "id": "2021-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_6",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The identity holds for any point in three-dimensional space, so no assumption that P is inside the cube is needed. The affine-function alternative calls a function linear when it is generally affine; the cancellation identity remains valid."
+  },
+  {
+    "id": "2021-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_9",
+    "available_entries": 10,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "review": "All ten alternatives inspected. The three-altitude reduction gives a 5:6:9 triangle and avoids simultaneous radical equations. Some alternatives mislabel feet or equate angles from the wrong cyclic quadrilateral; the area-ratio method does not use those steps."
+  },
+  {
+    "id": "2021-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_11",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six stored entries inspected, including the common introductory proof. The projection relation and alternating squared-side identity are valid. One alternative incorrectly assumes equal diagonals of length $\\sqrt{59}$; its appended repair recovers the product-based argument."
+  },
+  {
+    "id": "2021-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_13",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine alternatives inspected. The affine power proof avoids signed-distance assumptions. Several coordinate versions reverse the radii in a signed formula, while the special-radius and infinite-radius arguments do not justify replacing the given configuration."
+  },
+  {
+    "id": "2021-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The circle equation is elementary; one longer focal-parameter source gives an incorrect radius formula. The sign-interval proof replaces sketch-based claims that four intersections exist and handles the boundary k=5 explicitly."
+  },
+  {
+    "id": "2021-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_2",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The 120-degree angle identifies which sides of the isosceles triangle are equal, preventing an ambiguous isosceles case split."
+  },
+  {
+    "id": "2021-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_5",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. Monotonicity on the two angle branches establishes the exact number of congruence classes and the endpoint inclusion. The final source has a missing square in a sine radical and reverses a monotonicity assertion."
+  },
+  {
+    "id": "2021-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_8",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Source 4 multiplies dependent marginal probabilities and therefore gives an invalid derivation, even though cancellation happens to produce the correct linear recurrence. The four last-edge states, or a properly conditioned two-step recurrence, are sufficient."
+  },
+  {
+    "id": "2021-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Projecting the sphere-center triangle first gives a 24-unit altitude and avoids the more complicated radical distances between the center plane and the common line."
+  },
+  {
+    "id": "2021-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_12",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries inspected, including a standalone formula note. The diagonal identity works for every convex quadrilateral; an alternative begins with a cyclic-only Ptolemy identity, which cannot be assumed here, though its final general tangent formula is correct."
+  },
+  {
+    "id": "2021-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Most use the intended diagram to choose angle orientation. The acute-triangle bounds select the correct supplementary branch explicitly, making the proof independent of the drawing."
+  },
+  {
+    "id": "2022-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_3",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. The right-angle and midpoint argument avoids coordinates and trigonometric expressions. A source writes the cosine double-angle identity with the wrong sign; it is unnecessary here."
+  },
+  {
+    "id": "2022-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_5",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Equal-time symmetry makes the two horizontal ground velocities opposites; subtracting their squared speeds eliminates the crossing speed immediately."
+  },
+  {
+    "id": "2022-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Explicit center coordinates distinguish the inner and outer intersection triangles and avoid ambiguous diameter statements in the introductory source."
+  },
+  {
+    "id": "2022-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The same-side condition fixes the height signs; the rest follows from two applications of the Pythagorean theorem."
+  },
+  {
+    "id": "2022-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_11",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. Tangent powers give 6 and 20 immediately; coordinates along the two parallel contact lines then avoid mislabeled lengths in several longer solutions."
+  },
+  {
+    "id": "2022-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The cleaver direction is proved by a vector calculation. A short bounded search after extracting the factor 3 replaces unsupported uniqueness claims or a much longer Eisenstein-integer argument."
+  },
+  {
+    "id": "2022-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Equating squared distances on the symmetry axis gives a linear equation for the sphere center."
+  },
+  {
+    "id": "2022-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The external center and a 3-4-5 right triangle determine both altitude and base directly."
+  },
+  {
+    "id": "2022-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_9",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "The fan-insertion and planar Euler counts agree. The no-triple-crossing hypothesis is essential for counting intersections by endpoint pairs."
+  },
+  {
+    "id": "2022-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_11",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven alternatives inspected. Reflection gives a short coordinate derivation without an unproved similarity. Several alternatives contain mislabeled angle variables or a typographical AM-squared identity; the final barycentric approach is also valid once its extended-line configuration is established."
+  },
+  {
+    "id": "2022-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_12",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single stored solution inspected. Pairing the foci proves the bound, and the explicit segment intersection verifies simultaneous equality and both strict parameter restrictions."
+  },
+  {
+    "id": "2022-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The opposite-angle cosine identity supplies the length product attributed only to an SSA observation in the last source. This makes the Ptolemy product proof explicit; the reflection alternatives have inconsistent prime labels and the long central-angle source incorrectly calls a common chord a perpendicular bisector."
+  },
+  {
+    "id": "2023-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_1",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine stored solutions inspected. Diameter selection, sequential placement, sequential opposite-partner exposure, and labeled arrangements all give 48/143. Each method must consistently distinguish labeled positions from rotations; the independent diameter-subset count avoids extra symmetry factors."
+  },
+  {
+    "id": "2023-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_5",
+    "available_entries": 10,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "review": "All ten alternatives inspected. Altitudes to the two perpendicular diameters yield the answer with no choice of arc or angle. The longer trigonometric and coordinate alternatives agree after several mislabeled lines and factors are corrected."
+  },
+  {
+    "id": "2023-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_8",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Several proofs select perpendicular-foot orders from the diagram. The negative dot product of inward normals uses the stated acute angle to choose the branch rigorously."
+  },
+  {
+    "id": "2023-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_12",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Summing projections eliminates the unknown point and handles the signs automatically. Some cosine-law alternatives incorrectly obtain a negative cosine, and the final cyclic-Ptolemy calculation contains incorrect intermediate lengths; the independent projection proof avoids these defects."
+  },
+  {
+    "id": "2023-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_13",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The determinant treats all sign patterns at once and explains why only two volumes occur. The tetrahedron alternatives are shorter numerically but require establishing their symmetric vertex choices."
+  },
+  {
+    "id": "2023-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_3",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven alternatives inspected. The direct similarity proof avoids a separate Brocard-angle formula. Some sources mislabel APC as 135 degrees or state AB=BC; the corrected angle and side correspondences are explicit."
+  },
+  {
+    "id": "2023-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_6",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. Complementary conditioning on diagonally separated unit squares gives a one-quarter conditional failure chance. Integration, coordinate independence, and four-point symmetry average are equivalent. The independent proof uses coordinate independence and symmetry."
+  },
+  {
+    "id": "2023-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. Every inscribed rectangle uses two diameters, so monochromatic opposite-pair counts give a complete three-case classification. All reach 928."
+  },
+  {
+    "id": "2023-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_9",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. They assume X,P,Y occur in that order from a diagram; the same-side contradiction establishes it. The nearer-tangent condition selects the correct secant root."
+  },
+  {
+    "id": "2023-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_12",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Constructing the central reflection uses the uniqueness explicitly supplied by the problem. Several alternatives have transcription slips in their sine-law ratios or AQ/PM labels; none is needed in the short construction."
+  },
+  {
+    "id": "2023-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Orthogonal components derive the edge length without an assumed drawing scale. Subtracting two tetrahedra gives the exact water volume without calculus or an unproved frustum identification."
+  },
+  {
+    "id": "2024-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_5",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. The figure places the rectangles on opposite sides of the common baseline; the restatement states this explicitly. Power gives a quadratic with a unique positive root. The final ruler-and-compass estimate is not a proof."
+  },
+  {
+    "id": "2024-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_8",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The raw statement omits the all-circles tangent-to-BC condition conveyed by its figure and misnames one end side; the restatement makes the diagram configuration explicit. An isosceles assumption in one source and a collinearity claim in another are unnecessary."
+  },
+  {
+    "id": "2024-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_9",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four stored entries inspected. One entry explicitly warns that its square argument is wrong, and another merely guesses a product of constants. The slope interval proves both the bound and its sharpness."
+  },
+  {
+    "id": "2024-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_10",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The ratio from the equal tangents and one Ptolemy equation avoid computing the remote tangent intersection or invoking an unproved median-symmedian similarity."
+  },
+  {
+    "id": "2024-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both source solutions enumerate blue-set shapes. Their small-support sufficiency arguments are informal. The independent difference-set bound and shift-cycle classification replace the shape testing."
+  },
+  {
+    "id": "2024-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_14",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven alternatives inspected. The box coordinates are checked against the exact labels, which several sources swap. A trigonometric source has an incorrect cosine and sine calculation, and the final volume-subtraction note omits a factor 1/2; the direct distance formula avoids both."
+  },
+  {
+    "id": "2024-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Symmetry alone does not prove two edges are equal at an optimum. The compactness and root-perturbation argument supplies that step, and comparing both positive double-root candidates establishes the global maximum."
+  },
+  {
+    "id": "2024-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Similarity proves the result; the scale-drawing trial in the other alternative is not an exact argument."
+  },
+  {
+    "id": "2024-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_8",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The axial section and the ratio along the line of centers determine the contact radii directly."
+  },
+  {
+    "id": "2024-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_10",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine stored entries inspected, including the introductory setup and theorem proof. The side-sum relation avoids Euler’s center-distance formula entirely. The angle chase proving the arc-midpoint lemma is included rather than assumed."
+  },
+  {
+    "id": "2024-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_12",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. A stationary envelope calculation alone does not prove that exactly one segment passes through the point. Strict convexity and endpoint divergence provide the necessary-and-sufficient uniqueness argument."
+  },
+  {
+    "id": "2024-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three source solutions inspected. They split six direction classes into two symmetric triples, obtaining 51 and 54 per orientation. The independent chord-coordinate table verifies the segment-length restrictions without relying on missing diagrams."
+  },
+  {
+    "id": "2025-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_2",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The determinant calculation makes the area-preservation claim exact. One source is truncated, and another incorrectly declares DE and FG parallel to BC and describes a collinear reflected triangle as congruent; neither affects the independent coordinate proof."
+  },
+  {
+    "id": "2025-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_6",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. The tangent-length identity and one right triangle establish the result without quoting a special trapezoid-radius formula."
+  },
+  {
+    "id": "2025-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_8",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The distance-to-line equation proves there are exactly two parameter values. A source’s arbitrary opposite-point experiment is unnecessary and includes a pair that is not diametrically opposite."
+  },
+  {
+    "id": "2025-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_9",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. One incorrectly claims equal distances force equal y-coordinates, overlooking another algebraic branch; another equates coordinates of differently parameterized points. The reflection construction uses only the uniqueness explicitly supplied by the problem."
+  },
+  {
+    "id": "2025-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_12",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Translating by 1 reveals the sign structure and divides the positive-coordinate simplex into six congruent regions. This avoids a diagram-only identification and swapped vertex coordinates in one source."
+  },
+  {
+    "id": "2025-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both sources inspected. Incremental regions and pair-crossing expectations agree. Source index 1 calls all 30 remaining quadrant-pair cases shared-one-quadrant cases, overlooking six identical pairs; these also have crossing probability one-half, so the result survives the inaccurate description."
+  },
+  {
+    "id": "2025-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. A lower bound alone does not establish simultaneous cyclic equality. Explicit coordinates for the perpendicular-foot witness verify attainment and avoid assuming an optimizer lies on BE before proving it."
+  },
+  {
+    "id": "2025-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Only CD and BE are needed; solving for all five adjacent gaps adds no information."
+  },
+  {
+    "id": "2025-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The specified cyclic order identifies the relevant minor arcs. The second source uses inconsistent labels for some medial angles; the direct angles at F and D avoid that ambiguity."
+  },
+  {
+    "id": "2025-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_6",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The direct coordinates encode both near-side conditions. One ruler-based alternative is not a proof and also gives the wrong diagonal-square equation; the independent area equations establish the 2:1 ratio."
+  },
+  {
+    "id": "2025-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_11",
+    "available_entries": 0,
+    "reviewed_indices": [],
+    "review": "No solution text occurs in the downloaded source record. Independent equal-chord graph decomposition gives 113."
+  },
+  {
+    "id": "2025-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Only nine consecutive product equations are given; one source adds an unwarranted closing radial-product equation, though it happens to be consistent with the alternation. The authored proof uses precisely the nine specified triangles."
+  },
+  {
+    "id": "2025-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_14",
+    "available_entries": 12,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "review": "All twelve alternatives inspected, including the incomplete entries and linked-diagram note. Many solve for every coordinate or rely on a particular drawing orientation. The positive differences a−d,b−c and their product determine the area directly without choosing either symmetric coordinate solution."
+  },
+  {
+    "id": "2026-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_3",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. A right-triangle calculation and a power-of-a-point construction agree; the containment inequality also proves that every point inside the boundary disk is feasible."
+  },
+  {
+    "id": "2026-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_5",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. The parallelogram and half-angle methods give the correct cosine. Source 3 equates a squared distance to 4/3 instead of 16/9; source 0 also describes a rotation around the wrong center in its final note. Explicit rotation vectors avoid both slips."
+  },
+  {
+    "id": "2026-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Coordinate rotation, circumcenter triangles, and quadrilateral decomposition agree. The clean alternate statement accidentally loses the primes in A′C′; the main statement and all solutions retain the intended perpendicular pair. Several source displays and some vertex orders are corrupted; the explicit branch determinants and diagonal-area calculation supply a complete check."
+  },
+  {
+    "id": "2026-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Source 0 asserts coplanarity of the centers without explanation, source 1 proves it implicitly through signed distances, source 2 invokes linearity informally, and source 3 uses the intersection line of the tangent planes. The affine equation establishes the common missing justification and the explicit second plane verifies existence."
+  },
+  {
+    "id": "2026-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives read. The extended-side constructions and complex-vector closure lead to the same two equations for adjacent and nonadjacent products. Source 2 guesses the missing rational cancellation from the requested answer form and is not a proof. The closure identity determines it without guessing."
+  },
+  {
+    "id": "2026-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three archived solutions were read; their structural arguments have gaps or false claims. The independent two-diagonal corner-loop lemma proves the Catalan formula rigorously. See the detailed Catalan-loop addendum."
+  },
+  {
+    "id": "2026-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole stored alternative read. Its rectangle-and-two-triangles calculation is correct, but it leaves the geometric branch and the positivity of the horizontal offset implicit. Coordinates justify both before counting the residue class."
+  },
+  {
+    "id": "2026-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_6",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. The normal-slope and derivative methods are valid. A discriminant in y alone misses the vertex tangency unless treated separately. Source 3 estimates a radius and assumes it is an integer because of the contest format; that is not a proof. The parameter derivative lists all tangencies exactly."
+  },
+  {
+    "id": "2026-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Source 0 introduces an integer substitution after normalization without proving it and then guesses the root. Source 1 mislabels the base as BC but contains the intended half-angle reduction. Source 2 finds a working example without proving minimality. The factored cubic proves the unique shape, and divisibility by 10 then proves the minimum."
+  },
+  {
+    "id": "2026-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Source 0 explicitly notes an international sum variant. Source 1 initially lets the common factor be real and then infers integer divisibility without stating why; BD,CD integral and coprime ratio 8:9 supply that step. The completed converse checks triangle existence and segment intersections for every candidate. The main maximum answer 340 and alternate sum answer 850 are retained separately."
+  },
+  {
+    "id": "2026-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. A coordinate model and two perpendicular cross-sections give the same centers. The second source calls a midpoint separation EF despite using M,N elsewhere; its numerical value 12 is correct. Explicit opposite-edge placement makes the symmetry and plane-distance calculations self-contained."
+  }
+]

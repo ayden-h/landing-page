@@ -1,0 +1,486 @@
+{
+  "total": 80,
+  "passed": 80,
+  "checks": [
+    {
+      "id": "2014-I-03",
+      "check": "Enumerate all499 possible numerators",
+      "result": "passed",
+      "value": "200"
+    },
+    {
+      "id": "2014-I-08",
+      "check": "Exhaust all four-digit residues satisfying idempotence",
+      "result": "passed",
+      "value": "[9376]"
+    },
+    {
+      "id": "2014-II-04",
+      "check": "Exhaust the digit equation",
+      "result": "passed",
+      "value": "[(4, 4, 7)]"
+    },
+    {
+      "id": "2015-I-08",
+      "check": "Exhaust all smaller candidates and verify first witness",
+      "result": "passed",
+      "value": "695"
+    },
+    {
+      "id": "2015-I-10",
+      "check": "Enumerate equal-sum root triples",
+      "result": "passed",
+      "value": "[(1, 5, 6), (2, 3, 7)]"
+    },
+    {
+      "id": "2015-I-11",
+      "check": "Exact four-case integer test",
+      "result": "passed",
+      "value": "[(12, Fraction(48, 1))]"
+    },
+    {
+      "id": "2015-II-03",
+      "check": "Exhaust smaller multiples of17",
+      "result": "passed",
+      "value": "476"
+    },
+    {
+      "id": "2015-II-06",
+      "check": "Exhaust positive ordered square triples",
+      "result": "passed",
+      "value": "[(1, 4, 8), (3, 6, 6), (4, 4, 7)]"
+    },
+    {
+      "id": "2015-II-08",
+      "check": "Exact bounded objective comparison",
+      "result": "passed",
+      "value": "31/5"
+    },
+    {
+      "id": "2015-II-13",
+      "check": "Numerical sine sums locate the hundredth negative partial sum",
+      "result": "passed",
+      "value": "628"
+    },
+    {
+      "id": "2015-II-15",
+      "check": "Exact determinant of the constructed triangle",
+      "result": "passed",
+      "value": "64/65"
+    },
+    {
+      "id": "2016-I-05",
+      "check": "Exhaust all feasible positive day counts",
+      "result": "passed",
+      "value": "[(11, 29, 24)]"
+    },
+    {
+      "id": "2016-I-09",
+      "check": "Numerically verify both exact boundary formulas, boundary incidence, and failure of the intended equality configuration",
+      "result": "passed",
+      "value": 728.3651254706589
+    },
+    {
+      "id": "2016-I-10",
+      "check": "Check geometric/arithmetic identities through62 terms and specified thirteenth term",
+      "result": "passed",
+      "value": "2016"
+    },
+    {
+      "id": "2016-I-12",
+      "check": "Factor every candidate up to the claimed first value",
+      "result": "passed",
+      "value": "132"
+    },
+    {
+      "id": "2016-II-07",
+      "check": "Exhaust all possible integer middle areas",
+      "result": "passed",
+      "value": "[1008, 1848]"
+    },
+    {
+      "id": "2016-II-09",
+      "check": "Exhaust all bases and exponents allowed by neighboring sums",
+      "result": "passed",
+      "value": "[(9, 3, 90)]"
+    },
+    {
+      "id": "2017-I-05",
+      "check": "Exhaust all nonzero octal digits",
+      "result": "passed",
+      "value": "[(3, 2, 1, 4)]"
+    },
+    {
+      "id": "2017-I-09",
+      "check": "Directly iterate recurrence modulo99",
+      "result": "passed",
+      "value": "45"
+    },
+    {
+      "id": "2017-I-14",
+      "check": "Independent modular exponentiation",
+      "result": "passed",
+      "value": "896"
+    },
+    {
+      "id": "2017-II-05",
+      "check": "Verify all six pairwise sums of equality witness",
+      "result": "passed",
+      "value": "[Fraction(189, 1), Fraction(234, 1), Fraction(287, 1), Fraction(320, 1), Fraction(373, 1), Fraction(418, 1)]"
+    },
+    {
+      "id": "2017-II-06",
+      "check": "Exhaust candidates through the larger solution",
+      "result": "passed",
+      "value": "[27, 168]"
+    },
+    {
+      "id": "2017-II-08",
+      "check": "Exact denominator test for every integer in the problem range",
+      "result": "passed",
+      "value": "134"
+    },
+    {
+      "id": "2018-I-02",
+      "check": "Exhaust all allowed digits",
+      "result": "passed",
+      "value": "[(4, 10, 1)]"
+    },
+    {
+      "id": "2018-I-11",
+      "check": "Direct order computation modulo143\u00b2",
+      "result": "passed",
+      "value": "195"
+    },
+    {
+      "id": "2018-II-03",
+      "check": "Exhaust every permitted base",
+      "result": "passed",
+      "value": "[10, 361]"
+    },
+    {
+      "id": "2018-II-05",
+      "check": "Check all three products in a realizing triple",
+      "result": "passed",
+      "value": "[(-80-320j), (60+0j), (-96+24j)]"
+    },
+    {
+      "id": "2018-II-07",
+      "check": "Square-test every one of2450 slice indices",
+      "result": "passed",
+      "value": "20"
+    },
+    {
+      "id": "2018-II-09",
+      "check": "Independent exact shoelace calculation and homothety",
+      "result": "passed",
+      "value": "184"
+    },
+    {
+      "id": "2019-I-01",
+      "check": "Construct321 terms as exact integers and sum decimal digits",
+      "result": "passed",
+      "value": "342"
+    },
+    {
+      "id": "2019-I-09",
+      "check": "Exhaust n through sixth solution",
+      "result": "passed",
+      "value": "[8, 9, 16, 25, 121, 361]"
+    },
+    {
+      "id": "2019-I-14",
+      "check": "Trial every odd prime below98",
+      "result": "passed",
+      "value": "[97]"
+    },
+    {
+      "id": "2019-II-09",
+      "check": "Exhaust all eligible multiples of20",
+      "result": "passed",
+      "value": "472"
+    },
+    {
+      "id": "2019-II-10",
+      "check": "Exact doubling orbit modulo7",
+      "result": "passed",
+      "value": "[True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False]"
+    },
+    {
+      "id": "2020-I-03",
+      "check": "Exhaust digit representations below621",
+      "result": "passed",
+      "value": "621"
+    },
+    {
+      "id": "2020-I-04",
+      "check": "Enumerate all divisor prefixes",
+      "result": "passed",
+      "value": "93"
+    },
+    {
+      "id": "2020-I-10",
+      "check": "Exhaust all pairs with sum at most407",
+      "result": "passed",
+      "value": "[(286, 121)]"
+    },
+    {
+      "id": "2020-II-05",
+      "check": "Exact minimum construction modulo1000",
+      "result": "passed",
+      "value": "151"
+    },
+    {
+      "id": "2020-II-06",
+      "check": "Iterate2020 terms with exact fractions",
+      "result": "passed",
+      "value": "101/525"
+    },
+    {
+      "id": "2020-II-08",
+      "check": "Construct distinct zeros at100",
+      "result": "passed",
+      "value": "495100"
+    },
+    {
+      "id": "2020-II-08",
+      "check": "Construct distinct zeros at101",
+      "result": "passed",
+      "value": "510151"
+    },
+    {
+      "id": "2020-II-10",
+      "check": "Verify all necessary divisor candidates",
+      "result": "passed",
+      "value": "[(78, 17), (161, 17), (327, 100)]"
+    },
+    {
+      "id": "2021-I-05",
+      "check": "Exhaust bounded divisor-derived middle terms",
+      "result": "passed",
+      "value": "[(5, 5), (14, 7)]"
+    },
+    {
+      "id": "2021-I-10",
+      "check": "Iterate1000 reduced fractions independently",
+      "result": "passed",
+      "value": "[1, 2, 8, 18, 30]"
+    },
+    {
+      "id": "2021-I-14",
+      "check": "Verify explicit prime-order witnesses",
+      "result": "passed",
+      "value": "[42, 46]"
+    },
+    {
+      "id": "2021-I-14",
+      "check": "All residues in both prime moduli satisfy the geometric-sum criterion",
+      "result": "passed",
+      "value": "True"
+    },
+    {
+      "id": "2021-II-13",
+      "check": "Exhaust all smaller positive exponents",
+      "result": "passed",
+      "value": "797"
+    },
+    {
+      "id": "2021-II-15",
+      "check": "Evaluate exact stopping formulas for all smaller n",
+      "result": "passed",
+      "value": "258"
+    },
+    {
+      "id": "2022-I-02",
+      "check": "Exhaust all decimal and octal-style base-nine digit bounds",
+      "result": "passed",
+      "value": "[(2, 2, 7)]"
+    },
+    {
+      "id": "2022-I-14",
+      "check": "Exhaust all positive integer cosine-law sides",
+      "result": "passed",
+      "value": "[(51, 189)]"
+    },
+    {
+      "id": "2022-II-06",
+      "check": "Check the optimizing ordered sequence",
+      "result": "passed",
+      "value": "[Fraction(0, 1), Fraction(1, 1), Fraction(41, 800)]"
+    },
+    {
+      "id": "2022-II-11",
+      "check": "Exact reflected midpoint coefficients",
+      "result": "passed",
+      "value": "[Fraction(3, 1), Fraction(1, 1)]"
+    },
+    {
+      "id": "2023-II-02",
+      "check": "Exhaust decimal and octal palindromes below1000",
+      "result": "passed",
+      "value": "585"
+    },
+    {
+      "id": "2023-I-10",
+      "check": "Sum all2023 floors directly",
+      "result": "passed",
+      "value": "944"
+    },
+    {
+      "id": "2023-I-15",
+      "check": "Exhaust every Gaussian integer with prime norm below1000",
+      "result": "passed",
+      "value": "[2, 17, 53, 241, 349]"
+    },
+    {
+      "id": "2023-II-13",
+      "check": "Compute exact power-sum integers for all250 multiples of4",
+      "result": "passed",
+      "value": "167"
+    },
+    {
+      "id": "2023-II-15",
+      "check": "Lift actual1000-bit multiples rather than the carry-state table",
+      "result": "passed",
+      "value": "363"
+    },
+    {
+      "id": "2024-I-13",
+      "check": "Enumerate all roots modulo289",
+      "result": "passed",
+      "value": "[110, 134, 155, 179]"
+    },
+    {
+      "id": "2024-II-07",
+      "check": "Exhaust every four-digit number",
+      "result": "passed",
+      "value": "5694"
+    },
+    {
+      "id": "2024-II-14",
+      "check": "Enumerate every permitted square root for every smaller base",
+      "result": "passed",
+      "value": "(211, 15)"
+    },
+    {
+      "id": "2024-II-02",
+      "check": "Exhaust every integer partition of30",
+      "result": "passed",
+      "value": "[(5, 7, 9, 9)]"
+    },
+    {
+      "id": "2025-I-01",
+      "check": "Exhaust all bases allowed by the fixed divisor bound",
+      "result": "passed",
+      "value": "[21, 49]"
+    },
+    {
+      "id": "2025-I-04",
+      "check": "Exhaust the full201-by201 lattice square",
+      "result": "passed",
+      "value": "117"
+    },
+    {
+      "id": "2025-II-02",
+      "check": "Test every candidate through the proven bound",
+      "result": "passed",
+      "value": "[1, 11, 37]"
+    },
+    {
+      "id": "2025-II-04",
+      "check": "Exact multiplication of every rational telescoping factor",
+      "result": "passed",
+      "value": "93/13"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Check exact reduction and sum at term1",
+      "result": "passed",
+      "value": "36"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Check exact reduction and sum at term2",
+      "result": "passed",
+      "value": "432"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Check exact reduction and sum at term3",
+      "result": "passed",
+      "value": "62208"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Check exact reduction and sum at term4",
+      "result": "passed",
+      "value": "1289945088"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Check exact reduction and sum at term5",
+      "result": "passed",
+      "value": "554652776685109248"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Check exact reduction and sum at term6",
+      "result": "passed",
+      "value": "102546567561500556334106525898375168"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Check exact reduction and sum at term7",
+      "result": "passed",
+      "value": "3505266172881799385529444416620354978285265101689484286873447493009408"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Check exact reduction and sum at term8",
+      "result": "passed",
+      "value": "4095630314249805565983688601129105163748535213655438965012095906738052934559992349461859476564197145244828524351829951789931945676125503488"
+    },
+    {
+      "id": "2025-II-13",
+      "check": "Independent exponent reduction and CRT",
+      "result": "passed",
+      "value": "[16, 41, 248]"
+    },
+    {
+      "id": "2025-II-15",
+      "check": "All coefficients of the nonnegative square identity for k=8",
+      "result": "passed",
+      "value": "[196, 11620, 1016064]"
+    },
+    {
+      "id": "2025-II-15",
+      "check": "Two distinct positive minimizing roots for k=8",
+      "result": "passed",
+      "value": "True"
+    },
+    {
+      "id": "2025-II-15",
+      "check": "All coefficients of the nonnegative square identity for k=32",
+      "result": "passed",
+      "value": "[220, 16132, 4064256]"
+    },
+    {
+      "id": "2025-II-15",
+      "check": "Two distinct positive minimizing roots for k=32",
+      "result": "passed",
+      "value": "True"
+    },
+    {
+      "id": "2025-II-15",
+      "check": "All coefficients of the nonnegative square identity for k=200",
+      "result": "passed",
+      "value": "[388, 47716, 25401600]"
+    },
+    {
+      "id": "2025-II-15",
+      "check": "Two distinct positive minimizing roots for k=200",
+      "result": "passed",
+      "value": "True"
+    }
+  ]
+}

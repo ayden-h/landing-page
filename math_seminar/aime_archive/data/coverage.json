@@ -1,0 +1,10 @@
+{
+  "unique_problem_slots": 1065,
+  "all_source_entries": 3801,
+  "subject_counts": {
+    "geometry": 402,
+    "algebra": 437,
+    "number_theory": 313
+  },
+  "hybrid_policy": "Substantive subjects overlap; counts are not intended to sum to1065."
+}

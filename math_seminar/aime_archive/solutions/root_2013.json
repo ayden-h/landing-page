@@ -1,0 +1,694 @@
+[
+  {
+    "id": "2013-I-01",
+    "title": "Travel time in fixed speed ratios",
+    "restatement": "A race consists of swimming $1/2$ mile, cycling $30$ miles, and running $8$ miles. The three constant speeds have ratio $1:10:5$. Total time is $255$ minutes. Find the cycling time in minutes.",
+    "solution": "If the swimming speed is $v$, the three times are proportional to $(1/2)/v$, $30/(10v)$, and $8/(5v)$, hence to $5:30:16$. Cycling therefore occupies $30/51=10/17$ of the total time. Its duration is $255(10/17)=150$ minutes. The common speed is positive, so all three stages realize these time proportions.",
+    "answer": 150,
+    "tags": [
+      "rates",
+      "proportional reasoning"
+    ],
+    "source_review": "Inspected the one stored solution. It solves for swimming speed; the new exposition instead computes the requested time share directly.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Exact time ratio 5+30+16=51 and 255·30/51=150.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-02",
+    "title": "Uniform digit sums modulo five",
+    "restatement": "Count five-digit integers divisible by five whose first and last digits agree and whose digit sum is divisible by five.",
+    "solution": "The first and last digits must both be $5$, so write the integer $5abc5$. Choose $a,b$ arbitrarily in $100$ ways. Exactly two choices of $c\\in\\{0,\\ldots,9\\}$ give $a+b+c\\equiv0\\pmod5$. The count is $200$.",
+    "answer": 200,
+    "tags": [
+      "residue uniformity",
+      "digit counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-I-03",
+    "title": "Area fractions determine a reciprocal side ratio",
+    "restatement": "Two perpendicular cuts parallel to the sides partition a square into two squares and two nonsquare rectangles. Let $a,b$ be the two segment lengths into which either cut divides its perpendicular side. The two smaller squares occupy $9/10$ of the original area. Find $a/b+b/a$.",
+    "solution": "The two smaller squares must be diagonally opposite: adjacent square cells would force all four cells to be squares, contrary to the two nonsquare rectangles. Thus their sides are $a,b$, and each rectangle has sides $a,b$. Hence\n$$a^2+b^2=\\frac9{10}(a+b)^2,\\qquad 2ab=\\frac1{10}(a+b)^2.$$\nDividing gives $(a^2+b^2)/(ab)=18$, the requested sum. Positive unequal lengths exist: the ratio solves $t^2-18t+1=0$, with positive roots $9\\pm4\\sqrt5$.",
+    "answer": 18,
+    "tags": [
+      "square partitions",
+      "symmetric sums",
+      "area ratios"
+    ],
+    "source_review": "All seven stored entries inspected. They use area complements, normalization, Vieta, or an explicit quadratic. The present argument retains the common invariant and explains why the square cells are opposite.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_index_base": 0,
+    "verification": "The positive ratio roots have product one and sum eighteen.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-04",
+    "title": "Coloring the orbits of a quarter-turn",
+    "restatement": "A thirteen-cell figure has one central cell and three four-cell orbits under a quarter-turn. Choose eight cells red and five blue uniformly. The probability of quarter-turn invariance is $1/n$. Find $n$.",
+    "solution": "An invariant coloring is constant on each orbit. Since there are eight red cells, exactly two of the three size-four orbits are red and the center is blue. Thus there are three invariant colorings among $\\binom{13}{8}=1287$ choices. The probability is $3/1287=1/429$, giving $429$.",
+    "answer": 429,
+    "tags": [
+      "group orbits",
+      "invariant colorings",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-I-05",
+    "title": "A cubic hides a difference of cubes",
+    "restatement": "Express the real root of $8x^3-3x^2-3x-1=0$ as $(\\sqrt[3]a+\\sqrt[3]b+1)/c$ with positive integers $a,b,c$, and determine $a+b+c$ in this form.",
+    "solution": "The equation is exactly $9x^3=(x+1)^3$. Real cube roots are single-valued, so $(\\sqrt[3]9-1)x=1$, proving there is exactly one real root. With $t=\\sqrt[3]9$,\n$$x=\\frac1{t-1}=\\frac{t^2+t+1}{t^3-1}=\\frac{\\sqrt[3]{81}+\\sqrt[3]9+1}{8}.$$\nThus the indicated integers are $81,9,8$, whose sum is $98$.",
+    "answer": 98,
+    "tags": [
+      "difference of cubes",
+      "radical rationalization"
+    ],
+    "source_review": "All four stored entries inspected: direct cube recognition, reciprocal-polynomial recognition, a field-automorphism discussion, and coefficient matching. The cube identity supplies a complete real-root argument without the unproved field-structure assumptions in the third entry.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Direct expansion verifies 9x³−(x+1)³ equals the original polynomial.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-06",
+    "title": "Track only the special books",
+    "restatement": "Randomly pack twelve distinct books into labeled boxes of sizes three, four, and five. Three books are mathematics books. Find numerator plus denominator of the probability that all three share a box.",
+    "solution": "Imagine twelve labeled capacity slots. The three mathematics books occupy a uniform three-subset of the slots. Favorable subsets lie entirely within one box, giving $\\binom33+\\binom43+\\binom53=1+4+10=15$. Hence $P=15/\\binom{12}{3}=3/44$, and the answer is $47$.",
+    "answer": 47,
+    "tags": [
+      "sample-space compression",
+      "probability"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-I-07",
+    "title": "Triangle through three face centers",
+    "restatement": "A rectangular box has side lengths $12,16,h$, with $h>0$. The centers of the three faces incident to one vertex form a triangle of area $30$. Write $h=m/n$ in lowest terms and find $m+n$.",
+    "solution": "Place the corner at the origin and write $h=2t$. The three centers are $(6,8,0)$, $(6,0,t)$, and $(0,8,t)$. From the first center, the edge vectors are $(0,-8,t)$ and $(-6,0,t)$; their cross product has squared norm $64t^2+36t^2+48^2$. Consequently\n$$4(30)^2=100t^2+2304,$$\nso $t^2=324/25$. Positivity gives $t=18/5$ and $h=36/5$, hence the answer is $41$.",
+    "answer": 41,
+    "tags": [
+      "solid geometry",
+      "cross product",
+      "triangle area"
+    ],
+    "source_review": "All six stored entries inspected, including altitude, vector, Heron, de Gua, cosine-rule and expanded-Heron routes. One Heron entry displays an extraneous factor 1/2; the independently written cross-product computation avoids that transcription error.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_index_base": 0,
+    "verification": "Exact squared cross-product check: 100·(18/5)²+2304=3600.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-08",
+    "title": "A function domain imposes an integer divisor",
+    "restatement": "For positive integers $m>1,n$, the real domain of $\\arcsin(\\log_m(nx))$ has length $1/2013$. Find the least possible $m+n$, reduced modulo $1000$.",
+    "solution": "The logarithm must lie in $[-1,1]$, so the domain is $[1/(mn),m/n]$. Its length condition gives\n$$n=2013m-\\frac{2013}{m}.$$\nThus $m$ must divide $2013=3\\cdot11\\cdot61$. Conversely every divisor $m>1$ gives a positive integer $n$ and the required domain. The target $m+n=2014m-2013/m$ strictly increases for positive $m$, because its first term increases and its subtracted term decreases. The smallest allowed divisor is $m=3$, yielding $n=5368$ and $m+n=5371$. The remainder is $371$.",
+    "answer": 371,
+    "tags": [
+      "function domains",
+      "divisors",
+      "monotonicity"
+    ],
+    "source_review": "All three stored entries inspected. The divisor route is exact; the first entry uses an informal near-linearity argument, replaced here by strict monotonicity. The last begins with a mistaken bound on f rather than its arcsine input and uses a longer factor allocation.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_index_base": 0,
+    "verification": "Enumerating divisors of 2013 confirms the least admissible pair is (3,5368).",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-09",
+    "title": "A folding crease from equal distances",
+    "restatement": "An equilateral triangle $ABC$ has side $12$. Reflect $A$ onto the point $D$ of $BC$ with $BD=9$. Find the length of the crease inside the triangle as $m\\sqrt p/n$, with $m,n$ coprime and $p$ squarefree, and report $m+n+p$.",
+    "solution": "Let the crease meet $AB,AC$ at $P,Q$, and put $AP=u$, $AQ=v$. Reflection gives $DP=u$ and $DQ=v$. The cosine rule in $BPD$ gives\n$$u^2=(12-u)^2+9^2-9(12-u),$$\nso $u=39/5$. Similarly, in $CQD$,\n$$v^2=(12-v)^2+3^2-3(12-v),$$\nso $v=39/7$. Both values lie between zero and twelve, verifying that the intersections are on the sides. The line through these two equal-distance points is the perpendicular bisector of $AD$, so it is exactly the required crease. Finally $\\angle PAQ=60^\\circ$, and\n$$PQ^2=u^2+v^2-uv=\\frac{39^2\\cdot39}{35^2}.$$\nThus $PQ=39\\sqrt{39}/35$ and the answer is $113$.",
+    "answer": 113,
+    "tags": [
+      "reflection",
+      "perpendicular bisectors",
+      "cosine rule"
+    ],
+    "source_review": "All five stored entries inspected: trigonometric, equal-distance, similarity, coordinate, and a sketch-only Heron route. The last entry is incomplete and has compressed numeric transcription; it is not treated as an additional complete proof.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_index_base": 0,
+    "verification": "Exact cosine-rule calculation with u=39/5 and v=39/7 gives 39³/35².",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-10",
+    "title": "Conjugate integer roots and distinct cubics",
+    "restatement": "Consider all cubics $x^3-ax^2+bx-65$ with nonzero integers $a,b$ that have a root $r+si$ for nonzero integers $r,s$. For each distinct coefficient pair $(a,b)$, take the sum of its three roots. Find the sum of these values over all admissible pairs.",
+    "solution": "The conjugate $r-si$ is also a root. The third root is $q=a-2r$, an integer, and coefficient comparison gives\n$$q(r^2+s^2)=65,\\qquad a=q+2r,\\qquad b=r^2+s^2+2qr.$$\nSince $r,s\\ne0$, $q$ is a positive divisor of $65$ other than $65$. For $q=1,5,13$, the possible $r$ are respectively\n$$\\{\\pm1,\\pm4,\\pm7,\\pm8\\},\\quad\\{\\pm2,\\pm3\\},\\quad\\{\\pm1,\\pm2\\}.$$\nThese lists follow by subtracting positive squares from $65,13,5$; only square complements are retained. For each listed $r$, the value of $s^2$ is fixed, and its two signs produce the same polynomial. Every listed $a$ is odd and nonzero; the formulas give nonzero $b$ as well. Distinct choices cannot duplicate a polynomial: its unique real root fixes $q$, and then $a$ fixes $r$.\n\nBy Vieta each root sum is $a=q+2r$. Pair $r$ with $-r$ in each list. The signed terms cancel, leaving $8\\cdot1+4\\cdot5+4\\cdot13=80$.",
+    "answer": 80,
+    "tags": [
+      "complex conjugates",
+      "Vieta formulas",
+      "sum of two squares",
+      "finite classification",
+      "involution"
+    ],
+    "source_review": "Inspected the sole stored argument. The new exposition adds why the third root is integral, excludes q=65, verifies the nonzero coefficient restrictions, and proves that the coefficient-pair count has no duplicates.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Exact integer enumeration finds sixteen distinct (a,b) pairs and sums a to eighty.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-11",
+    "title": "Three remainder conditions after an lcm reduction",
+    "restatement": "A positive integer $N$ is divisible by $14,15,16$. There exist three distinct positive integers below $14$ for which dividing $N$ leaves remainder $3$. Find the sum of the distinct prime divisors of the least such $N$.",
+    "solution": "Write $N=1680k$, since $\\operatorname{lcm}(14,15,16)=1680$. Every positive integer below fourteen except $9,11,13$ divides $1680$, so none of those other integers can leave remainder three. Thus the three divisors must be $9,11,13$. The conditions reduce to\n$$k\\equiv2\\pmod3,\\qquad k\\equiv10\\pmod{11},\\qquad k\\equiv1\\pmod{13}.$$\nThe first follows by dividing $6k\\equiv3\\pmod9$ by three and reducing the modulus to three. Combine the first two to get $k=32+33t$. Modulo thirteen this gives $6+7t\\equiv1$, hence $t\\equiv3\\pmod{13}$. Therefore $k\\equiv131\\pmod{429}$, whose least positive representative is $131$.\n\nThe number $131$ has no prime divisor at most $\\sqrt{131}<12$ (test $2,3,5,7,11$), so it is prime. The distinct prime divisors of $N=1680\\cdot131$ are $2,3,5,7,131$, with sum $148$.",
+    "answer": 148,
+    "tags": [
+      "least common multiple",
+      "Chinese remainder theorem",
+      "congruence cancellation"
+    ],
+    "source_review": "All six stored entries inspected. Several reach the correct minimum through different substitutions. The final entry incorrectly keeps modulus nine after division by three; its claimed full congruence class is false although the least candidate happens to agree. Another entry incorrectly excludes all noncoprime divisors. The present proof excludes actual divisors of 1680 and uses the correct reduced modulus.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_index_base": 0,
+    "verification": "Direct search over 1≤k≤429 verifies that only k=131 meets all three reduced congruences.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-12",
+    "title": "A supporting line fixes a hexagon enclosure",
+    "restatement": "A regular hexagon $ABCDEF$ of side one is contained in a triangle $PQR$ with angles $P=75^\\circ$, $Q=60^\\circ$, $R=45^\\circ$. Its edges $AB,CD$ lie on $PQ,QR$, and another vertex lies on $RP$. Write the triangle area as $(a+b\\sqrt c)/d$, with $c$ squarefree and $a,d$ coprime, and find $a+b+c+d$.",
+    "solution": "Place $Q=(0,0)$ with $QP$ along the positive horizontal axis. The intersection of the two hexagon side lines makes $QBC$ equilateral. Up to reflection the vertices therefore have coordinates\n$$A=(2,0),\\ B=(1,0),\\ C=(1/2,\\sqrt3/2),\\ D=(1,\\sqrt3),\\ E=(2,\\sqrt3),\\ F=(5/2,\\sqrt3/2).$$\nThe line $QR$ is $y=\\sqrt3x$. Since the angle at $P$ is $75^\\circ$, the line $PR$ has equation $y+(2+\\sqrt3)x=k$. Containment and contact mean $k$ is the maximum of this linear expression on the six vertices. Evaluation gives its unique maximum at $F$, namely $k=5+3\\sqrt3$. This establishes which vertex touches the side without a diagram assumption.\n\nThe horizontal intercept is $QP=k/(2+\\sqrt3)=1+\\sqrt3$. Intersecting with $y=\\sqrt3x$ gives $y_R=(3+2\\sqrt3)/2$. All six vertices satisfy the three containing half-plane inequalities, so this construction is feasible. The area is\n$$\\frac12 QP\\,y_R=\\frac{9+5\\sqrt3}{4},$$\nwhich yields $9+5+3+4=21$.",
+    "answer": 21,
+    "tags": [
+      "regular polygons",
+      "supporting lines",
+      "coordinate geometry",
+      "containment"
+    ],
+    "source_review": "All seven stored entries inspected. Several assume the touching vertex from a diagram; the new proof certifies it by a supporting linear functional. The second stored entry has an incorrect line intercept (5+√3 instead of 5+3√3). The fifth uses undefined auxiliary labels without a retained diagram and is not regarded as a self-contained textual proof.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_index_base": 0,
+    "verification": "Coordinates verify unit side lengths, the two side lines, the supporting maximum, and the exact area.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-13",
+    "title": "A self-similar union sums to one rational area",
+    "restatement": "Begin with a triangle $AB_0C_0$ of side lengths $AB_0=12$, $B_0C_0=17$, $AC_0=25$. At each stage choose $B_n$ on $AB_{n-1}$ and $C_n$ on $AC_{n-1}$ so that, in the displayed vertex order,\n$$AB_nC_n\\sim B_{n-1}C_nC_{n-1}\\sim AB_{n-1}C_{n-1}.$$\nIf the union of triangles $B_{n-1}C_nB_n$ for $n\\ge1$ has reduced rational area $p/q$, determine $q$.",
+    "solution": "Heron's formula gives original area $\\sqrt{27\\cdot15\\cdot10\\cdot2}=90$. The similarity from $AB_0C_0$ to $B_0C_1C_0$ has scale $17/25$, hence $C_1C_0=289/25$ and $AC_1=336/25$. Thus the nested triangle $AB_1C_1$ has linear scale\n$$t=\\frac{336}{625}.$$\nThe same scale applies at every stage because all containing triangles are similar with the same ordered construction. The triangle $AB_0C_1$ has area $90t$, while $AB_1C_1$ has area $90t^2$; subtracting gives first target area $90t(1-t)$. Subsequent target triangles are scaled by successive factors $t^2$ in area. Their interiors are disjoint because each lies in the part removed from its containing nested triangle. Since $0<t<1$, the total is\n$$\\frac{90t(1-t)}{1-t^2}=\\frac{90t}{1+t}=\\frac{30240}{961}.$$\nNow $961=31^2$ and $30240\\equiv15\\pmod{31}$, so the fraction is reduced. Therefore $q=961$.",
+    "answer": 961,
+    "tags": [
+      "similarity",
+      "geometric series",
+      "disjoint area decomposition"
+    ],
+    "source_review": "All four stored entries inspected. They sum either the target pieces or their complements. Several display inconsistent series powers or a missing original-area factor. The fourth incorrectly calls 961 prime; the final reduction here explicitly uses 961=31² and checks the numerator modulo 31.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Exact rational geometric-series computation gives 30240/961; gcd(30240,961)=1.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-14",
+    "title": "Combine two trigonometric series into one complex series",
+    "restatement": "For $\\pi\\le\\theta<2\\pi$, define the convergent series\n$$P=\\frac{\\cos\\theta}{2}-\\frac{\\sin2\\theta}{4}-\\frac{\\cos3\\theta}{8}+\\frac{\\sin4\\theta}{16}+\\cdots,$$\n$$Q=1-\\frac{\\sin\\theta}{2}-\\frac{\\cos2\\theta}{4}+\\frac{\\sin3\\theta}{8}+\\frac{\\cos4\\theta}{16}+\\cdots.$$\nThe four-term sign and sine/cosine patterns repeat, and the term of frequency $k$ has denominator $2^k$. Given $P/Q=2\\sqrt2/7$, write $\\sin\\theta=-m/n$ in lowest terms and find $m+n$.",
+    "solution": "Absolute convergence permits pairing real and imaginary parts. With $z=ie^{i\\theta}/2$, the displayed patterns give\n$$Q+iP=\\sum_{k=0}^{\\infty}z^k=\\frac{2}{2+\\sin\\theta-i\\cos\\theta}.$$\nRationalizing shows $Q>0$ and\n$$\\frac PQ=\\frac{\\cos\\theta}{2+\\sin\\theta}.$$\nPut $s=\\sin\\theta$. Squaring the given equation yields\n$$49(1-s^2)=8(2+s)^2,\\qquad (19s+17)(3s-1)=0.$$\nThe angle interval requires $s\\le0$, so $s=-17/19$. The unsquared equation further requires positive cosine; the fourth-quadrant angle with this sine has $\\cos\\theta=6\\sqrt2/19$ and indeed gives the required ratio. Thus the candidate is attained and $m+n=36$.",
+    "answer": 36,
+    "tags": [
+      "complex geometric series",
+      "trigonometric identities",
+      "domain restrictions"
+    ],
+    "source_review": "All six stored entries inspected: angle-addition manipulations, two complex-series presentations, exponential splitting, and a real/imaginary equation. Several contain sign, variable-name, or denominator transcription errors. The new proof uses one absolutely convergent geometric series and verifies the cosine sign after squaring.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_index_base": 0,
+    "verification": "Substitution s=−17/19 and cosθ=6√2/19 gives the unsquared ratio exactly.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-I-15",
+    "title": "Two arithmetic progressions with reordered residues",
+    "restatement": "Count $0\\le A<B<C\\le99$ forming an arithmetic progression for which a prime $p$ and residues $0\\le b<a<c<p$ satisfy $A\\equiv a$, $B\\equiv b$, $C\\equiv c\\pmod p$, with $(b,a,c)$ also an arithmetic progression.",
+    "solution": "Write $(A,B,C)=(B-D,B,B+D)$ and $(b,a,c)=(a-d,a,a+d)$. Subtracting the congruences gives $D\\equiv-d\\equiv2d\\pmod p$, hence $p\\mid3d$. Since $0<d<p$, $p=3$, and the residues are $(a,b,c)=(1,0,2)$. Thus $B=3k$ and $D\\equiv2\\pmod3$, with $D\\le\\min(B,99-B)$. For $k=1,\\ldots,16$ there are $k$ choices of $D$; for $k=17,\\ldots,32$ there are $33-k$. These conditions are also sufficient using $p=3$. The count is $2(1+\\cdots+16)=272$.",
+    "answer": 272,
+    "tags": [
+      "residue constraints",
+      "arithmetic progressions",
+      "case counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The listed ranges and counts for the progression difference disagree, and the final arithmetic sum is not 272. The middle-term count in the original solution avoids these errors.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-II-01",
+    "title": "Convert a time by its fraction of a day",
+    "restatement": "A decimal clock divides one day into $10$ hours of $100$ minutes each. At the instant corresponding to ordinary $6{:}36$ a.m., it reads $A{:}BC$. Determine the three-digit integer $100A+10B+C$.",
+    "solution": "Ordinary $6{:}36$ a.m. is $6\\cdot60+36=396$ minutes after midnight, or $396/1440=11/40$ of a day. The decimal clock has $1000$ minutes per day, so it records $1000(11/40)=275$ elapsed minutes, displayed as $2{:}75$. The requested number is $275$.",
+    "answer": 275,
+    "tags": [
+      "unit conversion",
+      "proportions"
+    ],
+    "source_review": "Both stored solutions inspected; one uses the conversion ratio and the other a day fraction. The newly written proof uses the latter invariant.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "Exact fraction 396/1440 equals 11/40.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-02",
+    "title": "Nested logarithms impose a power-of-two divisor",
+    "restatement": "For positive integers $a,b$, suppose $\\log_2(\\log_{2^a}(\\log_{2^b}(2^{1000})))=0$. Sum the distinct possible values of $a+b$.",
+    "solution": "Undo the logarithms from outside inward. The outer argument must be one, its inner argument must be $2^a$, and therefore $1000/b=2^a$. Since $1000=2^3 5^3$ and $a>0$, the possible pairs are exactly $(1,500),(2,250),(3,125)$. All logarithms are defined for these pairs. Their sums $501,252,128$ are distinct and total $881$.",
+    "answer": 881,
+    "tags": [
+      "logarithms",
+      "prime valuations"
+    ],
+    "source_review": "Both stored alternatives inspected. They differ only in the presentation of exponentiation and factorization. The new proof also checks domains and that summing pairs does not duplicate a value of a+b.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "The three possibilities are exhaustive by the valuation v₂(1000)=3.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-03",
+    "title": "Half the burn time is a triangular-number boundary",
+    "restatement": "A candle initially has height $119$ cm. Its $k$th centimeter from the top takes $10k$ seconds to burn. At half of its total burn time, its remaining height is $h$ cm. Determine $10h$.",
+    "solution": "The total time is $10(119\\cdot120/2)=71400$ seconds. Burning the first $84$ centimeters takes $10(84\\cdot85/2)=35700$ seconds, exactly half the total. Since every centimeter takes positive time, this is the unique cumulative boundary at the specified time. Thus $h=119-84=35$ and $10h=350$. No assumption about the speed within a centimeter is necessary, because the time lands exactly at a boundary.",
+    "answer": 350,
+    "tags": [
+      "arithmetic series",
+      "triangular numbers"
+    ],
+    "source_review": "The sole stored solution inspected. The new explanation notes that the stated per-centimeter totals suffice even without a rule for within-centimeter speed.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "119·120=2·84·85 verifies the exact halfway boundary.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-04",
+    "title": "Choose the correct equilateral vertex by rotation",
+    "restatement": "Let $A=(1,0)$ and $B=(2,2\\sqrt3)$. Of the two equilateral triangles on $AB$, choose the one with third vertex $C$ in the first quadrant. If its center is $(x,y)$ and $xy=p\\sqrt q/r$ in reduced squarefree form, find $p+q+r$.",
+    "solution": "Rotate the displacement $B-A=(1,2\\sqrt3)$ clockwise by $60^\\circ$. The result is $(7/2,\\sqrt3/2)$, so $C=(9/2,\\sqrt3/2)$. The opposite rotation gives $C'=(-3/2,3\\sqrt3/2)$, outside the first quadrant, confirming the branch. All centers of an equilateral triangle coincide with its centroid, giving\n$$(x,y)=\\frac{A+B+C}{3}=\\left(\\frac52,\\frac{5\\sqrt3}{6}\\right).$$\nThus $xy=25\\sqrt3/12$, and the answer is $25+3+12=40$.",
+    "answer": 40,
+    "tags": [
+      "rotation",
+      "equilateral triangles",
+      "centroids"
+    ],
+    "source_review": "All seven stored entries inspected: perpendicular-bisector, complex rotation, slope, matrix, circle-intersection, midpoint-vector, and complex quadratic routes. The first has a final summand typo; the new proof explicitly checks both rotated vertices.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_index_base": 0,
+    "verification": "Rotation preserves the side length √13; both candidate coordinates and the positive-quadrant choice are checked exactly.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-05",
+    "title": "An angle sine from one small triangle area",
+    "restatement": "In an equilateral triangle $ABC$, the points $D,E$ divide $BC$ into three equal parts. Express $\\sin\\angle DAE$ as $a\\sqrt b/c$, with $a,c$ coprime and $b$ squarefree, and find $a+b+c$.",
+    "solution": "Scale the side length to three. The altitude is $3\\sqrt3/2$, while each of $D,E$ is distance $1/2$ from its foot. Hence $AD^2=AE^2=1/4+27/4=7$. Since $DE=1$, the area of $ADE$ is $3\\sqrt3/4$. The sine-area formula now gives\n$$\\sin\\angle DAE=\\frac{2[ADE]}{AD\\cdot AE}=\\frac{3\\sqrt3}{14}.$$\nThus the required sum is $3+3+14=20$.",
+    "answer": 20,
+    "tags": [
+      "triangle area",
+      "similarity normalization",
+      "sine area formula"
+    ],
+    "source_review": "All five stored alternatives inspected: double angle, area ratio, complex quotient, cosine rule, and dot product. The fourth initially labels the cosine-rule angle incorrectly; the area argument bypasses that typo and unnecessary inverse trigonometry.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_index_base": 0,
+    "verification": "Exact squared cevian length seven and area 3√3/4 give the stated sine.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-06",
+    "title": "The first complete thousand-block between squares",
+    "restatement": "Find the least positive integer $N$ for which none of $1000N,1000N+1,\\ldots,1000N+999$ is a perfect square.",
+    "solution": "Such a block lies strictly between consecutive squares $m^2,(m+1)^2$, so\n$$m^2+1\\le1000N\\le(m+1)^2-1000.$$\nThe gap must be at least $1001$, forcing $m\\ge500$. Write $m=500+k$, $k\\ge0$. The inequalities become\n$$k+250+\\frac{k^2+1}{1000}\\le N\\le k+250+\\frac{(k+1)^2}{1000}.$$\nFor $0\\le k\\le30$, both bounds place $N$ strictly between the consecutive integers $k+250$ and $k+251$, impossible. For $k=31$, the bounds permit $N=282$: indeed $531^2=281961<282000$ and $532^2=283024>282999$. For $k\\ge32$, the lower bound gives $N>282$, so no smaller solution is possible. Therefore the answer is $282$.",
+    "answer": 282,
+    "tags": [
+      "consecutive squares",
+      "integer intervals",
+      "minimality"
+    ],
+    "source_review": "All four stored entries inspected. The first three use inspection or a partial gap heuristic. The fourth supplies an endpoint argument; the new proof gives the complete finite exclusion and separates the gap size from its alignment with a thousand-block.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Direct integer-square-root checks for every 1≤N≤282 confirm the first admissible N is 282.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-07",
+    "title": "Staff reductions force a unique feasible integer solution",
+    "restatement": "Each clerk sorts $30$ files per hour. Starting with $x$ clerks, the same positive number $t$ leaves after each of the first three hours. The remaining group finishes $1775$ files at time $3$ hours $10$ minutes. How many files were sorted during the first $90$ minutes?",
+    "solution": "The total work equation is\n$$30x+30(x-t)+30(x-2t)+5(x-3t)=1775,$$\nso $19x-21t=355$. Modulo nineteen this forces $t\\equiv3\\pmod{19}$. Hence $t=3+19k$ and $x=22+21k$, where positivity of $t$ requires $k\\ge0$. The final workforce must be positive because work continues for the last ten minutes; thus $x-3t=13-36k>0$, forcing $k=0$. This proves uniqueness rather than just selecting the least congruence solution. The first ninety minutes produce $30x+15(x-t)=660+285=945$ files.",
+    "answer": 945,
+    "tags": [
+      "rates",
+      "linear Diophantine equations",
+      "feasibility"
+    ],
+    "source_review": "Both stored solutions inspected. Each selects the smallest positive congruence solution without excluding larger ones. The new proof uses the positive workforce in the final interval to establish that the candidate is the only feasible solution.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "Exact enumeration of positive x,t with x>3t and 19x−21t=355 finds only (22,3).",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-08",
+    "title": "Repeated chord lengths force a diameter",
+    "restatement": "A convex hexagon inscribed in a circle has successive side lengths $22,22,20,22,22,20$. Its circumradius is $p+\\sqrt q$, for positive integers $p,q$. Find $p+q$.",
+    "solution": "Relabel cyclically so that $AB=CD=DE=FA=22$ and $BC=EF=20$. Each side length occurs more than once. No boundary arc can exceed a semicircle: if one did, another equal chord would require the complementary minor arc, and these two arcs alone would already total a full circle, leaving no room for the other edges. A semicircle is likewise impossible. Thus equal chords have equal boundary arcs, and each three-edge block $22,20,22$ spans exactly half the circle. Hence $AD$ is a diameter.\n\nIn the cyclic quadrilateral $ABCD$, the equal end chords give $AC=BD=x$. Ptolemy gives $x^2=22^2+20(2R)$. The right triangle $ABD$ gives $x^2+22^2=(2R)^2$. Combining,\n$$R^2-10R-242=0.$$\nThe positive root is $R=5+\\sqrt{267}$, so $p+q=272$.",
+    "answer": 272,
+    "tags": [
+      "cyclic quadrilaterals",
+      "Ptolemy theorem",
+      "arc order",
+      "diameters"
+    ],
+    "source_review": "All eight stored entries inspected. The first is diagram code only; the others use trigonometry, trapezoid coordinates, Ptolemy, or similarity. The new proof justifies the diameter and symmetry that most entries assume from the figure. A squared-equation alternative selects a branch from the answer format; the present quadratic has only one positive root.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_index_base": 0,
+    "verification": "Substitution R=5+√267 verifies R²−10R−242=0 and R>11, the chord-radius lower bound.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-09",
+    "title": "Colored compositions use all colors",
+    "restatement": "Tile a seven-cell row by positive integer-length tiles colored red, blue, or green, requiring all three colors. Adjacent tiles of the same color remain distinct tiles. Find the tiling count modulo $1000$.",
+    "solution": "With $q$ available colors, a tiling is encoded by its first tile color ($q$ choices) and at each of the six internal cell boundaries either no cut or a cut followed by one of $q$ colors. Thus $T(q)=q(q+1)^6$. Inclusion-exclusion on missing colors gives $T(3)-3T(2)+3T(1)=3\\cdot4^6-6\\cdot3^6+3\\cdot2^6=8106$, with residue $106$.",
+    "answer": 106,
+    "tags": [
+      "compositions",
+      "boundary encoding",
+      "inclusion exclusion"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The number of divisions into i pieces is C(6,i-1), not the displayed C(6,i).",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-II-10",
+    "title": "A constant area ratio turns a secant maximum into a right angle",
+    "restatement": "A circle has center $O$ and radius $\\sqrt{13}$. A point $A$ has $AO=4+\\sqrt{13}$, and $B$ is the point of the circle closest to $A$. As a secant through $A$ cuts the circle at $K,L$, maximize $[BKL]$. Write the maximum as $(a-b\\sqrt c)/d$ in reduced squarefree form and find $a+b+c+d$.",
+    "solution": "For every line through $A$, perpendicular distances from $B$ and $O$ to the line have ratio $AB/AO=4/(4+\\sqrt{13})$, since $A,B,O$ are collinear in that order. The two triangles share base $KL$, so\n$$[BKL]=\\frac4{4+\\sqrt{13}}[OKL].$$\nWith $OK=OL=\\sqrt{13}$, the latter area is at most $13/2$, with equality when the two radii are perpendicular. This equality is feasible for a secant through $A$: a right-angle chord is at distance $\\sqrt{13/2}$ from $O$, and a line through $A$ at this distance exists because $AO>\\sqrt{13/2}$. Thus the maximum is\n$$\\frac{26}{4+\\sqrt{13}}=\\frac{104-26\\sqrt{13}}3.$$\nThe requested sum is $104+26+13+3=146$.",
+    "answer": 146,
+    "tags": [
+      "area ratios",
+      "secant chords",
+      "optimization",
+      "equality feasibility"
+    ],
+    "source_review": "All five stored entries inspected. Four contain arguments and one is a link-only pointer, whose linked page is not claimed separately reviewed. The first has a sign error in its radical area expression and does not justify its maximum. The constant-height-ratio route is retained with an explicit construction proving equality is feasible.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_index_base": 0,
+    "verification": "The attainable central-triangle maximum is 13/2; rationalization gives (104−26√13)/3.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-11",
+    "title": "Functions whose second iterate is constant",
+    "restatement": "Count functions on a seven-element labeled set for which $f\\circ f$ is constant, and give the count modulo $1000$.",
+    "solution": "Let the constant be $c$. Since $f^2(f(x))=c=f(f^2(x))$, we have $f(c)=c$. Choose $c$ in seven ways. Let $K=f^{-1}(c)\\setminus\\{c\\}$ have size $k$. Every other element must map into $K$, and conversely any such map works. Thus $N=7\\sum_{k=1}^{6}\\binom6k k^{6-k}=7399$, giving $399$. The definition of $K$ makes the decomposition unique and prevents duplicate counting.",
+    "answer": 399,
+    "tags": [
+      "functional graphs",
+      "rooted structures"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The exposition confuses the image with the preimage of the fixed point, omits a binomial factor in the written sum, and mistypes the exponent base. The final evaluated sum corresponds to the corrected rooted-layer count.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-II-12",
+    "title": "Cubics with roots on two circles",
+    "restatement": "Count monic integer-coefficient cubics all of whose complex roots have modulus either $13$ or $20$.",
+    "solution": "If all roots are real, they form a multiset of size three from $\\{-20,-13,13,20\\}$, giving $\\binom63=20$. Otherwise there is one real root $r$ from those four values and a conjugate pair of modulus $R\\in\\{13,20\\}$. Its quadratic factor is $z^2-tz+R^2$, where $t$ must be integral because the cubic's quadratic coefficient is integral and $r$ is integral. Nonreal roots require $|t|<2R$, giving $51$ or $79$ choices. Each choice yields integral coefficients and a unique cubic. Thus the count is $20+4(51+79)=540$.",
+    "answer": 540,
+    "tags": [
+      "multisets",
+      "algebraic enumeration"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The squared magnitude is called the magnitude. The coefficient argument is correct after that distinction. Source 2: The discriminant condition needs an absolute value on p, and its displayed square root contains an extraneous square.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2013-II-13",
+    "title": "Affine midpoint coordinates linearize two distances",
+    "restatement": "In an isosceles triangle $ABC$ with $AC=BC$, choose $D$ on $BC$ so that $CD=3BD$, and let $E$ be the midpoint of $AD$. Given $CE=\\sqrt7$ and $BE=3$, express $[ABC]=m\\sqrt n$ with $n$ squarefree and find $m+n$.",
+    "solution": "Write $A=(-u,0)$, $B=(u,0)$, $C=(0,h)$ with $u,h>0$. The prescribed divisions give\n$$D=(3u/4,h/4),\\qquad E=(-u/8,h/8).$$\nTherefore the two squared distances yield\n$$u^2+49h^2=448,\\qquad81u^2+h^2=576.$$\nSolving gives $u^2=7$, $h^2=9$. Their positive roots produce an actual nondegenerate triangle and points in the specified segments, so no extraneous candidate remains. The area is $\\tfrac12(2u)h=3\\sqrt7$, and $m+n=10$.",
+    "answer": 10,
+    "tags": [
+      "affine coordinates",
+      "squared-distance equations",
+      "isosceles triangles"
+    ],
+    "source_review": "All nine stored entries inspected: Stewart, cosine-rule systems, mass points, Cartesian and barycentric distances, and a right-angle approach. Some cosine formulas omit factors, and the right-angle route labels a full segment length incorrectly. The coordinate proof gives a short complete feasibility check.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source_index_base": 0,
+    "verification": "Substitution u²=7,h²=9 gives exactly CE²=7 and BE²=9.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-14",
+    "title": "Maximize a remainder by separating quotient ranges",
+    "restatement": "For an integer $n>1$, let $F(n)$ be the largest remainder obtained when $n$ is divided by an integer $k$ with $1\\le k\\le n/2$. Find $\\sum_{n=20}^{100}F(n)$ modulo $1000$.",
+    "solution": "Write $n=3m+r$, where $0\\le r\\le2$; in the required range $m\\ge6$. If $k\\ge m+1$ is admissible, its quotient is two, so its remainder is at most $n-2(m+1)=m+r-2$, with equality at $k=m+1$. For $k\\le m-1$, the remainder is at most $k-1\\le m-2$, no larger. The remaining case $k=m$ has remainder $r\\le m+r-2$. Thus\n$$F(n)=m+r-2.$$\nFor $j=0,\\ldots,26$, the three inputs $20+3j,21+3j,22+3j$ contribute $(6+j)+(5+j)+(6+j)=17+3j$. Hence the total is\n$$27\\cdot17+3\\frac{26\\cdot27}{2}=1512,$$\nand its remainder modulo $1000$ is $512$.",
+    "answer": 512,
+    "tags": [
+      "remainders",
+      "quotient ranges",
+      "arithmetic series"
+    ],
+    "source_review": "Both stored entries inspected. The first combines a pattern guess and a partial proof; the second asserts the same lemma and refers back. The new proof handles every divisor range explicitly and then sums complete residue blocks.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "Brute-force maxima over every admissible k for all 20≤n≤100 agree with the formula and total 1512.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2013-II-15",
+    "title": "A triangle identity with a radical-sign branch condition",
+    "restatement": "Triangle angles $A,B,C$ satisfy\n$$\\cos^2A+\\cos^2B+2\\sin A\\sin B\\cos C=15/8,$$\n$$\\cos^2B+\\cos^2C+2\\sin B\\sin C\\cos A=14/9.$$\nThe expression $\\cos^2C+\\cos^2A+2\\sin C\\sin A\\cos B$ has the form $(p-q\\sqrt r)/s$ for positive integers $p,q,r,s$, with $r$ squarefree and $\\gcd(p+q,s)=1$. Determine $p+q+r+s$.",
+    "solution": "The sine rule permits a similar triangle with sides $\\sin A,\\sin B,\\sin C$. Applying the cosine rule to it gives\n$$\\sin^2A+\\sin^2B-2\\sin A\\sin B\\cos C=\\sin^2C.$$\nThus the first given expression equals $2-\\sin^2C$; cyclically, the second equals $2-\\sin^2A$, and the target equals $2-\\sin^2B$. We obtain $\\sin A=2/3$ and $\\sin C=1/\\sqrt8$.\n\nLet $A_0,C_0$ be the acute angles with those sines. Since $A_0>C_0$, taking $C=\\pi-C_0$ would force $A+C>\\pi$, so $C=C_0$ and $\\cos C=\\sqrt{14}/4$. There remain two legitimate triangle branches, $A=A_0$ and $A=\\pi-A_0$. Using $\\sin B=\\sin(A+C)$ gives\n$$\\sin^2B=\\frac{33\\pm4\\sqrt{35}}{72},\\qquad\n2-\\sin^2B=\\frac{111\\mp4\\sqrt{35}}{72}.$$\nThe stipulated representation has a negative irrational term with a positive coefficient, so uniqueness of squarefree radical representation selects the minus sign in the target. This branch is feasible: $A_0,C_0$ are positive acute angles with sum less than $\\pi$. Finally $\\gcd(111+4,72)=1$, and the answer is $111+4+35+72=222$.\n\nWithout the stipulated negative-radical form, the two equations alone would allow both displayed target values.",
+    "answer": 222,
+    "tags": [
+      "sine rule",
+      "cosine rule",
+      "trigonometric identities",
+      "branch selection"
+    ],
+    "source_review": "All six stored entries inspected. They all choose positive cosines without proving the angle branch; one comment mentions an acute-triangle wording not present in the reviewed statement. The new solution keeps both feasible branches and uses the explicitly prescribed negative-radical form to select the requested one. Other sign/transcription errors in the alternatives do not affect the independently derived identity.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_index_base": 0,
+    "verification": "Both acute/supplementary A branches satisfy the two given equations; only the acute branch gives the specified negative radical coefficient.",
+    "status": "solved",
+    "source_correction": {
+      "type": "missing_branch_argument_in_sources",
+      "note": "The given equations allow two triangle shapes. The positive q in the prescribed p−q√r form selects the intended target; no blanket acute-triangle assumption is made."
+    },
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  }
+]

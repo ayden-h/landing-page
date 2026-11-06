@@ -640,6 +640,28 @@ Let $a_n$ count legal n-toss words. A legal word ends either in T after any lega
 
 **Status:** solved.
 
+## 1990 AIME Problem 10: Products of two root-of-unity groups
+
+Let $A=\{z:z^{18}=1\}$ and $B=\{w:w^{48}=1\}$. How many distinct complex numbers occur as $zw$ with $z\in A$ and $w\in B$?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_10) · MAA AMC.
+
+### Solution
+
+Let $\zeta=e^{2\pi i/144}$. Every product has the form $\zeta^{8a+3b}$, so it is among the $144$ powers of $\zeta$. Conversely, fix any integer $k$. Choose $a\in\{0,1,2\}$ with $8a\equiv k\pmod3$, and set $b=(k-8a)/3$. Then $\zeta^{8a}$ is an eighteenth root and $\zeta^{3b}$ is a forty-eighth root, and their product is $\zeta^k$. Thus all $144$ distinct powers occur.
+
+**Answer:** 144.
+
+**Methods:** roots of unity, finite cyclic groups, image counting, least common multiple.
+
+**Verification:** The multiplication map has 18·48 inputs and kernel {(u,u⁻¹):u⁶=1} of size 6, independently giving 864/6=144 products. Independent exact check passed: Enumerate all864 root-product exponents, independently checking the image size.
+
+**Source comparison:** All three alternatives read. The first uses a Frobenius-number argument that needs explicit reduction of exponent ranges. The second comment incorrectly claims every integer 0 through 143 is literally representable with nonnegative bounded exponents; modular representability is sufficient. The third uses synchronized exponents, which does generate all 144 values but needs an order calculation.
+
+**Archived alternatives reviewed:** 3 of 3. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 1990 AIME Problem 12: Sum of dodecagon chords
 
 For a regular 12-gon of circumradius 12, write the sum of all side and diagonal lengths as a+b√2+c√3+d√6. Find a+b+c+d.
@@ -681,6 +703,28 @@ Write $d_k$ for the digit length of $9^k$. Multiplication by 9 increases length 
 **Source comparison:** Read and compared all 3 archived solution entries. Alternatives group powers by digit length or count length-preserving multiplication steps.
 
 **Archived alternatives reviewed:** 3 of 3. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 1991 AIME Problem 3: The peak of a weighted binomial row
+
+For $0\le k\le1000$, let $A_k=\binom{1000}{k}(0.2)^k$. Find the index $k$ for which $A_k$ is largest.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_3) · MAA AMC.
+
+### Solution
+
+For $0\le k<1000$, $A_{k+1}/A_k=(1000-k)/(5(k+1))$. This ratio exceeds 1 exactly when $k<995/6$, and is less than 1 exactly when $k>995/6$. Thus the sequence strictly increases through $A_{166}$ and strictly decreases afterward. Its unique maximum is at $k=166$.
+
+**Answer:** 166.
+
+**Methods:** binomial coefficients, successive ratios, unimodality.
+
+**Verification:** A₁₆₆/A₁₆₅=835/830>1, while A₁₆₇/A₁₆₆=834/835<1. Independent exact check passed: Compare all1001 weighted binomial terms after multiplying by the common denominator5^1000.
+
+**Source comparison:** All five alternatives read. Index 0 contains a false factorial simplification and its general maximum formula needs a two-mode caveat when the threshold is integral. Indices 1 and 4 confuse the threshold index in prose. The exact neighboring ratio establishes both monotonicity and uniqueness.
+
+**Archived alternatives reviewed:** 5 of 5. Indices in the data are zero-based.
 
 **Status:** solved.
 
@@ -750,6 +794,28 @@ Write $N=r+b$. The equation $\binom r2+\binom b2=\tfrac12\binom N2$ simplifies t
 
 **Status:** solved.
 
+## 1992 AIME Problem 1: Pairing reduced fractions around five
+
+Find the sum of all positive rational numbers less than $10$ whose reduced denominator is $30$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_1) · MAA AMC.
+
+### Solution
+
+These numbers are $k/30$ with $1\le k<300$ and $\gcd(k,30)=1$. In every block of thirty integers the allowed residues are $1,7,11,13,17,19,23,29$, so there are $80$ fractions. The map $k\mapsto300-k$ pairs them without a fixed point, and each pair of fractions sums to $10$. Their total is therefore $40\cdot10=400$.
+
+**Answer:** 400.
+
+**Methods:** totient function, involution, reduced fractions, residue classes.
+
+**Verification:** The eight allowed residues avoid divisibility by 2,3,5, and complementing a numerator preserves coprimality to 30. Independent exact check passed: Direct exact sum over all reduced numerators.
+
+**Source comparison:** All three alternatives read. The first two correctly count eight reduced residues per unit interval. Index 2 uses φ(300)=80; this happens to apply because 30 and 300 have the same prime divisors, a fact that should be made explicit rather than treated as automatic.
+
+**Archived alternatives reviewed:** 3 of 3. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 1992 AIME Problem 2: Strictly increasing digits
 
 Count positive decimal integers of at least two digits whose digits strictly increase from left to right.
@@ -767,6 +833,28 @@ Zero cannot occur, because it would have to be the leading digit. Any subset of 
 **Verification:** The derivation yields the answer in the independently hosted answer field; no separate exhaustive computation claimed.
 
 **Source comparison:** Read and compared all 2 archived solution entries. The second entry proves the same binomial count through the hockey-stick identity.
+
+**Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 1992 AIME Problem 4: Three consecutive binomial coefficients in a ratio
+
+Rows of Pascal's triangle are numbered from row $0$, containing only $1$. In which row do three consecutive entries occur in the ratio $3:4:5$?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_4) · MAA AMC.
+
+### Solution
+
+Write the entries as $\binom n{k-1},\binom nk,\binom n{k+1}$. Neighboring ratios give $k/(n-k+1)=3/4$ and $(n-k)/(k+1)=5/4$. Hence $4k=3(n-k+1)$ and $4(n-k)=5(k+1)$. Solving gives $k=27,n=62$. These indices lie inside row $62$, and the two ratios verify the required triple.
+
+**Answer:** 062.
+
+**Methods:** Pascal triangle, binomial ratios, linear systems.
+
+**Verification:** At n=62,k=27, k/(n−k+1)=27/36=3/4 and (n−k)/(k+1)=35/28=5/4. Independent exact check passed: Compare exact adjacent binomial integers in the first101 rows.
+
+**Source comparison:** Both alternatives correctly reduce adjacent-binomial ratios to linear equations. No large binomial coefficients need to be evaluated.
 
 **Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
 
@@ -1916,6 +2004,28 @@ Track positions rather than labels. Let $E(n,k)$ be the original position of the
 
 **Status:** solved.
 
+## 2000 AIME II Problem 2: Lattice points on a difference of squares
+
+Count all ordered integer pairs $(x,y)$ satisfying $x^2-y^2=2000^2$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_2) · MAA AMC.
+
+### Solution
+
+The factors $x-y,x+y$ have equal parity and product $2000^2$, so both are even. Put $u=(x-y)/2$ and $v=(x+y)/2$. Then $uv=10^6=2^6 5^6$, and conversely every integer factor pair gives exactly one point $(x,y)=(u+v,v-u)$. There are $7\cdot7=49$ choices of positive $u$ and another 49 negative choices, with $v$ determined. Hence there are $98$ points.
+
+**Answer:** 098.
+
+**Methods:** difference of squares, divisor counting, bijections.
+
+**Verification:** Brute-force integer-square test for every y in the analytically bounded range, counting both signs of x.
+
+**Source comparison:** The sole source was checked. Its factor allocation is sound; the explicit inverse here clarifies why the factor of 2 accounts for signs without an additional factor for order.
+
+**Archived alternatives reviewed:** 1 of 1. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2000 AIME II Problem 3: A second matching pair
 
 A deck has four cards of each rank $1,\ldots,10$. Remove two cards of one rank. Two further cards are sampled uniformly without replacement. If their matching probability is $m/n$ in lowest terms, find $m+n$.
@@ -2862,6 +2972,28 @@ Use zero-based horizontal position $p=941$ and layer index $b=0$ counted from th
 
 **Status:** solved.
 
+## 2005 AIME I Problem 3: Exactly three small proper divisors
+
+How many positive integers have exactly three positive proper divisors, all less than 50?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_3) · MAA AMC.
+
+### Solution
+
+Exactly three proper divisors means four divisors in total, so the integer is either $p^3$ or pq for distinct primes p,q. In the cube case the largest proper divisor is $p^2<50$, allowing $p=2,3,5,7$, hence four integers. In the pq case both primes must be below 50. The fifteen such primes are $2,3,5,7,11,13,17,19,23,29,31,37,41,43,47$, giving $\binom{15}{2}=105$ products. The cases are disjoint, so the total is $109$.
+
+**Answer:** 109.
+
+**Methods:** divisor patterns, prime counting.
+
+**Verification:** Complete analytic proof checked against the archived answer; no independent numerical check claimed.
+
+**Source comparison:** The sole source was reviewed. Its prime-power classification, prime list, and unordered pair count are complete.
+
+**Archived alternatives reviewed:** 1 of 1. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2005 AIME I Problem 5: Coin colors and orientations separate
 
 Stack four identical gold coins and four identical silver coins. Each has a marked face, and adjacent marked faces may not face each other. Count distinct stacks, including orientations.
@@ -3258,6 +3390,28 @@ Let $X,Y$ be their wins in the remaining five games each. The ten relevant games
 
 **Status:** solved.
 
+## 2006 AIME II Problem 13: Five representations by consecutive odd integers
+
+How many integers $N<1000$ have exactly five representations as a sum of one or more consecutive positive odd integers, counting distinct sequence lengths?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_13) · MAA AMC.
+
+### Solution
+
+A length-$j$ sum beginning at $2t+1$ is $N=j(2t+j)$ with $t\ge0$. Thus representations correspond exactly to factor pairs $u\le v$ of $N$ with equal parity. For odd $N$, their number is $\lceil\tau(N)/2\rceil$; for $4\mid N$, it is $\lceil\tau(N/4)/2\rceil$; for $N\equiv2\pmod4$, it is zero. Five representations require a divisor count of $9$ or $10$. The possible exponent patterns are $p^8,p^2q^2,p^9,p^4q$ with distinct primes $p,q$. The pure prime powers exceed the relevant bounds. Odd $N<1000$ therefore give $225,441,405,567,891$. For $N/4<250$, the possibilities are $36,100,196,225,48,80,112,176,208,162$. The lists are exhaustive by the prime-power bounds in the two remaining patterns. Thus there are $5+10=15$ values.
+
+**Answer:** 015.
+
+**Methods:** divisor pairs, consecutive sums, prime exponent patterns.
+
+**Verification:** Enumerated every consecutive positive odd sequence with sum below 1000, independently of divisor-count classification.
+
+**Source comparison:** Both entries reviewed. Their lists are correct, but they omit mentioning the pure prime-power exponent patterns; the size bounds exclude those, as made explicit here.
+
+**Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2006 AIME II Problem 14: Reciprocal digit frequency
 
 Let $S_n$ be the sum of reciprocals of all nonzero decimal digits appearing in $1,\ldots,10^n$. Find the least positive $n$ for which $S_n$ is integral.
@@ -3610,6 +3764,28 @@ Let $a_n,b_n$ count legal words ending in $A,B$. Removing two terminal $A$'s giv
 
 **Status:** solved.
 
+## 2008 AIME I Problem 12: Maximum traffic through a fixed point
+
+All cars are $4$ meters long and travel at common speed $v>0$ km/h. The gap behind each car is exactly $4\lceil v/15\rceil$ meters. A roadside detector counts passing cars for one hour. Over all speeds and initial placements, let $M$ be the largest possible whole count. Find the integer quotient $M/10$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_12) · MAA AMC.
+
+### Solution
+
+Put $n=\lceil v/15\rceil$. Consecutive fronts cross at intervals $\delta=4(n+1)/(1000v)\ge(n+1)/(3750n)>1/3750$ hours. Thus $3751$ crossings would span $3750\delta>1$ hour and are impossible. Conversely choose $v=15n$ with $n=3750$. Then $3749\delta=3749\cdot3751/(3750^2)<1$, so an initial phase places $3750$ consecutive crossings strictly within the hour. Therefore $M=3750$, and the requested quotient is $375$.
+
+**Answer:** 375.
+
+**Methods:** interval packing, ceiling functions, throughput.
+
+**Verification:** Exact crossing-span check for the attaining finite speed; the analytic headway bound excludes 3751 at every speed.
+
+**Source comparison:** All three entries reviewed. The first recognizes the endpoint-count issue, though it phrases it using partial units. The second omits car length from the headway; the third uses floor instead of ceiling for nonmultiple speeds. The exact crossing-span proof resolves these ambiguities.
+
+**Archived alternatives reviewed:** 3 of 3. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2008 AIME II Problem 10: Increasing distances on a small grid
 
 On the sixteen points $\{0,1,2,3\}^2$, a path visits distinct points with strictly increasing successive distances. Let $m$ be its maximum number of points and $r$ the number of paths attaining that maximum. Find $mr$.
@@ -3761,6 +3937,28 @@ Write the two x-coordinates as $u,v\in\{0,\ldots,49\}$. Their determinant is $20
 **Source comparison:** Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The inference that the base is an integral multiple of twice the primitive lattice length requires the lattice-spacing condition; integrality of area alone is insufficient.
 
 **Archived alternatives reviewed:** 4 of 4. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2009 AIME I Problem 14: Minimizing a second moment with fixed first and fourth moments
+
+A sequence of $350$ entries, each in $\{1,2,3,4\}$, satisfies $\sum a_i=513$ and $\sum a_i^4=4745$. Find the smallest possible $\sum a_i^2$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_14) · MAA AMC.
+
+### Solution
+
+Let $w,x,y,z$ count the entries equal to $1,2,3,4$. Subtracting the count equation from the two moment equations gives $x+2y+3z=163$ and $15x+80y+255z=4395$. Eliminating $x$ gives $5y+21z=195$. Thus $z\equiv0\pmod5$ and $0\le z\le9$, so $(y,z)$ is $(39,0)$ or $(18,5)$. These give $(w,x)=(226,85)$ or $(215,112)$ respectively. Their second moments are $917$ and $905$, so the minimum is $905$, attained by the latter frequencies.
+
+**Answer:** 905.
+
+**Methods:** frequency variables, integer optimization, moments.
+
+**Verification:** Enumerated every feasible frequency vector using the count and moment constraints, and minimized the second moment.
+
+**Source comparison:** The sole source correctly reduces the constraints to two feasible frequency vectors. The explicit second moments here certify which is minimal.
+
+**Archived alternatives reviewed:** 1 of 1. Indices in the data are zero-based.
 
 **Status:** solved.
 
@@ -4446,6 +4644,28 @@ Permutation requires $\gcd(a,n)=1$. A nonzero difference $d$ must never satisfy 
 
 **Status:** solved.
 
+## 2012 AIME II Problem 1: Count lattice points on a positive Diophantine segment
+
+Count ordered positive integer pairs $(m,n)$ satisfying $20m+12n=2012$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_1) · MAA AMC.
+
+### Solution
+
+Divide by four: $5m+3n=503$. Modulo three this forces $m\equiv1\pmod3$, and positivity of $n$ forces $m\le100$. Conversely every $m=1+3j$ for $0\le j\le33$ gives $n=(503-5m)/3$, a positive integer. This is a bijection with thirty-four integers $j$, so there are $34$ ordered pairs.
+
+**Answer:** 034.
+
+**Methods:** linear Diophantine equations, lattice-point counting, congruences.
+
+**Verification:** Direct enumeration of positive pairs gives thirty-four.
+
+**Source comparison:** All four stored alternatives inspected. They use either congruences or a lattice slope. The last initially states a false divisibility-by-twenty criterion before adding the missing tens-digit condition; the congruence proof here is exact from the outset.
+
+**Archived alternatives reviewed:** 4 of 4. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2012 AIME II Problem 3: Department and gender margins
 
 Three departments each contain two men and two women. Choose a six-person committee with two members per department and three of each gender. Count committees.
@@ -4487,6 +4707,30 @@ Numbers fitting in twelve bits number $\binom{12}{8}=495$, so bit $12$ is one an
 **Source comparison:** Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.
 
 **Archived alternatives reviewed:** 1 of 1. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2012 AIME II Problem 10: A floor-product range is a disjoint union of integer blocks
+
+Count positive integers $n<1000$ representable as $x\lfloor x\rfloor$ for some positive real $x$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_10) · MAA AMC.
+
+### Solution
+
+Let $k=\lfloor x\rfloor$. Since $n>0$, $k\ge1$. On $k\le x<k+1$, multiplication by $k$ maps the interval bijectively onto $[k^2,k(k+1))$. Hence its integer outputs are exactly
+$$k^2,k^2+1,\ldots,k^2+k-1,$$
+a set of $k$ values. These blocks are disjoint, because $k(k+1)<(k+1)^2$. The complete blocks for $1\le k\le31$ lie below $1000$, with last endpoint $31\cdot32-1=991$, while $k=32$ begins at $1024$. Therefore the count is $1+2+\cdots+31=496$. Every counted integer is attained at $x=n/k$, so this counts outputs, not merely necessary bounds.
+
+**Answer:** 496.
+
+**Methods:** floor functions, interval images, disjoint counting.
+
+**Verification:** Enumeration by n with k=floor(√n) confirms exactly 496 representable values below 1000.
+
+**Source comparison:** All four stored alternatives inspected. Some blur x and its integer part or write an incorrect endpoint before using the correct range. The new proof explicitly gives the bijection on each half-open interval and proves the output blocks disjoint.
+
+**Archived alternatives reviewed:** 4 of 4. Indices in the data are zero-based.
 
 **Status:** solved.
 
@@ -4600,6 +4844,34 @@ Imagine twelve labeled capacity slots. The three mathematics books occupy a unif
 
 **Status:** solved.
 
+## 2013 AIME I Problem 10: Conjugate integer roots and distinct cubics
+
+Consider all cubics $x^3-ax^2+bx-65$ with nonzero integers $a,b$ that have a root $r+si$ for nonzero integers $r,s$. For each distinct coefficient pair $(a,b)$, take the sum of its three roots. Find the sum of these values over all admissible pairs.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_10) · MAA AMC.
+
+### Solution
+
+The conjugate $r-si$ is also a root. The third root is $q=a-2r$, an integer, and coefficient comparison gives
+$$q(r^2+s^2)=65,\qquad a=q+2r,\qquad b=r^2+s^2+2qr.$$
+Since $r,s\ne0$, $q$ is a positive divisor of $65$ other than $65$. For $q=1,5,13$, the possible $r$ are respectively
+$$\{\pm1,\pm4,\pm7,\pm8\},\quad\{\pm2,\pm3\},\quad\{\pm1,\pm2\}.$$
+These lists follow by subtracting positive squares from $65,13,5$; only square complements are retained. For each listed $r$, the value of $s^2$ is fixed, and its two signs produce the same polynomial. Every listed $a$ is odd and nonzero; the formulas give nonzero $b$ as well. Distinct choices cannot duplicate a polynomial: its unique real root fixes $q$, and then $a$ fixes $r$.
+
+By Vieta each root sum is $a=q+2r$. Pair $r$ with $-r$ in each list. The signed terms cancel, leaving $8\cdot1+4\cdot5+4\cdot13=80$.
+
+**Answer:** 080.
+
+**Methods:** complex conjugates, Vieta formulas, sum of two squares, finite classification, involution.
+
+**Verification:** Exact integer enumeration finds sixteen distinct (a,b) pairs and sums a to eighty.
+
+**Source comparison:** Inspected the sole stored argument. The new exposition adds why the third root is integral, excludes q=65, verifies the nonzero coefficient restrictions, and proves that the coefficient-pair count has no duplicates.
+
+**Archived alternatives reviewed:** 1 of 1. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2013 AIME I Problem 15: Two arithmetic progressions with reordered residues
 
 Count $0\le A<B<C\le99$ forming an arithmetic progression for which a prime $p$ and residues $0\le b<a<c<p$ satisfy $A\equiv a$, $B\equiv b$, $C\equiv c\pmod p$, with $(b,a,c)$ also an arithmetic progression.
@@ -4707,6 +4979,28 @@ The two matching events are disjoint. Thus $(4\cdot16+6N)/(10(16+N))=29/50$. Cro
 **Source comparison:** The first archived solution uses the same mathematical reduction; this argument is independently written.
 
 **Archived alternatives reviewed:** 1 of 1. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2014 AIME I Problem 3: Reduced fractions with fixed numerator-plus-denominator
+
+Count reduced fractions strictly between zero and one whose positive numerator and denominator sum to 1000.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_3) · MAA AMC.
+
+### Solution
+
+Write the fraction as $a/(1000-a)$ with $1\le a\le499$. It is reduced exactly when $\gcd(a,1000)=1$, so $a$ must be divisible by neither $2$ nor $5$. Inclusion-exclusion gives $499-249-99+49=200$. Equivalently, complementary residues pair the $\varphi(1000)=400$ coprime values into reciprocal fractions.
+
+**Answer:** 200.
+
+**Methods:** Euclidean algorithm, totient, inclusion-exclusion.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** All eight sources inspected. Totient pairing and exclusion of multiples of 2 and 5 agree. Some alternatives reverse divisibility notation or say a divides 1000 rather than shares a prime factor; the gcd equivalence is the correct criterion.
+
+**Archived alternatives reviewed:** 8 of 8. Indices in the data are zero-based.
 
 **Status:** solved.
 
@@ -4861,6 +5155,28 @@ A matching is a permutation of owners; a closed collection of pairs is a union o
 **Source comparison:** The first archived solution uses the same mathematical reduction; this argument is independently written.
 
 **Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2014 AIME II Problem 15: Prime multiplication as binary carrying
+
+For positive $k$, let $p(k)$ be the smallest prime not dividing $k$, and let $X(k)$ be the product of smaller primes, with empty product 1. Define $x_0=1$ and $x_{n+1}=x_np(x_n)/X(x_n)$. Find the first $t>0$ with $x_t=2090$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_15) · MAA AMC.
+
+### Solution
+
+Every term is squarefree. Encode it by a binary integer whose bit $j-1$ records whether the $j$th prime divides it. The smallest missing prime identifies the first zero bit; dividing by all smaller primes clears exactly the preceding consecutive one bits, and multiplying by that prime sets the zero bit. This is precisely binary addition of 1. Starting from $x_0=1$, the encoded integer is therefore $n$. Since $2090=2\cdot5\cdot11\cdot19$ uses prime indices 1,3,5,8, its index is $2^0+2^2+2^4+2^7=149$. The encoding is bijective, proving this is the first occurrence.
+
+**Answer:** 149.
+
+**Methods:** binary carrying, squarefree integers, conjugate dynamics.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** All three sources inspected. The binary encoding and its induction version explain the recurrence; the brute-force suggestion alone does not prove first occurrence.
+
+**Archived alternatives reviewed:** 3 of 3. Indices in the data are zero-based.
 
 **Status:** solved.
 
@@ -5546,6 +5862,28 @@ Since $2017=2202201_3$, every valid number of at most $6$ digits is allowed, con
 
 **Status:** solved.
 
+## 2017 AIME II Problem 5: Four pair sums force a complementary pair
+
+Four distinct real numbers have six pairwise sums. Four of these are 189,320,287,234; the remaining two are $x,y$. Find the greatest possible $x+y$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_5) · MAA AMC.
+
+### Solution
+
+Let the four numbers sum to $T$. Their six pair sums split into three complementary pairs, each totaling $T$: $(a+b,c+d)$, $(a+c,b+d)$, $(a+d,b+c)$. Among the four known sums, two must belong to one complementary pair by pigeonhole. Hence $T$ is at most the sum of the two largest known values, $320+287=607$. All six sums total $3T$, so $x+y=3T-(189+320+287+234)\le791$. Equality is attained by the distinct numbers $103/2,275/2,365/2,471/2$: their four specified sums are 189,234,287,320 and the remaining sums are 373,418. Therefore the maximum is 791.
+
+**Answer:** 791.
+
+**Methods:** complementary edge matchings, pigeonhole principle, equality construction.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** All four alternatives inspected. The complementary-pair argument proves the upper bound; several sources assume the unknown sums are the two largest without establishing it. An explicit four-number witness proves that the upper bound is attainable.
+
+**Archived alternatives reviewed:** 4 of 4. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2017 AIME II Problem 9: An eight-edge bipartite covering
 
 Choose $8$ cells of a $7$ by $7$ board uniformly, conditional on hitting every row and column. Find numerator plus denominator of the probability one cell can be removed while still hitting all rows and columns.
@@ -6074,6 +6412,28 @@ Choose the two unused even chairs. If these are adjacent on the six-cycle, separ
 
 **Status:** solved.
 
+## 2019 AIME II Problem 10: A tangent sign itinerary fixes every binary digit
+
+An angle $0<\theta<90^\circ$ has $\tan(2^n\theta)>0$ precisely when $3\mid n$, and negative otherwise, for every integer $n\ge0$. Write $\theta=p/q$ degrees in lowest terms and find $p+q$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_10) · MAA AMC.
+
+### Solution
+
+Put $t=\theta/180\in(0,1/2)$. The sign of $\tan(180\cdot2^nt)$ is positive when the fractional part of $2^nt$ lies below 1/2, and negative when it lies above 1/2. In a binary expansion, this reads the next digit:0 for positive,1 for negative. No dyadic endpoint is allowed, because tangent there is zero or undefined. Thus the unique expansion is $t=0.\overline{011}_2=3/(2^3-1)=3/7$. Hence $\theta=540/7$ degrees and the answer is 547.
+
+**Answer:** 547.
+
+**Methods:** binary expansion, doubling dynamics, trigonometric signs.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** All five alternatives inspected. The binary-digit argument proves uniqueness. Several sources infer periodic angles directly from periodic signs without proof; that implication requires the complete itinerary, supplied here.
+
+**Archived alternatives reviewed:** 5 of 5. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2019 AIME II Problem 12: Divisibility chains with prescribed sum
 
 Count finite strictly increasing positive integer sequences, each term dividing the next, whose sum is $360$.
@@ -6223,6 +6583,28 @@ The comparison line is $y=x/2+1/16$. For $x<5/8$ choose points below it; for $x>
 **Verification:** The displayed mathematical count agrees with the archived answer.
 
 **Source comparison:** Both area decompositions agree. The vertical line has measure zero and does not affect the probability.
+
+**Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2020 AIME II Problem 8: Zeros of nested absolute values form a parity interval
+
+Let $f_1(x)=|x-1|$ and $f_n(x)=f_{n-1}(|x-n|)$ for n>1. Find the least n for which the sum of the distinct real zeros of $f_n$ exceeds 500000.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_8) · MAA AMC.
+
+### Solution
+
+Inductively the zero set is the arithmetic progression from $n-n(n-1)/2$ to $n+n(n-1)/2$, with step 2. For the induction, zeros of $f_n$ are n plus or minus the nonnegative zeros of $f_{n-1}$. Those nonnegative zeros start at 0 or 1 and end at $n(n-1)/2$, so their positive and negative reflections fill exactly the asserted parity interval; the initial cases n=1,2 are immediate. There are $1+n(n-1)/2$ zeros and their average is n. Their sum is $n(n^2-n+2)/2$, strictly increasing for positive n. At n=100 it is 495100; at n=101 it is 510151. Thus the least n is 101.
+
+**Answer:** 101.
+
+**Methods:** absolute-value preimages, arithmetic zero sets, induction.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** Both alternatives inspected. The first gives an induction, while the second infers the pattern from initial terms. Explicitly identifying the nonnegative part and its reflected parity interval completes the induction.
 
 **Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
 
@@ -6401,6 +6783,28 @@ For $h(x)=|20|x|-x^2|$, a horizontal level $t$ has $6$ preimages exactly when $0
 **Source comparison:** Source 1 repeats x=10 where its second zero should be 20. Source 3 calls the square root the discriminant and does not fully impose the signs introduced by absolute values. Horizontal-level multiplicity gives the rigorous count.
 
 **Archived alternatives reviewed:** 4 of 4. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2021 AIME I Problem 10: A rational recurrence reduces at its first shared prime
+
+Start with $a_1=2020/2021$. When $a_k=m/n$ is reduced with positive integers m,n, define $a_{k+1}=(m+18)/(n+19)$. Find the sum of all j for which $a_j=t/(t+1)$ for a positive integer t.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_10) · MAA AMC.
+
+### Solution
+
+Start at a term $m/(m+1)$. Before any reduction, k further steps give $(m+18k)/(m+1+19k)$, whose numerator-denominator gcd is $\gcd(m-18,k+1)$. If m−18>1, the first reduction occurs at k=p−1, where p is its least prime divisor. The denominator difference k+1 then equals p, so after reduction the next special numerator is $18+(m-18)/p$. Between these reductions the denominator difference exceeds 1 and the fractions are reduced, so no other term is special. Beginning with m=2020, the successive m−18 values are 2002,1001,143,13,1; the primes removed are 2,7,11,13. The special indices are therefore 1,2,8,18,30. Once m−18=1, the gcd is always 1 and no later special term occurs. Their sum is 59.
+
+**Answer:** 059.
+
+**Methods:** Euclidean algorithm, prime-driven reductions, rational recurrence.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** Both alternatives inspected. The first source states reducibility as full divisibility of k+1, which is not true in general; the first-event argument works because the first common factor is the least prime divisor. The second source supplies this distinction.
+
+**Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
 
 **Status:** solved.
 
@@ -7086,6 +7490,28 @@ Complementary pairs force exactly one member of each pair into the family. If a 
 
 **Status:** solved.
 
+## 2023 AIME II Problem 15: A finite carry state detects repeated modular inverses
+
+For each n≥1, let a_n be the smallest positive multiple of 23 congruent to 1 modulo 2 to the nth power. Count n≤1000 for which a_n=a_(n+1).
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_15) · MAA AMC.
+
+### Solution
+
+Put $b_n=(a_n-1)/2^n$. To pass to modulus $2^{n+1}$, the least admissible multiple is either a_n or a_n+23 times 2 to the nth power: all candidates for the old modulus differ by that increment. Consequently $b_{n+1}=b_n/2$ when b_n is even, and $(b_n+23)/2$ when it is odd. Starting at b_1=11, the successive states are 11,17,20,10,5,14,7,15,19,21,22, followed again by 11. Determinism proves the 11-term cycle repeats forever. Equality of consecutive a values occurs exactly at the even states, or n≡0,3,4,6 modulo 11. The 90 complete cycles in 1 through 990 contribute 360, and 991 through 1000 contribute three more. The answer is 363.
+
+**Answer:** 363.
+
+**Methods:** modular inverse lifting, finite-state recurrence, periodic carries.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** All three alternatives inspected. The carry-state recurrence proves periodicity exactly. The first source incorrectly makes the multipliers a_n/23 themselves periodic, and the binary discussion gives an unsupported 16-state bound; only the bounded carry state repeats.
+
+**Archived alternatives reviewed:** 3 of 3. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2024 AIME I Problem 3: Winning residues in a subtraction game
 
 Two players alternately remove either $1$ or $4$ counters. The player taking the last counter wins. Count initial sizes from $1$ through $2024$ for which the second player can force a win.
@@ -7174,6 +7600,34 @@ Let $B\subset\mathbb Z_8$ be the blue set. If $|B|\le3$, its difference set has 
 
 **Status:** solved.
 
+## 2024 AIME I Problem 12: Count branch pairs with a rigorous curvature certificate
+
+Define $f(t)=||t|-1/2|$ and $g(t)=||t|-1/4|$. How many real pairs satisfy $y=4g(f(\sin(2\pi x)))$ and $x=4g(f(\cos(3\pi y)))$?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_12) · MAA AMC.
+
+### Solution
+
+Put $H(t)=4g(f(t))$, $F(x)=H(\sin(2\pi x))$, and $G(y)=H(\cos(3\pi y))$. All solutions lie in the unit square. On 0≤t≤1, H has values 1,0,1,0,1 at t=0,1/4,1/2,3/4,1 and is linear between them. Hence F has 16 full monotone branches and G has 24. We prove each branch pair has exactly one intersection, except the final pair, which has two.
+
+Here is the needed calculus lemma. For a three-times differentiable function u with nonzero derivative, define its Schwarzian by $S(u)=u^{\prime\prime\prime}/u^{\prime}-\tfrac32(u^{\prime\prime}/u^{\prime})^2$. Direct differentiation gives $S(v\circ u)=S(v)(u)(u^{\prime})^2+S(u)$. Every affine sine branch has $S(u)=-c^2[1+\tfrac32\tan^2(cx+d)]<0$; cosine branches have the analogous cotangent formula. Thus a composition h of two such branches has S(h)<0. When h is increasing, $\phi=(h^{\prime})^{-1/2}$ satisfies $\phi^{\prime\prime}=-S(h)\phi/2>0$. There cannot be two fixed points a<b with h derivative at least 1 at both: strict convexity would give phi<1 between them, hence h derivative>1, contradicting $h(b)-h(a)=b-a$ after integration. Consequently, if h(x)−x is negative at the left end and positive at the right, it has exactly one zero. Indeed continuity gives an upward crossing; any additional downward crossing or tangency forces a second zero with derivative of h at least 1, which was excluded.
+
+Fix one branch of F and one of G. Restrict the x interval so that F traverses the domain of that G branch, and put h=G composed with F. At its ends h takes values 0 and 1. If h decreases, h(x)−x strictly decreases and has exactly one zero. If h increases and the endpoints are interior to the unit interval, the lemma gives exactly one zero. A solution at any branch boundary would have x or y equal 0 or 1; using F(0)=F(1)=G(0)=G(1)=1 shows that only (1,1) is possible. Thus no ordinary branch pairs share solutions.
+
+For the final pair, the interval ends at 1, h is increasing, h(1)=1, and its left endpoint a has h(a)=0<a. Moreover the left derivative at 1 is h derivative=G derivative at 1 times F derivative at 1=0. Hence h(x)−x is positive just left of 1, giving an interior upward crossing. The same convexity lemma excludes any further interior zero. This pair therefore contributes that interior point and (1,1). The exact total is $16\cdot24+1=385$.
+
+**Answer:** 385.
+
+**Methods:** piecewise monotone branches, Schwarzian derivative, strict convexity, intersection counting.
+
+**Verification:** Exact branch counts and the analytic uniqueness proof certify 385; numerical verification is supplemental, not the basis for the count.
+
+**Source comparison:** All four stored entries inspected, including the figure-link entry. The source branch counts do not prove uniqueness per branch pair, and a small-angle approximation cannot certify the extra corner root. The self-contained negative-Schwarzian lemma repairs both gaps and was independently checked by the parent reviewer.
+
+**Archived alternatives reviewed:** 4 of 4. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2024 AIME II Problem 1: Recovering a fourfold intersection
 
 Among $900$ residents everyone has a candy. Ring, club, and spade ownership totals are $195, 367$, and $562$. Exactly $437$ residents own two of the four items and $234$ own three. How many own all four?
@@ -7191,6 +7645,28 @@ Count ownership incidences beyond the universal candy. Their number is $195+367+
 **Verification:** The displayed mathematical count agrees with the archived answer.
 
 **Source comparison:** All four stored solutions inspected. Venn-atom equations and incidence totals are equivalent; some use inconsistent variable names, without affecting the final linear equation.
+
+**Archived alternatives reviewed:** 4 of 4. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2024 AIME II Problem 2: A mode and a missing median constrain an integer partition
+
+A finite list of positive integers sums to 30, has unique mode 9, and has an integral median that is absent from the list. Find the sum of squared entries.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_2) · MAA AMC.
+
+### Solution
+
+The list length is even, and 9 occurs at least twice but at most three times. If it occurs three times, the remaining sum is 3: an even list has either one extra entry 3, giving median 9, or three entries 1, giving a tied mode. Thus exactly two 9 s occur and every other entry is distinct. Their sum is 12, so there are either two or four other entries; six distinct positive entries already sum to 21. Four distinct entries summing to 12 are only (1,2,3,6) or(1,2,4,5); each gives median 9/2 after the two 9 s are appended. For two entries, the distinct positive pairs summing to 12 are (1,11),(2,10),(3,9),(4,8),(5,7). Only(5,7) meets both the mode and median conditions. Thus the list is 5,7,9,9, and its square sum is 25+49+81+81=236.
+
+**Answer:** 236.
+
+**Methods:** integer partitions, multiplicity constraints, exhaustive case split.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** All four alternatives inspected. The first three analyze only four-element lists and leave longer lists unexcluded. The final source supplies the missing length analysis; the authored proof explicitly exhausts both the frequency and length possibilities.
 
 **Archived alternatives reviewed:** 4 of 4. Indices in the data are zero-based.
 
@@ -7284,6 +7760,28 @@ Using $\sum_{\rm sym}a^2b=(a+b+c)(ab+bc+ca)-3abc$, the equation is equivalent to
 
 **Status:** solved.
 
+## 2024 AIME II Problem 14: Digit-square conditions count CRT idempotents
+
+For integer b≥2, call a positive integer special if its base-b representation has exactly two digits whose sum equals its square root. Find the least b with more than ten special integers.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_14) · MAA AMC.
+
+### Solution
+
+Write the digits a,c and put k=a+c=$\sqrt{n}$, B=b−1. Since n<b squared, k≤B; the leading digit is positive, so k≥2. The equation k squared=ba+c becomes $k(k-1)=Ba$. Conversely every k in 2 through B satisfying B divides k(k−1) gives a=k(k−1)/B and c=k−a, with 1≤a≤k−1≤B−1 and 1≤c≤B−1, so it gives a valid distinct integer. For each prime power dividing B, coprimality of k,k−1 forces k≡0 or 1 modulo that power. The Chinese remainder theorem gives exactly $2^{\omega(B)}$ residues modulo B; representing them in 1 through B and excluding k=1 leaves $2^{\omega(B)}-1$ special integers. More than ten requires at least four distinct prime factors. The least B with four is 2 times 3 times 5 times 7=210, which gives 15 integers. Hence b=211.
+
+**Answer:** 211.
+
+**Methods:** Chinese remainder theorem, prime-power assignments, idempotent counting, digit bounds.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** The single alternative inspected. The authored proof supplies the full converse digit bounds and uses CRT for existence, not merely uniqueness, of every prime-power assignment.
+
+**Archived alternatives reviewed:** 1 of 1. Indices in the data are zero-based.
+
+**Status:** solved.
+
 ## 2024 AIME II Problem 15: Rectangles supported by dodecagon chords
 
 Count rectangles whose four sides lie on sides or diagonals of a regular dodecagon. Rectangle corners need not be polygon vertices.
@@ -7325,6 +7823,28 @@ The possible counts $(c,v,s)$ are $(6,2,1),(5,3,1),(4,3,2)$. Their multinomial c
 **Source comparison:** All five sources inspected. Each uses the same three strict count partitions and multinomial assignments; index 4 has missing displayed case details in the scrape.
 
 **Archived alternatives reviewed:** 5 of 5. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2025 AIME I Problem 4: Count a union of two primitive lattice lines
+
+Count ordered integer pairs (x,y) with −100≤x,y≤100 satisfying $12x^2-xy-6y^2=0$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_4) · MAA AMC.
+
+### Solution
+
+Factor the expression as $(3x+2y)(4x-3y)$. On the first line, coprimality gives $(x,y)=(2t,-3t)$, with −33≤t≤33, yielding 67 pairs. On the second, $(x,y)=(3t,4t)$, with −25≤t≤25, yielding 51 pairs. The lines share only(0,0), so their union has 67+51−1=117 pairs.
+
+**Answer:** 117.
+
+**Methods:** factorization, primitive lattice directions, inclusion-exclusion.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** All three alternatives inspected. Factoring without division retains the origin automatically; subtracting it once corrects the overlap of the two cases.
+
+**Archived alternatives reviewed:** 3 of 3. Indices in the data are zero-based.
 
 **Status:** solved.
 
@@ -7501,6 +8021,28 @@ Write $N=25q+r$, $0\le r<25$, and put $h(s)=\lfloor s/10\rfloor+(s\bmod10)$, the
 **Source comparison:** The single stored source uses coin-case analysis. The independent two-quarter exchange explains why only the largest allowable quarter count and one less need comparison.
 
 **Archived alternatives reviewed:** 1 of 1. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2025 AIME II Problem 9: Count sine levels and identify double zeros
+
+Let n count roots of $\sin(7\pi\sin(5x))=0$ in 0<x<2 $\pi$, and t count those roots where the graph is tangent to the x-axis. Find n+t.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_9) · MAA AMC.
+
+### Solution
+
+Roots occur exactly at sin(5 x)=k/7 for integers−7≤k≤7. Over the five periods, each of the twelve nonzero levels with absolute value below 1 has ten crossings, the zero level has nine because both interval endpoints are excluded, and each extreme level±1 has five. Thus n=120+9+10=139. At a root the derivative is $35\pi\cos(k\pi)\cos(5x)$; since cos(kpi)=±1, it vanishes exactly at the ten extreme-level roots. There the inner sine has a nondegenerate extremum while the outer sine has nonzero derivative, so the zero has order two and the axis is tangent. Hence t=10 and n+t=149.
+
+**Answer:** 149.
+
+**Methods:** periodic level counting, endpoint exclusion, root multiplicity.
+
+**Verification:** The exact derivation yields the archived answer.
+
+**Source comparison:** Both alternatives inspected. Level counts require removing the two open-interval endpoints. The derivative and nondegenerate-extremum observation distinguish genuine tangencies from crossings.
+
+**Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
 
 **Status:** solved.
 
@@ -7791,6 +8333,28 @@ Ignore $B$ trials when comparing $A$ with $C$. The chance of fewer than two $A$ 
 **Source comparison:** All five sources inspected. The short first-three-trial conditioning, finite-state recurrence, and terminal-success-word sums are sound. Source index 2 has an unclear overlapping series decomposition and is not relied on. Independent inclusion-exclusion gives 7/54.
 
 **Archived alternatives reviewed:** 5 of 5. Indices in the data are zero-based.
+
+**Status:** solved.
+
+## 2026 AIME II Problem 11: Seven signed square-root sums force a zero sum
+
+Find the greatest integer $n$ such that $x^3-(n/6)x^2+(n-11)x-400$ has roots $\alpha^2,\beta^2,\gamma^2$ and the choices of square roots yield exactly seven distinct values of $\alpha+\beta+\gamma$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_11) · MAA AMC.
+
+### Solution
+
+The set of signed sums is closed under negation. A finite such set of odd size must contain zero, so choose signs with $\alpha+\beta+\gamma=0$. Vieta gives $\alpha^2+\beta^2+\gamma^2=n/6$ and $\alpha^2\beta^2+\beta^2\gamma^2+\gamma^2\alpha^2=n-11$. Thus $q=\alpha\beta+\beta\gamma+\gamma\alpha=-n/12$, while $q^2=n-11$ because its cross terms are $2\alpha\beta\gamma(\alpha+\beta+\gamma)=0$. Hence $n^2-144n+1584=0$, giving $n=12$ or 132. To attain 132, choose $\alpha=4$, $\beta=-2+i$, $\gamma=-2-i$. Their squares are the roots of $x^3-22x^2+121x-400$. Their signed sums are exactly $0,\pm8,\pm(-4+2i),\pm(-4-2i)$, seven distinct values. Therefore the greatest integer is 132.
+
+**Answer:** 132.
+
+**Methods:** negation involution, signed sums, Vieta formulas, attainment.
+
+**Verification:** Exact Gaussian-integer expansion verifies roots 16,3−4 i,3+4 i and exactly seven distinct signed sums; the necessary quadratic has only integer roots 12 and 132.
+
+**Source comparison:** Both alternatives read. Source 0 asserts that other sign collisions give too few values without proof; central symmetry supplies a one-line rigorous reason that zero must occur. Source 1 has a sign slip in the coefficient comparison for its auxiliary cubic. Neither explicitly verifies seven distinct sums at the larger candidate; the concrete roots do so.
+
+**Archived alternatives reviewed:** 2 of 2. Indices in the data are zero-based.
 
 **Status:** solved.
 

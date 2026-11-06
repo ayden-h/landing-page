@@ -1,0 +1,51 @@
+{
+  "purpose": "Finite exact checks supplement, and do not replace, written proofs. Counts are parameter cases, not separate theorems.",
+  "total_cases": 6584,
+  "subjects": {
+    "geometry": {
+      "cases": 587,
+      "checks": {
+        "Stewart on rational triangles": 140,
+        "weighted squared-distance identity": 84,
+        "trapezoid section area coordinate": 99,
+        "inversion distance transformation": 6,
+        "opposite-area balance": 256,
+        "exercise 9 cyclic area": 1,
+        "exercise 17 tetrahedron face": 1
+      }
+    },
+    "algebra": {
+      "cases": 1825,
+      "checks": {
+        "power-sum elimination": 121,
+        "cubic symmetric factorization": 363,
+        "weighted moment recurrence": 84,
+        "weighted binomial modes": 150,
+        "root-set product fibers": 225,
+        "fractional-linear iteration": 20,
+        "singleton floor fibers": 861,
+        "exercise 14 singleton count": 1
+      }
+    },
+    "number_theory": {
+      "cases": 4172,
+      "checks": {
+        "neighboring quadratic gcd": 900,
+        "CRT idempotent count": 159,
+        "two-power square roots": 7,
+        "exponential gcd parity criterion": 576,
+        "odd-prime exponent lifting": 1620,
+        "two-adic exponent lifting": 448,
+        "binary Lucas count": 100,
+        "hyperbola count": 100,
+        "reduced numerator feasibility": 80,
+        "Frobenius boundary": 76,
+        "positive consecutive-sum lengths": 100,
+        "exercise 24 minimal divisor count": 1,
+        "exercise 13 trailing base-twelve zeros": 1,
+        "exercise 23 floor sum": 1,
+        "short factorial block attainment": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "standard_papers": 71,
+  "unique_problem_slots": 1065,
+  "subject_counts": {
+    "combinatorics": 382,
+    "geometry": 402,
+    "algebra": 437,
+    "number_theory": 313
+  },
+  "local_markdown_files_checked": 3115,
+  "broken_local_links": [],
+  "control_character_errors": [],
+  "scope": "Inventory and navigation audit; not a formal verification of all proofs."
+}

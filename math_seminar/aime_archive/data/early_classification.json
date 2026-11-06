@@ -1,0 +1,1904 @@
+[
+  {
+    "id": "1983-A-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Taking reciprocal logarithms converts the three bases into an additive relation."
+  },
+  {
+    "id": "1983-A-02",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The prescribed interval fixes the signs of all three absolute values."
+  },
+  {
+    "id": "1983-A-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A repeated quadratic expression reduces the radical equation to a quadratic, followed by Vieta."
+  },
+  {
+    "id": "1983-A-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two perpendicular notch segments locate an interior point relative to a circle."
+  },
+  {
+    "id": "1983-A-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The power sums determine a cubic for the sum of the two complex numbers."
+  },
+  {
+    "id": "1983-A-06",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Expansion around 7 determines two large powers modulo 49."
+  },
+  {
+    "id": "1983-A-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The event is an adjacency condition on a uniformly selected triple of circular seats."
+  },
+  {
+    "id": "1983-A-08",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Prime valuations of a factorial ratio identify the largest two-digit prime divisor."
+  },
+  {
+    "id": "1983-A-09",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A positive substitution reduces the trigonometric expression to an equality-case inequality."
+  },
+  {
+    "id": "1983-A-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Four-digit strings are classified by the identity and positions of their repeated digit."
+  },
+  {
+    "id": "1983-A-11",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A square-based solid is measured by prism and pyramid decomposition."
+  },
+  {
+    "id": "1983-A-12",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The reversed-digit chord condition imposes a perfect-square constraint from a right triangle."
+  },
+  {
+    "id": "1983-A-13",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A sum over all subsets is simplified by cancellation of signed element contributions."
+  },
+  {
+    "id": "1983-A-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal collinear chords impose projection constraints on the two circle centers."
+  },
+  {
+    "id": "1983-A-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A unique bisected chord forces tangency of a midpoint locus and determines a central angle."
+  },
+  {
+    "id": "1984-A-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Adjacent terms of an arithmetic progression determine the difference between its even and odd partial sums."
+  },
+  {
+    "id": "1984-A-02",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Divisibility by3 and5 constrains an integer containing only0 and8."
+  },
+  {
+    "id": "1984-A-03",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three parallel-line triangles have scale factors whose sum is1."
+  },
+  {
+    "id": "1984-A-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Removing one value determines the list length, after which positivity bounds its maximum."
+  },
+  {
+    "id": "1984-A-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A symmetric pair of logarithm equations determines the logarithm of the product directly."
+  },
+  {
+    "id": "1984-A-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal-disk area balance is controlled by signed distances from a line through a fixed center."
+  },
+  {
+    "id": "1984-A-07",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A nested functional recurrence is solved by a descending parity induction."
+  },
+  {
+    "id": "1984-A-08",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The polynomial factors a roots-of-unity equation and excludes cube roots of1."
+  },
+  {
+    "id": "1984-A-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two face areas and their dihedral angle determine a tetrahedron height."
+  },
+  {
+    "id": "1984-A-10",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Feasible correct/wrong/blank score configurations determine the first uniquely informative score."
+  },
+  {
+    "id": "1984-A-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Nonadjacent birches are counted by gaps among the other trees."
+  },
+  {
+    "id": "1984-A-12",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two reflection identities generate a periodic orbit of forced roots, which must be counted and realized."
+  },
+  {
+    "id": "1984-A-13",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Repeated tangent addition or an arctangent telescope evaluates the angle sum."
+  },
+  {
+    "id": "1984-A-14",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Residue classes give explicit odd-composite decompositions of every sufficiently large even integer."
+  },
+  {
+    "id": "1984-A-15",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A rational-function interpolation identity extracts the sum of four unknown squares without solving separately."
+  },
+  {
+    "id": "1985-A-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Adjacent recurrence terms multiply to their index, so the eight-term product pairs off."
+  },
+  {
+    "id": "1985-A-02",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two rotations of a right triangle relate its legs through cone volumes."
+  },
+  {
+    "id": "1985-A-03",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The imaginary part of a complex cube yields a prime-divisor restriction on a positive integer."
+  },
+  {
+    "id": "1985-A-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Distances between two pairs of parallel lines determine a central square area."
+  },
+  {
+    "id": "1985-A-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A second-order linear recurrence has a six-term cycle whose sum is zero."
+  },
+  {
+    "id": "1985-A-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Areas of triangles formed by concurrent cevians determine shared-base ratios."
+  },
+  {
+    "id": "1985-A-07",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Coprime exponent equations force perfect powers and a difference-of-squares factorization."
+  },
+  {
+    "id": "1985-A-08",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Integer rounding choices are optimized under a fixed total using the largest error threshold."
+  },
+  {
+    "id": "1985-A-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Chord angles assemble a triangle with sides2,3,4, allowing a cosine calculation."
+  },
+  {
+    "id": "1985-A-10",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A floor-sum range is counted by its jump pattern and periodic translates."
+  },
+  {
+    "id": "1985-A-11",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "An ellipse tangent to a line gives a shortest broken path between two foci."
+  },
+  {
+    "id": "1985-A-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A random walk on the tetrahedron is counted by a return-state recurrence."
+  },
+  {
+    "id": "1985-A-13",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The Euclidean algorithm reduces neighboring quadratic values to a fixed gcd bound."
+  },
+  {
+    "id": "1985-A-14",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Tournament points are double counted across a designated bottom group."
+  },
+  {
+    "id": "1985-A-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The folded net is identified with one half of a cube cut by a central hexagonal section."
+  },
+  {
+    "id": "1986-A-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The principal fourth root is a nonnegative substitution reducing the equation to a quadratic."
+  },
+  {
+    "id": "1986-A-02",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Pairing conjugate radical factors twice evaluates the symmetric product."
+  },
+  {
+    "id": "1986-A-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The sums of tangents and reciprocals determine their product and the tangent of the sum."
+  },
+  {
+    "id": "1986-A-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The common sum of all variables diagonalizes a symmetric linear system."
+  },
+  {
+    "id": "1986-A-05",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Polynomial reduction modulo n+10 turns divisibility into a divisor condition on900."
+  },
+  {
+    "id": "1986-A-06",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "An integral triangular-number interval identifies the page count and repeated page."
+  },
+  {
+    "id": "1986-A-07",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The ordered set of sums of distinct powers of3 is encoded by binary indices."
+  },
+  {
+    "id": "1986-A-08",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Pairing complementary divisors evaluates their logarithmic sum."
+  },
+  {
+    "id": "1986-A-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Parallel section lengths are affine functions of barycentric coordinates."
+  },
+  {
+    "id": "1986-A-10",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Digit-position multiplicities determine the omitted original permutation."
+  },
+  {
+    "id": "1986-A-11",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A geometric polynomial identity extracts a coefficient after translating the variable."
+  },
+  {
+    "id": "1986-A-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Distinct subset sums impose a packing constraint, with a matching construction."
+  },
+  {
+    "id": "1986-A-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Prescribed transitions determine the run lengths of a binary word."
+  },
+  {
+    "id": "1986-A-14",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Projecting skew lines gives reciprocal-square equations for a box’s edge lengths."
+  },
+  {
+    "id": "1986-A-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The angle between two medians of a right triangle determines its area relative to the hypotenuse."
+  },
+  {
+    "id": "1987-A-01",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Independent digit splits count carry-free ordered decompositions of1492."
+  },
+  {
+    "id": "1987-A-02",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The triangle inequality and collinear extreme points maximize separation of two spheres."
+  },
+  {
+    "id": "1987-A-03",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The product-of-divisors identity characterizes integers with exactly four divisors."
+  },
+  {
+    "id": "1987-A-04",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Absolute-value branches form a quadrilateral whose area is determined by its intercepts."
+  },
+  {
+    "id": "1987-A-05",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Completing a product converts an integer equation in two squares to finitely many divisor cases."
+  },
+  {
+    "id": "1987-A-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal trapezoid areas and equal perimeter portions determine a rectangle’s length."
+  },
+  {
+    "id": "1987-A-07",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Prime-exponent choices are counted under three least-common-multiple constraints."
+  },
+  {
+    "id": "1987-A-08",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Uniqueness of an integer in a rational open interval is governed by interval length and endpoints."
+  },
+  {
+    "id": "1987-A-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three120-degree angles and a right-triangle identity determine the remaining distance."
+  },
+  {
+    "id": "1987-A-10",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Walking times and relative speeds give two expressions for a fixed escalator length."
+  },
+  {
+    "id": "1987-A-11",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Consecutive-integer sums correspond to opposite-parity factor pairs of twice the target."
+  },
+  {
+    "id": "1987-A-12",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An integer immediately above a cube must lie in a short interval whose width increases with the cube root."
+  },
+  {
+    "id": "1987-A-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A one-pass sorting position is characterized by ranks among two overlapping prefixes."
+  },
+  {
+    "id": "1987-A-14",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Sophie Germain factorization exposes a telescoping quotient of quartics."
+  },
+  {
+    "id": "1987-A-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two differently oriented inscribed squares determine symmetric functions of a right triangle’s legs."
+  },
+  {
+    "id": "1988-A-01",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Nonempty proper button subsets are counted against the original five-button choices."
+  },
+  {
+    "id": "1988-A-02",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A repeated digit-sum-square operation enters a two-cycle."
+  },
+  {
+    "id": "1988-A-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A nested logarithm equation reduces to a positive cubic relation after changing bases."
+  },
+  {
+    "id": "1988-A-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The triangle-inequality defect is bounded by the number of terms, with an explicit equality construction."
+  },
+  {
+    "id": "1988-A-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Prime-exponent choices count divisors satisfying a prescribed divisibility condition."
+  },
+  {
+    "id": "1988-A-06",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Row-wise and column-wise arithmetic progressions force a bilinear grid formula."
+  },
+  {
+    "id": "1988-A-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "An altitude splits a vertex angle into two angles whose tangents determine the height."
+  },
+  {
+    "id": "1988-A-08",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A two-variable functional equation becomes an invariant under the Euclidean algorithm."
+  },
+  {
+    "id": "1988-A-09",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Successive lifting modulo5,25,125 and a parity condition determine a cube residue."
+  },
+  {
+    "id": "1988-A-10",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Vertex-pair incidences count interior diagonals after excluding edges and face diagonals."
+  },
+  {
+    "id": "1988-A-11",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The affine closure of a line identifies every mean line as a line through the centroid."
+  },
+  {
+    "id": "1988-A-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Concurrent-cevian area ratios give a symmetric cubic identity for three segment lengths."
+  },
+  {
+    "id": "1988-A-13",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Remainders modulo a quadratic follow the Fibonacci recurrence and determine two coefficients."
+  },
+  {
+    "id": "1988-A-14",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A reflection matrix transforms a rectangular hyperbola’s quadratic equation."
+  },
+  {
+    "id": "1988-A-15",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Stack operations constrain the possible remaining-letter permutations after a specified pop."
+  },
+  {
+    "id": "1989-A-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Four consecutive factors become the difference of two adjacent squares."
+  },
+  {
+    "id": "1989-A-02",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Choosing subsets of ten points on a circle counts convex polygons."
+  },
+  {
+    "id": "1989-A-03",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A repeated three-digit decimal is converted to a fraction and constrained by divisibility."
+  },
+  {
+    "id": "1989-A-04",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Simultaneous square and cube conditions prescribe prime valuations of the middle integer."
+  },
+  {
+    "id": "1989-A-05",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Conditioning on a biased coin determines the probability of a specified toss pattern."
+  },
+  {
+    "id": "1989-A-06",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An earliest meeting of two constant-speed travelers is a quadratic distance equation."
+  },
+  {
+    "id": "1989-A-07",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The second difference of three squared arithmetic-progression terms fixes the common difference."
+  },
+  {
+    "id": "1989-A-08",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Shifted square coefficient vectors have zero third finite difference."
+  },
+  {
+    "id": "1989-A-09",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Congruences for fifth powers isolate an integer fifth root within a short interval."
+  },
+  {
+    "id": "1989-A-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The law of cosines and area formulas simplify a quotient of cotangents."
+  },
+  {
+    "id": "1989-A-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A unique-mode multiplicity constraint bounds how small the remaining 121-sample values can be."
+  },
+  {
+    "id": "1989-A-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Apollonius identities determine the distance between opposite-edge midpoints of a tetrahedron."
+  },
+  {
+    "id": "1989-A-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Forbidden differences 4 and 7 create a discrete independence problem on the integers 1 through 1989."
+  },
+  {
+    "id": "1989-A-14",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The imaginary part of a complex-base numeral imposes a bounded linear equation on its digits.",
+    "combinatorics_cross_reference": {
+      "included": false,
+      "reason": "A complex-base digit equation reduces to two algebraic cases; the represented-number sum is incidental to that reduction.",
+      "treatment": "../aime_algebra/worked_solutions/1989-A-14.md"
+    }
+  },
+  {
+    "id": "1989-A-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Concurrent-cevian area ratios and a median identity force a right angle."
+  },
+  {
+    "id": "1990-A-01",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Inclusion-exclusion counts integers that are neither squares nor cubes."
+  },
+  {
+    "id": "1990-A-02",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Conjugate radicals become a difference of cubes of positive square roots."
+  },
+  {
+    "id": "1990-A-03",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Regular-polygon angle ratios lead to an integer bound on the number of sides."
+  },
+  {
+    "id": "1990-A-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A shared quadratic denominator expression reduces a rational equation to a linear one."
+  },
+  {
+    "id": "1990-A-05",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Factorizations of the divisor count determine the smallest admissible prime-exponent pattern."
+  },
+  {
+    "id": "1990-A-06",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Tagged-fish proportions are adjusted for survival and population replacement."
+  },
+  {
+    "id": "1990-A-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Unit vectors along two sides give the direction of their internal angle bisector."
+  },
+  {
+    "id": "1990-A-08",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Orders of destroying hanging targets are interleavings of three fixed chains."
+  },
+  {
+    "id": "1990-A-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Binary strings without consecutive heads obey a two-state recurrence."
+  },
+  {
+    "id": "1990-A-10",
+    "subjects": [
+      "combinatorics",
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The number of distinct products of roots of unity is the size of a finite cyclic-group image."
+  },
+  {
+    "id": "1990-A-11",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Monotonicity of consecutive-integer products bounds when a factorial can equal a shorter block."
+  },
+  {
+    "id": "1990-A-12",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Chord lengths are grouped by cyclic vertex separation and counted with their multiplicities."
+  },
+  {
+    "id": "1990-A-13",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Digit-length changes count powers of nine with a prescribed leading digit."
+  },
+  {
+    "id": "1990-A-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Folding a rectangle fixes all six tetrahedron edges, so base circumradius determines its height."
+  },
+  {
+    "id": "1990-A-15",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two weighted exponential sequences satisfy the same second-order linear recurrence."
+  },
+  {
+    "id": "1991-A-01",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Symmetric sums reduce the equations to two cases, and positive integrality eliminates one."
+  },
+  {
+    "id": "1991-A-02",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Similar right triangles produce an arithmetic sequence of parallel segment lengths."
+  },
+  {
+    "id": "1991-A-03",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Ratios of neighboring weighted binomial coefficients determine their unique maximum."
+  },
+  {
+    "id": "1991-A-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The number of logarithm-sine intersections is controlled on each positive or negative lobe."
+  },
+  {
+    "id": "1991-A-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Coprime numerator and denominator choices distribute entire prime powers between two factors."
+  },
+  {
+    "id": "1991-A-06",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A run of equally spaced floor terms has a single jump, fixing the fractional interval."
+  },
+  {
+    "id": "1991-A-07",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An odd iterate of a fractional linear transformation has the same fixed points as the transformation."
+  },
+  {
+    "id": "1991-A-08",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Integer quadratic roots correspond to signed factor pairs of 36 after a Vieta shift.",
+    "combinatorics_cross_reference": {
+      "included": false,
+      "reason": "The quadratic-root parameter question reduces directly to signed factor pairs. It remains an algebra/number-theory borderline cross-reference under the agreed editorial boundary.",
+      "treatment": "../aime_algebra/worked_solutions/1991-A-08.md"
+    }
+  },
+  {
+    "id": "1991-A-09",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Reciprocal trigonometric identities determine a rational half-angle expression."
+  },
+  {
+    "id": "1991-A-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Independent letter errors are compared at the first position where the received strings differ."
+  },
+  {
+    "id": "1991-A-11",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The regular ring depicted in the diagram gives a circumscribed dodecagon and a 15-degree tangent."
+  },
+  {
+    "id": "1991-A-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The rhombus center is a reflected rectangle vertex, fixing the rectangle dimensions."
+  },
+  {
+    "id": "1991-A-13",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A sampling probability imposes a quadratic Diophantine condition on the two sock counts."
+  },
+  {
+    "id": "1991-A-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three Ptolemy identities determine the distinct diagonal lengths of a cyclic hexagon."
+  },
+  {
+    "id": "1991-A-15",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The vector triangle inequality gives an attainable minimum, whose integrality becomes a difference of squares."
+  },
+  {
+    "id": "1992-A-01",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Coprime residue classes count the fractions, and a complementary-numerator involution sums them."
+  },
+  {
+    "id": "1992-A-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Strictly increasing decimal numerals correspond to digit subsets of size at least two."
+  },
+  {
+    "id": "1992-A-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The change in a win ratio gives a strict rational inequality for the initial win count."
+  },
+  {
+    "id": "1992-A-04",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Ratios of adjacent Pascal-triangle entries yield two linear equations for their indices."
+  },
+  {
+    "id": "1992-A-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Reduced numerators of repeating decimals are counted through divisibility and denominator cancellation."
+  },
+  {
+    "id": "1992-A-06",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Digit carries impose local restrictions on pairs of consecutive integers."
+  },
+  {
+    "id": "1992-A-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The dihedral angle converts an altitude within one face into the tetrahedron height."
+  },
+  {
+    "id": "1992-A-08",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Constant second differences force a quadratic sequence with two prescribed zeros."
+  },
+  {
+    "id": "1992-A-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal distances from a base point to the trapezoid legs give a segment-length ratio."
+  },
+  {
+    "id": "1992-A-10",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Complex-coordinate inequalities describe a square with two semicircular regions removed."
+  },
+  {
+    "id": "1992-A-11",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Composing reflections gives a rational-angle rotation whose order on unoriented lines is computed modulo pi."
+  },
+  {
+    "id": "1992-A-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Reachable Chomp boards correspond to monotone boundaries of order ideals in a rectangular grid."
+  },
+  {
+    "id": "1992-A-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A fixed side ratio gives an Apollonius circle whose radius maximizes the altitude."
+  },
+  {
+    "id": "1992-A-14",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Barycentric area fractions imply a symmetric identity among concurrent-cevian ratios."
+  },
+  {
+    "id": "1992-A-15",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Gaps in the factorial trailing-zero function are counted from its discrete jumps."
+  },
+  {
+    "id": "1993-A-01",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Distinct-digit even numerals are counted by their leading and final digit cases."
+  },
+  {
+    "id": "1993-A-02",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Alternating directional square distances sum to two perpendicular displacement components."
+  },
+  {
+    "id": "1993-A-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two conditional averages determine the total numbers of contestants and fish."
+  },
+  {
+    "id": "1993-A-04",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Gap variables and a factorization count ordered integer quadruples with fixed symmetric relations."
+  },
+  {
+    "id": "1993-A-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Repeated polynomial translations combine into one shift, after which only the linear coefficient is needed."
+  },
+  {
+    "id": "1993-A-06",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Representability as three consecutive sums imposes congruences modulo 9,10,11."
+  },
+  {
+    "id": "1993-A-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Relative ranks of six sampled dimensions determine when one box fits into another."
+  },
+  {
+    "id": "1993-A-08",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Pairs of subsets covering a set are counted modulo interchange, including the equal pair."
+  },
+  {
+    "id": "1993-A-09",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Cumulative clockwise steps give triangular-number congruences and four CRT classes."
+  },
+  {
+    "id": "1993-A-10",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Euler’s formula and face-vertex incidences constrain a convex polyhedron’s local face counts."
+  },
+  {
+    "id": "1993-A-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The loser-starts rule gives a two-state probability recurrence across games."
+  },
+  {
+    "id": "1993-A-12",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Six midpoint choices encode the starting coordinates through binary place values."
+  },
+  {
+    "id": "1993-A-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The line of sight becomes tangent to a circle at the endpoints of a visibility interval."
+  },
+  {
+    "id": "1993-A-14",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The unstuck rotation condition restricts contact-point signs, yielding a sharp perimeter bound."
+  },
+  {
+    "id": "1993-A-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Right-triangle inradii and altitude-foot projections determine a tangency-point separation."
+  },
+  {
+    "id": "1994-A-01",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Square roots congruent to ±1 modulo 3 index the admissible sequence."
+  },
+  {
+    "id": "1994-A-02",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A centered square chord and the circle radius give a quadratic for the square side."
+  },
+  {
+    "id": "1994-A-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Subtracting a triangular-number particular solution leaves an alternating recurrence."
+  },
+  {
+    "id": "1994-A-04",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Binary magnitude intervals give a piecewise linear formula for a logarithm-floor sum."
+  },
+  {
+    "id": "1994-A-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Independent digit choices factor the total product-of-nonzero-digits sum."
+  },
+  {
+    "id": "1994-A-06",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three families of parallel lines produce a triangular-grid counting problem."
+  },
+  {
+    "id": "1994-A-07",
+    "subjects": [
+      "combinatorics",
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Integer points on a circle determine allowable secant and tangent lines."
+  },
+  {
+    "id": "1994-A-08",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A 60-degree rotation relates the coordinates of an equilateral triangle."
+  },
+  {
+    "id": "1994-A-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A finite-state matching process determines the probability of emptying the tile bag."
+  },
+  {
+    "id": "1994-A-10",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A right-triangle projection and integer side lengths lead to a prime-square factorization."
+  },
+  {
+    "id": "1994-A-11",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Distinct tower heights are the image of bounded integer combinations of three brick heights."
+  },
+  {
+    "id": "1994-A-12",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Integral grid dimensions and a fence-length budget bound the square subdivision scale."
+  },
+  {
+    "id": "1994-A-13",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Reciprocal roots lie on a translated unit circle, and their squared moduli sum by Vieta."
+  },
+  {
+    "id": "1994-A-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Unfolding reflections turns the beam into a chord crossing equally angled radial segments."
+  },
+  {
+    "id": "1994-A-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Intersections of perpendicular-bisector creases characterize a lens bounded by diameter circles."
+  },
+  {
+    "id": "1995-A-01",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Successively halved squares overlap in quarter-squares, giving a telescoping area sum."
+  },
+  {
+    "id": "1995-A-02",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A logarithmic substitution makes the positive roots exponential images of a quadratic’s roots."
+  },
+  {
+    "id": "1995-A-03",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Short lattice-walk paths are counted while accounting for earlier visits to the target."
+  },
+  {
+    "id": "1995-A-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Distances to a common tangent interpolate along three collinear circle centers."
+  },
+  {
+    "id": "1995-A-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Conjugate root pairs and Vieta’s formulas determine a quartic coefficient."
+  },
+  {
+    "id": "1995-A-06",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Divisor pairing around the square root counts divisors outside a smaller exponent box."
+  },
+  {
+    "id": "1995-A-07",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The symmetric sine-cosine sum satisfies a quadratic whose admissible branch fixes the target."
+  },
+  {
+    "id": "1995-A-08",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Two divisibility conditions parameterize and count bounded positive integer pairs."
+  },
+  {
+    "id": "1995-A-09",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An altitude and a tripled apex angle lead to a tangent triple-angle equation."
+  },
+  {
+    "id": "1995-A-10",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A short arithmetic progression contains a composite multiple of five, bounding the exceptional integers."
+  },
+  {
+    "id": "1995-A-11",
+    "subjects": [
+      "combinatorics",
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Similarity under a planar cut constrains integer prism dimensions and their factor choices."
+  },
+  {
+    "id": "1995-A-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Perpendicular projections onto a common edge give the internal dihedral angle."
+  },
+  {
+    "id": "1995-A-13",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Rounding fourth roots groups a reciprocal sum into polynomially sized intervals."
+  },
+  {
+    "id": "1995-A-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal chord distances fix a 60-degree intersection and a sector-minus-triangle area."
+  },
+  {
+    "id": "1995-A-15",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Competing head and tail runs are governed by a finite-state hitting probability."
+  },
+  {
+    "id": "1996-A-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equal row, column, and diagonal sums determine the missing magic-square entry by linear relations."
+  },
+  {
+    "id": "1996-A-02",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Dyadic intervals count integers whose logarithm floor is a positive even value."
+  },
+  {
+    "id": "1996-A-03",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Factoring the bivariate polynomial reveals an independent rectangular array of nonzero monomials."
+  },
+  {
+    "id": "1996-A-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Perspective projection scales the cube’s top face into its square ground shadow."
+  },
+  {
+    "id": "1996-A-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Pairwise root sums are complements of the total root sum, allowing direct polynomial evaluation."
+  },
+  {
+    "id": "1996-A-06",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Inclusion-exclusion on undefeated and winless teams counts tournament outcomes."
+  },
+  {
+    "id": "1996-A-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Rotations act on pairs of checkerboard cells, requiring orbit counting with fixed configurations."
+  },
+  {
+    "id": "1996-A-08",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A shifted factorization counts harmonic-mean solutions through paired divisors."
+  },
+  {
+    "id": "1996-A-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Alternating directional elimination gives a recurrence for the final locker."
+  },
+  {
+    "id": "1996-A-10",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A tangent addition identity becomes a linear congruence in an integer angle."
+  },
+  {
+    "id": "1996-A-11",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A reciprocal polynomial factors into cyclotomic pieces whose upper-half-plane arguments add."
+  },
+  {
+    "id": "1996-A-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Linearity of expectation evaluates sums of random paired absolute differences."
+  },
+  {
+    "id": "1996-A-13",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A median vector and orthogonal projection determine the ratio of two triangle areas."
+  },
+  {
+    "id": "1996-A-14",
+    "subjects": [
+      "combinatorics",
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Grid-plane crossings along a space diagonal are counted with gcd-based inclusion-exclusion."
+  },
+  {
+    "id": "1996-A-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Parallelogram midpoint geometry yields a factored trigonometric equation for the angles."
+  },
+  {
+    "id": "1997-A-01",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Parity classes characterize and count integers representable as differences of squares."
+  },
+  {
+    "id": "1997-A-02",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Grid-line choices count rectangles while side-length classes count squares."
+  },
+  {
+    "id": "1997-A-03",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A concatenation equation and the two-digit bound force the three-digit factor."
+  },
+  {
+    "id": "1997-A-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Mutually tangent circle centers satisfy two distance equations with a unique positive radius."
+  },
+  {
+    "id": "1997-A-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Nearest allowed rational neighbors determine a decimal interval whose grid points are counted."
+  },
+  {
+    "id": "1997-A-06",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Regular-polygon angle compatibility reduces to an integer factorization."
+  },
+  {
+    "id": "1997-A-07",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Relative motion makes the average entry and exit time the minimum-distance time."
+  },
+  {
+    "id": "1997-A-08",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Balanced binary arrays are counted through row patterns and column constraints."
+  },
+  {
+    "id": "1997-A-09",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Fractional-part restrictions force a quadratic relation that reduces a high power."
+  },
+  {
+    "id": "1997-A-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Every pair of distinct ternary attribute vectors determines a unique complementary third card."
+  },
+  {
+    "id": "1997-A-11",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Reflecting the angle index in a trigonometric sum gives a linear relation between the sums."
+  },
+  {
+    "id": "1997-A-12",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A nonconstant fractional-linear involution has opposite diagonal coefficients and symmetric fixed points."
+  },
+  {
+    "id": "1997-A-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A piecewise-linear absolute-value function makes one diagonal segment in every unit grid cell."
+  },
+  {
+    "id": "1997-A-14",
+    "subjects": [
+      "combinatorics",
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Angular differences between roots of unity count pairs satisfying a vector-sum bound."
+  },
+  {
+    "id": "1997-A-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Orientation-dependent bounding-box widths give a rigorous maximum for an inscribed equilateral triangle."
+  },
+  {
+    "id": "1998-A-01",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Prime-exponent constraints count the integers that complete a prescribed least common multiple."
+  },
+  {
+    "id": "1998-A-02",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Integer lattice points are counted in the region defined by paired ratio inequalities."
+  },
+  {
+    "id": "1998-A-03",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Factoring the absolute-value equation on two half-planes reveals a bounded parallelogram."
+  },
+  {
+    "id": "1998-A-04",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Distributing five odd and four even tiles determines the parity probabilities of three player sums."
+  },
+  {
+    "id": "1998-A-05",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Triangular-number parity gives a four-term sign cycle and telescoping cancellation."
+  },
+  {
+    "id": "1998-A-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two pairs of similar triangles give a geometric-mean identity along a transversal."
+  },
+  {
+    "id": "1998-A-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A shift from positive odd parts to nonnegative integers gives a stars-and-bars count."
+  },
+  {
+    "id": "1998-A-08",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Consecutive nonnegativity constraints in a Fibonacci-coefficient recurrence isolate the maximizing integer."
+  },
+  {
+    "id": "1998-A-09",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Uniform arrival pairs occupy a diagonal band in a square probability space."
+  },
+  {
+    "id": "1998-A-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A regular-octagon circumradius and vertical center offsets determine a tangent sphere radius."
+  },
+  {
+    "id": "1998-A-11",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A cube cross-section projects to a diagonal strip with a constant area scale factor."
+  },
+  {
+    "id": "1998-A-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Cyclic collinearity constraints determine a unique medial-triangle configuration and its affine area ratio."
+  },
+  {
+    "id": "1998-A-13",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Subset insertion yields a recurrence for ranked complex power sums."
+  },
+  {
+    "id": "1998-A-14",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An integer volume ratio is bounded by a factored denominator and a sharp product-sum inequality."
+  },
+  {
+    "id": "1998-A-15",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A longest domino chain is a maximum-length trail in an orientation of a complete graph."
+  },
+  {
+    "id": "1999-A-01",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Small-prime obstructions bound the common difference of a five-term prime progression."
+  },
+  {
+    "id": "1999-A-02",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A line bisecting a centrally symmetric convex region’s area must pass through its center."
+  },
+  {
+    "id": "1999-A-03",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Completing the square converts a quadratic perfect-square condition into factor pairs of 35."
+  },
+  {
+    "id": "1999-A-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Symmetry of two concentric congruent squares makes their intersection octagon equilateral and tangential."
+  },
+  {
+    "id": "1999-A-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Decimal carry chains characterize and count the possible digit-sum differences."
+  },
+  {
+    "id": "1999-A-06",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Coordinate square roots map the quadrilateral into an annular sector."
+  },
+  {
+    "id": "1999-A-07",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Divisor multiplicities in an exponent box determine switch states modulo four."
+  },
+  {
+    "id": "1999-A-08",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A simplex probability region is partitioned by which two coordinate thresholds hold."
+  },
+  {
+    "id": "1999-A-09",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equidistance under complex multiplication forces the multiplier’s real part to be one half."
+  },
+  {
+    "id": "1999-A-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Four-edge subsets are counted according to whether they contain a triangle."
+  },
+  {
+    "id": "1999-A-11",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A product-to-sum identity telescopes an arithmetic-angle sine sum."
+  },
+  {
+    "id": "1999-A-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Tangent-length variables combine the inradius area formula with Heron’s formula."
+  },
+  {
+    "id": "1999-A-13",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Distinct tournament scores force a total order, and factorial valuations reduce the probability."
+  },
+  {
+    "id": "1999-A-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Summed cosine-law and area identities determine the common Brocard angle."
+  },
+  {
+    "id": "1999-A-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Folding along the medial triangle fixes three apex distances, determining tetrahedron height."
+  }
+]

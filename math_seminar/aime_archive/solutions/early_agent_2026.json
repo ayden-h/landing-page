@@ -1,0 +1,772 @@
+[
+  {
+    "id": "2026-I-01",
+    "title": "Three staggered starts and a common arrival",
+    "restatement": "Patrick walks from school to a park. Tanya starts one hour later, running 2 mph faster; Jose starts another hour later, cycling 7 mph faster than Tanya. All travel at constant speeds and arrive together. If the distance is $m/n$ miles in lowest terms, find $m+n$.",
+    "solution": "Let Patrick travel for $T$ hours at $p$ mph. Equal distances give $pT=(p+2)(T-1)=(p+9)(T-2)$. The first equality gives $p=2T-2$; the first and last give $2p=9T-18$. Thus $T=14/5$, $p=18/5$, and the distance is $252/25$. All three travel times are positive and substitution verifies their common distance. The answer is $252+25=277$.",
+    "answer": 277,
+    "subjects": [
+      "algebra"
+    ],
+    "tags": [
+      "relative motion",
+      "linear systems"
+    ],
+    "source_review": "All three alternatives read. Source 0 prints incorrect signs and drops the factor two when clearing its time equations; its stated result is nevertheless correct. The time-variable and catch-up approaches work after restoring omitted display equations.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_index_base": 0,
+    "verification": "Exact rational substitution gives travel times 14/5, 9/5, 4/5 and speeds 18/5, 28/5, 63/5, each producing distance 252/25.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-I-02",
+    "title": "Palindromes as compositions",
+    "restatement": "Count positive decimal palindromes with no zero digits and digit sum $13$.",
+    "solution": "The length is odd; let its center digit be $c\\in\\{1,3,5,7,9\\}$. The left half has digit sum $s=(13-c)/2\\in\\{6,5,4,3,2\\}$. Its nonzero digits form an arbitrary composition of $s$; the digit upper bound is automatic. There are $2^{s-1}$ compositions. Mirroring determines the right half, so the answer is $32+16+8+4+2=62$.",
+    "answer": 62,
+    "tags": [
+      "compositions",
+      "palindromes"
+    ],
+    "source_review": "All five sources inspected. Palindromic compositions, central-digit compositions, and a two-operation construction all give 62. The independent central-digit count is complete and avoids the source notation slips.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "2026-I-03",
+    "title": "A sphere fitting inside a hemisphere",
+    "restatement": "A hemisphere of radius 200 has its flat face on a horizontal disk of radius 200. Let $T$ be the possible tangency points on the disk for a sphere of radius 42 contained in the hemisphere. If $[T]/[\\text{disk}]=p/q$ in lowest terms, find $p+q$.",
+    "solution": "At horizontal distance $\\rho$ from the hemisphere center, the small sphere has center at height $42$. It lies in the upper half-space automatically, and lies in the radius-200 ball exactly when $\\sqrt{\\rho^2+42^2}+42\\le200$. Thus $T$ is precisely the disk with squared radius $158^2-42^2=23200$. The area ratio is $23200/40000=29/50$, giving $79$.",
+    "answer": 79,
+    "subjects": [
+      "geometry"
+    ],
+    "tags": [
+      "sphere containment",
+      "center distances",
+      "area ratios"
+    ],
+    "source_review": "Both alternatives read. A right-triangle calculation and a power-of-a-point construction agree; the containment inequality also proves that every point inside the boundary disk is feasible.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "The exact boundary identity is 23200+42²=158², and 23200/40000 reduces to 29/50.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-I-04",
+    "title": "Products of two unequal factors",
+    "restatement": "How many integers at most 100 have the form $a+b+ab$ for distinct positive integers $a,b$?",
+    "solution": "Adding one converts the expression to $(a+1)(b+1)$. We therefore count integers $N$ from $2$ through $101$ that have two unequal factors at least two. The exclusions are primes and squares of primes: if $p$ is the least prime factor of a composite $N$, then $p$ and $N/p$ are unequal unless $N=p^2$. There are 26 primes through 101 and four prime squares, $4,9,25,49$. Thus the count is $100-26-4=70$.",
+    "answer": 70,
+    "subjects": [
+      "number_theory"
+    ],
+    "tags": [
+      "factorization",
+      "least prime divisor",
+      "prime-square exceptions"
+    ],
+    "source_review": "All three alternatives read, including the full eight-stage sieve table. The product reduction is sound; counting representations instead of distinct products would overcount. The least-prime-factor argument proves that the listed exceptional composites are exhaustive.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_index_base": 0,
+    "verification": "Independent enumeration of all a<b with a+b+ab≤100 gives exactly 70 distinct values; direct primality checking gives 26 primes from 2 through 101.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-I-05",
+    "title": "Two opposite rotations reduce to one cosine",
+    "restatement": "Let $AB=1$. Rotate $A$ counterclockwise about $B$ through an acute angle $\\theta$ to $A^{\\prime}$, then rotate $B$ clockwise about $A^{\\prime}$ through $\\theta$ to $B^{\\prime}$. Given $AB^{\\prime}=4/3$, write $\\cos\\theta=m/n$ in lowest terms and find $m+n$.",
+    "solution": "Put $A=(0,0)$ and $B=(1,0)$, and abbreviate $c=\\cos\\theta$, $s=\\sin\\theta$. The first rotation gives $A^{\\prime}=(1-c,-s)$. The vector from $A^{\\prime}$ to $B$ is $(c,s)$, whose clockwise rotation is $(1,0)$, so $B^{\\prime}=(2-c,-s)$. Consequently $16/9=(2-c)^2+s^2=5-4c$, giving $c=29/36$. This lies between zero and one, as required; the answer is $65$.",
+    "answer": 65,
+    "subjects": [
+      "geometry"
+    ],
+    "tags": [
+      "rotation vectors",
+      "Pythagorean identity"
+    ],
+    "source_review": "All four alternatives read. The parallelogram and half-angle methods give the correct cosine. Source 3 equates a squared distance to 4/3 instead of 16/9; source 0 also describes a rotation around the wrong center in its final note. Explicit rotation vectors avoid both slips.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Substitution yields 5−4(29/36)=16/9 and an acute angle.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-I-06",
+    "title": "A logarithmic quadratic determines a product",
+    "restatement": "Let $P$ be the product of all positive real solutions of $\\sqrt[20]{x^{\\log_{2026}x}}=26x$. Find the number of positive divisors of $P$.",
+    "solution": "Set $u=\\log_{2026}x$. Taking logarithms gives $u^2-20u-20\\log_{2026}26=0$. Its discriminant is positive, so its two real roots correspond bijectively to two positive solutions. Their sum is 20; hence their corresponding $x$ values have product $2026^{20}$. Since $2026=2\\cdot1013$ and 1013 is prime (none of the primes through 31 divides it), the divisor count is $(20+1)^2=441$.",
+    "answer": 441,
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "tags": [
+      "logarithmic substitution",
+      "Vieta formulas",
+      "divisor count"
+    ],
+    "source_review": "All six alternatives read. Sources 0, 1, 4, and 5 use a logarithmic quadratic, though several displays are missing. Source 2 is answer guessing rather than a proof. Source 3 inserts an invalid exponent quotient before arriving at the correct quadratic. Taking logarithms directly repairs that step.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_index_base": 0,
+    "verification": "The discriminant is strictly positive because log base 2026 of 26 is positive; primality of 1013 checked by trial division through its square root.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-I-07",
+    "title": "Permutations whose sixth power is identity",
+    "restatement": "Count permutations of six labeled elements whose sixth iterate fixes every element.",
+    "solution": "Every cycle length must divide $6$, so allowed lengths are $1,2,3,6$. The possible cycle types are $6;3+3;2+2+2;1^6;3+1^3;2+1^4;2+2+1+1;3+2+1$. The formula $6!/\\prod_j(j^{m_j}m_j!)$ gives respectively $120,40,15,1,40,15,45,120$. Their sum is $396$.",
+    "answer": 396,
+    "tags": [
+      "permutation cycles",
+      "cycle index"
+    ],
+    "source_review": "All four sources inspected. Allowed-cycle enumeration and exclusion of 4- and 5-cycles agree. Several alternatives confuse cycle counts or describe orientation imprecisely; the standard cycle-index denominator removes these ambiguities.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "2026-I-08",
+    "title": "Divisor residues determined by exponent parity",
+    "restatement": "Count divisors of $17017^{17}$ congruent to $5$ modulo $12$, and give the count modulo $1000$.",
+    "solution": "Factor $17017=7\\cdot11\\cdot13\\cdot17$. A divisor is $7^a11^b13^c17^d$, with exponents from $0$ through $17$. Its residue is $5$ precisely when $a+b$ is even and $b+d$ is odd, by reduction modulo $4$ and $3$. Choose $b,c$ in $18^2$ ways; each determines the required parity of $a,d$, with $9$ choices each. Thus there are $18^2\\cdot9^2=26244$ divisors, giving remainder $244$.",
+    "answer": 244,
+    "tags": [
+      "residue classes",
+      "exponent parity"
+    ],
+    "source_review": "All four sources inspected. They reduce exponents to parity using residues 7,11,1,5 modulo 12. Both two-pattern enumeration and simultaneous modulo 3/modulo 4 conditions give 26244.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ]
+  },
+  {
+    "id": "2026-I-09",
+    "title": "Visible even stickers on a die",
+    "restatement": "Roll a fair die six times, placing sticker $k$ on the top face after roll $k$; a new sticker covers an old one. Given that stickers $2, 4$, and $6$ remain visible, find numerator plus denominator of the chance exactly one face is blank.",
+    "solution": "Choose distinct faces for stickers $2,4,6$ in $6\\cdot5\\cdot4$ ways. Sticker $1$ has $6$ choices; $3$ must avoid the face of $2$, giving $5$; $5$ must avoid the faces of $2,4$, giving $4$. Thus there are $14400$ equally likely assignments under the condition. Exactly five occupied faces means one repeated pair of sticker numbers. Its earlier number must be odd: there are $5+3+1=9$ such pairs. Assign the resulting five distinct blocks to faces in $6!$ ways. The probability is $9\\cdot720/14400=9/20$, giving $29$.",
+    "answer": 29,
+    "tags": [
+      "conditional counting",
+      "set partitions"
+    ],
+    "source_review": "All six sources inspected. Several correct conditional counts agree on 14400 and 6480. Source index 4 incorrectly divides raw probabilities by 6^4 rather than 6^6, which cancels in its ratio. Source index 5 allows invalid earlier-even-over-later-odd overlays and omits odd-over-odd collisions; its numerical agreement is accidental. The independent collision-pair enumeration was exhaustively checked.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "2026-I-10",
+    "title": "Area of a triangle and its rotated interlacing",
+    "restatement": "Triangle $ABC$ has $AB=13$, $BC=14$, $CA=15$. Rotate it about its circumcenter to $A^{\\prime} B^{\\prime} C^{\\prime}$ so that $A^{\\prime} C^{\\prime}\\perp BC$ and $A^{\\prime},B$ lie on opposite sides of $B^{\\prime} C^{\\prime}$. Find the nearest integer to the area of hexagon $AA^{\\prime} CC^{\\prime} BB^{\\prime}$.",
+    "solution": "Take $B=(0,0)$, $C=(14,0)$, $A=(5,12)$; the circumcenter is $O=(7,33/8)$. The two rotations making $A^{\\prime} C^{\\prime}$ vertical have cosine and sine $(4/5,-3/5)$ or $(-4/5,3/5)$. The former gives $A^{\\prime}=(81/8,93/8)$, $B^{\\prime}=(-43/40,201/40)$, $C^{\\prime}=(81/8,-27/8)$. The oriented determinants against line $B^{\\prime} C^{\\prime}$ for $A^{\\prime}$ and $B$ are $168$ and $-189/4$, so this is the required branch; the other gives $168$ and $651/4$. Split the hexagon along $A^{\\prime} B$. Quadrilateral $A^{\\prime} CC^{\\prime} B$ has perpendicular diagonals of lengths 15 and 14, so area 105. Quadrilateral $AA^{\\prime} BB^{\\prime}$ has diagonals $AB,A^{\\prime} B^{\\prime}$ of length 13 and included-angle sine $3/5$, so area $13^2(3/5)/2=507/10$. Total area is $1557/10$, whose nearest integer is 156.",
+    "answer": 156,
+    "subjects": [
+      "geometry"
+    ],
+    "tags": [
+      "rotation matrices",
+      "branch selection",
+      "quadrilateral diagonal area"
+    ],
+    "source_review": "All four alternatives read. Coordinate rotation, circumcenter triangles, and quadrilateral decomposition agree. The clean alternate statement accidentally loses the primes in A′C′; the main statement and all solutions retain the intended perpendicular pair. Several source displays and some vertex orders are corrupted; the explicit branch determinants and diagonal-area calculation supply a complete check.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Exact rational rotation and shoelace calculation independently give area 1557/10; determinant signs select the required rotation.",
+    "status": "solved",
+    "statement_repair": "Restored A′C′ perpendicular to BC; the alternate transcription incorrectly prints AC perpendicular to BC.",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-I-11",
+    "title": "Maximizing total variation on a grid",
+    "restatement": "Place $1$ through $64$ bijectively in an $8\\times8$ grid. Maximize the sum of absolute differences across all horizontal and vertical adjacencies; report the maximum modulo $1000$.",
+    "solution": "For any adjacent values, $|a-b|\\le|a-32.5|+|b-32.5|$. Hence the total is at most $\\sum_v\\deg(v)|a_v-32.5|$. Rearrangement maximizes this bound by assigning the $36$ most extreme numbers to degree-$4$ interior cells, the next $24$ to degree-$3$ edge cells, and the middle four to corners. Color the grid as a checkerboard; each color has $18$ interior cells, $12$ edge cells, and $2$ corners. Put the smaller half on one color and the larger half on the other, in the degree order just specified. Every edge then attains equality. The maximum is $4(999-171)+3(486-294)+2(67-63)=3896$, giving $896$.",
+    "answer": 896,
+    "tags": [
+      "extremal arrangements",
+      "rearrangement inequality",
+      "bipartite graphs"
+    ],
+    "source_review": "The sole source gives a plausible checkerboard arrangement and local exchanges but does not prove a global upper bound. The independent midpoint inequality plus rearrangement proves that 3896 is optimal.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "2026-I-12",
+    "title": "Sphere radii form an affine function",
+    "restatement": "In a plane, $AB=6$, $AC=4$, and $\\angle BAC=90^\\circ$. Reflect the centroid of $ABC$ across $BC$ to obtain $D$. Spheres of radii $1,2,3,r$ touch the plane at $A,B,C,D$ on the same side. All also touch a second plane on the same side of it. Find numerator plus denominator of $r$ in lowest terms.",
+    "solution": "Use $A=(0,0)$, $B=(6,0)$, $C=(0,4)$ in the plane $z=0$. Orient a unit normal to the second plane so that its signed distance from every center equals the corresponding radius. Its equation yields $ax+by+(c-1)z+d=0$ for all centers. Since the second plane is distinct, $c\\ne1$; thus the radius $z$ is an affine function of its contact point. The first three radii determine $z=1+x/6+y/2$. The centroid is $(2,4/3)$, and reflection across $2x+3y=12$ gives $D=(42/13,124/39)$. Hence $r=1+7/13+62/39=122/39$, giving 161. Existence is verified by the second plane $6x+18y-13z+36=0$: its normal has length 23 and its signed distance from each center equals its radius.",
+    "answer": 161,
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "tags": [
+      "signed plane distances",
+      "affine interpolation",
+      "reflection"
+    ],
+    "source_review": "All four alternatives read. Source 0 asserts coplanarity of the centers without explanation, source 1 proves it implicitly through signed distances, source 2 invokes linearity informally, and source 3 uses the intersection line of the tangent planes. The affine equation establishes the common missing justification and the explicit second plane verifies existence.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Exact reflection gives D=(42/13,124/39); substituting all four centers into the normalized second-plane equation returns their radii.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-I-13",
+    "title": "Binomial residue sums over a finite field",
+    "restatement": "For $0\\le r<502$, let $S_r$ sum $\\binom{10000}{k}$ over $0\\le k\\le10000$ congruent to $r$ modulo $502$. How many $S_r$ are divisible by $503$?",
+    "solution": "Over $\\mathbb F_{503}$, put $P(x)=\\sum_{r=0}^{501}S_rx^r$. For every nonzero $x$, Fermat gives $P(x)=(1+x)^{10000}=(1+x)^{462}$, since $10000\\equiv462\\pmod{502}$; the equality also holds at $x=-1$. The difference has degree at most $501$ and $502$ roots, so it is identically zero. Thus $S_r=\\binom{462}{r}$ modulo $503$ for $r\\le462$, and $S_r=0$ for larger $r$. No binomial coefficient in row $462$ vanishes modulo the larger prime $503$, because all relevant factorials are invertible. Exactly $501-462=39$ sums qualify.",
+    "answer": 39,
+    "tags": [
+      "finite-field interpolation",
+      "binomial coefficients"
+    ],
+    "source_review": "Both sources inspected. The finite-field root argument and quotient-ring interpretation are valid; they must handle x=-1 separately before reducing the exponent. Direct modular coefficient calculation confirms 39 zeros.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics",
+      "algebra",
+      "number_theory"
+    ]
+  },
+  {
+    "id": "2026-I-14",
+    "title": "Closure controls an equiangular pentagon",
+    "restatement": "An equiangular pentagon has side-length squares summing to 308 and diagonal-length squares summing to 800. Its perimeter squared is $m\\sqrt n$, where $m,n$ are positive integers and $n$ is squarefree. Find $m+n$.",
+    "solution": "Let $S=\\sum a_i^2=308$, $J=\\sum a_i a_{i+1}$, $K=\\sum a_i a_{i+2}$, with cyclic indices, and put $\\phi=(1+\\sqrt5)/2$. Since the angle between successive side vectors is $72^\\circ$, summing the squared diagonal lengths gives $800=2S+J/\\phi$, so $J=184\\phi$. The five side vectors sum to zero. Taking the squared norm and grouping adjacent and nonadjacent pairs gives $0=S+J/\\phi-\\phi K$, because $2\\cos72^\\circ=1/\\phi$ and $2\\cos144^\\circ=-\\phi$. Thus $K=492/\\phi$. Therefore the perimeter squared is $S+2J+2K=308+368\\phi+984(\\phi-1)=676\\sqrt5$, giving 681.",
+    "answer": 681,
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "tags": [
+      "vector closure",
+      "golden-ratio angles",
+      "cyclic quadratic sums"
+    ],
+    "source_review": "All five alternatives read. The extended-side constructions and complex-vector closure lead to the same two equations for adjacent and nonadjacent products. Source 2 guesses the missing rational cancellation from the requested answer form and is not a proof. The closure identity determines it without guessing.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_index_base": 0,
+    "verification": "Exact arithmetic in Q(√5) verifies J=184φ, K=492/φ and perimeter squared 676√5.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-I-15",
+    "title": "Five rectangular cell loops",
+    "restatement": "A cell loop consists of the boundary cells of an axis-aligned rectangle with both dimensions at least two. Count partitions of a $10\\times10$ board into five cell loops.",
+    "solution": "For an $H\\times W$ board with $H\\ge W$, take the two cell diagonals $D=\\{(i,i):1\\le i\\le W\\}$ and $E=\\{(H+1-i,i):1\\le i\\le W\\}$. A rectangular boundary meets either in at most two cells. Thus a partition into $W/2$ loops forces every loop to meet each diagonal twice. Let the upper-left corner loop have dimensions $r\\times c$. Its interior is a union of whole loops, so its two diagonal counts are equal: $\\min(r,c)-2=r+c-H-2$. (The second count is nonnegative because the corner loop meets $E$ twice.) Hence $\\max(r,c)=H$. A tall-board corner loop therefore spans its full height; a square-board corner loop spans at least one side. Its other dimension is even.\n\nLet $T(a,b)$ count partitions of a $2a\\times2b$ board into $b$ loops, where $a>b$. A corner loop of width $2k$ leaves independent rectangles $2(a-1)\\times2(k-1)$ and $2a\\times2(b-k)$, both using their minimum loop counts. Therefore $T(a,b)=\\sum_{k=1}^b T(a-1,k-1)T(a,b-k)$, with empty-width count $1$. Induction using the Catalan recurrence gives $T(a,b)=C_b$.\n\nFor the square count $S_n$, a full outer-square loop contributes $S_{n-1}$. A proper full-height corner loop contributes $\\sum_{k=1}^{n-1}C_{k-1}C_{n-k}$; full-width loops contribute the same. Thus $S_n=S_{n-1}+2(C_n-C_{n-1})$, and $S_0=1$ gives $S_n=2C_n-1$. Finally $S_5=2\\binom{10}5/6-1=83$.",
+    "answer": 83,
+    "tags": [
+      "Catalan numbers",
+      "diagonal invariants",
+      "structural decomposition"
+    ],
+    "source_review": "All three archived solutions were read; their structural arguments have gaps or false claims. The independent two-diagonal corner-loop lemma proves the Catalan formula rigorously. See the detailed Catalan-loop addendum.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "Independent exact-cover enumeration, without using the corner-loop lemma, gives 1,3,9,27,83 for square side lengths 2,4,6,8,10. The 10-by-10 count visits 3053 occupied-cell states.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ]
+  },
+  {
+    "id": "2026-II-01",
+    "title": "Arithmetic progressions indexed by common divisors",
+    "restatement": "Find the sum of the eleventh terms of all integer arithmetic sequences beginning with 4 and containing both 24 and 34. An alternate archived version asks for the tenth terms instead.",
+    "solution": "The common difference $d$ is a positive integer dividing both $24-4=20$ and $34-4=30$. Conversely every positive divisor of their gcd 10 gives such a sequence. Thus $d=1,2,5,10$. The eleventh terms are $4+10d$, and their sum is $4\\cdot4+10(1+2+5+10)=196$. For the alternate tenth-term version the same calculation is $4\\cdot4+9\\cdot18=178$.",
+    "answer": 196,
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "tags": [
+      "arithmetic sequences",
+      "greatest common divisor",
+      "divisor sums"
+    ],
+    "source_review": "The sole stored alternative read. It solves the main eleventh-term statement and obtains 196. The clean alternate statement asks for tenth terms and reports 178. These are genuinely different requests, and both are solved explicitly here.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Enumerating the four positive divisors of 10 gives eleventh-term sum 196 and tenth-term sum 178.",
+    "status": "solved",
+    "variants": [
+      {
+        "description": "Main source: sum of eleventh terms",
+        "answer": 196
+      },
+      {
+        "description": "Alternate clean statement: sum of tenth terms",
+        "answer": 178
+      }
+    ],
+    "source_discrepancy": "The main and alternate statements differ in the requested term index (11 versus 10), not in the arithmetic progression conditions.",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-II-02",
+    "title": "Paths through a strip of diagonal squares",
+    "restatement": "Ten adjacent squares each contain their rising diagonal. A path runs from the lower-left endpoint to the upper-right endpoint, never moving left and never reusing an edge. If there are $N$ paths, find $\\sqrt N$.",
+    "solution": "At each vertical boundary a path may use its vertical edge once or not at all. Suppose $b,t$ count arrivals at the lower and upper vertices before this choice. After the optional vertical step there are $b+t$ possibilities at either endpoint. Crossing the next square gives new arrival counts $(b+t,2(b+t))$, using its bottom edge, top edge, or diagonal. Thus the total arrival count triples at each square. Initially $(b,t)=(1,0)$; after ten squares the total is $3^{10}$. At the final boundary every arrival has exactly one way to finish at the upper endpoint. Therefore $N=3^{10}$ and $\\sqrt N=243$.",
+    "answer": 243,
+    "tags": [
+      "transfer matrices",
+      "path counting"
+    ],
+    "source_review": "All three sources inspected. First-arrival states yield a valid transfer recurrence with total multiplied by 3. The original horizontal-choice claim is terse; the independent proof specifies the optional vertical traversal to make the bijection precise.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "2026-II-03",
+    "title": "An indented pentagon gives one residue class",
+    "restatement": "A simple nonconvex pentagon $ABCDE$ has interior angles $A=E=90^\\circ$, $B=D=45^\\circ$, with $DE<AB$, $AE=20$, $BC=14\\sqrt2$. Vertices $B,C,D$ lie on one side of $AE$. How many integer lengths $AB<2026$ make its area a multiple of 16?",
+    "solution": "Put $A=(0,0)$, $E=(0,20)$ and $B=(b,0)$. The angle conditions force $C=(b-14,14)$ and $D=(b-8,20)$: the other possible direction of $BC$ would give $C=(b-14,-14)$ and $DE=b+20$, contradicting $DE<AB$. The same-side condition is exactly $b>14$. These coordinates give a simple pentagon with the required reflex angle at $C$ for every $b>14$. Its area by the shoelace formula is $20b-164$. This is divisible by 16 exactly when $b\\equiv1\\pmod4$. The permitted integers are $17,21,\\ldots,2025$, numbering $(2025-17)/4+1=503$.",
+    "answer": 503,
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "tags": [
+      "angle-constrained coordinates",
+      "polygon area",
+      "congruence counting"
+    ],
+    "source_review": "The sole stored alternative read. Its rectangle-and-two-triangles calculation is correct, but it leaves the geometric branch and the positivity of the horizontal offset implicit. Coordinates justify both before counting the residue class.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Exact enumeration of integers 15 through 2025 confirms 503 with (20b−164) divisible by 16; the coordinate determinants verify the stated side lengths and turns.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-II-04",
+    "title": "A numeral equal to its value in a smaller base",
+    "restatement": "For positive decimal $n$, reinterpret its digit string in the base one larger than its greatest digit. Count $n<1000$ unchanged by this operation.",
+    "solution": "Every one-digit number is unchanged. For a longer numeral the value is strictly increasing in its base, so equality requires base $10$, or equivalently a digit $9$. There are $90-8\\cdot9=18$ qualifying two-digit numerals and $900-8\\cdot9^2=252$ three-digit numerals. Including the nine one-digit numbers gives $9+18+252=279$.",
+    "answer": 279,
+    "tags": [
+      "complement counting",
+      "digit restrictions"
+    ],
+    "source_review": "Both sources inspected. Monotonicity in the base gives the clean criterion; the digit-by-digit alternative reaches the same count by inclusion-exclusion.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ]
+  },
+  {
+    "id": "2026-II-05",
+    "title": "Equal hypergeometric probabilities",
+    "restatement": "An urn has at least seven marbles of each of two colors. Drawing seven without replacement gives equal probabilities of exactly four red marbles and exactly five red marbles. Sum the five smallest possible total populations.",
+    "solution": "If the color counts are $r,b$, cancellation in $\\binom r4\\binom b3=\\binom r5\\binom b2$ gives $(b-2)/3=(r-4)/5$, or $3r-5b=2$. All solutions have $r=4+5k$, $b=2+3k$. Both counts are at least seven exactly when $k\\ge2$. The five smallest totals are $22,30,38,46,54$, whose sum is $190$.",
+    "answer": 190,
+    "tags": [
+      "hypergeometric ratios",
+      "Diophantine counting"
+    ],
+    "source_review": "Both sources inspected. Cancellation of adjacent hypergeometric coefficients gives 3 r-5 b=2 and the five totals 22,30,38,46,54.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ]
+  },
+  {
+    "id": "2026-II-06",
+    "title": "Normal distances from a point to a parabola",
+    "restatement": "Find the sum of all radii of circles centered at $(4,39)$ that are tangent to the parabola $2y=x^2-8x+12$ at at least one point.",
+    "solution": "Parametrize the parabola by $(x,y)=(4+u,u^2/2-2)$. Its squared distance from the given center is $F(u)=u^2+(u^2/2-41)^2=u^4/4-40u^2+1681$. A circle is tangent at this regular point exactly when its radius vector is perpendicular to the tangent vector, equivalently $F^{\\prime}(u)=u(u^2-80)=0$. At $u=0$ the radius is 41; at $u=\\pm\\sqrt{80}$ it is 9. Both are positive and the tangent condition is satisfied, so the requested sum is $41+9=50$.",
+    "answer": 50,
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "tags": [
+      "normal-line tangency",
+      "squared-distance critical points",
+      "quartic factorization"
+    ],
+    "source_review": "All four alternatives read. The normal-slope and derivative methods are valid. A discriminant in y alone misses the vertex tangency unless treated separately. Source 3 estimates a radius and assumes it is an integer because of the contest format; that is not a proof. The parameter derivative lists all tangencies exactly.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "F′ factors as u(u²−80), with F(0)=1681 and F(±√80)=81; these exhaust the stationary distances.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-II-07",
+    "title": "Two successes of each kind before a stop",
+    "restatement": "Independent trials choose $A, B$, or $C$ with equal probabilities. If the chance that $A$ and $B$ each occur at least twice before the first $C$ is $m/n$ in lowest terms, find $100m+n$.",
+    "solution": "Ignore $B$ trials when comparing $A$ with $C$. The chance of fewer than two $A$ trials before $C$ is $1/2+1/4=3/4$, and the same holds for $B$. For both counts to be below two, the word before $C$ is empty, one letter, or $AB$ or BA. Its probability is $(1/3)(1+2/3+2/9)=17/27$. Inclusion-exclusion gives $1-3/4-3/4+17/27=7/54$. Thus $100m+n=754$.",
+    "answer": 754,
+    "tags": [
+      "stopping times",
+      "inclusion-exclusion"
+    ],
+    "source_review": "All five sources inspected. The short first-three-trial conditioning, finite-state recurrence, and terminal-success-word sums are sound. Source index 2 has an unclear overlapping series decomposition and is not relied on. Independent inclusion-exclusion gives 7/54.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "2026-II-08",
+    "title": "An integer isosceles triangle with a tiny incenter triangle",
+    "restatement": "In an isosceles triangle $ABC$, $AB=BC$ and $I$ is the incenter. The perimeters of $ABC$ and $AIC$ have ratio $125:6$. All side lengths of both triangles are integers. Find the least possible $AB$.",
+    "solution": "Write $AC=2x$, $AB=L$, and $AI=CI=u$. The altitude from $B$ contains $I$, so $\\cos A=x/L$ and $\\cos(A/2)=x/u$. With $t=u/x>1$, the double-angle formula gives $L/x=t^2/(2-t^2)$, where $t<\\sqrt2$. The perimeter ratio becomes $2/((2-t^2)(t+1))=125/6$, or $(t-7/5)(t^2+12t/5+34/25)=0$. The quadratic factor is positive for $t>0$, so $t=7/5$ and $L/x=49$. If $AC=b$ is an integer, then $AI=7b/10$ forces $10\\mid b$; also $L=49b/2$. Hence $L\\ge245$, attained at side lengths $245,245,10$ and $AI=CI=7$. These lengths satisfy the ratio and the angle identity, verifying attainment.",
+    "answer": 245,
+    "subjects": [
+      "geometry",
+      "algebra",
+      "number_theory"
+    ],
+    "tags": [
+      "half-angle identity",
+      "unique positive root",
+      "integrality scaling"
+    ],
+    "source_review": "All three alternatives read. Source 0 introduces an integer substitution after normalization without proving it and then guesses the root. Source 1 mislabels the base as BC but contains the intended half-angle reduction. Source 2 finds a working example without proving minimality. The factored cubic proves the unique shape, and divisibility by 10 then proves the minimum.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_index_base": 0,
+    "verification": "The cubic factors exactly as shown; for base 10 the altitude is 100√6, the inradius is 2√6, and AI²=5²+(2√6)²=49. Perimeters 500 and 24 have ratio 125:6.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-II-09",
+    "title": "A divisor-generating decimal with controlled carries",
+    "restatement": "Let $S=\\sum_{k\\ge1}1/(10^k-1)$. Find $\\lfloor10^{100}S\\rfloor$ modulo 1000.",
+    "solution": "Expand each summand as $\\sum_{j\\ge1}10^{-kj}$. Since all terms are positive, regrouping gives $S=\\sum_{m\\ge1}\\tau(m)10^{-m}$. After multiplying by $10^{100}$, the terms through $m=100$ are integers. Their last three places contribute $100\\tau(98)+10\\tau(99)+\\tau(100)=600+60+9=669$. It remains to rule out a carry from the infinite tail $T$. Here $\\tau(101)=2$, and for $j\\ge2$ the divisor-pair bound gives $\\tau(100+j)\\le2\\sqrt{100+j}\\le20+j$. Therefore $0<T\\le2/10+\\sum_{j\\ge2}(20+j)10^{-j}=361/810<1$. Thus the tail contributes zero to the floor and the remainder is 669.",
+    "answer": 669,
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "tags": [
+      "Lambert series",
+      "divisor function",
+      "rigorous tail bound"
+    ],
+    "source_review": "Both alternatives read. They correctly identify divisor counts as the uncarried decimal coefficients but dismiss all later carrying solely because 101 is prime. That observation alone is insufficient; the explicit bound on the entire infinite tail completes the proof.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "Exact divisor counts are τ(98)=6, τ(99)=6, τ(100)=9; the geometric tail majorant is 361/810<1. Rational truncation with a rigorous remainder bound independently confirms the floor residue 669.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-II-10",
+    "title": "An angle bisector and tangent secants",
+    "restatement": "In triangle $ABC$, $AB=200$, $AC=225$, and $AD$ bisects angle $A$, with $D$ on $BC$. A circle through $A$ is tangent to $BC$ at $D$ and meets $AB,AC$ again at $E,F$ on those segments. If $AE,AF,BD,CD$ are positive integers, find the greatest possible $BC$. An alternate version asks for the sum of all possible values.",
+    "solution": "The angle-bisector theorem and integrality give $BD=8m$, $CD=9m$ for a positive integer $m$. Tangent-secant power gives $BE=BD^2/200=8m^2/25$ and $CF=CD^2/225=9m^2/25$. Integrality forces $5\\mid m$; write $m=5k$. Then $AE=200-8k^2$, $AF=225-9k^2$, and $BC=85k$. Positivity gives $k=1,2,3,4$. Conversely each of these gives triangle sides $200,225,85k$, satisfying the strict triangle inequalities. The unique circle through $A$ tangent to $BC$ at its bisector foot $D$ exists: its center lies on the perpendicular at $D$, and the equal-distance equation to $A,D$ determines a positive radius. Its second secant intersections have the computed positive lengths less than 200 and 225, so they lie on the required segments. Hence the possible bases are $85,170,255,340$. Their maximum is 340; their sum, requested in the alternate version, is 850.",
+    "answer": 340,
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "tags": [
+      "angle bisector theorem",
+      "tangent-secant power",
+      "divisibility",
+      "existence converse"
+    ],
+    "source_review": "All four alternatives read. Source 0 explicitly notes an international sum variant. Source 1 initially lets the common factor be real and then infers integer divisibility without stating why; BD,CD integral and coprime ratio 8:9 supply that step. The completed converse checks triangle existence and segment intersections for every candidate. The main maximum answer 340 and alternate sum answer 850 are retained separately.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Exact enumeration of the angle-bisector factor yields k=1,2,3,4; the corresponding bases are 85,170,255,340 and their sum is 850.",
+    "status": "solved",
+    "variants": [
+      {
+        "description": "Main source: greatest possible BC",
+        "answer": 340
+      },
+      {
+        "description": "Alternate clean statement: sum of all possible BC",
+        "answer": 850
+      }
+    ],
+    "source_discrepancy": "The main request is a maximum; the clean alternate request is a sum over the same four feasible base lengths.",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-II-11",
+    "title": "Seven signed square-root sums force a zero sum",
+    "restatement": "Find the greatest integer $n$ such that $x^3-(n/6)x^2+(n-11)x-400$ has roots $\\alpha^2,\\beta^2,\\gamma^2$ and the choices of square roots yield exactly seven distinct values of $\\alpha+\\beta+\\gamma$.",
+    "solution": "The set of signed sums is closed under negation. A finite such set of odd size must contain zero, so choose signs with $\\alpha+\\beta+\\gamma=0$. Vieta gives $\\alpha^2+\\beta^2+\\gamma^2=n/6$ and $\\alpha^2\\beta^2+\\beta^2\\gamma^2+\\gamma^2\\alpha^2=n-11$. Thus $q=\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=-n/12$, while $q^2=n-11$ because its cross terms are $2\\alpha\\beta\\gamma(\\alpha+\\beta+\\gamma)=0$. Hence $n^2-144n+1584=0$, giving $n=12$ or 132. To attain 132, choose $\\alpha=4$, $\\beta=-2+i$, $\\gamma=-2-i$. Their squares are the roots of $x^3-22x^2+121x-400$. Their signed sums are exactly $0,\\pm8,\\pm(-4+2i),\\pm(-4-2i)$, seven distinct values. Therefore the greatest integer is 132.",
+    "answer": 132,
+    "subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "tags": [
+      "negation involution",
+      "signed sums",
+      "Vieta formulas",
+      "attainment"
+    ],
+    "source_review": "Both alternatives read. Source 0 asserts that other sign collisions give too few values without proof; central symmetry supplies a one-line rigorous reason that zero must occur. Source 1 has a sign slip in the coefficient comparison for its auxiliary cubic. Neither explicitly verifies seven distinct sums at the larger candidate; the concrete roots do so.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "Exact Gaussian-integer expansion verifies roots 16,3−4i,3+4i and exactly seven distinct signed sums; the necessary quadratic has only integer roots 12 and 132.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-II-12",
+    "title": "The centers of a tetrahedron with two unequal opposite edges",
+    "restatement": "A tetrahedron has two faces with side lengths $5\\sqrt{10},5\\sqrt{10},10$ and two with $5\\sqrt{10},5\\sqrt{10},18$. Its circumcenter and incenter are $S,R$. Write $RS=m/n$ in lowest terms and find $m+n$.",
+    "solution": "The edges of lengths 10 and 18 are opposite, since no face contains both. Set their endpoints to $A=(-5,0,0)$, $B=(5,0,0)$ and $C=(0,9,12)$, $D=(0,-9,12)$; all four remaining edges then have squared length $25+81+144=250$. The two reflection symmetries put both centers on the $z$-axis. Write $S=(0,0,s)$. Equal vertex distances give $25+s^2=81+(12-s)^2$, hence $s=25/3$. For $R=(0,0,r)$ inside the tetrahedron, distances to representative face planes $4y-3z=0$ and $12x-5z+60=0$ are $3r/5$ and $(60-5r)/13$. Equality gives $r=75/16$, lying between 0 and 12; symmetry supplies the other two tangencies. Consequently $RS=25/3-75/16=175/48$, giving 223.",
+    "answer": 223,
+    "subjects": [
+      "geometry"
+    ],
+    "tags": [
+      "tetrahedral symmetry",
+      "circumcenter equations",
+      "signed face distances"
+    ],
+    "source_review": "Both alternatives read. A coordinate model and two perpendicular cross-sections give the same centers. The second source calls a midpoint separation EF despite using M,N elsewhere; its numerical value 12 is correct. Explicit opposite-edge placement makes the symmetry and plane-distance calculations self-contained.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "Exact squared edge lengths and plane-normal lengths verify the model; circumcenter height 25/3 and incenter height 75/16 give reduced distance 175/48.",
+    "status": "solved",
+    "verification_check_file": "checks/early_agent_2026_checks.py"
+  },
+  {
+    "id": "2026-II-13",
+    "title": "Sets with a prescribed number of adjacent partners",
+    "restatement": "Finite integer sets $S,T$ are cousins when they are disjoint, equally large, and admit a pairing with paired values differing by one. Find the smallest size of $S$ having exactly $4040$ cousins.",
+    "solution": "Build the bipartite graph joining each member of $S$ to its neighbors outside $S$. Components are alternating paths or isolated vertices. A component with more $S$ vertices than outside vertices makes cousins impossible. A component with equal counts has a unique matching saturating $S$. A component with $k$ vertices in $S$ and $k+1$ outside has exactly $k+1$ possible partner sets: omit one outside vertex; the matching is then forced. Consequently the number of cousins is a product of factors $k+1$, whose total vertex cost is at least $\\sum k$. Splitting a composite factor $uv$ into $u,v$ decreases cost from $uv-1$ to $(u-1)+(v-1)$. Since $4040=101\\cdot5\\cdot2^3$, the minimum cost is $100+4+1+1+1=107$. Achieve it with widely separated arithmetic progressions of difference two and lengths $100,4,1,1,1$.",
+    "answer": 107,
+    "tags": [
+      "matching components",
+      "multiplicative partitions"
+    ],
+    "source_review": "The sole source counts separated step-two progressions but omits justification for arbitrary integer sets. The independent bipartite-path component argument handles forced matchings, impossible components, and the prime-factor lower bound.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "2026-II-14",
+    "title": "Compositions with parity-dependent subtraction",
+    "restatement": "For integers $a,b$, define $a\\circ b=a-b$ when $a$ is odd and $b$ even, and $a+b$ otherwise. Count positive-integer sequences of sum $12$ whose left-associated operation value is zero.",
+    "solution": "The running parity equals the parity of the ordinary prefix sum. Therefore only even terms following an odd number of odd terms are subtracted. Added and subtracted totals must each be $6$. Suppose there are $2k$ odd terms with total $2h$, where $1\\le k\\le h\\le3$. Their choices number $\\binom{h+k-1}{2k-1}$. There are $k$ subtracted even gaps and $k+1$ added even gaps. Measuring even terms in units of two, a gap has generating function $F(z)=(1-z)/(1-2z)$, since a positive total $j$ has $2^{j-1}$ compositions. Thus the desired sum is $\\sum_{1\\le k\\le h\\le3}\\binom{h+k-1}{2k-1}[z^3]F(z)^k\\,[z^{3-h}]F(z)^{k+1}$. For $(k,h)=(1,1),(1,2),(1,3),(2,2),(2,3),(3,3)$, the contributions are $20,16,12,36,48,25$. Their sum is $157$.",
+    "answer": 157,
+    "tags": [
+      "parity states",
+      "compositions",
+      "generating functions"
+    ],
+    "source_review": "All three sources inspected. The parity-gap method and finite dynamic program are valid approaches. Source index 1 incorrectly states that an added-gap total 2 has 2 k placements; it has $k$+1 placements. The independent generating-function sum and exhaustive 2048-composition check give 157.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "verification": "The displayed mathematical count agrees with the archived answer.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "2026-II-15",
+    "title": "A Fano-plane residue count",
+    "restatement": "Count ordered seven-tuples with entries in $\\{1,2,3\\}$ for which both $\\sum_i a_i$ and $\\sum_i a_i a_{i+1}a_{i+3}$ are divisible by three; indices are cyclic modulo seven.",
+    "solution": "Replace entries by their residues $0,\\pm1$. The seven triples $\\{i,i+1,i+3\\}$ are the lines of the Fano plane: each pair lies on one line. Classify by support size $w$. For $w=0,1,2,3$, counts are $1,0,42,56$: two signs must oppose, while three signs must agree and their support must avoid the seven lines. For $w=4$, signs split two and two; the support must contain no line, hence be the complement of a line. Count $7\\binom42=42$. For $w=5$, its two contained lines meet at one point. Four signs agree and one differs; their two products cancel exactly when the minority sign is at one of the other four points. Count $\\binom72\\cdot8=168$. For $w=6$, all equal signs fail; among the $\\binom63=20$ balanced assignments, exactly eight fail because the plus or minus triple is one of the four contained lines. Count $7(20-8)=84$. For $w=7$, signs split five and two; the seven products comprise three of one sign and four of the other, so none qualify. Total $1+42+56+42+168+84=393$.",
+    "answer": 393,
+    "tags": [
+      "finite geometry",
+      "Fano plane",
+      "residue counting"
+    ],
+    "source_review": "Both sources inspected. Source index 0 incorrectly replaces entries by a_i-2 rather than their actual residues; its later support analysis corresponds to the correct residue mapping. Source index 1 uses the correct mapping but has mistaken line-containment wording and omits all-equal signs at weight 6, so it is not a complete proof. The independent Fano support count was exhaustively checked on all 2187 tuples. Clean statement includes all seven cyclic terms.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "verification": "Independently enumerated all $3^7=2187$ residue assignments; the support-count distribution is $1,0,42,56,42,168,84,0$.",
+    "status": "solved",
+    "source_index_base": 0,
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ]
+  }
+]

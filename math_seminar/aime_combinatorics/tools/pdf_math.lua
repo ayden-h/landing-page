@@ -1,7 +1,37 @@
 -- Textual review notes sometimes use Unicode symbols outside math delimiters.
 -- Render these with the mathematics font rather than silently dropping glyphs.
-local symbols = {['≤']='\\le', ['≥']='\\ge', ['≠']='\\ne', ['θ']='\\theta',
-  ['∪']='\\cup', ['∩']='\\cap', ['₂']='{}_2', ['⁴']='{}^4', ['⧵']='\\smallsetminus'}
+local symbols = {
+  ['≤']='\\le',
+  ['≥']='\\ge',
+  ['≠']='\\ne',
+  ['≡']='\\equiv',
+  ['θ']='\\theta',
+  ['φ']='\\varphi',
+  ['∪']='\\cup',
+  ['∩']='\\cap',
+  ['⧵']='\\smallsetminus',
+  ['₀']='{}_0',
+  ['₁']='{}_1',
+  ['₂']='{}_2',
+  ['₃']='{}_3',
+  ['₄']='{}_4',
+  ['₅']='{}_5',
+  ['₆']='{}_6',
+  ['₇']='{}_7',
+  ['₈']='{}_8',
+  ['₉']='{}_9',
+  ['⁰']='{}^{0}',
+  ['¹']='{}^{1}',
+  ['²']='{}^{2}',
+  ['³']='{}^{3}',
+  ['⁴']='{}^{4}',
+  ['⁵']='{}^{5}',
+  ['⁶']='{}^{6}',
+  ['⁷']='{}^{7}',
+  ['⁸']='{}^{8}',
+  ['⁹']='{}^{9}',
+  ['⁻']='{}^{-}',
+}
 function Str(el)
   local out, pending = {}, ''
   for _,cp in utf8.codes(el.text) do

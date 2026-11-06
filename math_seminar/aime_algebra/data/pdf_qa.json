@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "subject": "algebra",
+  "qa_date_utc": "2026-11-06T23:16:06.317575+00:00",
+  "rendered_pages_visually_reviewed": 27,
+  "review_scope": "All 351 PDF pages were checked for extracted text outside the 0.85-inch body margin with a 3-point tolerance. First, middle, and last pages of each volume plus Chapter 18, its graph, corrected formulas, the 2016 wording discrepancy, and additional math-heavy solutions were rendered with Poppler and visually inspected. This is sampled visual review, not a claim that every page was visually inspected.",
+  "body_margin_pt": 61.2,
+  "bound_tolerance_pt": 3,
+  "volumes": {
+    "Algebra_Theory.pdf": {
+      "pages": 38,
+      "sha256": "e5eb9f45a6f772919570613e3bf56a911d6e4dd11df4bdae92e7deab2aba392e",
+      "pdf_sha256": "e5eb9f45a6f772919570613e3bf56a911d6e4dd11df4bdae92e7deab2aba392e",
+      "source_markdown": "theory/Algebra_Theory.md",
+      "source_sha256": "963d2390fad03a762bab5c0b3ef7fc5ebec49ffe8f41d6f8f3eec6e0bae06918",
+      "visually_reviewed_pages": [
+        1,
+        19,
+        35,
+        36,
+        37,
+        38
+      ],
+      "sample_image_paths": [
+        "temporary research cache/Algebra_Theory_001.png",
+        "temporary research cache/Algebra_Theory_019.png",
+        "temporary research cache/Algebra_Theory_035.png",
+        "temporary research cache/Algebra_Theory_036.png",
+        "temporary research cache/Algebra_Theory_037.png",
+        "temporary research cache/Algebra_Theory_038.png"
+      ],
+      "compiler_warnings": [
+        "warning: accessing absolute path `<temporary extracted image>`; build may not be reproducible in other environments"
+      ],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "margin_anomalies": [],
+      "all_page_text_bounds_checked": 38,
+      "visual_inspection_completed": true,
+      "author_metadata": "Ayden Bi",
+      "author_visible_on_title_page": true,
+      "chapter_18_pages": [
+        35,
+        36,
+        37
+      ],
+      "figure_page": 37
+    },
+    "Algebra_Problems.pdf": {
+      "pages": 65,
+      "sha256": "d509468e6bd854146d489f0fa8f9df8316e1e6dcdac1874d9167fc6d072ae8fe",
+      "pdf_sha256": "d509468e6bd854146d489f0fa8f9df8316e1e6dcdac1874d9167fc6d072ae8fe",
+      "source_markdown": "Problems.md",
+      "source_sha256": "69008dbec5b83de2c8d9107ab2fe263787c90e1aedfbd16b68a05768b08e9f6d",
+      "visually_reviewed_pages": [
+        1,
+        12,
+        14,
+        15,
+        33,
+        65
+      ],
+      "sample_image_paths": [
+        "temporary research cache/Algebra_Problems_001.png",
+        "temporary research cache/Algebra_Problems_012.png",
+        "temporary research cache/Algebra_Problems_014.png",
+        "temporary research cache/Algebra_Problems_015.png",
+        "temporary research cache/Algebra_Problems_033.png",
+        "temporary research cache/Algebra_Problems_065.png"
+      ],
+      "compiler_warnings": [
+        "warning: texput.tex:1905: Underfull \\hbox (badness 1038) in paragraph at lines 1902--1905",
+        "warning: texput.tex:1990: Underfull \\hbox (badness 1189) in paragraph at lines 1985--1990",
+        "warning: texput.tex:4392: Underfull \\hbox (badness 1024) in paragraph at lines 4389--4392",
+        "warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details."
+      ],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "margin_anomalies": [],
+      "all_page_text_bounds_checked": 65,
+      "visual_inspection_completed": true
+    },
+    "Algebra_Worked_Solutions.pdf": {
+      "pages": 248,
+      "sha256": "75ea737dca900f9a8825286cbbbf21232a9c63dfc41587d6b67cb649652b685a",
+      "pdf_sha256": "75ea737dca900f9a8825286cbbbf21232a9c63dfc41587d6b67cb649652b685a",
+      "source_markdown": "Worked_Solutions.md",
+      "source_sha256": "2a5a6009252e517894974f1f40ee12ee1e38fb4b0ed9e7fb48361778b9fc2872",
+      "visually_reviewed_pages": [
+        1,
+        19,
+        30,
+        32,
+        34,
+        41,
+        53,
+        124,
+        192,
+        193,
+        232,
+        233,
+        241,
+        242,
+        248
+      ],
+      "sample_image_paths": [
+        "temporary research cache/Algebra_Worked_Solutions_001.png",
+        "temporary research cache/Algebra_Worked_Solutions_019.png",
+        "temporary research cache/Algebra_Worked_Solutions_030.png",
+        "temporary research cache/Algebra_Worked_Solutions_032.png",
+        "temporary research cache/Algebra_Worked_Solutions_034.png",
+        "temporary research cache/Algebra_Worked_Solutions_041.png",
+        "temporary research cache/Algebra_Worked_Solutions_053.png",
+        "temporary research cache/Algebra_Worked_Solutions_124.png",
+        "temporary research cache/Algebra_Worked_Solutions_192.png",
+        "temporary research cache/Algebra_Worked_Solutions_193.png",
+        "temporary research cache/Algebra_Worked_Solutions_232.png",
+        "temporary research cache/Algebra_Worked_Solutions_233.png",
+        "temporary research cache/Algebra_Worked_Solutions_241.png",
+        "temporary research cache/Algebra_Worked_Solutions_242.png",
+        "temporary research cache/Algebra_Worked_Solutions_248.png"
+      ],
+      "compiler_warnings": [
+        "warning: texput.tex:105: Underfull \\hbox (badness 1910) in paragraph at lines 102--105",
+        "warning: texput.tex:1295: Underfull \\hbox (badness 2027) in paragraph at lines 1290--1295",
+        "warning: texput.tex:1959: Underfull \\hbox (badness 2158) in paragraph at lines 1954--1959",
+        "warning: texput.tex:1959: Underfull \\hbox (badness 2126) in paragraph at lines 1954--1959",
+        "warning: texput.tex:3005: Underfull \\hbox (badness 1888) in paragraph at lines 2998--3005",
+        "warning: texput.tex:3005: Underfull \\hbox (badness 1242) in paragraph at lines 2998--3005",
+        "warning: texput.tex:3933: Underfull \\hbox (badness 3449) in paragraph at lines 3920--3933",
+        "warning: texput.tex:3933: Underfull \\hbox (badness 1092) in paragraph at lines 3920--3933",
+        "warning: texput.tex:7084: Underfull \\hbox (badness 1038) in paragraph at lines 7081--7084",
+        "warning: texput.tex:7384: Underfull \\hbox (badness 1189) in paragraph at lines 7379--7384",
+        "warning: texput.tex:16400: Underfull \\hbox (badness 1024) in paragraph at lines 16397--16400",
+        "warning: texput.tex:17355: Underfull \\hbox (badness 1102) in paragraph at lines 17345--17355",
+        "warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details."
+      ],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "margin_anomalies": [],
+      "all_page_text_bounds_checked": 248,
+      "visual_inspection_completed": true
+    }
+  },
+  "repairs": [
+    "Converted long plain-text solution expressions in 1989-A-07, 1992-A-03, and 1996-A-05 into properly delimited mathematics; removed the resulting overfull-line warnings.",
+    "Converted the coordinate radicals and verification in 1989-A-06 to properly delimited mathematics after a rendered-page inspection exposed a detached radical sign.",
+    "Rebuilt the theory PDF with Ayden Bi as the visible author and PDF Author metadata.",
+    "Disabled Markdown superscript parsing in the shared builder so raw caret arithmetic remains literal instead of accidentally raising a whole expression; delimited TeX powers remain unchanged.",
+    "Rebuilt all three volumes after the shared Unicode square-root fallback was corrected to keep the radical on the text baseline; rechecked the same sample pages and additional plain-radical passages."
+  ],
+  "chapter_18_mathematical_review": "aime_archive/source_notes/algebra_chapter_18_review.md",
+  "warnings_assessment": "No missing-glyph or overfull-line warnings remain. The problem and solution volumes retain underfull-box warnings for ordinary paragraph spacing; sampled pages are readable without clipping or overlap. The theory build reports its temporary image path as a reproducibility warning; the image is supplied by the repository resource path and visibly renders correctly.",
+  "preview_storage_note": "Rendered inspection images were kept in the temporary research cache; the published deliverables are the PDFs and editable manuscripts."
+}

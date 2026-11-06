@@ -1,0 +1,3440 @@
+[
+  {
+    "id": "1983-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_6",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Five entries inspected. Binomial, Euler-inverse, and factorization methods are valid. Index 2 asserts a false constant-residue pattern for odd exponents; index 4 supplies no actual modular computation."
+  },
+  {
+    "id": "1983-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_8",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives use factorial valuations. Index 1 incorrectly displays floor(200/p)>3; the required condition in the relevant range is at least 3. Index 0 uses a strict inequality 3p<200, harmless here because 200 is not three times a prime."
+  },
+  {
+    "id": "1983-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives use the right-triangle or power-of-point identity followed by the prime 11. The bound on the digit difference is needed to rule out square 9 after a+b=11."
+  },
+  {
+    "id": "1984-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly combines divisibility by 3 and 5 with the minimal-digit-length argument."
+  },
+  {
+    "id": "1984-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems/Problem_14",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries read. The modulo 6 and modulo 5 constructions are sound. Indices 2 and 5 invoke a Frobenius bound without proving that its arbitrary linear combination splits into two odd composites. Indices 5 and 6 also falsely claim every candidate must be twice a prime; this omits even numbers whose halves are even. The direct residue construction is complete."
+  },
+  {
+    "id": "1985-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly combines real/imaginary parts with the primality of 107 and a modulo 3 exclusion."
+  },
+  {
+    "id": "1985-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative gives the same complete prime-exponent and factorization argument; positivity rules out negative factor pairs."
+  },
+  {
+    "id": "1985-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_13",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Indices 0 and 3 establish a constant gcd bound. Index 1 merely chooses n=200 after an intermediate factorization, without proving this maximizes the gcd; index 2 supplies the missing Euclidean reduction."
+  },
+  {
+    "id": "1986-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_5",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives correctly reduce the condition to n+10 dividing 900, using Euclidean division, substitution, or a difference of cubes."
+  },
+  {
+    "id": "1986-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives obtain 33. Index 0 uses an approximate root and says k<n, though k=n is permitted; the exact adjacent bounds remove both issues."
+  },
+  {
+    "id": "1986-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_7",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Read and compared all 5 archived solution entries. Alternatives are binary-to-ternary conversion and recursive blocks of subset sums."
+  },
+  {
+    "id": "1986-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. The divisor-product or involution proof handles the self-paired divisor 1000 automatically. Index 2 has a sign slip in an intermediate sentence but uses the correct final 144+3-6."
+  },
+  {
+    "id": "1987-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1987-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_3",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives identify prime cubes and products of two distinct primes. Index 0 initially says merely two distinct prime divisors, which would allow extra exponents; the intended condition is exponent 1 each. The divisor-product identity gives the full necessity cleanly."
+  },
+  {
+    "id": "1987-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative gives the correct factorization but omits the factor 1 case corresponding to x=0. The new proof explicitly excludes it."
+  },
+  {
+    "id": "1987-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_7",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. Alternatives count prime exponents independently or split on the exponent pattern of c."
+  },
+  {
+    "id": "1987-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives yield 112. The first two assert the interval-width bound without explanation; the third supplies an integer-count argument. Open endpoints are essential because an interval of length exactly 2 can contain just one integer."
+  },
+  {
+    "id": "1987-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_11",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries read. Indices 0 and 2 use valid factor pairs. Index 1 falsely claims an even number of consecutive terms has even sum and concludes k must be odd, contradicting the actual answer 486."
+  },
+  {
+    "id": "1987-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Index 1 uses the exact interval width. Index 0 has an insufficiently justified preliminary bound; index 2 simply discards positive small terms, which cannot prove minimality. Index 3 gives derivative bounds but leaves the endpoint comparison implicit."
+  },
+  {
+    "id": "1988-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative correctly identifies and verifies the eventual two-cycle; the initial indexing places 169 at every even index from 4 onward."
+  },
+  {
+    "id": "1988-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1988-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. The first two perform the recurrence directly. Index 2 verifies that lcm is a solution but appeals to AIME answer uniqueness rather than proving functional uniqueness. The invariant plus descending Euclidean algorithm supplies that proof."
+  },
+  {
+    "id": "1988-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_9",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives read. Digit-by-digit lifting and CRT approaches agree. Some alternatives test a successful residue without explicitly showing uniqueness; the linear lift congruences here determine each digit uniquely modulo 5."
+  },
+  {
+    "id": "1989-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_3",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. The denominator-divisibility argument supplies uniqueness. Index 3 incorrectly states that n divides 25 and 30; its conclusion is not supported by that sentence."
+  },
+  {
+    "id": "1989-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_4",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Index 2 once calls the three-term sum a cube instead of a square. Some alternatives choose the smallest exponents without explaining why additional primes cannot lower the product; the valuation bounds provide that justification."
+  },
+  {
+    "id": "1989-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_9",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives read. Modular approaches are effective when paired with explicit bounds. Indices 1–3 invoke rough estimates or an allegedly obvious upper bound; the interval here is elementary and sufficient. Index 5 quotes a large integer root without a derivation."
+  },
+  {
+    "id": "1989-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single archived alternative correctly reduces the imaginary part to two digit cases. The two resulting integer intervals are disjoint, so summing numerals does not introduce duplicate values."
+  },
+  {
+    "id": "1990-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1990-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Indices 0 and 2 prove the bound and exhibit an integer solution. Index 1 splits divisibility into cases that are not exhaustive and invokes the contest answer range; those arguments are unnecessary."
+  },
+  {
+    "id": "1990-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative identifies the correct three-prime pattern but does not compare it with all two-prime patterns. The complete factorization list and comparison establish global minimality."
+  },
+  {
+    "id": "1990-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. The first uses a Frobenius-number argument that needs explicit reduction of exponent ranges. The second comment incorrectly claims every integer 0 through 143 is literally representable with nonnegative bounded exponents; modular representability is sufficient. The third uses synchronized exponents, which does generate all 144 values but needs an order calculation."
+  },
+  {
+    "id": "1990-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. Index 0 invokes a decreasing root approximation that is not a valid global proof. Index 1 asserts a minimizing endpoint principle without an explicit inequality. Comparing every block to the least block ending above n supplies the missing bound."
+  },
+  {
+    "id": "1990-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Read and compared all 3 archived solution entries. Alternatives group powers by digit length or count length-preserving multiplication steps."
+  },
+  {
+    "id": "1991-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_1",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives read. Indices 2 and 4 discard the wrong branch only because it would exceed the contest answer range; index 3 leaves that exclusion implicit. The positive-integer inequality eliminates it mathematically."
+  },
+  {
+    "id": "1991-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1991-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries read. Index 0 is only a warning that a removed solution was incorrect. Index 1 gives the valid jump argument. Index 2 uses Hermite’s identity but reverses a displayed monotonic inequality and ambiguously includes the endpoint r+1; the identity requires exactly the hundred offsets 0 through 99."
+  },
+  {
+    "id": "1991-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_8",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. The shifted-root factorization is shorter than the discriminant approach. Counting pairs alone requires checking that different pairs do not yield the same parameter; their explicit sums establish injectivity."
+  },
+  {
+    "id": "1991-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_13",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "Read and compared all 6 archived solution entries. All six forms reduce to the square identity (r−b)²=r+b, with different algebraic parametrizations."
+  },
+  {
+    "id": "1991-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Indices 0 and 1 state a lower bound but do not explicitly construct equality. Index 3 has sign errors in its difference-of-squares factorization. The proportional positive coordinates prove attainment, and factor pairs establish uniqueness."
+  },
+  {
+    "id": "1992-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_1",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. The first two correctly count eight reduced residues per unit interval. Index 2 uses φ(300)=80; this happens to apply because 30 and 300 have the same prime divisors, a fact that should be made explicit rather than treated as automatic."
+  },
+  {
+    "id": "1992-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The consulted source counts reductions of multiples of 81. Characterizing possible reduced denominators makes exhaustiveness explicit."
+  },
+  {
+    "id": "1992-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Read and compared all 3 archived solution entries. The reliable partition is by the number of trailing nines of the smaller integer."
+  },
+  {
+    "id": "1992-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative correctly treats lines as directions modulo π rather than 2π. The initial slope is irrelevant because every line through the origin has the same return order."
+  },
+  {
+    "id": "1992-A-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_15",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. The second method counts skipped values at higher powers of five."
+  },
+  {
+    "id": "1993-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_4",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "Read and compared all 6 archived solution entries. Alternatives factor a translation-invariant product using gaps, a shifted origin or centered coordinates."
+  },
+  {
+    "id": "1993-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_6",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives read. Some assume the individual summands are positive, although the problem only specifies integers; the congruence argument needs no such assumption. Index 3 invokes the contest answer range unnecessarily. Explicit starting terms prove attainability."
+  },
+  {
+    "id": "1993-A-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_9",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. Index 0 incorrectly keeps modulus 2000 after clearing the factor 1/2 and uses 16 rather than 32; it reaches the correct answer accidentally. Index 1 correctly works modulo 4000 and lists all four CRT classes."
+  },
+  {
+    "id": "1994-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly indexes the two admissible root classes. The exclusion of n=1 is necessary because the sequence contains positive terms only."
+  },
+  {
+    "id": "1994-A-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_4",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative correctly groups integers between successive powers of two. Its endpoint counts and resulting linear equation are valid."
+  },
+  {
+    "id": "1994-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1994-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The finite lattice-point model determines all tangent and secant possibilities; antipodal pairs require a separate exclusion."
+  },
+  {
+    "id": "1994-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Index 0 supplies the valid integer-side reduction. Index 1 treats the altitude as an integer without proof and invokes the answer range to discard factor pairs. Index 2 assumes an integral parametrization prematurely. The divisibility argument justifies every integer variable."
+  },
+  {
+    "id": "1994-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. Alternative index 1 is the shortest: reduce the count of height-2 offset bricks modulo five, obtaining unique canonical descriptions."
+  },
+  {
+    "id": "1994-A-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. Index 0 correctly counts internal grid lines. Index 1 uses plus signs where boundary exclusions require minus signs and gives a dimensionally incorrect fence formula; it happens to find the right grid size."
+  },
+  {
+    "id": "1995-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_2",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Index 1 takes logarithms to base x without first excluding x=1, which indeed is not a solution. Index 2 makes an arithmetic error when simplifying the quadratic roots; their sum remains correct. Vieta avoids unnecessary radicals."
+  },
+  {
+    "id": "1995-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Read and compared all 3 archived solution entries. The general two-prime simplification is that the requested count equals the product of the two exponents."
+  },
+  {
+    "id": "1995-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Read and compared all 3 archived solution entries. Alternatives derive the same y(y+1) divisibility parametrization or enumerate its small y-cases."
+  },
+  {
+    "id": "1995-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. They discuss the noncomposite remainders as primes and overlook the possible remainder 1 in general. The five-term residue argument avoids that issue and supplies a uniform upper bound instead of a case table."
+  },
+  {
+    "id": "1995-A-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1995-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1995_AIME_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. Index 0 counts integers by flooring an interval length, which is not valid in general; it works here because both endpoints have the same fractional part 1/16. That endpoint fact is made explicit. Index 1 gives only an abbreviated numerical grouping."
+  },
+  {
+    "id": "1996-A-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1996-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_8",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1996-A-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. The first two correctly reduce to a congruence. Index 2 changes subtraction to addition in a cosine-addition line; the intended identity is clear but the displayed signs are wrong."
+  },
+  {
+    "id": "1996-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_14",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. Both sources use inclusion-exclusion of simultaneous coordinate-plane crossing times."
+  },
+  {
+    "id": "1997-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1997-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Index 0 finds a successful divisor but does not exhaust the possible divisors; index 1 says the ratio is “a little” below nine without explicit bounds. The two-digit range forces y uniquely by a narrow interval."
+  },
+  {
+    "id": "1997-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1997-A-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1997_AIME_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives correctly solve the angle equation. The new proof explicitly treats the large-n regime relevant to maximality and explains why the shared vertex is the middle vertex of the second polygon."
+  },
+  {
+    "id": "1998-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Read and compared all 2 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1998-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole alternative correctly pairs consecutive triangular differences and then pairs those results. Its displayed absolute-value expression temporarily omits outer bars, but the final sign treatment is correct."
+  },
+  {
+    "id": "1998-A-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries read. Entry 0 is an introductory fragment with an incorrect general formula. Entry 1 uses strict inequalities although zero is allowed and misquotes one Fibonacci ratio. Entry 2 relies only on a limiting ratio, which does not prove the finite optimum. Two exact term inequalities plus the full candidate sequence settle maximality."
+  },
+  {
+    "id": "1998-A-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1998_AIME_Problems/Problem_14",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. Index 0 eventually supplies the necessary global inequality after an exploratory denominator guess. Index 1 fixes m=3 without proving global optimality. The positive integer denominator and sharp product-sum bound establish the maximum uniformly."
+  },
+  {
+    "id": "1999-A-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. Their claims about parity and divisibility are mostly asserted rather than proved; index 1’s digit commentary is especially imprecise. The residue argument establishes the lower bound and verifies an attaining progression despite the primary answer field being blank."
+  },
+  {
+    "id": "1999-A-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives are valid. The factorization method exhausts the possibilities without checking an interval of individual integers."
+  },
+  {
+    "id": "1999-A-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1999-A-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "1999-A-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_13",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Read and compared all 1 archived solution entries. The first archived solution uses the same central counting model; this is a newly written exposition after consultation."
+  },
+  {
+    "id": "2000-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source uses the same prime-allocation reduction; its finite digit check is valid."
+  },
+  {
+    "id": "2000-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_2",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both downloaded solutions were checked: area decomposition and the shoelace formula yield the same factor equation."
+  },
+  {
+    "id": "2000-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_5",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: Arithmetic slip: the largest feasible denominator is 156, not 154. The candidate multiple 150 and final answer remain valid. Source 2: The exhibited urn sizes establish existence but need an exclusion argument for uniqueness."
+  },
+  {
+    "id": "2000-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_6",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries were reviewed. Several omit the rational-square-root justification. Entry 3 contains a mistaken derived square, and entry 4 has inconsistent factors in its squaring steps. The integer-square parametrization above supplies the missing implication."
+  },
+  {
+    "id": "2000-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_11",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: The numerical approximation is unnecessary; the exact finite sum used here avoids rounding."
+  },
+  {
+    "id": "2000-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was checked. Its factor allocation is sound; the explicit inverse here clarifies why the factor of 2 accounts for signs without an additional factor for order."
+  },
+  {
+    "id": "2000-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three source entries were reviewed. Entry 1 mistakenly states exponents 3 and 2 before giving the correct product with exponents 2 and 1. Entry 2 asserts the minimum without proving the two exponent possibilities."
+  },
+  {
+    "id": "2000-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both downloaded entries were checked. The reflection formulation and direct leg-vector enumeration agree. The explicit construction here supplies sufficiency for every listed direction."
+  },
+  {
+    "id": "2000-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The first two give correct telescoping and borrowing arguments. Entry 2 repeatedly misprints factorial indices and later writes a 32-term block where the nonzero block has 16 terms; its final digit pattern is correct."
+  },
+  {
+    "id": "2001-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_1",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. The quotient-divides-10 reduction proves completeness more directly than the three enumeration variants."
+  },
+  {
+    "id": "2001-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Entry 0 supplies the necessary digit-length bound. Entries 1 and 2 appeal to the AIME answer range instead, which is not a mathematical proof of the global maximum."
+  },
+  {
+    "id": "2001-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2001-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2001-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2001-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "The first archived proof has a divisibility typo in its necessity step; the order-of-10 argument here supplies the missing justification. Audit findings: Source 2: The period-six argument is sound, but one congruence and the index names are mistyped."
+  },
+  {
+    "id": "2001-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its unit-circle geometry is correct; the explicit congruence calculation here proves completeness of the listed roots."
+  },
+  {
+    "id": "2002-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_3",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2002-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. The first needs an explicit coprimality step when inferring a divisor of 29; the shifted-product proof makes the uniqueness immediate."
+  },
+  {
+    "id": "2002-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed, including its modular alternative. It correctly identifies the decisive term but only informally bounds the tail. The explicit remainder bound here proves that no carry changes the third digit."
+  },
+  {
+    "id": "2002-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_8",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its primitive step and initial-term inequality are correct; including a general positive multiple t makes the lower bound cover all possible collisions."
+  },
+  {
+    "id": "2002-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_9",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "The first archived solution rejects larger h using the AIME answer range, which is not a proof. The first-uncovered-integer argument here closes that gap. Audit findings: Source 0: Excluding larger step sizes merely from the three-digit answer format is not a proof. The original solution here proves exhaustion by the first uncovered integer. Source 2: The assertion that the smallest step must divide the other steps needs additional justification beyond the stated congruence argument."
+  },
+  {
+    "id": "2002-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Entry 1 gives a rigorous unfolded ray. Entry 0 describes the required 12 scale units as reflections, which can obscure additional side-face reflections; the unfolded parameter avoids this counting issue."
+  },
+  {
+    "id": "2002-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2002-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed; the digit cancellation and nine attainable differences are correct."
+  },
+  {
+    "id": "2002-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_3",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Their square-gap enumeration and middle-term reduction are correct."
+  },
+  {
+    "id": "2002-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Entry 0 gives the correct strict inequalities but invokes growth informally; induction supplies the finite cutoff. Entry 1 uses non-strict inequalities and confuses the logical alternatives, so its reasoning is invalid despite the correct list."
+  },
+  {
+    "id": "2002-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_7",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. The first correctly derives the six congruence classes. Entry 1 misprints one residue in its cycle of multiples of 16; this does not affect the stated class 399."
+  },
+  {
+    "id": "2002-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. Entry 0 gives a sound no-skipping argument. Entry 1 checks only the preceding value after experimentation and does not prove minimality. Entry 2 mishandles the strict lower endpoint using a ceiling; entry 3 provides only an estimate before referring to entry 0. The interval-length proof covers every smaller k."
+  },
+  {
+    "id": "2003-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed; its divisibility and size argument is complete."
+  },
+  {
+    "id": "2003-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. The perpendicular-bisector and cosine-law methods agree. Entry 1 reverses the sign after its correct Stewart equation; the required identity is AD squared minus BD squared equals 189."
+  },
+  {
+    "id": "2003-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Entries 0 and 2 provide valid bounds. Entry 1 explicitly relies on presumed AIME uniqueness instead of checking all factor cases, so its standalone argument is incomplete."
+  },
+  {
+    "id": "2003-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_14",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Entry 0 correctly justifies moving the block to the start. Entry 1 omits that reduction and asserts a residue restriction without a full lower-bound argument; the quarter-distance integer h supplies it."
+  },
+  {
+    "id": "2003-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed; its three factor pairs exhaust the possibilities."
+  },
+  {
+    "id": "2003-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its construction is correct; the explicit feasible maximal prefix justifies global optimality."
+  },
+  {
+    "id": "2003-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_10",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its factor-pair method is valid; the monotonicity argument here explains why the next admissible smaller factor supplies the global maximum."
+  },
+  {
+    "id": "2003-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_12",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: An intermediate denominator changes sign incorrectly; retain the positive denominator when deriving the inequality."
+  },
+  {
+    "id": "2004-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Their arithmetic-progression reductions are equivalent and correct."
+  },
+  {
+    "id": "2004-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. Entry 0 gives the correct global bound but incorrectly says every q from 2 through 5 attains 349; q=3 or 5 does not. Entry 1 constructs a valid optimum but does not explicitly prove the universal bound. The proof here combines the bound with one verified witness."
+  },
+  {
+    "id": "2004-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_8",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2004-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_15",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2004-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The first archived source asserts that balancing factors minimizes the product without proving the discrete case. Explicit factor enumeration here justifies the minimum."
+  },
+  {
+    "id": "2004-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_6",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. The units-based and normalized-fraction systems are valid. Entry 0 lists 72 as a basic divisibility requirement for the third portion, whereas the split itself requires 24; entry 2 incorrectly says 11 divides that portion. The explicit primitive parameterization removes these bookkeeping errors."
+  },
+  {
+    "id": "2004-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_8",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2004-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: A residue of minus one modulo nine is mistyped as plus one in the exponent classification."
+  },
+  {
+    "id": "2004-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: One displayed three-digit value is miscomputed. The transformation interpretation also requires careful treatment of overlapping occurrences."
+  },
+  {
+    "id": "2005-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_2",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries were reviewed. The divisor enumeration is correct. Entry 1 initially phrases the condition as remainder 1, which fails for k=1; its note repairs that exception. Divisibility of 2004 includes it automatically."
+  },
+  {
+    "id": "2005-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source was reviewed. Its prime-power classification, prime list, and unordered pair count are complete."
+  },
+  {
+    "id": "2005-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_4",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven entries were reviewed. The bounding-squares and factor-pair proofs are sound. Entry 4 contains incorrect signs, a repeated variable, and a factor 68 instead of 69. Entry 6 uses the AIME answer range as an unjustified global bound; the complete factorization avoids that reliance."
+  },
+  {
+    "id": "2005-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2005-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2005-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_5",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Their quadratic substitutions are valid. The explanatory note in entry 0 correctly distinguishes overlap of b values from overlap of ordered pairs."
+  },
+  {
+    "id": "2005-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2005-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_9",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight entries were reviewed. The exponential and argument calculations are valid. Entry 4 tests only t=0, proving necessity but not sufficiency; entry 5 drops an exponent in an intermediate factorization. The displayed equivalence supplies both directions."
+  },
+  {
+    "id": "2005-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries were reviewed. Entry 2 gives a valid degree-free argument. Entry 0 writes a quotient A without clarifying it is an integer polynomial rather than a constant; entry 1 assumes P is quadratic without justification. The divisibility proof works for every degree."
+  },
+  {
+    "id": "2006-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries read. The unrestricted positional argument proves minimality. The alternatives rely on the contest answer range; the last also misprints 29 times 25 as 729."
+  },
+  {
+    "id": "2006-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_4",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The source correctly reverses the order of counting prime factors; no powers of 125 occur."
+  },
+  {
+    "id": "2006-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_9",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. The exponent argument is correct; the third mistakenly writes the final exponent pair as (541,1) rather than (496,1), and sometimes calls exponents a and r."
+  },
+  {
+    "id": "2006-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_13",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The recurrence is valid with n at least two and S_1=2; the written artificial S_0=1 is not compatible with the actual definition. Source 2: The recurrence is explicitly guessed without proof, and smallest/largest language is reversed. A valuation count proves the formula directly. Source 3: The closing least/greatest wording and a summation index are mistyped; the valuation argument otherwise works."
+  },
+  {
+    "id": "2006-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_3",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. The factorial quotient and direct odd-multiple counts agree. The last entry contains incorrect residue wording and says 27 gives 3 before correctly using 4 in its final sum."
+  },
+  {
+    "id": "2006-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_7",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2006-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. Their lists are correct, but they omit mentioning the pure prime-power exponent patterns; the size bounds exclude those, as made explicit here."
+  },
+  {
+    "id": "2006-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2007-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The second loosely calls the squares multiples of 12, but its actual list correctly takes squares of multiples of 12."
+  },
+  {
+    "id": "2007-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_4",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source correctly works modulo a half-turn, rather than requiring every planet to return to its initial location."
+  },
+  {
+    "id": "2007-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_5",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2007-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source identifies the same exceptions; the parity of the exponent explicitly justifies why odd powers of the square root cannot occur."
+  },
+  {
+    "id": "2007-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2007-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2007-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_5",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2007-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_7",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The direct endpoint count and two-sided inequality yield the same unique value of k."
+  },
+  {
+    "id": "2007-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. The base-three and geometric-tail ideas are sound. The first uses an approximation where a bound is needed; the last repeatedly discards small terms and does not establish uniqueness. The strict tail bound repairs both issues and also permits negative initial exponents."
+  },
+  {
+    "id": "2007-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_13",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2008-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_3",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. The first two rigorously isolate the solution. The third contains parity errors and unjustified congruence steps; the fourth appeals to plausible athletic speeds rather than proving uniqueness."
+  },
+  {
+    "id": "2008-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_4",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries read. The factorization proof is complete. Several alternatives merely test candidates or invoke the stated uniqueness. The fifth has a sign error in its expansion; the last writes x=12 even though its own relation gives x=18."
+  },
+  {
+    "id": "2008-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2008-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2008-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_4",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source converts ordinary ternary digits by carrying; the residue rule here makes uniqueness explicit."
+  },
+  {
+    "id": "2008-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_8",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The complex-exponential derivation is equivalent to product-to-sum and has a cubic exponent typo in one expanded telescoping line."
+  },
+  {
+    "id": "2008-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. The first gives a genuine global bound. The Pell and candidate-testing alternatives assume the answer is below 1000 from contest format and thus do not prove maximality; the final candidate list is also incomplete."
+  },
+  {
+    "id": "2009-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_1",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. The geometric-mean condition gives a complete extremal argument; the shortest entry leaves its candidate exclusions implicit."
+  },
+  {
+    "id": "2009-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The positive-domain counts are correct; neither source discusses negative real x, which contributes no additional positive integer values as checked here."
+  },
+  {
+    "id": "2009-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_7",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. Their telescoping and induction approaches are equivalent and complete."
+  },
+  {
+    "id": "2009-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_11",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The inference that the base is an integral multiple of twice the primitive lattice length requires the lattice-spacing condition; integrality of area alone is insufficient."
+  },
+  {
+    "id": "2009-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three entries reviewed. The first integer-difference descent is rigorous. The interval argument in the second incorrectly claims all intervening integers occur; the third explicitly offers only a periodicity guess. The quantitative contraction makes the necessity precise."
+  },
+  {
+    "id": "2009-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source correctly reduces the constraints to two feasible frequency vectors. The explicit second moments here certify which is minimal."
+  },
+  {
+    "id": "2009-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_4",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed, including the statement-clarification entry. The maximum-sum construction is rigorous. The final factor-pair discussion notes an invalid reversed participant count, though the valid 41-child solution is correct."
+  },
+  {
+    "id": "2009-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed, including comments in the first. The strict valuation argument is sound. Several alternatives invoke contest answer bounds to assert b=1, or infer a sum valuation from a non-strict lower bound; those do not suffice. The unique odd numerator here explicitly prevents cancellation."
+  },
+  {
+    "id": "2009-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_9",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2009-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source gives the same exact endpoint treatment and finite bound on n."
+  },
+  {
+    "id": "2010-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2010-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_2",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The first explicitly counts the 997 factors, supplying the sign that the abbreviated second explanation leaves implicit."
+  },
+  {
+    "id": "2010-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The first explicitly forces both unit gaps. The second bounds the first gap but leaves sufficiency and the second gap implicit."
+  },
+  {
+    "id": "2010-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_8",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source gives the correct radius but calls the half-open cells symmetric and does not explicitly prove that another center cannot improve it. Passing to the closure and using a diametral pair supplies both details."
+  },
+  {
+    "id": "2010-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_10",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: One congruence omits a division by ten, and the two exceptional ordered pairs are transposed/mistyped. Source 5: The multiple-of-ten condition belongs to a_0, not a_1. The regrouped place-value equation also omits a factor ten."
+  },
+  {
+    "id": "2010-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_12",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2010-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries reviewed. The first incorrectly says strictly increasing, although nondecreasing is enough. Approximate averaging and broad claims about unit increments are unnecessary; two exact evaluations establish maximality."
+  },
+  {
+    "id": "2010-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source identifies the correct candidate. The explicit digit-sum argument proves that no larger four-digit arrangement or five-digit number works."
+  },
+  {
+    "id": "2010-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2010-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed. The first covers both possible degree patterns but abbreviates the linear case. The second omits linear-cubic factorizations entirely. Both are addressed explicitly here."
+  },
+  {
+    "id": "2010-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2010-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_12",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both entries reviewed, including the parity note. The main scaling calculation is correct, but integrality of the parameter in bases 16u and 14u requires the parity argument supplied here."
+  },
+  {
+    "id": "2011-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2011-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_7",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 3: Pattern examples suggest the splitting construction but do not establish necessity; reduction modulo m-1 is required. Source 4: Splitting proves sufficiency. Necessity still needs a merging argument or the residue invariant. Source 5: The constructed family proves sufficiency but its form cannot simply be assumed for every representation."
+  },
+  {
+    "id": "2011-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The obtuse-triangle formula has an off-by-one error and does not produce the two values subsequently claimed. Trial values also do not prove exhaustiveness."
+  },
+  {
+    "id": "2011-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_11",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five entries were reviewed. Order computations are unnecessary. Some entries only guess that 8 is the first repeated residue or incompletely exclude smaller orders; the first-repetition argument supplies the missing justification without determining the cycle length."
+  },
+  {
+    "id": "2011-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_15",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six entries were reviewed. The sources find the root triple, but several stop at its discovery without excluding all other cases; one proposed valuation discussion is unrelated and contains a year/constant typo. The explicit bound and all seven discriminants prove the required uniqueness."
+  },
+  {
+    "id": "2011-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_3",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four entries were reviewed. The angle-sum equation supplies the parity condition sometimes left implicit in median arguments. The final entry incorrectly describes every angle as 160 before listing a progression; the intended average is 160."
+  },
+  {
+    "id": "2011-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_14",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The relevant CRT hypothesis is pairwise coprimality; a collective gcd of one is not sufficient in general. Source 3: The optional extension to sixty symbols is incorrect: after choosing residue permutations, each of thirty residue classes has an independent two-element permutation."
+  },
+  {
+    "id": "2011-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The substitution mishandles the floor: floor(2x-3) is not 2 floor(x)-3. The subsequent intervals actually use the latter expression, so the written transformed equation is invalid. Source 3: The answer format is used to assert interval bounds without proof. The bounds should be checked directly."
+  },
+  {
+    "id": "2012-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_1",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The initial even-middle-digit factor is mistyped as four rather than five."
+  },
+  {
+    "id": "2012-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_4",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole stored solution is explicitly marked nonrigorous because it does not establish the candidate handoff pattern. The new proof supplies the exact catch-position recurrence and every state through the first integer meeting."
+  },
+  {
+    "id": "2012-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2012-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_6",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole stored proof inspected. The new exposition adds the equal-or-supplementary sine alternative, so the given rational angle is not assumed to equal the root argument uniquely."
+  },
+  {
+    "id": "2012-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_10",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries inspected. They use factorization, digit arithmetic, CRT, or a reparameterization. The final entry incorrectly states that negative parameter values give negative outputs; the root-based ordering avoids this duplicate-sign issue. The first square 256 and its truncated value zero are included explicitly."
+  },
+  {
+    "id": "2012-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_11",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The first archived sufficiency argument does not clearly enforce nonnegative jump counts. Taking a sufficiently large solution and assigning signs here proves actual reachability."
+  },
+  {
+    "id": "2012-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_15",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2012-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_1",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four stored alternatives inspected. They use either congruences or a lattice slope. The last initially states a false divisibility-by-twenty criterion before adding the missing tens-digit condition; the congruence proof here is exact from the outset."
+  },
+  {
+    "id": "2012-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_12",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2013-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer."
+  },
+  {
+    "id": "2013-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three stored entries inspected. The divisor route is exact; the first entry uses an informal near-linearity argument, replaced here by strict monotonicity. The last begins with a mistaken bound on f rather than its arcsine input and uses a longer factor allocation."
+  },
+  {
+    "id": "2013-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_10",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "Inspected the sole stored argument. The new exposition adds why the third root is integral, excludes q=65, verifies the nonzero coefficient restrictions, and proves that the coefficient-pair count has no duplicates."
+  },
+  {
+    "id": "2013-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_11",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six stored entries inspected. Several reach the correct minimum through different substitutions. The final entry incorrectly keeps modulus nine after division by three; its claimed full congruence class is false although the least candidate happens to agree. Another entry incorrectly excludes all noncoprime divisors. The present proof excludes actual divisors of 1680 and uses the correct reduced modulus."
+  },
+  {
+    "id": "2013-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_15",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The listed ranges and counts for the progression difference disagree, and the final arithmetic sum is not 272. The middle-term count in the original solution avoids these errors."
+  },
+  {
+    "id": "2013-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_2",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both stored alternatives inspected. They differ only in the presentation of exponentiation and factorization. The new proof also checks domains and that summing pairs does not duplicate a value of a+b."
+  },
+  {
+    "id": "2013-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_6",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four stored entries inspected. The first three use inspection or a partial gap heuristic. The fourth supplies an endpoint argument; the new proof gives the complete finite exclusion and separates the gap size from its alignment with a thousand-block."
+  },
+  {
+    "id": "2013-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_7",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both stored solutions inspected. Each selects the smallest positive congruence solution without excluding larger ones. The new proof uses the positive workforce in the final interval to establish that the candidate is the only feasible solution."
+  },
+  {
+    "id": "2013-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_14",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both stored entries inspected. The first combines a pattern guess and a partial proof; the second asserts the same lemma and refers back. The new proof handles every divisor range explicitly and then sums complete residue blocks."
+  },
+  {
+    "id": "2014-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_3",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight sources inspected. Totient pairing and exclusion of multiples of 2 and 5 agree. Some alternatives reverse divisibility notation or say a divides 1000 rather than shares a prime factor; the gcd equivalence is the correct criterion."
+  },
+  {
+    "id": "2014-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_6",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six sources inspected. Several omit the factor pair containing 1 or use an incorrect quadratic-formula denominator. Listing all positive factor pairs makes uniqueness immediate without assuming the answer is an integer."
+  },
+  {
+    "id": "2014-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. The CRT alternative explicitly includes all four residues. Digit-lifting alternatives contain copied digit slips, including saying c=3 before writing 76 and a=3 before 9376; these are avoided."
+  },
+  {
+    "id": "2014-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_4",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. The denominator factor 11 forces equal first two digits; this avoids carrying through six-digit repeating blocks."
+  },
+  {
+    "id": "2014-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three sources inspected. The binary encoding and its induction version explain the recurrence; the brute-force suggestion alone does not prove first occurrence."
+  },
+  {
+    "id": "2015-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_3",
+    "available_entries": 10,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "review": "All ten alternatives inspected. Factorization proves uniqueness without an AIME answer bound or guessing cubes. One modular alternative incorrectly states the cube of 15 is 1 modulo 16; it is 15."
+  },
+  {
+    "id": "2015-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_8",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. Many search by trial or invoke the answer range. Counting the two carries proves minimality independently of those assumptions."
+  },
+  {
+    "id": "2015-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_11",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. They derive equivalent rational formulas by half-angle identities, bisector lengths, or tangency. The four-case integer check establishes uniqueness as well as minimality."
+  },
+  {
+    "id": "2015-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_1",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The denominator criterion is shortest. The third source initially writes 1.22 instead of 1.16 and 122 instead of 116 before returning to the correct numbers."
+  },
+  {
+    "id": "2015-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_3",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Modulo 9 reduces the search to four candidates. The add 102 shortcut does not exclude intervening answers, as its own comment notes; the digit-case solution unnecessarily assumes the AIME answer bound."
+  },
+  {
+    "id": "2015-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_6",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The sum-of-squares reduction is complete. The derivative alternative assumes the stationary point is an integer without justification and is not used."
+  },
+  {
+    "id": "2015-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The factored inequality gives an exhaustive classification. The last two alternatives rely on unproved optimization claims or guesses; they are unnecessary."
+  },
+  {
+    "id": "2015-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Product-to-sum and geometric series yield equivalent sign conditions. The complex-argument alternative has loose wording about a complex number being negative; the real sine sign test is precise."
+  },
+  {
+    "id": "2016-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_5",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The fully justified gcd argument also excludes even day counts; several alternatives simply infer eleven days from the common factor without this step."
+  },
+  {
+    "id": "2016-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole source correctly separates the real-radical and imaginary-radical cases. Counting only vanishing second radicals would miss sixteen pairs; the denominator exclusions are also essential."
+  },
+  {
+    "id": "2016-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_10",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Their square-pattern observations are useful, but several assume rational factors are integers or guess a smallest step. The integer-difference argument proves the step restriction and uniqueness."
+  },
+  {
+    "id": "2016-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four stored entries inspected. The first is a setup fragment; the third completes the sharp prime-factor bound. One factor-search alternative does not fully justify exhaustion, which the lower-bound proof supplies."
+  },
+  {
+    "id": "2016-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_5",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. The geometric-series derivation is reliable; several finish by guessing a triple or choose the wrong parity orientation in Euclid’s parametrization. Eliminating with the Pythagorean identity proves the unique primitive ratio."
+  },
+  {
+    "id": "2016-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_7",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single source states the area geometric progression and the extrema. The explicit divisibility condition supplies a complete proof that no larger integer middle area is possible."
+  },
+  {
+    "id": "2016-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_8",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2016-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_9",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. One gives a valid power-interval search, while several merely guess k=3 or dismiss larger cases without details. The bounded power list proves uniqueness."
+  },
+  {
+    "id": "2016-II-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_11",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "The archived count omits N=1 in two intermediate totals, though the errors cancel. This version counts every endpoint consistently."
+  },
+  {
+    "id": "2017-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_2",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The positive-remainder condition excludes modulus 1; one alternative accidentally labels the first remainder n rather than r."
+  },
+  {
+    "id": "2017-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single source lists the correct period and sum; the polynomial difference supplies a proof of periodicity."
+  },
+  {
+    "id": "2017-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_5",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Separating integer and fractional parts avoids a large denominator equation. The approximation-based alternative does not establish that all digit choices were considered."
+  },
+  {
+    "id": "2017-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_9",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "All eight alternatives inspected. Several shortcuts omit the n≡8 modulo 9 branch or assume a small search suffices. The four CRT classes give a complete minimality proof."
+  },
+  {
+    "id": "2017-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_12",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2017-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Their numerical thresholds agree; explicitly locating the last failing interval proves the universal condition for every larger n, which a short sample of intervals alone would not establish."
+  },
+  {
+    "id": "2017-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The first has the useful power-tower substitution but does not state its uniqueness justification; the second guesses a parameter from its apparent factorization. Monotonicity makes both substitutions rigorous."
+  },
+  {
+    "id": "2017-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "The first archived solution uses the same mathematical reduction; this argument is independently written."
+  },
+  {
+    "id": "2017-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_6",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven alternatives inspected. Completing a square and factoring 843 also works. The two nearby-square bounds justify the two-case inspection used without proof in some alternatives."
+  },
+  {
+    "id": "2017-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The complete numerator shows why 6 must divide n before the last two terms can be considered alone. The first alternative assumes that last-pair integrality is necessary without first excluding cancellation with earlier terms."
+  },
+  {
+    "id": "2018-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_2",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Eliminating b first leaves a=4 c, making the base 6 bound decisive without casework."
+  },
+  {
+    "id": "2018-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_6",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven alternatives inspected. Trigonometric families give the same count, but several omit checking overlap. The polynomial degree alone is insufficient; the explicit factorization and incompatible powers prove distinctness."
+  },
+  {
+    "id": "2018-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_11",
+    "available_entries": 9,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "review": "All nine alternatives inspected. The binomial calculation proves the prime-square order directly. A few sources write congruences for n where they mean 3^n or invoke LTE before establishing the required divisibility of the exponent."
+  },
+  {
+    "id": "2018-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_12",
+    "available_entries": 13,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "review": "All thirteen sources inspected. Roots-of-unity filtering, residue convolution, Vandermonde sums, and block recurrences all prove the count. Indices 9 and 10 are empirical pattern/answer guesses, not proofs. Source index 6 pairs wrong residue-count classes, but their equal cardinalities conceal the error. The independent root-of-unity calculation is valid."
+  },
+  {
+    "id": "2018-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_2",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. One computes the period; the other solves the characteristic polynomial over the field modulo 11. Returning to the entire three-term state, rather than merely one value, justifies the elementary periodicity proof."
+  },
+  {
+    "id": "2018-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_3",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The parity and modulo 3 restrictions reduce to two cubes. The third alternative misapplies the rational-root theorem to an equation containing another variable; that reasoning is not used."
+  },
+  {
+    "id": "2018-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The squarefree kernel 6 controls the rational indices. The problem includes the base segment; it is irrational and does not alter the count, but the inclusive indexing is retained."
+  },
+  {
+    "id": "2019-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_1",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Place-value subtraction or the equivalent repunit identity gives the same digit pattern; direct long addition obscures why the pattern continues."
+  },
+  {
+    "id": "2019-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_7",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "All seven alternatives inspected. Valuations rigorously establish x divides y. Several alternatives assume both numbers are powers of 10, or infer coordinatewise exponent inequalities merely from x<y; neither shortcut alone is justified."
+  },
+  {
+    "id": "2019-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_9",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Classifying odd divisor counts reduces the search to prime squares and fourth powers; the bound 361 makes the short prime list exhaustive."
+  },
+  {
+    "id": "2019-I-11",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_11",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Normalizing the base makes the three radii and center distance explicit. Positivity excludes the extraneous negative quadratic root, and coprimality proves the minimum integral scale."
+  },
+  {
+    "id": "2019-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five stored entries inspected, including a totient-definition note. The exact-order argument is necessary: Fermat alone does not imply the order is 16."
+  },
+  {
+    "id": "2019-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_4",
+    "available_entries": 8,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review": "Parity recurrence and exhaustive casework agree. The final two stored alternatives were read in the separate 2023 audit supplement. Indices 5 and 6 reviewed. The minimal square-product blocks are single squares, equal nonsquare pairs, and the triple 2,3,6; their length-four casework gives 200. The parity-generating-function alternative is multiplication in the group algebra with x^2=y^2=z^2=1, and its constant coefficient is also 200. Both support 25/162."
+  },
+  {
+    "id": "2019-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_9",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Exponents of 2 and 5 give a complete short classification; a general list of divisor patterns must still enforce the factor 20 and the upper bound."
+  },
+  {
+    "id": "2019-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_10",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The binary-digit argument proves uniqueness. Several sources infer periodic angles directly from periodic signs without proof; that implication requires the complete itinerary, supplied here."
+  },
+  {
+    "id": "2019-II-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_12",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The source recurrence is valid with its initial values and the summation of partial chains; the new exposition makes those values explicit."
+  },
+  {
+    "id": "2019-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_14",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Several alternatives skip coprimality or finite-case justification. The original proof makes the choice of a denomination coprime to 5 explicit and checks the remaining candidates."
+  },
+  {
+    "id": "2020-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_3",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Zero is allowed for b,c; the first source unnecessarily calls every digit positive. Explicitly testing b=0 retains the correct digit domain."
+  },
+  {
+    "id": "2020-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Subtracting 10000 d gives the exact divisor criterion; the third source introduces an unnecessary factorization with an unjustified intermediate integrality implication."
+  },
+  {
+    "id": "2020-I-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_9",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "The shifted strictly increasing triples, stars and bars, and equality-case split give the same probability."
+  },
+  {
+    "id": "2020-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_10",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The explicit candidate supplies an upper bound, which restricts n to 121 or 169; this closes the minimality gap in the first short source."
+  },
+  {
+    "id": "2020-I-12",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_12",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The order 4 condition must precede lifting at 5. Some source displays use equality for a divisibility threshold; the proof here states the necessary and sufficient inequalities."
+  },
+  {
+    "id": "2020-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_1",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The one-to-one correspondence with square divisors gives independent exponent ranges; this is the standard arithmetic divisor-count problem rather than an arrangement problem."
+  },
+  {
+    "id": "2020-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The monotonicity of the least integer for a prescribed digit sum is essential: minimizing the final digit sum alone would otherwise not justify minimizing n."
+  },
+  {
+    "id": "2020-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_10",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Multiplication by 4 gives a necessary condition, so candidates must be checked in the original congruence. One source illegally divides by 2 modulo an even modulus; another changes a cubic middle term into a square."
+  },
+  {
+    "id": "2021-I-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_3",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "Source 3 claims geometric sequences always have distinct differences, which is not a valid general principle. Binary valuation gives the required uniqueness for this sequence; source 0 also supplies it."
+  },
+  {
+    "id": "2021-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_5",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Dividing the polynomial expression reduces to six possible middle terms and keeps the allowed zero first term. Several squarefree-kernel alternatives suppress the rational-square justification, which the divisor list avoids."
+  },
+  {
+    "id": "2021-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The first source states reducibility as full divisibility of k+1, which is not true in general; the first-event argument works because the first common factor is the least prime divisor. The second source supplies this distinction."
+  },
+  {
+    "id": "2021-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. Dirichlet is unnecessary: explicit primes 173,283 and prime primitive roots 3,5 prove necessity. Two sources incorrectly infer orders 42,46 from base 2, whose actual orders are 14,23. The residue-wise geometric sums prove sufficiency for all composite a as well."
+  },
+  {
+    "id": "2021-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_3",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five residue counts agree; the position of 3 is chosen before counting the two nonzero residue classes."
+  },
+  {
+    "id": "2021-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_9",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Source 1 establishes necessity through multiplicative order but does not prove sufficiency. Its auxiliary GCD proof falsely says gcd(d 1,k)=gcd(d 2,k)=1; the valid assertion needed is gcd(xy,k)=1. The prime-exponent GCD factorization in the new proof proves both directions."
+  },
+  {
+    "id": "2021-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_13",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The binomial expansion gives a short exact lifting calculation. Other sources contain parity slips, an incorrect exponent identity, or a very large quotient that does not help establish minimality."
+  },
+  {
+    "id": "2021-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_15",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Using distance above the preceding square turns the ratio condition directly into m=3 k+10. The longer quadratic-formula approaches require additional interval checks and do not shorten the proof."
+  },
+  {
+    "id": "2022-I-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_2",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives inspected. Modular equations together with exact digit ranges establish uniqueness. Several trial-based alternatives find 227 without exhausting the digit possibilities; one inequality argument does not justify its asserted lower bound."
+  },
+  {
+    "id": "2022-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_7",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Source 0 omits the impossible overlapping 27/28 factor triples; sources 1–2 rely on search or skip candidates and do not fully prove the minimum. The original proof explicitly eliminates 27/28 and proves that all numerator values at least 2 are worse."
+  },
+  {
+    "id": "2022-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Source 1 reverses divisibility signs and contains false logical equivalences. Source 0 has imprecise wording about cancellation but its case counts are valid. The new maximal-coprime-divisor criterion states the exact necessary-and-sufficient condition."
+  },
+  {
+    "id": "2022-I-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_14",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The cleaver direction is proved by a vector calculation. A short bounded search after extracting the factor 3 replaces unsupported uniqueness claims or a much longer Eisenstein-integer argument."
+  },
+  {
+    "id": "2022-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_1",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Divisibility gives the candidate; explicitly checking the 50 bus occupants establishes attainability."
+  },
+  {
+    "id": "2022-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_5",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "Source 0 falsely treats 18 starting positions as available for every prime pair and obtains 72 coincidentally. Entry 1 warns about this; entry 2 gives the valid separate spans 15,13,7,1 and both gap orders."
+  },
+  {
+    "id": "2022-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_8",
+    "available_entries": 7,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review": "Source 1 wrongly lists divisors 3,4,5 instead of 4,5,6. Sources 2–3 use 24 instead of lcm(4,6)=12 in overlap formulas, with compensating arithmetic errors. All-positive comparison gives 80; bounded comparison adds 600 and gives 81. Archived notes report both accepted, but this audit has not obtained a primary MAA acceptance notice."
+  },
+  {
+    "id": "2022-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_13",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "Source 0 drops binomial coefficients from a full expansion, harmless only after restricting to degree 2022. Source 1 skips the modular exhaustion argument. Sources 2 and 4 write infinite series after polynomial divisions; that equality needs truncation. The original proof uses formal coefficients below 2310 and explicit residues."
+  },
+  {
+    "id": "2022-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole stored entry contains its own corrections but still uses an invalid general minimum formula and wrong witnesses b=86 for c=88,89. The new coverage-interval greedy proof gives the exact minimum and witnesses(11,7),(88,87),(89,87)."
+  },
+  {
+    "id": "2023-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_4",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four stored entries inspected. The first two give valid primewise sums. The third explicitly labels its observed pattern as false, and the final entry is mathematically invalid despite ending with the reported answer; neither is used."
+  },
+  {
+    "id": "2023-I-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four stored solutions inspected. They reduce to a period 60 and residues 35,58,59. The complete residue casework proves necessity; empirical listing alone needs exhaustive coverage. The independent argument derives the three classes."
+  },
+  {
+    "id": "2023-I-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. A rigorous error bound identifies a before the residue calculation. The integral approximation in the final alternative does not by itself prove uniqueness and also gives the fractional-part sum the wrong sign."
+  },
+  {
+    "id": "2023-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_15",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Their reductions of the signs are not fully justified: mixed signs can give positive cubic components. Gaussian-unit symmetry followed by the separate a squared≤3 b squared branch covers every sign case. The explicit bounded table makes the finite exclusion reproducible."
+  },
+  {
+    "id": "2023-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_2",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative inspected. Establishing 585 first justifies ignoring all shorter octal representations."
+  },
+  {
+    "id": "2023-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_5",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative inspected. The general cancellation-divisor equation replaces three separately named denominator cases and automatically verifies completeness."
+  },
+  {
+    "id": "2023-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_10",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both stored solutions inspected. The first uses residue-column types correctly. The second initially counts all column orientations without enforcing horizontal restrictions and compensates with an unjustified value-assignment count; its appended shorter formula has the right total. The independent proof explains why only two global orientations exist for each type order."
+  },
+  {
+    "id": "2023-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. Each asserts without proof that only multiples of 4 yield integers. The conjugation argument supplies that missing exclusion, including all odd exponents. The recurrence then rigorously gives the last-digit cycle."
+  },
+  {
+    "id": "2023-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_15",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The carry-state recurrence proves periodicity exactly. The first source incorrectly makes the multipliers a_n/23 themselves periodic, and the binary discussion gives an unsupported 16-state bound; only the bounded carry state repeats."
+  },
+  {
+    "id": "2024-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_13",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Listing all four unique lifts establishes minimality. The primitive-root and modular-square-root alternatives require additional root-enumeration facts that the linear lift avoids."
+  },
+  {
+    "id": "2024-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_2",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. The first three analyze only four-element lists and leave longer lists unexcluded. The final source supplies the missing length analysis; the authored proof explicitly exhausts both the frequency and length possibilities."
+  },
+  {
+    "id": "2024-II-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_6",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both sources use unique binary expansion, once at 2024 and once at 4048. Both recover the same seven elements."
+  },
+  {
+    "id": "2024-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Summing the replacement equations determines N modulo 7 without trial over leading digits. The possible tens digits 2 and 9 are distinguished by maximality."
+  },
+  {
+    "id": "2024-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_13",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives inspected. Factoring first turns the 13-factor product into one exact Gaussian-integer norm; the primality of 13 ensures every nontrivial 13 th root is primitive."
+  },
+  {
+    "id": "2024-II-14",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_14",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single alternative inspected. The authored proof supplies the full converse digit bounds and uses CRT for existence, not merely uniqueness, of every prime-power assignment."
+  },
+  {
+    "id": "2025-I-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_1",
+    "available_entries": 5,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "review": "All five alternatives inspected. The fixed remainder−56 gives the complete base list; several duplicated versions contain minor digit-subtraction typographical errors."
+  },
+  {
+    "id": "2025-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. Factoring without division retains the origin automatically; subtracting it once corrects the overlap of the two cases."
+  },
+  {
+    "id": "2025-I-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_5",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. They split digits into two four-subsets of sum 18. Enumeration confirms eight subsets, each with two even digits, justifying the factor one-half for an even final digit. The independent solution uses an explicit subset list."
+  },
+  {
+    "id": "2025-I-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_15",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. Source index 1 explicitly contains a false vanishing exponential-sum claim and then inserts an unjustified factor 5; it is rejected. Source index 2 has lengthy omitted and inconsistent modular subcounts and is not used as a proof. Source index 3 offers a useful valuation recursion, but its appeal to ordinary Hensel lifting needs justification because the cube derivative vanishes modulo 3. The independent cube-residue distribution was checked by exact convolution."
+  },
+  {
+    "id": "2025-II-02",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_2",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives inspected. The direct substitution modulo n+2 proves equivalence without long division."
+  },
+  {
+    "id": "2025-II-07",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_7",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four source solutions inspected. Inclusion-exclusion and splitting on inclusion of 2025 are equivalent. Missing displayed expressions in two scraped alternatives do not obscure the underlying count."
+  },
+  {
+    "id": "2025-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_8",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The single stored source uses coin-case analysis. The independent two-quarter exchange explains why only the largest allowable quarter count and one less need comparison."
+  },
+  {
+    "id": "2025-II-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives inspected. The first leaves its reduction invariant to an assertion about modulus 9; the second omits the cancellation proof. Coprimality plus the invariant 3 divides a+b proves the reduced recurrence directly."
+  },
+  {
+    "id": "2026-I-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_4",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read, including the full eight-stage sieve table. The product reduction is sound; counting representations instead of distinct products would overcount. The least-prime-factor argument proves that the listed exceptional composites are exhaustive."
+  },
+  {
+    "id": "2026-I-06",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_6",
+    "available_entries": 6,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review": "All six alternatives read. Sources 0, 1, 4, and 5 use a logarithmic quadratic, though several displays are missing. Source 2 is answer guessing rather than a proof. Source 3 inserts an invalid exponent quotient before arriving at the correct quadratic. Taking logarithms directly repairs that step."
+  },
+  {
+    "id": "2026-I-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_8",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four sources inspected. They reduce exponents to parity using residues 7,11,1,5 modulo 12. Both two-pattern enumeration and simultaneous modulo 3/modulo 4 conditions give 26244."
+  },
+  {
+    "id": "2026-I-13",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_I_Problems/Problem_13",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both sources inspected. The finite-field root argument and quotient-ring interpretation are valid; they must handle x=-1 separately before reducing the exponent. Direct modular coefficient calculation confirms 39 zeros."
+  },
+  {
+    "id": "2026-II-01",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_1",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole stored alternative read. It solves the main eleventh-term statement and obtains 196. The clean alternate statement asks for tenth terms and reports 178. These are genuinely different requests, and both are solved explicitly here."
+  },
+  {
+    "id": "2026-II-03",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_3",
+    "available_entries": 1,
+    "reviewed_indices": [
+      0
+    ],
+    "review": "The sole stored alternative read. Its rectangle-and-two-triangles calculation is correct, but it leaves the geometric branch and the positivity of the horizontal offset implicit. Coordinates justify both before counting the residue class."
+  },
+  {
+    "id": "2026-II-04",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_4",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both sources inspected. Monotonicity in the base gives the clean criterion; the digit-by-digit alternative reaches the same count by inclusion-exclusion."
+  },
+  {
+    "id": "2026-II-05",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_5",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both sources inspected. Cancellation of adjacent hypergeometric coefficients gives 3 r-5 b=2 and the five totals 22,30,38,46,54."
+  },
+  {
+    "id": "2026-II-08",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_8",
+    "available_entries": 3,
+    "reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "review": "All three alternatives read. Source 0 introduces an integer substitution after normalization without proving it and then guesses the root. Source 1 mislabels the base as BC but contains the intended half-angle reduction. Source 2 finds a working example without proving minimality. The factored cubic proves the unique shape, and divisibility by 10 then proves the minimum."
+  },
+  {
+    "id": "2026-II-09",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_9",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both alternatives read. They correctly identify divisor counts as the uncarried decimal coefficients but dismiss all later carrying solely because 101 is prime. That observation alone is insufficient; the explicit bound on the entire infinite tail completes the proof."
+  },
+  {
+    "id": "2026-II-10",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_10",
+    "available_entries": 4,
+    "reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "review": "All four alternatives read. Source 0 explicitly notes an international sum variant. Source 1 initially lets the common factor be real and then infers integer divisibility without stating why; BD,CD integral and coprime ratio 8:9 supply that step. The completed converse checks triangle existence and segment intersections for every candidate. The main maximum answer 340 and alternate sum answer 850 are retained separately."
+  },
+  {
+    "id": "2026-II-15",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_15",
+    "available_entries": 2,
+    "reviewed_indices": [
+      0,
+      1
+    ],
+    "review": "Both sources inspected. Source index 0 incorrectly replaces entries by a_i-2 rather than their actual residues; its later support analysis corresponds to the correct residue mapping. Source index 1 uses the correct mapping but has mistaken line-containment wording and omits all-equal signs at weight 6, so it is not a complete proof. The independent Fano support count was exhaustively checked on all 2187 tuples. Clean statement includes all seven cyclic terms."
+  }
+]

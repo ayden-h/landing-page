@@ -8,12 +8,12 @@ The standard archive contains **71 examinations and 1,065 numbered problem slots
 
 | Period | Problem slots classified | Included problems | Excluded problems | Newly written solutions |
 |---|---:|---:|---:|---:|
-| 1983–1999 | 255 | 82 | 173 | 82 |
-| 2000–2013 | 420 | 131 | 289 | 131 |
-| 2014–2026 | 390 | 144 | 246 | 144 |
-| **Total** | **1,065** | **357** | **708** | **357** |
+| 1983–1999 | 255 | 86 | 169 | 86 |
+| 2000–2013 | 420 | 139 | 281 | 139 |
+| 2014–2026 | 390 | 157 | 233 | 157 |
+| **Total** | **1,065** | **382** | **683** | **382** |
 
-All 357 included entries currently have a completed solution and no entry is marked unresolved. The [classification ledger](data/classification.json) records every slot's decision and reason; the [coverage data](data/coverage.json) gives the annual counts. The [archive audit](data/archive_audit.json) records the source inventory and cross-checks.
+All 382 included entries currently have a completed solution and no entry is marked unresolved. The [classification ledger](data/classification.json) records every slot's decision and reason; the [coverage data](data/coverage.json) gives the annual counts. The [archive audit](data/archive_audit.json) records the source inventory and cross-checks.
 
 “All” here refers to that standard archive and the stated subject rule. It does **not** certify exhaustive coverage of regional variants, alternate final questions, replacement examinations, or every version of a community page.
 
@@ -21,13 +21,13 @@ All 357 included entries currently have a completed solution and no entry is mar
 
 Included problems require a substantive combinatorial idea: finite counting or probability; selections and arrangements; occupancy and partitions; combinatorial identities; paths, graphs, cycles, or symmetry; discrete optimization and invariants; or a geometric, algebraic, or number-theoretic setting whose main work is counting configurations. Continuous probability is included because its sample-space methods belong naturally with the discrete probability chapters.
 
-A problem is excluded when its integer or finite answer alone is the only reason to call it combinatorics, and its essential work is algebra, geometry, or number theory. Hybrid classification is therefore an editorial decision, made explicit rather than concealed behind a claim that the subject boundary is canonical. The present volume does not replace the planned separate volumes in those subjects.
+A problem is excluded when its integer or finite answer alone is the only reason to call it combinatorics, and its essential work is algebra, geometry, or number theory. Hybrid classification is therefore an editorial decision, made explicit rather than concealed behind a claim that the subject boundary is canonical. The present volume does not replace the companion volumes in those subjects. The full-subject audit added 25 substantive hybrids while preserving all previous proofs. The finalized boundary includes explicit bijective counting, distinct zero-set construction, finite-state counts, constrained symbolic itineraries, and integer-state dynamics. The [reconciliation report](Reconciliation_Report.md) lists every added ID and links the three excluded borderline cases to their full subject treatments; the shared classifications agree with this volume.
 
 ## Source provenance and review
 
 The primary retrieved transcription was [AIME 1983–2026](https://huggingface.co/datasets/bhushansshah/AIME-1983-to-2026). A second [1983–2025 transcription](https://huggingface.co/datasets/Pandores/aime-1983-2025) supplied a cross-check over 1,035 slots; its nonempty answers agreed with the primary archive. The 2026 material was also compared with [aime26](https://huggingface.co/datasets/math-ai/aime26). Per-problem links lead to the corresponding Art of Problem Solving published problem and solution pages. The examinations are credited to the MAA American Mathematics Competitions.
 
-For the included problems, the retrieved snapshot contains **1,136 archived solution entries**: 234 for 1983–1999, 362 for 2000–2013, and 540 for 2014–2026. **All 1,136 entries were inspected and their available mathematical text reviewed.** The [source-review ledger](data/source_review.json) and [published-source directory](Published_Solution_Sources.md) preserve each entry count and the zero-based indices reviewed.
+For the included problems, the retrieved snapshot contains **1,209 archived solution entries**: 247 for 1983–1999, 379 for 2000–2013, and 583 for 2014–2026. **All 1,209 entries were inspected and their available mathematical text reviewed.** The [source-review ledger](data/source_review.json) and [published-source directory](Published_Solution_Sources.md) preserve each entry count and the zero-based indices reviewed.
 
 An archived entry can contain a full proof, a fragment, a comment, a diagram-only hint, or an external link. Reviewing an entry means reading the mathematical text and formulas present in that snapshot and recording defects or limitations where found. It does not imply endorsing every argument. **No solution videos were reviewed.** A link-only entry or an image pointer was inspected as such; its linked content is not represented as read unless the item's notes expressly say so. Diagram-program source was not a substitute for a mathematical proof review.
 
@@ -50,14 +50,15 @@ The solutions were checked against the recorded answers and reviewed for their m
 | [1983–1999 exact problem checks](checks/early_exact_check_results.json) | 39 |
 | [2000–2013 exact problem checks](data/middle_verification.json) | 116 |
 | [2014–2026 exact problem checks](checks/recent_independent_results.json) | 21 |
-| **Problem-check total** | **176** |
+| [Supplementary checks for the 25 additions](data/reconciliation_verification.json) | 22 across 21 problems |
+| **Problem-check total** | **198** |
 | [Theory small-case checks](data/theory_verification.json) | 1,317 |
 
 The rectangular-loop calculation is additional: an exact-cover enumeration checks the square-board values through the 10 by 10 board and several taller rectangles. Its tall-rectangle results are recorded [separately](checks/catalan_rectangles_results.json). The general Catalan theorem also has a structural proof: the equality case of two diagonal bounds forces the corner loop to span the board, yielding a recursive decomposition. Finite agreement is not the proof of that theorem.
 
 The book underwent an independent mathematical review of the generalized propositions, reflection hypotheses, gap arguments, probability assumptions, and exercise solutions. This led to explicit integer and endpoint restrictions and to the requirement that every finite block sequence be admissible in the free-sequence generating-function theorem. The recent Catalan-loop proof was separately reviewed for its corner-loop lemma and recurrence.
 
-The count of checks is not a claim that all 357 solutions have been independently enumerated, that all checks use unrelated methods, or that every theorem has been formally verified. The individual records state what was actually checked.
+The count of checks is not a claim that all 382 solutions have been independently enumerated, that all checks use unrelated methods, or that every theorem has been formally verified. The individual records state what was actually checked.
 
 ## Representative corrections found in published alternatives
 

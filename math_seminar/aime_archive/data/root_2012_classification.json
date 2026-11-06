@@ -1,0 +1,258 @@
+[
+  {
+    "id": "2012-I-01",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason": "Digit choices are counted under two divisibility conditions.",
+    "reason_specific_to_problem": "Digit choices are counted under two divisibility conditions."
+  },
+  {
+    "id": "2012-I-02",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "An arithmetic-progression symmetry determines a sum without determining its common difference.",
+    "reason_specific_to_problem": "An arithmetic-progression symmetry determines a sum without determining its common difference."
+  },
+  {
+    "id": "2012-I-03",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason": "Meal-type assignments are counted with exactly one fixed match.",
+    "reason_specific_to_problem": "Meal-type assignments are counted with exactly one fixed match."
+  },
+  {
+    "id": "2012-I-04",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason": "Travel-time invariants give a divisibility obstruction, and a discrete handoff recurrence proves attainability.",
+    "reason_specific_to_problem": "Travel-time invariants give a divisibility obstruction, and a discrete handoff recurrence proves attainability."
+  },
+  {
+    "id": "2012-I-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason": "Binary carrying determines when consecutive integers preserve their digit weight, followed by subset counting.",
+    "reason_specific_to_problem": "Binary carrying determines when consecutive integers preserve their digit weight, followed by subset counting."
+  },
+  {
+    "id": "2012-I-06",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason": "A power cycle gives roots of unity, and sine symmetry fixes the reduced rational angle denominator.",
+    "reason_specific_to_problem": "A power cycle gives roots of unity, and sine symmetry fixes the reduced rational angle denominator."
+  },
+  {
+    "id": "2012-I-07",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason": "Stationarity on a connected graph is a linear averaging system with a maximum-principle invariant.",
+    "reason_specific_to_problem": "Stationarity on a connected graph is a linear averaging system with a maximum-principle invariant."
+  },
+  {
+    "id": "2012-I-08",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "Extending the cut creates two similar tetrahedra whose volumes subtract.",
+    "reason_specific_to_problem": "Extending the cut creates two similar tetrahedra whose volumes subtract."
+  },
+  {
+    "id": "2012-I-09",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "A common nonzero logarithm value cancels to determine one exponent and a weighted exponent sum.",
+    "reason_specific_to_problem": "A common nonzero logarithm value cancels to determine one exponent and a weighted exponent sum."
+  },
+  {
+    "id": "2012-I-10",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason": "Prime-power congruences characterize every square root, then ordered residue classes give the tenth value.",
+    "reason_specific_to_problem": "Prime-power congruences characterize every square root, then ordered residue classes give the tenth value."
+  },
+  {
+    "id": "2012-I-11",
+    "subjects": [
+      "combinatorics",
+      "number_theory",
+      "geometry"
+    ],
+    "reason": "A lattice reachability semigroup is characterized by congruences, and a coordinate transformation turns the diamond region into a rectangle for counting.",
+    "reason_specific_to_problem": "A lattice reachability semigroup is characterized by congruences, and a coordinate transformation turns the diamond region into a rectangle for counting."
+  },
+  {
+    "id": "2012-I-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "One of the trisectors bisects a smaller triangle angle and gives a side ratio immediately.",
+    "reason_specific_to_problem": "One of the trisectors bisects a smaller triangle angle and gives a side ratio immediately."
+  },
+  {
+    "id": "2012-I-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason": "Subtracting distance equations determines the circle center and a quadratic in the squared side length, with a converse.",
+    "reason_specific_to_problem": "Subtracting distance equations determines the circle center and a quadratic in the squared side length, with a converse."
+  },
+  {
+    "id": "2012-I-14",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason": "Vieta and the centroid squared-distance identity determine the hypotenuse without a real-coefficient assumption.",
+    "reason_specific_to_problem": "Vieta and the centroid squared-distance identity determine the hypotenuse without a real-coefficient assumption."
+  },
+  {
+    "id": "2012-I-15",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason": "Circular permutations are characterized by three coprimality conditions and counted by inclusion-exclusion.",
+    "reason_specific_to_problem": "Circular permutations are characterized by three coprimality conditions and counted by inclusion-exclusion."
+  },
+  {
+    "id": "2012-II-01",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason": "Congruence parameterization and endpoint counting give the number of ordered positive lattice points.",
+    "reason_specific_to_problem": "Congruence parameterization and endpoint counting give the number of ordered positive lattice points."
+  },
+  {
+    "id": "2012-II-02",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "A shared nonzero ratio fixes its fourth power and therefore the requested eighth power.",
+    "reason_specific_to_problem": "A shared nonzero ratio fixes its fourth power and therefore the requested eighth power."
+  },
+  {
+    "id": "2012-II-03",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason": "Committee choices have fixed department and gender margins.",
+    "reason_specific_to_problem": "Committee choices have fixed department and gender margins."
+  },
+  {
+    "id": "2012-II-04",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason": "Path lengths and a diagonal produce two symmetric dimensions, then the long-side condition selects the branch.",
+    "reason_specific_to_problem": "Path lengths and a diagonal produce two symmetric dimensions, then the long-side condition selects the branch."
+  },
+  {
+    "id": "2012-II-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "The net determines slant height, then a right triangle gives the pyramid altitude.",
+    "reason_specific_to_problem": "The net determines slant height, then a right triangle gives the pyramid altitude."
+  },
+  {
+    "id": "2012-II-06",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason": "The triangle inequality on a circle determines the maximizing direction and an attainable square-root branch.",
+    "reason_specific_to_problem": "The triangle inequality on a circle determines the maximizing direction and an attainable square-root branch."
+  },
+  {
+    "id": "2012-II-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason": "Binomial block sizes unrank an ordered binary subset.",
+    "reason_specific_to_problem": "Binomial block sizes unrank an ordered binary subset."
+  },
+  {
+    "id": "2012-II-08",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "Multiplying the equations eliminates the individual variables; a reconstruction proves the smaller root is feasible.",
+    "reason_specific_to_problem": "Multiplying the equations eliminates the individual variables; a reconstruction proves the smaller root is feasible."
+  },
+  {
+    "id": "2012-II-09",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "The Pythagorean identity and double-angle formulas evaluate the target without selecting angles.",
+    "reason_specific_to_problem": "The Pythagorean identity and double-angle formulas evaluate the target without selecting angles."
+  },
+  {
+    "id": "2012-II-10",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason": "Counting integer points in the disjoint images of floor intervals gives a triangular sum.",
+    "reason_specific_to_problem": "Counting integer points in the disjoint images of floor intervals gives a triangular sum."
+  },
+  {
+    "id": "2012-II-11",
+    "subjects": [
+      "algebra"
+    ],
+    "reason": "A scalar matrix cube establishes the iterate cycle, with orbit-domain verification.",
+    "reason_specific_to_problem": "A scalar matrix cube establishes the iterate cycle, with orbit-domain verification."
+  },
+  {
+    "id": "2012-II-12",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason": "Independent allowed residues are combined by CRT and counted with a boundary correction.",
+    "reason_specific_to_problem": "Independent allowed residues are combined by CRT and counted with a boundary correction."
+  },
+  {
+    "id": "2012-II-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason": "Pairing opposite rotations cancels perpendicular components and leaves a single projection.",
+    "reason_specific_to_problem": "Pairing opposite rotations cancels perpendicular components and leaves a single projection."
+  },
+  {
+    "id": "2012-II-14",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason": "Labeled two-regular graphs decompose uniquely into unordered cycle components.",
+    "reason_specific_to_problem": "Labeled two-regular graphs decompose uniquely into unordered cycle components."
+  },
+  {
+    "id": "2012-II-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason": "Angle-bisector coordinates and a radical-axis subtraction locate the second circle intersection exactly.",
+    "reason_specific_to_problem": "Angle-bisector coordinates and a radical-axis subtraction locate the second circle intersection exactly."
+  }
+]

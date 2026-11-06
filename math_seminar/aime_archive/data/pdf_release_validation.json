@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "pdf_count": 12,
+  "total_pages": 1233,
+  "theory_author": "Ayden Bi",
+  "volumes": [
+    {
+      "subject": "combinatorics",
+      "pdf": "aime_combinatorics/output/Combinatorics_Theory.pdf",
+      "pages": 39,
+      "sha256": "2c82e25b30ef0cba5c4e70d27eba6557517728d1b62790ae67e1fa3ad0af749e",
+      "source_sha256": "65f3bdc5bebb25760fe53f91c3953e919113a6361c08d58b2284e654b0b97164",
+      "author": "Ayden Bi",
+      "sampled_visual_pages": [
+        1,
+        20,
+        33,
+        39
+      ]
+    },
+    {
+      "subject": "combinatorics",
+      "pdf": "aime_combinatorics/output/Combinatorics_Problems.pdf",
+      "pages": 56,
+      "sha256": "a146f516e2fb227cbd8facfa8f4be568dad44c996ccc3c9c6a7d264936fd03e7",
+      "source_sha256": "d505f3045fe0d1c2f7fc4a742447b78a6f72126d020f579edbbb08f00e19ea73",
+      "author": null,
+      "sampled_visual_pages": [
+        1,
+        11,
+        12,
+        16,
+        18,
+        28,
+        56
+      ]
+    },
+    {
+      "subject": "combinatorics",
+      "pdf": "aime_combinatorics/output/Combinatorics_Worked_Solutions.pdf",
+      "pages": 195,
+      "sha256": "14c7002d30e076d5d6dbfdbc75376d3159fb70e5b5b1b36f4a78816604606927",
+      "source_sha256": "8309907a93c9190cfcb431f6c24eee9b311a758aad92fb4fdeb274482e8779a0",
+      "author": null,
+      "sampled_visual_pages": [
+        1,
+        25,
+        98,
+        149,
+        150,
+        176,
+        177,
+        189,
+        193,
+        195
+      ]
+    },
+    {
+      "subject": "geometry",
+      "pdf": "aime_geometry/output/Geometry_Theory.pdf",
+      "pages": 40,
+      "sha256": "0329ccad127ae0d8347d87580b30a4665acfcd680c6fe7caf6ec9f0b21528c8c",
+      "source_sha256": "95378cdc4b1d64a66e85a3c0c6bc0116610600f47f4c5045197bb78a01a35aca",
+      "author": "Ayden Bi",
+      "sampled_visual_pages": [
+        1,
+        20,
+        40,
+        4,
+        39,
+        7
+      ]
+    },
+    {
+      "subject": "geometry",
+      "pdf": "aime_geometry/output/Geometry_Problems.pdf",
+      "pages": 63,
+      "sha256": "afbe35c70e5734f0b6c6d621d959866d6631c78ce141e8b99fb66996936d7e79",
+      "source_sha256": "b4603ace4b3468c4cc0c8e44c85b7eec45d8746af5fa299dd8c097bb15b69446",
+      "author": null,
+      "sampled_visual_pages": [
+        1,
+        32,
+        63,
+        9,
+        42,
+        37
+      ]
+    },
+    {
+      "subject": "geometry",
+      "pdf": "aime_geometry/output/Geometry_Worked_Solutions.pdf",
+      "pages": 237,
+      "sha256": "44b84a4929c17d6fb81ddd69aaf2cc7ac1727fac7cf093967286511d08eeb15d",
+      "source_sha256": "8a0e48f34b1942d97696d087cb9e8ea9634dfc4e419ea43d65098a61aece301f",
+      "author": null,
+      "sampled_visual_pages": [
+        1,
+        119,
+        237,
+        9,
+        76,
+        109
+      ]
+    },
+    {
+      "subject": "algebra",
+      "pdf": "aime_algebra/output/Algebra_Theory.pdf",
+      "pages": 38,
+      "sha256": "e5eb9f45a6f772919570613e3bf56a911d6e4dd11df4bdae92e7deab2aba392e",
+      "source_sha256": "963d2390fad03a762bab5c0b3ef7fc5ebec49ffe8f41d6f8f3eec6e0bae06918",
+      "author": "Ayden Bi",
+      "sampled_visual_pages": [
+        1,
+        19,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "subject": "algebra",
+      "pdf": "aime_algebra/output/Algebra_Problems.pdf",
+      "pages": 65,
+      "sha256": "d509468e6bd854146d489f0fa8f9df8316e1e6dcdac1874d9167fc6d072ae8fe",
+      "source_sha256": "69008dbec5b83de2c8d9107ab2fe263787c90e1aedfbd16b68a05768b08e9f6d",
+      "author": null,
+      "sampled_visual_pages": [
+        1,
+        12,
+        14,
+        15,
+        33,
+        65
+      ]
+    },
+    {
+      "subject": "algebra",
+      "pdf": "aime_algebra/output/Algebra_Worked_Solutions.pdf",
+      "pages": 248,
+      "sha256": "75ea737dca900f9a8825286cbbbf21232a9c63dfc41587d6b67cb649652b685a",
+      "source_sha256": "2a5a6009252e517894974f1f40ee12ee1e38fb4b0ed9e7fb48361778b9fc2872",
+      "author": null,
+      "sampled_visual_pages": [
+        1,
+        19,
+        30,
+        32,
+        34,
+        41,
+        53,
+        124,
+        192,
+        193,
+        232,
+        233,
+        241,
+        242,
+        248
+      ]
+    },
+    {
+      "subject": "number_theory",
+      "pdf": "aime_number_theory/output/Number_Theory_Theory.pdf",
+      "pages": 31,
+      "sha256": "e73015869879be8f5358b4968c3b65586f7523127ca6ae1b5cf34f6b093c5287",
+      "source_sha256": "2e202ca76388bdbc39b389f085a920b192fd52e49bcc5881c8f6072b777d0a3f",
+      "author": "Ayden Bi",
+      "sampled_visual_pages": [
+        1,
+        16,
+        31,
+        4,
+        29,
+        19
+      ]
+    },
+    {
+      "subject": "number_theory",
+      "pdf": "aime_number_theory/output/Number_Theory_Problems.pdf",
+      "pages": 46,
+      "sha256": "4f94ad0f0dab4ab2cae90a05280373f08971f27a0e85a12632dd79f28db5b9ac",
+      "source_sha256": "611766b004494f15bd1c97ac2470d50bfac84e197fad3605a213d611f903a532",
+      "author": null,
+      "sampled_visual_pages": [
+        1,
+        23,
+        46,
+        7,
+        34,
+        45
+      ]
+    },
+    {
+      "subject": "number_theory",
+      "pdf": "aime_number_theory/output/Number_Theory_Worked_Solutions.pdf",
+      "pages": 175,
+      "sha256": "15e7245f4dd3c74d4b97688b6340eca944d3f052d039862633b113179f8e30b7",
+      "source_sha256": "68bd0898329ce97c28259f8f6ddee90faa48899e60534e0ff30587ec18ac364b",
+      "author": null,
+      "sampled_visual_pages": [
+        1,
+        88,
+        175,
+        7,
+        124,
+        173
+      ]
+    }
+  ],
+  "scope": "File integrity, author attribution, and agreement with sampled visual-QA ledgers; not formal mathematical proof verification."
+}

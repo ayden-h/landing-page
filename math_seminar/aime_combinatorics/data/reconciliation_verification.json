@@ -1,0 +1,158 @@
+{
+  "scope": "Passed finite or exact checks imported from the all-subject ledgers, restricted to the 25 added problems. These checks supplement the analytic proofs and do not claim independent enumeration of every addition.",
+  "check_count": 22,
+  "distinct_problems_checked": 21,
+  "checks": [
+    {
+      "id": "1990-A-10",
+      "result": "144",
+      "expected": "144",
+      "passed": true,
+      "method": "Enumerate all864 root-product exponents, independently checking the image size.",
+      "source_ledger": "../aime_archive/checks/early_expanded_exact_results.json"
+    },
+    {
+      "id": "1991-A-03",
+      "result": "166",
+      "expected": "166",
+      "passed": true,
+      "method": "Compare all1001 weighted binomial terms after multiplying by the common denominator5^1000.",
+      "source_ledger": "../aime_archive/checks/early_expanded_exact_results.json"
+    },
+    {
+      "id": "1992-A-01",
+      "result": "400",
+      "expected": "400",
+      "passed": true,
+      "method": "Direct exact sum over all reduced numerators.",
+      "source_ledger": "../aime_archive/checks/early_expanded_exact_results.json"
+    },
+    {
+      "id": "1992-A-04",
+      "result": "[(62, 27)]",
+      "expected": "[(62, 27)]",
+      "passed": true,
+      "method": "Compare exact adjacent binomial integers in the first101 rows.",
+      "source_ledger": "../aime_archive/checks/early_expanded_exact_results.json"
+    },
+    {
+      "id": "2000-II-02",
+      "check": "Brute-force integer-square test for every y in the analytically bounded range, counting both signs of x.",
+      "status": "passed",
+      "source_ledger": "../aime_archive/data/middle_expansion_verification.json"
+    },
+    {
+      "id": "2006-II-13",
+      "check": "Enumerated every consecutive positive odd sequence with sum below 1000, independently of divisor-count classification.",
+      "status": "passed",
+      "source_ledger": "../aime_archive/data/middle_expansion_verification.json"
+    },
+    {
+      "id": "2008-I-12",
+      "check": "Exact crossing-span check for the attaining finite speed; the analytic headway bound excludes 3751 at every speed.",
+      "status": "passed",
+      "source_ledger": "../aime_archive/data/middle_expansion_verification.json"
+    },
+    {
+      "id": "2009-I-14",
+      "check": "Enumerated every feasible frequency vector using the count and moment constraints, and minimized the second moment.",
+      "status": "passed",
+      "source_ledger": "../aime_archive/data/middle_expansion_verification.json"
+    },
+    {
+      "id": "2012-II-01",
+      "check": "Enumerate all positive lattice points in the bounding rectangle",
+      "status": "passed",
+      "source_ledger": "../aime_archive/data/root_2012_checks.json"
+    },
+    {
+      "id": "2012-II-10",
+      "check": "Enumerate each integer output with its only possible floor branch",
+      "status": "passed",
+      "source_ledger": "../aime_archive/data/root_2012_checks.json"
+    },
+    {
+      "id": "2013-I-10",
+      "check": "Enumerate all nonreal Gaussian-integer root factors",
+      "status": "passed",
+      "source_ledger": "../aime_archive/data/root_2013_checks.json"
+    },
+    {
+      "id": "2014-I-03",
+      "check": "Enumerate all499 possible numerators",
+      "result": "passed",
+      "value": "200",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2017-II-05",
+      "check": "Verify all six pairwise sums of equality witness",
+      "result": "passed",
+      "value": "[Fraction(189, 1), Fraction(234, 1), Fraction(287, 1), Fraction(320, 1), Fraction(373, 1), Fraction(418, 1)]",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2019-II-10",
+      "check": "Exact doubling orbit modulo7",
+      "result": "passed",
+      "value": "[True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False, True, False, False]",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2020-II-08",
+      "check": "Construct distinct zeros at100",
+      "result": "passed",
+      "value": "495100",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2020-II-08",
+      "check": "Construct distinct zeros at101",
+      "result": "passed",
+      "value": "510151",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2021-I-10",
+      "check": "Iterate1000 reduced fractions independently",
+      "result": "passed",
+      "value": "[1, 2, 8, 18, 30]",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2023-II-15",
+      "check": "Lift actual1000-bit multiples rather than the carry-state table",
+      "result": "passed",
+      "value": "363",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2024-II-14",
+      "check": "Enumerate every permitted square root for every smaller base",
+      "result": "passed",
+      "value": "(211, 15)",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2024-II-02",
+      "check": "Exhaust every integer partition of30",
+      "result": "passed",
+      "value": "[(5, 7, 9, 9)]",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2025-I-04",
+      "check": "Exhaust the full201-by201 lattice square",
+      "result": "passed",
+      "value": "117",
+      "source_ledger": "../aime_archive/checks/recent_all_subjects_results.json"
+    },
+    {
+      "id": "2026-II-11",
+      "description": "Expand the explicit Gaussian-integer roots and all signed sums",
+      "passed": true,
+      "detail": "7 signed sums; Vieta coefficients 22,121,400",
+      "source_ledger": "../aime_archive/checks/early_agent_2026_results.json"
+    }
+  ]
+}

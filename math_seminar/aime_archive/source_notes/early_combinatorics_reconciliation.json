@@ -1,0 +1,32 @@
+{
+  "reviewed_through_year": 1999,
+  "additions": [
+    {
+      "id": "1990-A-10",
+      "reason": "The finite cyclic-group multiplication map has constant fibers; counting distinct products is substantive combinatorial structure.",
+      "parent_agreed": true
+    },
+    {
+      "id": "1991-A-03",
+      "reason": "Weighted binomial coefficients and their unimodality are substantive combinatorial sequence structure."
+    },
+    {
+      "id": "1992-A-01",
+      "reason": "Residue-class counting and the involution k\u2194300\u2212k count and sum reduced fractions."
+    },
+    {
+      "id": "1992-A-04",
+      "reason": "Ratios of neighboring binomial coefficients determine a Pascal-triangle row."
+    }
+  ],
+  "borderline_exclusions": [
+    {
+      "id": "1989-A-14",
+      "reason": "A bounded digit equation in a complex base has only two algebraic cases; retained as algebra/number theory under the finite-Diophantine exclusion."
+    },
+    {
+      "id": "1991-A-08",
+      "reason": "A parameter count reduces directly to ten signed factor pairs; retained as algebra/number theory under the finite-Diophantine exclusion."
+    }
+  ]
+}

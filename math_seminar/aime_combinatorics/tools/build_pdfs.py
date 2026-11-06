@@ -10,7 +10,7 @@ root=Path(__file__).resolve().parents[1]
 (root/'output').mkdir(exist_ok=True)
 for source,name,kind in [('theory/Combinatorics_Theory.md','Combinatorics_Theory','book'),('Problems.md','Combinatorics_Problems','article'),('Worked_Solutions.md','Combinatorics_Worked_Solutions','article')]:
     if not (root/source).exists():continue
-    cmd=[args.pandoc,str(root/source),'--standalone','--toc','--toc-depth=2','--pdf-engine='+args.tectonic,
+    cmd=[args.pandoc,str(root/source),'--from=markdown-superscript','--standalone','--toc','--toc-depth=2','--pdf-engine='+args.tectonic,
          '-V','documentclass='+kind,'-V','classoption=oneside','-V','geometry:margin=0.85in',
          '-V','fontsize=11pt','-V','colorlinks=true','-V','linkcolor=blue','-V','urlcolor=blue',
          '--lua-filter='+str(root/'tools/pdf_math.lua'),

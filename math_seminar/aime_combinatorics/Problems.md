@@ -176,6 +176,12 @@ Toss a fair coin ten times. Find numerator plus denominator for the probability 
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_9) · MAA AMC.
 
+## 1990 AIME Problem 10: Products of two root-of-unity groups
+
+Let $A=\{z:z^{18}=1\}$ and $B=\{w:w^{48}=1\}$. How many distinct complex numbers occur as $zw$ with $z\in A$ and $w\in B$?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_10) · MAA AMC.
+
 ## 1990 AIME Problem 12: Sum of dodecagon chords
 
 For a regular 12-gon of circumradius 12, write the sum of all side and diagonal lengths as a+b√2+c√3+d√6. Find a+b+c+d.
@@ -187,6 +193,12 @@ For a regular 12-gon of circumradius 12, write the sum of all side and diagonal 
 Among 9^0,…,9^4000, count those beginning with decimal digit 9, given that 9^4000 has 3817 digits and begins with 9.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_13) · MAA AMC.
+
+## 1991 AIME Problem 3: The peak of a weighted binomial row
+
+For $0\le k\le1000$, let $A_k=\binom{1000}{k}(0.2)^k$. Find the index $k$ for which $A_k$ is largest.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_3) · MAA AMC.
 
 ## 1991 AIME Problem 5: Coprime factor allocations
 
@@ -206,11 +218,23 @@ At most 1991 socks, red or blue, are in a drawer. Two drawn without replacement 
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_13) · MAA AMC.
 
+## 1992 AIME Problem 1: Pairing reduced fractions around five
+
+Find the sum of all positive rational numbers less than $10$ whose reduced denominator is $30$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_1) · MAA AMC.
+
 ## 1992 AIME Problem 2: Strictly increasing digits
 
 Count positive decimal integers of at least two digits whose digits strictly increase from left to right.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_2) · MAA AMC.
+
+## 1992 AIME Problem 4: Three consecutive binomial coefficients in a ratio
+
+Rows of Pascal's triangle are numbered from row $0$, containing only $1$. In which row do three consecutive entries occur in the ratio $3:4:5$?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_4) · MAA AMC.
 
 ## 1992 AIME Problem 5: Numerators of repeating decimals
 
@@ -524,6 +548,12 @@ A stack of $2000$ labeled cards is processed by removing the top card, then movi
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_15) · MAA AMC.
 
+## 2000 AIME II Problem 2: Lattice points on a difference of squares
+
+Count all ordered integer pairs $(x,y)$ satisfying $x^2-y^2=2000^2$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2000_AIME_II_Problems/Problem_2) · MAA AMC.
+
 ## 2000 AIME II Problem 3: A second matching pair
 
 A deck has four cards of each rank $1,\ldots,10$. Remove two cards of one rank. Two further cards are sampled uniformly without replacement. If their matching probability is $m/n$ in lowest terms, find $m+n$.
@@ -782,6 +812,12 @@ A strip of $1024$ numbered unit squares is repeatedly folded right half over lef
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_15) · MAA AMC.
 
+## 2005 AIME I Problem 3: Exactly three small proper divisors
+
+How many positive integers have exactly three positive proper divisors, all less than 50?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_3) · MAA AMC.
+
 ## 2005 AIME I Problem 5: Coin colors and orientations separate
 
 Stack four identical gold coins and four identical silver coins. Each has a marked face, and adjacent marked faces may not face each other. Count distinct stacks, including orientations.
@@ -890,6 +926,12 @@ Seven teams play each other once, with independent fair win-loss outcomes. Given
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_10) · MAA AMC.
 
+## 2006 AIME II Problem 13: Five representations by consecutive odd integers
+
+How many integers $N<1000$ have exactly five representations as a sum of one or more consecutive positive odd integers, counting distinct sequence lengths?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_13) · MAA AMC.
+
 ## 2006 AIME II Problem 14: Reciprocal digit frequency
 
 Let $S_n$ be the sum of reciprocals of all nonzero decimal digits appearing in $1,\ldots,10^n$. Find the least positive $n$ for which $S_n$ is integral.
@@ -986,6 +1028,12 @@ Count length-$14$ words on $\{A,B\}$ with every maximal $A$-run even and every m
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_11) · MAA AMC.
 
+## 2008 AIME I Problem 12: Maximum traffic through a fixed point
+
+All cars are $4$ meters long and travel at common speed $v>0$ km/h. The gap behind each car is exactly $4\lceil v/15\rceil$ meters. A roadside detector counts passing cars for one hour. Over all speeds and initial placements, let $M$ be the largest possible whole count. Find the integer quotient $M/10$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_12) · MAA AMC.
+
 ## 2008 AIME II Problem 10: Increasing distances on a small grid
 
 On the sixteen points $\{0,1,2,3\}^2$, a path visits distinct points with strictly increasing successive distances. Let $m$ be its maximum number of points and $r$ the number of paths attaining that maximum. Find $mr$.
@@ -1027,6 +1075,12 @@ Arrange five distinct members of each of three species around fifteen numbered s
 Choose distinct nonnegative lattice points $P,Q$ on $41x+y=2009$. Count triangles $OPQ$ of positive integer area, where $O=(0,0)$.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_11) · MAA AMC.
+
+## 2009 AIME I Problem 14: Minimizing a second moment with fixed first and fourth moments
+
+A sequence of $350$ entries, each in $\{1,2,3,4\}$, satisfies $\sum a_i=513$ and $\sum a_i^4=4745$. Find the smallest possible $\sum a_i^2$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_14) · MAA AMC.
 
 ## 2009 AIME II Problem 6: At least one consecutive pair
 
@@ -1214,6 +1268,12 @@ Reseat $n$ people on a numbered circle by $k\mapsto ak\pmod n$. Require this to 
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_15) · MAA AMC.
 
+## 2012 AIME II Problem 1: Count lattice points on a positive Diophantine segment
+
+Count ordered positive integer pairs $(m,n)$ satisfying $20m+12n=2012$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_1) · MAA AMC.
+
 ## 2012 AIME II Problem 3: Department and gender margins
 
 Three departments each contain two men and two women. Choose a six-person committee with two members per department and three of each gender. Count committees.
@@ -1225,6 +1285,12 @@ Three departments each contain two men and two women. Choose a six-person commit
 List positive integers with exactly eight binary ones in increasing order. Find the $1000$th integer modulo $1000$.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_7) · MAA AMC.
+
+## 2012 AIME II Problem 10: A floor-product range is a disjoint union of integer blocks
+
+Count positive integers $n<1000$ representable as $x\lfloor x\rfloor$ for some positive real $x$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_10) · MAA AMC.
 
 ## 2012 AIME II Problem 12: Independent forbidden residues
 
@@ -1256,6 +1322,12 @@ Randomly pack twelve distinct books into labeled boxes of sizes three, four, and
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_6) · MAA AMC.
 
+## 2013 AIME I Problem 10: Conjugate integer roots and distinct cubics
+
+Consider all cubics $x^3-ax^2+bx-65$ with nonzero integers $a,b$ that have a root $r+si$ for nonzero integers $r,s$. For each distinct coefficient pair $(a,b)$, take the sum of its three roots. Find the sum of these values over all admissible pairs.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_10) · MAA AMC.
+
 ## 2013 AIME I Problem 15: Two arithmetic progressions with reordered residues
 
 Count $0\le A<B<C\le99$ forming an arithmetic progression for which a prime $p$ and residues $0\le b<a<c<p$ satisfy $A\equiv a$, $B\equiv b$, $C\equiv c\pmod p$, with $(b,a,c)$ also an arithmetic progression.
@@ -1285,6 +1357,12 @@ Count monic integer-coefficient cubics all of whose complex roots have modulus e
 Two independent draws use urns with color counts $(4,6)$ and $(16, N)$. Their colors agree with probability $29/50$. Determine $N$.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_2) · MAA AMC.
+
+## 2014 AIME I Problem 3: Reduced fractions with fixed numerator-plus-denominator
+
+Count reduced fractions strictly between zero and one whose positive numerator and denominator sum to 1000.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_3) · MAA AMC.
 
 ## 2014 AIME I Problem 5: Disk-separable vertex subsets
 
@@ -1327,6 +1405,12 @@ Among the subsets of ten labeled cyclic seats, count those containing three cons
 Randomly match ten left shoes to ten right shoes. No subset of fewer than five resulting pairs may contain exactly the complete shoes of that many owners. Find numerator plus denominator of the probability.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_13) · MAA AMC.
+
+## 2014 AIME II Problem 15: Prime multiplication as binary carrying
+
+For positive $k$, let $p(k)$ be the smallest prime not dividing $k$, and let $X(k)$ be the product of smaller primes, with empty product 1. Define $x_0=1$ and $x_{n+1}=x_np(x_n)/X(x_n)$. Find the first $t>0$ with $x_t=2090$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_15) · MAA AMC.
 
 ## 2015 AIME I Problem 2: Exactly one repeated nationality
 
@@ -1514,6 +1598,12 @@ Count positive integers at most $2017$ with no zero digit in base $3$.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_4) · MAA AMC.
 
+## 2017 AIME II Problem 5: Four pair sums force a complementary pair
+
+Four distinct real numbers have six pairwise sums. Four of these are 189,320,287,234; the remaining two are $x,y$. Find the greatest possible $x+y$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_5) · MAA AMC.
+
 ## 2017 AIME II Problem 9: An eight-edge bipartite covering
 
 Choose $8$ cells of a $7$ by $7$ board uniformly, conditional on hitting every row and column. Find numerator plus denominator of the probability one cell can be removed while still hitting all rows and columns.
@@ -1658,6 +1748,12 @@ Four distinct ambassador-advisor pairs occupy $12$ labeled cyclic chairs. Ambass
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_5) · MAA AMC.
 
+## 2019 AIME II Problem 10: A tangent sign itinerary fixes every binary digit
+
+An angle $0<\theta<90^\circ$ has $\tan(2^n\theta)>0$ precisely when $3\mid n$, and negative otherwise, for every integer $n\ge0$. Write $\theta=p/q$ degrees in lowest terms and find $p+q$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_10) · MAA AMC.
+
 ## 2019 AIME II Problem 12: Divisibility chains with prescribed sum
 
 Count finite strictly increasing positive integer sequences, each term dividing the next, whose sum is $360$.
@@ -1699,6 +1795,12 @@ For integer $a, b, c$ in $[-10,10]$, set $f(x)=x^2+ax+b$ and $g(x)=x^2+cx+d$. Co
 Choose $P$ uniformly in the unit square. Find numerator plus denominator of the chance that its slope from $(5/8,3/8)$ is at least $1/2$.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_2) · MAA AMC.
+
+## 2020 AIME II Problem 8: Zeros of nested absolute values form a parity interval
+
+Let $f_1(x)=|x-1|$ and $f_n(x)=f_{n-1}(|x-n|)$ for n>1. Find the least n for which the sum of the distinct real zeros of $f_n$ exceeds 500000.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_8) · MAA AMC.
 
 ## 2020 AIME II Problem 9: Avoiding former neighbors
 
@@ -1747,6 +1849,12 @@ Count $1\le m<n\le 30$ for which some real $x$ satisfies $\sin(mx)+\sin(nx)=2$.
 Count integers $c$ for which $||20|x|-x^2|-c|=21$ has $12$ distinct real solutions.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_8) · MAA AMC.
+
+## 2021 AIME I Problem 10: A rational recurrence reduces at its first shared prime
+
+Start with $a_1=2020/2021$. When $a_k=m/n$ is reduced with positive integers m,n, define $a_{k+1}=(m+18)/(n+19)$. Find the sum of all j for which $a_j=t/(t+1)$ for a positive integer t.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_10) · MAA AMC.
 
 ## 2021 AIME I Problem 12: Three frogs until their first collision
 
@@ -1934,6 +2042,12 @@ Count collections of $16$ distinct pairwise-intersecting subsets of $[5]$.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_11) · MAA AMC.
 
+## 2023 AIME II Problem 15: A finite carry state detects repeated modular inverses
+
+For each n≥1, let a_n be the smallest positive multiple of 23 congruent to 1 modulo 2 to the nth power. Count n≤1000 for which a_n=a_(n+1).
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_15) · MAA AMC.
+
 ## 2024 AIME I Problem 3: Winning residues in a subtraction game
 
 Two players alternately remove either $1$ or $4$ counters. The player taking the last counter wins. Count initial sizes from $1$ through $2024$ for which the second player can force a win.
@@ -1958,11 +2072,23 @@ Color the eight vertices of a regular octagon independently red or blue. Find nu
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_11) · MAA AMC.
 
+## 2024 AIME I Problem 12: Count branch pairs with a rigorous curvature certificate
+
+Define $f(t)=||t|-1/2|$ and $g(t)=||t|-1/4|$. How many real pairs satisfy $y=4g(f(\sin(2\pi x)))$ and $x=4g(f(\cos(3\pi y)))$?
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_12) · MAA AMC.
+
 ## 2024 AIME II Problem 1: Recovering a fourfold intersection
 
 Among $900$ residents everyone has a candy. Ring, club, and spade ownership totals are $195, 367$, and $562$. Exactly $437$ residents own two of the four items and $234$ own three. How many own all four?
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_1) · MAA AMC.
+
+## 2024 AIME II Problem 2: A mode and a missing median constrain an integer partition
+
+A finite list of positive integers sums to 30, has unique mode 9, and has an integral median that is absent from the list. Find the sum of squared entries.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_2) · MAA AMC.
 
 ## 2024 AIME II Problem 3: Digits constrained by row and column sums
 
@@ -1988,6 +2114,12 @@ Count ordered nonnegative integer triples with $a+b+c=300$ and $a^2b+a^2c+b^2a+b
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_11) · MAA AMC.
 
+## 2024 AIME II Problem 14: Digit-square conditions count CRT idempotents
+
+For integer b≥2, call a positive integer special if its base-b representation has exactly two digits whose sum equals its square root. Find the least b with more than ten special integers.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_14) · MAA AMC.
+
 ## 2024 AIME II Problem 15: Rectangles supported by dodecagon chords
 
 Count rectangles whose four sides lie on sides or diagonals of a regular dodecagon. Rectangle corners need not be polygon vertices.
@@ -1999,6 +2131,12 @@ Count rectangles whose four sides lie on sides or diagonals of a regular dodecag
 Nine distinct people each choose one of three ice-cream flavors. Every flavor is chosen, with chocolate chosen more often than vanilla and vanilla more often than strawberry. Find the assignment count modulo $1000$.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_3) · MAA AMC.
+
+## 2025 AIME I Problem 4: Count a union of two primitive lattice lines
+
+Count ordered integer pairs (x,y) with −100≤x,y≤100 satisfying $12x^2-xy-6y^2=0$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2025_AIME_I_Problems/Problem_4) · MAA AMC.
 
 ## 2025 AIME I Problem 5: Digit permutations divisible by twenty-two
 
@@ -2047,6 +2185,12 @@ Choose uniformly a subset of the positive divisors of $2025$. Find numerator plu
 With coin values $1, 10$, and $25$, count amounts from $1$ through $1000$ for which repeatedly taking the largest affordable coin uses the fewest coins.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_8) · MAA AMC.
+
+## 2025 AIME II Problem 9: Count sine levels and identify double zeros
+
+Let n count roots of $\sin(7\pi\sin(5x))=0$ in 0<x<2 $\pi$, and t count those roots where the graph is tangent to the x-axis. Find n+t.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2025_AIME_II_Problems/Problem_9) · MAA AMC.
 
 ## 2025 AIME II Problem 10: Eight occupied seats with no triple
 
@@ -2125,6 +2269,12 @@ An urn has at least seven marbles of each of two colors. Drawing seven without r
 Independent trials choose $A, B$, or $C$ with equal probabilities. If the chance that $A$ and $B$ each occur at least twice before the first $C$ is $m/n$ in lowest terms, find $100m+n$.
 
 [Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_7) · MAA AMC.
+
+## 2026 AIME II Problem 11: Seven signed square-root sums force a zero sum
+
+Find the greatest integer $n$ such that $x^3-(n/6)x^2+(n-11)x-400$ has roots $\alpha^2,\beta^2,\gamma^2$ and the choices of square roots yield exactly seven distinct values of $\alpha+\beta+\gamma$.
+
+[Published problem and solutions](https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_11) · MAA AMC.
 
 ## 2026 AIME II Problem 13: Sets with a prescribed number of adjacent partners
 

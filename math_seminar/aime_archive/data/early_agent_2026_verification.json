@@ -1,0 +1,21 @@
+{
+  "slots": 30,
+  "new_original_solutions": 16,
+  "reused_combinatorics_solutions": 14,
+  "new_archived_entries_read": 50,
+  "all_source_review_indices_complete": true,
+  "independent_exact_checks_passed": 16,
+  "all_status_solved": true,
+  "restatements_over_80_words": [],
+  "main_variant_answers": {
+    "2026-II-01": 196,
+    "2026-II-10": 340
+  },
+  "alternate_variant_answers": {
+    "2026-II-01": 178,
+    "2026-II-10": 850
+  },
+  "proposed_new_combinatorics_hybrids": [
+    "2026-II-11"
+  ]
+}

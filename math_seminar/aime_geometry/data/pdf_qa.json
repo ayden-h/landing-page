@@ -1,0 +1,218 @@
+{
+  "subject": "geometry",
+  "qa_date_utc": "2026-11-06T23:18:50.031365+00:00",
+  "status": "passed",
+  "scope": "All-page extracted-character bounds plus sampled rendered-page inspection; not a visual review of every page.",
+  "bound_tolerance_pt": 3,
+  "body_margin_pt": 61.2,
+  "volumes": {
+    "Geometry_Theory.pdf": {
+      "name": "Theory",
+      "pdf": "output/Geometry_Theory.pdf",
+      "pdf_sha256": "0329ccad127ae0d8347d87580b30a4665acfcd680c6fe7caf6ec9f0b21528c8c",
+      "source_markdown": "theory/Geometry_Theory.md",
+      "source_markdown_sha256": "95378cdc4b1d64a66e85a3c0c6bc0116610600f47f4c5045197bb78a01a35aca",
+      "source_hash_matches_prebuild": true,
+      "pages": 40,
+      "compiler_warnings": [
+        "warning: accessing absolute path `<temporary extracted image>`; build may not be reproducible in other environments",
+        "warning: accessing absolute path `<temporary extracted image>`; build may not be reproducible in other environments",
+        "warning: accessing absolute path `<temporary extracted image>`; build may not be reproducible in other environments",
+        "warning: accessing absolute path `<temporary extracted image>`; build may not be reproducible in other environments",
+        "warning: accessing absolute path `<temporary extracted image>`; build may not be reproducible in other environments"
+      ],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "all_page_text_bounds": {
+        "pages_checked": 40,
+        "off_page_characters": 0,
+        "pages_outside_body_margin": [],
+        "blank_pages": [],
+        "minimum_body_x_pt": 60.64405999999991,
+        "maximum_body_x_pt": 552.9385006880001
+      },
+      "sampled_physical_pages": [
+        1,
+        20,
+        40,
+        4,
+        39,
+        7
+      ],
+      "math_heavy_sample_pages": [
+        39,
+        7
+      ],
+      "sample_image_paths": [
+        "temporary research cache/geometry_Theory_1.png",
+        "temporary research cache/geometry_Theory_20.png",
+        "temporary research cache/geometry_Theory_40.png",
+        "temporary research cache/geometry_Theory_4.png",
+        "temporary research cache/geometry_Theory_39.png",
+        "temporary research cache/geometry_Theory_7.png"
+      ],
+      "contact_sheet_paths": [
+        "temporary research cache/geometry_Theory_sheet1.png",
+        "temporary research cache/geometry_Theory_sheet2.png"
+      ],
+      "visual_inspection_completed": true,
+      "pdf_metadata_author": "Ayden Bi",
+      "title_page_author_text_verified": true,
+      "visual_inspection_notes": "All six listed rendered sample pages inspected. No clipping, overlapping text, missing symbols, or material mathematical layout defects observed. The final radical baseline and literal-caret rendering are correct in applicable samples. Ayden Bi is visibly printed on the title page.",
+      "sha256": "0329ccad127ae0d8347d87580b30a4665acfcd680c6fe7caf6ec9f0b21528c8c",
+      "source_sha256": "95378cdc4b1d64a66e85a3c0c6bc0116610600f47f4c5045197bb78a01a35aca",
+      "visually_reviewed_pages": [
+        1,
+        20,
+        40,
+        4,
+        39,
+        7
+      ],
+      "margin_anomalies": []
+    },
+    "Geometry_Problems.pdf": {
+      "name": "Problems",
+      "pdf": "output/Geometry_Problems.pdf",
+      "pdf_sha256": "afbe35c70e5734f0b6c6d621d959866d6631c78ce141e8b99fb66996936d7e79",
+      "source_markdown": "Problems.md",
+      "source_markdown_sha256": "b4603ace4b3468c4cc0c8e44c85b7eec45d8746af5fa299dd8c097bb15b69446",
+      "source_hash_matches_prebuild": true,
+      "pages": 63,
+      "compiler_warnings": [
+        "warning: texput.tex:1981: Underfull \\hbox (badness 1189) in paragraph at lines 1976--1981",
+        "warning: texput.tex:284: Underfull \\hbox (badness 1127) in paragraph at lines 280--284",
+        "warning: texput.tex:284: Underfull \\hbox (badness 1178) in paragraph at lines 280--284",
+        "warning: texput.tex:933: Underfull \\hbox (badness 1112) in paragraph at lines 930--933",
+        "warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details."
+      ],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "all_page_text_bounds": {
+        "pages_checked": 63,
+        "off_page_characters": 0,
+        "pages_outside_body_margin": [],
+        "blank_pages": [],
+        "minimum_body_x_pt": 59.924080000000004,
+        "maximum_body_x_pt": 552.9384978559998
+      },
+      "sampled_physical_pages": [
+        1,
+        32,
+        63,
+        9,
+        42,
+        37
+      ],
+      "math_heavy_sample_pages": [
+        42,
+        37
+      ],
+      "sample_image_paths": [
+        "temporary research cache/geometry_Problems_1.png",
+        "temporary research cache/geometry_Problems_32.png",
+        "temporary research cache/geometry_Problems_63.png",
+        "temporary research cache/geometry_Problems_9.png",
+        "temporary research cache/geometry_Problems_42.png",
+        "temporary research cache/geometry_Problems_37.png"
+      ],
+      "contact_sheet_paths": [
+        "temporary research cache/geometry_Problems_sheet1.png",
+        "temporary research cache/geometry_Problems_sheet2.png"
+      ],
+      "visual_inspection_completed": true,
+      "visual_inspection_notes": "All six listed rendered sample pages inspected. No clipping, overlapping text, missing symbols, or material mathematical layout defects observed. The final radical baseline and literal-caret rendering are correct in applicable samples.",
+      "sha256": "afbe35c70e5734f0b6c6d621d959866d6631c78ce141e8b99fb66996936d7e79",
+      "source_sha256": "b4603ace4b3468c4cc0c8e44c85b7eec45d8746af5fa299dd8c097bb15b69446",
+      "visually_reviewed_pages": [
+        1,
+        32,
+        63,
+        9,
+        42,
+        37
+      ],
+      "margin_anomalies": []
+    },
+    "Geometry_Worked_Solutions.pdf": {
+      "name": "Worked_Solutions",
+      "pdf": "output/Geometry_Worked_Solutions.pdf",
+      "pdf_sha256": "44b84a4929c17d6fb81ddd69aaf2cc7ac1727fac7cf093967286511d08eeb15d",
+      "source_markdown": "Worked_Solutions.md",
+      "source_markdown_sha256": "8a0e48f34b1942d97696d087cb9e8ea9634dfc4e419ea43d65098a61aece301f",
+      "source_hash_matches_prebuild": true,
+      "pages": 237,
+      "compiler_warnings": [
+        "warning: texput.tex:15010: Underfull \\hbox (badness 1472) in paragraph at lines 15000--15010",
+        "warning: texput.tex:181: Underfull \\hbox (badness 2368) in paragraph at lines 173--181",
+        "warning: texput.tex:2119: Underfull \\hbox (badness 4048) in paragraph at lines 2112--2119",
+        "warning: texput.tex:2506: Underfull \\hbox (badness 1242) in paragraph at lines 2499--2506",
+        "warning: texput.tex:2506: Underfull \\hbox (badness 1888) in paragraph at lines 2499--2506",
+        "warning: texput.tex:3381: Underfull \\hbox (badness 1112) in paragraph at lines 3378--3381",
+        "warning: texput.tex:3445: Underfull \\hbox (badness 1092) in paragraph at lines 3432--3445",
+        "warning: texput.tex:3445: Underfull \\hbox (badness 3449) in paragraph at lines 3432--3445",
+        "warning: texput.tex:512: Underfull \\hbox (badness 4416) in paragraph at lines 507--512",
+        "warning: texput.tex:7249: Underfull \\hbox (badness 1189) in paragraph at lines 7244--7249",
+        "warning: texput.tex:751: Underfull \\hbox (badness 2080) in paragraph at lines 744--751",
+        "warning: texput.tex:853: Underfull \\hbox (badness 1127) in paragraph at lines 849--853",
+        "warning: texput.tex:853: Underfull \\hbox (badness 1178) in paragraph at lines 849--853",
+        "warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details."
+      ],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "all_page_text_bounds": {
+        "pages_checked": 237,
+        "off_page_characters": 0,
+        "pages_outside_body_margin": [],
+        "blank_pages": [],
+        "minimum_body_x_pt": 59.92407000000003,
+        "maximum_body_x_pt": 552.9385206880002
+      },
+      "sampled_physical_pages": [
+        1,
+        119,
+        237,
+        9,
+        76,
+        109
+      ],
+      "math_heavy_sample_pages": [
+        76,
+        109
+      ],
+      "sample_image_paths": [
+        "temporary research cache/geometry_Worked_Solutions_1.png",
+        "temporary research cache/geometry_Worked_Solutions_119.png",
+        "temporary research cache/geometry_Worked_Solutions_237.png",
+        "temporary research cache/geometry_Worked_Solutions_9.png",
+        "temporary research cache/geometry_Worked_Solutions_76.png",
+        "temporary research cache/geometry_Worked_Solutions_109.png"
+      ],
+      "contact_sheet_paths": [
+        "temporary research cache/geometry_Worked_Solutions_sheet1.png",
+        "temporary research cache/geometry_Worked_Solutions_sheet2.png"
+      ],
+      "visual_inspection_completed": true,
+      "visual_inspection_notes": "All six listed rendered sample pages inspected. No clipping, overlapping text, missing symbols, or material mathematical layout defects observed. The final radical baseline and literal-caret rendering are correct in applicable samples.",
+      "sha256": "44b84a4929c17d6fb81ddd69aaf2cc7ac1727fac7cf093967286511d08eeb15d",
+      "source_sha256": "8a0e48f34b1942d97696d087cb9e8ea9634dfc4e419ea43d65098a61aece301f",
+      "visually_reviewed_pages": [
+        1,
+        119,
+        237,
+        9,
+        76,
+        109
+      ],
+      "margin_anomalies": []
+    }
+  },
+  "pandoc_reader": "markdown-superscript",
+  "shared_build_input_sha256": {
+    "aime_archive/tools/build_pdfs.py": "f1a09b9926bbab8e4bbff95e45b5fb241d03e4efb3196165e6c2407a776c8d31",
+    "aime_archive/tools/pdf_math.lua": "c79403a4215d0d747127f8e2fe986feedb47a1e1ee77786f66dd948f76c75d4c",
+    "aime_archive/tools/pdf_header.tex": "a949684e6114c8a4ad06006cad1aadc7b29af45d18392d9aeb0998f14ac9cc87"
+  },
+  "warning_assessment": "No missing-glyph or overfull warnings. Remaining underfull-box notices concern spacing; the geometry theory also reports temporary extracted-image paths. These did not produce a material defect in the rendered samples. Every page passed the recorded text-bounds checks.",
+  "preview_storage_note": "Rendered inspection images were kept in the temporary research cache; the published deliverables are the PDFs and editable manuscripts."
+}

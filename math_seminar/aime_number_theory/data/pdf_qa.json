@@ -1,0 +1,199 @@
+{
+  "subject": "number_theory",
+  "qa_date_utc": "2026-11-06T23:18:50.033720+00:00",
+  "status": "passed",
+  "scope": "All-page extracted-character bounds plus sampled rendered-page inspection; not a visual review of every page.",
+  "bound_tolerance_pt": 3,
+  "body_margin_pt": 61.2,
+  "volumes": {
+    "Number_Theory_Theory.pdf": {
+      "name": "Theory",
+      "pdf": "output/Number_Theory_Theory.pdf",
+      "pdf_sha256": "e73015869879be8f5358b4968c3b65586f7523127ca6ae1b5cf34f6b093c5287",
+      "source_markdown": "theory/Number_Theory_Theory.md",
+      "source_markdown_sha256": "2e202ca76388bdbc39b389f085a920b192fd52e49bcc5881c8f6072b777d0a3f",
+      "source_hash_matches_prebuild": true,
+      "pages": 31,
+      "compiler_warnings": [],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "all_page_text_bounds": {
+        "pages_checked": 31,
+        "off_page_characters": 0,
+        "pages_outside_body_margin": [],
+        "blank_pages": [],
+        "minimum_body_x_pt": 60.64407,
+        "maximum_body_x_pt": 552.936836608
+      },
+      "sampled_physical_pages": [
+        1,
+        16,
+        31,
+        4,
+        29,
+        19
+      ],
+      "math_heavy_sample_pages": [
+        29,
+        19
+      ],
+      "sample_image_paths": [
+        "temporary research cache/number_theory_Theory_1.png",
+        "temporary research cache/number_theory_Theory_16.png",
+        "temporary research cache/number_theory_Theory_31.png",
+        "temporary research cache/number_theory_Theory_4.png",
+        "temporary research cache/number_theory_Theory_29.png",
+        "temporary research cache/number_theory_Theory_19.png"
+      ],
+      "contact_sheet_paths": [
+        "temporary research cache/number_theory_Theory_sheet1.png",
+        "temporary research cache/number_theory_Theory_sheet2.png"
+      ],
+      "visual_inspection_completed": true,
+      "pdf_metadata_author": "Ayden Bi",
+      "title_page_author_text_verified": true,
+      "visual_inspection_notes": "All six listed rendered sample pages inspected. No clipping, overlapping text, missing symbols, or material mathematical layout defects observed. The final radical baseline and literal-caret rendering are correct in applicable samples. Ayden Bi is visibly printed on the title page.",
+      "sha256": "e73015869879be8f5358b4968c3b65586f7523127ca6ae1b5cf34f6b093c5287",
+      "source_sha256": "2e202ca76388bdbc39b389f085a920b192fd52e49bcc5881c8f6072b777d0a3f",
+      "visually_reviewed_pages": [
+        1,
+        16,
+        31,
+        4,
+        29,
+        19
+      ],
+      "margin_anomalies": []
+    },
+    "Number_Theory_Problems.pdf": {
+      "name": "Problems",
+      "pdf": "output/Number_Theory_Problems.pdf",
+      "pdf_sha256": "4f94ad0f0dab4ab2cae90a05280373f08971f27a0e85a12632dd79f28db5b9ac",
+      "source_markdown": "Problems.md",
+      "source_markdown_sha256": "611766b004494f15bd1c97ac2470d50bfac84e197fad3605a213d611f903a532",
+      "source_hash_matches_prebuild": true,
+      "pages": 46,
+      "compiler_warnings": [
+        "warning: texput.tex:1378: Underfull \\hbox (badness 1038) in paragraph at lines 1375--1378",
+        "warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details."
+      ],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "all_page_text_bounds": {
+        "pages_checked": 46,
+        "off_page_characters": 0,
+        "pages_outside_body_margin": [],
+        "blank_pages": [],
+        "minimum_body_x_pt": 60.64407,
+        "maximum_body_x_pt": 552.9384906879999
+      },
+      "sampled_physical_pages": [
+        1,
+        23,
+        46,
+        7,
+        34,
+        45
+      ],
+      "math_heavy_sample_pages": [
+        34,
+        45
+      ],
+      "sample_image_paths": [
+        "temporary research cache/number_theory_Problems_1.png",
+        "temporary research cache/number_theory_Problems_23.png",
+        "temporary research cache/number_theory_Problems_46.png",
+        "temporary research cache/number_theory_Problems_7.png",
+        "temporary research cache/number_theory_Problems_34.png",
+        "temporary research cache/number_theory_Problems_45.png"
+      ],
+      "contact_sheet_paths": [
+        "temporary research cache/number_theory_Problems_sheet1.png",
+        "temporary research cache/number_theory_Problems_sheet2.png"
+      ],
+      "visual_inspection_completed": true,
+      "visual_inspection_notes": "All six listed rendered sample pages inspected. No clipping, overlapping text, missing symbols, or material mathematical layout defects observed. The final radical baseline and literal-caret rendering are correct in applicable samples.",
+      "sha256": "4f94ad0f0dab4ab2cae90a05280373f08971f27a0e85a12632dd79f28db5b9ac",
+      "source_sha256": "611766b004494f15bd1c97ac2470d50bfac84e197fad3605a213d611f903a532",
+      "visually_reviewed_pages": [
+        1,
+        23,
+        46,
+        7,
+        34,
+        45
+      ],
+      "margin_anomalies": []
+    },
+    "Number_Theory_Worked_Solutions.pdf": {
+      "name": "Worked_Solutions",
+      "pdf": "output/Number_Theory_Worked_Solutions.pdf",
+      "pdf_sha256": "15e7245f4dd3c74d4b97688b6340eca944d3f052d039862633b113179f8e30b7",
+      "source_markdown": "Worked_Solutions.md",
+      "source_markdown_sha256": "68bd0898329ce97c28259f8f6ddee90faa48899e60534e0ff30587ec18ac364b",
+      "source_hash_matches_prebuild": true,
+      "pages": 175,
+      "compiler_warnings": [
+        "warning: texput.tex:12266: Underfull \\hbox (badness 1102) in paragraph at lines 12256--12266",
+        "warning: texput.tex:173: Underfull \\hbox (badness 2368) in paragraph at lines 165--173",
+        "warning: texput.tex:5227: Underfull \\hbox (badness 1038) in paragraph at lines 5224--5227",
+        "warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details."
+      ],
+      "missing_glyph_warnings": false,
+      "overfull_warnings": false,
+      "all_page_text_bounds": {
+        "pages_checked": 175,
+        "off_page_characters": 0,
+        "pages_outside_body_margin": [],
+        "blank_pages": [],
+        "minimum_body_x_pt": 59.92406999999997,
+        "maximum_body_x_pt": 552.938490688
+      },
+      "sampled_physical_pages": [
+        1,
+        88,
+        175,
+        7,
+        124,
+        173
+      ],
+      "math_heavy_sample_pages": [
+        124,
+        173
+      ],
+      "sample_image_paths": [
+        "temporary research cache/number_theory_Worked_Solutions_1.png",
+        "temporary research cache/number_theory_Worked_Solutions_88.png",
+        "temporary research cache/number_theory_Worked_Solutions_175.png",
+        "temporary research cache/number_theory_Worked_Solutions_7.png",
+        "temporary research cache/number_theory_Worked_Solutions_124.png",
+        "temporary research cache/number_theory_Worked_Solutions_173.png"
+      ],
+      "contact_sheet_paths": [
+        "temporary research cache/number_theory_Worked_Solutions_sheet1.png",
+        "temporary research cache/number_theory_Worked_Solutions_sheet2.png"
+      ],
+      "visual_inspection_completed": true,
+      "visual_inspection_notes": "All six listed rendered sample pages inspected. No clipping, overlapping text, missing symbols, or material mathematical layout defects observed. The final radical baseline and literal-caret rendering are correct in applicable samples.",
+      "sha256": "15e7245f4dd3c74d4b97688b6340eca944d3f052d039862633b113179f8e30b7",
+      "source_sha256": "68bd0898329ce97c28259f8f6ddee90faa48899e60534e0ff30587ec18ac364b",
+      "visually_reviewed_pages": [
+        1,
+        88,
+        175,
+        7,
+        124,
+        173
+      ],
+      "margin_anomalies": []
+    }
+  },
+  "pandoc_reader": "markdown-superscript",
+  "shared_build_input_sha256": {
+    "aime_archive/tools/build_pdfs.py": "f1a09b9926bbab8e4bbff95e45b5fb241d03e4efb3196165e6c2407a776c8d31",
+    "aime_archive/tools/pdf_math.lua": "c79403a4215d0d747127f8e2fe986feedb47a1e1ee77786f66dd948f76c75d4c",
+    "aime_archive/tools/pdf_header.tex": "a949684e6114c8a4ad06006cad1aadc7b29af45d18392d9aeb0998f14ac9cc87"
+  },
+  "warning_assessment": "No missing-glyph or overfull warnings. Remaining underfull-box notices concern spacing; the geometry theory also reports temporary extracted-image paths. These did not produce a material defect in the rendered samples. Every page passed the recorded text-bounds checks.",
+  "preview_storage_note": "Rendered inspection images were kept in the temporary research cache; the published deliverables are the PDFs and editable manuscripts."
+}

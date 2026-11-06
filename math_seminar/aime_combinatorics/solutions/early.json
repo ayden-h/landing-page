@@ -753,6 +753,38 @@
     "restatement_word_count": 17
   },
   {
+    "id": "1990-A-10",
+    "title": "Products of two root-of-unity groups",
+    "restatement": "Let $A=\\{z:z^{18}=1\\}$ and $B=\\{w:w^{48}=1\\}$. How many distinct complex numbers occur as $zw$ with $z\\in A$ and $w\\in B$?",
+    "solution": "Let $\\zeta=e^{2\\pi i/144}$. Every product has the form $\\zeta^{8a+3b}$, so it is among the $144$ powers of $\\zeta$. Conversely, fix any integer $k$. Choose $a\\in\\{0,1,2\\}$ with $8a\\equiv k\\pmod3$, and set $b=(k-8a)/3$. Then $\\zeta^{8a}$ is an eighteenth root and $\\zeta^{3b}$ is a forty-eighth root, and their product is $\\zeta^k$. Thus all $144$ distinct powers occur.",
+    "answer": 144,
+    "tags": [
+      "roots of unity",
+      "finite cyclic groups",
+      "image counting",
+      "least common multiple"
+    ],
+    "source_review": "All three alternatives read. The first uses a Frobenius-number argument that needs explicit reduction of exponent ranges. The second comment incorrectly claims every integer 0 through 143 is literally representable with nonnegative bounded exponents; modular representability is sufficient. The third uses synchronized exponents, which does generate all 144 values but needs an order calculation.",
+    "verification": "The multiplication map has 18·48 inputs and kernel {(u,u⁻¹):u⁶=1} of size 6, independently giving 864/6=144 products. Independent exact check passed: Enumerate all864 root-product exponents, independently checking the image size.",
+    "subjects": [
+      "combinatorics",
+      "algebra",
+      "number_theory"
+    ],
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_10",
+    "authorship": "New exposition after reading and comparing archived source alternatives; not a blind independent solution.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All mathematical prose and formulas in archived solution entries read; diagram-program source omitted. Link-only entries, where present, are identified in the review.",
+    "status": "solved",
+    "restatement_word_count": 16,
+    "verification_check_file": "../aime_archive/checks/early_expanded_exact_checks.py",
+    "source_index_base": 0
+  },
+  {
     "id": "1990-A-12",
     "title": "Sum of dodecagon chords",
     "restatement": "For a regular 12-gon of circumradius 12, write the sum of all side and diagonal lengths as a+b√2+c√3+d√6. Find a+b+c+d.",
@@ -800,6 +832,38 @@
     "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
     "source_issues": [],
     "restatement_word_count": 19
+  },
+  {
+    "id": "1991-A-03",
+    "title": "The peak of a weighted binomial row",
+    "restatement": "For $0\\le k\\le1000$, let $A_k=\\binom{1000}{k}(0.2)^k$. Find the index $k$ for which $A_k$ is largest.",
+    "solution": "For $0\\le k<1000$, $A_{k+1}/A_k=(1000-k)/(5(k+1))$. This ratio exceeds 1 exactly when $k<995/6$, and is less than 1 exactly when $k>995/6$. Thus the sequence strictly increases through $A_{166}$ and strictly decreases afterward. Its unique maximum is at $k=166$.",
+    "answer": 166,
+    "tags": [
+      "binomial coefficients",
+      "successive ratios",
+      "unimodality"
+    ],
+    "source_review": "All five alternatives read. Index 0 contains a false factorial simplification and its general maximum formula needs a two-mode caveat when the threshold is integral. Indices 1 and 4 confuse the threshold index in prose. The exact neighboring ratio establishes both monotonicity and uniqueness.",
+    "verification": "A₁₆₆/A₁₆₅=835/830>1, while A₁₆₇/A₁₆₆=834/835<1. Independent exact check passed: Compare all1001 weighted binomial terms after multiplying by the common denominator5^1000.",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_3",
+    "authorship": "New exposition after reading and comparing archived source alternatives; not a blind independent solution.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_review_scope": "All mathematical prose and formulas in archived solution entries read; diagram-program source omitted. Link-only entries, where present, are identified in the review.",
+    "status": "solved",
+    "restatement_word_count": 13,
+    "verification_check_file": "../aime_archive/checks/early_expanded_exact_checks.py",
+    "source_index_base": 0
   },
   {
     "id": "1991-A-05",
@@ -882,6 +946,37 @@
     "restatement_word_count": 28
   },
   {
+    "id": "1992-A-01",
+    "title": "Pairing reduced fractions around five",
+    "restatement": "Find the sum of all positive rational numbers less than $10$ whose reduced denominator is $30$.",
+    "solution": "These numbers are $k/30$ with $1\\le k<300$ and $\\gcd(k,30)=1$. In every block of thirty integers the allowed residues are $1,7,11,13,17,19,23,29$, so there are $80$ fractions. The map $k\\mapsto300-k$ pairs them without a fixed point, and each pair of fractions sums to $10$. Their total is therefore $40\\cdot10=400$.",
+    "answer": 400,
+    "tags": [
+      "totient function",
+      "involution",
+      "reduced fractions",
+      "residue classes"
+    ],
+    "source_review": "All three alternatives read. The first two correctly count eight reduced residues per unit interval. Index 2 uses φ(300)=80; this happens to apply because 30 and 300 have the same prime divisors, a fact that should be made explicit rather than treated as automatic.",
+    "verification": "The eight allowed residues avoid divisibility by 2,3,5, and complementing a numerator preserves coprimality to 30. Independent exact check passed: Direct exact sum over all reduced numerators.",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_1",
+    "authorship": "New exposition after reading and comparing archived source alternatives; not a blind independent solution.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All mathematical prose and formulas in archived solution entries read; diagram-program source omitted. Link-only entries, where present, are identified in the review.",
+    "status": "solved",
+    "restatement_word_count": 16,
+    "verification_check_file": "../aime_archive/checks/early_expanded_exact_checks.py",
+    "source_index_base": 0
+  },
+  {
     "id": "1992-A-02",
     "title": "Strictly increasing digits",
     "restatement": "Count positive decimal integers of at least two digits whose digits strictly increase from left to right.",
@@ -903,6 +998,35 @@
     "source_review_scope": "Mathematical prose and formulas reviewed; diagram-program code was omitted where the argument was independently intelligible. Review is not a blanket endorsement of source correctness.",
     "source_issues": [],
     "restatement_word_count": 17
+  },
+  {
+    "id": "1992-A-04",
+    "title": "Three consecutive binomial coefficients in a ratio",
+    "restatement": "Rows of Pascal's triangle are numbered from row $0$, containing only $1$. In which row do three consecutive entries occur in the ratio $3:4:5$?",
+    "solution": "Write the entries as $\\binom n{k-1},\\binom nk,\\binom n{k+1}$. Neighboring ratios give $k/(n-k+1)=3/4$ and $(n-k)/(k+1)=5/4$. Hence $4k=3(n-k+1)$ and $4(n-k)=5(k+1)$. Solving gives $k=27,n=62$. These indices lie inside row $62$, and the two ratios verify the required triple.",
+    "answer": 62,
+    "tags": [
+      "Pascal triangle",
+      "binomial ratios",
+      "linear systems"
+    ],
+    "source_review": "Both alternatives correctly reduce adjacent-binomial ratios to linear equations. No large binomial coefficients need to be evaluated.",
+    "verification": "At n=62,k=27, k/(n−k+1)=27/36=3/4 and (n−k)/(k+1)=35/28=5/4. Independent exact check passed: Compare exact adjacent binomial integers in the first101 rows.",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "source_url": "https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_4",
+    "authorship": "New exposition after reading and comparing archived source alternatives; not a blind independent solution.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All mathematical prose and formulas in archived solution entries read; diagram-program source omitted. Link-only entries, where present, are identified in the review.",
+    "status": "solved",
+    "restatement_word_count": 24,
+    "verification_check_file": "../aime_archive/checks/early_expanded_exact_checks.py",
+    "source_index_base": 0
   },
   {
     "id": "1992-A-05",

@@ -106,6 +106,30 @@
     "source_index_base": 0
   },
   {
+    "id": "2000-II-02",
+    "title": "Lattice points on a difference of squares",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "restatement": "Count all ordered integer pairs $(x,y)$ satisfying $x^2-y^2=2000^2$.",
+    "solution": "The factors $x-y,x+y$ have equal parity and product $2000^2$, so both are even. Put $u=(x-y)/2$ and $v=(x+y)/2$. Then $uv=10^6=2^6 5^6$, and conversely every integer factor pair gives exactly one point $(x,y)=(u+v,v-u)$. There are $7\\cdot7=49$ choices of positive $u$ and another 49 negative choices, with $v$ determined. Hence there are $98$ points.",
+    "answer": 98,
+    "tags": [
+      "difference of squares",
+      "divisor counting",
+      "bijections"
+    ],
+    "source_review": "The sole source was checked. Its factor allocation is sound; the explicit inverse here clarifies why the factor of 2 accounts for signs without an additional factor for order.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "source_review_scope": "All downloaded textual solution entries reviewed; any external links are assessed only as references unless explicitly stated.",
+    "verification": "Brute-force integer-square test for every y in the analytically bounded range, counting both signs of x.",
+    "status": "solved"
+  },
+  {
     "id": "2000-II-03",
     "title": "A second matching pair",
     "restatement": "A deck has four cards of each rank $1,\\ldots,10$. Remove two cards of one rank. Two further cards are sampled uniformly without replacement. If their matching probability is $m/n$ in lowest terms, find $m+n$.",
@@ -1009,6 +1033,29 @@
     "source_index_base": 0
   },
   {
+    "id": "2005-I-03",
+    "title": "Exactly three small proper divisors",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "restatement": "How many positive integers have exactly three positive proper divisors, all less than 50?",
+    "solution": "Exactly three proper divisors means four divisors in total, so the integer is either $p^3$ or pq for distinct primes p,q. In the cube case the largest proper divisor is $p^2<50$, allowing $p=2,3,5,7$, hence four integers. In the pq case both primes must be below 50. The fifteen such primes are $2,3,5,7,11,13,17,19,23,29,31,37,41,43,47$, giving $\\binom{15}{2}=105$ products. The cases are disjoint, so the total is $109$.",
+    "answer": 109,
+    "tags": [
+      "divisor patterns",
+      "prime counting"
+    ],
+    "source_review": "The sole source was reviewed. Its prime-power classification, prime list, and unordered pair count are complete.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "source_review_scope": "All downloaded textual solution entries reviewed; any external links are assessed only as references unless explicitly stated.",
+    "verification": "Complete analytic proof checked against the archived answer; no independent numerical check claimed.",
+    "status": "solved"
+  },
+  {
     "id": "2005-I-05",
     "title": "Coin colors and orientations separate",
     "restatement": "Stack four identical gold coins and four identical silver coins. Each has a marked face, and adjacent marked faces may not face each other. Count distinct stacks, including orientations.",
@@ -1387,6 +1434,31 @@
     "source_index_base": 0
   },
   {
+    "id": "2006-II-13",
+    "title": "Five representations by consecutive odd integers",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "restatement": "How many integers $N<1000$ have exactly five representations as a sum of one or more consecutive positive odd integers, counting distinct sequence lengths?",
+    "solution": "A length-$j$ sum beginning at $2t+1$ is $N=j(2t+j)$ with $t\\ge0$. Thus representations correspond exactly to factor pairs $u\\le v$ of $N$ with equal parity. For odd $N$, their number is $\\lceil\\tau(N)/2\\rceil$; for $4\\mid N$, it is $\\lceil\\tau(N/4)/2\\rceil$; for $N\\equiv2\\pmod4$, it is zero. Five representations require a divisor count of $9$ or $10$. The possible exponent patterns are $p^8,p^2q^2,p^9,p^4q$ with distinct primes $p,q$. The pure prime powers exceed the relevant bounds. Odd $N<1000$ therefore give $225,441,405,567,891$. For $N/4<250$, the possibilities are $36,100,196,225,48,80,112,176,208,162$. The lists are exhaustive by the prime-power bounds in the two remaining patterns. Thus there are $5+10=15$ values.",
+    "answer": 15,
+    "tags": [
+      "divisor pairs",
+      "consecutive sums",
+      "prime exponent patterns"
+    ],
+    "source_review": "Both entries reviewed. Their lists are correct, but they omit mentioning the pure prime-power exponent patterns; the size bounds exclude those, as made explicit here.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "source_review_scope": "All downloaded textual solution entries reviewed; any external links are assessed only as references unless explicitly stated.",
+    "verification": "Enumerated every consecutive positive odd sequence with sum below 1000, independently of divisor-count classification.",
+    "status": "solved"
+  },
+  {
     "id": "2006-II-14",
     "title": "Reciprocal digit frequency",
     "restatement": "Let $S_n$ be the sum of reciprocals of all nonzero decimal digits appearing in $1,\\ldots,10^n$. Find the least positive $n$ for which $S_n$ is integral.",
@@ -1725,6 +1797,32 @@
     "source_index_base": 0
   },
   {
+    "id": "2008-I-12",
+    "title": "Maximum traffic through a fixed point",
+    "subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "restatement": "All cars are $4$ meters long and travel at common speed $v>0$ km/h. The gap behind each car is exactly $4\\lceil v/15\\rceil$ meters. A roadside detector counts passing cars for one hour. Over all speeds and initial placements, let $M$ be the largest possible whole count. Find the integer quotient $M/10$.",
+    "solution": "Put $n=\\lceil v/15\\rceil$. Consecutive fronts cross at intervals $\\delta=4(n+1)/(1000v)\\ge(n+1)/(3750n)>1/3750$ hours. Thus $3751$ crossings would span $3750\\delta>1$ hour and are impossible. Conversely choose $v=15n$ with $n=3750$. Then $3749\\delta=3749\\cdot3751/(3750^2)<1$, so an initial phase places $3750$ consecutive crossings strictly within the hour. Therefore $M=3750$, and the requested quotient is $375$.",
+    "answer": 375,
+    "tags": [
+      "interval packing",
+      "ceiling functions",
+      "throughput"
+    ],
+    "source_review": "All three entries reviewed. The first recognizes the endpoint-count issue, though it phrases it using partial units. The second omits car length from the headway; the third uses floor instead of ceiling for nonmultiple speeds. The exact crossing-span proof resolves these ambiguities.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_index_base": 0,
+    "source_review_scope": "All downloaded textual solution entries reviewed; any external links are assessed only as references unless explicitly stated.",
+    "verification": "Exact crossing-span check for the attaining finite speed; the analytic headway bound excludes 3751 at every speed.",
+    "status": "solved"
+  },
+  {
     "id": "2008-II-10",
     "title": "Increasing distances on a small grid",
     "restatement": "On the sixteen points $\\{0,1,2,3\\}^2$, a path visits distinct points with strictly increasing successive distances. Let $m$ be its maximum number of points and $r$ the number of paths attaining that maximum. Find $mr$.",
@@ -1872,6 +1970,31 @@
     ],
     "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
     "source_index_base": 0
+  },
+  {
+    "id": "2009-I-14",
+    "title": "Minimizing a second moment with fixed first and fourth moments",
+    "subjects": [
+      "algebra",
+      "number_theory",
+      "combinatorics"
+    ],
+    "restatement": "A sequence of $350$ entries, each in $\\{1,2,3,4\\}$, satisfies $\\sum a_i=513$ and $\\sum a_i^4=4745$. Find the smallest possible $\\sum a_i^2$.",
+    "solution": "Let $w,x,y,z$ count the entries equal to $1,2,3,4$. Subtracting the count equation from the two moment equations gives $x+2y+3z=163$ and $15x+80y+255z=4395$. Eliminating $x$ gives $5y+21z=195$. Thus $z\\equiv0\\pmod5$ and $0\\le z\\le9$, so $(y,z)$ is $(39,0)$ or $(18,5)$. These give $(w,x)=(226,85)$ or $(215,112)$ respectively. Their second moments are $917$ and $905$, so the minimum is $905$, attained by the latter frequencies.",
+    "answer": 905,
+    "tags": [
+      "frequency variables",
+      "integer optimization",
+      "moments"
+    ],
+    "source_review": "The sole source correctly reduces the constraints to two feasible frequency vectors. The explicit second moments here certify which is minimal.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "source_review_scope": "All downloaded textual solution entries reviewed; any external links are assessed only as references unless explicitly stated.",
+    "verification": "Enumerated every feasible frequency vector using the count and moment constraints, and minimized the second moment.",
+    "status": "solved"
   },
   {
     "id": "2009-II-06",
@@ -2524,6 +2647,33 @@
     "source_index_base": 0
   },
   {
+    "id": "2012-II-01",
+    "title": "Count lattice points on a positive Diophantine segment",
+    "restatement": "Count ordered positive integer pairs $(m,n)$ satisfying $20m+12n=2012$.",
+    "solution": "Divide by four: $5m+3n=503$. Modulo three this forces $m\\equiv1\\pmod3$, and positivity of $n$ forces $m\\le100$. Conversely every $m=1+3j$ for $0\\le j\\le33$ gives $n=(503-5m)/3$, a positive integer. This is a bijection with thirty-four integers $j$, so there are $34$ ordered pairs.",
+    "answer": 34,
+    "tags": [
+      "linear Diophantine equations",
+      "lattice-point counting",
+      "congruences"
+    ],
+    "source_review": "All four stored alternatives inspected. They use either congruences or a lattice slope. The last initially states a false divisibility-by-twenty criterion before adding the missing tens-digit condition; the congruence proof here is exact from the outset.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Direct enumeration of positive pairs gives thirty-four.",
+    "status": "solved",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
     "id": "2012-II-03",
     "title": "Department and gender margins",
     "restatement": "Three departments each contain two men and two women. Choose a six-person committee with two members per department and three of each gender. Count committees.",
@@ -2561,6 +2711,33 @@
     ],
     "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
     "source_index_base": 0
+  },
+  {
+    "id": "2012-II-10",
+    "title": "A floor-product range is a disjoint union of integer blocks",
+    "restatement": "Count positive integers $n<1000$ representable as $x\\lfloor x\\rfloor$ for some positive real $x$.",
+    "solution": "Let $k=\\lfloor x\\rfloor$. Since $n>0$, $k\\ge1$. On $k\\le x<k+1$, multiplication by $k$ maps the interval bijectively onto $[k^2,k(k+1))$. Hence its integer outputs are exactly\n$$k^2,k^2+1,\\ldots,k^2+k-1,$$\na set of $k$ values. These blocks are disjoint, because $k(k+1)<(k+1)^2$. The complete blocks for $1\\le k\\le31$ lie below $1000$, with last endpoint $31\\cdot32-1=991$, while $k=32$ begins at $1024$. Therefore the count is $1+2+\\cdots+31=496$. Every counted integer is attained at $x=n/k$, so this counts outputs, not merely necessary bounds.",
+    "answer": 496,
+    "tags": [
+      "floor functions",
+      "interval images",
+      "disjoint counting"
+    ],
+    "source_review": "All four stored alternatives inspected. Some blur x and its integer part or write an incorrect endpoint before using the correct range. The new proof explicitly gives the bijection on each half-open interval and proves the output blocks disjoint.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Enumeration by n with k=floor(√n) confirms exactly 496 representable values below 1000.",
+    "status": "solved",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
   },
   {
     "id": "2012-II-12",
@@ -2662,6 +2839,33 @@
     ],
     "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
     "source_index_base": 0
+  },
+  {
+    "id": "2013-I-10",
+    "title": "Conjugate integer roots and distinct cubics",
+    "restatement": "Consider all cubics $x^3-ax^2+bx-65$ with nonzero integers $a,b$ that have a root $r+si$ for nonzero integers $r,s$. For each distinct coefficient pair $(a,b)$, take the sum of its three roots. Find the sum of these values over all admissible pairs.",
+    "solution": "The conjugate $r-si$ is also a root. The third root is $q=a-2r$, an integer, and coefficient comparison gives\n$$q(r^2+s^2)=65,\\qquad a=q+2r,\\qquad b=r^2+s^2+2qr.$$\nSince $r,s\\ne0$, $q$ is a positive divisor of $65$ other than $65$. For $q=1,5,13$, the possible $r$ are respectively\n$$\\{\\pm1,\\pm4,\\pm7,\\pm8\\},\\quad\\{\\pm2,\\pm3\\},\\quad\\{\\pm1,\\pm2\\}.$$\nThese lists follow by subtracting positive squares from $65,13,5$; only square complements are retained. For each listed $r$, the value of $s^2$ is fixed, and its two signs produce the same polynomial. Every listed $a$ is odd and nonzero; the formulas give nonzero $b$ as well. Distinct choices cannot duplicate a polynomial: its unique real root fixes $q$, and then $a$ fixes $r$.\n\nBy Vieta each root sum is $a=q+2r$. Pair $r$ with $-r$ in each list. The signed terms cancel, leaving $8\\cdot1+4\\cdot5+4\\cdot13=80$.",
+    "answer": 80,
+    "tags": [
+      "complex conjugates",
+      "Vieta formulas",
+      "sum of two squares",
+      "finite classification",
+      "involution"
+    ],
+    "source_review": "Inspected the sole stored argument. The new exposition adds why the third root is integral, excludes q=65, verifies the nonzero coefficient restrictions, and proves that the coefficient-pair count has no duplicates.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Exact integer enumeration finds sixteen distinct (a,b) pairs and sums a to eighty.",
+    "status": "solved",
+    "subjects": [
+      "algebra",
+      "number_theory",
+      "combinatorics"
+    ],
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
   },
   {
     "id": "2013-I-15",

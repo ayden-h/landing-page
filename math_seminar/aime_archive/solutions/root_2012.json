@@ -1,0 +1,661 @@
+[
+  {
+    "id": "2012-I-01",
+    "title": "Divisibility in both digit directions",
+    "restatement": "Count three-digit integers $abc$ with $a,c\\ne0$ such that both $abc$ and $cba$ are divisible by four.",
+    "solution": "The conditions are $2b+c\\equiv0\\pmod4$ and $2b+a\\equiv0\\pmod4$. For even $b$, each of $a,c$ is $4$ or $8$; for odd $b$, each is $2$ or $6$. Every one of the ten choices for $b$ therefore permits four pairs $(a,c)$, giving $40$.",
+    "answer": 40,
+    "tags": [
+      "digit counting",
+      "residues"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 2: The initial even-middle-digit factor is mistyped as four rather than five.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-02",
+    "title": "The sum increase reveals the number of terms",
+    "restatement": "An arithmetic progression has total $715$. Increasing its $k$th term by $2k-1$ changes the total to $836$. Find the sum of the original first, middle, and last terms.",
+    "solution": "If there are $n$ terms, the total increase is the sum of the first $n$ odd positive integers, namely $n^2$. Hence $n^2=836-715=121$ and $n=11$. The middle term is the average $715/11=65$, while the first and last sum to twice that average. The requested sum is therefore $3\\cdot65=195$.",
+    "answer": 195,
+    "tags": [
+      "arithmetic progressions",
+      "symmetric pairing"
+    ],
+    "source_review": "All three stored entries inspected. The third chooses one convenient progression after deriving its average; the invariant proof here shows directly why the answer is independent of that choice.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2
+    ],
+    "source_index_base": 0,
+    "verification": "Exact increase 121 gives eleven terms, with average sixty-five.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-03",
+    "title": "Exactly one correct meal type",
+    "restatement": "Nine labeled diners order three meals of each of three types. The nine meal types are assigned to diners, with identical meals indistinguishable. Count assignments with exactly one diner receiving the ordered type.",
+    "solution": "Choose the unique correct diner in nine ways. Suppose that diner ordered type $B$. Two remaining $B$-diners must get only $C,F$. If both get $C$, the other groups are forced apart from three placements of the one $C$ among the $F$-diners; likewise both $F$ gives three. If they get one of each, there are two orders, then three choices for the sole $B$ in each other group, giving $18$. Thus each correct diner permits $3+3+18=24$ assignments, and the total is $216$.",
+    "answer": 216,
+    "tags": [
+      "contingency tables",
+      "exact matches"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The source itself acknowledges that its argument obtains the correct count coincidentally. Independent residual meal assignments are not justified.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-04",
+    "title": "A shared horse and the first integer meeting point",
+    "restatement": "Two travelers start together along a road with mileposts at every positive integer distance. Their walking speeds are $4$ and $5/2$ mph; their shared horse carries either at $6$ mph. The slower walker rides first to post one and leaves the horse. Thereafter each rider passes the other traveler, leaves the horse at the next post, and walks on. At their first meeting at a milepost, the distance is $n$ miles and elapsed time is $t$ minutes. Find $n+t$.",
+    "solution": "Call the faster walker $B$ and the slower walker $S$. If both meet at post $n$ and $B$ has ridden a total of $a$ miles, the horse has traveled $n$ miles and $S$ has ridden $n-a$. All riding segments end at integer posts, including the current segment at the meeting, so $a$ is integral. Their times in hours are\n$$T_B=\\frac a6+\\frac{n-a}{4},\\qquad T_S=\\frac{n-a}{6}+\\frac{2a}{5}.$$\nEquality gives $5n=19a$, so any positive milepost meeting is at least nineteen miles away.\n\nIt remains to prove that the specified handoff rule actually reaches this candidate. At a handoff post $n$, let $a$ be $B$'s accumulated riding distance. If $B$ next rides, its catch-up position is $u=19(n-a)/14$; if $S$ next rides, it is $u=19a/5$. These follow by using the same travel-time formulas at a variable position $u$: in the first case $B$'s riding distance becomes $a+u-n$, and in the second it stays $a$. For a nonintegral catch position, the horse is left at $\\lfloor u\\rfloor+1$.\n\nStarting after the first ride, the successive handoff states $(n,a)$ are\n$$(1,0),(2,1),(4,1),(5,2),(8,2),(9,3),(12,3),(13,4),(16,4),(17,5).$$\nThe corresponding next catch positions are\n$$\\frac{19}{14},\\frac{19}{5},\\frac{57}{14},\\frac{38}{5},\\frac{57}{7},\\frac{57}{5},\\frac{171}{14},\\frac{76}{5},\\frac{114}{7},19.$$\nEach noninteger value produces precisely the next listed post, so this is a valid execution of the rule. The final catch is at post nineteen. Its elapsed time is $5/6+14/4=13/3$ hours, or $260$ minutes. Thus $n+t=279$.",
+    "answer": 279,
+    "tags": [
+      "travel-time invariants",
+      "integer meeting points",
+      "discrete recurrence"
+    ],
+    "source_review": "The sole stored solution is explicitly marked nonrigorous because it does not establish the candidate handoff pattern. The new proof supplies the exact catch-position recurrence and every state through the first integer meeting.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Exact rational simulation of the handoff recurrence reaches post 19 with five miles ridden by the faster walker.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-05",
+    "title": "Consecutive binary numbers with equal weight",
+    "restatement": "Let $B$ contain all thirteen-bit strings with eight ones and five zeros, allowing leading zeros. Count ordered pairs $(u,v)\\in B^2$ with numeric difference $u-v=1$.",
+    "solution": "If $v$ ends in $t$ ones, adding one changes its one-count by $1-t$. Equal one-counts therefore force $t=1$, so $v$ ends in $01$ and $u$ in $10$. Their shared eleven-bit prefix must contain seven ones. This condition is sufficient and unique, yielding $\\binom{11}{7}=330$.",
+    "answer": 330,
+    "tags": [
+      "binary carries",
+      "bijections"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-06",
+    "title": "A positive imaginary part selects a root-of-unity denominator",
+    "restatement": "Complex numbers satisfy $z^{13}=w$ and $w^{11}=z$. Suppose $\\operatorname{Im}z=\\sin(m\\pi/n)$ for coprime positive integers $m<n$. Determine $n$.",
+    "solution": "The specified sine is positive, so $z\\ne0$. Substitution gives $z^{143}=z$, hence $z^{142}=1$. Its positive-imaginary roots are $z=e^{ik\\pi/71}$ for $1\\le k\\le70$. Two angles in $(0,\\pi)$ have the same sine exactly when they are equal or supplementary. Therefore $m/n=k/71$ or $(71-k)/71$. Since $71$ is prime and both numerators lie between one and seventy, either fraction has reduced denominator $71$. Thus $n=71$.",
+    "answer": 71,
+    "tags": [
+      "roots of unity",
+      "sine symmetry",
+      "reduced fractions"
+    ],
+    "source_review": "The sole stored proof inspected. The new exposition adds the equal-or-supplementary sine alternative, so the given rational angle is not assumed to equal the root argument uniquely.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "The denominators of k/71 and (71−k)/71 are seventy-one for all 1≤k≤70.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-07",
+    "title": "Stationary coins on a network",
+    "restatement": "On a connected undirected network, one central vertex has degree five, five vertices have degree three, and ten have degree four. The vertices hold $3360$ coins and simultaneously split all coins equally among neighbors; every holding remains unchanged. Find the central holding.",
+    "solution": "Write the holding at vertex $v$ as $d(v)r_v$. Stationarity says $d(v)r_v=\\sum_{u\\sim v}r_u$, so $r_v$ is the average of its neighbors' ratios. At a maximum, all neighboring ratios equal that maximum; connectivity propagates equality everywhere. Thus holdings are proportional to degrees. The degree sum is $5+5\\cdot3+10\\cdot4=60$, giving $56$ coins per degree and central holding $5\\cdot56=280$.",
+    "answer": 280,
+    "tags": [
+      "graphs",
+      "maximum principle",
+      "stationary distributions"
+    ],
+    "source_review": "The principal archived solution assumes equal holdings on symmetric rings. The maximum-principle argument proves uniqueness without that assumption. Audit findings: Source 1: Equal gifts are asserted without a uniqueness argument. Dividing holdings by vertex degree and applying the finite harmonic maximum principle supplies it. Source 3: Visual symmetry does not prove an arbitrary stationary allocation is symmetric. Use the harmonic maximum principle or sum the layer equations.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-08",
+    "title": "A cube slice is a truncated tetrahedron",
+    "restatement": "Take the unit cube $[0,1]^3$ and cut it by the plane through $(0,0,0)$, $(1/2,1,0)$, and $(1,0,1/2)$. These coordinates specify the vertex and edge-midpoints of the archived diagram. If the larger part has reduced volume $p/q$, find $p+q$.",
+    "solution": "The cutting plane is $2x-y-4z=0$. Consider the tetrahedron with vertices\n$$D=(0,0,0),\\ C=(1,0,0),\\ P=(1,2,0),\\ N=(1,0,1/2).$$\nIts points satisfy $0\\le x\\le1$, $y,z\\ge0$, and $y+4z\\le2x$. Thus its intersection with the unit cube is precisely the smaller-side candidate below the cut; the only portion outside the cube has $y>1$. The plane $y=1$ cuts all three edges from $P$ at their midpoints, so that removed tetrahedron is similar to the whole with scale $1/2$.\n\nThe base $CPN$ has area $\\tfrac12\\cdot2\\cdot\\tfrac12=1/2$ and perpendicular height one from $D$, giving total tetrahedron volume $1/6$. The portion inside the cube therefore has volume $(1-1/8)/6=7/48<1/2$. The larger part has volume $41/48$, and $p+q=89$.",
+    "answer": 89,
+    "tags": [
+      "solid geometry",
+      "similar tetrahedra",
+      "volume subtraction"
+    ],
+    "source_review": "All seven stored alternatives inspected, including coordinate integration, cross sections, a frustum, and pyramid decomposition. The new proof specifies the missing diagram by coordinates and justifies exactly which part lies outside the cube before subtracting volumes.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_index_base": 0,
+    "verification": "A direct rational cross-section integration independently gives 7/48 for the smaller volume.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-09",
+    "title": "Logarithmic coordinates expose a fixed monomial",
+    "restatement": "Positive $x,y,z$ satisfy the defined nonzero common value\n$$2\\log_x(2y)=2\\log_{2x}(4z)=\\log_{2x^4}(8yz)\\ne0.$$\nWrite $xy^5z=2^{-p/q}$ with coprime positive integers $p,q$, and find $p+q$.",
+    "solution": "Set $X=\\log_2x$, $Y=\\log_2y$, $Z=\\log_2z$, and denote the common value by $k\\ne0$. Every positive real number has such logarithmic coordinates, so this is no restriction. Change of base gives\n$$2(Y+1)=kX,\\quad2(Z+2)=k(X+1),\\quad Y+Z+3=k(4X+1).$$\nAdding the first two and comparing with twice the third yields $k(2X+1)=2k(4X+1)$, hence $X=-1/6$. Then $Y=-1-k/12$ and $Z=-2+5k/12$, giving\n$$X+5Y+Z=-\\frac{43}{6}.$$\nThe bases are legitimate because their base-two logarithms are $-1/6,5/6,1/3$, all nonzero. Any nonzero real $k$ in these formulas gives positive $y,z$ and realizes the equations, so the invariant is attained. Thus $p+q=43+6=49$.",
+    "answer": 49,
+    "tags": [
+      "logarithmic coordinates",
+      "linear elimination",
+      "monomial invariants"
+    ],
+    "source_review": "All four stored entries inspected. The first assumes a convenient common value without proving the target is independent of it; the last contains incorrect parameter formulas. The new proof retains the free nonzero parameter throughout and verifies every logarithm base.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Exact exponent identities hold symbolically for the free parameter k; sample rational values are independently checked.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-10",
+    "title": "Order the squares with a prescribed three-digit suffix",
+    "restatement": "For every perfect square whose last three decimal digits are $256$, delete those digits, allowing the result zero from the square $256$. Arrange the distinct resulting nonnegative integers in increasing order. Find the tenth one modulo $1000$.",
+    "solution": "Use the positive square root $u$. The suffix condition is $u^2\\equiv256\\pmod{1000}$. Modulo eight it says $u\\equiv0\\pmod4$. Modulo $125$, the factors $(u-16)(u+16)$ have gcd dividing $32$, so only one can contain factors of five; consequently $u\\equiv\\pm16\\pmod{125}$. Combining with divisibility by four gives precisely\n$$u\\equiv16\\text{ or }-16\\pmod{500}.$$\nThe square and then the truncated result increase strictly with the positive root. The root sequence begins\n$$16,484,516,984,1016,1484,1516,1984,2016,2484.$$\nThus the tenth result is $(2484^2-256)/1000=6170$, whose remainder is $170$.",
+    "answer": 170,
+    "tags": [
+      "prime-power congruences",
+      "Chinese remainder theorem",
+      "ordered residue classes"
+    ],
+    "source_review": "All five stored entries inspected. They use factorization, digit arithmetic, CRT, or a reparameterization. The final entry incorrectly states that negative parameter values give negative outputs; the root-based ordering avoids this duplicate-sign issue. The first square 256 and its truncated value zero are included explicitly.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_index_base": 0,
+    "verification": "Enumeration of all roots 1≤u≤2484 confirms the ten listed roots and the truncated value 6170.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-11",
+    "title": "Reachability in a lattice semigroup",
+    "restatement": "From $(0,0)$ allow jumps $(7,2),(2,7),(-5,-10),(-10,-5)$. Let $M$ count reachable lattice points with $|x|+|y|\\le100$. Find $M\\bmod1000$.",
+    "solution": "Necessarily $x+y=3u$, $x-y=5v$ for integers $u,v$ of the same parity. Conversely the jumps in $(u,v)$ are $(3,\\pm1),(-5,\\pm1)$. Choose large nonnegative $C\\equiv u\\pmod3$ and put $A=(u+5C)/3$. Then $3A-5C=u$, while $L=A+C\\ge|v|$ and $L\\equiv u\\equiv v\\pmod2$. Among these $L$ jumps choose $(L+v)/2$ plus signs, obtaining the target with nonnegative counts. Hence the invariants are sufficient. Now $|x|+|y|=\\max(|3u|,|5v|)$, so $-33\\le u\\le33$, $-20\\le v\\le20$. Equal parities give $33\\cdot21+34\\cdot20=1373$ points, hence $373$.",
+    "answer": 373,
+    "tags": [
+      "lattice invariants",
+      "reachability",
+      "parity"
+    ],
+    "source_review": "The first archived sufficiency argument does not clearly enforce nonnegative jump counts. Taking a sufficiently large solution and assigning signs here proves actual reachability.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-I-12",
+    "title": "An angle bisector inside a trisected right angle",
+    "restatement": "Triangle $ABC$ is right at $C$. Rays $CD,CE$ trisect that right angle and meet $AB$ in the order $A,D,E,B$. Given $DE/EB=8/15$, write $\\tan B=m\\sqrt p/n$ in reduced squarefree form and find $m+n+p$.",
+    "solution": "In triangle $CDB$, the ray $CE$ bisects the $60^\\circ$ angle at $C$. Thus the angle-bisector theorem gives $CD/CB=DE/EB=8/15$. Scale so $CD=8$ and $CB=15$. Drop $DF$ perpendicular to $CB$. Since $\\angle DCB=60^\\circ$, we have $CF=4$ and $DF=4\\sqrt3$, and therefore $BF=15-4=11$. Because $BD$ lies on $BA$,\n$$\\tan B=\\frac{DF}{BF}=\\frac{4\\sqrt3}{11}.$$\nHence the requested sum is $4+11+3=18$.",
+    "answer": 18,
+    "tags": [
+      "angle bisectors",
+      "special right triangles",
+      "trigonometric ratios"
+    ],
+    "source_review": "All eight stored entries inspected; the last is only an attribution line, not a proof. The others use the angle-bisector theorem, cosine/sine rules, altitudes, or a circumcircle. Several contain swapped labels or missing factors; the angle-bisector route here keeps the construction and side ratios explicit.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_index_base": 0,
+    "verification": "The scale-normalized triangle CDB has projection lengths 4,11 and altitude 4√3.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-13",
+    "title": "Equilateral triangles with three prescribed center distances",
+    "restatement": "Three circles have a common center and radii $3,4,5$. Among equilateral triangles having one vertex on each circle, maximize the area. Write it as $a+(b/c)\\sqrt d$, with positive integers, $b,c$ coprime and $d$ squarefree, and find $a+b+c+d$.",
+    "solution": "Let the side length be $s>0$. Place the triangle at $A=(-s/2,0)$, $B=(s/2,0)$, $C=(0,\\sqrt3s/2)$ and let the common circle center be $O=(u,v)$, with distances $OA=3$, $OB=4$, $OC=5$. Subtraction and addition of the first two squared-distance equations, followed by the third, give\n$$u=-\\frac7{2s},\\qquad v=\\frac{s^2-25}{2\\sqrt3s},\\qquad 2u^2+2v^2+\\frac{s^2}{2}=25.$$\nSubstituting yields $s^4-50s^2+193=0$, hence\n$$s^2=25\\pm12\\sqrt3.$$\nBoth values are positive. For either value, the displayed real coordinates $u,v$ satisfy all three original squared-distance equations: the last displayed equation and $2us=-7$ restore $OA^2=9,OB^2=16$, and the expression for $v$ restores $OC^2=25$. Thus both candidate shapes exist, regardless of whether their center is inside the triangle. Area increases with $s^2$, so the maximum is\n$$\\frac{\\sqrt3}{4}(25+12\\sqrt3)=9+\\frac{25}{4}\\sqrt3.$$\nThe required sum is $9+25+4+3=41$.",
+    "answer": 41,
+    "tags": [
+      "distance-difference linearization",
+      "equilateral triangles",
+      "quadratic elimination",
+      "attainment"
+    ],
+    "source_review": "All five stored alternatives inspected. They use a 60-degree rotation, angle equations, Fermat/pedal geometry, coordinates, or another rotation construction. The first assumes an interior center, while the coordinate route handles both configurations. The new proof explicitly reconstructs the center for both algebraic roots and therefore proves the maximum is attainable.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_index_base": 0,
+    "verification": "Substitution in the three distance equations verifies both positive squared-side roots.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-14",
+    "title": "A zero root sum places the triangle centroid at the origin",
+    "restatement": "The complex roots $a,b,c$ of $z^3+qz+r$ form a nondegenerate right triangle in the complex plane and satisfy $|a|^2+|b|^2+|c|^2=250$. If its hypotenuse is $h$, find $h^2$. The coefficients $q,r$ need not be real.",
+    "solution": "Vieta gives $a+b+c=0$. Expanding squared complex distances gives the identity\n$$|a-b|^2+|b-c|^2+|c-a|^2\n=3(|a|^2+|b|^2+|c|^2)-|a+b+c|^2=750.$$\nFor a right triangle, the two leg squares add to the hypotenuse square, so the sum of all three side squares is $2h^2$. Consequently $h^2=750/2=375$. No conjugate-root symmetry or isosceles condition is needed.",
+    "answer": 375,
+    "tags": [
+      "Vieta formulas",
+      "centroids",
+      "squared-distance identity"
+    ],
+    "source_review": "All seven stored entries inspected. The second and fourth assume real coefficients or an isosceles triangle without authorization; a source comment recognizes this defect. The new proof works for arbitrary complex coefficients and needs only the zero root sum and the right angle.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_index_base": 0,
+    "verification": "For arbitrary right-triangle legs, translating its centroid to zero gives total squared vertex norm two-thirds of its hypotenuse square.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-I-15",
+    "title": "Multiplication changes every circular separation",
+    "restatement": "Reseat $n$ people on a numbered circle by $k\\mapsto ak\\pmod n$. Require this to be a permutation and require every pair's circular separation to change even up to reversal. Count possible $1<n<1000$.",
+    "solution": "Permutation requires $\\gcd(a,n)=1$. A nonzero difference $d$ must never satisfy $ad\\equiv d$ or $ad\\equiv-d\\pmod n$, equivalent to $\\gcd(a-1,n)=\\gcd(a+1,n)=1$. Thus three consecutive integers must all be coprime to $n$, impossible if $2\\mid n$ or $3\\mid n$. Conversely if $\\gcd(n,6)=1$, choose $a=2$, and all three gcds are one. Inclusion-exclusion on $1,\\ldots,999$ gives $999-499-333+166=333$ values, of which $n=1$ is excluded. The result is $332$.",
+    "answer": 332,
+    "tags": [
+      "cyclic permutations",
+      "modular invariants"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-01",
+    "title": "Count lattice points on a positive Diophantine segment",
+    "restatement": "Count ordered positive integer pairs $(m,n)$ satisfying $20m+12n=2012$.",
+    "solution": "Divide by four: $5m+3n=503$. Modulo three this forces $m\\equiv1\\pmod3$, and positivity of $n$ forces $m\\le100$. Conversely every $m=1+3j$ for $0\\le j\\le33$ gives $n=(503-5m)/3$, a positive integer. This is a bijection with thirty-four integers $j$, so there are $34$ ordered pairs.",
+    "answer": 34,
+    "tags": [
+      "linear Diophantine equations",
+      "lattice-point counting",
+      "congruences"
+    ],
+    "source_review": "All four stored alternatives inspected. They use either congruences or a lattice slope. The last initially states a false divisibility-by-twenty criterion before adding the missing tens-digit condition; the congruence proof here is exact from the outset.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Direct enumeration of positive pairs gives thirty-four.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-02",
+    "title": "Eliminate a geometric ratio without finding its sign",
+    "restatement": "Two geometric progressions with the same nonzero common ratio satisfy $a_1=27$, $b_1=99$, and $a_{15}=b_{11}$. Find $a_9$. The nonzero-ratio convention is discussed in the source note.",
+    "solution": "Let the common ratio be $r\\ne0$. Then $27r^{14}=99r^{10}$, so division by $27r^{10}$ gives $r^4=11/3$. Hence\n$$a_9=27r^8=27\\left(\\frac{11}{3}\\right)^2=363.$$\nEither real sign of the ratio gives the same answer. If a definition of geometric sequence allows ratio zero, the archived wording also permits $r=0$ and $a_9=0$; the reported answer uses the nonzero-ratio convention.",
+    "answer": 363,
+    "tags": [
+      "geometric progressions",
+      "power elimination",
+      "domain conventions"
+    ],
+    "source_review": "The one stored solution inspected. It divides by the tenth power of the ratio without stating that the ratio is nonzero. The restatement explicitly states the convention required for the reported answer and records the additional zero-ratio case.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Exact computation 27·(11/3)²=363; the r=0 alternative is separately verified.",
+    "status": "solved",
+    "source_correction": {
+      "type": "zero_ratio_convention",
+      "note": "The reviewed source wording does not explicitly exclude a zero common ratio. Under a definition allowing it, a9=0 is another possibility. The reported 363 requires a nonzero common ratio."
+    },
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-03",
+    "title": "Department and gender margins",
+    "restatement": "Three departments each contain two men and two women. Choose a six-person committee with two members per department and three of each gender. Count committees.",
+    "solution": "The male counts by department must be $(1,1,1)$ or a permutation of $(0,1,2)$. The first contributes $(2\\cdot2)^3=64$. Each of the six second-type patterns contributes $1\\cdot4\\cdot1=4$. Thus the total is $64+24=88$. Equivalently it is $[x^3](1+4x+x^2)^3$.",
+    "answer": 88,
+    "tags": [
+      "fixed margins",
+      "generating functions"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-04",
+    "title": "Three equal travel times determine a rectangle",
+    "restatement": "From a rectangle's northeast corner, riders of speeds $8.6$, $6.2$, and $5$ m/s start together. The first follows the boundary westward, the second southward, and the third rides straight to a point $D$ on the south side. They first reach $D$ simultaneously. The east-west side is longer. Find the primitive ratio of length, width, and distance from the southeast corner to $D$, and report its three entries' sum.",
+    "solution": "Scale lengths so the common travel time is one second. Let the east-west length be $L$, north-south width $W$, and the southeast-to-$D$ distance $d$. The three route lengths give\n$$2L+W-d=43/5,\\qquad W+d=31/5,\\qquad W^2+d^2=25.$$\nSubtracting the first two yields $L-d=6/5$. Also $(W-d)^2=2(25)-(31/5)^2=(17/5)^2$, so $\\{W,d\\}=\\{7/5,24/5\\}$. If $W=24/5,d=7/5$, then $L=13/5<W$, forbidden. Thus $W=7/5,d=24/5,L=6$, with $0<d<L$. The ratio is $30:7:24$, and its entries sum to $61$.",
+    "answer": 61,
+    "tags": [
+      "rates",
+      "rectangle geometry",
+      "symmetric elimination",
+      "branch selection"
+    ],
+    "source_review": "Both stored entries inspected. They derive the same unordered pair and use the long-side condition to choose it. The new exposition explicitly verifies that D lies inside the south edge.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "Exact squared-distance check (7/5)²+(24/5)²=25 and route lengths 43/5,31/5.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-05",
+    "title": "A four-flap net folds into a square pyramid",
+    "restatement": "Concentric, parallel-sided squares have side lengths $40$ and $15$. Attach to each side of the smaller square the triangle whose apex is the midpoint of the corresponding outer side. Fold the four triangles into the lateral faces of a pyramid on the smaller square. Find its volume.",
+    "solution": "Each flap has altitude $(40-15)/2=25/2$ from the midpoint of its base side. Its two equal edges become equal lateral edges of the pyramid; consequently the apex projects to the square center, which is equidistant from all four base vertices. The horizontal distance from that center to a side midpoint is $15/2$. Thus the vertical height is\n$$h=\\sqrt{(25/2)^2-(15/2)^2}=10.$$\nThe base area is $15^2=225$, and the volume is $225\\cdot10/3=750$. These dimensions give a nondegenerate pyramid with exactly the prescribed congruent faces.",
+    "answer": 750,
+    "tags": [
+      "polyhedral nets",
+      "square pyramids",
+      "Pythagorean theorem"
+    ],
+    "source_review": "The sole stored solution inspected. The new restatement describes the net without its drawing and the proof justifies that the apex lies above the center.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "The slant-height right triangle has squared legs 100 and 225/4, summing to 625/4.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-06",
+    "title": "A complex-distance maximum fixes a fourth power",
+    "restatement": "Choose $z=a+bi$ with $|z|=5$ and $b>0$ to maximize $|(1+2i)z^3-z^5|$. If $z^4=c+di$, find $c+d$.",
+    "solution": "Factor out $z^3$: the quantity is $125|1+2i-z^2|$. Since $|z^2|=25$, the triangle inequality bounds it by $125(\\sqrt5+25)$. Equality requires $z^2$ to point directly opposite $1+2i$, so\n$$z^2=-\\frac{25}{\\sqrt5}(1+2i).$$\nThis nonreal number has two opposite square roots, exactly one with positive imaginary part, so the bound is attained under the given restriction. Squaring the displayed equation gives\n$$z^4=125(1+2i)^2=-375+500i.$$\nTherefore $c+d=125$.",
+    "answer": 125,
+    "tags": [
+      "complex modulus",
+      "triangle inequality",
+      "equality feasibility"
+    ],
+    "source_review": "Both stored alternatives inspected. One uses vector direction and the other arguments. The new proof gives the explicit triangle-inequality equality condition and checks the upper-half-plane square-root restriction.",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_index_base": 0,
+    "verification": "The resulting fourth power has real and imaginary parts −375 and 500, with modulus 625 as required.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-07",
+    "title": "Unranking a binary subset",
+    "restatement": "List positive integers with exactly eight binary ones in increasing order. Find the $1000$th integer modulo $1000$.",
+    "solution": "Numbers fitting in twelve bits number $\\binom{12}{8}=495$, so bit $12$ is one and the remaining rank is $505$ among twelve-bit strings of weight seven. Since $\\binom{11}{7}=330$, bit $11$ is one and rank becomes $175$. Bit $10$ is zero because $\\binom{10}{6}=210\\ge175$. Skipping $\\binom96=84$ then $\\binom85=56$ makes bits $9,8$ one and leaves rank $35$ for weight four below bit eight. Since $\\binom74=35$, take the largest seven-bit weight-four string, $1111000$. Thus $N=2^{12}+2^{11}+2^9+2^8+2^6+2^5+2^4+2^3=7032$, giving $32$.",
+    "answer": 32,
+    "tags": [
+      "binomial unranking",
+      "binary subsets"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-08",
+    "title": "Solve directly for a complex product",
+    "restatement": "Nonzero complex numbers $z,w$ obey $z+20i/w=5+i$ and $w+12i/z=-4+10i$. Find the minimum possible $|zw|^2$.",
+    "solution": "Let $u=zw$. Multiplying the original equations gives\n$$u+32i-\\frac{240}{u}=-30+46i,$$\nso\n$$u^2+(30-14i)u-240=(u-6-2i)(u+36-12i)=0.$$\nThe two candidate squared moduli are $40$ and $1440$. The smaller one is feasible: $z=1-i$, $w=2+4i$ have product $6+2i$ and directly satisfy both original equations. Thus the minimum is $40$.",
+    "answer": 40,
+    "tags": [
+      "target elimination",
+      "complex quadratic",
+      "existence check"
+    ],
+    "source_review": "The sole stored entry inspected. It obtains the two product candidates but does not reconstruct z,w. The new proof includes an explicit nonzero pair attaining the smaller squared modulus; the stored auxiliary norm expansion also contains a minor typo.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Exact Gaussian-rational substitution of (1−i,2+4i) verifies both equations.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-09",
+    "title": "Ratios determine squared trigonometric coordinates",
+    "restatement": "Real angles $x,y$ satisfy $\\sin x/\\sin y=3$ and $\\cos x/\\cos y=1/2$. Express $\\sin(2x)/\\sin(2y)+\\cos(2x)/\\cos(2y)$ as a reduced positive fraction $p/q$ and find $p+q$.",
+    "solution": "The sine double-angle ratio is the product of the two given ratios, hence $3/2$. Put $t=\\sin^2y$. Squaring the original ratios and using $\\sin^2x+\\cos^2x=1$ gives $9t+(1-t)/4=1$, so $t=3/35$ and $\\sin^2x=27/35$. Therefore\n$$\\frac{\\cos2x}{\\cos2y}=\\frac{1-54/35}{1-6/35}=-\\frac{19}{29}.$$\nThe denominator is nonzero, as are the two original denominators, so all target terms are defined. The sum is $3/2-19/29=49/58$, giving $p+q=107$.",
+    "answer": 107,
+    "tags": [
+      "trigonometric identities",
+      "squared coordinates",
+      "domain checks"
+    ],
+    "source_review": "All four stored entries inspected. They use squared sines, squared cosines, right triangles, or a direct substitution. The second reverses a displayed ratio before quoting the correct result, and the fourth has a final denominator-label typo. The new proof needs no assumption that the angles are acute.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Exact rational calculation gives sin²y=3/35 and total 49/58.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-10",
+    "title": "A floor-product range is a disjoint union of integer blocks",
+    "restatement": "Count positive integers $n<1000$ representable as $x\\lfloor x\\rfloor$ for some positive real $x$.",
+    "solution": "Let $k=\\lfloor x\\rfloor$. Since $n>0$, $k\\ge1$. On $k\\le x<k+1$, multiplication by $k$ maps the interval bijectively onto $[k^2,k(k+1))$. Hence its integer outputs are exactly\n$$k^2,k^2+1,\\ldots,k^2+k-1,$$\na set of $k$ values. These blocks are disjoint, because $k(k+1)<(k+1)^2$. The complete blocks for $1\\le k\\le31$ lie below $1000$, with last endpoint $31\\cdot32-1=991$, while $k=32$ begins at $1024$. Therefore the count is $1+2+\\cdots+31=496$. Every counted integer is attained at $x=n/k$, so this counts outputs, not merely necessary bounds.",
+    "answer": 496,
+    "tags": [
+      "floor functions",
+      "interval images",
+      "disjoint counting"
+    ],
+    "source_review": "All four stored alternatives inspected. Some blur x and its integer part or write an incorrect endpoint before using the correct range. The new proof explicitly gives the bijection on each half-open interval and proves the output blocks disjoint.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_index_base": 0,
+    "verification": "Enumeration by n with k=floor(√n) confirms exactly 496 representable values below 1000.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-11",
+    "title": "A fractional-linear map has period three",
+    "restatement": "Let $f(x)=2/3-3/(3x+1)$, and write $f^{\\circ n}$ for its $n$-fold composition wherever all steps are defined. Solve $f^{\\circ1001}(x)=x-3$; express the solution as a reduced positive fraction $m/n$ and find $m+n$.",
+    "solution": "Write $f(x)=(6x-7)/(9x+3)$ and associate the matrix\n$$M=\\begin{pmatrix}6&-7\\\\9&3\\end{pmatrix}.$$\nDirect multiplication gives $M^3=-729I$, so $f^{\\circ3}(x)=x$ wherever the iterates are defined. Since $1001\\equiv2\\pmod3$, the required equation becomes\n$$\\frac{3x+7}{6-9x}=x-3.$$\nClearing the nonzero denominator gives $(3x-5)^2=0$, hence the only candidate is $x=5/3$. Its orbit is $5/3\\mapsto1/6\\mapsto-4/3\\mapsto5/3$; none is the pole $-1/3$, so all $1001$ iterates exist. Also the second image is $-4/3=5/3-3$, verifying the equation. Thus $m+n=8$.",
+    "answer": 8,
+    "tags": [
+      "fractional-linear iteration",
+      "matrix powers",
+      "domain verification"
+    ],
+    "source_review": "The sole stored argument inspected. It recognizes the period from initial iterates but omits a proof and domain check. The new exposition proves the matrix identity and verifies the complete orbit of the candidate.",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_index_base": 0,
+    "verification": "Exact matrix multiplication gives M³=−729I; the rational three-cycle is checked directly.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-12",
+    "title": "Independent forbidden residues",
+    "restatement": "A positive integer is $p$-safe if its distance from every multiple of $p$ exceeds two. Count integers at most $10000$ that are simultaneously $7$-, $11$-, and $13$-safe.",
+    "solution": "The allowed residues modulo $p$ are $3,\\ldots,p-3$, a total of $p-5$. By the Chinese remainder theorem there are $2\\cdot6\\cdot8=96$ safe residues per block of $1001$. Thus $1,\\ldots,10010$ contains $960$ safe numbers. Among the last ten integers only $10006,10007$ qualify (their residues are respectively $-4,-3$ modulo all three moduli). Subtract these to obtain $958$.",
+    "answer": 958,
+    "tags": [
+      "Chinese remainder theorem",
+      "residue counting"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-13",
+    "title": "Sum squared distances before computing rotated vertices",
+    "restatement": "An equilateral triangle $ABC$ has side $\\sqrt{111}$. The two points $D_1,D_2$ satisfy $AD_i=\\sqrt{111}$ and $BD_i=\\sqrt{11}$. For each segment $AD_i$, construct both equilateral third vertices, giving four points $E_1,\\ldots,E_4$. Find $\\sum_{j=1}^4 CE_j^2$.",
+    "solution": "Use vector coordinates with $A=0$, $B=(s,0)$, $C=(s/2,\\sqrt3s/2)$ and $s^2=111$. Subtracting $|D_i-B|^2=11$ from $|D_i|^2=111$ gives $(D_i)_x=211/(2s)$. The two circle intersections have opposite vertical coordinates, so $D_1+D_2=(211/s,0)$.\n\nThe two equilateral third vertices built on $AD_i$ are the rotations $R_{60}D_i$ and $R_{-60}D_i$. Their sum is $2\\cos60^\\circ D_i=D_i$, and each has squared norm $111$. Therefore $\\sum_jE_j=D_1+D_2$ and\n$$\\sum_{j=1}^4|C-E_j|^2\n=4|C|^2+\\sum_j|E_j|^2-2C\\cdot\\sum_jE_j\n=888-211=677.$$\nThis computes the aggregate without evaluating any individual radical coordinate.",
+    "answer": 677,
+    "tags": [
+      "rotation sums",
+      "vector projections",
+      "squared distances"
+    ],
+    "source_review": "All five stored alternatives inspected, using angle-sum cosines, complex rotations, or paired cosine rules. The new proof isolates the common cancellation as a two-rotation vector identity, avoiding the labeling and repeated-term typos in some entries.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_index_base": 0,
+    "verification": "The common horizontal projection is 211/(2√111); the four squared distances sum to 888−211.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  },
+  {
+    "id": "2012-II-14",
+    "title": "Labeled two-regular graphs",
+    "restatement": "Nine labeled people each shake hands with exactly two others. Count possible sets of handshakes modulo $1000$.",
+    "solution": "The handshake graph is a disjoint union of simple cycles of length at least three. The possible component sizes are $9$, $6+3$, $5+4$, and $3+3+3$. Their counts are $8!/2=20160$, $\\binom93(5!/2)=5040$, $\\binom94(3!/2)(4!/2)=4536$, and $9!/((3!)^3 3!)=280$. The sum is $30016$, giving residue $16$. Division by two reverses each cycle; division by $3!$ removes the ordering of equal-sized components.",
+    "answer": 16,
+    "tags": [
+      "graphs",
+      "cycle decompositions",
+      "symmetry"
+    ],
+    "source_review": "Reviewed all available source arguments. The solution here gives an independently written proof, checked against the archived answer. Audit findings: Source 1: The case-tree idea is valid, but several displayed subscripts and parentheses omit multiplicative factors.",
+    "verification": "Independent exact computation passed in tools/verify_middle.py; matches archived answer.",
+    "status": "solved",
+    "source_reviewed_indices": [
+      0,
+      1
+    ],
+    "source_review_scope": "All available downloaded textual solutions reviewed, including principal and alternatives. Embedded or externally linked graphics were not separately rendered.",
+    "source_index_base": 0
+  },
+  {
+    "id": "2012-II-15",
+    "title": "Two circle equations and their common chord",
+    "restatement": "A triangle with $AB=5$, $AC=3$, $BC=7$ has circumcircle $\\omega$. Its internal angle bisector from $A$ meets $BC$ at $D$ and $\\omega$ again at $E$. The circle with diameter $DE$ meets $\\omega$ again at $F\\ne E$. Write $AF^2=m/n$ in lowest terms and find $m+n$.",
+    "solution": "The cosine rule gives $\\cos A=(25+9-49)/(2\\cdot5\\cdot3)=-1/2$, so $A=120^\\circ$. Place $A=(0,0)$ with its bisector on the positive horizontal axis, and choose\n$$B=(5/2,5\\sqrt3/2),\\qquad C=(3/2,-3\\sqrt3/2).$$\nThe angle-bisector ratio $BD:DC=5:3$ gives $D=(15/8,0)$. The circle through $A,B,C$ has equation\n$$x^2+y^2-8x-\\frac2{\\sqrt3}y=0,$$\nso its second horizontal-axis point is $E=(8,0)$. The circle with diameter $DE$ is\n$$x^2+y^2-\\frac{79}{8}x+15=0.$$\nSubtracting these equations gives their common chord line\n$$y=\\frac{15\\sqrt3}{16}(x-8).$$\nPut $t=x-8$ and substitute into the first circle. The equation factors as $t(1568+931t)=0$. The root zero is $E$; the other is $t=-32/19$, giving\n$$F=\\left(\\frac{120}{19},-\\frac{30\\sqrt3}{19}\\right).$$\nIt satisfies both circle equations and differs from $E$, so it is the required point. Hence $AF^2=(14400+2700)/361=900/19$, and $m+n=919$.",
+    "answer": 919,
+    "tags": [
+      "angle bisectors",
+      "circle equations",
+      "radical axis",
+      "exact coordinates"
+    ],
+    "source_review": "All six stored alternatives inspected: inversion with reflection, trigonometric projection, a symmedian argument, an auxiliary diameter, angle chasing, and a longer inversion computation. Several have missing labels or incorrect general factors. The new coordinate proof subtracts the two circle equations and verifies the second intersection directly.",
+    "source_reviewed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_index_base": 0,
+    "verification": "Exact substitution of F verifies both circles and AF²=900/19.",
+    "status": "solved",
+    "source_review_scope": "All downloaded textual solution entries reviewed; external links are assessed only as references unless explicitly stated."
+  }
+]

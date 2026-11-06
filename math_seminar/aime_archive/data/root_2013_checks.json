@@ -1,0 +1,106 @@
+{
+  "scope": "Twenty finite or exact arithmetic checks; not a formal verification of all twenty-three new proofs. Geometry support/containment and angle-branch proofs are written explicitly in the entries.",
+  "passed": 20,
+  "checks": [
+    {
+      "id": "2013-I-01",
+      "check": "Exact proportional travel-time calculation",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-03",
+      "check": "Area fraction from a reciprocal-ratio invariant",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-05",
+      "check": "Difference-of-cubes coefficients",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-07",
+      "check": "Squared norm of the spatial cross product",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-08",
+      "check": "Exhaust all possible integer divisors of 2013",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-09",
+      "check": "Exact crease endpoint and length equations",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-10",
+      "check": "Enumerate all nonreal Gaussian-integer root factors",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-11",
+      "check": "Full CRT period and first positive representative",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-13",
+      "check": "Exact infinite geometric-series formula and reduced denominator",
+      "status": "passed"
+    },
+    {
+      "id": "2013-I-14",
+      "check": "Squared ratio with the surviving sine value",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-01",
+      "check": "Exact conversion from ordinary to decimal day units",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-02",
+      "check": "Enumerate all power-of-two divisors",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-03",
+      "check": "Cumulative burn time exactly at the eighty-fourth centimeter",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-04",
+      "check": "Equilateral coordinate construction in Q(sqrt(3))",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-05",
+      "check": "Exact squared cevian and sine values",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-06",
+      "check": "Exhaust every earlier thousand-block with integer square roots",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-07",
+      "check": "Exhaust feasible workforce (x<356 follows from the work equation)",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-13",
+      "check": "Two squared-distance constraints for the reconstructed triangle",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-14",
+      "check": "Exhaust all admissible divisors for each input",
+      "status": "passed"
+    },
+    {
+      "id": "2013-II-15",
+      "check": "Reduction of the negative-radical representation",
+      "status": "passed"
+    }
+  ]
+}

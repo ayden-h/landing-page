@@ -22,6 +22,8 @@ For 2022-II-08, uniqueness among all positive integers gives 080; restricting th
 
 ## What review establishes
 
+The reconciled edition includes 382 problems, with all 1,209 archived source entries inspected. The [reconciliation report](Reconciliation_Report.md) records the 25 added hybrids and the three excluded borderline cross-references. The additions were transferred from the reviewed all-subject archive; no raw source text was added.
+
 Every included problem has a full newly written solution. All stored solution-text entries for included problems have been inspected, with missing material and link-only entries identified where relevant. Review does not certify every source proof: several sources have correct final answers supported by incomplete or incorrect arguments. Those defects are part of the source notes, not adopted as proof.
 
 Exact check scripts and their result files distinguish a final-answer comparison from an independent enumeration or alternate derivation. The theory book supplies general proofs; finite checks support those proofs but do not replace them. No claim is made that all the classical theorems are new. “Derived” identifies a formulation distilled during this project; it does not assert priority in the mathematical literature.

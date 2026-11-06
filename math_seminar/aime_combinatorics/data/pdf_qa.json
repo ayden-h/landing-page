@@ -1,54 +1,108 @@
 {
   "status": "passed",
-  "rendered_pages_visually_reviewed": 18,
+  "edition": "Reconciled 382-problem edition",
+  "rendered_pages_visually_reviewed": 7,
+  "review_scope": "For the final Markdown-superscript parsing rebuild, all 14 previous first/middle/last and math-heavy samples were rerendered and proved pixel-identical to their previously inspected images. Seven additional pages containing raw-caret passages were rendered and visually inspected. These 21 sampled pages show no clipping, overlap, missing glyphs, or accidental superscript spans; this is not a claim to inspect every page.",
   "compiler_warnings": [],
   "volumes": {
-    "Combinatorics_Problems.pdf": {
-      "pages": 52,
-      "visually_reviewed_pages": [
-        1,
-        9,
-        26,
-        38,
-        52
-      ],
-      "margin_anomalies": [],
-      "sha256": "ce07fa210b16e24cb54da19c2c214d893973f2a628e10956449f9255a5d23328"
-    },
     "Combinatorics_Theory.pdf": {
       "pages": 39,
       "visually_reviewed_pages": [
         1,
-        4,
         20,
-        25,
         33,
         39
       ],
       "margin_anomalies": [],
-      "sha256": "6a79d7103ec40438ad0f9682f4889c7eb549f9300a7fb91305c81e800c797c61"
+      "sha256": "2c82e25b30ef0cba5c4e70d27eba6557517728d1b62790ae67e1fa3ad0af749e",
+      "source_markdown": "theory/Combinatorics_Theory.md",
+      "source_sha256": "65f3bdc5bebb25760fe53f91c3953e919113a6361c08d58b2284e654b0b97164",
+      "author_metadata": "Ayden Bi",
+      "visible_title_page_author": "Ayden Bi",
+      "author_revision_visually_reviewed_pages": [
+        1
+      ],
+      "author_revision_scope": "Only the theory manuscript author changed. The rebuilt title page was rendered and visually inspected; PDF Author metadata was checked explicitly. Prior body-page review remains applicable.",
+      "current_build_new_visual_samples": [],
+      "pixel_identical_previous_sample_pages": [
+        1,
+        20,
+        33,
+        39
+      ]
     },
-    "Combinatorics_Worked_Solutions.pdf": {
-      "pages": 181,
+    "Combinatorics_Problems.pdf": {
+      "pages": 56,
       "visually_reviewed_pages": [
         1,
-        9,
-        91,
-        125,
-        176,
-        180,
-        181
+        11,
+        12,
+        16,
+        18,
+        28,
+        56
       ],
       "margin_anomalies": [],
-      "sha256": "67fb2eec01f9ddc0b707833d153c3672a46d66366d4f23c13da88bd53ba1403e"
+      "sha256": "a146f516e2fb227cbd8facfa8f4be568dad44c996ccc3c9c6a7d264936fd03e7",
+      "source_markdown": "Problems.md",
+      "source_sha256": "d505f3045fe0d1c2f7fc4a742447b78a6f72126d020f579edbbb08f00e19ea73",
+      "current_build_new_visual_samples": [
+        11,
+        12,
+        16,
+        18
+      ],
+      "pixel_identical_previous_sample_pages": [
+        1,
+        28,
+        56
+      ]
+    },
+    "Combinatorics_Worked_Solutions.pdf": {
+      "pages": 195,
+      "visually_reviewed_pages": [
+        1,
+        25,
+        98,
+        149,
+        150,
+        176,
+        177,
+        189,
+        193,
+        195
+      ],
+      "margin_anomalies": [],
+      "sha256": "14c7002d30e076d5d6dbfdbc75376d3159fb70e5b5b1b36f4a78816604606927",
+      "source_markdown": "Worked_Solutions.md",
+      "source_sha256": "8309907a93c9190cfcb431f6c24eee9b311a758aad92fb4fdeb274482e8779a0",
+      "current_build_new_visual_samples": [
+        149,
+        150,
+        189
+      ],
+      "pixel_identical_previous_sample_pages": [
+        1,
+        25,
+        98,
+        176,
+        177,
+        193,
+        195
+      ]
     }
   },
   "repairs": [
-    "Rendered Unicode mathematical symbols with math fonts",
-    "Repaired malformed early-era formulas and control-character damage",
-    "Allowed comma breaks in long inline mathematical inventories",
-    "Removed repeated Solution entries from contents",
-    "Assigned unique PDF page anchors",
-    "Normalized source-review prose spacing"
-  ]
+    "Extended the PDF math filter to render the newly imported Unicode congruence, phi, and all numeric subscript/superscript characters in mathematical fonts. Prior proof texts remain unchanged.",
+    "Disabled Markdown prose-superscript parsing with --from=markdown-superscript, so raw caret arithmetic remains literal rather than swallowing intervening prose into superscripts."
+  ],
+  "build_inputs_sha256": {
+    "tools/build_pdfs.py": "211e18f77dc0dd7b663666479bd79dc1023a6c85c322bd1828e5c3c53e544e79",
+    "tools/pdf_math.lua": "39a982ac8a7471c4de3ad4ef2227757cc91bc2655d665a565dd1568d2d42b063",
+    "tools/pdf_header.tex": "a949684e6114c8a4ad06006cad1aadc7b29af45d18392d9aeb0998f14ac9cc87",
+    "tools/keep_proofs.lua": "32ba2b5d0f8d483f928b17d7d42ba5f6546de79c34fe4fe696952c6da72d9581"
+  },
+  "rendered_pages_verified": 21,
+  "pixel_identical_to_previous_visually_reviewed_pages": 14,
+  "preview_storage_note": "Rendered inspection images were kept in the temporary research cache; the published deliverables are the PDFs and editable manuscripts."
 }

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2012-II-01",
+    "recommendation": "include",
+    "reason": "A bijective integer parameterization counts lattice points on a bounded Diophantine segment; included under the broadened discrete-counting overlap policy."
+  },
+  {
+    "id": "2012-II-10",
+    "recommendation": "include",
+    "reason": "Disjoint interval images classify and count all attainable integer outputs of a floor function."
+  }
+]

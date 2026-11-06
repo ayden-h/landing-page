@@ -1,0 +1,11 @@
+[
+  {
+    "id": "2026-II-11",
+    "proposed_subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "reason": "The negation involution on the finite set of signed square-root sums is essential: exactly seven distinct sums forces zero, after which Vieta determines n; explicit signed-sum enumeration proves attainment.",
+    "status": "proposed_to_root"
+  }
+]

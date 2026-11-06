@@ -1,0 +1,16 @@
+[
+  {
+    "combinatorics_commit": "05553182be4ca48aa7271026a7d1f4c8bccd9ffb",
+    "repository": "ayden-h/landing-page",
+    "directory": "math_seminar/aime_combinatorics",
+    "files_verified_by_git_blob_hash": 763,
+    "problems": 357,
+    "source_entries_inspected": 1136,
+    "pdf_pages": {
+      "theory": 39,
+      "problems": 52,
+      "solutions": 181
+    },
+    "date": "2026-11-06"
+  }
+]

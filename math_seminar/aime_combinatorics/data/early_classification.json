@@ -849,10 +849,12 @@
   {
     "id": "1989-A-14",
     "include": false,
-    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "reason": "A complex-base digit equation reduces to two algebraic cases; the represented-number sum is incidental to that reduction.",
     "tags": [
-      "other-subject"
-    ]
+      "cross-reference",
+      "algebra"
+    ],
+    "full_treatment": "../aime_algebra/worked_solutions/1989-A-14.md"
   },
   {
     "id": "1989-A-15",
@@ -940,11 +942,15 @@
   },
   {
     "id": "1990-A-10",
-    "include": false,
-    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "include": true,
+    "reason": "The number of distinct products of roots of unity is the size of a finite cyclic-group image.",
     "tags": [
-      "other-subject"
-    ]
+      "roots of unity",
+      "finite cyclic groups",
+      "image counting",
+      "least common multiple"
+    ],
+    "reconciliation": "Approved substantive counting or discrete-process hybrid added after the full-subject audit."
   },
   {
     "id": "1990-A-11",
@@ -1006,11 +1012,14 @@
   },
   {
     "id": "1991-A-03",
-    "include": false,
-    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "include": true,
+    "reason": "Ratios of neighboring weighted binomial coefficients determine their unique maximum.",
     "tags": [
-      "other-subject"
-    ]
+      "binomial coefficients",
+      "successive ratios",
+      "unimodality"
+    ],
+    "reconciliation": "Approved substantive counting or discrete-process hybrid added after the full-subject audit."
   },
   {
     "id": "1991-A-04",
@@ -1048,10 +1057,12 @@
   {
     "id": "1991-A-08",
     "include": false,
-    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "reason": "The quadratic-root parameter question reduces directly to signed factor pairs. It remains an algebra/number-theory borderline cross-reference under the agreed editorial boundary.",
     "tags": [
-      "other-subject"
-    ]
+      "cross-reference",
+      "algebra"
+    ],
+    "full_treatment": "../aime_algebra/worked_solutions/1991-A-08.md"
   },
   {
     "id": "1991-A-09",
@@ -1113,11 +1124,15 @@
   },
   {
     "id": "1992-A-01",
-    "include": false,
-    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "include": true,
+    "reason": "Coprime residue classes count the fractions, and a complementary-numerator involution sums them.",
     "tags": [
-      "other-subject"
-    ]
+      "totient function",
+      "involution",
+      "reduced fractions",
+      "residue classes"
+    ],
+    "reconciliation": "Approved substantive counting or discrete-process hybrid added after the full-subject audit."
   },
   {
     "id": "1992-A-02",
@@ -1138,11 +1153,14 @@
   },
   {
     "id": "1992-A-04",
-    "include": false,
-    "reason": "Audited statement: the decisive work is algebra, metric geometry, or pure number-theoretic calculation rather than a substantive counting/probability model; reserved for the other subject volumes.",
+    "include": true,
+    "reason": "Ratios of adjacent Pascal-triangle entries yield two linear equations for their indices.",
     "tags": [
-      "other-subject"
-    ]
+      "Pascal triangle",
+      "binomial ratios",
+      "linear systems"
+    ],
+    "reconciliation": "Approved substantive counting or discrete-process hybrid added after the full-subject audit."
   },
   {
     "id": "1992-A-05",

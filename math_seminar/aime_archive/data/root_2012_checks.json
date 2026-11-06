@@ -1,0 +1,131 @@
+{
+  "scope": "Finite and exact checks supplement the written proofs. Repeated parameter cases count separately. No claim of formal verification of all geometry or analytic arguments.",
+  "passed": 25,
+  "checks": [
+    {
+      "id": "2012-I-02",
+      "check": "Odd increment total and arithmetic mean",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-04",
+      "check": "Simulate actual catch-up times and horse waiting at each post",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-06",
+      "check": "Reduce every possible positive root angle",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-08",
+      "check": "Exact planar-section integral",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-09",
+      "check": "Substitute three free-parameter values in all logarithmic coordinates",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-09",
+      "check": "Substitute three free-parameter values in all logarithmic coordinates",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-09",
+      "check": "Substitute three free-parameter values in all logarithmic coordinates",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-10",
+      "check": "Enumerate all positive square roots up to the tenth candidate",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-12",
+      "check": "Exact normalized side and projection squares",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-13",
+      "check": "Both quadratic-surd squared-side values annihilate the eliminated polynomial",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-14",
+      "check": "Translate independent right triangles to their centroids",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-14",
+      "check": "Translate independent right triangles to their centroids",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-14",
+      "check": "Translate independent right triangles to their centroids",
+      "status": "passed"
+    },
+    {
+      "id": "2012-I-14",
+      "check": "Translate independent right triangles to their centroids",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-01",
+      "check": "Enumerate all positive lattice points in the bounding rectangle",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-02",
+      "check": "Nonzero-ratio target and explicit zero-ratio alternative",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-04",
+      "check": "Reconstruct all three route lengths and verify containment",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-05",
+      "check": "Slant height, altitude, and volume",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-06",
+      "check": "Squared modulus and fourth power of maximizing direction",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-08",
+      "check": "Substitute Gaussian-rational witness into both original equations",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-09",
+      "check": "Exact squared trigonometric ratios and final sum",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-10",
+      "check": "Enumerate each integer output with its only possible floor branch",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-11",
+      "check": "Exact matrix cube and candidate orbit",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-11",
+      "check": "All intermediate iterates stay in the domain",
+      "status": "passed"
+    },
+    {
+      "id": "2012-II-15",
+      "check": "Reconstruct second circle intersection in Q(sqrt(3))",
+      "status": "passed"
+    }
+  ]
+}

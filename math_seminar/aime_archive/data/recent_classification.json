@@ -1,0 +1,2888 @@
+[
+  {
+    "id": "2014-I-01",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The length of a crossed shoelace; Pythagorean theorem, segment lengths supply the essential reduction."
+  },
+  {
+    "id": "2014-I-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Matching colors from two urns; the proof uses probability, total probability."
+  },
+  {
+    "id": "2014-I-03",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Inclusion-exclusion counts admissible coprime numerators; complementary residues also pair the possibilities. The finite coprime-set count is the objective."
+  },
+  {
+    "id": "2014-I-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two trains passing opposite cyclists; relative motion, linear systems supply the essential reduction."
+  },
+  {
+    "id": "2014-I-05",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Disk-separable vertex subsets; the proof uses cyclic intervals, geometry counting."
+  },
+  {
+    "id": "2014-I-06",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Two parabolas with a shared axis; Vieta formulas, divisor pairs supply the essential reduction."
+  },
+  {
+    "id": "2014-I-07",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The largest argument seen from an exterior point; complex loci, tangent extremum supply the essential reduction."
+  },
+  {
+    "id": "2014-I-08",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A four-digit idempotent; Chinese remainder theorem, idempotents supply the essential reduction."
+  },
+  {
+    "id": "2014-I-09",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A cubic designed around a radical; factorization, root ordering, Vieta formulas supply the essential reduction."
+  },
+  {
+    "id": "2014-I-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A disk rolling around a larger disk; rolling circles, angular motion, coordinates supply the essential reduction."
+  },
+  {
+    "id": "2014-I-11",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Diagonal endpoint of a random walk; the proof uses random walks, coordinate bijection, inclusion-exclusion."
+  },
+  {
+    "id": "2014-I-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Disjoint ranges of random functions; the proof uses surjections, Stirling numbers, probability."
+  },
+  {
+    "id": "2014-I-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A square cut by equal perpendicular chords; area ratios, perpendicular projections, quadratic elimination supply the essential reduction."
+  },
+  {
+    "id": "2014-I-14",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Centering symmetric rational poles; symmetric poles, substitutions, extraneous-root control supply the essential reduction."
+  },
+  {
+    "id": "2014-I-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A circle through a right-triangle vertex; equal chords, angle bisectors, circle equations supply the essential reduction."
+  },
+  {
+    "id": "2014-II-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Changing work rates as painters join; work-rate equations, piecewise rates supply the essential reduction."
+  },
+  {
+    "id": "2014-II-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Conditional probability from Venn atoms; the proof uses probability, conditional probability."
+  },
+  {
+    "id": "2014-II-03",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A hinged rectangle retaining its area; area decomposition, Pythagorean theorem supply the essential reduction."
+  },
+  {
+    "id": "2014-II-04",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Compatible repeating blocks; repeating decimals, denominator cancellation, digit bounds supply the essential reduction."
+  },
+  {
+    "id": "2014-II-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two cubics with translated roots; Vieta formulas, translated roots, evaluating factored polynomials supply the essential reduction."
+  },
+  {
+    "id": "2014-II-06",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A hidden die and Bayesian updating; the proof uses Bayes theorem, probability."
+  },
+  {
+    "id": "2014-II-07",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An alternating logarithmic product; telescoping products, parity, logarithms supply the essential reduction."
+  },
+  {
+    "id": "2014-II-08",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Three mutually tangent circles and a diameter; circle tangency, distance equations supply the essential reduction."
+  },
+  {
+    "id": "2014-II-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A run of three on a cycle; the proof uses transfer matrices, cyclic runs."
+  },
+  {
+    "id": "2014-II-10",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A reciprocal equation creates an equilateral triangle; roots of unity, complex ratios, regular polygons supply the essential reduction."
+  },
+  {
+    "id": "2014-II-11",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An isosceles extension of a triangle; midpoint theorem, perpendicular slopes, isosceles triangles supply the essential reduction."
+  },
+  {
+    "id": "2014-II-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A triple-angle condition forces one angle; trigonometric factorization, cosine law, extremal side length supply the essential reduction."
+  },
+  {
+    "id": "2014-II-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Shoe matching and long cycles; the proof uses permutation cycles, probability."
+  },
+  {
+    "id": "2014-II-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Midpoint projections on an angle bisector; angle bisectors, orthogonal projection, midpoint geometry supply the essential reduction."
+  },
+  {
+    "id": "2014-II-15",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The prime-multiplication process is conjugate to a binary counter; a bijection to bit states proves the first occurrence index."
+  },
+  {
+    "id": "2015-I-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Pairing two alternating product sums; telescoping differences, arithmetic sums supply the essential reduction."
+  },
+  {
+    "id": "2015-I-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Exactly one repeated nationality; the proof uses casework, combinations, probability."
+  },
+  {
+    "id": "2015-I-03",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A prime concealed in a cube; difference of cubes, prime factorization supply the essential reduction."
+  },
+  {
+    "id": "2015-I-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Midpoints between adjacent equilateral triangles; coordinates, midpoint vectors, determinant area supply the essential reduction."
+  },
+  {
+    "id": "2015-I-05",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "First matching sock pair on day three; the proof uses deferred decisions, inclusion-exclusion, probability."
+  },
+  {
+    "id": "2015-I-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two equal-step arcs sharing endpoints; inscribed angles, central angles, linear systems supply the essential reduction."
+  },
+  {
+    "id": "2015-I-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two nested squares in a square; similar right triangles, nested squares, length ratios supply the essential reduction."
+  },
+  {
+    "id": "2015-I-08",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Digit sums determine the carries; digit sums, carry counting, lexicographic minimization supply the essential reduction."
+  },
+  {
+    "id": "2015-I-09",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "When a multiplicative recurrence reaches zero; the proof uses recurrence invariants, inclusion-exclusion."
+  },
+  {
+    "id": "2015-I-10",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A cubic attaining only two levels; root counting, Vieta formulas, polynomial level sets supply the essential reduction."
+  },
+  {
+    "id": "2015-I-11",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Integral isosceles triangles with a fixed incenter distance; incenter projection, double angles, integer bounds supply the essential reduction."
+  },
+  {
+    "id": "2015-I-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Mean minimum of a large subset; the proof uses gap bijection, expectation."
+  },
+  {
+    "id": "2015-I-13",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A product over all odd degree angles; roots of unity, trigonometric products, prime exponents supply the essential reduction."
+  },
+  {
+    "id": "2015-I-14",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Parity of piecewise-linear area; the proof uses parity, block counting."
+  },
+  {
+    "id": "2015-I-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The area of an oblique cylinder section; orthogonal projection, area scaling, circular segments supply the essential reduction."
+  },
+  {
+    "id": "2015-II-01",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Two percentage relations force a least common multiple; reduced denominators, least common multiples supply the essential reduction."
+  },
+  {
+    "id": "2015-II-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Conditioning on enrollment; the proof uses conditional probability."
+  },
+  {
+    "id": "2015-II-03",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A multiple with a prescribed digit sum; digit sums modulo nine, arithmetic progressions supply the essential reduction."
+  },
+  {
+    "id": "2015-II-04",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Logarithmic lengths form a familiar triangle; logarithm laws, isosceles trapezoids, Pythagorean triples supply the essential reduction."
+  },
+  {
+    "id": "2015-II-05",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Adjacent cells in a random pair; the proof uses double counting, probability."
+  },
+  {
+    "id": "2015-II-06",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Two possible cubics with positive integer roots; Vieta formulas, sums of three squares, bounded enumeration supply the essential reduction."
+  },
+  {
+    "id": "2015-II-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The area polynomial of an inscribed rectangle; similarity, Heron formula, quadratic area law supply the essential reduction."
+  },
+  {
+    "id": "2015-II-08",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An integer inequality bounds a cubic quotient; shifted product bounds, finite integer optimization supply the essential reduction."
+  },
+  {
+    "id": "2015-II-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A cube corner enters a circular opening; trihedral tetrahedra, equilateral cross-sections, volume supply the essential reduction."
+  },
+  {
+    "id": "2015-II-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Permutations with bounded downward steps; the proof uses insertion bijection, recurrences."
+  },
+  {
+    "id": "2015-II-11",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A line through the circumcenter perpendicular to a radius; circumcenter perpendicular bisectors, right-triangle similarity supply the essential reduction."
+  },
+  {
+    "id": "2015-II-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Binary strings with bounded runs; the proof uses runs, recurrences."
+  },
+  {
+    "id": "2015-II-13",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Negative partial sums of successive sines; trigonometric telescoping, irrational rotations, floor sequences supply the essential reduction."
+  },
+  {
+    "id": "2015-II-14",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Extract the requested symmetric quantity directly; symmetric polynomials, elimination, target-oriented substitution supply the essential reduction."
+  },
+  {
+    "id": "2015-II-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equal areas cut from two tangent circles; homothety, signed distances, circle equations supply the essential reduction."
+  },
+  {
+    "id": "2016-I-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Opposite-ratio geometric series; geometric series, shared denominators supply the essential reduction."
+  },
+  {
+    "id": "2016-I-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Weighted dice; the proof uses weighted counting, probability."
+  },
+  {
+    "id": "2016-I-03",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Downward simple paths on an icosahedron; the proof uses product rule, graph paths."
+  },
+  {
+    "id": "2016-I-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A dihedral angle in a hexagonal prism; dihedral cross-sections, regular hexagons, right triangles supply the essential reduction."
+  },
+  {
+    "id": "2016-I-05",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Two arithmetic totals share a day count; arithmetic sums, divisibility, common factors supply the essential reduction."
+  },
+  {
+    "id": "2016-I-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The arc midpoint and the incenter; arc midpoint lemma, incenter angles, similar triangles supply the essential reduction."
+  },
+  {
+    "id": "2016-I-07",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Real values of a complex radical expression; principal complex square roots, shifted factorization, divisor pairs supply the essential reduction."
+  },
+  {
+    "id": "2016-I-08",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Minimizing a digit-column sum; the proof uses digit arrangements, extremal counting."
+  },
+  {
+    "id": "2016-I-09",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A rectangle optimization with a segment inconsistency; trigonometric optimization, feasibility of equality, segment constraints supply the essential reduction."
+  },
+  {
+    "id": "2016-I-10",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Alternating geometric and arithmetic triples; square-root linearization, integer differences, square divisibility supply the essential reduction."
+  },
+  {
+    "id": "2016-I-11",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A polynomial shift equation; polynomial functional equations, forced roots, periodic polynomials supply the essential reduction."
+  },
+  {
+    "id": "2016-I-12",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The first value with four prime factors; quadratic residues, prime-factor lower bounds, monotonicity supply the essential reduction."
+  },
+  {
+    "id": "2016-I-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Reflected random walk hitting time; the proof uses hitting times, difference equations."
+  },
+  {
+    "id": "2016-I-14",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Lattice shapes intersected by a rational line; the proof uses lattice counting, periodicity."
+  },
+  {
+    "id": "2016-I-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A tangent configuration gives a difference of squares; radical axes, Miquel theorem, tangent power, directed-angle similarity supply the essential reduction."
+  },
+  {
+    "id": "2016-II-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A geometric allocation becomes arithmetic; arithmetic mean, geometric mean, quadratic roots supply the essential reduction."
+  },
+  {
+    "id": "2016-II-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Dependent rain events; the proof uses total probability, complements."
+  },
+  {
+    "id": "2016-II-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Three logarithms share one product; logarithm elimination, monotonicity, shared products supply the essential reduction."
+  },
+  {
+    "id": "2016-II-04",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Layer counts determine a colored box; the proof uses double counting, constructive existence."
+  },
+  {
+    "id": "2016-II-05",
+    "subjects": [
+      "geometry",
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "An infinite chain of right-triangle altitudes; similarity chains, geometric series, primitive Pythagorean triples supply the essential reduction."
+  },
+  {
+    "id": "2016-II-06",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Absolute coefficient sum by parity; the proof uses generating functions, parity."
+  },
+  {
+    "id": "2016-II-07",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Three nested squares with two integer areas; nested-square similarity, square divisibility, integer extrema supply the essential reduction."
+  },
+  {
+    "id": "2016-II-08",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Three distinct factors of a product; the proof uses prime-exponent distributions, stars and bars, symmetry."
+  },
+  {
+    "id": "2016-II-09",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "An arithmetic sequence plus a geometric sequence; mixed sequences, exponential bounds, divisibility supply the essential reduction."
+  },
+  {
+    "id": "2016-II-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A chord length from a ratio of subtriangle areas; sine area ratios, inscribed angles, chord ratios supply the essential reduction."
+  },
+  {
+    "id": "2016-II-11",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Divisor counts of perfect powers; the proof uses inclusion-exclusion, divisor counts."
+  },
+  {
+    "id": "2016-II-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Proper colorings of a six-cycle; the proof uses graph coloring, transfer matrices."
+  },
+  {
+    "id": "2016-II-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Mean minimum score of a permutation board; the proof uses tail-sum expectation, restricted permutations."
+  },
+  {
+    "id": "2016-II-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A common sphere through a triangular bipyramid; sphere-axis reduction, dihedral cross-sections, tangent addition supply the essential reduction."
+  },
+  {
+    "id": "2016-II-15",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An apparent maximum forced by Cauchy equality; Cauchy-Schwarz equality, quadratic constraints, normalization supply the essential reduction."
+  },
+  {
+    "id": "2017-I-01",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Triangles from boundary points; the proof uses complementary counting, geometry counting."
+  },
+  {
+    "id": "2017-I-02",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Equal remainders determine two divisors; equal residues, gcd of differences supply the essential reduction."
+  },
+  {
+    "id": "2017-I-03",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A periodic sequence of triangular-number digits; modular periodicity, triangular numbers supply the essential reduction."
+  },
+  {
+    "id": "2017-I-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal lateral edges above an isosceles base; circumradius from area, equidistant apex, tetrahedron volume supply the essential reduction."
+  },
+  {
+    "id": "2017-I-05",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "One rational number in two bases; base expansions, integer and fractional parts, digit restrictions supply the essential reduction."
+  },
+  {
+    "id": "2017-I-06",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A chord intersecting an isosceles triangle; the proof uses geometric probability, complementary counting."
+  },
+  {
+    "id": "2017-I-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A triple Vandermonde sum; the proof uses Vandermonde identity, double counting."
+  },
+  {
+    "id": "2017-I-08",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two random right-triangle vertices; the proof uses geometric probability."
+  },
+  {
+    "id": "2017-I-09",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A concatenation-type recurrence modulo99; recurrence reduction, Chinese remainder theorem, polynomial congruences supply the essential reduction."
+  },
+  {
+    "id": "2017-I-10",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A real cross ratio traces a circle; real cross ratios, cyclic loci, perpendicular bisectors supply the essential reduction."
+  },
+  {
+    "id": "2017-I-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Median of row medians; the proof uses order statistics, symmetry."
+  },
+  {
+    "id": "2017-I-12",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Product-free subsets; the proof uses forbidden configurations, casework."
+  },
+  {
+    "id": "2017-I-13",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The last gap between consecutive cubes; consecutive-power gaps, monotonic ratios, threshold analysis supply the essential reduction."
+  },
+  {
+    "id": "2017-I-14",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Nested logarithms become a monotone power equation; nested logarithms, monotonic power functions, repeated squaring supply the essential reduction."
+  },
+  {
+    "id": "2017-I-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The smallest equilateral triangle between three sides; rotation coordinates, linear constraints, Cauchy-Schwarz equality supply the essential reduction."
+  },
+  {
+    "id": "2017-II-01",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Subsets avoiding two containers; the proof uses inclusion-exclusion, subsets."
+  },
+  {
+    "id": "2017-II-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Weighted tournament champion; the proof uses total probability, tournaments."
+  },
+  {
+    "id": "2017-II-03",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Voronoi region inside a triangle; the proof uses geometric probability."
+  },
+  {
+    "id": "2017-II-04",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Ternary digit avoidance; the proof uses digit counting, prefix decomposition."
+  },
+  {
+    "id": "2017-II-05",
+    "subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The six edges of K4 split into three complementary matchings. Pigeonhole among four known edge sums bounds the vertex sum; an explicit realization proves equality."
+  },
+  {
+    "id": "2017-II-06",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A square squeezed between nearby shifted squares; near-square bounds, finite Diophantine reduction supply the essential reduction."
+  },
+  {
+    "id": "2017-II-07",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Count parameters after enforcing the logarithm domain; logarithm domains, parameter quadratics, root location supply the essential reduction."
+  },
+  {
+    "id": "2017-II-08",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Integrality of a truncated exponential series; denominator valuations, necessary congruences, residue classes supply the essential reduction."
+  },
+  {
+    "id": "2017-II-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "An eight-edge bipartite covering; the proof uses bipartite graphs, conditional probability."
+  },
+  {
+    "id": "2017-II-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "An area bisector in a cut rectangle; coordinate intersections, area subtraction, area bisectors supply the essential reduction."
+  },
+  {
+    "id": "2017-II-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Strong tournaments on five vertices; the proof uses tournaments, strong connectivity, inclusion-exclusion."
+  },
+  {
+    "id": "2017-II-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The limit point of rotating nested circles; complex geometric series, nested circles, contraction limits supply the essential reduction."
+  },
+  {
+    "id": "2017-II-13",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Isosceles triangles in regular polygons; the proof uses geometry counting, periodic cases."
+  },
+  {
+    "id": "2017-II-14",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Lines containing exactly eight lattice points; the proof uses lattice lines, primitive directions."
+  },
+  {
+    "id": "2017-II-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The geometric median of a disphenoid; disphenoid coordinates, supporting-plane inequality, geometric median supply the essential reduction."
+  },
+  {
+    "id": "2018-I-01",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Integer-root quadratics counted by a sum; the proof uses lattice point counting, algebra hybrid."
+  },
+  {
+    "id": "2018-I-02",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A digit permutation in three bases; base expansions, linear elimination, digit bounds supply the essential reduction."
+  },
+  {
+    "id": "2018-I-03",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Contiguous color blocks in a sample; the proof uses multiset sampling, runs, probability."
+  },
+  {
+    "id": "2018-I-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "An equal-sided chain inside an isosceles triangle; cosine-law cancellation, isosceles subtriangles supply the essential reduction."
+  },
+  {
+    "id": "2018-I-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two logarithmic equations restrict a homogeneous ratio; change of logarithm base, homogeneous factorization, domain checks supply the essential reduction."
+  },
+  {
+    "id": "2018-I-06",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Two disjoint root-of-unity families; conjugation on the unit circle, roots of unity, disjoint root families supply the essential reduction."
+  },
+  {
+    "id": "2018-I-07",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Isosceles triangles in a hexagonal prism; the proof uses geometry counting, distance classes."
+  },
+  {
+    "id": "2018-I-08",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The largest disk in an equiangular hexagon; equiangular polygon closure, parallel-strip bounds, feasible inscribed disk supply the essential reduction."
+  },
+  {
+    "id": "2018-I-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Two prescribed pair sums; the proof uses overcount correction, graph edges."
+  },
+  {
+    "id": "2018-I-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Directed walk on two pentagonal rings; the proof uses walks, run decomposition, Vandermonde identity."
+  },
+  {
+    "id": "2018-I-11",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A two-digit ending requires prime-square orders; multiplicative orders, prime-square lifting, Chinese remainder theorem supply the essential reduction."
+  },
+  {
+    "id": "2018-I-12",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Subset sums modulo three; the proof uses residue states, generating functions."
+  },
+  {
+    "id": "2018-I-13",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The area between two subtriangle incenters; incenter angle formulas, sine-law optimization, half-angle products supply the essential reduction."
+  },
+  {
+    "id": "2018-I-14",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "First arrival on a heptagon; the proof uses absorbing walks, dynamic programming."
+  },
+  {
+    "id": "2018-I-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three cyclic side orders share an area invariant; Ptolemy theorem, circumradius area formula, side-order invariants supply the essential reduction."
+  },
+  {
+    "id": "2018-II-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A return trip has twice the meeting time; relative speed, equal-time equations supply the essential reduction."
+  },
+  {
+    "id": "2018-II-02",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A recurring triple proves periodicity; finite-state recurrence, modular periodicity supply the essential reduction."
+  },
+  {
+    "id": "2018-II-03",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A square and a cube in the same base; base notation, prime divisibility, bounded cubes supply the essential reduction."
+  },
+  {
+    "id": "2018-II-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Six regions of a crossed octagon; self-intersecting polygons, line intersections, triangle decomposition supply the essential reduction."
+  },
+  {
+    "id": "2018-II-05",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Recover a norm without choosing square-root branches; symmetric complex expressions, modulus of a square, branch avoidance supply the essential reduction."
+  },
+  {
+    "id": "2018-II-06",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Random parameter with four real roots; the proof uses continuous probability, algebra hybrid."
+  },
+  {
+    "id": "2018-II-07",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Rational lengths among equal-area parallel slices; similarity area ratios, squarefree kernels, rational square roots supply the essential reduction."
+  },
+  {
+    "id": "2018-II-08",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Axis jumps of sizes one and two; the proof uses lattice paths, dynamic programming."
+  },
+  {
+    "id": "2018-II-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A fan of triangle centroids is a scaled midpoint polygon; centroid homothety, midpoint polygons, area scaling supply the essential reduction."
+  },
+  {
+    "id": "2018-II-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Functions whose second image is fixed; the proof uses functional graphs, labeled structures."
+  },
+  {
+    "id": "2018-II-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Indecomposable permutations; the proof uses canonical decomposition, recurrences."
+  },
+  {
+    "id": "2018-II-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An area balance bisects one diagonal; opposite area balance, diagonal bisection, cosine-law systems supply the essential reduction."
+  },
+  {
+    "id": "2018-II-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Parity of waiting for a die pattern; the proof uses pattern automata, probability generating functions."
+  },
+  {
+    "id": "2018-II-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A tangent through a near chord endpoint; equal tangents, tangent-chord theorem, harmonic length relation supply the essential reduction."
+  },
+  {
+    "id": "2018-II-15",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Integer bi-Lipschitz sequences; the proof uses bounded compositions, local constraints."
+  },
+  {
+    "id": "2019-I-01",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A sum of strings of nines; decimal place value, subtraction with borrowing supply the essential reduction."
+  },
+  {
+    "id": "2019-I-02",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A gap between ordered samples; the proof uses symmetry, probability."
+  },
+  {
+    "id": "2019-I-03",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "An inset hexagon in a right triangle; area subtraction, sine area formula supply the essential reduction."
+  },
+  {
+    "id": "2019-I-04",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Ordered substitutions; the proof uses sequential counting, falling factorials."
+  },
+  {
+    "id": "2019-I-05",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Hitting the corner before either axis; the proof uses lattice paths, multinomial counting, probability."
+  },
+  {
+    "id": "2019-I-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two perpendiculars turn a product into a square; right-triangle projection theorem, similarity supply the essential reduction."
+  },
+  {
+    "id": "2019-I-07",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Prime exponents hidden in gcd and lcm logarithms; gcd-lcm product, prime valuations, logarithms supply the essential reduction."
+  },
+  {
+    "id": "2019-I-08",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two-variable power sums from one product; symmetric power sums, recurrence, trigonometric normalization supply the essential reduction."
+  },
+  {
+    "id": "2019-I-09",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Consecutive integers with seven divisors in total; divisor-count patterns, prime powers, bounded prime search supply the essential reduction."
+  },
+  {
+    "id": "2019-I-10",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Read coefficients before expanding a large cube; Vieta formulas, low-degree coefficient extraction, repeated roots supply the essential reduction."
+  },
+  {
+    "id": "2019-I-11",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A circle tangent to all three excircles; inradius and exradii, circle tangency, primitive integer ratios supply the essential reduction."
+  },
+  {
+    "id": "2019-I-12",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A right angle becomes a purely imaginary quotient; complex angle quotient, polynomial cancellation, nondegeneracy supply the essential reduction."
+  },
+  {
+    "id": "2019-I-13",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two cyclic quadrilaterals share a radical axis; cyclic similarities, radical-axis power, cosine law supply the essential reduction."
+  },
+  {
+    "id": "2019-I-14",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "An eighth power forces order sixteen; multiplicative order, prime divisor restrictions, repeated squaring supply the essential reduction."
+  },
+  {
+    "id": "2019-I-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two internally tangent circles locate a chord midpoint; homothety of tangent circles, reflected chord endpoints, power of a point supply the essential reduction."
+  },
+  {
+    "id": "2019-II-01",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The overlap of two congruent triangles; congruent-triangle symmetry, coordinate intersection, area supply the essential reduction."
+  },
+  {
+    "id": "2019-II-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Hitting a site with jumps one and two; the proof uses hitting probabilities, recurrences."
+  },
+  {
+    "id": "2019-II-03",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Overlapping products of seven integers; the proof uses product rule, divisor distributions."
+  },
+  {
+    "id": "2019-II-04",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A square product of four die rolls; the proof uses parity vectors, recurrence, probability."
+  },
+  {
+    "id": "2019-II-05",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Ambassadors with adjacent advisors; the proof uses runs, cyclic arrangements, matchings."
+  },
+  {
+    "id": "2019-II-06",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A nested logarithm is a second linear variable; nested-log substitution, change of base, linear systems supply the essential reduction."
+  },
+  {
+    "id": "2019-II-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three parallel cuts determine a homothetic triangle; parallel-line barycentrics, signed similarity, perimeter scaling supply the essential reduction."
+  },
+  {
+    "id": "2019-II-08",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A coefficient bound attained at a sixth root of unity; roots of unity, real-imaginary comparison, equality in an upper bound supply the essential reduction."
+  },
+  {
+    "id": "2019-II-09",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Multiples of twenty having twenty divisors; divisor-count factorization, prime valuations, bounded primes supply the essential reduction."
+  },
+  {
+    "id": "2019-II-10",
+    "subjects": [
+      "algebra",
+      "number_theory",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "An infinite tangent-sign itinerary is encoded by the binary digits of a doubling orbit, and the periodic word determines the permitted angle."
+  },
+  {
+    "id": "2019-II-11",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two tangent circles and a median; inversion of tangent circles, parallelogram, median scaling supply the essential reduction."
+  },
+  {
+    "id": "2019-II-12",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Divisibility chains with prescribed sum; the proof uses divisor recurrences, canonical normalization."
+  },
+  {
+    "id": "2019-II-13",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Curved sector areas are affine in the interior point; affine area functions, regular-polygon normals, signed displacement supply the essential reduction."
+  },
+  {
+    "id": "2019-II-14",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A three-denomination Frobenius problem; the proof uses numerical semigroups, residue classes."
+  },
+  {
+    "id": "2019-II-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two chord powers recover both sides of a triangle; power of a point, diameter circle, linearized cosine law supply the essential reduction."
+  },
+  {
+    "id": "2020-I-01",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three equal-length steps force a seventh of a straight angle; isosceles angle chasing, exterior angles supply the essential reduction."
+  },
+  {
+    "id": "2020-I-02",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A geometric progression with negative logarithm terms; change of logarithm base, geometric progression, zero-case exclusion supply the essential reduction."
+  },
+  {
+    "id": "2020-I-03",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A shared set of digits in bases eleven and eight; base conversion, digit bounds, linear congruences supply the essential reduction."
+  },
+  {
+    "id": "2020-I-04",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A truncated prefix must divide the suffix; prefix-suffix divisibility, divisor enumeration, digit sums supply the essential reduction."
+  },
+  {
+    "id": "2020-I-05",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "One deletion makes a permutation monotone; the proof uses insertion-deletion bijection, overcount correction."
+  },
+  {
+    "id": "2020-I-06",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equal spheres resting in unequal circular holes; sphere cross-sections, center distances, radical equations supply the essential reduction."
+  },
+  {
+    "id": "2020-I-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A balanced committee bijection; the proof uses complement bijection, Vandermonde identity."
+  },
+  {
+    "id": "2020-I-08",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A shrinking spiral is a complex geometric series; complex geometric series, rotation and scaling, modulus supply the essential reduction."
+  },
+  {
+    "id": "2020-I-09",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A random chain of divisors; the proof uses order-preserving tuples, stars and bars, probability."
+  },
+  {
+    "id": "2020-I-10",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A missing prime power constrains exponential divisibility; prime valuations, missing exponents, finite minimality bounds supply the essential reduction."
+  },
+  {
+    "id": "2020-I-11",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Counting coefficients through common images; the proof uses bounded lattice counting, algebra hybrid."
+  },
+  {
+    "id": "2020-I-12",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Prime-power divisibility after selecting an exponent class; lifting the exponent, multiplicative order, least common multiples supply the essential reduction."
+  },
+  {
+    "id": "2020-I-13",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A perpendicular bisector cuts two angle bisectors; angle-bisector theorem, half-angle slopes, coordinate area supply the essential reduction."
+  },
+  {
+    "id": "2020-I-14",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two fibers of a monic quadratic; polynomial composition, quadratic fibers, Vieta formulas, existence checks supply the essential reduction."
+  },
+  {
+    "id": "2020-I-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An orthocenter tangent determines a chord and an altitude; orthocenter reflection, circle equations, tangent line, chord roots supply the essential reduction."
+  },
+  {
+    "id": "2020-II-01",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Square divisors of a prime-power product; prime-factor exponents, square divisors supply the essential reduction."
+  },
+  {
+    "id": "2020-II-02",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A random slope in a square; the proof uses geometric probability."
+  },
+  {
+    "id": "2020-II-03",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Cancel a common logarithm factor; change of base, domain restrictions supply the essential reduction."
+  },
+  {
+    "id": "2020-II-04",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A quarter turn with an unknown center; rotation vectors, fixed-center equations supply the essential reduction."
+  },
+  {
+    "id": "2020-II-05",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The smallest integer with nested digit-sum restrictions; minimal digit-sum representation, greedy place-value exchange, nested bases supply the essential reduction."
+  },
+  {
+    "id": "2020-II-06",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A rational recurrence with a five-step return; rational recurrence, symbolic periodicity, state repetition supply the essential reduction."
+  },
+  {
+    "id": "2020-II-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The largest sphere in two perpendicular cones; cone supporting planes, symmetric optimization, attained upper bound supply the essential reduction."
+  },
+  {
+    "id": "2020-II-08",
+    "subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The proof constructs exact recursively generated zero sets, removes duplicate signed representations, and tracks their parity-restricted intervals."
+  },
+  {
+    "id": "2020-II-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Avoiding former neighbors; the proof uses inclusion-exclusion, block contraction."
+  },
+  {
+    "id": "2020-II-10",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Clear denominators before reducing a cube sum; power-sum identity, modular denominator care, divisor candidates supply the essential reduction."
+  },
+  {
+    "id": "2020-II-11",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Three pairwise sums of monic quadratics; shared-root factorization, Vieta formulas, linear reconstruction supply the essential reduction."
+  },
+  {
+    "id": "2020-II-12",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A line crossing a numbered grid; the proof uses lattice geometry, casework."
+  },
+  {
+    "id": "2020-II-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Tangent lengths and a monotone angle sum; tangent-length systems, exterior-angle closure, monotonicity supply the essential reduction."
+  },
+  {
+    "id": "2020-II-14",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Iterated fractional-part preimages; the proof uses inverse branches, combinations with repetition."
+  },
+  {
+    "id": "2020-II-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A projection parallelogram from two circle tangents; tangent-chord angles, projection parallelogram, parallelogram law supply the essential reduction."
+  },
+  {
+    "id": "2021-I-01",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "One loss in a persistent two-state process; the proof uses Markov chains, weighted words."
+  },
+  {
+    "id": "2021-I-02",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two rectangles sharing a diagonal; overlapping rectangles, similar right triangles, parallelogram area supply the essential reduction."
+  },
+  {
+    "id": "2021-I-03",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Differences of powers of two; the proof uses unique representations, valuation counting."
+  },
+  {
+    "id": "2021-I-04",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Three strictly increasing piles; the proof uses partitions, floor sums."
+  },
+  {
+    "id": "2021-I-05",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Integer arithmetic progressions satisfying a square identity; arithmetic progression symmetry, rational divisibility, square testing supply the essential reduction."
+  },
+  {
+    "id": "2021-I-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A spatial British-flag identity; squared-distance cancellation, cube coordinates, British-flag identity supply the essential reduction."
+  },
+  {
+    "id": "2021-I-07",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Simultaneous sine maxima; the proof uses equivalence classes, trigonometry hybrid."
+  },
+  {
+    "id": "2021-I-08",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Counting levels with twelve preimages; the proof uses preimage counting, algebra hybrid."
+  },
+  {
+    "id": "2021-I-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three altitudes determine a trapezoid through a side ratio; inverse altitude ratios, Heron formula, trapezoid overhangs supply the essential reduction."
+  },
+  {
+    "id": "2021-I-10",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The proof enumerates distinguished reduced-fraction states via a prime-removal dynamical process and proves no intermediate state is omitted."
+  },
+  {
+    "id": "2021-I-11",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Projecting a quadrilateral onto its opposite diagonals; projection similarity, diagonal cosine identity, Ptolemy theorem supply the essential reduction."
+  },
+  {
+    "id": "2021-I-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Three frogs until their first collision; the proof uses symmetry reduction, absorbing Markov chains."
+  },
+  {
+    "id": "2021-I-13",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "An affine power difference measures a radical-axis distance; affine circle powers, radical-axis distance, chord angle supply the essential reduction."
+  },
+  {
+    "id": "2021-I-14",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A universal divisor-sum congruence without advanced prime distribution; multiplicative divisor sums, explicit primitive roots, universal congruences supply the essential reduction."
+  },
+  {
+    "id": "2021-I-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Perpendicular parabolas share a circle of intersection; linear combinations of conics, circle completion, real-root sign intervals supply the essential reduction."
+  },
+  {
+    "id": "2021-II-01",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Mean of three-digit palindromes; the proof uses linearity of expectation, digit symmetry."
+  },
+  {
+    "id": "2021-II-02",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "An equilateral slice and an exterior isosceles triangle; equilateral similarity, obtuse isosceles triangle, area ratio supply the essential reduction."
+  },
+  {
+    "id": "2021-II-03",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Cyclic products modulo three; the proof uses residue classes, cyclic counting."
+  },
+  {
+    "id": "2021-II-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Missing coefficients determine a shared conjugate pair; conjugate roots, Vieta formulas, missing coefficients supply the essential reduction."
+  },
+  {
+    "id": "2021-II-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "When fixed sides and area specify one obtuse triangle; sine-area ambiguity, obtuse-triangle threshold, endpoint analysis supply the essential reduction."
+  },
+  {
+    "id": "2021-II-06",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "An equality characterizing nested sets; the proof uses set atoms, inclusion-exclusion."
+  },
+  {
+    "id": "2021-II-07",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Partial symmetric sums determine variables in reverse order; triangular symmetric elimination, discriminant feasibility supply the essential reduction."
+  },
+  {
+    "id": "2021-II-08",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Nonbacktracking walk on a cube; the proof uses memory states, nonbacktracking walks."
+  },
+  {
+    "id": "2021-II-09",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Counting exponent pairs by valuations; the proof uses valuation classes, number theory hybrid."
+  },
+  {
+    "id": "2021-II-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Three spheres determine the opening of a common wedge; tangent sphere contact distances, dihedral cross-section, similar right triangles supply the essential reduction."
+  },
+  {
+    "id": "2021-II-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Learning from simultaneous ignorance; the proof uses epistemic elimination, finite sets."
+  },
+  {
+    "id": "2021-II-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Diagonal angle from area and alternating side squares; diagonal area formula, alternating squared-side identity supply the essential reduction."
+  },
+  {
+    "id": "2021-II-13",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Lift an exponential fixed point through powers of five; Chinese remainder theorem, truncated binomial expansion, congruence lifting supply the essential reduction."
+  },
+  {
+    "id": "2021-II-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two right-angle circles transfer an angle; cyclic right-angle quadrilaterals, circumcenter angles, angle-branch selection supply the essential reduction."
+  },
+  {
+    "id": "2021-II-15",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Walking to the next square with two step sizes; next-square stopping times, parity, linear Diophantine reduction supply the essential reduction."
+  },
+  {
+    "id": "2022-I-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Cancel the quadratic terms before evaluating; linear cancellation, interpolation supply the essential reduction."
+  },
+  {
+    "id": "2022-I-02",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A cyclic digit shift in two bases; positional notation, digit bounds, modular elimination supply the essential reduction."
+  },
+  {
+    "id": "2022-I-03",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Angle bisectors meet on the trapezoid midline; angle-bisector distances, trapezoid midline, hypotenuse midpoint supply the essential reduction."
+  },
+  {
+    "id": "2022-I-04",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Roots-of-unity exponent pairs; the proof uses residue counting, roots of unity."
+  },
+  {
+    "id": "2022-I-05",
+    "subjects": [
+      "algebra",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Subtract squared swimming velocities; relative velocity, difference of squares, symmetry supply the essential reduction."
+  },
+  {
+    "id": "2022-I-06",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Avoiding four-term progressions; the proof uses forbidden subsets, casework."
+  },
+  {
+    "id": "2022-I-07",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A minimal positive ratio of digit products; the proof uses extremal counting, product partitions."
+  },
+  {
+    "id": "2022-I-08",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Intersections of the three vertex circles; internal circle tangency, rotational symmetry, chord coordinates supply the essential reduction."
+  },
+  {
+    "id": "2022-I-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Two copies in opposite parity positions; the proof uses parity bijection, multiset permutations."
+  },
+  {
+    "id": "2022-I-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal-radius slices of tangent spheres; orthogonal projection, sphere cross-sections, difference of squares supply the essential reduction."
+  },
+  {
+    "id": "2022-I-11",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Tangent lengths determine a parallelogram; power of a point, equal tangents, parallel-side coordinates supply the essential reduction."
+  },
+  {
+    "id": "2022-I-12",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Summing intersection sizes; the proof uses pointing, double counting, Vandermonde identity."
+  },
+  {
+    "id": "2022-I-13",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Distinct reduced numerators; the proof uses inclusion-exclusion, divisor lattice."
+  },
+  {
+    "id": "2022-I-14",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Perimeter-bisecting cleavers determine a120-degree angle; cleaver theorem, cosine law, quadratic-form bounds supply the essential reduction."
+  },
+  {
+    "id": "2022-I-15",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Eliminate radicals while retaining their signs; radical elimination, retained sign constraints, symmetric factorization supply the essential reduction."
+  },
+  {
+    "id": "2022-II-01",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A population ratio constrains the total size; divisibility of population totals, least common multiple, feasibility supply the essential reduction."
+  },
+  {
+    "id": "2022-II-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A randomly seeded tournament; the proof uses conditioning, tournaments."
+  },
+  {
+    "id": "2022-II-03",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Circumsphere of a right square pyramid; pyramid volume, axial symmetry, circumsphere supply the essential reduction."
+  },
+  {
+    "id": "2022-II-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Divide exponentiated logarithm identities; change of base, exponential cancellation, logarithm domains supply the essential reduction."
+  },
+  {
+    "id": "2022-II-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Prime-difference triangles; the proof uses gap encoding, prime parity."
+  },
+  {
+    "id": "2022-II-06",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Sharp bounds for two ordered coordinates; ordered-coordinate bounds, positive-negative mass, equality construction supply the essential reduction."
+  },
+  {
+    "id": "2022-II-07",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The triangle of common tangents; external homothety center, common tangents, half-angle triangle supply the essential reduction."
+  },
+  {
+    "id": "2022-II-08",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Identifiability from three floor values; the proof uses floor fibers, periodicity."
+  },
+  {
+    "id": "2022-II-09",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Regions between two supporting lines; the proof uses planar regions, incremental counting."
+  },
+  {
+    "id": "2022-II-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Choosing two edges; the proof uses double counting, hockey-stick identity."
+  },
+  {
+    "id": "2022-II-11",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two angle-bisector reflections determine a quadrilateral; reflection in angle bisectors, midpoint coordinates, equidistance area sum supply the essential reduction."
+  },
+  {
+    "id": "2022-II-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Pair the foci of two intersecting ellipses; ellipse focal definition, paired triangle inequalities, equality verification supply the essential reduction."
+  },
+  {
+    "id": "2022-II-13",
+    "subjects": [
+      "combinatorics",
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A coefficient reduced to stars and bars; the proof uses generating functions, modular reduction, stars and bars."
+  },
+  {
+    "id": "2022-II-14",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Complete coverage by a finite stamp collection; the proof uses complete sequences, greedy dominance, coverage."
+  },
+  {
+    "id": "2022-II-15",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Ptolemy and opposite-angle products in a cyclic hexagon; cyclic opposite angles, Ptolemy theorem, Brahmagupta formula supply the essential reduction."
+  },
+  {
+    "id": "2023-I-01",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "No opposite pair of men; the proof uses opposite pairs, probability."
+  },
+  {
+    "id": "2023-I-02",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two logarithms reduce to one variable; logarithm laws, substitution, excluded zero branch supply the essential reduction."
+  },
+  {
+    "id": "2023-I-03",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Counting ordinary intersections; the proof uses incidence double counting."
+  },
+  {
+    "id": "2023-I-04",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Sum all divisors with prescribed exponent parity; prime valuations, parity-restricted divisor sums, geometric series supply the essential reduction."
+  },
+  {
+    "id": "2023-I-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two diameter triangles recover a square’s area; diameter right angles, perpendicular coordinates, area products supply the essential reduction."
+  },
+  {
+    "id": "2023-I-06",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Optimal sequential color guesses; the proof uses optimal prediction, dynamic programming, expectation."
+  },
+  {
+    "id": "2023-I-07",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Pairwise-distinct remainders; the proof uses Chinese remainder theorem, residue patterns."
+  },
+  {
+    "id": "2023-I-08",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Use inward normals to settle an angle branch; inward unit normals, circle projections, angle-branch selection supply the essential reduction."
+  },
+  {
+    "id": "2023-I-09",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A cubic with one other equal-value integer; the proof uses root multiplicities, bounded counting."
+  },
+  {
+    "id": "2023-I-10",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Bound the floor error before summing residues; floor-error bounds, residue cycles, polynomial sums supply the essential reduction."
+  },
+  {
+    "id": "2023-I-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Exactly one adjacent selected pair; the proof uses run encoding, stars and bars."
+  },
+  {
+    "id": "2023-I-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Sum three directed projections in an equilateral triangle; directed projection sum, Viviani theorem, equilateral symmetry supply the essential reduction."
+  },
+  {
+    "id": "2023-I-13",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A Gram determinant distinguishes two rhombohedra; Gram determinant, parallelogram law, sign invariants supply the essential reduction."
+  },
+  {
+    "id": "2023-I-14",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Hamiltonian cycles of two clock hands; the proof uses Hamiltonian cycles, conservation, cyclic groups."
+  },
+  {
+    "id": "2023-I-15",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A bounded Gaussian-integer search with all sign cases; Gaussian integer norms, triangle inequalities, exhaustive bounded search supply the essential reduction."
+  },
+  {
+    "id": "2023-II-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Pair opposite terms of an arithmetic progression; arithmetic progression endpoint pairing supply the essential reduction."
+  },
+  {
+    "id": "2023-II-02",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Enumerate the four-digit octal palindromes; base representation, palindrome digit constraints, bounded enumeration supply the essential reduction."
+  },
+  {
+    "id": "2023-II-03",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A Brocard point gives two similar triangles; Brocard angles, similarity chain, right-isosceles triangle supply the essential reduction."
+  },
+  {
+    "id": "2023-II-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Subtract a symmetric quadratic system; subtraction and factorization, symmetric systems, exhaustive branches supply the essential reduction."
+  },
+  {
+    "id": "2023-II-05",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The cancellation divisor determines a rational number; fraction reduction, gcd parameter, finite divisor cases supply the essential reduction."
+  },
+  {
+    "id": "2023-II-06",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Midpoints in an L-shaped region; the proof uses geometric probability, conditioning."
+  },
+  {
+    "id": "2023-II-07",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Avoiding monochromatic rectangles; the proof uses opposite-pair encoding, forbidden configurations."
+  },
+  {
+    "id": "2023-II-08",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Conjugate pairs collapse a seventh-root product; roots of unity, conjugate pairing, geometric sums supply the essential reduction."
+  },
+  {
+    "id": "2023-II-09",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A common tangent and radical axis determine a trapezoid; common tangent chord midpoints, radical axis, secant power, configuration branches supply the essential reduction."
+  },
+  {
+    "id": "2023-II-10",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Balanced proper colorings of a ladder; the proof uses graph coloring, multiset permutations."
+  },
+  {
+    "id": "2023-II-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Maximum intersecting families on five elements; the proof uses intersecting families, complement pairing."
+  },
+  {
+    "id": "2023-II-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Use the stated uniqueness to construct the point; median length, power of a point, central reflection, uniqueness construction supply the essential reduction."
+  },
+  {
+    "id": "2023-II-13",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Prove the integrality class before counting last digits; quadratic conjugation, irrationality, power-sum recurrence, residue periods supply the essential reduction."
+  },
+  {
+    "id": "2023-II-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Cut a tilted cube into two simplexes; orthonormal projections, affine height, simplex volume subtraction supply the essential reduction."
+  },
+  {
+    "id": "2023-II-15",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A finite carry automaton counts the indices where consecutive least modular inverses agree; the state cycle and the final partial cycle are essential."
+  },
+  {
+    "id": "2024-I-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Subtract travel times to eliminate a fixed stop; rate equations, elimination, positive-root selection supply the essential reduction."
+  },
+  {
+    "id": "2024-I-02",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Multiply reciprocal logarithms; reciprocal logarithms, multiplication of equations supply the essential reduction."
+  },
+  {
+    "id": "2024-I-03",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Winning residues in a subtraction game; the proof uses impartial games, periodicity."
+  },
+  {
+    "id": "2024-I-04",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The jackpot conditional on winning; the proof uses conditional probability, hypergeometric counting."
+  },
+  {
+    "id": "2024-I-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Power of a point between offset rectangles; power of a point, secant products, rectangle coordinates supply the essential reduction."
+  },
+  {
+    "id": "2024-I-06",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Grid paths with four turns; the proof uses runs, compositions."
+  },
+  {
+    "id": "2024-I-07",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A reciprocal becomes a conjugate on a circle; conjugate reciprocal, linear optimization on a circle, Cauchy–Schwarz supply the essential reduction."
+  },
+  {
+    "id": "2024-I-08",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A row of congruent circles determines the inradius; angle-bisector tangent lengths, circle rows, linear elimination supply the essential reduction."
+  },
+  {
+    "id": "2024-I-09",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A rhombus approaches a hyperbola’s asymptote; perpendicular diagonals, hyperbola asymptotes, unattained infimum supply the essential reduction."
+  },
+  {
+    "id": "2024-I-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Tangent similarities and Ptolemy determine a symmedian chord; tangent-chord similarities, symmedian ratios, Ptolemy theorem supply the essential reduction."
+  },
+  {
+    "id": "2024-I-11",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Rotating blue vertices away from themselves; the proof uses difference sets, cyclic symmetry, complement pairing."
+  },
+  {
+    "id": "2024-I-12",
+    "subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The intersection count uses sixteen by twenty-four monotone branch pairs, a rigorous uniqueness certificate on each pair, and a separate extra corner intersection."
+  },
+  {
+    "id": "2024-I-13",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Lift the four roots of minus one; multiplicative order, prime-power root lifting, least residue supply the essential reduction."
+  },
+  {
+    "id": "2024-I-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Place a disphenoid in a rectangular box; disphenoid box coordinates, face symmetry, point-plane distance supply the essential reduction."
+  },
+  {
+    "id": "2024-I-15",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A double-root boundary gives the largest box diagonal; enclosing sphere, symmetric cubic, repeated-root extremum, compactness supply the essential reduction."
+  },
+  {
+    "id": "2024-II-01",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Recovering a fourfold intersection; the proof uses incidence counting, set multiplicities."
+  },
+  {
+    "id": "2024-II-02",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Mode multiplicities and integer partitions classify every permitted list length and eliminate all but one multiset."
+  },
+  {
+    "id": "2024-II-03",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Digits constrained by row and column sums; the proof uses digit carries, stars and bars."
+  },
+  {
+    "id": "2024-II-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Pair logarithm equations to isolate variables; logarithmic linearization, pairwise elimination supply the essential reduction."
+  },
+  {
+    "id": "2024-II-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Similar corner triangles give a reciprocal-side formula; parallel-side similarity, corner cuts, reciprocal length identity supply the essential reduction."
+  },
+  {
+    "id": "2024-II-06",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Encoding a set by maxima of subsets; the proof uses binary encoding, subset maxima."
+  },
+  {
+    "id": "2024-II-07",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Sum digit replacements before solving the digits; place-value congruences, summing constraints, lexicographic maximum supply the essential reduction."
+  },
+  {
+    "id": "2024-II-08",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Axial sections reduce torus tangency to two circles; surfaces of revolution, axial sections, tangent-circle homothety supply the essential reduction."
+  },
+  {
+    "id": "2024-II-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Maximal monochromatic rows and columns; the proof uses maximal configurations, bipartite encoding."
+  },
+  {
+    "id": "2024-II-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A perpendicular center line forces a side-sum identity; arc-midpoint incenter lemma, chord midpoint, Ptolemy theorem, area identities supply the essential reduction."
+  },
+  {
+    "id": "2024-II-11",
+    "subjects": [
+      "combinatorics",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A symmetric cubic counting problem; the proof uses factorization, inclusion-exclusion."
+  },
+  {
+    "id": "2024-II-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The unique ladder through a point touches an astroid; fixed-length intercept segments, convex envelope, uniqueness via strict convexity supply the essential reduction."
+  },
+  {
+    "id": "2024-II-13",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Evaluate a root product at two conjugate constants; roots-of-unity resultant, conjugate norm, modular remainder supply the essential reduction."
+  },
+  {
+    "id": "2024-II-14",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Each prime-power factor is assigned independently to one of two consecutive integers. CRT gives the bijective count2^omega(B)−1."
+  },
+  {
+    "id": "2024-II-15",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Rectangles supported by dodecagon chords; the proof uses geometric enumeration, direction classes."
+  },
+  {
+    "id": "2025-I-01",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Reduce a base-divisibility condition to one fixed integer; base notation, fixed remainder, bounded divisors supply the essential reduction."
+  },
+  {
+    "id": "2025-I-02",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Affine coordinates preserve a reflected heptagon’s area; affine coordinates, point reflection, shoelace area supply the essential reduction."
+  },
+  {
+    "id": "2025-I-03",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Flavor assignments with ordered popularity; the proof uses multinomial counting, integer partitions."
+  },
+  {
+    "id": "2025-I-04",
+    "subjects": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The integer solutions are the union of two bounded primitive lattice lines; inclusion-exclusion removes their common origin."
+  },
+  {
+    "id": "2025-I-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Digit permutations divisible by twenty-two; the proof uses divisibility tests, subset sums."
+  },
+  {
+    "id": "2025-I-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A tangential trapezoid determines its base sums; Pitot theorem, isosceles trapezoid height, symmetric sums supply the essential reduction."
+  },
+  {
+    "id": "2025-I-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The final alphabetized pair; the proof uses perfect matchings, order statistics."
+  },
+  {
+    "id": "2025-I-08",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "A circle has exactly one point on each tangent; complex distance loci, perpendicular bisector, tangent-line distance supply the essential reduction."
+  },
+  {
+    "id": "2025-I-09",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Use reflection symmetry to construct the required intersection; reflection-rotation composition, symmetry construction, quadratic intersection supply the essential reduction."
+  },
+  {
+    "id": "2025-I-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Counting Sudoku bands; the proof uses contingency tables, Latin rectangles."
+  },
+  {
+    "id": "2025-I-11",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Pair sawtooth intersections by Vieta; piecewise quadratic intersections, Vieta pairing, segment-domain checks supply the essential reduction."
+  },
+  {
+    "id": "2025-I-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Order chambers divide an equilateral simplex; inequality factorization, translated simplex, permutation symmetry supply the essential reduction."
+  },
+  {
+    "id": "2025-I-13",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Expected regions from random chords; the proof uses linearity of expectation, random arrangements."
+  },
+  {
+    "id": "2025-I-14",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Two Ptolemy bounds share an equality point; Ptolemy inequality, geometric median, simultaneous equality construction supply the essential reduction."
+  },
+  {
+    "id": "2025-I-15",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Cubic residues and three-variable counting; the proof uses valuation stratification, residue distributions."
+  },
+  {
+    "id": "2025-II-01",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Recover one base and reuse its altitude; collinear segment sums, Heron formula, shared altitude supply the essential reduction."
+  },
+  {
+    "id": "2025-II-02",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Evaluate a polynomial at the modulus root; polynomial remainder, finite divisor reduction supply the essential reduction."
+  },
+  {
+    "id": "2025-II-03",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Two red sides on every small square; the proof uses transfer weights, cyclic binary words."
+  },
+  {
+    "id": "2025-II-04",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Telescope both the logarithms and their exponents; logarithm laws, double telescoping, difference of squares supply the essential reduction."
+  },
+  {
+    "id": "2025-II-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Read minor arcs from the medial triangle; medial triangle, inscribed angles, external secant angle supply the essential reduction."
+  },
+  {
+    "id": "2025-II-06",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal triangle areas cancel the rectangle’s product; circle coordinates, centered rectangle, area cancellation supply the essential reduction."
+  },
+  {
+    "id": "2025-II-07",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The least common multiple of a random divisor subset; the proof uses divisor lattice, inclusion-exclusion."
+  },
+  {
+    "id": "2025-II-08",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "When greedy coin change succeeds; the proof uses greedy algorithms, periodic optimization."
+  },
+  {
+    "id": "2025-II-09",
+    "subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Periodic level sets are counted separately by interior levels, endpoints, and extreme levels; the extreme-level count also gives tangencies."
+  },
+  {
+    "id": "2025-II-10",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Eight occupied seats with no triple; the proof uses bounded compositions, generating functions."
+  },
+  {
+    "id": "2025-II-11",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Equal-length perfect matchings on a polygon; the proof uses cycle decomposition, perfect matchings."
+  },
+  {
+    "id": "2025-II-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equal-area fan triangles alternate their radial lengths; equal-area products, alternating recurrence, cosine law, perimeter equation supply the essential reduction."
+  },
+  {
+    "id": "2025-II-13",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Track reduction before simplifying a rational recurrence; fraction reduction invariant, numerator-denominator sum, exponent reduction, Chinese remainder theorem supply the essential reduction."
+  },
+  {
+    "id": "2025-II-14",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "An equilateral triangle inside a right triangle controls area; perpendicular bisectors, equilateral area, symmetric elimination, shoelace formula supply the essential reduction."
+  },
+  {
+    "id": "2025-II-15",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Two equal minima force a squared quadratic; equal minima, even root multiplicity, coefficient comparison, global square certificate supply the essential reduction."
+  },
+  {
+    "id": "2026-I-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Three equal distances with starts one hour apart reduce to two linear equations for speed and travel time."
+  },
+  {
+    "id": "2026-I-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A palindrome is determined by its first half and central digit, so the digit-sum restriction becomes a composition count."
+  },
+  {
+    "id": "2026-I-03",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A smaller sphere fits exactly when its center distance plus radius does not exceed the hemisphere radius."
+  },
+  {
+    "id": "2026-I-04",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Completing (a+1)(b+1) reduces the possible values to composites other than prime squares."
+  },
+  {
+    "id": "2026-I-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Composing two rotations gives a displacement whose squared length is a linear function of cos θ."
+  },
+  {
+    "id": "2026-I-06",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A logarithmic quadratic determines the product by Vieta, after which prime exponents determine its divisor count."
+  },
+  {
+    "id": "2026-I-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The sixth-iterate condition permits only cycles of lengths dividing six, requiring labeled cycle enumeration."
+  },
+  {
+    "id": "2026-I-08",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Divisors correspond to exponent vectors, whose parities determine residue five modulo twelve."
+  },
+  {
+    "id": "2026-I-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The visibility condition restricts collision patterns among six independent face choices and changes the conditioning denominator."
+  },
+  {
+    "id": "2026-I-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The required circumcenter rotation and a quadrilateral diagonal-area identity determine an interlacing hexagon area."
+  },
+  {
+    "id": "2026-I-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A midpoint inequality and assignment by grid degree yield a sharp global bound on total adjacent variation."
+  },
+  {
+    "id": "2026-I-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equal signed distances to two tangent planes make sphere radii affine in their contact points; reflection locates the fourth input."
+  },
+  {
+    "id": "2026-I-13",
+    "subjects": [
+      "combinatorics",
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Binomial coefficients grouped by congruence class are analyzed using polynomial identities over a finite field."
+  },
+  {
+    "id": "2026-I-14",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equiangular side-vector closure relates adjacent and nonadjacent products, determining the perimeter from two quadratic sums."
+  },
+  {
+    "id": "2026-I-15",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A two-diagonal restriction on rectangular cell loops leads to a Catalan recurrence for minimum-loop tilings."
+  },
+  {
+    "id": "2026-II-01",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Allowed integer common differences are the positive divisors of the gcd of two term offsets."
+  },
+  {
+    "id": "2026-II-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Two boundary states encode all legal forward paths through successive diagonal squares."
+  },
+  {
+    "id": "2026-II-03",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The angle data fix an indented polygon shape up to one integer length, and its area imposes a residue class."
+  },
+  {
+    "id": "2026-II-04",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Monotonicity of positional values reduces fixed numerals to a digit-pattern count including at least one nine."
+  },
+  {
+    "id": "2026-II-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Equal neighboring hypergeometric probabilities cancel to a linear Diophantine condition on color populations."
+  },
+  {
+    "id": "2026-II-06",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Tangency is a stationary-distance condition along the parabola, producing all admissible radii from one factored quartic derivative."
+  },
+  {
+    "id": "2026-II-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A stopping process with three equally likely outcomes is counted by conditioning or inclusion-exclusion before the first stop."
+  },
+  {
+    "id": "2026-II-08",
+    "subjects": [
+      "geometry",
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A half-angle relation determines a unique isosceles shape, and denominator divisibility gives its smallest integral scale."
+  },
+  {
+    "id": "2026-II-09",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The repeating-decimal series has divisor-count coefficients, and a rigorous tail bound controls the final carry."
+  },
+  {
+    "id": "2026-II-10",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The angle-bisector ratio and tangent-secant powers turn four integrality conditions into one bounded integer parameter."
+  },
+  {
+    "id": "2026-II-11",
+    "subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The negation involution on seven distinct signed square-root sums forces zero. Vieta then bounds the parameter, and explicit signed-sum enumeration proves attainment."
+  },
+  {
+    "id": "2026-II-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Opposite unequal edges determine a symmetric tetrahedron whose two centers follow from vertex and face distances."
+  },
+  {
+    "id": "2026-II-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Adjacent-partner matchings break into path components, and the prescribed number of cousins constrains component-size products."
+  },
+  {
+    "id": "2026-II-14",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Parity-sensitive operations on compositions are encoded by a finite recurrence or a generating function."
+  },
+  {
+    "id": "2026-II-15",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Residues on the seven Fano-plane points turn cyclic triple products into a finite incidence and sign count."
+  }
+]

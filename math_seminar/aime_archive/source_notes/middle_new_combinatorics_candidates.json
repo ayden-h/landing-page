@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2000-II-02",
+    "judgment": "borderline number-theory counting cross-reference; not an unequivocal omission",
+    "reason": "The requested lattice-point count is a signed-divisor bijection after factoring x^2-y^2. The previous filter deliberately excluded finite Diophantine enumerations solved solely by divisibility. The all-subject archive marks combinatorics as a secondary cross-reference, but this need not change that narrower selection."
+  },
+  {
+    "id": "2002-II-04",
+    "judgment": "borderline geometric cell count; geometry primary",
+    "reason": "The garden area is computed by counting 1+6+12+...+1200 congruent hexagonal cells. This is a substantive arithmetic counting step, but there are no competing arrangements or constrained configurations. It can reasonably remain geometry-only under the previous combinatorics scope; I do not recommend treating it as a definite omission."
+  },
+  {
+    "id": "2005-I-03",
+    "judgment": "borderline elementary number-theory enumeration with a combinatorial cross-reference",
+    "reason": "After classifying integers with four divisors, the pq case selects two of fifteen primes. The binomial coefficient is explicit, but the structural work is the divisor-exponent classification. It can remain number-theory primary under the earlier finite-arithmetic exclusion."
+  },
+  {
+    "id": "2006-II-13",
+    "judgment": "recommended substantive combinatorics/number-theory hybrid inclusion",
+    "reason": "The central step is a bijection between representations by consecutive odd sequences and same-parity factor pairs, followed by counting integers with exactly five representations. This is more than merely solving a finite Diophantine equation, and the new archive includes both subjects."
+  },
+  {
+    "id": "2008-I-12",
+    "judgment": "recommended discrete-process and algebra hybrid inclusion",
+    "reason": "The maximum count depends on packing detector crossing times into an interval, including initial phase. A limiting continuous flow rate alone does not establish the answer; an exact spacing bound and a construction give 3750 crossings."
+  },
+  {
+    "id": "2009-I-14",
+    "judgment": "discrete optimization hybrid recommended for cross-reference",
+    "reason": "The first and fourth moments constrain nonnegative integer multiplicities. The second-moment minimum depends on the two feasible lattice points, not a continuous inequality alone. The all-subject archive marks combinatorics alongside algebra and number theory."
+  }
+]

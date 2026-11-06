@@ -1,0 +1,230 @@
+[
+  {
+    "id": "2026-I-01",
+    "subjects": [
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Three equal distances with starts one hour apart reduce to two linear equations for speed and travel time."
+  },
+  {
+    "id": "2026-I-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A palindrome is determined by its first half and central digit, so the digit-sum restriction becomes a composition count."
+  },
+  {
+    "id": "2026-I-03",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A smaller sphere fits exactly when its center distance plus radius does not exceed the hemisphere radius."
+  },
+  {
+    "id": "2026-I-04",
+    "subjects": [
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Completing (a+1)(b+1) reduces the possible values to composites other than prime squares."
+  },
+  {
+    "id": "2026-I-05",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Composing two rotations gives a displacement whose squared length is a linear function of cos θ."
+  },
+  {
+    "id": "2026-I-06",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A logarithmic quadratic determines the product by Vieta, after which prime exponents determine its divisor count."
+  },
+  {
+    "id": "2026-I-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The sixth-iterate condition permits only cycles of lengths dividing six, requiring labeled cycle enumeration."
+  },
+  {
+    "id": "2026-I-08",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Divisors correspond to exponent vectors, whose parities determine residue five modulo twelve."
+  },
+  {
+    "id": "2026-I-09",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "The visibility condition restricts collision patterns among six independent face choices and changes the conditioning denominator."
+  },
+  {
+    "id": "2026-I-10",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "The required circumcenter rotation and a quadrilateral diagonal-area identity determine an interlacing hexagon area."
+  },
+  {
+    "id": "2026-I-11",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A midpoint inequality and assignment by grid degree yield a sharp global bound on total adjacent variation."
+  },
+  {
+    "id": "2026-I-12",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equal signed distances to two tangent planes make sphere radii affine in their contact points; reflection locates the fourth input."
+  },
+  {
+    "id": "2026-I-13",
+    "subjects": [
+      "combinatorics",
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Binomial coefficients grouped by congruence class are analyzed using polynomial identities over a finite field."
+  },
+  {
+    "id": "2026-I-14",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Equiangular side-vector closure relates adjacent and nonadjacent products, determining the perimeter from two quadratic sums."
+  },
+  {
+    "id": "2026-I-15",
+    "subjects": [
+      "combinatorics",
+      "geometry"
+    ],
+    "reason_specific_to_problem": "A two-diagonal restriction on rectangular cell loops leads to a Catalan recurrence for minimum-loop tilings."
+  },
+  {
+    "id": "2026-II-01",
+    "subjects": [
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Allowed integer common differences are the positive divisors of the gcd of two term offsets."
+  },
+  {
+    "id": "2026-II-02",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Two boundary states encode all legal forward paths through successive diagonal squares."
+  },
+  {
+    "id": "2026-II-03",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The angle data fix an indented polygon shape up to one integer length, and its area imposes a residue class."
+  },
+  {
+    "id": "2026-II-04",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Monotonicity of positional values reduces fixed numerals to a digit-pattern count including at least one nine."
+  },
+  {
+    "id": "2026-II-05",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Equal neighboring hypergeometric probabilities cancel to a linear Diophantine condition on color populations."
+  },
+  {
+    "id": "2026-II-06",
+    "subjects": [
+      "geometry",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "Tangency is a stationary-distance condition along the parabola, producing all admissible radii from one factored quartic derivative."
+  },
+  {
+    "id": "2026-II-07",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "A stopping process with three equally likely outcomes is counted by conditioning or inclusion-exclusion before the first stop."
+  },
+  {
+    "id": "2026-II-08",
+    "subjects": [
+      "geometry",
+      "algebra",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "A half-angle relation determines a unique isosceles shape, and denominator divisibility gives its smallest integral scale."
+  },
+  {
+    "id": "2026-II-09",
+    "subjects": [
+      "number_theory",
+      "algebra"
+    ],
+    "reason_specific_to_problem": "The repeating-decimal series has divisor-count coefficients, and a rigorous tail bound controls the final carry."
+  },
+  {
+    "id": "2026-II-10",
+    "subjects": [
+      "geometry",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "The angle-bisector ratio and tangent-secant powers turn four integrality conditions into one bounded integer parameter."
+  },
+  {
+    "id": "2026-II-11",
+    "subjects": [
+      "algebra",
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Negation pairs the signed square-root sums; odd cardinality forces a zero sum that Vieta converts into a quadratic condition."
+  },
+  {
+    "id": "2026-II-12",
+    "subjects": [
+      "geometry"
+    ],
+    "reason_specific_to_problem": "Opposite unequal edges determine a symmetric tetrahedron whose two centers follow from vertex and face distances."
+  },
+  {
+    "id": "2026-II-13",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Adjacent-partner matchings break into path components, and the prescribed number of cousins constrains component-size products."
+  },
+  {
+    "id": "2026-II-14",
+    "subjects": [
+      "combinatorics"
+    ],
+    "reason_specific_to_problem": "Parity-sensitive operations on compositions are encoded by a finite recurrence or a generating function."
+  },
+  {
+    "id": "2026-II-15",
+    "subjects": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "reason_specific_to_problem": "Residues on the seven Fano-plane points turn cyclic triple products into a finite incidence and sign count."
+  }
+]

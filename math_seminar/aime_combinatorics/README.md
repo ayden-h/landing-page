@@ -1,6 +1,6 @@
 # AIME Combinatorics: a historical collection and preparation book
 
-This research edition contains **357 combinatorics and probability problems from the standard AIME archive, 1983–2026**, each with a short mathematical restatement, a newly written solution, an answer, method tags, and a link to published solutions. The accompanying theory book develops the recurring structures into definitions, theorems, proofs, worked examples, and exercises.
+This research edition contains **382 combinatorics and probability problems from the standard AIME archive, 1983–2026**, each with a short mathematical restatement, a newly written solution, an answer, method tags, and a link to published solutions. The accompanying theory book develops the recurring structures into definitions, theorems, proofs, worked examples, and exercises.
 
 ## Start here
 
@@ -14,13 +14,13 @@ Editable reading files: [theory](theory/Combinatorics_Theory.md), [problems](Pro
 
 ## What the collection contains
 
-The audit classified every one of the **1,065 numbered problem slots in 71 standard examinations**. It includes discrete counting, probability, combinatorial identities, arrangements, graph arguments, and substantive geometric, algebraic, or number-theoretic counting. It excludes problems whose finite search is incidental to an essentially algebraic or number-theoretic solution. Each inclusion or exclusion has a recorded reason. This is coverage of the standard year/form/number archive, not certification that every regional or alternate wording has been found.
+The audit classified every one of the **1,065 numbered problem slots in 71 standard examinations**. It includes discrete counting, probability, combinatorial identities, arrangements, graph arguments, and substantive geometric, algebraic, or number-theoretic counting. It also includes distinct zero-set recurrences, finite-state event counts, constrained symbolic sequences, and substantive integer-state dynamics. A finite algebraic case split or a fixed cell-to-area conversion alone does not establish inclusion. Each inclusion or exclusion has a recorded reason. The [reconciliation report](Reconciliation_Report.md) lists the 25 approved additions and three borderline cross-references from the full-subject audit. This is coverage of the standard year/form/number archive, not certification that every regional or alternate wording has been found.
 
 The solutions were written after consulting archived published approaches. They are new expositions and sometimes include repaired arguments or a shorter structural proof; they are **not presented as blind independent rediscoveries**. Classical results remain classical. The theory book's organizing framework and derived propositions are intended to make these particular families easier to recognize and solve, without claiming that every observation is a new research theorem.
 
 The deliverables contain source links, original restatements, new solution prose, and critical review notes. **They do not contain a bulk copy of downloaded copyrighted problem and solution text.** Raw transcriptions used during research were kept outside this collection in a temporary cache. Use the published-source directory for the original wording, diagrams, and alternative expositions.
 
-All **1,136 archived solution entries** for the selected problems were inspected, with their available mathematical text reviewed. Link-only entries and media pointers are distinguished from complete proofs; no solution videos were reviewed. See [rights and provenance](Rights_and_Provenance.md) for the source and redistribution boundaries.
+All **1,209 archived solution entries** for the selected problems were inspected, with their available mathematical text reviewed. Link-only entries and media pointers are distinguished from complete proofs; no solution videos were reviewed. See [rights and provenance](Rights_and_Provenance.md) for the source and redistribution boundaries.
 
 ## A practical study plan
 
@@ -51,8 +51,8 @@ The following distinctions matter throughout this collection:
 
 ## Evidence and navigation
 
-There are **176 additional exact problem checks** in the current ledgers: 39 for 1983–1999, 116 for 2000–2013, and 21 for 2014–2026. The rectangular-loop enumerator supplies further independent finite checks. The theory verification ledger records **1,317 small-case checks**. These checks accompany mathematical proofs; they do not certify every line of every proof by computation.
+The original ledgers contain **176 exact problem checks**: 39 for 1983–1999, 116 for 2000–2013, and 21 for 2014–2026. The [supplementary ledger](data/reconciliation_verification.json) adds **22 passed checks across 21 of the 25 newly included problems**, bringing the recorded problem-check total to **198**. The individual checks retain their exact, finite, or numerical scope. The rectangular-loop enumerator supplies further independent finite checks. The theory verification ledger records **1,317 small-case checks**. These checks accompany mathematical proofs; they do not certify every line of every proof by computation.
 
 Problem identifiers are stable: `1983-A-07` is Problem 7 of the single 1983 AIME; `2026-II-15` is Problem 15 of AIME II in 2026. Individual files are in the `problems` and `worked_solutions` directories. The consolidated [data file](data/problems_and_solutions.json) preserves the restatements, solutions, tags, source notes, and verification records for further study.
 
-This volume covers combinatorics and its hybrids. Separate algebra, geometry, and number-theory volumes are outside the completed scope of this edition.
+This volume covers combinatorics and its hybrids. Companion [algebra](../aime_algebra/theory/Algebra_Theory.md), [geometry](../aime_geometry/theory/Geometry_Theory.md), and [number theory](../aime_number_theory/theory/Number_Theory_Theory.md) books develop the other subject methods; hybrid problems can appear in more than one volume.

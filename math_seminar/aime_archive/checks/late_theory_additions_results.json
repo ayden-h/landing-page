@@ -1,0 +1,10 @@
+{
+  "all_passed": true,
+  "total_cases": 1169,
+  "cases": {
+    "equiangular_pentagons_with_exact_vector_closure": 75,
+    "affine_sphere_radii_and_common_tangent_plane": 625,
+    "carry_certificate_checked_against_original_infinite_series": 469
+  },
+  "note": "Finite exact parameter checks supplement the written general proofs."
+}

@@ -28,6 +28,7 @@ Problems can occur under several methods. Read the statement before opening its 
 - [2011 AIME II Problem 14: Permutations respecting residue partitions](worked_solutions/2011-II-14.md)
 - [2012 AIME II Problem 12: Independent forbidden residues](worked_solutions/2012-II-12.md)
 - [2023 AIME I Problem 7: Pairwise-distinct remainders](worked_solutions/2023-I-07.md)
+- [2024 AIME II Problem 14: Digit-square conditions count CRT idempotents](worked_solutions/2024-II-14.md)
 
 ## Diophantine counting
 
@@ -36,6 +37,11 @@ Problems can occur under several methods. Read the statement before opening its 
 ## Diophantine probability
 
 - [1991 AIME Problem 13: Sock counts from a probability](worked_solutions/1991-A-13.md)
+
+## Euclidean algorithm
+
+- [2014 AIME I Problem 3: Reduced fractions with fixed numerator-plus-denominator](worked_solutions/2014-I-03.md)
+- [2021 AIME I Problem 10: A rational recurrence reduces at its first shared prime](worked_solutions/2021-I-10.md)
 
 ## Euler formula
 
@@ -81,9 +87,17 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [1985 AIME Problem 12: Random walk on a tetrahedron](worked_solutions/1985-A-12.md)
 
+## Pascal triangle
+
+- [1992 AIME Problem 4: Three consecutive binomial coefficients in a ratio](worked_solutions/1992-A-04.md)
+
 ## Ramsey theory
 
 - [2010 AIME I Problem 12: A multiplicative two-color threshold](worked_solutions/2010-I-12.md)
+
+## Schwarzian derivative
+
+- [2024 AIME I Problem 12: Count branch pairs with a rigorous curvature certificate](worked_solutions/2024-I-12.md)
 
 ## Stirling numbers
 
@@ -103,6 +117,15 @@ Problems can occur under several methods. Read the statement before opening its 
 ## Venn regions
 
 - [2010 AIME I Problem 7: Exactly three pairwise intersection elements](worked_solutions/2010-I-07.md)
+
+## Vieta formulas
+
+- [2013 AIME I Problem 10: Conjugate integer roots and distinct cubics](worked_solutions/2013-I-10.md)
+- [2026 AIME II Problem 11: Seven signed square-root sums force a zero sum](worked_solutions/2026-II-11.md)
+
+## absolute-value preimages
+
+- [2020 AIME II Problem 8: Zeros of nested absolute values form a parity interval](worked_solutions/2020-II-08.md)
 
 ## absorbing Markov chains
 
@@ -148,6 +171,14 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2013 AIME I Problem 15: Two arithmetic progressions with reordered residues](worked_solutions/2013-I-15.md)
 
+## arithmetic zero sets
+
+- [2020 AIME II Problem 8: Zeros of nested absolute values form a parity interval](worked_solutions/2020-II-08.md)
+
+## attainment
+
+- [2026 AIME II Problem 11: Seven signed square-root sums force a zero sum](worked_solutions/2026-II-11.md)
+
 ## balanced allocation
 
 - [2005 AIME II Problem 2: Three balanced meal bags](worked_solutions/2005-II-02.md)
@@ -162,6 +193,7 @@ Problems can occur under several methods. Read the statement before opening its 
 
 ## bijections
 
+- [2000 AIME II Problem 2: Lattice points on a difference of squares](worked_solutions/2000-II-02.md)
 - [2002 AIME I Problem 3: Reversed two-digit ages](worked_solutions/2002-I-03.md)
 - [2006 AIME II Problem 4: A permutation with one valley](worked_solutions/2006-II-04.md)
 - [2008 AIME II Problem 12: A separator that behaves like a blue flag](worked_solutions/2008-II-12.md)
@@ -170,6 +202,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## binary carries
 
 - [2012 AIME I Problem 5: Consecutive binary numbers with equal weight](worked_solutions/2012-I-05.md)
+
+## binary carrying
+
+- [2014 AIME II Problem 15: Prime multiplication as binary carrying](worked_solutions/2014-II-15.md)
 
 ## binary coding
 
@@ -184,6 +220,10 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2024 AIME II Problem 6: Encoding a set by maxima of subsets](worked_solutions/2024-II-06.md)
 
+## binary expansion
+
+- [2019 AIME II Problem 10: A tangent sign itinerary fixes every binary digit](worked_solutions/2019-II-10.md)
+
 ## binary matrices
 
 - [1997 AIME Problem 8: Balanced sign arrays](worked_solutions/1997-A-08.md)
@@ -194,6 +234,7 @@ Problems can occur under several methods. Read the statement before opening its 
 
 ## binomial coefficients
 
+- [1991 AIME Problem 3: The peak of a weighted binomial row](worked_solutions/1991-A-03.md)
 - [2000 AIME I Problem 3: Adjacent binomial coefficients](worked_solutions/2000-I-03.md)
 - [2005 AIME II Problem 1: A binomial ratio determines deck size](worked_solutions/2005-II-01.md)
 - [2026 AIME I Problem 13: Binomial residue sums over a finite field](worked_solutions/2026-I-13.md)
@@ -212,6 +253,10 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2007 AIME II Problem 13: Pascal propagation modulo three](worked_solutions/2007-II-13.md)
 - [2008 AIME I Problem 6: Summing an arithmetic row repeatedly](worked_solutions/2008-I-06.md)
+
+## binomial ratios
+
+- [1992 AIME Problem 4: Three consecutive binomial coefficients in a ratio](worked_solutions/1992-A-04.md)
 
 ## binomial symmetry
 
@@ -310,6 +355,10 @@ Problems can occur under several methods. Read the statement before opening its 
 - [2020 AIME II Problem 12: A line crossing a numbered grid](worked_solutions/2020-II-12.md)
 - [2022 AIME I Problem 6: Avoiding four-term progressions](worked_solutions/2022-I-06.md)
 
+## ceiling functions
+
+- [2008 AIME I Problem 12: Maximum traffic through a fixed point](worked_solutions/2008-I-12.md)
+
 ## chord counting
 
 - [1990 AIME Problem 12: Sum of dodecagon chords](worked_solutions/1990-A-12.md)
@@ -373,6 +422,10 @@ Problems can occur under several methods. Read the statement before opening its 
 - [2017 AIME I Problem 1: Triangles from boundary points](worked_solutions/2017-I-01.md)
 - [2017 AIME I Problem 6: A chord intersecting an isosceles triangle](worked_solutions/2017-I-06.md)
 
+## complementary edge matchings
+
+- [2017 AIME II Problem 5: Four pair sums force a complementary pair](worked_solutions/2017-II-05.md)
+
 ## complements
 
 - [2016 AIME II Problem 2: Dependent rain events](worked_solutions/2016-II-02.md)
@@ -380,6 +433,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## complete sequences
 
 - [2022 AIME II Problem 14: Complete coverage by a finite stamp collection](worked_solutions/2022-II-14.md)
+
+## complex conjugates
+
+- [2013 AIME I Problem 10: Conjugate integer roots and distinct cubics](worked_solutions/2013-I-10.md)
 
 ## compositions
 
@@ -420,6 +477,15 @@ Problems can occur under several methods. Read the statement before opening its 
 ## congruences
 
 - [2001 AIME I Problem 11: Two numberings of a rectangular array](worked_solutions/2001-I-11.md)
+- [2012 AIME II Problem 1: Count lattice points on a positive Diophantine segment](worked_solutions/2012-II-01.md)
+
+## conjugate dynamics
+
+- [2014 AIME II Problem 15: Prime multiplication as binary carrying](worked_solutions/2014-II-15.md)
+
+## consecutive sums
+
+- [2006 AIME II Problem 13: Five representations by consecutive odd integers](worked_solutions/2006-II-13.md)
 
 ## conservation
 
@@ -555,6 +621,10 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2016 AIME I Problem 13: Reflected random walk hitting time](worked_solutions/2016-I-13.md)
 
+## difference of squares
+
+- [2000 AIME II Problem 2: Lattice points on a difference of squares](worked_solutions/2000-II-02.md)
+
 ## difference sets
 
 - [2024 AIME I Problem 11: Rotating blue vertices away from themselves](worked_solutions/2024-I-11.md)
@@ -562,6 +632,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## digit arrangements
 
 - [2016 AIME I Problem 8: Minimizing a digit-column sum](worked_solutions/2016-I-08.md)
+
+## digit bounds
+
+- [2024 AIME II Problem 14: Digit-square conditions count CRT idempotents](worked_solutions/2024-II-14.md)
 
 ## digit carries
 
@@ -623,6 +697,10 @@ Problems can occur under several methods. Read the statement before opening its 
 - [1985 AIME Problem 8: Balanced integer rounding](worked_solutions/1985-A-08.md)
 - [2007 AIME II Problem 8: Optimizing a rectangular grid](worked_solutions/2007-II-08.md)
 
+## disjoint counting
+
+- [2012 AIME II Problem 10: A floor-product range is a disjoint union of integer blocks](worked_solutions/2012-II-10.md)
+
 ## distance classes
 
 - [2018 AIME I Problem 7: Isosceles triangles in a hexagonal prism](worked_solutions/2018-I-07.md)
@@ -644,6 +722,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## divisibility tests
 
 - [2025 AIME I Problem 5: Digit permutations divisible by twenty-two](worked_solutions/2025-I-05.md)
+
+## divisor counting
+
+- [2000 AIME II Problem 2: Lattice points on a difference of squares](worked_solutions/2000-II-02.md)
 
 ## divisor counts
 
@@ -670,6 +752,14 @@ Problems can occur under several methods. Read the statement before opening its 
 - [2022 AIME I Problem 13: Distinct reduced numerators](worked_solutions/2022-I-13.md)
 - [2025 AIME II Problem 7: The least common multiple of a random divisor subset](worked_solutions/2025-II-07.md)
 
+## divisor pairs
+
+- [2006 AIME II Problem 13: Five representations by consecutive odd integers](worked_solutions/2006-II-13.md)
+
+## divisor patterns
+
+- [2005 AIME I Problem 3: Exactly three small proper divisors](worked_solutions/2005-I-03.md)
+
 ## divisor recurrences
 
 - [2019 AIME II Problem 12: Divisibility chains with prescribed sum](worked_solutions/2019-II-12.md)
@@ -690,6 +780,10 @@ Problems can occur under several methods. Read the statement before opening its 
 - [2022 AIME I Problem 12: Summing intersection sizes](worked_solutions/2022-I-12.md)
 - [2022 AIME II Problem 10: Choosing two edges](worked_solutions/2022-II-10.md)
 
+## doubling dynamics
+
+- [2019 AIME II Problem 10: A tangent sign itinerary fixes every binary digit](worked_solutions/2019-II-10.md)
+
 ## dynamic programming
 
 - [2007 AIME I Problem 6: Next-multiple walks](worked_solutions/2007-I-06.md)
@@ -706,9 +800,17 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [1996 AIME Problem 9: Alternating elimination along lockers](worked_solutions/1996-A-09.md)
 
+## endpoint exclusion
+
+- [2025 AIME II Problem 9: Count sine levels and identify double zeros](worked_solutions/2025-II-09.md)
+
 ## epistemic elimination
 
 - [2021 AIME II Problem 11: Learning from simultaneous ignorance](worked_solutions/2021-II-11.md)
+
+## equality construction
+
+- [2017 AIME II Problem 5: Four pair sums force a complementary pair](worked_solutions/2017-II-05.md)
 
 ## equivalence classes
 
@@ -729,6 +831,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## exchange argument
 
 - [1985 AIME Problem 8: Balanced integer rounding](worked_solutions/1985-A-08.md)
+
+## exhaustive case split
+
+- [2024 AIME II Problem 2: A mode and a missing median constrain an integer partition](worked_solutions/2024-II-02.md)
 
 ## expectation
 
@@ -817,6 +923,7 @@ Problems can occur under several methods. Read the statement before opening its 
 ## factorization
 
 - [2024 AIME II Problem 11: A symmetric cubic counting problem](worked_solutions/2024-II-11.md)
+- [2025 AIME I Problem 4: Count a union of two primitive lattice lines](worked_solutions/2025-I-04.md)
 
 ## falling factorials
 
@@ -825,6 +932,14 @@ Problems can occur under several methods. Read the statement before opening its 
 ## finite case analysis
 
 - [2004 AIME II Problem 3: Hidden cubes](worked_solutions/2004-II-03.md)
+
+## finite classification
+
+- [2013 AIME I Problem 10: Conjugate integer roots and distinct cubics](worked_solutions/2013-I-10.md)
+
+## finite cyclic groups
+
+- [1990 AIME Problem 10: Products of two root-of-unity groups](worked_solutions/1990-A-10.md)
 
 ## finite enumeration
 
@@ -854,6 +969,10 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2026 AIME I Problem 13: Binomial residue sums over a finite field](worked_solutions/2026-I-13.md)
 
+## finite-state recurrence
+
+- [2023 AIME II Problem 15: A finite carry state detects repeated modular inverses](worked_solutions/2023-II-15.md)
+
 ## first difference
 
 - [1991 AIME Problem 10: Lexicographic transmission errors](worked_solutions/1991-A-10.md)
@@ -874,6 +993,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## floor fibers
 
 - [2022 AIME II Problem 8: Identifiability from three floor values](worked_solutions/2022-II-08.md)
+
+## floor functions
+
+- [2012 AIME II Problem 10: A floor-product range is a disjoint union of integer blocks](worked_solutions/2012-II-10.md)
 
 ## floor partition
 
@@ -909,6 +1032,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## free symmetry
 
 - [2002 AIME II Problem 9: Unordered disjoint nonempty subsets](worked_solutions/2002-II-09.md)
+
+## frequency variables
+
+- [2009 AIME I Problem 14: Minimizing a second moment with fixed first and fourth moments](worked_solutions/2009-I-14.md)
 
 ## functional graphs
 
@@ -1095,6 +1222,14 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2026 AIME II Problem 5: Equal hypergeometric probabilities](worked_solutions/2026-II-05.md)
 
+## idempotent counting
+
+- [2024 AIME II Problem 14: Digit-square conditions count CRT idempotents](worked_solutions/2024-II-14.md)
+
+## image counting
+
+- [1990 AIME Problem 10: Products of two root-of-unity groups](worked_solutions/1990-A-10.md)
+
 ## impartial games
 
 - [2024 AIME I Problem 3: Winning residues in a subtraction game](worked_solutions/2024-I-03.md)
@@ -1130,6 +1265,7 @@ Problems can occur under several methods. Read the statement before opening its 
 - [1992 AIME Problem 5: Numerators of repeating decimals](worked_solutions/1992-A-05.md)
 - [1996 AIME Problem 6: No perfect or winless team](worked_solutions/1996-A-06.md)
 - [1996 AIME Problem 14: Cubes crossed by a space diagonal](worked_solutions/1996-A-14.md)
+- [2014 AIME I Problem 3: Reduced fractions with fixed numerator-plus-denominator](worked_solutions/2014-I-03.md)
 - [2014 AIME I Problem 11: Diagonal endpoint of a random walk](worked_solutions/2014-I-11.md)
 - [2015 AIME I Problem 5: First matching sock pair on day three](worked_solutions/2015-I-05.md)
 - [2015 AIME I Problem 9: When a multiplicative recurrence reaches zero](worked_solutions/2015-I-09.md)
@@ -1140,6 +1276,7 @@ Problems can occur under several methods. Read the statement before opening its 
 - [2021 AIME II Problem 6: An equality characterizing nested sets](worked_solutions/2021-II-06.md)
 - [2022 AIME I Problem 13: Distinct reduced numerators](worked_solutions/2022-I-13.md)
 - [2024 AIME II Problem 11: A symmetric cubic counting problem](worked_solutions/2024-II-11.md)
+- [2025 AIME I Problem 4: Count a union of two primitive lattice lines](worked_solutions/2025-I-04.md)
 - [2025 AIME II Problem 7: The least common multiple of a random divisor subset](worked_solutions/2025-II-07.md)
 - [2026 AIME II Problem 7: Two successes of each kind before a stop](worked_solutions/2026-II-07.md)
 
@@ -1150,6 +1287,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## independent set
 
 - [1989 AIME Problem 13: Avoiding differences four and seven](worked_solutions/1989-A-13.md)
+
+## induction
+
+- [2020 AIME II Problem 8: Zeros of nested absolute values form a parity interval](worked_solutions/2020-II-08.md)
 
 ## injections
 
@@ -1175,8 +1316,13 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [1984 AIME Problem 10: A score that determines the number correct](worked_solutions/1984-A-10.md)
 
+## integer optimization
+
+- [2009 AIME I Problem 14: Minimizing a second moment with fixed first and fourth moments](worked_solutions/2009-I-14.md)
+
 ## integer partitions
 
+- [2024 AIME II Problem 2: A mode and a missing median constrain an integer partition](worked_solutions/2024-II-02.md)
 - [2025 AIME I Problem 3: Flavor assignments with ordered popularity](worked_solutions/2025-I-03.md)
 
 ## interleavings
@@ -1187,9 +1333,21 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2023 AIME II Problem 11: Maximum intersecting families on five elements](worked_solutions/2023-II-11.md)
 
+## intersection counting
+
+- [2024 AIME I Problem 12: Count branch pairs with a rigorous curvature certificate](worked_solutions/2024-I-12.md)
+
+## interval images
+
+- [2012 AIME II Problem 10: A floor-product range is a disjoint union of integer blocks](worked_solutions/2012-II-10.md)
+
 ## interval lattice count
 
 - [1997 AIME Problem 5: Decimal numbers closest to two sevenths](worked_solutions/1997-A-05.md)
+
+## interval packing
+
+- [2008 AIME I Problem 12: Maximum traffic through a fixed point](worked_solutions/2008-I-12.md)
 
 ## interval partition
 
@@ -1219,6 +1377,8 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [1983 AIME Problem 13: Sum of alternating subset sums](worked_solutions/1983-A-13.md)
 - [1991 AIME Problem 5: Coprime factor allocations](worked_solutions/1991-A-05.md)
+- [1992 AIME Problem 1: Pairing reduced fractions around five](worked_solutions/1992-A-01.md)
+- [2013 AIME I Problem 10: Conjugate integer roots and distinct cubics](worked_solutions/2013-I-10.md)
 
 ## involutions
 
@@ -1267,13 +1427,29 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [1998 AIME Problem 2: Integer points between two slope bounds](worked_solutions/1998-A-02.md)
 
+## lattice-point counting
+
+- [2012 AIME II Problem 1: Count lattice points on a positive Diophantine segment](worked_solutions/2012-II-01.md)
+
 ## leading digits
 
 - [1990 AIME Problem 13: Leading nines in powers](worked_solutions/1990-A-13.md)
 
+## least common multiple
+
+- [1990 AIME Problem 10: Products of two root-of-unity groups](worked_solutions/1990-A-10.md)
+
 ## line incidence
 
 - [2010 AIME II Problem 11: Tic-tac-toe line counts](worked_solutions/2010-II-11.md)
+
+## linear Diophantine equations
+
+- [2012 AIME II Problem 1: Count lattice points on a positive Diophantine segment](worked_solutions/2012-II-01.md)
+
+## linear systems
+
+- [1992 AIME Problem 4: Three consecutive binomial coefficients in a ratio](worked_solutions/1992-A-04.md)
 
 ## linearity of expectation
 
@@ -1325,9 +1501,17 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2012 AIME I Problem 15: Multiplication changes every circular separation](worked_solutions/2012-I-15.md)
 
+## modular inverse lifting
+
+- [2023 AIME II Problem 15: A finite carry state detects repeated modular inverses](worked_solutions/2023-II-15.md)
+
 ## modular reduction
 
 - [2022 AIME II Problem 13: A coefficient reduced to stars and bars](worked_solutions/2022-II-13.md)
+
+## moments
+
+- [2009 AIME I Problem 14: Minimizing a second moment with fixed first and fourth moments](worked_solutions/2009-I-14.md)
 
 ## monotone image
 
@@ -1360,6 +1544,10 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [1983 AIME Problem 10: One repeated decimal digit](worked_solutions/1983-A-10.md)
 
+## multiplicity constraints
+
+- [2024 AIME II Problem 2: A mode and a missing median constrain an integer partition](worked_solutions/2024-II-02.md)
+
 ## multiset permutations
 
 - [2007 AIME II Problem 1: A repeated symbol in a license string](worked_solutions/2007-II-01.md)
@@ -1378,6 +1566,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## nearest neighbor
 
 - [1997 AIME Problem 5: Decimal numbers closest to two sevenths](worked_solutions/1997-A-05.md)
+
+## negation involution
+
+- [2026 AIME II Problem 11: Seven signed square-root sums force a zero sum](worked_solutions/2026-II-11.md)
 
 ## nonbacktracking walks
 
@@ -1494,6 +1686,10 @@ Problems can occur under several methods. Read the statement before opening its 
 - [2025 AIME I Problem 7: The final alphabetized pair](worked_solutions/2025-I-07.md)
 - [2025 AIME II Problem 11: Equal-length perfect matchings on a polygon](worked_solutions/2025-II-11.md)
 
+## periodic carries
+
+- [2023 AIME II Problem 15: A finite carry state detects repeated modular inverses](worked_solutions/2023-II-15.md)
+
 ## periodic cases
 
 - [2017 AIME II Problem 13: Isosceles triangles in regular polygons](worked_solutions/2017-II-13.md)
@@ -1505,6 +1701,10 @@ Problems can occur under several methods. Read the statement before opening its 
 ## periodic counting
 
 - [1985 AIME Problem 10: Values of a floor sum](worked_solutions/1985-A-10.md)
+
+## periodic level counting
+
+- [2025 AIME II Problem 9: Count sine levels and identify double zeros](worked_solutions/2025-II-09.md)
 
 ## periodic optimization
 
@@ -1535,6 +1735,10 @@ Problems can occur under several methods. Read the statement before opening its 
 - [2005 AIME II Problem 6: Fixed points of a shuffle](worked_solutions/2005-II-06.md)
 - [2006 AIME II Problem 4: A permutation with one valley](worked_solutions/2006-II-04.md)
 
+## piecewise monotone branches
+
+- [2024 AIME I Problem 12: Count branch pairs with a rigorous curvature certificate](worked_solutions/2024-I-12.md)
+
 ## pigeonhole
 
 - [1986 AIME Problem 12: A maximum set with distinct subset sums](worked_solutions/1986-A-12.md)
@@ -1542,6 +1746,7 @@ Problems can occur under several methods. Read the statement before opening its 
 ## pigeonhole principle
 
 - [2003 AIME II Problem 12: Minimum occupancy with percentage constraints](worked_solutions/2003-II-12.md)
+- [2017 AIME II Problem 5: Four pair sums force a complementary pair](worked_solutions/2017-II-05.md)
 
 ## planar regions
 
@@ -1571,6 +1776,14 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2010 AIME II Problem 10: Quadratics modulo interchange of roots](worked_solutions/2010-II-10.md)
 
+## prime counting
+
+- [2005 AIME I Problem 3: Exactly three small proper divisors](worked_solutions/2005-I-03.md)
+
+## prime exponent patterns
+
+- [2006 AIME II Problem 13: Five representations by consecutive odd integers](worked_solutions/2006-II-13.md)
+
 ## prime exponent product
 
 - [1987 AIME Problem 7: LCM triples](worked_solutions/1987-A-07.md)
@@ -1585,13 +1798,25 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2022 AIME II Problem 5: Prime-difference triangles](worked_solutions/2022-II-05.md)
 
+## prime-driven reductions
+
+- [2021 AIME I Problem 10: A rational recurrence reduces at its first shared prime](worked_solutions/2021-I-10.md)
+
 ## prime-exponent distributions
 
 - [2016 AIME II Problem 8: Three distinct factors of a product](worked_solutions/2016-II-08.md)
 
+## prime-power assignments
+
+- [2024 AIME II Problem 14: Digit-square conditions count CRT idempotents](worked_solutions/2024-II-14.md)
+
 ## primitive directions
 
 - [2017 AIME II Problem 14: Lines containing exactly eight lattice points](worked_solutions/2017-II-14.md)
+
+## primitive lattice directions
+
+- [2025 AIME I Problem 4: Count a union of two primitive lattice lines](worked_solutions/2025-I-04.md)
 
 ## probability
 
@@ -1684,6 +1909,10 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2002 AIME II Problem 12: A rational ballot boundary](worked_solutions/2002-II-12.md)
 
+## rational recurrence
+
+- [2021 AIME I Problem 10: A rational recurrence reduces at its first shared prime](worked_solutions/2021-I-10.md)
+
 ## reachability
 
 - [2012 AIME I Problem 11: Reachability in a lattice semigroup](worked_solutions/2012-I-11.md)
@@ -1721,6 +1950,10 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2004 AIME II Problem 15: Track a layer through folds](worked_solutions/2004-II-15.md)
 
+## reduced fractions
+
+- [1992 AIME Problem 1: Pairing reduced fractions around five](worked_solutions/1992-A-01.md)
+
 ## refinement
 
 - [2011 AIME I Problem 7: Splitting a power into equal smaller powers](worked_solutions/2011-I-07.md)
@@ -1740,6 +1973,7 @@ Problems can occur under several methods. Read the statement before opening its 
 
 ## residue classes
 
+- [1992 AIME Problem 1: Pairing reduced fractions around five](worked_solutions/1992-A-01.md)
 - [2001 AIME II Problem 10: Counting exponent gaps](worked_solutions/2001-II-10.md)
 - [2004 AIME II Problem 10: Two binary ones modulo nine](worked_solutions/2004-II-10.md)
 - [2007 AIME I Problem 5: A periodic rounding map](worked_solutions/2007-I-05.md)
@@ -1789,12 +2023,17 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2023 AIME I Problem 9: A cubic with one other equal-value integer](worked_solutions/2023-I-09.md)
 
+## root multiplicity
+
+- [2025 AIME II Problem 9: Count sine levels and identify double zeros](worked_solutions/2025-II-09.md)
+
 ## rooted structures
 
 - [2013 AIME II Problem 11: Functions whose second iterate is constant](worked_solutions/2013-II-11.md)
 
 ## roots of unity
 
+- [1990 AIME Problem 10: Products of two root-of-unity groups](worked_solutions/1990-A-10.md)
 - [2022 AIME I Problem 4: Roots-of-unity exponent pairs](worked_solutions/2022-I-04.md)
 
 ## rotational symmetry
@@ -1861,9 +2100,17 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2026 AIME I Problem 9: Visible even stickers on a die](worked_solutions/2026-I-09.md)
 
+## signed sums
+
+- [2026 AIME II Problem 11: Seven signed square-root sums force a zero sum](worked_solutions/2026-II-11.md)
+
 ## sliding windows
 
 - [2011 AIME I Problem 5: Sliding sums force periodic residues](worked_solutions/2011-I-05.md)
+
+## squarefree integers
+
+- [2014 AIME II Problem 15: Prime multiplication as binary carrying](worked_solutions/2014-II-15.md)
 
 ## stack
 
@@ -1894,6 +2141,10 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [2026 AIME II Problem 7: Two successes of each kind before a stop](worked_solutions/2026-II-07.md)
 
+## strict convexity
+
+- [2024 AIME I Problem 12: Count branch pairs with a rigorous curvature certificate](worked_solutions/2024-I-12.md)
+
 ## strong connectivity
 
 - [2017 AIME II Problem 11: Strong tournaments on five vertices](worked_solutions/2017-II-11.md)
@@ -1922,6 +2173,14 @@ Problems can occur under several methods. Read the statement before opening its 
 - [1989 AIME Problem 2: Polygons from circle points](worked_solutions/1989-A-02.md)
 - [2002 AIME II Problem 9: Unordered disjoint nonempty subsets](worked_solutions/2002-II-09.md)
 - [2017 AIME II Problem 1: Subsets avoiding two containers](worked_solutions/2017-II-01.md)
+
+## successive ratios
+
+- [1991 AIME Problem 3: The peak of a weighted binomial row](worked_solutions/1991-A-03.md)
+
+## sum of two squares
+
+- [2013 AIME I Problem 10: Conjugate integer roots and distinct cubics](worked_solutions/2013-I-10.md)
 
 ## summation
 
@@ -1962,6 +2221,10 @@ Problems can occur under several methods. Read the statement before opening its 
 - [1990 AIME Problem 13: Leading nines in powers](worked_solutions/1990-A-13.md)
 - [2006 AIME I Problem 15: A telescoping potential](worked_solutions/2006-I-15.md)
 
+## throughput
+
+- [2008 AIME I Problem 12: Maximum traffic through a fixed point](worked_solutions/2008-I-12.md)
+
 ## total probability
 
 - [2014 AIME I Problem 2: Matching colors from two urns](worked_solutions/2014-I-02.md)
@@ -1971,6 +2234,11 @@ Problems can occur under several methods. Read the statement before opening its 
 ## totient
 
 - [2004 AIME I Problem 8: Regular star polygons](worked_solutions/2004-I-08.md)
+- [2014 AIME I Problem 3: Reduced fractions with fixed numerator-plus-denominator](worked_solutions/2014-I-03.md)
+
+## totient function
+
+- [1992 AIME Problem 1: Pairing reduced fractions around five](worked_solutions/1992-A-01.md)
 
 ## tournament
 
@@ -1997,9 +2265,17 @@ Problems can occur under several methods. Read the statement before opening its 
 
 - [1999 AIME Problem 13: Distinct tournament win totals](worked_solutions/1999-A-13.md)
 
+## trigonometric signs
+
+- [2019 AIME II Problem 10: A tangent sign itinerary fixes every binary digit](worked_solutions/2019-II-10.md)
+
 ## trigonometry hybrid
 
 - [2021 AIME I Problem 7: Simultaneous sine maxima](worked_solutions/2021-I-07.md)
+
+## unimodality
+
+- [1991 AIME Problem 3: The peak of a weighted binomial row](worked_solutions/1991-A-03.md)
 
 ## unique blocks
 
