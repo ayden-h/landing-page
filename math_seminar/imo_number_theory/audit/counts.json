@@ -1,0 +1,22 @@
+{
+  "subject": "Number Theory",
+  "candidate_records": 862,
+  "full_records_recovered": 681,
+  "unrecovered_full_records": 181,
+  "source_problem_files": 477,
+  "source_solution_files": 437,
+  "source_solution_texts": 539,
+  "reviewed_cases": 16,
+  "additional_reviewed_official_cases": 2,
+  "scope_counts": {
+    "contest": 362,
+    "shortlist": 174,
+    "selection": 141,
+    "quarantine": 76,
+    "pipeline_supplement": 109
+  },
+  "all_history_complete": false,
+  "all_solutions_independently_checked": false,
+  "target_window": "1927\u20132026; recovered coverage is partial",
+  "snapshot": "312a167f6df5"
+}

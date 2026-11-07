@@ -1,0 +1,114 @@
+[
+  {
+    "id": "G01",
+    "title": "G01. Two similarities sharing a secant",
+    "source": "**Source:** IMO shortlist 2015, G1. **Record:** `imo_2015_29f541`.",
+    "statement": "In an acute triangle $ABC$ with orthocenter $H$, complete the parallelogram $ABGH$. On line $GH$ choose $I$ so that $AC$ passes through the midpoint of $HI$. Let $J\\ne C$ be the other intersection of $AC$ with $(GCI)$. Prove $IJ=AH$.",
+    "record": "imo_2015_29f541"
+  },
+  {
+    "id": "G02",
+    "title": "G02. Reflect the two lines",
+    "source": "**Source:** IMO shortlist 2015, G2. **Record:** `imo_2015_7c01e3`.",
+    "statement": "Triangle $ABC$ lies on a circle $\\Omega$ with center $O$. A circle centered at $A$ cuts $BC$ at $D,E$ in the order $B,D,E,C$, and cuts the arcs $AB$ and $AC$ of $\\Omega$ not containing the third vertex at $F,G$, respectively. Let $K\\ne B$ be the intersection of $AB$ with $(BDF)$, and $L\\ne C$ the intersection of $AC$ with $(CEG)$. If distinct lines $FK,GL$ meet at $X$, prove $A,X,O$ collinear.",
+    "record": "imo_2015_7c01e3"
+  },
+  {
+    "id": "G03",
+    "title": "G03. An angle condition is a distance locus",
+    "source": "**Source:** IMO shortlist 2006, G1. **Record:** `imo_2006_e64448`.",
+    "statement": "Let $I$ be the incenter of $ABC$. An interior point $P$ satisfies $\\angle PBA+\\angle PCA=\\angle PBC+\\angle PCB$. Prove $AP\\ge AI$, with equality only at $P=I$.",
+    "record": "imo_2006_e64448"
+  },
+  {
+    "id": "G04",
+    "title": "G04. Reflection completes a cyclicity proof",
+    "source": "**Source:** IMO shortlist 2012, G2. **Record:** `imo_2012_758467`.",
+    "statement": "In cyclic quadrilateral $ABCD$, the diagonals meet at $E$. The extensions of $AD,BC$ beyond $A,B$ meet at $F$. Complete parallelogram $ECGD$, and reflect $E$ in $AD$ to obtain $H$. Prove $D,H,F,G$ concyclic.",
+    "record": "imo_2012_758467"
+  },
+  {
+    "id": "G05",
+    "title": "G05. Reflected lines meet on the mirror",
+    "source": "**Source:** IMO shortlist 2013, G2. **Record:** `imo_2013_22bd4a`.",
+    "statement": "Let $M,N$ be the midpoints of $AB,AC$, and $T$ the midpoint of the arc $BC$ not containing $A$ on $(ABC)$. The circle $(AMT)$ meets the perpendicular bisector of $AC$ at an interior point $X$ of $ABC$; similarly $(ANT)$ meets the perpendicular bisector of $AB$ at an interior point $Y$. If $K=MN\\cap XY$, prove $KA=KT$.",
+    "record": "imo_2013_22bd4a"
+  },
+  {
+    "id": "G06",
+    "title": "G06. Double the cevians",
+    "source": "**Source:** IMO shortlist 2014, G1. **Record:** `imo_2014_a0b822`.",
+    "statement": "In an acute triangle, choose $P,Q$ on $BC$ with $\\angle PAB=C$ and $\\angle QAC=B$. Extend $AP,AQ$ to $M,N$ so that $PM=PA$ and $QN=QA$. Show that $BM$ and $CN$ meet on $(ABC)$.",
+    "record": "imo_2014_a0b822"
+  },
+  {
+    "id": "G07",
+    "title": "G07. Pack two similar triangles",
+    "source": "**Source:** IMO shortlist 2014, G2. **Record:** `imo_2014_32e67b`.",
+    "statement": "Points $K,L,M$ on $BC,CA,AB$ have concurrent cevians $AK,BL,CM$. Prove that two of $ALM,BMK,CKL$ have inradii whose sum is at least the inradius $r$ of $ABC$.",
+    "record": "imo_2014_32e67b"
+  },
+  {
+    "id": "G08",
+    "title": "G08. Convert intersection ratios into half angles",
+    "source": "**Source:** IMO shortlist 2016, G2. **Record:** `imo_2016_022acb`.",
+    "statement": "Let $I$ be the incenter, $M$ the midpoint of $BC$, and $D$ the foot from $I$ to $BC$. The perpendicular to $AI$ through $I$ meets $AB,AC$ at $F,E$. Let $X\\ne A$ be the other common point of $(AEF)$ and $(ABC)$. Prove that $XD$ and $AM$ meet on $(ABC)$.",
+    "record": "imo_2016_022acb"
+  },
+  {
+    "id": "G09",
+    "title": "G09. The hidden orthocenter of a pentagon",
+    "source": "**Source:** IMO shortlist 2017, G1. **Record:** `imo_2017_e0103e`.",
+    "statement": "A convex pentagon $ABCDE$ satisfies $AB=BC=CD$, $\\angle EAB=\\angle BCD$, and $\\angle EDC=\\angle CBA$. Prove that $AC,BD$ and the perpendicular from $E$ to $BC$ concur.",
+    "record": "imo_2017_e0103e"
+  },
+  {
+    "id": "G10",
+    "title": "G10. A half-turn creates the tangent",
+    "source": "**Source:** IMO 2017, Problem 4; shortlist G2. **Record:** `imo_2017_bb6ddb`.",
+    "statement": "Points $R,S$ lie on $\\Omega$, and $R'=2S-R$. Let $I$ lie on the smaller arc $RS$. The circle $\\Gamma=(ISR')$ meets the tangent to $\\Omega$ at $R$ twice; call the nearer intersection to $R$ point $A$. If $AI$ meets $\\Omega$ again at $J$, prove $JR'$ tangent to $\\Gamma$.",
+    "record": "imo_2017_bb6ddb"
+  },
+  {
+    "id": "G11",
+    "title": "G11. Two tangents encode a reflection",
+    "source": "**Source:** IMO shortlist 2019, G1. **Record:** `imo_2019_be46cd`.",
+    "statement": "A circle through $A$ meets $AB,AC$ again at $D,E$ and crosses $BC$ at $F,G$ in that order. Tangents at $F$ to $(BDF)$ and at $G$ to $(CEG)$ meet at $T\\ne A$. Prove $AT\\parallel BC$.",
+    "record": "imo_2019_be46cd"
+  },
+  {
+    "id": "G12",
+    "title": "G12. Close two circles around the target point",
+    "source": "**Source:** IMO shortlist 2021, G1. **Record:** `imo_2021_18d688`.",
+    "statement": "In parallelogram $ABCD$, assume $AC=BC$. Take $P$ beyond $B$ on $AB$. Let $Q\\ne D$ be the intersection of $PD$ with $(ACD)$, and $R\\ne P$ the intersection of $PC$ with $(APQ)$. Prove $CD,AQ,BR$ concurrent.",
+    "record": "imo_2021_18d688"
+  },
+  {
+    "id": "G13",
+    "title": "G13. A circle equation linearizes the ratio",
+    "source": "**Source:** IMO shortlist 2015, G4. **Record:** `imo_2015_b11e64`.",
+    "statement": "In an acute triangle $ABC$, let $M$ be the midpoint of $AC$. A circle through $B,M$ meets $BA,BC$ again at $P,Q$. Complete parallelogram $BPTQ$, and assume $T\\in(ABC)$. Determine $BT/BM$.",
+    "record": "imo_2015_b11e64"
+  },
+  {
+    "id": "G14",
+    "title": "G14. Transfer a tangent through equal powers",
+    "source": "**Source:** IMO shortlist 2015, G6. **Record:** `imo_2015_d499b1`.",
+    "statement": "An acute triangle $ABC$ has $AB>AC$, orthocenter $H$, base midpoint $M$, and altitude foot $F$ on $BC$. On its circumcircle $\\Omega$, choose $Q,K$ so that $\\angle AQH=\\angle QKH=90^\\circ$. Prove that $(KQH)$ and $(KFM)$ are tangent at $K$.",
+    "record": "imo_2015_d499b1"
+  },
+  {
+    "id": "G15",
+    "title": "G15. Equal segments turn spiral similarity into rotation",
+    "source": "**Source:** IMO shortlist 2024, G1. **Record:** `imo_2024_a60b6c`.",
+    "statement": "A cyclic quadrilateral satisfies $AC<BD<AD$ and $\\angle DBA<90^\\circ$. On the side of $AD$ opposite $C$, choose $E$ with $DE\\parallel AB$, $DE=AC$, and $F$ with $AF\\parallel CD$, $AF=BD$. Prove that the perpendicular bisectors of $BC,EF$ meet on $(ABCD)$.",
+    "record": "imo_2024_a60b6c"
+  },
+  {
+    "id": "G16",
+    "title": "G16. Reflect a vertex in the incenter",
+    "source": "**Source:** IMO shortlist 2024, G2. **Record:** `imo_2024_7db46b`.",
+    "statement": "A triangle has $AB<AC<BC$, incenter $I$, and incircle. The other tangent parallel to $AC$ meets the interior of $BC$ at $X$; the other tangent parallel to $AB$ meets it at $Y$. Let $P\\ne A$ be the intersection of $AI$ with $(ABC)$, and let $K,L$ be the midpoints of $AB,AC$. Prove $\\angle KIL+\\angle YPX=180^\\circ$.",
+    "record": "imo_2024_7db46b"
+  }
+]

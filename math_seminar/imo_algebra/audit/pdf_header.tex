@@ -1,0 +1,42 @@
+\usepackage{microtype}
+\usepackage{xurl}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\definecolor{bookink}{HTML}{18374A}
+\definecolor{bookaccent}{HTML}{287C92}
+\titleformat{\chapter}[display]{\normalfont\sffamily\bfseries\color{bookink}}{\large\chaptertitlename\ \thechapter}{8pt}{\huge}
+\titlespacing*{\chapter}{0pt}{0pt}{22pt}
+\titleformat{\section}{\Large\sffamily\bfseries\color{bookink}}{\thesection}{.6em}{}
+\titleformat{\subsection}{\large\sffamily\bfseries\color{bookaccent}}{\thesubsection}{.6em}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily Olympiad Algebra}
+\fancyhead[R]{\small\sffamily Research Edition}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{15pt}
+\setlength{\emergencystretch}{2em}
+\setlength{\parskip}{5pt}
+\setlength{\parindent}{0pt}
+\widowpenalty=10000
+\clubpenalty=10000
+\AtBeginDocument{\hypersetup{colorlinks=true,linkcolor=bookink,urlcolor=bookaccent}}
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{titlepage}
+  \thispagestyle{empty}
+  \vspace*{0.65in}
+  {\sffamily\small\bfseries\color{bookaccent} ADVANCED OLYMPIAD SERIES\par}
+  \vspace{0.2in}
+  {\color{bookaccent}\rule{\textwidth}{2pt}\par}
+  \vspace{0.5in}
+  {\raggedright\sffamily\bfseries\color{bookink}\fontsize{32}{39}\selectfont\@title\par}
+  \vfill
+  {\sffamily\large\color{bookink}\@author\par}
+  \vspace{0.18in}
+  {\sffamily\normalsize\@date\par}
+  \vspace{0.3in}
+  {\sffamily\small Definitions. Certificates. Complete arguments.\par}
+  \end{titlepage}
+}
+\makeatother

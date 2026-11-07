@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "chn_2021_c29903",
+    "changes": "Removed nested equation-star wrappers, normalized overarc or checkmark. Raw source preserved separately."
+  },
+  {
+    "slug": "usa_2023_942b5a",
+    "changes": "Removed nested equation-star wrappers, normalized overarc or checkmark. Raw source preserved separately."
+  },
+  {
+    "slug": "usa_2025_ed5827",
+    "changes": "Set the two equations on separate display rows. Raw source preserved separately."
+  },
+  {
+    "slug": "vnm_2005_7f10fc",
+    "changes": "Moved prose out of an unbreakable display equation. Raw source preserved separately."
+  },
+  {
+    "slug": "jpn_2025_e2076e",
+    "changes": "Removed spaces immediately inside inline math delimiters; formulas unchanged. Raw source preserved separately."
+  },
+  {
+    "slug": "vnm_2003_491dad",
+    "changes": "Removed spaces immediately inside inline math delimiters; formulas unchanged. Raw source preserved separately."
+  }
+]

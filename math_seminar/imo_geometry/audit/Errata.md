@@ -1,0 +1,150 @@
+# Known source defects and classification repairs
+
+This is a list of detected examples, not an exhaustive audit.
+
+- `bmo_2015_0762b9`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_2e45cc`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_58e034`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_98379f`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_abceba`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_b0bd6c`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_bbd6c6`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2015_c975a8`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `bmo_2015_e4e619`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_1b3e01`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_1f4aba`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_3f4864`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `bmo_2017_43e8f4`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_61b522`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_79742c`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `bmo_2017_b6dffd`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_ba2286`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_c82538`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2017_f27d27`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `bmo_2017_f5ba57`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2021_11a905`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_265e79`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_8ebed4`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_ac0175`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_ac9fb9`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `bmo_2021_bd88d3`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_cb2a2b`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_e3bdaa`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2024_16732a`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_4d74e3`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_5d4e8e`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_cb70a8`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_e13d37`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2024_eb762b`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2025_3a6895`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2025_5312cc`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2025_84d1b3`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2025_b1de93`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2025_e2cd93`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2025_ef58f5`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `esp_2014_8d0147`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `imo_2008_384044`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `imo_2008_b56254`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2008_bdc772`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `imo_2008_c61d18`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2008_edd8bc`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `imo_2008_f38735`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2013_22bd4a`: One proof is truncated; G05 supplies a complete coordinate argument and intersection branch check.
+- `imo_2015_d499b1`: Recovered proof omits definitions and preliminary collinearity. Reconstructed in G14.
+- `imo_2017_5cc277`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2017_8bbbf6`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2017_a6d9fd`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `imo_2017_abff99`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2017_bb6ddb`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2017_cb76e9`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2017_e0103e`: A displayed pentagon angle sum has a plus/minus transcription error. Corrected in G09.
+- `imo_2017_e0103e`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2022_0bc639`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2022_87fc2a`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2022_95ab57`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2022_9b07a8`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2022_ad108c`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2022_c71ddf`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2022_cd4ff4`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mkd_2008_ce21e9`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2010_9873b8`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2012_283d9e`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2012_77b0de`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2014_4024d4`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2014_5b64b3`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `mkd_2014_79d24b`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2015_1db414`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mkd_2015_3ee6d3`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mkd_2016_a553be`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mkd_2018_6708e8`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2023_9344c6`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Raw source prose withheld because original rights take precedence over fallback license.
+- `mng_2007_130aef`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mng_2007_44433c`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mng_2012_546838`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `mng_2012_62f9cf`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `mng_2012_c3d4b9`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `mng_2012_f102bf`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `sau_2022_018573`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_03181e`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_0d23e6`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_23713d`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_25a874`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_265186`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_31e32d`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_343f21`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_34d749`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_54d246`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_5bf0a2`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_651a23`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_65b3c8`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_83afba`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_8ed047`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_95f2df`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_9a5299`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_a4ffc9`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_a789a3`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_adfeed`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_b4c7ff`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_b747a6`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_bf2ee4`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_bfbd46`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_c04bd1`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_c562b1`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_d9c1f5`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_e6619f`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `sau_2022_e9586d`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_fbba73`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `sau_2022_fd8c15`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_06853a`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_0973d8`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `sau_2023_09fd6f`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_15618e`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_1a07ab`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_1bb7e8`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_22e150`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_28ddb3`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_2eb139`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_35fee4`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_51c41d`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_716abd`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_7a23b8`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_7f4c91`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_866257`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_8bf80b`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_9a3e96`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_abdc66`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `sau_2023_ba1e4f`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_bdab1f`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_c40e6a`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_d71f61`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_e3605b`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.
+- `sau_2023_edcf66`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_f11f45`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. External statement figures detected; retained as pointer to avoid incomplete reproduction.
+- `sau_2023_f3a127`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_fe7bfa`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `usa_2003_27d251`: IMO → USAMO; Reclassified from booklet-level IMO label using explicit section. Raw source prose withheld because original rights take precedence over fallback license.
+- `usa_2003_2b8bb8`: IMO → USAMO; Reclassified from booklet-level IMO label using explicit section. Raw source prose withheld because original rights take precedence over fallback license.
+- `usa_2003_f2eb25`: IMO → IMO-TST; Reclassified from booklet-level IMO label using explicit section. Raw source prose withheld because original rights take precedence over fallback license.
+- `vnm_2018_7b7c2d`: IMO → IMO-TST; Reclassified from booklet-level IMO label using explicit section. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `vnm_2018_9d1502`: IMO → IMO-TST; Reclassified from booklet-level IMO label using explicit section. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `vnm_2018_da4108`: IMO → VMO; Reclassified from booklet-level IMO label using explicit section. Mixed-domain candidate; inclusion follows a geometry tag, not exclusive classification.

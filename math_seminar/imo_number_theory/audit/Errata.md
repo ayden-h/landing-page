@@ -1,0 +1,130 @@
+# Known source defects and classification repairs
+
+This is a list of detected examples, not an exhaustive audit.
+
+- `bmo_2017_3e1abd`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2017_7d83b0`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2021_359376`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_44efd1`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_4885fe`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_4ccf29`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_958307`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2021_a29be2`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `bmo_2021_ac9fb9`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2024_0c40d1`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2024_12ce9d`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2024_3a17e7`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2024_3c60be`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2024_54aaec`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2024_c7a652`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2024_cfc998`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2025_2f713f`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `bmo_2025_613b0e`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2025_7480b3`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2025_75a6a6`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2025_b9b8f0`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `bmo_2025_e84c87`: BMO → BMO-SL; Letter-number problem code indicates a shortlist candidate.
+- `esp_2013_1db4a4`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `esp_2013_aee935`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `esp_2014_543539`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `esp_2014_bb2981`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2006_472d44`: Sampled decimal need not lie strictly between zero and one. Endpoint possibility retained in N02.
+- `imo_2008_032bdc`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2008_06a8f7`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2008_40ef71`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title.
+- `imo_2008_4e4b33`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2008_5311eb`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2008_96b2a5`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2008_bdc772`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2008_c0450d`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2008_dbd5d0`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2017_20b1fd`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2017_2878d3`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2017_48bdce`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2017_497717`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2017_4a4305`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2017_f79d3e`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2019_05dd86`: Zero-polynomial convention would trivialize the closure condition; the substantive nonconstant version is made explicit in N10.
+- `imo_2019_199a44`: One imported proof has a malformed square-root bound; N09 uses a separately checked inequality chain.
+- `imo_2019_aedde5`: One imported alternate proof reverses a binomial ratio and invokes unnecessary Dirichlet machinery. N11 proves the exact criterion directly.
+- `imo_2022_00a590`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2022_230fa0`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `imo_2022_264ed6`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2022_783196`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2022_d417bb`: IMO → IMO-SL; Corrected IMO to shortlist using original problem code/booklet title. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `imo_2024_5877d2`: The cost-table explanation has row/index slips; the variables are x_0 through x_n. Corrected in A11.
+- `imo_2024_8acaec`: Attached source solution concerns an unrelated finite-set problem. Its solution text is withheld from this edition; the statement and pointer retain a mismatch warning.
+- `mkd_2008_2a4984`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `mkd_2008_45e54c`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `mkd_2008_7a2663`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `mkd_2008_df36d7`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `mkd_2010_2f591c`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2012_371775`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `mkd_2012_47e1bb`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2014_40b5b4`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2014_72acf4`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2016_320f74`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mkd_2016_c4fad7`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mkd_2017_849bb7`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mkd_2018_730fc1`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `mkd_2023_09c6cc`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Raw source prose withheld because original rights take precedence over fallback license.
+- `mng_2007_358049`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification. Full source request unavailable in this run; preview metadata alone does not establish a complete statement.
+- `mng_2012_037087`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `mng_2012_0dd53f`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `mng_2012_2873ae`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `mng_2012_500f10`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `mng_2012_8fbce9`: IMO → UNRESOLVED; Booklet year/round/IMO attribution unresolved; not counted as a verified IMO problem.
+- `sau_2022_065f88`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_0b6c0f`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_0ea83d`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_139bc1`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_14445f`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_1729c2`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_1f2124`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_262e1a`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_399165`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_3a6a8a`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_3ad2d4`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_3b03a1`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_3d6630`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_424a25`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_485deb`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_595707`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_5c5c01`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_5e4d86`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_5f83f3`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_61794c`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_6d7e13`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_6dbe29`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_78c1e9`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_98189e`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_9ee59a`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_a18b04`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_a70771`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_b7b240`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_c0828f`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_c0e5ec`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_c257df`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_c89737`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_dff30c`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2022_e22d5f`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2022_e641a5`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_1ba70e`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_23a263`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_28149a`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_32ac08`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_407393`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification. External statement figures detected; retained as pointer to avoid incomplete reproduction.
+- `sau_2023_4a059b`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_4a3985`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_4ca2db`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_4facac`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_53b6a5`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_5615e7`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `sau_2023_5699ff`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_5e5d9e`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_7f3b0d`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_847c35`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_87adf1`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification.
+- `sau_2023_dcefb0`: IMO → OUT-OF-SCOPE; Source normalized code IMO contradicts original national/training/other-contest metadata.
+- `usa_2003_94a405`: IMO → IMO-TST; Reclassified from booklet-level IMO label using explicit section. Raw source prose withheld because original rights take precedence over fallback license.
+- `usa_2003_cc254a`: IMO → USAMO; Reclassified from booklet-level IMO label using explicit section. Mixed-domain candidate; inclusion follows a number theory tag, not exclusive classification. Raw source prose withheld because original rights take precedence over fallback license.

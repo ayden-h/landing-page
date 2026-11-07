@@ -1,0 +1,114 @@
+[
+  {
+    "id": "N01",
+    "title": "N01. A valuation makes the square small",
+    "source": "**Source:** IMO shortlist 2006, N1. **Record:** `imo_2006_bc0ae3`.",
+    "statement": "Determine all integer solutions of $1+2^x+2^{2x+1}=y^2$.",
+    "record": "imo_2006_bc0ae3"
+  },
+  {
+    "id": "N02",
+    "title": "N02. Sample digits at exponentially growing places",
+    "source": "**Source:** IMO shortlist 2006, N2. **Record:** `imo_2006_472d44`.",
+    "statement": "A decimal expansion represents a rational number in $(0,1)$. Form a new decimal by taking its digits in positions $2,4,8,16,\\ldots$. Prove that the new number is rational (possibly an endpoint such as zero).",
+    "record": "imo_2006_472d44"
+  },
+  {
+    "id": "N03",
+    "title": "N03. One modulus replaces all moduli",
+    "source": "**Source:** IMO shortlist 2007, N2. **Record:** `imo_2007_886291`.",
+    "statement": "Integers $b,n>1$ satisfy: for every integer $k>1$, some integer $a$ has $a^n\\equiv b\\pmod k$. Prove that $b$ is an integer $n$th power.",
+    "record": "imo_2007_886291"
+  },
+  {
+    "id": "N04",
+    "title": "N04. Multiply three divided differences",
+    "source": "**Source:** IMO shortlist 2008, N1. **Record:** `imo_2008_dbd5d0`.",
+    "statement": "For positive integer $n$, prime $p$, and arbitrary integers $a,b,c$, suppose $a^n+pb=b^n+pc=c^n+pa$. Prove $a=b=c$.",
+    "record": "imo_2008_dbd5d0"
+  },
+  {
+    "id": "N05",
+    "title": "N05. Simultaneous factorial valuations",
+    "source": "**Source:** IMO shortlist 2007, N7. **Record:** `imo_2007_e1c86b`.",
+    "statement": "For any positive integer $d$ and finitely many primes $p_1,\\ldots,p_k$, show that infinitely many $n>0$ satisfy $d\\mid v_{p_i}(n!)$ for every $i$.",
+    "record": "imo_2007_e1c86b"
+  },
+  {
+    "id": "N06",
+    "title": "N06. Finite agreement versus eternal agreement",
+    "source": "**Source:** IMO shortlist 2009, N2. **Record:** `imo_2009_cf1420`.",
+    "statement": "Call an integer balanced when its number of prime factors, counted with multiplicity, is even; include $1$. (a) Find distinct positive $a,b$ for which $(n+a)(n+b)$ is balanced for all $1\\le n\\le50$. (b) Prove that if this holds for every positive $n$, then $a=b$.",
+    "record": "imo_2009_cf1420"
+  },
+  {
+    "id": "N07",
+    "title": "N07. Divisibility squeezes a function",
+    "source": "**Source:** IMO shortlist 2013, N1. **Record:** `imo_2013_a67bc4`.",
+    "statement": "Find all $f:\\mathbb Z_{>0}\\to\\mathbb Z_{>0}$ satisfying $m^2+f(n)\\mid mf(m)+n$ for all positive $m,n$.",
+    "record": "imo_2013_a67bc4"
+  },
+  {
+    "id": "N08",
+    "title": "N08. Two primes eliminate a factorial",
+    "source": "**Source:** IMO 2019, Problem 4; shortlist N1. **Record:** `imo_2019_8eb868`.",
+    "statement": "Find positive integers $m,n$ with $m!=\\prod_{i=0}^{n-1}(2^n-2^i)$.",
+    "record": "imo_2019_8eb868"
+  },
+  {
+    "id": "N09",
+    "title": "N09. A cubic equation collapses to a short list",
+    "source": "**Source:** IMO shortlist 2019, N2. **Record:** `imo_2019_199a44`.",
+    "statement": "Classify positive integer triples satisfying $a^3+b^3+c^3=(abc)^2$.",
+    "record": "imo_2019_199a44"
+  },
+  {
+    "id": "N10",
+    "title": "N10. Polynomial-root closure fills the integers",
+    "source": "**Source:** IMO shortlist 2019, N3. **Record:** `imo_2019_05dd86`.",
+    "statement": "A set $S\\subseteq\\mathbb Z$ contains $2^a-2^b$ for all positive $a,b$ and contains every integer root of every nonconstant polynomial with coefficients in $S$. Prove $S=\\mathbb Z$.",
+    "record": "imo_2019_05dd86"
+  },
+  {
+    "id": "N11",
+    "title": "N11. Classify the good binomial indices",
+    "source": "**Source:** IMO shortlist 2019, N5. **Record:** `imo_2019_aedde5`.",
+    "statement": "For fixed positive $a$, call $b>0$ good if $an+1\\mid\\binom{an}{b}-1$ whenever $an\\ge b$. If $b$ is good and $b+2$ is not, prove $b+1$ prime.",
+    "record": "imo_2019_aedde5"
+  },
+  {
+    "id": "N12",
+    "title": "N12. A Jacobi-symbol obstruction",
+    "source": "**Source:** IMO shortlist 2022, N8. **Record:** `imo_2022_264ed6`.",
+    "statement": "Show $2^n+65$ never divides $5^n-3^n$ for positive integer $n$.",
+    "record": "imo_2022_264ed6"
+  },
+  {
+    "id": "N13",
+    "title": "N13. Reverse the ordered divisor list",
+    "source": "**Source:** IMO shortlist 2023, N1. **Record:** `imo_2023_2e005b`.",
+    "statement": "Let $1=d_1<\\cdots<d_k=n$ be all positive divisors of a composite $n$. Classify $n$ for which $d_i\\mid d_{i+1}+d_{i+2}$ for $1\\le i\\le k-2$.",
+    "record": "imo_2023_2e005b"
+  },
+  {
+    "id": "N14",
+    "title": "N14. The odd part controls all divisors",
+    "source": "**Source:** IMO shortlist 2024, N1. **Record:** `imo_2024_268bb8`.",
+    "statement": "Find positive $n$ such that every divisor $d$ of $n$ has either $d+1\\mid n$ or $d+1$ prime.",
+    "record": "imo_2024_268bb8"
+  },
+  {
+    "id": "N15",
+    "title": "N15. Vieta jumping with every inequality checked",
+    "source": "**Source:** IMO 1988, Problem 6. Official paper: [PDF](https://www.imo-official.org/assets/documents/problems/1988/1988_eng.pdf).",
+    "statement": "For positive integers $a,b$ with $ab+1\\mid a^2+b^2$, prove that $(a^2+b^2)/(ab+1)$ is a perfect square.",
+    "record": null
+  },
+  {
+    "id": "N16",
+    "title": "N16. Arithmetic descent in a nonlinear recurrence",
+    "source": "**Source:** IMO 2017, Problem 1. Official paper: [PDF](https://www.imo-official.org/assets/documents/problems/2017/2017_eng.pdf).",
+    "statement": "Start at an integer $a_0>1$. Replace a square by its positive square root and replace a nonsquare by that number plus three. Determine which initial values cause some integer to occur infinitely often.",
+    "record": null
+  }
+]

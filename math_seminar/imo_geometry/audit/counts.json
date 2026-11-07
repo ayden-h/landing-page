@@ -1,0 +1,22 @@
+{
+  "subject": "Geometry",
+  "candidate_records": 1039,
+  "full_records_recovered": 754,
+  "unrecovered_full_records": 285,
+  "source_problem_files": 493,
+  "source_solution_files": 274,
+  "source_solution_texts": 344,
+  "reviewed_cases": 16,
+  "additional_reviewed_official_cases": 0,
+  "scope_counts": {
+    "contest": 492,
+    "shortlist": 208,
+    "selection": 156,
+    "quarantine": 77,
+    "pipeline_supplement": 106
+  },
+  "all_history_complete": false,
+  "all_solutions_independently_checked": false,
+  "target_window": "1927\u20132026; recovered coverage is partial",
+  "snapshot": "312a167f6df5"
+}

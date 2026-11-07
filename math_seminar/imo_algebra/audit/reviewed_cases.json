@@ -1,0 +1,114 @@
+[
+  {
+    "id": "A01",
+    "title": "A01. Remove the composition",
+    "source": "**Source:** IMO 2019, Problem 1; shortlist A1. **Record:** `imo_2019_abb25c`.",
+    "statement": "Classify the integer-valued functions on the integers for which\n$$f(2x)+2f(y)=f(f(x+y))\\qquad(x,y\\in\\mathbb Z).$$",
+    "record": "imo_2019_abb25c"
+  },
+  {
+    "id": "A02",
+    "title": "A02. The exact cost of monotonicity",
+    "source": "**Source:** IMO shortlist 2007, A1. **Record:** `imo_2007_524a29`.",
+    "statement": "Given real $a_1,\\ldots,a_n$, set $M_i=\\max_{j\\le i}a_j$, $m_i=\\min_{j\\ge i}a_j$, and $d=\\max_i(M_i-m_i)$. Prove that the least possible value of $\\max_i|x_i-a_i|$, over nondecreasing real sequences $(x_i)$, is $d/2$.",
+    "record": "imo_2007_524a29"
+  },
+  {
+    "id": "A03",
+    "title": "A03. A floor map eventually repeats",
+    "source": "**Source:** IMO shortlist 2006, A1. **Record:** `imo_2006_e3e5ce`.",
+    "statement": "Starting from an arbitrary real $a_0$, iterate $a_{r+1}=\\lfloor a_r\\rfloor\\{a_r\\}$, where $\\{x\\}=x-\\lfloor x\\rfloor$. Prove that eventually $a_{r+2}=a_r$.",
+    "record": "imo_2006_e3e5ce"
+  },
+  {
+    "id": "A04",
+    "title": "A04. Cancel the exceptional coefficient",
+    "source": "**Source:** IMO shortlist 2006, A2. **Record:** `imo_2006_e18476`.",
+    "statement": "Let $a_0=-1$ and, for $n\\ge1$, let $\\sum_{k=0}^n a_k/(n-k+1)=0$. Show that every $a_n$ with $n\\ge1$ is positive.",
+    "record": "imo_2006_e18476"
+  },
+  {
+    "id": "A05",
+    "title": "A05. Translate a quartic into a norm",
+    "source": "**Source:** IMO shortlist 2010, A2. **Record:** `imo_2010_66cdab`.",
+    "statement": "Real $a,b,c,d$ have sum $6$ and sum of squares $12$. Prove\n$$36\\le4\\sum a^3-\\sum a^4\\le48,$$\nwhere both sums run over the four variables.",
+    "record": "imo_2010_66cdab"
+  },
+  {
+    "id": "A06",
+    "title": "A06. Reverse the coefficients, keep the answer",
+    "source": "**Source:** IMO shortlist 2013, A1. **Record:** `imo_2013_d960d1`.",
+    "statement": "For real $a_1,\\ldots,a_{n-1}$, define $u_0=u_1=1$ and $u_{k+1}=u_k+a_ku_{k-1}$. Define $v_0=v_1=1$ by the same recurrence with $a_1,\\ldots,a_{n-1}$ reversed. Prove $u_n=v_n$.",
+    "record": "imo_2013_d960d1"
+  },
+  {
+    "id": "A07",
+    "title": "A07. A unique crossing",
+    "source": "**Source:** IMO shortlist 2014, A1. **Record:** `imo_2014_6534d6`.",
+    "statement": "For strictly increasing positive integers $z_0,z_1,\\ldots$, prove that exactly one $n\\ge1$ satisfies\n$$z_n<\\frac{z_0+\\cdots+z_n}{n}\\le z_{n+1}.$$",
+    "record": "imo_2014_6534d6"
+  },
+  {
+    "id": "A08",
+    "title": "A08. An endpoint certificate for variance",
+    "source": "**Source:** IMO shortlist 2019, A2. **Record:** `imo_2019_cd6d5a`.",
+    "statement": "Real numbers $u_1,\\ldots,u_{2019}$ have sum zero and squared sum one. If $a$ and $b$ are their minimum and maximum, prove $ab\\le-1/2019$.",
+    "record": "imo_2019_cd6d5a"
+  },
+  {
+    "id": "A09",
+    "title": "A09. Pair the cyclic ratios",
+    "source": "**Source:** IMO shortlist 2020, A3. **Record:** `imo_2020_db020b`.",
+    "statement": "Positive $a,b,c,d$ satisfy $(a+c)(b+d)=ac+bd$. Determine the minimum of $a/b+b/c+c/d+d/a$.",
+    "record": "imo_2020_db020b"
+  },
+  {
+    "id": "A10",
+    "title": "A10. Integer averages cannot rise too slowly",
+    "source": "**Source:** IMO 2024, Problem 1; shortlist A1. **Record:** `imo_2024_071598`.",
+    "statement": "Find real $\\alpha$ for which $n$ divides $\\sum_{k=1}^n\\lfloor k\\alpha\\rfloor$ for every positive integer $n$.",
+    "record": "imo_2024_071598"
+  },
+  {
+    "id": "A11",
+    "title": "A11. Pay for one unit at a time",
+    "source": "**Source:** IMO shortlist 2024, A2. **Record:** `imo_2024_5877d2`.",
+    "statement": "Minimize $\\sum_{i=0}^n2^i x_i^2$ over nonnegative integers with $\\sum_{i=0}^n x_i=n$.",
+    "record": "imo_2024_5877d2"
+  },
+  {
+    "id": "A12",
+    "title": "A12. Choose the Jensen weights",
+    "source": "**Source:** IMO shortlist 2009, A2. **Record:** `imo_2009_c42bed`.",
+    "statement": "Positive $a,b,c$ satisfy $1/a+1/b+1/c=a+b+c$. Prove $\\sum_{\\mathrm{cyc}}(2a+b+c)^{-2}\\le3/16$.",
+    "record": "imo_2009_c42bed"
+  },
+  {
+    "id": "A13",
+    "title": "A13. A polynomial has a definite sign",
+    "source": "**Source:** IMO shortlist 2017, A1. **Record:** `imo_2017_5b8561`.",
+    "statement": "Positive integers $a_i$ satisfy $\\sum 1/a_i=k\\in\\mathbb Z_{>0}$ and $\\prod a_i=M>1$. Show that $M(x+1)^k-\\prod(x+a_i)$ has no positive real root.",
+    "record": "imo_2017_5b8561"
+  },
+  {
+    "id": "A14",
+    "title": "A14. A sharp quadratic majorant",
+    "source": "**Source:** IMO shortlist 2020, A1, Version 1. **Record:** `imo_2020_48d762`.",
+    "statement": "For $N=2^n$ with $n\\ge1$, find the least $c$ such that $((1+x^{2N})/2)^{1/N}\\le x+c(x-1)^2$ for every real $x$.",
+    "record": "imo_2020_48d762"
+  },
+  {
+    "id": "A15",
+    "title": "A15. The radical inequality and its sharp parameter",
+    "source": "**Source:** IMO 2001, Problem 2. Official paper: [PDF](https://www.imo-official.org/assets/documents/problems/2001/2001_eng.pdf).",
+    "statement": "For positive $a,b,c$, prove $\\sum_{\\mathrm{cyc}}a/\\sqrt{a^2+8bc}\\ge1$.",
+    "record": null
+  },
+  {
+    "id": "A16",
+    "title": "A16. Measure a union of rational-inequality intervals",
+    "source": "**Source:** IMO 1988, Problem 4. Official paper: [PDF](https://www.imo-official.org/assets/documents/problems/1988/1988_eng.pdf).",
+    "statement": "Show that the real solution set of $\\sum_{k=1}^{70} k/(x-k)\\ge5/4$ is a disjoint union of intervals whose total length is $1988$; the poles are excluded from the domain.",
+    "record": null
+  }
+]

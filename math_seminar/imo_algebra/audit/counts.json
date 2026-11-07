@@ -1,0 +1,22 @@
+{
+  "subject": "Algebra",
+  "candidate_records": 1271,
+  "full_records_recovered": 1003,
+  "unrecovered_full_records": 268,
+  "source_problem_files": 716,
+  "source_solution_files": 656,
+  "source_solution_texts": 815,
+  "reviewed_cases": 16,
+  "additional_reviewed_official_cases": 2,
+  "scope_counts": {
+    "contest": 575,
+    "shortlist": 255,
+    "selection": 210,
+    "quarantine": 105,
+    "pipeline_supplement": 126
+  },
+  "all_history_complete": false,
+  "all_solutions_independently_checked": false,
+  "target_window": "1927\u20132026; recovered coverage is partial",
+  "snapshot": "312a167f6df5"
+}

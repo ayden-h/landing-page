@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "documents": [
+    {
+      "file": "Algebra_Theory.pdf",
+      "pages": 18,
+      "author": "Ayden Bi",
+      "out_of_safe_bounds": []
+    },
+    {
+      "file": "Algebra_Worked_Solutions.pdf",
+      "pages": 20,
+      "author": "Ayden Bi",
+      "out_of_safe_bounds": []
+    },
+    {
+      "file": "Algebra_Collected_Problems.pdf",
+      "pages": 154,
+      "author": "Ayden Bi",
+      "out_of_safe_bounds": []
+    }
+  ],
+  "checks": [
+    "All nine compilation logs empty: no reported warnings or errors.",
+    "All PDF author metadata and cover author names are Ayden Bi.",
+    "All sixteen case labels present in each worked PDF.",
+    "Problem and solution file counts agree with the ledger.",
+    "All authored pages visually inspected in contact sheets; representative dense pages inspected at larger scale.",
+    "Collected-problem covers and sampled beginning, middle and final pages visually inspected.",
+    "All PDF text-block bounds checked; no blocks outside the declared safe page bounds."
+  ],
+  "limits": "Source transcriptions and source-supplied proofs are not comprehensively reviewed. Finite diagnostics do not replace mathematical proof. No independent external peer review."
+}

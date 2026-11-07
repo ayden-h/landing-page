@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "jpn_2012_993c1a",
+    "changes": "Removed nested equation-star wrappers, normalized overarc or checkmark. Raw source preserved separately."
+  },
+  {
+    "slug": "mkd_2008_e7301f",
+    "changes": "Matched array declaration to the two-column source rows. Raw source preserved separately."
+  },
+  {
+    "slug": "mkd_2009_ee8242",
+    "changes": "Used a text font for the source Cyrillic variable glyph. Raw source preserved separately."
+  },
+  {
+    "slug": "imo_2009_cf1420",
+    "changes": "Allowed line breaks between the listed polynomial values. Raw source preserved separately."
+  }
+]
